@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heat Gauge · Small Cap</title>
+<link rel="stylesheet" href="src/styles.css?v=4">
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="src/scoring.jsx?v=4" data-plugins="transform-react-jsx-source" data-filename="src/scoring.jsx"></script>
+<script type="text/babel" src="src/Gauge.jsx?v=4" data-plugins="transform-react-jsx-source" data-filename="src/Gauge.jsx"></script>
+<script type="text/babel" src="src/Strip.jsx?v=4" data-plugins="transform-react-jsx-source" data-filename="src/Strip.jsx"></script>
+<script type="text/babel" src="src/DayDetail.jsx?v=5" data-plugins="transform-react-jsx-source" data-filename="src/DayDetail.jsx"></script>
+<script type="text/babel" src="src/Calendar.jsx?v=4" data-plugins="transform-react-jsx-source" data-filename="src/Calendar.jsx"></script>
+<script type="text/babel" src="src/EntryForm.jsx?v=4" data-plugins="transform-react-jsx-source" data-filename="src/EntryForm.jsx"></script>
+<script type="text/babel" src="src/Import.jsx?v=4" data-plugins="transform-react-jsx-source" data-filename="src/Import.jsx"></script>
+<script type="text/babel" src="src/App.jsx?v=4" data-plugins="transform-react-jsx-source" data-filename="src/App.jsx"></script>
+<script type="text/babel" src="src/Tweaks.jsx?v=4" data-plugins="transform-react-jsx-source" data-filename="src/Tweaks.jsx"></script>
+
+<script type="text/babel" data-plugins="transform-react-jsx-source" data-filename="inline-root">
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+  root.render(<window.Root />);
+</script>
+</body>
+</html>
