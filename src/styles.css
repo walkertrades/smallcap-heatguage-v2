@@ -203,16 +203,21 @@ input { font-family: inherit; }
 .latest-stats {
   display: flex;
   gap: 8px;
+  align-items: stretch;
 }
 .stat {
   position: relative;
+  flex: 1 1 0;
   min-width: 62px;
-  padding: 6px 10px 8px;
+  padding: 6px 10px 10px;
   background: var(--bg);
   border: 1px solid var(--card-border);
   border-radius: 4px;
   text-align: center;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
 .stat:hover { transform: translateY(-1px); }
@@ -470,7 +475,12 @@ input { font-family: inherit; }
   border-radius: 8px;
   padding: 16px 20px;
 }
-.history-header { padding-bottom: 10px; margin-bottom: 6px; border-bottom: 1px dashed var(--card-border); }
+.history-header { padding-bottom: 10px; margin-bottom: 6px; border-bottom: 1px dashed var(--card-border); display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.history-toggle {
+  font-size: 11px; padding: 3px 10px; border-radius: 5px; cursor: pointer;
+  color: var(--text-dim); background: var(--bg-2); border: 1px solid var(--card-border-strong);
+}
+.history-toggle:hover { color: var(--text); border-color: var(--text-muted); }
 .history-rows { display: flex; flex-direction: column; }
 .history-row {
   display: grid;
@@ -744,6 +754,7 @@ input { font-family: inherit; }
 .runner-time { font-size: 10px; letter-spacing: 0.12em; font-weight: 700; }
 .time-premarket { color: var(--cold); }
 .time-session { color: var(--neutral); }
+.time-afterhours { color: oklch(0.72 0.10 90); }
 .time-mixed { color: var(--text-dim); }
 
 .detail-note {
@@ -2080,3 +2091,254 @@ textarea {
 .data-status-empty .data-status-hint {
   text-align: center;
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   HEAT GAUGE v2 — chips, badges, behavior editor, filters, chart, AI bar
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── v2 tag chips (catalyst / float tier / sector / country) ── */
+.rt-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 8px; }
+.rt-chip {
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: var(--chip-color);
+  background: color-mix(in oklch, var(--chip-color) 16%, transparent);
+  border: 1px solid color-mix(in oklch, var(--chip-color) 45%, transparent);
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.rt-chip-catalyst { font-weight: 700; }
+.rt-chip-floattier { text-transform: none; }
+.rt-chip-sector, .rt-chip-country { text-transform: none; letter-spacing: 0.02em; }
+
+/* ── Warning badges: SSR + reverse split ── */
+.rt-warn-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.rt-warn-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 10px; letter-spacing: 0.08em; font-weight: 700;
+  padding: 3px 8px; border-radius: 5px;
+  color: oklch(0.88 0.15 55);
+  background: oklch(0.30 0.10 55);
+  border: 1px solid oklch(0.60 0.16 55);
+}
+.rt-warn-rs { color: oklch(0.88 0.17 25); background: oklch(0.30 0.11 25); border-color: oklch(0.60 0.18 25); }
+.rt-warn-ic { font-size: 10px; }
+
+/* ── Expanded HOD time slot ── */
+.rt-hodslot {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
+  margin-bottom: 8px; padding: 7px 10px;
+  background: var(--bg-2); border: 1px solid var(--card-border);
+  border-left: 3px solid var(--text-muted); border-radius: 6px;
+}
+.rt-hodslot-k { font-size: 9px; letter-spacing: 0.16em; color: var(--text-muted); font-weight: 600; }
+.rt-hodslot-time { font-size: 14px; font-weight: 600; color: var(--text); letter-spacing: -0.01em; }
+.rt-hodslot-sess {
+  font-size: 10px; letter-spacing: 0.12em; font-weight: 700; padding: 2px 7px;
+  border-radius: 4px; background: var(--card); color: var(--text-dim);
+}
+.rt-hodslot-vol { font-size: 11px; color: var(--text-dim); margin-left: auto; }
+.rt-sess-premarket { border-left-color: var(--hot); }
+.rt-sess-premarket .rt-hodslot-sess { color: var(--hot); }
+.rt-sess-morning { border-left-color: var(--neutral); }
+.rt-sess-morning .rt-hodslot-sess { color: var(--neutral); }
+.rt-sess-afternoon { border-left-color: oklch(0.75 0.13 90); }
+.rt-sess-afternoon .rt-hodslot-sess { color: oklch(0.80 0.13 90); }
+.rt-sess-after-hours { border-left-color: var(--cold); }
+.rt-sess-after-hours .rt-hodslot-sess { color: var(--cold); }
+
+/* ── News summary + bull/bear factors ── */
+.rt-newssum { margin: 8px 0; }
+.rt-newssum-body { font-size: 12px; line-height: 1.5; color: var(--text-dim); margin: 4px 0 0; }
+.rt-factors { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0; }
+@media (max-width: 560px) { .rt-factors { grid-template-columns: 1fr; } }
+.rt-factor-col {
+  padding: 8px 10px; border-radius: 6px; background: var(--bg-2);
+  border: 1px solid var(--card-border);
+}
+.rt-factor-h { font-size: 10px; letter-spacing: 0.14em; font-weight: 700; margin-bottom: 5px; }
+.rt-factor-bull { border-left: 3px solid oklch(0.70 0.16 150); }
+.rt-factor-bull .rt-factor-h { color: oklch(0.75 0.16 150); }
+.rt-factor-bear { border-left: 3px solid var(--hot); }
+.rt-factor-bear .rt-factor-h { color: var(--hot); }
+.rt-factor-col ul { margin: 0; padding-left: 16px; }
+.rt-factor-col li { font-size: 11.5px; line-height: 1.45; color: var(--text-dim); margin-bottom: 3px; }
+
+/* ── Behavior tag editor (manual, localStorage) ── */
+.rt-behavior { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--card-border); }
+.rt-behavior-head { display: flex; align-items: center; gap: 8px; }
+.rt-behavior-lbl { margin: 0; }
+.rt-behavior-chip {
+  font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 999px;
+  cursor: pointer; color: oklch(0.90 0.10 300);
+  background: oklch(0.30 0.08 300); border: 1px solid oklch(0.55 0.12 300);
+}
+.rt-behavior-chip:hover { background: oklch(0.34 0.09 300); }
+.rt-behavior-add {
+  font-size: 11px; padding: 3px 9px; border-radius: 999px; cursor: pointer;
+  color: var(--text-dim); background: transparent;
+  border: 1px dashed var(--card-border-strong);
+}
+.rt-behavior-add:hover { color: var(--text); border-color: var(--text-muted); }
+.rt-behavior-edit { margin-top: 8px; }
+.rt-behavior-input {
+  width: 100%; box-sizing: border-box; font-family: var(--mono); font-size: 12px;
+  padding: 7px 9px; border-radius: 6px; color: var(--text);
+  background: var(--bg); border: 1px solid var(--card-border-strong);
+}
+.rt-behavior-input:focus { outline: none; border-color: oklch(0.60 0.12 300); }
+.rt-behavior-presets { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+.rt-behavior-preset {
+  font-size: 10.5px; padding: 3px 8px; border-radius: 999px; cursor: pointer;
+  color: var(--text-dim); background: var(--bg-2); border: 1px solid var(--card-border);
+}
+.rt-behavior-preset:hover { color: var(--text); border-color: var(--text-muted); }
+.rt-behavior-actions { display: flex; gap: 6px; margin-top: 8px; }
+.rt-behavior-actions button {
+  font-size: 11px; padding: 4px 12px; border-radius: 5px; cursor: pointer;
+  border: 1px solid var(--card-border-strong); background: var(--bg-2); color: var(--text-dim);
+}
+.rt-behavior-save { color: oklch(0.90 0.10 300) !important; border-color: oklch(0.55 0.12 300) !important; }
+.rt-behavior-actions button:hover { color: var(--text); }
+
+/* ── Filter panel ── */
+.insights { margin: 18px 0; display: flex; flex-direction: column; gap: 16px; }
+.filter-panel { background: var(--card); border: 1px solid var(--card-border); border-radius: 10px; overflow: hidden; }
+.filter-bar {
+  display: flex; align-items: center; gap: 10px; padding: 12px 16px; cursor: pointer;
+  user-select: none;
+}
+.filter-bar:hover { background: var(--bg-2); }
+.filter-icon { color: var(--text-dim); font-size: 14px; }
+.filter-count {
+  font-size: 10px; font-weight: 700; min-width: 18px; text-align: center;
+  padding: 1px 6px; border-radius: 999px; color: var(--bg);
+  background: var(--neutral);
+}
+.filter-match { margin-left: auto; font-size: 11px; color: var(--text-muted); }
+.filter-chev { color: var(--text-muted); font-size: 12px; }
+.filter-body { padding: 4px 16px 16px; border-top: 1px solid var(--card-border); }
+.filter-group { margin-top: 12px; }
+.filter-group-label { font-size: 10px; letter-spacing: 0.16em; color: var(--text-muted); font-weight: 600; margin-bottom: 6px; text-transform: uppercase; }
+.filter-options { display: flex; flex-wrap: wrap; gap: 6px; }
+.filter-none { font-size: 11px; color: var(--text-muted); }
+.filter-opt {
+  font-size: 11px; padding: 4px 10px; border-radius: 999px; cursor: pointer;
+  color: var(--text-dim); background: var(--bg-2);
+  border: 1px solid var(--card-border);
+  transition: border-color 0.15s, color 0.15s;
+}
+.filter-opt:hover { color: var(--text); border-color: var(--opt-color, var(--text-muted)); }
+.filter-opt.on {
+  color: var(--opt-color, var(--text));
+  border-color: var(--opt-color, var(--text));
+  background: color-mix(in oklch, var(--opt-color, var(--neutral)) 18%, transparent);
+  font-weight: 600;
+}
+.filter-warn { }
+.filter-warn.on { color: oklch(0.88 0.15 55); border-color: oklch(0.60 0.16 55); background: oklch(0.30 0.10 55); }
+.filter-clear {
+  margin-top: 14px; font-size: 11px; padding: 6px 12px; border-radius: 6px; cursor: pointer;
+  color: var(--text-dim); background: var(--bg-2); border: 1px solid var(--card-border-strong);
+}
+.filter-clear:hover { color: var(--text); }
+
+/* ── $ volume trend chart ── */
+.volchart { background: var(--card); border: 1px solid var(--card-border); border-radius: 10px; padding: 14px 16px; }
+.volchart-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.volchart-title { display: flex; flex-direction: column; gap: 3px; }
+.volchart-total { font-size: 11px; color: var(--text-muted); }
+.volchart-controls { display: flex; gap: 10px; flex-wrap: wrap; }
+.volchart-ranges, .volchart-types { display: flex; gap: 3px; background: var(--bg-2); padding: 3px; border-radius: 7px; border: 1px solid var(--card-border); }
+.vc-range, .vc-type {
+  font-size: 11px; padding: 4px 9px; border-radius: 5px; cursor: pointer;
+  color: var(--text-muted); background: transparent; border: none;
+}
+.vc-range:hover, .vc-type:hover { color: var(--text); }
+.vc-range.active, .vc-type.active { color: var(--text); background: var(--card); box-shadow: 0 1px 2px oklch(0 0 0 / 0.3); }
+.volchart-custom { display: flex; gap: 14px; margin-top: 10px; font-size: 11px; color: var(--text-dim); }
+.volchart-custom input {
+  font-family: var(--mono); font-size: 11px; margin-left: 5px; padding: 3px 6px;
+  color: var(--text); background: var(--bg); border: 1px solid var(--card-border-strong); border-radius: 5px;
+  color-scheme: dark;
+}
+.volchart-empty { padding: 40px 0; text-align: center; font-size: 12px; color: var(--text-muted); }
+.volchart-svg-wrap { margin-top: 14px; width: 100%; overflow-x: auto; }
+.volchart-svg { width: 100%; height: 200px; display: block; }
+.vc-axis { stroke: var(--card-border-strong); stroke-width: 1; }
+.vc-bar { fill: oklch(0.70 0.19 55); opacity: 0.9; }
+.vc-bar:hover { opacity: 1; fill: oklch(0.78 0.19 60); }
+.vc-line { stroke: oklch(0.70 0.19 55); stroke-width: 2; }
+.vc-dot { fill: oklch(0.72 0.19 55); }
+.vc-ma-line { stroke: oklch(0.86 0.16 92); stroke-width: 2; stroke-dasharray: 0; vector-effect: non-scaling-stroke; opacity: 0.95; }
+.vc-xlabel { fill: var(--text-muted); font-size: 9px; font-family: var(--mono); }
+.volchart-legend { display: flex; align-items: center; gap: 8px; margin-top: 8px; font-size: 10px; color: var(--text-muted); }
+.vc-legend-bar { width: 14px; height: 8px; border-radius: 2px; background: oklch(0.70 0.19 55); display: inline-block; }
+.vc-legend-ma { width: 16px; height: 0; border-top: 2px solid oklch(0.86 0.16 92); display: inline-block; margin-left: 8px; }
+
+/* ── AI trend summary bar ── */
+.ai-summary-bar {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 12px 16px; margin-bottom: 16px;
+  background: linear-gradient(90deg, oklch(0.24 0.05 285), var(--card));
+  border: 1px solid oklch(0.40 0.06 285); border-radius: 10px;
+}
+.ai-summary-badge {
+  font-size: 9px; letter-spacing: 0.16em; font-weight: 700; white-space: nowrap;
+  padding: 4px 9px; border-radius: 5px;
+  color: oklch(0.92 0.10 300); background: oklch(0.34 0.10 300);
+}
+.ai-summary-text { flex: 1 1 260px; margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--text); }
+.ai-summary-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.ai-summary-chip {
+  font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 999px;
+  color: var(--chip-color); background: color-mix(in oklch, var(--chip-color) 15%, transparent);
+  border: 1px solid color-mix(in oklch, var(--chip-color) 40%, transparent);
+}
+.ai-summary-chip b { color: var(--text); margin-left: 3px; }
+
+/* ── runner list: filter no-match note ── */
+.runners-nomatch { padding: 16px; text-align: center; font-size: 12px; color: var(--text-muted); }
+
+/* ── MktCap chip ── */
+.rt-chip-mktcap { text-transform: none; letter-spacing: 0.02em; }
+
+/* ── Searchable filter (sector / country) ── */
+.filter-search { display: flex; flex-direction: column; gap: 6px; }
+.filter-search-selected { display: flex; flex-wrap: wrap; gap: 6px; }
+.filter-search-input {
+  width: 100%; box-sizing: border-box; font-family: var(--mono); font-size: 12px;
+  padding: 6px 10px; border-radius: 6px; color: var(--text);
+  background: var(--bg); border: 1px solid var(--card-border-strong);
+}
+.filter-search-input:focus { outline: none; border-color: var(--text-muted); }
+.filter-search-results {
+  display: flex; flex-wrap: wrap; gap: 6px; padding: 8px;
+  background: var(--bg-2); border: 1px solid var(--card-border); border-radius: 6px;
+}
+.filter-opt-x { opacity: 0.7; margin-left: 2px; }
+
+/* ── Period comparison table ── */
+.period-comp { background: var(--card); border: 1px solid var(--card-border); border-radius: 10px; padding: 14px 16px; }
+.period-comp-head { margin-bottom: 10px; }
+.period-comp-wrap { width: 100%; overflow-x: auto; }
+.period-comp-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.period-comp-table th {
+  font-size: 10px; letter-spacing: 0.1em; font-weight: 700; color: var(--text-muted);
+  text-align: right; padding: 6px 10px; border-bottom: 1px solid var(--card-border-strong); white-space: nowrap;
+}
+.period-comp-table th.pc-metric { text-align: left; }
+.period-comp-table td { padding: 7px 10px; border-bottom: 1px solid var(--card-border); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--text-dim); }
+.period-comp-table td.pc-metric { text-align: left; color: var(--text); font-weight: 500; }
+.period-comp-table tbody tr:last-child td { border-bottom: none; }
+.period-comp-table th.num:first-of-type,
+.period-comp-table td.num:first-of-type { color: var(--text); font-weight: 600; }
+/* LAST 5D: colored text + arrow only — no shaded cell. Other periods stay plain. */
+.pc-up { color: oklch(0.80 0.16 150) !important; font-weight: 700 !important; }
+.pc-down { color: var(--hot) !important; font-weight: 700 !important; }
+
+/* ── AI summary chip kind tweaks ── */
+.ai-chip-floattier, .ai-chip-session, .ai-chip-country { text-transform: none; }

@@ -1,7 +1,7 @@
 // Inline day-detail panel, rendered inside the strip card under the cells.
 // Cleaner and more readable than the modal version.
 
-function DayDetailInline({ entry, thresholds, onClose, onDeleteRunner }) {
+function DayDetailInline({ entry, thresholds, onClose, onDeleteRunner, filterPredicate, filterActive }) {
   if (!entry) return null;
   const stateLower = entry.state.toLowerCase();
   const runners = entry.runners || [];
@@ -104,7 +104,7 @@ function DayDetailInline({ entry, thresholds, onClose, onDeleteRunner }) {
       </div>
 
       {sorted.length > 0 && (
-        <RunnersBlock runners={sorted} thresholds={thresholds} entry={entry} onDeleteRunner={onDeleteRunner} />
+        <RunnersBlock runners={sorted} thresholds={thresholds} entry={entry} onDeleteRunner={onDeleteRunner} filterPredicate={filterPredicate} filterActive={filterActive} />
       )}
     </div>
   );
@@ -112,16 +112,30 @@ function DayDetailInline({ entry, thresholds, onClose, onDeleteRunner }) {
 
 Object.assign(window, { DayDetailInline });
 
-function RunnersBlock({ runners, thresholds, entry, onDeleteRunner }) {
+function RunnersBlock({ runners, thresholds, entry, onDeleteRunner, filterPredicate, filterActive }) {
   const [advanced, setAdvanced] = React.useState(false);
   const [expandedSym, setExpandedSym] = React.useState(null);
 
   const toggleExpand = (sym) => setExpandedSym((prev) => (prev === sym ? null : sym));
 
+  // When filters are active, narrow the runner list to matches.
+  const shown = (filterActive && filterPredicate) ? runners.filter(filterPredicate) : runners;
+
+  if (filterActive && shown.length === 0) {
+    return (
+      <div className="runners">
+        <div className="runners-head-row">
+          <div className="runners-label label">TOP MOVERS · 0 of {runners.length} match filters</div>
+        </div>
+        <div className="runners-nomatch">No runners on this day match the active filters.</div>
+      </div>
+    );
+  }
+
   return (
     <div className="runners">
       <div className="runners-head-row">
-        <div className="runners-label label">TOP MOVERS · {runners.length}</div>
+        <div className="runners-label label">TOP MOVERS · {shown.length}{filterActive ? ` of ${runners.length}` : ""}</div>
         <div className="adv-toggle" role="group" aria-label="Detail level">
           <button
             className={`adv-btn ${!advanced ? "active" : ""}`}
@@ -145,7 +159,7 @@ function RunnersBlock({ runners, thresholds, entry, onDeleteRunner }) {
             <span className="num">TIME</span>
             <span />
           </div>
-          {runners.map((r) => {
+          {shown.map((r) => {
             const isExpanded = expandedSym === r.sym;
             return (
               <React.Fragment key={r.sym}>
@@ -162,8 +176,8 @@ function RunnersBlock({ runners, thresholds, entry, onDeleteRunner }) {
                   <span className={`num runner-fade ${r.fade > thresholds.fadeCold ? "fade-bad" : r.fade < thresholds.fadeHot ? "fade-good" : "fade-mid"}`}>
                     {r.fade}%
                   </span>
-                  <span className={`num runner-time time-${r.time}`}>
-                    {r.time === "premarket" ? "PM" : r.time === "session" ? "SESS" : "MIX"}
+                  <span className={`num runner-time time-${window.sessionColorClass(r.session)}`} title={window.sessionLabel(r.session)}>
+                    {window.sessionAbbr(r.session)}
                   </span>
                   {onDeleteRunner && (
                     <button
@@ -189,7 +203,7 @@ function RunnersBlock({ runners, thresholds, entry, onDeleteRunner }) {
           })}
         </div>
       ) : (
-        <AdvancedRunnersTable runners={runners} thresholds={thresholds} entry={entry} onDeleteRunner={onDeleteRunner} expandedSym={expandedSym} onToggleExpand={toggleExpand} />
+        <AdvancedRunnersTable runners={shown} thresholds={thresholds} entry={entry} onDeleteRunner={onDeleteRunner} expandedSym={expandedSym} onToggleExpand={toggleExpand} />
       )}
     </div>
   );
@@ -263,8 +277,8 @@ function AdvancedRunnersTable({ runners, thresholds, entry, onDeleteRunner, expa
                       <span className="adv-t-none">—</span>
                     )}
                   </td>
-                  <td className={`num runner-time time-${r.time}`}>
-                    {r.time === "premarket" ? "PM" : r.time === "session" ? "SESS" : "MIX"}
+                  <td className={`num runner-time time-${window.sessionColorClass(r.session)}`} title={window.sessionLabel(r.session)}>
+                    {window.sessionAbbr(r.session)}
                   </td>
                   {onDeleteRunner && (
                     <td>
@@ -496,9 +510,299 @@ function linkifyText(s) {
   return parts;
 }
 
-function RunnerTile({ r }) {
-  const tag = (r.tag || "MIXED").toUpperCase();
+// ── v2 chip row: colored tag chips by type ─────────────────────────
+// catalyst = one color family, country = another, sector = another,
+// float tier = another. Colors come from window (v2schema.jsx).
+function TagChips({ r }) {
+  const chips = [];
+  if (r.tag) {
+    chips.push({ cls: "catalyst", label: String(r.tag).toUpperCase(), color: window.catalystColor(r.tag) });
+  }
+  if (r.floatTier) {
+    chips.push({ cls: "floattier", label: r.floatTier + (r.floatM != null ? ` · ${r.floatM}M` : ""), color: window.floatTierColor(r.floatTier) });
+  }
+  if (r.sector) {
+    const sec = r.sectorNorm || window.normalizeSector(r.sector);
+    chips.push({ cls: "sector", label: sec, color: window.sectorColor(sec), title: r.sector });
+  }
+  if (r.country) {
+    chips.push({ cls: "country", label: r.country, color: window.countryColor(r.country) });
+  }
+  if (r.marketCap) {
+    chips.push({ cls: "mktcap", label: `MC ${r.marketCap}`, color: "oklch(0.52 0.02 250)" });
+  }
+  if (chips.length === 0) return null;
+  return (
+    <div className="rt-chips">
+      {chips.map((c, i) => (
+        <span key={i} className={`rt-chip rt-chip-${c.cls}`} style={{ "--chip-color": c.color }} title={c.title || c.cls}>
+          {c.label}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+// ── Warning badges: SSR + reverse split ────────────────────────────
+function WarnBadges({ r }) {
+  const badges = [];
+  if (r.ssr) badges.push({ key: "ssr", label: "SSR", title: "Short Sale Restriction active this day" });
+  if (r.reverseSplit) badges.push({ key: "rs", label: `RS ${r.reverseSplit}`, title: `Reverse split within 30 days (${r.reverseSplit})` });
+  if (badges.length === 0) return null;
+  return (
+    <div className="rt-warn-badges">
+      {badges.map((b) => (
+        <span key={b.key} className={`rt-warn-badge rt-warn-${b.key}`} title={b.title}>
+          <span className="rt-warn-ic" aria-hidden="true">⚠</span> {b.label}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+// ── Expanded HOD time slot ─────────────────────────────────────────
+function HodTimeSlot({ r }) {
+  const sess = r.session || window.deriveSession(r.hodTimeExact, r.time);
+  const label = window.sessionLabel(sess);
+  return (
+    <div className={`rt-hodslot rt-sess-${sess}`}>
+      <span className="rt-hodslot-k">HOD HIT</span>
+      <span className="rt-hodslot-time">{r.hodTimeExact || "—"}</span>
+      <span className="rt-hodslot-sess">{label}</span>
+      {r.volDollar != null && (
+        <span className="rt-hodslot-vol">$Vol {window.fmtDollar(r.volDollar)}</span>
+      )}
+    </div>
+  );
+}
+
+// ── Bull / bear factor lists (Claude-generated in v2) ──────────────
+function FactorColumns({ r }) {
+  const bull = Array.isArray(r.bullFactors) ? r.bullFactors : [];
+  const bear = Array.isArray(r.bearFactors) ? r.bearFactors : [];
+  if (bull.length === 0 && bear.length === 0) return null;
+  return (
+    <div className="rt-factors">
+      {bull.length > 0 && (
+        <div className="rt-factor-col rt-factor-bull">
+          <div className="rt-factor-h">▲ BULL</div>
+          <ul>{bull.map((b, i) => <li key={i}>{linkifyText(b)}</li>)}</ul>
+        </div>
+      )}
+      {bear.length > 0 && (
+        <div className="rt-factor-col rt-factor-bear">
+          <div className="rt-factor-h">▼ BEAR</div>
+          <ul>{bear.map((b, i) => <li key={i}>{linkifyText(b)}</li>)}</ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── Behavior tag — manual, editable inline, persisted to localStorage ──
+const BEHAVIOR_PRESETS = [
+  "Clean fade", "Backside short", "Frontside runner", "Halt-go", "Grinder",
+  "Trap / squeeze", "Multiday", "Choppy", "One-and-done", "Dead",
+];
+function BehaviorEditor({ r }) {
+  const date = r._date;
+  const [value, setValue] = React.useState(() => window.getBehaviorTag(date, r.sym, r.behaviorTag) || "");
+  const [editing, setEditing] = React.useState(false);
+  const [draft, setDraft] = React.useState(value);
+
+  const commit = (v) => {
+    const saved = window.setBehaviorTag(date, r.sym, v);
+    setValue(saved);
+    setEditing(false);
+  };
+
+  return (
+    <div className="rt-behavior">
+      <div className="rt-behavior-head">
+        <span className="rt-lbl rt-behavior-lbl">BEHAVIOR</span>
+        {!editing && (
+          value
+            ? <span className="rt-behavior-chip" onClick={() => { setDraft(value); setEditing(true); }} title="Click to edit">{value}</span>
+            : <button className="rt-behavior-add" onClick={() => { setDraft(""); setEditing(true); }}>+ tag behavior</button>
+        )}
+      </div>
+      {editing && (
+        <div className="rt-behavior-edit" onClick={(e) => e.stopPropagation()}>
+          <input
+            className="rt-behavior-input"
+            autoFocus
+            value={draft}
+            placeholder="e.g. backside short"
+            onChange={(e) => setDraft(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") commit(draft);
+              else if (e.key === "Escape") setEditing(false);
+            }}
+          />
+          <div className="rt-behavior-presets">
+            {BEHAVIOR_PRESETS.map((p) => (
+              <button key={p} className="rt-behavior-preset" onClick={() => commit(p)}>{p}</button>
+            ))}
+          </div>
+          <div className="rt-behavior-actions">
+            <button className="rt-behavior-save" onClick={() => commit(draft)}>Save</button>
+            {value && <button className="rt-behavior-clear" onClick={() => commit("")}>Clear</button>}
+            <button className="rt-behavior-cancel" onClick={() => setEditing(false)}>Cancel</button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// TradingView Advanced Chart widget (free, no API key). Uses tv.js rather than
+// the raw iframe because only this one honors studies_overrides — that's what
+// makes the indicator colors in Settings actually apply.
+let _tvSeq = 0;
+function TradingViewChart({ sym, date }) {
+  const idRef = React.useRef("tvc-" + (++_tvSeq));
+  const hostRef = React.useRef(null);
+  const [failed, setFailed] = React.useState(false);
+
+  React.useEffect(() => {
+    if (!sym) return;
+    let cancelled = false;
+    const mount = () => {
+      if (cancelled || !hostRef.current) return;
+      if (!window.TradingView || !window.TradingView.widget) { setFailed(true); return; }
+      hostRef.current.innerHTML = "";
+      try {
+        new window.TradingView.widget(window.cpWidgetConfig(sym, idRef.current, date, window.cpLoad()));
+      } catch (e) { setFailed(true); }
+    };
+    if (window.TradingView && window.TradingView.widget) mount();
+    else {
+      // tv.js is loaded from index.html; wait for it if it hasn't landed yet
+      let tries = 0;
+      const iv = window.setInterval(() => {
+        if (window.TradingView && window.TradingView.widget) { window.clearInterval(iv); mount(); }
+        else if (++tries > 40) { window.clearInterval(iv); setFailed(true); }
+      }, 100);
+      return () => { cancelled = true; window.clearInterval(iv); };
+    }
+    return () => { cancelled = true; };
+  }, [sym, date]);
+
+  if (!sym) return null;
+  const range = window.cpRangeForDate(date);
+  return (
+    <div className="rt-chart">
+      <div className="rt-chart-head">
+        <span className="rt-lbl">CHART · {String(sym).toUpperCase()}</span>
+        {date && <span className="rt-chart-date">showing {range} window incl. {date}</span>}
+      </div>
+      <div className="rt-chart-frame">
+        <div id={idRef.current} ref={hostRef} className="rt-chart-host" />
+        {failed && <div className="rt-chart-fail">Chart unavailable (TradingView script blocked).</div>}
+      </div>
+    </div>
+  );
+}
+
+// Inline catalyst tag editor — pick from the v2 vocabulary and/or add custom
+// tags (ETB, HARD-TO-BORROW, HALT-L1…). Persists to localStorage by date+ticker.
+function TagEditor({ r, edit, onChange, onClose }) {
+  const [tag, setTag] = React.useState((edit && edit.tag) || r.tag || "");
+  const [customs, setCustoms] = React.useState((edit && edit.customTags) || []);
+  const [draft, setDraft] = React.useState("");
+
+  const addCustom = () => {
+    const v = draft.trim().toUpperCase();
+    if (!v || customs.indexOf(v) >= 0) return;
+    setCustoms(customs.concat(v));
+    setDraft("");
+  };
+  const save = () => {
+    onChange(window.setTagEdit(r._date, r.sym, { tag, customTags: customs }));
+    onClose();
+  };
+  const clear = () => {
+    onChange(window.setTagEdit(r._date, r.sym, { tag: null, customTags: [] }));
+    onClose();
+  };
+
+  return (
+    <div className="tagedit" onClick={(e) => e.stopPropagation()}>
+      <div className="tagedit-lbl">CATALYST</div>
+      <div className="tagedit-opts">
+        {window.V2_CATALYST_TAGS.map((t) => (
+          <button key={t} className={`tagedit-opt ${tag === t ? "on" : ""}`}
+            style={{ "--cat": window.catalystColor(t) }} onClick={() => setTag(t)}>{t}</button>
+        ))}
+      </div>
+      <div className="tagedit-lbl">CUSTOM TAGS</div>
+      {customs.length > 0 && (
+        <div className="tagedit-customs">
+          {customs.map((c) => (
+            <button key={c} className="rt-chip rt-chip-custom" onClick={() => setCustoms(customs.filter((x) => x !== c))}>
+              {c} <span className="tagedit-x">×</span>
+            </button>
+          ))}
+        </div>
+      )}
+      <div className="tagedit-add">
+        <input value={draft} placeholder="e.g. ETB, HARD-TO-BORROW, HALT-L1"
+          onChange={(e) => setDraft(e.target.value)}
+          onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); addCustom(); } }} />
+        <button className="tagedit-addbtn" onClick={addCustom}>Add</button>
+      </div>
+      <div className="tagedit-actions">
+        <button className="tagedit-save" onClick={save}>Save</button>
+        <button className="tagedit-clear" onClick={clear}>Reset</button>
+        <button className="tagedit-cancel" onClick={onClose}>Cancel</button>
+      </div>
+    </div>
+  );
+}
+
+// v2 cleanup: these research sections are being replaced by Claude summarization
+// in the pipeline, so they're hidden from the expanded runner view.
+const HIDDEN_SECTIONS = /dilution|compliance|debt|liabilit/i;
+function visibleSections(sections) {
+  if (!Array.isArray(sections)) return [];
+  return sections.filter((s) => !HIDDEN_SECTIONS.test(String(s && s.title) || ""));
+}
+
+// Inline manual grade picker (replaces the auto Setup Score).
+function GradePicker({ r, onGradeChange }) {
+  const [grade, setGradeState] = React.useState(() => window.getGrade(r._date, r.sym));
+  const pick = (g) => {
+    const next = window.setGrade(r._date, r.sym, g === grade ? null : g); // click again to clear
+    setGradeState(next);
+    if (onGradeChange) onGradeChange(next);
+  };
+  const c = window.gradeColor(grade);
+  return (
+    <div className="rt-grade">
+      <span className="rt-lbl rt-grade-lbl">GRADE</span>
+      <span className={`grade-badge ${grade ? "graded" : "ungraded"} ${grade === "A++" ? "grade-gold" : ""}`} style={{ "--gc": c }}>
+        {grade || "—"}
+      </span>
+      <div className="rt-grade-opts">
+        {window.GRADES.map((g) => (
+          <button key={g} className={`rt-grade-opt ${grade === g ? "on" : ""}`}
+            style={{ "--gc": window.gradeColor(g) }}
+            onClick={(e) => { e.stopPropagation(); pick(g); }}>{g}</button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function RunnerTile({ r, onGradeChange }) {
+  const [edit, setEdit] = React.useState(() => window.getTagEdit(r._date, r.sym));
+  const [editing, setEditing] = React.useState(false);
+  // an edited catalyst overrides the pipeline's tag
+  const effTag = (edit && edit.tag) || r.tag;
+  const rr = { ...r, tag: effTag };
+  const tag = (effTag || "MIXED").toUpperCase();
   const accent = tagAccent(tag);
+  const sections = visibleSections(r.sections);
   const hasTile = r.riskBadges || r.reasons || r.tldr || r.news && r.news.length > 0;
 
   // If this runner was imported from a weekly/daily recap WITHOUT the evening-recap
@@ -513,17 +817,44 @@ function RunnerTile({ r }) {
         <div className="rt-hod">+{r.hodExact != null ? r.hodExact.toFixed(2) : r.hod}% <span className="rt-hod-sub">HOD</span></div>
       </div>
 
-      <div className="rt-sub">
-        {r.floatM != null && (
-          <span>
-            Float <b>{r.floatM}M</b>
-            {r.floatSrc && <span className="rt-src"> ({r.floatSrc})</span>}
-          </span>
+      <div className="rt-chiprow">
+        <TagChips r={rr} />
+        {edit && edit.customTags && edit.customTags.length > 0 && (
+          <div className="rt-chips rt-chips-custom">
+            {edit.customTags.map((c) => (
+              <span key={c} className="rt-chip rt-chip-custom">{c}</span>
+            ))}
+          </div>
         )}
-        {r.sector && <><span className="rt-dot">·</span><span>{r.sector}</span></>}
-        {r.country && <><span className="rt-dot">·</span><span>{r.country}</span></>}
-        {r.marketCap && <><span className="rt-dot">·</span><span>MktCap <b>{r.marketCap}</b></span></>}
+        <button className="rt-editbtn" onClick={(e) => { e.stopPropagation(); setEditing((v) => !v); }}>
+          {editing ? "Close" : "Edit Tags"}
+        </button>
       </div>
+      {editing && (
+        <TagEditor r={r} edit={edit} onChange={setEdit} onClose={() => setEditing(false)} />
+      )}
+      <WarnBadges r={r} />
+      <GradePicker r={r} onGradeChange={onGradeChange} />
+      <HodTimeSlot r={r} />
+
+      {/* Chart screenshots replaced the TradingView embed. Shared storage with
+          the Playbook tiles — same ticker+date shows the same image in both. */}
+      <div className="rt-chart">
+        <div className="rt-chart-head">
+          <span className="rt-lbl">CHART · {String(r.sym).toUpperCase()}</span>
+          <span className="rt-chart-date">{r._date}</span>
+        </div>
+        <window.ShotZone date={r._date} sym={r.sym} />
+      </div>
+
+      {r.newsSummary && (
+        <div className="rt-newssum">
+          <div className="rt-lbl">NEWS SUMMARY</div>
+          <p className="rt-newssum-body">{linkifyText(r.newsSummary)}</p>
+        </div>
+      )}
+
+      <FactorColumns r={r} />
 
       {r.riskBadges && r.riskBadges.length > 0 && (
         <div className="rt-badges">
@@ -533,13 +864,13 @@ function RunnerTile({ r }) {
 
       {/* Dynamic research-report sections (News / Why it's running, Dilution Risk,
           Compliance, Analyst Notes, Theme, Other Catalysts, etc.) */}
-      {r.sections && r.sections.length > 0 && r.sections.map((s, i) => (
+      {sections.length > 0 && sections.map((s, i) => (
         <DynamicSection key={i} section={s} />
       ))}
 
       {/* Legacy fallback: if the recap used the old **Why it ran** format
           AND there are no dynamic sections */}
-      {(!r.sections || r.sections.length === 0) &&
+      {sections.length === 0 &&
        r.reasons && r.reasons.length > 0 && (
         <>
           <div className="rt-lbl">Why it ran</div>
@@ -633,6 +964,8 @@ function RunnerTile({ r }) {
           </ul>
         </>
       )}
+
+      <BehaviorEditor r={r} />
 
       {!hasTile && !r.close && (
         <div className="rt-empty">

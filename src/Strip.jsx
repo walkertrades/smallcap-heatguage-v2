@@ -1,6 +1,6 @@
 // 5-day rolling strip with inline expandable day detail underneath.
 
-function Strip({ entries, selectedDate, onSelect, thresholds, onDeleteRunner }) {
+function Strip({ entries, selectedDate, onSelect, thresholds, onDeleteRunner, filterPredicate, filterActive }) {
   const sorted = [...entries].sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 5);
   const cells = [];
   for (let i = 0; i < 5; i++) cells.push(sorted[i] || null);
@@ -79,6 +79,8 @@ function Strip({ entries, selectedDate, onSelect, thresholds, onDeleteRunner }) 
           thresholds={thresholds}
           onClose={() => onSelect(null)}
           onDeleteRunner={onDeleteRunner}
+          filterPredicate={filterPredicate}
+          filterActive={filterActive}
         />
       )}
     </div>

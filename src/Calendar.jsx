@@ -90,20 +90,30 @@ function extractNewsTheme(headlines) {
   return hits.slice(0, 2);
 }
 
-function CalendarView({ entries, thresholds, onDeleteRunner }) {
-  // Default to month of the most-recent entry, else current month.
+function CalendarView({ entries, thresholds, onDeleteRunner, focusDate }) {
+  // Default to the focused day's month, else month of the most-recent entry.
   const defaultCursor = useMemo_Cal(() => {
-    if (entries.length > 0) {
-      const iso = [...entries].sort((a, b) => (a.date < b.date ? 1 : -1))[0].date;
+    const iso = focusDate || (entries.length > 0
+      ? [...entries].sort((a, b) => (a.date < b.date ? 1 : -1))[0].date
+      : null);
+    if (iso) {
       const [y, m] = iso.split("-").map(Number);
       return { year: y, month: m - 1 };
     }
     const d = new Date();
     return { year: d.getFullYear(), month: d.getMonth() };
-  }, [entries.length]);
+  }, [entries.length, focusDate]);
 
   const [cursor, setCursor] = useState_Cal(defaultCursor);
-  const [selectedDate, setSelectedDate] = useState_Cal(null);
+  const [selectedDate, setSelectedDate] = useState_Cal(focusDate || null);
+
+  // Arriving from the Overview heat calendar: jump to that month and open the day.
+  React.useEffect(() => {
+    if (!focusDate) return;
+    const [y, m] = focusDate.split("-").map(Number);
+    setCursor({ year: y, month: m - 1 });
+    setSelectedDate(focusDate);
+  }, [focusDate]);
   const [selectedWeek, setSelectedWeek] = useState_Cal(null); // { weekIdx, summary, days }
 
   const byDate = useMemo_Cal(() => {

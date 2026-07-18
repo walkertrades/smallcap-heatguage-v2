@@ -1,4 +1,10 @@
-__pycache__/ 
-*.pyc 
-.env 
-scratch/ 
+__pycache__/
+*.pyc
+.env
+scratch/
+
+# Local data safety copies + cleanup review output — ~16MB each, not needed by
+# the site and git would keep them forever.
+data2_backup*.json
+data2_cleaned.json
+flagged_runners.csv

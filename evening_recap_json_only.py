@@ -25,15 +25,29 @@ from datetime import date, timedelta, datetime, timezone
 
 POLYGON_API_KEY  = ""
 ASKEDGAR_API_KEY = ""
+ANTHROPIC_API_KEY = ""
 
 POLYGON_BASE     = "https://api.polygon.io"
 ASKEDGAR_BASE    = "https://eapi.askedgar.io/v1"
+ANTHROPIC_BASE   = "https://api.anthropic.com/v1/messages"
+
+# Heat Gauge v2: Claude generates per-runner newsSummary / bull & bear factors /
+# catalyst tag, plus a once-per-day trend summary. Haiku 4.5 keeps it cheap/fast.
+ANTHROPIC_MODEL  = "claude-haiku-4-5-20251001"
+ANTHROPIC_VERSION = "2023-06-01"
+
+# v2 catalyst vocabulary Claude must choose from (front-end colors these).
+CATALYST_TAGS = [
+    "EARNINGS", "FDA", "PHASE-1", "PHASE-2", "PHASE-3", "COMPLIANCE",
+    "BANKRUPTCY", "ACQUISITION", "MERGER", "SHARE-BUYBACK", "SYMPATHY",
+    "NO-NEWS", "HALT-RESUME", "CONTRACT", "OFFERING",
+]
 
 # ---------------------------------------------------------------------------
 # Output directory — set this to your local repo folder so all files
 # (HTML, MD, and heat-gauge JSON) land directly there ready to push.
 # ---------------------------------------------------------------------------
-OUTPUT_DIR = r"D:\Projects\smallcap-heatguage"
+OUTPUT_DIR = r"D:\Projects\smallcap-heatguage-v2"
 
 TOP_N            = 10
 NEAR_MISS_PCT    = 100        # any gapper >= this % that missed top 10
@@ -177,6 +191,124 @@ def fetch_reverse_split(ticker, date_str):
         if s.get("split_from", 1) > s.get("split_to", 1):
             return True   # split_from > split_to = reverse split
     return False
+
+
+def fetch_reverse_split_ratio(ticker, date_str, lookback_days=30):
+    """
+    Heat Gauge v2 reverse-split badge: look back `lookback_days` for the most
+    recent reverse split (split_from > split_to) and return its ratio as a
+    string like "10:1". Returns None if there was no reverse split in the window.
+    Used as a warning badge — it does NOT skip the runner.
+    """
+    start = str(date.fromisoformat(date_str) - timedelta(days=lookback_days))
+    res = poly_get("/v3/reference/splits", {
+        "ticker":                    ticker,
+        "execution_date.gte":        start,
+        "execution_date.lte":        date_str,
+        "limit":                     20,
+    }).get("results", [])
+    reverse = [s for s in res if s.get("split_from", 1) > s.get("split_to", 1)]
+    if not reverse:
+        return None
+    # Most recent by execution_date
+    reverse.sort(key=lambda s: s.get("execution_date") or "", reverse=True)
+    s = reverse[0]
+    frm = s.get("split_from")
+    to  = s.get("split_to")
+    if not frm or not to:
+        return None
+    # Normalize e.g. 10:1. Trim trailing .0 so 10.0 -> 10.
+    def _n(x):
+        return str(int(x)) if float(x).is_integer() else str(x)
+    return f"{_n(frm)}:{_n(to)}"
+
+
+def fetch_ssr(ticker, date_str):
+    """
+    Short Sale Restriction (SSR / Reg-SHO uptick rule) status for date_str.
+
+    Polygon has no direct SSR feed, so we derive it from daily bars the same way
+    the rule fires: SSR triggers when a stock trades 10%+ below the prior close
+    and then stays in effect for the rest of that day AND the next trading day.
+
+    Returns True if SSR is active on date_str, i.e. either:
+      (a) date_str itself dropped >=10% from its prior close (triggered intraday), or
+      (b) the previous trading day dropped >=10% (restriction carries into today).
+    """
+    start = str(date.fromisoformat(date_str) - timedelta(days=8))
+    bars = poly_get(
+        f"/v2/aggs/ticker/{ticker}/range/1/day/{start}/{date_str}",
+        {"adjusted": "true", "sort": "asc", "limit": 12}
+    ).get("results") or []
+    if len(bars) < 2:
+        return False
+
+    def _triggered(prev_bar, bar):
+        pc = prev_bar.get("c")
+        low = bar.get("l")
+        if not pc or pc <= 0 or low is None:
+            return False
+        return (low - pc) / pc <= -0.10
+
+    # index of the bar whose date == date_str
+    idx = None
+    for i, b in enumerate(bars):
+        if b.get("t") and str(date.fromtimestamp(b["t"] / 1000)) == date_str:
+            idx = i
+            break
+    if idx is None or idx == 0:
+        return False
+
+    # (a) same-day trigger
+    if _triggered(bars[idx - 1], bars[idx]):
+        return True
+    # (b) prior trading day trigger carries into today
+    if idx >= 2 and _triggered(bars[idx - 2], bars[idx - 1]):
+        return True
+    return False
+
+
+def session_bucket(hod_time_str):
+    """
+    Map an exact HOD time string ("16:24 PM ET", "09:59 AM ET") to a v2 session
+    bucket. Mirrors the front-end deriveSession() so Python and JS agree:
+      premarket  < 9:30 · morning 9:30-12:00 · afternoon 12:00-16:00 · after-hours >= 16:00
+    """
+    if not hod_time_str:
+        return None
+    import re
+    mm = re.search(r"(\d{1,2}):(\d{2})\s*(AM|PM)?", str(hod_time_str), re.I)
+    if not mm:
+        return None
+    hh = int(mm.group(1)); mn = int(mm.group(2))
+    ap = (mm.group(3) or "").upper()
+    if hh > 12:
+        pass  # already 24h; ignore any AM/PM suffix
+    elif ap == "PM" and hh != 12:
+        hh += 12
+    elif ap == "AM" and hh == 12:
+        hh = 0
+    total = hh * 60 + mn
+    if total < 570:  return "premarket"
+    if total < 720:  return "morning"
+    if total < 960:  return "afternoon"
+    return "after-hours"
+
+
+def float_tier(float_m):
+    """v2 float tier from float in millions. Mirrors front-end floatTier()."""
+    if float_m is None:
+        return None
+    try:
+        f = float(float_m)
+    except (TypeError, ValueError):
+        return None
+    if f < 1:   return "Nano"
+    if f < 5:   return "Micro"
+    if f < 10:  return "Low"
+    if f < 20:  return "Mid"
+    if f < 50:  return "Thick"
+    return "Mega Thick"
 
 
 def fetch_news(ticker, date_str):
@@ -324,14 +456,19 @@ def fetch_ae_bundle(ticker, debug=False, as_of_date=None):
         ae_get("float-outstanding", {"ticker": ticker}), "results", default=[]
     )
 
+    # Heat Gauge v2: float is the ONLY thing worth keeping from AskEdgar. All the
+    # dilution / registration / offering / research / news endpoints are stripped —
+    # catalyst tag, news summary and bull/bear factors now come from Claude, and
+    # SSR / reverse-split come from Polygon. The other bundle keys stay present as
+    # empty lists so downstream consumers keep working without None-guards.
     bundle = {
-        "dilution_rating": safe_get(ae_get("dilution-rating", {"ticker": ticker}), "results", default=[]),
-        "dilution_data":   safe_get(ae_get("dilution-data",   {"ticker": ticker, "limit": 20}), "results", default=[]),
-        "registrations":   safe_get(ae_get("registrations",   {"ticker": ticker, "limit": 10}), "results", default=[]),
-        "offerings":       safe_get(ae_get("offerings",       {"ticker": ticker, "limit": 10}), "results", default=[]),
+        "dilution_rating": [],
+        "dilution_data":   [],
+        "registrations":   [],
+        "offerings":       [],
         "float_out":       float_out_results,
-        "research":        safe_get(ae_get("research-reports",{"ticker": ticker, "limit": 1}), "results", default=[]),
-        "news":            safe_get(ae_get("news",            {"ticker": ticker, "limit": 20}), "results", default=[]),
+        "research":        [],
+        "news":            [],
         "_float_source":   "historical-float-pro" if hist_float else "float-outstanding",
     }
     if debug:
@@ -1041,6 +1178,12 @@ def get_day_movers(target_date):
         # Pre-extract Grok insights so classify_runner can use them for tagging
         pre_insights = extract_insights(ae.get("news", []), target_date_str=date_str)
 
+        # v2 Polygon-derived flags: SSR status + reverse-split badge (30-day lookback)
+        ssr_active = fetch_ssr(ticker, date_str)
+        time.sleep(0.03)
+        rs_ratio = fetch_reverse_split_ratio(ticker, date_str)
+        time.sleep(0.03)
+
         enriched = {
             **c,
             "name":      details.get("name", ticker),
@@ -1059,8 +1202,14 @@ def get_day_movers(target_date):
             "insights":  pre_insights,
             "insider_pct":       ae_float_out.get("insider_percent"),
             "institutions_pct":  ae_float_out.get("institutions_percent"),
+            "ssr":               ssr_active,
+            "reverse_split":     rs_ratio,
         }
         enriched["classification"] = classify_runner(enriched, ae, date_str)
+
+        # v2 Claude pass — catalyst tag + news summary + bull/bear factors.
+        print(f"      → Claude (Haiku 4.5) analysis...")
+        enriched["claude"] = call_claude_runner(enriched, date_str)
         top.append(enriched)
 
     return top, near_miss
@@ -1361,6 +1510,198 @@ def render_html(target, movers, near_miss):
 # Heat-gauge JSON output (heat-gauge.v1 schema for data2.json merge)
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Claude API (Haiku 4.5) — per-runner catalyst tag / news summary / bull & bear
+# factors, and a once-per-day cross-runner trend summary.
+# ---------------------------------------------------------------------------
+
+_CLAUDE_BLOCKED = False
+
+
+def _extract_json(text):
+    """Pull the first JSON object out of a Claude reply, tolerant of code fences."""
+    if not text:
+        return None
+    t = text.strip()
+    if t.startswith("```"):
+        t = t.split("```", 2)[1] if t.count("```") >= 2 else t.strip("`")
+        if t.lstrip().lower().startswith("json"):
+            t = t.lstrip()[4:]
+    start = t.find("{")
+    end = t.rfind("}")
+    if start == -1 or end == -1 or end < start:
+        return None
+    try:
+        return json.loads(t[start:end + 1])
+    except Exception:
+        return None
+
+
+def call_claude(prompt, max_tokens=700):
+    """
+    Single Messages API call to Haiku 4.5. Returns the text reply, or None if
+    no key is set / the call fails. On a hard auth/credit error we flip
+    _CLAUDE_BLOCKED so we stop hammering for the rest of the run.
+    """
+    global _CLAUDE_BLOCKED
+    if _CLAUDE_BLOCKED or not ANTHROPIC_API_KEY:
+        return None
+    headers = {
+        "x-api-key":         ANTHROPIC_API_KEY,
+        "anthropic-version": ANTHROPIC_VERSION,
+        "content-type":      "application/json",
+    }
+    payload = {
+        "model":      ANTHROPIC_MODEL,
+        "max_tokens": max_tokens,
+        "messages":   [{"role": "user", "content": prompt}],
+    }
+    for attempt in range(3):
+        try:
+            r = requests.post(ANTHROPIC_BASE, headers=headers, json=payload, timeout=40)
+        except Exception as e:
+            print(f"    claude network error: {e}")
+            time.sleep(2)
+            continue
+        if r.status_code == 200:
+            try:
+                blocks = r.json().get("content", [])
+                return "".join(b.get("text", "") for b in blocks if b.get("type") == "text")
+            except Exception:
+                return None
+        if r.status_code in (401, 403):
+            print(f"    ⛔ Claude auth error {r.status_code} — disabling Claude for this run.")
+            _CLAUDE_BLOCKED = True
+            return None
+        if r.status_code == 429:
+            wait = int(r.headers.get("retry-after", 5))
+            print(f"    ⏸  Claude 429, waiting {min(wait, 30)}s (attempt {attempt+1}/3)...")
+            time.sleep(min(wait, 30))
+            continue
+        if r.status_code >= 500:
+            time.sleep(3)
+            continue
+        print(f"    claude {r.status_code}: {r.text[:160]}")
+        return None
+    return None
+
+
+def fallback_catalyst_tag(headlines):
+    """Keyword-map headlines to a v2 catalyst tag when Claude is unavailable."""
+    text = " ".join((h.get("title", "") if isinstance(h, dict) else str(h)) for h in (headlines or [])).lower()
+    if not text.strip():
+        return "NO-NEWS"
+    rules = [
+        (("phase 3", "phase iii", "phase-3"), "PHASE-3"),
+        (("phase 2", "phase ii", "phase-2"), "PHASE-2"),
+        (("phase 1", "phase i", "phase-1"), "PHASE-1"),
+        (("fda", "approval", "clearance", "authorization", "breakthrough"), "FDA"),
+        (("earnings", "beats", "guidance", "quarterly results", "revenue"), "EARNINGS"),
+        (("bankrupt", "chapter 11", "chapter 7", "delist"), "BANKRUPTCY"),
+        (("acquire", "acquisition", "acquired", "to buy"), "ACQUISITION"),
+        (("merger", "merge", "business combination"), "MERGER"),
+        (("buyback", "repurchase"), "SHARE-BUYBACK"),
+        (("compliance", "regain", "nasdaq notice", "listing requirement"), "COMPLIANCE"),
+        (("halt", "resume", "resumption"), "HALT-RESUME"),
+        (("contract", "award", "purchase order", "deal", "partnership"), "CONTRACT"),
+        (("offering", "priced", "registered direct", "atm", "shelf", "warrant"), "OFFERING"),
+    ]
+    for kws, tag in rules:
+        if any(k in text for k in kws):
+            return tag
+    return "NO-NEWS"
+
+
+def call_claude_runner(m, date_str):
+    """
+    Per-runner Claude pass → {newsSummary, bullFactors, bearFactors, tag}.
+    Degrades to a keyword fallback (no summary/factors) if Claude is unavailable.
+    """
+    headlines = [h.get("title", "") for h in (m.get("headlines") or []) if h.get("title")]
+    fallback = {
+        "newsSummary": None,
+        "bullFactors": [],
+        "bearFactors": [],
+        "tag":         fallback_catalyst_tag(m.get("headlines")),
+    }
+    if _CLAUDE_BLOCKED or not ANTHROPIC_API_KEY:
+        return fallback
+
+    context = {
+        "ticker":     m.get("ticker"),
+        "date":       date_str,
+        "hodPct":     m.get("hodPct"),
+        "fadePct":    m.get("fadePct"),
+        "gapPct":     m.get("gapPct"),
+        "float_m":    m.get("float"),
+        "sector":     m.get("sector"),
+        "country":    m.get("country"),
+        "marketCap":  m.get("marketCap"),
+        "relVol":     m.get("relVol"),
+        "headlines":  headlines[:8],
+    }
+    prompt = (
+        "You are a small-cap momentum trading analyst. Given one stock's trading day, "
+        "classify the catalyst and summarize why it ran.\n\n"
+        f"DATA:\n{json.dumps(context, default=str)}\n\n"
+        "Return ONLY a JSON object with these keys:\n"
+        '  "tag": one of ' + json.dumps(CATALYST_TAGS) + " (pick the single best catalyst; use NO-NEWS if there is no clear catalyst),\n"
+        '  "newsSummary": a 2-3 sentence plain-English TLDR of why it moved (string; if no news, say so briefly),\n'
+        '  "bullFactors": array of 2-4 short bullish points (strings),\n'
+        '  "bearFactors": array of 2-4 short bearish/risk points (strings).\n'
+        "No prose outside the JSON."
+    )
+    text = call_claude(prompt, max_tokens=700)
+    data = _extract_json(text)
+    if not data:
+        return fallback
+
+    tag = str(data.get("tag", "")).upper().strip()
+    if tag not in CATALYST_TAGS:
+        tag = fallback["tag"]
+    def _arr(v):
+        return [str(x) for x in v][:4] if isinstance(v, list) else []
+    return {
+        "newsSummary": (str(data["newsSummary"]).strip() if data.get("newsSummary") else None),
+        "bullFactors": _arr(data.get("bullFactors")),
+        "bearFactors": _arr(data.get("bearFactors")),
+        "tag":         tag,
+    }
+
+
+def call_claude_daily(movers, date_str):
+    """
+    Once-per-day cross-runner trend summary → string (or None if Claude off).
+    Summarizes what themes/tags/countries/float tiers / $ volume are bubbling up.
+    """
+    if _CLAUDE_BLOCKED or not ANTHROPIC_API_KEY or not movers:
+        return None
+    rows = []
+    for m in movers:
+        cl = m.get("claude") or {}
+        rows.append({
+            "sym":       m.get("ticker"),
+            "hodPct":    m.get("hodPct"),
+            "fadePct":   m.get("fadePct"),
+            "tag":       cl.get("tag"),
+            "sector":    m.get("sector"),
+            "country":   m.get("country"),
+            "float_m":   m.get("float"),
+            "volDollar": (round(m.get("vwap", 0) * m.get("vol", 0)) if m.get("vwap") and m.get("vol") else None),
+            "session":   session_bucket(m.get("hodTime")),
+        })
+    prompt = (
+        "You are a small-cap momentum desk analyst writing a one-paragraph tape read.\n"
+        f"Date: {date_str}. Here are today's top runners:\n{json.dumps(rows, default=str)}\n\n"
+        "Write 2-4 sentences on what themes are bubbling up across these names: "
+        "dominant catalyst tags, country/sector concentration, float-tier skew, "
+        "$-volume/where HODs printed (session). Be concrete and specific. "
+        "Return ONLY the paragraph text, no JSON, no preamble."
+    )
+    text = call_claude(prompt, max_tokens=400)
+    return text.strip() if text else None
+
+
 THRESHOLDS = {
     "hodHot":       150,
     "hodNeutralLo": 100,
@@ -1379,7 +1720,9 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
 
     for m in movers:
         c    = m["classification"]
+        cl   = m.get("claude") or {}
         news = [h["title"] for h in (m.get("headlines") or []) if h.get("title")]
+        vol_dollar = round(m["vwap"] * m["vol"]) if m.get("vwap") and m.get("vol") else None
 
         # Build sections from classification key_sections + reasons
         sections = []
@@ -1403,11 +1746,13 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
             "hod":          int(m["hodPct"]),
             "hodExact":     m["hodPct"],
             "news":         news,
-            "tag":          c["primary_tag"],
+            # v2 catalyst tag comes from Claude; fall back to legacy classifier tag.
+            "tag":          cl.get("tag") or c["primary_tag"],
             "name":         m.get("name", m["ticker"]),
             "sector":       m.get("sector", "Unknown"),
             "country":      m.get("country", "US"),
             "floatM":       m.get("float"),
+            "floatTier":    float_tier(m.get("float")),
             "floatSrc":     m.get("float_src", "Polygon"),
             "marketCap":    fmt_mc(m.get("marketCap", 0)),
             "riskBadges":   c.get("risk_badges", []),
@@ -1420,6 +1765,7 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
             "open":         m["open"],
             "gapPct":       m["gapPct"],
             "time":         m.get("session", "session"),
+            "session":      session_bucket(m.get("hodTime")),
             "high":         m["high"],
             "hodTimeExact": m.get("hodTime"),
             "close":        m["close"],
@@ -1429,8 +1775,16 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
             "vsVwap":       m["vsVwap"],
             "pmHigh":       m.get("pmHigh"),
             "volRaw":       fmt_vol(m["vol"]),
+            "volDollar":    vol_dollar,
             "relVol":       m.get("relVol"),
             "avgVolM":      m.get("avgVol"),
+            # v2 badges + Claude-generated research
+            "ssr":          bool(m.get("ssr")),
+            "reverseSplit": m.get("reverse_split"),
+            "newsHeadlines": news,
+            "newsSummary":  cl.get("newsSummary"),
+            "bullFactors":  cl.get("bullFactors", []),
+            "bearFactors":  cl.get("bearFactors", []),
         }
         runners.append(runner)
 
@@ -1462,6 +1816,10 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
         f"held <20% fade.{news_note}"
     ) if runners else "No qualifying runners."
 
+    # v2: once-per-day Claude trend summary across all runners. Lives on the entry
+    # (not top-level) so merge.py carries it into data2.json intact.
+    ai_summary = call_claude_daily(movers, date_str)
+
     return {
         "date":    date_str,
         "runners": runners,
@@ -1470,6 +1828,7 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
         "hodTime": lead.get("time", "session"),
         "theme":   theme,
         "note":    note,
+        "aiSummary": ai_summary,
     }
 
 
@@ -1490,7 +1849,7 @@ def render_heat_gauge_json(target_date, movers, near_miss):
 # ---------------------------------------------------------------------------
 
 def main():
-    global POLYGON_API_KEY, ASKEDGAR_API_KEY, DEBUG_MODE
+    global POLYGON_API_KEY, ASKEDGAR_API_KEY, ANTHROPIC_API_KEY, DEBUG_MODE
 
     print("📊 Small Cap Evening Rundown Generator")
     print("=" * 50)
@@ -1500,6 +1859,10 @@ def main():
 
     print("\nPaste your AskEdgar API key and press Enter:")
     ASKEDGAR_API_KEY = input("> ").strip()
+
+    print("\nPaste your Anthropic (Claude) API key and press Enter")
+    print("  — leave blank to skip Claude tags/summaries (v2 fields degrade gracefully):")
+    ANTHROPIC_API_KEY = input("> ").strip()
 
     print("\nEnable debug mode? Dumps raw AskEdgar JSON for the first ticker (y/N):")
     DEBUG_MODE = input("> ").strip().lower() in ("y", "yes")
