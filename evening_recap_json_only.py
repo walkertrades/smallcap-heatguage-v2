@@ -1860,9 +1860,16 @@ def main():
     print("\nPaste your AskEdgar API key and press Enter:")
     ASKEDGAR_API_KEY = input("> ").strip()
 
-    print("\nPaste your Anthropic (Claude) API key and press Enter")
-    print("  — leave blank to skip Claude tags/summaries (v2 fields degrade gracefully):")
-    ANTHROPIC_API_KEY = input("> ").strip()
+    # Prefer the ANTHROPIC_API_KEY environment variable so the key doesn't have
+    # to be pasted every run; fall back to prompting if it isn't set.
+    env_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if env_key:
+        ANTHROPIC_API_KEY = env_key
+        print("\nAnthropic API key loaded from environment variable.")
+    else:
+        print("\nPaste your Anthropic (Claude) API key and press Enter")
+        print("  — leave blank to skip Claude tags/summaries:")
+        ANTHROPIC_API_KEY = input("> ").strip()
 
     print("\nEnable debug mode? Dumps raw AskEdgar JSON for the first ticker (y/N):")
     DEBUG_MODE = input("> ").strip().lower() in ("y", "yes")
