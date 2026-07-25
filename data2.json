@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-24T10:49:57.978573Z",
-  "count": 9484,
+  "exportedAt": "2026-07-25T10:34:12.128537Z",
+  "count": 9494,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,677 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-24",
+      "runners": [
+        {
+          "sym": "STAK",
+          "hod": 809,
+          "hodExact": 809.09,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "STAK Inc. Class A Ordinary Shares",
+          "sector": "Energy",
+          "country": "CN",
+          "floatM": 10.14,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$93M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.32,
+          "open": 1.23,
+          "gapPct": -6.82,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 12,
+          "hodTimeExact": "03:12 PM ET",
+          "close": 9.27,
+          "fade": 22,
+          "fadeExact": 22.75,
+          "vwap": 4.6727,
+          "vsVwap": "above",
+          "pmHigh": 1.31,
+          "volRaw": "67.1M",
+          "volDollar": 313410507,
+          "relVol": 13.5,
+          "avgVolM": 5.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "STAK showed exceptional momentum on 2026-07-24 with an 809% hold percentage despite no identifiable news catalyst, suggesting pure technical or sentiment-driven buying. The massive 13.5x relative volume and small 10.14M float likely amplified retail interest in this micro-cap Chinese energy stock.",
+          "bullFactors": [
+            "Extreme relative volume (13.5x) indicates strong retail demand and liquidity spike",
+            "Tiny float (10.14M) creates explosive squeeze potential on modest buy pressure",
+            "809% hold rate shows conviction; buyers refusing to fade intraday strength"
+          ],
+          "bearFactors": [
+            "No news catalyst makes move unsustainable; likely pure momentum with reversal risk",
+            "22.75% fade percentage shows notable profit-taking into strength",
+            "Chinese micro-cap with negative opening gap (-6.82%) suggests overnight weakness before reversal"
+          ]
+        },
+        {
+          "sym": "OMH",
+          "hod": 416,
+          "hodExact": 416.27,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Ohmyhome Limited Class A Ordinary Shares",
+          "sector": "Real Estate",
+          "country": "SG",
+          "floatM": 24.84,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4242,
+          "open": 0.6132,
+          "gapPct": 44.55,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.19,
+          "hodTimeExact": "11:18 AM ET",
+          "close": 0.5034,
+          "fade": 77,
+          "fadeExact": 77.01,
+          "vwap": 0.9773,
+          "vsVwap": "below",
+          "pmHigh": 0.8166,
+          "volRaw": "259.3M",
+          "volDollar": 253422097,
+          "relVol": 15.2,
+          "avgVolM": 17.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "No news headlines available for OMH on 2026-07-24. The 416% HOD gain suggests strong intraday momentum driven by technical factors, low float dynamics, or market microstructure rather than a fundamental catalyst.",
+          "bullFactors": [
+            "Extreme HOD performance of 416% indicates powerful intraday buying pressure",
+            "Very low float (24.84M shares) amplifies volatility and price acceleration potential",
+            "High relative volume (15.2x) shows strong participation and conviction",
+            "Small-cap real estate play may attract speculative momentum traders"
+          ],
+          "bearFactors": [
+            "No identified fundamental catalyst raises sustainability concerns for the move",
+            "77% fade percentage suggests significant profit-taking and reversal risk",
+            "Lack of news headlines indicates potential pump-and-dump or technical-driven volatility",
+            "Small market cap ($18.2M) creates liquidity and manipulation risks"
+          ]
+        },
+        {
+          "sym": "WLDS",
+          "hod": 94,
+          "hodExact": 94.9,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Wearable Devices Ltd. Ordinary Share",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 2.21,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 2.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.21M + RelVol 19.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.21M + RelVol 19.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.23,
+          "open": 2.56,
+          "gapPct": 14.8,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 4.3463,
+          "hodTimeExact": "04:10 AM ET",
+          "close": 3.53,
+          "fade": 18,
+          "fadeExact": 18.78,
+          "vwap": 3.1455,
+          "vsVwap": "above",
+          "pmHigh": 3.79,
+          "volRaw": "29.7M",
+          "volDollar": 93453821,
+          "relVol": 19.2,
+          "avgVolM": 1.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "No news headlines available for WLDS on 2026-07-24. The stock ran on technicals and momentum alone, with 94.9% of volume during hold periods and a 14.8% gap up suggesting pre-market strength and retail/momentum-driven accumulation.",
+          "bullFactors": [
+            "Massive 94.9% hold percentage indicates strong conviction and minimal profit-taking",
+            "14.8% gap up suggests overnight accumulation and positive sentiment",
+            "19.2x relative volume with tiny 2.21M float creates explosive move potential",
+            "Technology sector micro-cap with low float is prime momentum target"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst—pure technical/momentum play with elevated risk of reversal",
+            "18.78% fade percentage shows some distribution despite strong hold rate",
+            "Micro-cap with $7.5M market cap and minimal float prone to high volatility and potential manipulation",
+            "Lack of news makes sustainability questionable once momentum exhausts"
+          ]
+        },
+        {
+          "sym": "TC",
+          "hod": 92,
+          "hodExact": 92.02,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Token Cat Limited American Depositary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 0.45,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$51M",
+          "riskBadges": [
+            "Float 0.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.88,
+          "open": 1.92,
+          "gapPct": 2.13,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.61,
+          "hodTimeExact": "02:38 PM ET",
+          "close": 2.3,
+          "fade": 36,
+          "fadeExact": 36.29,
+          "vwap": 2.8915,
+          "vsVwap": "below",
+          "pmHigh": 1.92,
+          "volRaw": "12.9M",
+          "volDollar": 37184540,
+          "relVol": 2.8,
+          "avgVolM": 4.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "No news headlines available for TC on 2026-07-24. The move appears driven by technical momentum and market microstructure rather than a discrete catalyst.",
+          "bullFactors": [
+            "Strong hold rate of 92% suggests institutional or large trader conviction",
+            "Elevated relative volume (2.8x) indicates significant participation",
+            "Micro-cap float (0.45M shares) enables outsized percentage moves on modest volume",
+            "Gap up 2.13% suggests positive overnight sentiment or opening momentum"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst identified—move may be purely momentum-driven and prone to reversal",
+            "China-listed industrials face macro headwinds and regulatory uncertainty",
+            "Micro-cap with tiny float presents extreme volatility and liquidity risk",
+            "36% fade percentage indicates meaningful profit-taking; sustainability questionable"
+          ]
+        },
+        {
+          "sym": "CNET",
+          "hod": 86,
+          "hodExact": 86.81,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ZW Data Action Technologies Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 3.01,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 3.01M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.01M + RelVol 25.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.01M + RelVol 25.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.91,
+          "open": 1.01,
+          "gapPct": 10.99,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.7,
+          "hodTimeExact": "03:24 PM ET",
+          "close": 0.793,
+          "fade": 53,
+          "fadeExact": 53.35,
+          "vwap": 1.2995,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "5.7M",
+          "volDollar": 7399278,
+          "relVol": 25.3,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "No headlines or news events were reported for CNET on 2026-07-24, suggesting the move was driven by technical momentum and market sentiment rather than a specific catalyst.",
+          "bullFactors": [
+            "Strong hold rate of 86.81% indicates conviction from early buyers",
+            "Massive relative volume of 25.3x suggests significant institutional or retail interest",
+            "10.99% gap opening shows overnight accumulation pressure",
+            "Small float (3.01M shares) amplifies momentum moves in low-liquidity names"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst creates risk of rapid fade—53.35% fade rate shows selling pressure intraday",
+            "Chinese Communication Services stocks face regulatory overhang and geopolitical risks",
+            "Micro-cap valuation ($2.94M) indicates limited institutional support and high volatility risk",
+            "Momentum without news is unsustainable; likely a squeeze or technical setup prone to reversal"
+          ]
+        },
+        {
+          "sym": "VIVK",
+          "hod": 84,
+          "hodExact": 84.91,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Vivakor, Inc. Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 0.66,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.66M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.12,
+          "open": 3.61,
+          "gapPct": 70.28,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.92,
+          "hodTimeExact": "09:30 AM ET",
+          "close": 2.91,
+          "fade": 25,
+          "fadeExact": 25.77,
+          "vwap": 3.0136,
+          "vsVwap": "below",
+          "pmHigh": 3.8199,
+          "volRaw": "106.9M",
+          "volDollar": 322245462,
+          "relVol": 11.8,
+          "avgVolM": 9.1,
+          "ssr": true,
+          "reverseSplit": "20:1",
+          "newsHeadlines": [],
+          "newsSummary": "No headlines provided for VIVK on 2026-07-24. The 70.28% gap and strong 84.91% HOD percentage suggest a pre-market or opening spike, likely driven by technical factors, low float dynamics (0.66M shares), or broad energy sector momentum rather than company-specific news.",
+          "bullFactors": [
+            "Massive 70.28% gap open indicates strong overnight accumulation or sector tailwind",
+            "84.91% HOD hold suggests buyers defending gains throughout the session",
+            "11.8x relative volume shows explosive retail/institutional interest",
+            "Micro-cap float (0.66M) amplifies price moves on modest volume"
+          ],
+          "bearFactors": [
+            "25.77% fade-to-close indicates significant profit-taking or intraday weakness",
+            "No fundamental catalyst identified—move may lack staying power",
+            "Ultra-tight float creates squeeze/momentum trap risk with potential sharp reversals",
+            "Energy sector volatility without catalyst clarity increases whipsaw risk"
+          ]
+        },
+        {
+          "sym": "AKAN",
+          "hod": 73,
+          "hodExact": 73.48,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Akanda Corp. Common Shares",
+          "sector": "Healthcare",
+          "country": "GB",
+          "floatM": 0.54,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 0.54M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.54M + RelVol 165.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.54M + RelVol 165.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 8.07,
+          "open": 10,
+          "gapPct": 23.92,
+          "time": "regular session",
+          "session": "morning",
+          "high": 14,
+          "hodTimeExact": "10:22 AM ET",
+          "close": 7.73,
+          "fade": 44,
+          "fadeExact": 44.79,
+          "vwap": 10.9144,
+          "vsVwap": "below",
+          "pmHigh": 11.1,
+          "volRaw": "5.7M",
+          "volDollar": 62534349,
+          "relVol": 165.9,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "No headlines provided for this trading day. The stock ran on technical momentum and internal factors rather than announced catalysts.",
+          "bullFactors": [
+            "Strong HOD retention at 73.48% suggests conviction buying and reduced profit-taking",
+            "Relative volume of 165.9% indicates significant institutional or retail accumulation",
+            "Tiny float (0.54M shares) amplifies price movement on elevated volume",
+            "Gap up of 23.92% shows overnight positive sentiment carrying into market open"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst identified; move is purely technical/momentum-driven and vulnerable to reversal",
+            "Fade percentage of 44.79% shows meaningful intraday selling pressure despite HOD hold",
+            "Micro-cap healthcare stock with minimal liquidity outside momentum windows",
+            "Absence of news increases binary risk and sustainability concerns"
+          ]
+        },
+        {
+          "sym": "LSH",
+          "hod": 70,
+          "hodExact": 70.01,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Lakeside Holding Limited Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 14.0,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 14.0M + RelVol 33.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 14.0M + RelVol 33.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3158,
+          "open": 0.362,
+          "gapPct": 14.63,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.5369,
+          "hodTimeExact": "03:58 PM ET",
+          "close": 0.3532,
+          "fade": 34,
+          "fadeExact": 34.21,
+          "vwap": 0.4086,
+          "vsVwap": "below",
+          "pmHigh": 0.3159,
+          "volRaw": "1.6M",
+          "volDollar": 674050,
+          "relVol": 33.8,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "No headlines or news events reported for LSH on 2026-07-24. The 70% HOD retention and strong relative volume (33.8x) suggest momentum-driven buying, possibly from technical breakout or sector rotation rather than a specific catalyst.",
+          "bullFactors": [
+            "Strong HOD retention of 70% indicates conviction and institutional accumulation",
+            "Elevated relative volume (33.8x) shows significant interest despite no headlines",
+            "Small float (14M shares) amplifies price moves on elevated volume",
+            "14.6% gap up suggests overnight accumulation or positive technicals"
+          ],
+          "bearFactors": [
+            "No identifiable catalyst raises risk of fade or profit-taking reversal",
+            "Fade percentage of 34% shows meaningful intraday selling pressure",
+            "Micro-cap industrials can be volatile and prone to sharp pullbacks",
+            "Lack of fundamental news support may limit sustained upside"
+          ]
+        },
+        {
+          "sym": "CJMB",
+          "hod": 66,
+          "hodExact": 66.81,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Callan JMB Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 2.68,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 2.68M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.35,
+          "open": 2.76,
+          "gapPct": 17.45,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.92,
+          "hodTimeExact": "09:43 AM ET",
+          "close": 2.55,
+          "fade": 34,
+          "fadeExact": 34.95,
+          "vwap": 3.0226,
+          "vsVwap": "below",
+          "pmHigh": 2.86,
+          "volRaw": "16.3M",
+          "volDollar": 49311210,
+          "relVol": 3.2,
+          "avgVolM": 5.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "No news headlines were available for CJMB on 2026-07-24. The move appears to be driven by technical momentum and retail interest rather than a fundamental catalyst.",
+          "bullFactors": [
+            "Strong HODL ratio of 66.81% indicates conviction buying and low early profit-taking",
+            "3.2x relative volume suggests meaningful participation despite lack of news",
+            "Small float (2.68M shares) amplifies momentum moves with less supply",
+            "Gap up of 17.45% shows overnight strength and potential follow-through buying"
+          ],
+          "bearFactors": [
+            "No news catalyst creates risk of sharp reversal or fade once momentum exhausts",
+            "34.95% fade ratio indicates meaningful selling pressure intraday despite strength",
+            "Micro-cap industrials ($14.6M market cap) are illiquid and prone to whipsaw moves",
+            "Absence of fundamental support makes this purely technical/momentum-driven"
+          ]
+        },
+        {
+          "sym": "GSUN",
+          "hod": 64,
+          "hodExact": 64.05,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Golden Sun Technology Group Limited Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 8.12,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 8.12M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.346,
+          "open": 0.348,
+          "gapPct": 0.58,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.5676,
+          "hodTimeExact": "11:41 AM ET",
+          "close": 0.209,
+          "fade": 63,
+          "fadeExact": 63.18,
+          "vwap": 0.4131,
+          "vsVwap": "below",
+          "pmHigh": 0.393,
+          "volRaw": "133.7M",
+          "volDollar": 55218069,
+          "relVol": 12.7,
+          "avgVolM": 10.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "No headlines provided for GSUN on 2026-07-24. The 64% hodl rate and strong 12.7x relative volume suggest organic momentum or technical breakout rather than news-driven catalyst.",
+          "bullFactors": [
+            "Strong 64% hodl percentage indicates conviction buying and low profit-taking",
+            "Exceptional 12.7x relative volume shows aggressive institutional or retail participation",
+            "Minimal gap (0.58%) suggests clean momentum build rather than gap-and-fade setup",
+            "Small float (8.12M shares) amplifies price impact of volume"
+          ],
+          "bearFactors": [
+            "No clear fundamental catalyst identified—move may lack staying power",
+            "63% fade rate nearly matches hodl rate, indicating significant distribution/profit-taking",
+            "Chinese small-cap with $1.86B market cap carries geopolitical and liquidity risk",
+            "Consumer Defensive sector typically favors stability; momentum moves can reverse sharply"
+          ]
+        }
+      ],
+      "hod": 809,
+      "fade": 41,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "STAK led +809.09% (22% fade). 1/10 held <20% fade.",
+      "aiSummary": "The tape is dominated by Chinese and micro-cap energy plays, with STAK (809% HOD, CN energy, 10.1M float) and VIVK (85% HOD, US energy, 0.66M float) leading a sector-wide momentum surge despite zero news catalysts—classic speculative energy rotation. Country concentration is stark: China accounts for five of the top ten runners (STAK, TC, CNET, GSUN, OMH), suggesting either sector-wide sentiment or coordinated accumulation in beaten-down offshore names. Float tiers skew heavily micro (median 2.21M shares), with the three tiniest floats (TC at 0.45M, AKAN at 0.54M, VIVK at 0.66M) generating outsized afternoon/morning volume spikes—a hallmark of low-liquidity momentum traps. Afternoon sessions captured the biggest dollar volume (STAK $313M, VIVK $322M), indicating late-session accumulation rather than morning gaps, which typically signals institutional or coordinated retail positioning into close."
+    },
     {
       "date": "2026-07-23",
       "runners": [
