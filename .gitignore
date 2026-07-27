@@ -3,6 +3,9 @@ __pycache__/
 .env
 scratch/
 
+# Private trading playbook fed to Claude as prompt context — stays local.
+playbook_context.txt
+
 # Local data safety copies + cleanup review output — ~16MB each, not needed by
 # the site and git would keep them forever.
 data2_backup*.json

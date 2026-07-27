@@ -276,6 +276,7 @@ function moversForRange(entries, range, custom, predicate) {
   let subset;
   if (range === "d5") subset = sorted.slice(0, 5);
   else if (range === "d30") subset = sorted.slice(0, 30);
+  else if (range === "d90") subset = sorted.slice(0, 90);
   else if (range === "ytd") subset = inYear(refYear);
   else if (range === "lastyear") subset = inYear(refYear - 1);
   else if (range === "twoyears") subset = inYear(refYear - 2);

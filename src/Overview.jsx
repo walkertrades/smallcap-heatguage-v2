@@ -210,6 +210,9 @@ const MOVER_RANGES = [
   { key: "today", label: "TODAY" },
   { key: "d5", label: "LAST 5D" },
   { key: "d30", label: "30D" },
+  // 90D exists so clicking a bar on the HOD chart's 90D view can pull Top Movers
+  // onto the exact same window of days.
+  { key: "d90", label: "90D" },
   { key: "ytd", label: "YTD" },
   { key: "lastyear", label: "LAST YEAR" },
   { key: "twoyears", label: "TWO YEARS AGO" },
@@ -234,9 +237,16 @@ const MOVER_COLS = [
   { key: "sector",  label: "SECTOR",    text: true,  get: (r) => r.sectorNorm || "" },
   { key: "grade",   label: "GRADE",     num: true,   get: (r) => window.gradeRank(window.getGrade(r._date, r.sym)) },
 ];
+// rank column + every data column + the Playbook cell + the chevron
+const MV_COLSPAN = MOVER_COLS.length + 3;
 
-function TopMovers({ entries, selectedDate, filterPredicate, filterActive }) {
-  const [range, setRange] = useState_Ov("today");
+function TopMovers({ entries, selectedDate, filterPredicate, filterActive, hodWindow, onClearHodWindow,
+                    range: rangeProp, onRangeChange }) {
+  // Controlled when the Overview passes a range (so the HOD chart can drive it),
+  // self-managed on the standalone Top Movers page.
+  const [ownRange, setOwnRange] = useState_Ov("today");
+  const range = rangeProp != null ? rangeProp : ownRange;
+  const setRange = (v) => { if (onRangeChange) onRangeChange(v); else setOwnRange(v); };
   const [from, setFrom] = useState_Ov("");
   const [to, setTo] = useState_Ov("");
   const [sort, setSort] = useState_Ov({ key: "hod", dir: -1 }); // default HOD % desc
@@ -245,10 +255,19 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive }) {
   const [expanded, setExpanded] = useState_Ov(null);
 
   const rows = useMemo_Ov(() => {
-    const list = window.moversForRange(
+    let list = window.moversForRange(
       entries, range, { day: selectedDate, from, to },
       filterActive && filterPredicate ? filterPredicate : null
     );
+    // A bar clicked in the HOD Time Distribution narrows the list to runners
+    // whose high printed inside that 15-minute window — applied on top of
+    // whichever date range is selected above.
+    if (hodWindow) {
+      list = list.filter((r) => {
+        const m = window.minutesFromExact(r.hodTimeExact);
+        return m != null && m >= hodWindow.start && m < hodWindow.end;
+      });
+    }
     const col = MOVER_COLS.find((c) => c.key === sort.key) || MOVER_COLS[4];
     const sorted = [...list].sort((a, b) => {
       const av = col.get(a), bv = col.get(b);
@@ -256,7 +275,7 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive }) {
       return (av - bv) * sort.dir;
     });
     return sorted;
-  }, [entries, range, selectedDate, from, to, filterPredicate, filterActive, sort, gradeTick]);
+  }, [entries, range, selectedDate, from, to, filterPredicate, filterActive, hodWindow, sort, gradeTick]);
 
   const clickSort = (col) => {
     setSort((s) => s.key === col.key
@@ -287,7 +306,7 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive }) {
   const safePage = Math.min(page, pageCount);
   const shown = rows.slice((safePage - 1) * PER_PAGE, safePage * PER_PAGE);
   // snap back to page 1 whenever the underlying set changes
-  React.useEffect(() => { setPage(1); }, [range, from, to, selectedDate, filterActive, sort.key, sort.dir]);
+  React.useEffect(() => { setPage(1); }, [range, from, to, selectedDate, filterActive, hodWindow, sort.key, sort.dir]);
 
   // NOTE: "warn" is already a styled component class in styles.css (red box) —
   // use a unique name so the fade cell only tints the text.
@@ -314,6 +333,17 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive }) {
         </div>
       )}
 
+      {hodWindow && (
+        <div className="mv-filterbar">
+          <span className="mv-filterlbl">HOD TIME</span>
+          <button className="mv-filterchip" onClick={onClearHodWindow} title="Clear the HOD time filter">
+            {window.fmtClockMin(hodWindow.start)}–{window.fmtClockMin(hodWindow.end)}
+            <span className="mv-filterchip-x">×</span>
+          </button>
+          <span className="mv-filternote">high of day printed in this 15-minute window</span>
+        </div>
+      )}
+
       <div className="movers-table-wrap" ref={wrapRef}>
         <table className="movers-table">
           <thead>
@@ -323,13 +353,16 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive }) {
                 <th key={c.key} className={`sortable ${c.num ? "num" : ""} ${sort.key === c.key ? "sorted" : ""}`}
                   onClick={() => clickSort(c)}>{c.label}{arrow(c)}</th>
               ))}
+              <th className="mv-pbhead">PLAYBOOK</th>
               <th />
             </tr>
           </thead>
           <tbody>
             {shown.length === 0 && (
-              <tr><td colSpan={MOVER_COLS.length + 2} className="movers-empty">
-                No runners in this range{filterActive ? " matching the active filters" : ""}.
+              <tr><td colSpan={MV_COLSPAN} className="movers-empty">
+                No runners in this range
+                {filterActive ? " matching the active filters" : ""}
+                {hodWindow ? " with their HOD in that time window" : ""}.
               </td></tr>
             )}
             {shown.map((r, i) => {
@@ -358,11 +391,14 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive }) {
                     <td>{r.country || "—"}</td>
                     <td className="mv-sector">{r.sectorNorm || "—"}</td>
                     <td className="num"><GradeBadge grade={window.getGrade(r._date, r.sym)} /></td>
+                    <td className="mv-pb" onClick={(e) => e.stopPropagation()}>
+                      <window.AddToPlaybook r={r} compact />
+                    </td>
                     <td className="mv-chev"><span className={`mv-chev-ic ${isOpen ? "open" : ""}`}>›</span></td>
                   </tr>
                   {isOpen && (
                     <tr className="mover-detail-row">
-                      <td colSpan={MOVER_COLS.length + 2}>
+                      <td colSpan={MV_COLSPAN}>
                         {/* small inset: the panel sits inside the table, so matching
                             the container exactly nudges the table past it */}
                         <div className="mover-detail-inner" style={wrapW ? { width: Math.max(0, wrapW - 8) + "px" } : null}>
@@ -486,19 +522,42 @@ function CalDayDetail({ iso, d, onClose }) {
 
 // HOD Time Distribution — 15-min buckets 4:00 AM → 8:00 PM, grouped by session zone.
 const HOD_RANGES = [{ key: "5D", days: 5 }, { key: "30D", days: 30 }, { key: "90D", days: 90 }];
+// Clicking a bar switches Top Movers to the equivalent window of days.
+const HOD_TO_MOVER_RANGE = { "5D": "d5", "30D": "d30", "90D": "d90" };
 const TOTAL_BUCKETS = 64; // 4:00 AM → 8:00 PM in 15-minute steps
-function HodTimeDistribution({ entries, predicate }) {
-  const [range, setRange] = useState_Ov("30D");
+function HodTimeDistribution({ entries, predicate, selected, onSelect, range: rangeProp, onRangeChange }) {
+  const [ownRange, setOwnRange] = useState_Ov("30D");
+  const range = rangeProp != null ? rangeProp : ownRange;
+  const setRange = (v) => { if (onRangeChange) onRangeChange(v); else setOwnRange(v); };
   const [hover, setHover] = useState_Ov(null);
   const days = (HOD_RANGES.find((r) => r.key === range) || HOD_RANGES[1]).days;
   const dist = useMemo_Ov(() => window.hodTimeDistribution(entries, days, predicate), [entries, days, predicate]);
+  const selStart = selected ? selected.start : null;
+  // Click a bar to filter Top Movers to that 15-min window; click it again to
+  // clear. The chart's own range travels with the selection so Top Movers can
+  // switch to the same span of days.
+  const pick = (b) => {
+    if (!onSelect) return;
+    onSelect(selStart === b.start ? null : { start: b.start, end: b.start + 15 }, range);
+  };
 
   return (
     <div className="card hodtime-card">
       <div className="hodtime-head">
         <div>
           <span className="card-title">HOD TIME DISTRIBUTION</span>
-          <span className="hodtime-sub">{dist.total} runners · when the high of day printed</span>
+          {selStart != null && (
+            <button className="hodtime-clear" onClick={() => onSelect(null)}
+              title="Clear the HOD time filter">
+              {window.fmtClockMin(selStart)}–{window.fmtClockMin(selStart + 15)}
+              <span className="hodtime-clear-x">×</span>
+            </button>
+          )}
+          <span className="hodtime-sub">
+            {selStart != null
+              ? `filtering Top Movers to this window across ${range} · click the bar again to clear`
+              : `${dist.total} runners · when the high of day printed — click a bar to filter Top Movers to ${range}`}
+          </span>
         </div>
         <div className="volchart-ranges">
           {HOD_RANGES.map((r) => (
@@ -528,8 +587,12 @@ function HodTimeDistribution({ entries, predicate }) {
         {dist.zones.map((z) => (
           <div key={z.key} className="hodtime-zone" style={{ flex: z.buckets.length, "--zc": z.color }}>
             {z.buckets.map((b) => (
-              <div key={b.i} className={`hodtime-col ${hover && hover.i === b.i ? "hovered" : ""}`}
-                onMouseEnter={() => setHover({ i: b.i, start: b.start, count: b.count, color: z.color, label: z.label })}>
+              <div key={b.i} role="button" tabIndex={0} aria-pressed={selStart === b.start}
+                title={`${window.fmtClockMin(b.start)}–${window.fmtClockMin(b.start + 15)} · ${b.count} ${b.count === 1 ? "runner" : "runners"}`}
+                className={`hodtime-col ${hover && hover.i === b.i ? "hovered" : ""} ${selStart === b.start ? "selected" : ""}`}
+                onMouseEnter={() => setHover({ i: b.i, start: b.start, count: b.count, color: z.color, label: z.label })}
+                onClick={() => pick(b)}
+                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(b); } }}>
                 <div className="hodtime-bar" style={{ height: `${Math.max((b.count / dist.max) * 100, b.count ? 1.5 : 0)}%` }} />
               </div>
             ))}
@@ -593,6 +656,20 @@ function Overview({ entries, thresholds, filterState, setFilterState, filterPred
   const state = today ? today.state : "EMPTY";
   const rules = window.RULES[state] || window.RULES.NEUTRAL;
   const predicate = filterActive ? filterPredicate : null;
+  // Shared between the HOD Time Distribution chart and Top Movers: {start, end}
+  // in minutes-from-midnight ET, or null when no bar is selected.
+  const [hodWindow, setHodWindow] = useState_Ov(null);
+  const [hodRange, setHodRange] = useState_Ov("30D");   // the chart's 5D/30D/90D
+  const [moverRange, setMoverRange] = useState_Ov("today"); // Top Movers' date tab
+
+  // Selecting a bar pulls Top Movers onto the same span of days the chart is
+  // showing, so the table and the histogram describe the same set of runners.
+  // Changing the Top Movers tab afterwards keeps the time window and just
+  // re-runs it over the new range.
+  const pickHodWindow = (win, chartRange) => {
+    setHodWindow(win);
+    if (win) setMoverRange(HOD_TO_MOVER_RANGE[chartRange || hodRange] || "d30");
+  };
 
   const runnerCounts = useMemo_Ov(() => {
     let total = 0, match = 0;
@@ -611,11 +688,16 @@ function Overview({ entries, thresholds, filterState, setFilterState, filterPred
       <RollingStrip series={series} activeDate={today ? today.date : null} onSelectDay={onSelectDate} />
 
       <section className="mid-grid">
-        <TopMovers entries={entries} selectedDate={today ? today.date : null} filterPredicate={filterPredicate} filterActive={filterActive} />
+        <TopMovers entries={entries} selectedDate={today ? today.date : null}
+          filterPredicate={filterPredicate} filterActive={filterActive}
+          hodWindow={hodWindow} onClearHodWindow={() => setHodWindow(null)}
+          range={moverRange} onRangeChange={setMoverRange} />
         <HistoricalContext series={series} />
       </section>
 
-      <HodTimeDistribution entries={entries} predicate={predicate} />
+      <HodTimeDistribution entries={entries} predicate={predicate}
+        selected={hodWindow} onSelect={pickHodWindow}
+        range={hodRange} onRangeChange={setHodRange} />
 
       {/* Period Comparison + $ Volume are the last content on the page —
           Market Intel, High Impact Catalysts and the Filters bar were removed. */}

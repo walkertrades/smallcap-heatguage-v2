@@ -75,40 +75,130 @@ function useClock() {
   return now;
 }
 
+// ── Nav icons ──────────────────────────────────────────────────────
+// Inline SVG, no icon library. All five share one geometry: 24x24 box, outline
+// only, stroke-width 1.5, round caps/joins, currentColor — so they inherit the
+// nav item's active/inactive colour and stay legible at 20px with no label.
+const NAV_ICON_PATHS = {
+  // 2x2 dashboard grid
+  overview: (
+    <>
+      <rect x="3.75" y="3.75" width="7" height="7" rx="1.6" />
+      <rect x="13.25" y="3.75" width="7" height="7" rx="1.6" />
+      <rect x="3.75" y="13.25" width="7" height="7" rx="1.6" />
+      <rect x="13.25" y="13.25" width="7" height="7" rx="1.6" />
+    </>
+  ),
+  // calendar: hanger rings + header band + a 2x2 date grid.
+  // A folded top corner was tried first (see the report) — at 20px it read as a
+  // document/spreadsheet, so the hangers carry the recognition instead.
+  calendar: (
+    <>
+      <rect x="3.5" y="5.5" width="17" height="15" rx="2" />
+      <path d="M3.5 10.5h17" />
+      <path d="M8 3v5M16 3v5" />
+      <path d="M12 10.5v10M3.5 15.5h17" />
+    </>
+  ),
+  // ascending bars on a baseline with an up-arrow over the tallest
+  movers: (
+    <>
+      <path d="M3.25 20.5h17.5" />
+      <rect x="4.5" y="14" width="3.6" height="6.5" rx="0.8" />
+      <rect x="10.2" y="10.5" width="3.6" height="10" rx="0.8" />
+      <rect x="15.9" y="10" width="3.6" height="10.5" rx="0.8" />
+      <path d="M15 7.4 17.7 4.7l2.7 2.7" />
+      <path d="M17.7 4.7v5.3" />
+    </>
+  ),
+  // open book with a bookmark ribbon over the right-hand page
+  playbook: (
+    <>
+      <path d="M12 8.1c-1.5-1.3-3.7-2-6.5-2-.85 0-1.5.65-1.5 1.45v9.9c0 .8.65 1.45 1.5 1.45 2.8 0 5 .7 6.5 2 1.5-1.3 3.7-2 6.5-2 .85 0 1.5-.65 1.5-1.45V7.55c0-.8-.65-1.45-1.5-1.45-2.8 0-5 .7-6.5 2Z" />
+      <path d="M12 8.1v12.8" />
+      <path d="M14.6 6.5v6.4l2.45-1.85L19.5 12.9V6.2" />
+    </>
+  ),
+  // 8-tooth cog (path generated, see the tooth geometry in the report)
+  settings: (
+    <>
+      <path d="M10 5.4L10.45 3.13L13.55 3.13L14 5.4L15.26 5.92L17.18 4.64L19.36 6.82L18.08 8.74L18.6 10L20.87 10.45L20.87 13.55L18.6 14L18.08 15.26L19.36 17.18L17.18 19.36L15.26 18.08L14 18.6L13.55 20.87L10.45 20.87L10 18.6L8.74 18.08L6.82 19.36L4.64 17.18L5.92 15.26L5.4 14L3.13 13.55L3.13 10.45L5.4 10L5.92 8.74L4.64 6.82L6.82 4.64L8.74 5.92Z" />
+      <circle cx="12" cy="12" r="3.1" />
+    </>
+  ),
+};
+
+function NavIcon({ name }) {
+  const glyph = NAV_ICON_PATHS[name];
+  if (!glyph) return null;
+  return (
+    <svg className="nav-svg" viewBox="0 0 24 24" width="20" height="20"
+      fill="none" stroke="currentColor" strokeWidth="1.5"
+      strokeLinecap="round" strokeLinejoin="round"
+      aria-hidden="true" focusable="false">
+      {glyph}
+    </svg>
+  );
+}
+
 // ── Sidebar ────────────────────────────────────────────────────────
 const NAV = [
-  { key: "overview", label: "Overview",   icon: "▦" },
-  { key: "calendar", label: "Calendar",   icon: "▤" },
-  { key: "movers",   label: "Top Movers", icon: "↗" },
+  { key: "overview", label: "Overview",   icon: "overview" },
+  { key: "calendar", label: "Calendar",   icon: "calendar" },
+  { key: "movers",   label: "Top Movers", icon: "movers" },
 ];
 const NAV_TAIL = [
-  { key: "settings", label: "Settings",   icon: "⚙" },
+  { key: "settings", label: "Settings",   icon: "settings" },
 ];
+
+// Collapsed state survives reloads — it's a layout preference, not view state.
+const SIDEBAR_KEY = "hg2:sidebarCollapsed";
+function loadSidebarCollapsed() {
+  try { return window.localStorage.getItem(SIDEBAR_KEY) === "1"; } catch (_) { return false; }
+}
+function saveSidebarCollapsed(v) {
+  try { window.localStorage.setItem(SIDEBAR_KEY, v ? "1" : "0"); } catch (_) {}
+}
 
 function Sidebar({ view, setView, session, folders, folderId, setFolderId, onNewFolder, onDeleteFolder }) {
   const [open, setOpen] = useState_App(true);
+  const [collapsed, setCollapsed] = useState_App(loadSidebarCollapsed);
+  const toggleCollapsed = () => setCollapsed((v) => { saveSidebarCollapsed(!v); return !v; });
+
+  // `data-label` feeds the CSS tooltip that replaces the hidden text when collapsed.
   return (
-    <aside className="sidebar">
-      <div className="brand">
-        <span className="brand-logo">🔥</span>
-        <span className="brand-name">SMALL CAP HEAT</span>
+    <aside className={`sidebar ${collapsed ? "collapsed" : ""}`}>
+      <button className="sidebar-toggle" onClick={toggleCollapsed}
+        title={collapsed ? "Expand sidebar" : "Collapse sidebar"}
+        aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
+        aria-expanded={!collapsed}>
+        {collapsed ? "›" : "‹"}
+      </button>
+
+      <div className="brand" data-label="THE HEAT GAUGE">
+        <span className="brand-logo">
+          <img src="src/logo-small.svg?v=29" width="28" height="28" alt="" draggable="false" />
+        </span>
+        <span className="brand-name">THE HEAT GAUGE</span>
       </div>
       <nav className="nav">
         {NAV.map((n) => (
-          <button key={n.key} className={`nav-item ${view === n.key ? "active" : ""}`} onClick={() => setView(n.key)}>
-            <span className="nav-icon">{n.icon}</span><span>{n.label}</span>
+          <button key={n.key} className={`nav-item ${view === n.key ? "active" : ""}`}
+            data-label={n.label} aria-label={n.label} onClick={() => setView(n.key)}>
+            <span className="nav-icon"><NavIcon name={n.icon} /></span><span className="nav-text">{n.label}</span>
           </button>
         ))}
 
         {/* Playbook — expandable, its subfolders are saved filters */}
         <div className={`nav-group ${view === "playbook" ? "active-group" : ""}`}>
           <button className={`nav-item ${view === "playbook" ? "active" : ""}`}
+            data-label="Playbook" aria-label="Playbook"
             onClick={() => { setView("playbook"); setOpen(true); }}>
-            <span className="nav-icon">▣</span><span>Playbook</span>
+            <span className="nav-icon"><NavIcon name="playbook" /></span><span className="nav-text">Playbook</span>
             <span className="nav-chev" role="button" aria-label={open ? "Collapse" : "Expand"}
               onClick={(e) => { e.stopPropagation(); setOpen((v) => !v); }}>{open ? "▾" : "▸"}</span>
           </button>
-          {open && (
+          {open && !collapsed && (
             <div className="nav-sub">
               {folders.map((f) => (
                 <button key={f.id}
@@ -127,13 +217,14 @@ function Sidebar({ view, setView, session, folders, folderId, setFolderId, onNew
         </div>
 
         {NAV_TAIL.map((n) => (
-          <button key={n.key} className={`nav-item ${view === n.key ? "active" : ""}`} onClick={() => setView(n.key)}>
-            <span className="nav-icon">{n.icon}</span><span>{n.label}</span>
+          <button key={n.key} className={`nav-item ${view === n.key ? "active" : ""}`}
+            data-label={n.label} aria-label={n.label} onClick={() => setView(n.key)}>
+            <span className="nav-icon"><NavIcon name={n.icon} /></span><span className="nav-text">{n.label}</span>
           </button>
         ))}
       </nav>
       <div className="sidebar-foot">
-        <div className="session-card">
+        <div className="session-card" data-label={`${session.label} · ${session.clock}`}>
           <div className="card-label">MARKET SESSION</div>
           <div className={`session-status session-${session.cls}`}>
             <span className="session-dot" />{session.label}
@@ -158,7 +249,7 @@ function Dropdown({ label, value, options, onChange }) {
   );
 }
 
-function Topbar({ title, subtitle, session, dates, selectedDate, setSelectedDate }) {
+function Topbar({ title, subtitle, session, dates, selectedDate, setSelectedDate, user, profile }) {
   const dateOpts = [{ value: "", label: "Latest" }, ...dates.map((d) => ({ value: d, label: fmtLongDate(d) }))];
   return (
     <header className="topbar">
@@ -170,8 +261,11 @@ function Topbar({ title, subtitle, session, dates, selectedDate, setSelectedDate
         <Dropdown label="Date" value={selectedDate || ""} options={dateOpts} onChange={(v) => setSelectedDate(v || null)} />
       </div>
       <div className="topbar-right">
-        <div className={`market-status session-${session.cls}`}><span className="session-dot" />{session.label}</div>
-        <div className="topbar-clock">{session.clock}</div>
+        <div className="topbar-session">
+          <div className={`market-status session-${session.cls}`}><span className="session-dot" />{session.label}</div>
+          <div className="topbar-clock">{session.clock}</div>
+        </div>
+        {window.AuthUserMenu && <window.AuthUserMenu user={user} profile={profile} />}
       </div>
     </header>
   );
@@ -183,7 +277,7 @@ function Placeholder({ title }) {
     <div className="placeholder">
       <div className="placeholder-glyph">◱</div>
       <div className="placeholder-title">{title}</div>
-      <div className="placeholder-sub">This module is part of the Small Cap Heat platform. The Overview dashboard is the live build.</div>
+      <div className="placeholder-sub">This module is part of The Heat Gauge platform. The Overview dashboard is the live build.</div>
     </div>
   );
 }
@@ -205,28 +299,26 @@ function GaugePage({ entries, selectedDate, onSelectDate }) {
 }
 
 // ── App ────────────────────────────────────────────────────────────
-function App({ tweaks }) {
+function App({ tweaks, user, profile }) {
   const [entries, setEntries] = useState_App([]);
   const [status, setStatus] = useState_App("loading");
   const [errorMsg, setErrorMsg] = useState_App("");
   const [selectedDate, setSelectedDate] = useState_App(null);
   const [view, setView] = useState_App("overview");
   const [filterState, setFilterState] = useState_App(() => window.emptyFilterState());
-  const [folders, setFolders] = useState_App(() => window.pbLoadFolders());
+  // Folders live in a shared store (Playbook.jsx) so the sidebar, the Playbook
+  // page and every "Add to Playbook" popover stay in sync without prop drilling.
+  const folders = window.pbUseFolders();
   const [folderId, setFolderId] = useState_App("all");
   const [newFolderOpen, setNewFolderOpen] = useState_App(false);
 
   const createFolder = (f) => {
-    const next = folders.concat([f]);
-    setFolders(next);
-    window.pbSaveCustom(window.pbCustomOnly(next));
+    window.pbAddFolder(f);
     setFolderId(f.id);
     setNewFolderOpen(false);
   };
   const deleteFolder = (id) => {
-    const next = folders.filter((f) => f.id !== id);
-    setFolders(next);
-    window.pbSaveCustom(window.pbCustomOnly(next));
+    window.pbDeleteFolder(id);
     if (folderId === id) setFolderId("all");
   };
   const now = useClock();
@@ -265,6 +357,10 @@ function App({ tweaks }) {
     return { ...e, score: r.score, state: r.state, isBlackSwan: r.isBlackSwan || false };
   }), [entries, thresholds]);
 
+  // The folder editor is reachable from places that don't hold `entries` (the
+  // Add-to-Playbook popover), so publish the loaded data for its option lists.
+  window.pbRegisterEntries(scoredEntries);
+
   const filterPredicate = useMemo_App(() => window.makePredicate(filterState), [filterState]);
   const filterActive = useMemo_App(() => window.filterActiveCount(filterState) > 0, [filterState]);
 
@@ -277,7 +373,7 @@ function App({ tweaks }) {
     movers: ["Top Movers", "Every runner occurrence in the selected range"],
     playbook: ["Playbook", "Your library of plays, grouped into folders"],
     settings: ["Settings", "Platform configuration"],
-  }[view] || ["Small Cap Heat", ""];
+  }[view] || ["The Heat Gauge", ""];
 
   const latestEntry = useMemo_App(() => (scoredEntries.length ? [...scoredEntries].sort((a, b) => (a.date < b.date ? 1 : -1))[0] : null), [scoredEntries]);
   // NOTE: clicking a day in the Overview heat calendar shows an inline detail
@@ -288,7 +384,8 @@ function App({ tweaks }) {
         folders={folders} folderId={folderId} setFolderId={setFolderId}
         onNewFolder={() => setNewFolderOpen(true)} onDeleteFolder={deleteFolder} />
       <div className="main">
-        <Topbar title={titleFor[0]} subtitle={titleFor[1]} session={session} dates={dates} selectedDate={selectedDate} setSelectedDate={setSelectedDate} />
+        <Topbar title={titleFor[0]} subtitle={titleFor[1]} session={session} dates={dates}
+          selectedDate={selectedDate} setSelectedDate={setSelectedDate} user={user} profile={profile} />
         {banner}
         <div className="content">{body}</div>
       </div>

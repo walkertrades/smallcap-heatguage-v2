@@ -19,6 +19,18 @@ Usage:
 import sys, os, time, json, html, webbrowser, requests
 from datetime import date, timedelta, datetime, timezone
 
+
+def load_playbook_context():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "playbook_context.txt")
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except Exception:
+        return ""
+
+
+PLAYBOOK_CONTEXT = load_playbook_context()
+
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
@@ -42,6 +54,9 @@ CATALYST_TAGS = [
     "BANKRUPTCY", "ACQUISITION", "MERGER", "SHARE-BUYBACK", "SYMPATHY",
     "NO-NEWS", "HALT-RESUME", "CONTRACT", "OFFERING",
 ]
+
+# Claude's own setup grade (separate from the manual grade the front-end stores).
+SETUP_GRADES = ["A++", "A", "B+", "B", "C+", "C", "F"]
 
 # ---------------------------------------------------------------------------
 # Output directory — set this to your local repo folder so all files
@@ -1622,6 +1637,7 @@ def call_claude_runner(m, date_str):
         "newsSummary": None,
         "bullFactors": [],
         "bearFactors": [],
+        "setupGrade":  None,
         "tag":         fallback_catalyst_tag(m.get("headlines")),
     }
     if _CLAUDE_BLOCKED or not ANTHROPIC_API_KEY:
@@ -1641,14 +1657,15 @@ def call_claude_runner(m, date_str):
         "headlines":  headlines[:8],
     }
     prompt = (
-        "You are a small-cap momentum trading analyst. Given one stock's trading day, "
-        "classify the catalyst and summarize why it ran.\n\n"
-        f"DATA:\n{json.dumps(context, default=str)}\n\n"
-        "Return ONLY a JSON object with these keys:\n"
-        '  "tag": one of ' + json.dumps(CATALYST_TAGS) + " (pick the single best catalyst; use NO-NEWS if there is no clear catalyst),\n"
-        '  "newsSummary": a 2-3 sentence plain-English TLDR of why it moved (string; if no news, say so briefly),\n'
-        '  "bullFactors": array of 2-4 short bullish points (strings),\n'
-        '  "bearFactors": array of 2-4 short bearish/risk points (strings).\n'
+        "You are analyzing a small-cap momentum runner for an experienced day trader.\n\n"
+        f"TRADER FRAMEWORK:\n{PLAYBOOK_CONTEXT}\n\n"
+        f"TODAY'S RUNNER DATA:\n{json.dumps(context, default=str)}\n\n"
+        "Return ONLY a JSON object with these exact keys:\n"
+        '  "tag": one of ' + json.dumps(CATALYST_TAGS) + " — pick the single best catalyst, use NO-NEWS if unclear,\n"
+        '  "newsSummary": 2-3 sentences on why it moved and whether the catalyst has real merit or is fluff,\n'
+        '  "bullFactors": array of 2-4 bullish points specific to this trader\'s criteria,\n'
+        '  "bearFactors": array of 2-4 bearish/risk points (dilution, fade, premarket spike, overhead supply),\n'
+        '  "setupGrade": one of ["A++", "A", "B+", "B", "C+", "C", "F"] based on the grading scale above.\n'
         "No prose outside the JSON."
     )
     text = call_claude(prompt, max_tokens=700)
@@ -1661,10 +1678,14 @@ def call_claude_runner(m, date_str):
         tag = fallback["tag"]
     def _arr(v):
         return [str(x) for x in v][:4] if isinstance(v, list) else []
+    grade = str(data.get("setupGrade", "")).upper().strip()
+    if grade not in SETUP_GRADES:
+        grade = None
     return {
         "newsSummary": (str(data["newsSummary"]).strip() if data.get("newsSummary") else None),
         "bullFactors": _arr(data.get("bullFactors")),
         "bearFactors": _arr(data.get("bearFactors")),
+        "setupGrade":  grade,
         "tag":         tag,
     }
 
@@ -1691,12 +1712,13 @@ def call_claude_daily(movers, date_str):
             "session":   session_bucket(m.get("hodTime")),
         })
     prompt = (
-        "You are a small-cap momentum desk analyst writing a one-paragraph tape read.\n"
-        f"Date: {date_str}. Here are today's top runners:\n{json.dumps(rows, default=str)}\n\n"
-        "Write 2-4 sentences on what themes are bubbling up across these names: "
-        "dominant catalyst tags, country/sector concentration, float-tier skew, "
-        "$-volume/where HODs printed (session). Be concrete and specific. "
-        "Return ONLY the paragraph text, no JSON, no preamble."
+        "You are writing a tape read for an experienced small-cap momentum trader.\n\n"
+        f"TRADER FRAMEWORK:\n{PLAYBOOK_CONTEXT}\n\n"
+        f"Date: {date_str}. Today's top runners:\n{json.dumps(rows, default=str)}\n\n"
+        "Write 2-4 sentences covering: dominant catalyst type, country/sector concentration, "
+        "float tier skew, where HODs printed (session vs premarket), and whether today's tape "
+        "signals a hot/neutral/cold cycle for this trader's style. Be specific and direct. "
+        "Return ONLY the paragraph, no JSON, no preamble."
     )
     text = call_claude(prompt, max_tokens=400)
     return text.strip() if text else None
@@ -1785,6 +1807,7 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
             "newsSummary":  cl.get("newsSummary"),
             "bullFactors":  cl.get("bullFactors", []),
             "bearFactors":  cl.get("bearFactors", []),
+            "setupGrade":   cl.get("setupGrade"),
         }
         runners.append(runner)
 

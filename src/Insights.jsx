@@ -625,20 +625,116 @@ function PeriodComparison({ entries, predicate }) {
   );
 }
 
+// ── Rolling 5-day AI trend summary ─────────────────────────────────
+// The Python pipeline writes one aiSummary per day. This blends the most recent
+// five of them into a single cross-day read, computed client-side on load.
+//
+// The call goes to ./api/trend-summary rather than straight to api.anthropic.com:
+// this is a static page, so an API key shipped to the browser would be readable
+// by anyone with devtools. serve.py holds the key and makes the call.
+const TREND_CACHE_KEY = "hg2:trendSummary";
+const TREND_MODEL = "claude-sonnet-4-6";
+const TREND_MAX_TOKENS = 150;
+const TREND_DAYS = 5;
+
+// Newest ≤5 entries that actually carry an aiSummary, returned oldest → newest.
+function trendDays(entries) {
+  return (entries || [])
+    .filter((e) => e && e.date && e.aiSummary && String(e.aiSummary).trim())
+    .sort((a, b) => (a.date < b.date ? 1 : -1))
+    .slice(0, TREND_DAYS)
+    .reverse();
+}
+function trendKey(days) {
+  return days.length ? `${days[days.length - 1].date}::${days.length}` : "";
+}
+function buildTrendPrompt(days) {
+  const block = days.map((d) => `${d.date}: ${String(d.aiSummary).trim()}`).join("\n\n");
+  return (
+    `You are summarizing ${days.length} days of small-cap tape reads for a momentum trader.\n` +
+    `Here are the last ${days.length} daily summaries in order from oldest to newest:\n\n` +
+    `${block}\n\n` +
+    "Write 1-2 sentences identifying what themes, float tiers, countries, or catalyst types\n" +
+    "have been consistently showing up or trending over this " +
+    `${days.length}-day window. Be specific and direct.\n` +
+    "Return only the summary text, no preamble."
+  );
+}
+// Cached per browser session; re-fetches only when data2.json gains a newer date.
+function readTrendCache(days) {
+  try {
+    const raw = window.sessionStorage.getItem(TREND_CACHE_KEY);
+    if (!raw) return null;
+    const c = JSON.parse(raw);
+    return c && c.key === trendKey(days) && c.text ? c.text : null;
+  } catch (_) { return null; }
+}
+function writeTrendCache(days, text) {
+  try {
+    window.sessionStorage.setItem(TREND_CACHE_KEY, JSON.stringify({
+      key: trendKey(days), text, days: days.map((d) => d.date),
+    }));
+  } catch (_) {}
+}
+async function fetchTrendSummary(prompt) {
+  // If the page is ever hosted somewhere that injects a completion runtime, use it.
+  if (window.claude && typeof window.claude.complete === "function") {
+    const out = await window.claude.complete(prompt);
+    const text = typeof out === "string" ? out : (out && out.text) || "";
+    return String(text).trim() || null;
+  }
+  const res = await fetch("./api/trend-summary", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ prompt, model: TREND_MODEL, max_tokens: TREND_MAX_TOKENS }),
+  });
+  if (!res.ok) throw new Error(`trend proxy HTTP ${res.status}`);
+  const data = await res.json();
+  const text = data && data.text ? String(data.text).trim() : "";
+  return text || null;
+}
+
 // ── AI trend summary bar ───────────────────────────────────────────
-// Pre-computed by Python (entry.aiSummary or top-level data.aiSummary in v2).
-// Until real data lands, derive a lightweight themes-bubbling-up read from the
-// most recent days so the bar is never empty (static-placeholder-first per spec).
+// Falls back to the most recent single-day aiSummary, then to a locally derived
+// themes read, so the bar is never empty even with no API reachable.
 function AISummaryBar({ entries, aiSummary }) {
   const dom = useMemo_I(() => computeDominance(entries), [entries]);
   const autoText = dom && dom.clauses.length ? `Last ${dom.days} days — ${dom.clauses.join("; ")}.` : null;
-  const summary = aiSummary || autoText;
+
+  const days = useMemo_I(() => trendDays(entries), [entries]);
+  const daysKey = trendKey(days);
+  const [rolling, setRolling] = useState_I(null);
+  const [phase, setPhase] = useState_I("idle"); // idle | loading | cached | live | failed
+
+  React.useEffect(() => {
+    if (!days.length) { setRolling(null); setPhase("idle"); return; }
+    const cached = readTrendCache(days);
+    if (cached) { setRolling(cached); setPhase("cached"); return; }
+    let cancelled = false;
+    setPhase("loading");
+    fetchTrendSummary(buildTrendPrompt(days))
+      .then((text) => {
+        if (cancelled) return;
+        if (text) { writeTrendCache(days, text); setRolling(text); setPhase("live"); }
+        else setPhase("failed");
+      })
+      .catch(() => { if (!cancelled) setPhase("failed"); });
+    return () => { cancelled = true; };
+  }, [daysKey]);
+
+  const summary = rolling || aiSummary || autoText;
   if (!summary && (!dom || dom.chips.length === 0)) return null;
-  const isReal = !!aiSummary;
+  const badge = rolling ? `AI TREND · ${days.length}D`
+    : phase === "loading" ? "AI TREND · blending…"
+    : aiSummary ? "AI TREND"
+    : "TREND · auto";
 
   return (
     <div className="ai-summary-bar">
-      <span className="ai-summary-badge">{isReal ? "AI TREND" : "TREND · auto"}</span>
+      <span className={`ai-summary-badge ${phase === "loading" ? "loading" : ""}`}
+        title={rolling
+          ? `Blended from ${days.length} daily summaries (${days[0].date} → ${days[days.length - 1].date})`
+          : undefined}>{badge}</span>
       {summary && <p className="ai-summary-text">{summary}</p>}
       {dom && dom.chips.length > 0 && (
         <div className="ai-summary-chips">

@@ -1,0 +1,484 @@
+/* THE HEAT GAUGE — vault landing, header user chip, shared notes, upload states.
+   Split out of dashboard.css because it's a self-contained feature layer.
+
+   Landing palette is deliberately narrow: pure black, white/grey text, one hot
+   orange accent. It does NOT inherit the dashboard's blue/purple tokens. */
+
+:root {
+  --vault-accent: #ff6a1f;
+  --vault-accent-soft: rgba(255, 106, 31, 0.45);
+  --vault-line: rgba(255, 255, 255, 0.055);
+}
+
+/* ═══ Vault shell ═══════════════════════════════════════════════════ */
+.vault {
+  position: fixed; inset: 0; z-index: 500; overflow: hidden;
+  display: flex; align-items: center; justify-content: center; padding: 40px 20px;
+  color: #f2f3f5;
+  font-family: "Inter", "SF Pro Display", var(--font);
+}
+/* the dashboard sits underneath and is revealed, not cross-faded */
+.app-under { position: relative; z-index: 1; }
+
+/* ── doors: these are the background ── */
+.vault-door {
+  position: absolute; top: 0; bottom: 0; width: 50.2%;
+  background: #000; overflow: hidden;
+  transition: transform 0.95s cubic-bezier(0.76, 0, 0.24, 1);
+  will-change: transform;
+}
+.vault-door.left { left: 0; }
+.vault-door.right { right: 0; }
+/* full-viewport grid layer inside each half so the pattern runs unbroken
+   across the seam instead of restarting at each door's own origin */
+/* canvas painted by src/gridscan.js — never interactive */
+.vault-grid {
+  position: absolute; top: 0; height: 100%; width: 100vw; display: block;
+  pointer-events: none;
+  opacity: 0;
+  animation: vaultGridIn 2.1s cubic-bezier(0.22, 1, 0.36, 1) 0.15s forwards;
+}
+.vault-door.left .vault-grid { left: 0; }
+.vault-door.right .vault-grid { right: 0; }
+@keyframes vaultGridIn {
+  from { opacity: 0; transform: scale(1.08); filter: blur(2px); }
+  to   { opacity: 1; transform: none; filter: none; }
+}
+/* the warm centre pool and vignette are painted by gridscan.js now — a CSS
+   overlay here would sit above the canvas and wash the corridor out */
+
+/* seam down the middle — the line the doors part along */
+.vault-seam {
+  position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; z-index: 3;
+  transform: translateX(-0.5px);
+  background: linear-gradient(to bottom, transparent, var(--vault-accent-soft) 22%, var(--vault-accent-soft) 78%, transparent);
+  opacity: 0; animation: vaultSeamIn 1.4s ease 0.5s forwards;
+}
+@keyframes vaultSeamIn { to { opacity: 0.75; } }
+.vault-seam.parting { animation: vaultSeamFlash 0.5s ease forwards; }
+@keyframes vaultSeamFlash {
+  0%   { opacity: 0.75; box-shadow: 0 0 0 rgba(255, 106, 31, 0); }
+  35%  { opacity: 1; box-shadow: 0 0 26px 3px rgba(255, 106, 31, 0.75); }
+  100% { opacity: 0; box-shadow: 0 0 0 rgba(255, 106, 31, 0); }
+}
+
+/* opening: panels slide off screen, revealing the dashboard beneath */
+.vault.opening .vault-door.left  { transform: translateX(-100.5%); }
+.vault.opening .vault-door.right { transform: translateX(100.5%); }
+.vault.opening .vault-inner { opacity: 0; transition: opacity 0.26s ease; pointer-events: none; }
+
+/* closing (sign out): panels sweep back in over the dashboard */
+.vault.closing .vault-door.left  { animation: vaultCloseL 0.9s cubic-bezier(0.34, 0, 0.2, 1) both; }
+.vault.closing .vault-door.right { animation: vaultCloseR 0.9s cubic-bezier(0.34, 0, 0.2, 1) both; }
+@keyframes vaultCloseL { from { transform: translateX(-100.5%); } to { transform: none; } }
+@keyframes vaultCloseR { from { transform: translateX(100.5%); }  to { transform: none; } }
+.vault.closing .vault-inner { animation: vaultFadeUp 0.5s ease 0.52s both; }
+@keyframes vaultFadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* ── content ── */
+.vault-inner {
+  position: relative; z-index: 4; width: 100%; max-width: 392px;
+  display: flex; flex-direction: column; align-items: center; gap: 26px;
+}
+.vault.booting .vault-inner { max-width: none; }
+.vault-boot {
+  width: 26px; height: 26px; border-radius: 50%; display: block;
+  border: 2px solid rgba(255, 255, 255, 0.14); border-top-color: var(--vault-accent);
+  animation: vaultSpin 0.75s linear infinite;
+}
+@keyframes vaultSpin { to { transform: rotate(360deg); } }
+
+.vault-sound {
+  position: fixed; top: 20px; right: 22px; z-index: 6;
+  width: 32px; height: 32px; border-radius: 8px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.09);
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.vault-sound:hover { color: #fff; border-color: rgba(255, 255, 255, 0.25); }
+.vault-sound.on { color: var(--vault-accent); border-color: rgba(255, 106, 31, 0.42); background: rgba(255, 106, 31, 0.08); }
+
+.vault-head { display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+/* line-height 0 so the inline <img> contributes no descender gap. The logo is
+   transparent now, so drop-shadow would trace every individual candle — the
+   glow is baked into the SVG instead. */
+.vault-logo {
+  line-height: 0;
+  animation: vaultPulse 1.5s cubic-bezier(0.22, 1, 0.36, 1) 1 both;
+}
+.vault-logo img { display: block; }
+/* one pulse, then locks steady — no infinite loop */
+@keyframes vaultPulse {
+  0%   { opacity: 0; transform: scale(0.68); }
+  45%  { opacity: 1; transform: scale(1.09); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.vault-title {
+  margin: 4px 0 0; font-size: 30px; font-weight: 800; letter-spacing: 0.17em;
+  color: #fff; white-space: nowrap;
+  font-variant-ligatures: none; font-feature-settings: "tnum" 1;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.95), 0 0 6px rgba(0, 0, 0, 0.8);
+}
+.vault-sub {
+  margin: 0; font-size: 10.5px; letter-spacing: 0.26em; color: rgba(255, 255, 255, 0.62);
+  font-weight: 500; min-height: 14px;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.95);
+}
+
+/* ── security-terminal card ── */
+.vault-card {
+  position: relative; width: 100%;
+  display: flex; flex-direction: column; gap: 13px;
+  padding: 24px 22px 20px;
+  /* opaque enough to hold contrast over the corridor grid behind it */
+  background: rgba(8, 4, 2, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(16px) saturate(0.85);
+  -webkit-backdrop-filter: blur(16px) saturate(0.85);
+  box-shadow: 0 26px 70px -26px rgba(0, 0, 0, 0.95);
+  animation: vaultCardIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both;
+}
+@keyframes vaultCardIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+/* the scanning border trace */
+.vault-trace { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
+.vault-trace rect {
+  fill: none; stroke: var(--vault-accent); stroke-width: 1;
+  stroke-dasharray: 100; stroke-dashoffset: 100;
+  filter: drop-shadow(0 0 4px rgba(255, 106, 31, 0.85));
+  animation: vaultTrace 1.5s cubic-bezier(0.5, 0, 0.2, 1) 0.5s forwards;
+}
+@keyframes vaultTrace {
+  0%   { stroke-dashoffset: 100; opacity: 1; }
+  70%  { stroke-dashoffset: 0; opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 0.30; }
+}
+.vault-card.errored .vault-trace rect { stroke: #ff4d4d; animation: vaultTraceErr 0.5s ease; opacity: 0.9; }
+@keyframes vaultTraceErr {
+  0%, 100% { opacity: 0.3; }
+  30%, 70% { opacity: 1; filter: drop-shadow(0 0 8px rgba(255, 77, 77, 0.95)); }
+}
+.vault-card.shake { animation: vaultShake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
+@keyframes vaultShake {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(4px); }
+  30%, 50%, 70% { transform: translateX(-7px); }
+  40%, 60% { transform: translateX(7px); }
+}
+
+.vault-card-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2px; }
+.vault-card-title { font-size: 9.5px; letter-spacing: 0.24em; font-weight: 700; color: rgba(255, 255, 255, 0.5); }
+.vault-card-dot {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--vault-accent);
+  box-shadow: 0 0 9px var(--vault-accent); animation: vaultBlink 2s ease-in-out infinite;
+}
+@keyframes vaultBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+.vault-field { display: flex; flex-direction: column; gap: 5px; }
+.vault-field span {
+  font-size: 9px; letter-spacing: 0.18em; font-weight: 700;
+  color: rgba(255, 255, 255, 0.34); text-transform: uppercase;
+}
+.vault-field input {
+  font-family: "SFMono-Regular", "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: 13px; letter-spacing: 0.02em; padding: 10px 12px;
+  color: #fff; background: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.10); border-radius: 2px;
+  caret-color: var(--vault-accent);
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+.vault-field input::placeholder { color: rgba(255, 255, 255, 0.20); }
+.vault-field input:focus {
+  outline: none; background: rgba(0, 0, 0, 0.8);
+  border-color: var(--vault-accent-soft);
+  box-shadow: 0 0 0 1px rgba(255, 106, 31, 0.22), inset 0 0 14px rgba(255, 106, 31, 0.07);
+}
+.vault-field input:disabled { opacity: 0.5; }
+
+.vault-submit {
+  position: relative; overflow: hidden; margin-top: 6px; width: 100%;
+  padding: 12px 14px; border-radius: 2px; cursor: pointer;
+  font-family: var(--font); font-size: 11.5px; font-weight: 800; letter-spacing: 0.2em;
+  color: #120a05; border: none; background: var(--vault-accent);
+  transition: filter 0.15s, transform 0.1s;
+}
+.vault-submit:hover:not(:disabled) { filter: brightness(1.12); }
+.vault-submit:active:not(:disabled) { transform: translateY(1px); }
+.vault-submit:disabled { cursor: default; }
+.vault-submit.busy { color: rgba(18, 10, 5, 0.85); background: rgba(255, 106, 31, 0.30); }
+.vault-submit-label { position: relative; z-index: 2; }
+/* horizontal sweep while authenticating */
+.vault-submit-bar {
+  position: absolute; left: 0; top: 0; bottom: 0; width: 42%; z-index: 1;
+  background: linear-gradient(90deg, transparent, rgba(255, 175, 110, 0.95), transparent);
+  animation: vaultSweep 0.95s ease-in-out infinite;
+}
+@keyframes vaultSweep { from { transform: translateX(-110%); } to { transform: translateX(280%); } }
+
+.vault-error {
+  margin: 2px 0 0; font-size: 11.5px; line-height: 1.45; text-align: center;
+  color: #ff6b6b; letter-spacing: 0.01em;
+}
+.vault-toggle {
+  margin: 3px 0 0; text-align: center; font-size: 11.5px; color: rgba(255, 255, 255, 0.36);
+  display: flex; gap: 6px; justify-content: center; align-items: baseline; flex-wrap: wrap;
+}
+.vault-toggle button {
+  background: none; border: none; cursor: pointer; padding: 0;
+  font-family: var(--font); font-size: 11.5px; font-weight: 700; color: var(--vault-accent);
+}
+.vault-toggle button:hover { text-decoration: underline; }
+.vault-foot {
+  margin: 0; font-size: 9px; letter-spacing: 0.24em; color: rgba(255, 255, 255, 0.34);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vault-grid, .vault-logo, .vault-card, .vault-trace rect, .vault-seam,
+  .vault-submit-bar, .vault-card-dot { animation: none !important; }
+  .vault-grid { opacity: 1; }
+  .vault-trace rect { stroke-dashoffset: 0; opacity: 0.3; }
+  .vault-seam { opacity: 0.75; }
+  .vault-door { transition: none; }
+}
+/* ═══ Header user chip ══════════════════════════════════════════════ */
+.topbar-session { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.user-chip-wrap { position: relative; }
+.user-chip {
+  display: inline-flex; align-items: center; gap: 9px; cursor: pointer;
+  padding: 5px 10px 5px 5px; border-radius: 999px;
+  font-family: var(--font); font-size: 12.5px; font-weight: 600; color: var(--text-dim);
+  background: oklch(0.22 0.014 260 / 0.7); border: 1px solid var(--card-border);
+  transition: border-color 0.14s, color 0.14s, background 0.14s;
+}
+.user-chip:hover, .user-chip.open { color: var(--text); border-color: var(--text-muted); background: oklch(0.26 0.018 260); }
+.user-chip-name { max-width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user-chip-chev { font-size: 9px; opacity: 0.6; }
+
+.user-menu {
+  position: absolute; top: calc(100% + 9px); right: 0; z-index: 300; width: 236px;
+  background: oklch(0.19 0.013 260); border: 1px solid var(--card-border-strong);
+  border-radius: 12px; overflow: hidden;
+  box-shadow: 0 20px 46px -14px oklch(0 0 0 / 0.82);
+  animation: menuIn 0.14s ease both;
+}
+@keyframes menuIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: none; } }
+.user-menu-head { display: flex; align-items: center; gap: 11px; padding: 13px; border-bottom: 1px solid var(--card-border); }
+.user-menu-id { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.user-menu-name { font-size: 13px; font-weight: 700; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user-menu-email { font-size: 11px; color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user-signout {
+  width: 100%; text-align: left; padding: 11px 13px; cursor: pointer;
+  font-family: var(--font); font-size: 12.5px; font-weight: 600;
+  color: oklch(0.72 0.18 25); background: transparent; border: none;
+}
+.user-menu-full { font-size: 11px; color: var(--text-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user-editprofile {
+  width: 100%; text-align: left; padding: 11px 13px; cursor: pointer;
+  font-family: var(--font); font-size: 12.5px; font-weight: 600;
+  color: var(--text-dim); background: transparent; border: none;
+  border-bottom: 1px solid var(--card-border);
+}
+.user-editprofile:hover { color: var(--text); background: oklch(0.24 0.016 260); }
+.user-signout {
+  width: 100%; text-align: left; padding: 11px 13px; cursor: pointer;
+  font-family: var(--font); font-size: 12.5px; font-weight: 600;
+  color: oklch(0.72 0.18 25); background: transparent; border: none;
+}
+.user-signout:hover { background: oklch(0.62 0.20 25 / 0.14); }
+.user-signout:disabled { opacity: 0.6; cursor: default; }
+
+/* ═══ Profiles — avatars, photo picker, username field ══════════════ */
+/* Size comes from an inline style so one component covers 26px feed avatars
+   and 38px menu avatars; only the shape and typography live here. */
+.pf-avatar {
+  position: relative; flex-shrink: 0; border-radius: 50%; overflow: visible;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 800; line-height: 1; user-select: none;
+  box-shadow: inset 0 0 0 1px oklch(1 0 0 / 0.10);
+}
+.pf-avatar-img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; }
+.pf-avatar-letter { transform: translateY(0.5px); }
+
+/* Hover card: handle on top, full name underneath. */
+.pf-avatar-tip {
+  position: absolute; bottom: calc(100% + 7px); left: 50%; transform: translateX(-50%);
+  z-index: 400; display: flex; flex-direction: column; gap: 1px; align-items: flex-start;
+  padding: 6px 9px; border-radius: 8px; white-space: nowrap; pointer-events: none;
+  background: oklch(0.17 0.012 260); border: 1px solid var(--card-border-strong);
+  box-shadow: 0 10px 24px -8px oklch(0 0 0 / 0.8);
+  opacity: 0; transition: opacity 0.12s ease;
+}
+.pf-avatar-tip b  { font-size: 11.5px; font-weight: 700; color: var(--text); }
+.pf-avatar-tip em { font-size: 10.5px; font-style: normal; color: var(--text-muted); }
+.pf-avatar:hover .pf-avatar-tip { opacity: 1; }
+
+.pf-photo { display: flex; align-items: center; gap: 13px; }
+.pf-photo-zone {
+  position: relative; width: 62px; height: 62px; flex: 0 0 62px; padding: 0;
+  border-radius: 50%; cursor: pointer; overflow: hidden;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px dashed rgba(255, 255, 255, 0.20);
+  transition: border-color 0.14s, color 0.14s, background 0.14s;
+}
+.pf-photo-zone:hover:not(:disabled) {
+  color: var(--vault-accent); border-color: var(--vault-accent-soft);
+  background: rgba(255, 106, 31, 0.07);
+}
+.pf-photo-zone.has { border-style: solid; border-color: var(--vault-accent-soft); }
+.pf-photo-zone.has img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pf-photo-zone:disabled { opacity: 0.55; cursor: default; }
+.pf-photo-meta { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.pf-photo-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+}
+.pf-photo-hint { font-size: 11px; color: rgba(255, 255, 255, 0.34); }
+.pf-photo-clear {
+  padding: 0; font-family: var(--font); font-size: 11px; font-weight: 600;
+  color: oklch(0.72 0.18 25); background: none; border: none; cursor: pointer;
+}
+.pf-photo-clear:hover { text-decoration: underline; }
+
+/* Matches the vault input frame (2px radius, mono, black glass) but owns the
+   border itself so the @ prefix and the ✓/✕ marker sit INSIDE the box. */
+.pf-username-wrap {
+  display: flex; align-items: center; gap: 3px; padding: 0 12px;
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.10); border-radius: 2px;
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+.pf-username-wrap:focus-within {
+  background: rgba(0, 0, 0, 0.8); border-color: var(--vault-accent-soft);
+  box-shadow: 0 0 0 1px rgba(255, 106, 31, 0.22), inset 0 0 14px rgba(255, 106, 31, 0.07);
+}
+.pf-username-wrap input {
+  flex: 1; min-width: 0; padding: 10px 0; border: none; background: none; border-radius: 0;
+  font-family: "SFMono-Regular", "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: 13px; letter-spacing: 0.02em; color: #fff; caret-color: var(--vault-accent);
+}
+.pf-username-wrap input:focus { outline: none; box-shadow: none; background: none; }
+.pf-username-wrap input::placeholder { color: rgba(255, 255, 255, 0.20); }
+/* These beat `.vault-field span` (two classes vs one class + one element). */
+.vault-field .pf-username-at {
+  font-family: "SFMono-Regular", "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: 13px; font-weight: 700; letter-spacing: 0; text-transform: none;
+  color: rgba(255, 255, 255, 0.38);
+}
+.vault-field .pf-username-mark {
+  width: 15px; flex: 0 0 15px; text-align: center;
+  font-size: 13px; font-weight: 800; line-height: 1; letter-spacing: 0; text-transform: none;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.pf-username-wrap.ok { border-color: rgba(60, 200, 120, 0.45); }
+.pf-username-wrap.taken, .pf-username-wrap.invalid { border-color: rgba(255, 77, 77, 0.45); }
+.vault-field .pf-username-wrap.ok      .pf-username-mark { color: oklch(0.76 0.17 150); }
+.vault-field .pf-username-wrap.taken   .pf-username-mark,
+.vault-field .pf-username-wrap.invalid .pf-username-mark { color: oklch(0.70 0.19 25); }
+.vault-field .pf-username-wrap.unavailable .pf-username-mark { color: rgba(255, 200, 90, 0.9); }
+.vault-field .pf-username-msg {
+  font-size: 10.5px; letter-spacing: 0; text-transform: none; font-weight: 500;
+  color: rgba(255, 255, 255, 0.38);
+}
+.vault-field .pf-username-msg.ok { color: oklch(0.76 0.17 150); }
+.vault-field .pf-username-msg.taken, .vault-field .pf-username-msg.invalid { color: oklch(0.70 0.19 25); }
+.vault-field .pf-username-msg.unavailable { color: rgba(255, 200, 90, 0.9); }
+.pf-spin {
+  display: inline-block; width: 11px; height: 11px; border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.18); border-top-color: var(--vault-accent);
+  animation: vaultSpin 0.7s linear infinite;
+}
+/* "optional" tag next to a field label */
+.vault-field span i {
+  font-style: normal; font-weight: 500; letter-spacing: 0.06em; text-transform: none;
+  color: rgba(255, 255, 255, 0.28);
+}
+
+/* The modal is portalled inside the user chip, which lives in `.topbar-right`
+   (text-align: right) — it's a page-level overlay, so reset what it inherits. */
+.pf-modal {
+  position: fixed; inset: 0; z-index: 500; display: flex; align-items: center; justify-content: center;
+  padding: 24px; background: oklch(0 0 0 / 0.68); backdrop-filter: blur(3px);
+  text-align: left;
+  animation: menuIn 0.14s ease both;
+}
+.pf-modal-card {
+  width: 100%; max-width: 360px; display: flex; flex-direction: column; gap: 15px;
+  padding: 20px; border-radius: 14px;
+  background: oklch(0.19 0.013 260); border: 1px solid var(--card-border-strong);
+  box-shadow: 0 30px 70px -20px oklch(0 0 0 / 0.9);
+  animation: vaultCardIn 0.2s ease both;
+}
+.pf-modal-head { display: flex; align-items: center; justify-content: space-between; }
+.pf-modal-head h2 {
+  margin: 0; font-size: 10px; font-weight: 800; letter-spacing: 0.24em; text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+.pf-modal-close {
+  padding: 0 4px; font-size: 19px; line-height: 1; cursor: pointer;
+  color: var(--text-muted); background: none; border: none;
+}
+.pf-modal-close:hover { color: var(--text); }
+.pf-modal-close:disabled { opacity: 0.4; cursor: default; }
+
+@media (prefers-reduced-motion: reduce) {
+  .pf-spin { animation: none; }
+  .pf-modal, .pf-modal-card { animation: none; }
+}
+
+/* ═══ Chart upload extras ═══════════════════════════════════════════ */
+.shot-credit { margin-top: 6px; font-size: 10.5px; color: var(--text-muted); }
+.shot-credit b { color: var(--text-dim); font-weight: 700; }
+.shot-zone.uploading { cursor: default; gap: 12px; }
+.shot-progress { width: 72%; max-width: 300px; height: 5px; border-radius: 999px; overflow: hidden; background: oklch(0.28 0.02 260); }
+.shot-progress-fill {
+  height: 100%; border-radius: 999px; transition: width 0.18s ease;
+  background: linear-gradient(90deg, oklch(0.70 0.16 50), oklch(0.80 0.15 85));
+}
+
+/* ═══ Shared notes ══════════════════════════════════════════════════ */
+.notes { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--card-border); }
+.notes-head { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
+.notes-count { font-size: 10px; font-weight: 800; color: var(--text-muted); background: oklch(0.24 0.015 260); padding: 1px 7px; border-radius: 999px; }
+.notes-empty { margin: 0 0 10px; font-size: 12px; color: var(--text-muted); }
+.notes-list { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.note-row { display: flex; gap: 10px; align-items: flex-start; }
+.note-row.going { opacity: 0.45; }
+.note-avatar {
+  width: 24px; height: 24px; flex: 0 0 24px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 9.5px; font-weight: 800; color: oklch(0.16 0.02 250);
+  background: linear-gradient(140deg, oklch(0.74 0.12 235), oklch(0.66 0.14 265));
+}
+.note-body { min-width: 0; flex: 1; }
+.note-meta { display: flex; align-items: center; gap: 8px; }
+.note-author { font-size: 11.5px; font-weight: 700; color: var(--text); }
+.note-time { font-size: 10.5px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.note-del {
+  margin-left: auto; display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: 6px; cursor: pointer;
+  color: var(--text-muted); background: transparent; border: none;
+  opacity: 0; transition: opacity 0.12s, color 0.12s, background 0.12s;
+}
+.note-row:hover .note-del { opacity: 1; }
+.note-del:hover { color: oklch(0.72 0.19 25); background: oklch(0.62 0.20 25 / 0.14); }
+.note-del:focus-visible { opacity: 1; }
+.note-text { margin: 2px 0 0; font-size: 12.5px; line-height: 1.5; color: var(--text-dim); white-space: pre-wrap; word-break: break-word; }
+
+.notes-add { display: flex; gap: 8px; }
+.notes-add input {
+  flex: 1; min-width: 0; font-family: var(--font); font-size: 12.5px;
+  padding: 9px 11px; border-radius: 8px; color: var(--text);
+  background: var(--bg); border: 1px solid var(--card-border-strong);
+}
+.notes-add input:focus { outline: none; border-color: var(--text-muted); }
+.notes-add button {
+  padding: 9px 15px; border-radius: 8px; cursor: pointer; white-space: nowrap;
+  font-family: var(--font); font-size: 12px; font-weight: 700;
+  color: oklch(0.16 0.02 40); border: none;
+  background: linear-gradient(135deg, oklch(0.76 0.17 55), oklch(0.68 0.20 34));
+}
+.notes-add button:disabled { opacity: 0.4; cursor: default; }
+.notes-err { margin: 8px 0 0; font-size: 11.5px; color: oklch(0.72 0.19 25); }

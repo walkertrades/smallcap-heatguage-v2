@@ -768,7 +768,16 @@ function visibleSections(sections) {
   return sections.filter((s) => !HIDDEN_SECTIONS.test(String(s && s.title) || ""));
 }
 
+// Claude's setupGrade uses B+/C+, which the manual GRADES list doesn't have —
+// fall back to the base letter so those still get a sensible color.
+function aiGradeColor(g) {
+  if (!g) return window.gradeColor(null);
+  const known = window.GRADES.indexOf(g) >= 0 ? g : String(g).replace(/\+$/, "");
+  return window.gradeColor(known);
+}
+
 // Inline manual grade picker (replaces the auto Setup Score).
+// Shows Claude's setupGrade alongside it as a muted, clearly-labeled "AI" badge.
 function GradePicker({ r, onGradeChange }) {
   const [grade, setGradeState] = React.useState(() => window.getGrade(r._date, r.sym));
   const pick = (g) => {
@@ -777,12 +786,19 @@ function GradePicker({ r, onGradeChange }) {
     if (onGradeChange) onGradeChange(next);
   };
   const c = window.gradeColor(grade);
+  const ai = r.setupGrade || null;
   return (
     <div className="rt-grade">
       <span className="rt-lbl rt-grade-lbl">GRADE</span>
       <span className={`grade-badge ${grade ? "graded" : "ungraded"} ${grade === "A++" ? "grade-gold" : ""}`} style={{ "--gc": c }}>
         {grade || "—"}
       </span>
+      {ai && (
+        <span className="rt-aigrade" title="Claude's setup grade from the evening pipeline">
+          <span className="rt-aigrade-lbl">AI</span>
+          <span className="grade-badge grade-badge-ai" style={{ "--gc": aiGradeColor(ai) }}>{ai}</span>
+        </span>
+      )}
       <div className="rt-grade-opts">
         {window.GRADES.map((g) => (
           <button key={g} className={`rt-grade-opt ${grade === g ? "on" : ""}`}
@@ -813,6 +829,7 @@ function RunnerTile({ r, onGradeChange }) {
         <div className="rt-left">
           <span className="rt-sym">{r.sym}</span>
           {r.tag && <span className="rt-tag" style={{ background: accent }}>{tag}</span>}
+          {window.AddToPlaybook && <window.AddToPlaybook r={r} />}
         </div>
         <div className="rt-hod">+{r.hodExact != null ? r.hodExact.toFixed(2) : r.hod}% <span className="rt-hod-sub">HOD</span></div>
       </div>
@@ -837,8 +854,9 @@ function RunnerTile({ r, onGradeChange }) {
       <GradePicker r={r} onGradeChange={onGradeChange} />
       <HodTimeSlot r={r} />
 
-      {/* Chart screenshots replaced the TradingView embed. Shared storage with
-          the Playbook tiles — same ticker+date shows the same image in both. */}
+      {/* Chart screenshots replaced the TradingView embed. Backed by Firebase
+          Storage + Firestore, so the whole desk sees the same image here and on
+          the matching Playbook tile. */}
       <div className="rt-chart">
         <div className="rt-chart-head">
           <span className="rt-lbl">CHART · {String(r.sym).toUpperCase()}</span>
@@ -846,6 +864,9 @@ function RunnerTile({ r, onGradeChange }) {
         </div>
         <window.ShotZone date={r._date} sym={r.sym} />
       </div>
+
+      {/* Shared desk notes for this ticker+date, live via onSnapshot */}
+      {window.NotesPanel && <window.NotesPanel sym={r.sym} date={r._date} />}
 
       {r.newsSummary && (
         <div className="rt-newssum">

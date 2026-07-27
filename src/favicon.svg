@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="The Heat Gauge">
+  <!-- Favicon build: same candle sequence as logo-small, but the grid is dropped
+       and the bodies are widened to 2.6 — browsers render this at 16px, where
+       thinner bodies and grid lines collapse into noise. -->
+  <defs>
+    <clipPath id="hgfClip">
+      <rect width="32" height="32" rx="3"/>
+    </clipPath>
+    <radialGradient id="hgfGlow">
+      <stop offset="0" stop-color="#e8391a" stop-opacity=".45"/>
+      <stop offset=".45" stop-color="#e8391a" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#e8391a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#hgfClip)">
+    <rect width="32" height="32" fill="#0d0d0f"/>
+    <circle cx="26" cy="10" r="9.5" fill="url(#hgfGlow)"/>
+    <g fill="#4a6fa5">
+      <rect x="5.65" y="20.7" width=".7" height="4.7" opacity=".7"/>
+      <rect x="4.7" y="21.85" width="2.6" height="2.4"/>
+    </g>
+    <g fill="#5b82b8">
+      <rect x="8.15" y="18.8" width=".7" height="4.8" opacity=".7"/>
+      <rect x="7.2" y="19.9" width="2.6" height="2.75"/>
+    </g>
+    <g fill="#6d96cc">
+      <rect x="10.65" y="16.55" width=".7" height="5.45" opacity=".7"/>
+      <rect x="9.7" y="17.6" width="2.6" height="3.5"/>
+    </g>
+    <g fill="#89aed6">
+      <rect x="13.15" y="14.25" width=".7" height="5.9" opacity=".7"/>
+      <rect x="12.2" y="15.25" width="2.6" height="4.05"/>
+    </g>
+    <g fill="#c8d8e8">
+      <rect x="15.65" y="11.35" width=".7" height="6.9" opacity=".7"/>
+      <rect x="14.7" y="12.5" width="2.6" height="4.8"/>
+    </g>
+    <g fill="#9aa8b2">
+      <rect x="18.15" y="13.35" width=".7" height="4.8" opacity=".7"/>
+      <rect x="17.2" y="14.45" width="2.6" height="2.75"/>
+    </g>
+    <g fill="#8a9aa8">
+      <rect x="20.65" y="14.65" width=".7" height="4" opacity=".7"/>
+      <rect x="19.7" y="15.8" width="2.6" height="1.7"/>
+    </g>
+    <g fill="#c17f3a">
+      <rect x="23.15" y="11.2" width=".7" height="5.6" opacity=".7"/>
+      <rect x="22.2" y="12.25" width="2.6" height="3.65"/>
+    </g>
+    <g fill="#e8391a">
+      <rect x="25.65" y="6.65" width=".7" height="7.2" opacity=".7"/>
+      <rect x="24.7" y="6.9" width="2.6" height="6.05"/>
+    </g>
+  </g>
+</svg>

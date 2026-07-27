@@ -344,6 +344,7 @@ function normalizeRunnerV2(r, date) {
     newsSummary: r.newsSummary != null ? r.newsSummary : null,
     bullFactors,
     bearFactors,
+    setupGrade: r.setupGrade != null ? r.setupGrade : null,
     ssr,
     reverseSplit,
     behaviorTag,

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="The Heat Gauge">
+  <!-- Transparent: no background plate and no grid, so the candles sit directly
+       on whatever is behind them. -->
+  <defs>
+    <radialGradient id="hgGlow">
+      <stop offset="0" stop-color="#e8391a" stop-opacity=".3"/>
+      <stop offset=".45" stop-color="#e8391a" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#e8391a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="165" cy="62" r="42" fill="url(#hgGlow)"/>
+  <g fill="#4a6fa5">
+    <rect x="36.3" y="129.5" width="1.4" height="29" opacity=".7"/>
+    <rect x="32.5" y="137.5" width="9" height="13"/>
+  </g>
+  <g fill="#5b82b8">
+    <rect x="52.3" y="117.5" width="1.4" height="30" opacity=".7"/>
+    <rect x="48.5" y="125.5" width="9" height="15"/>
+  </g>
+  <g fill="#6d96cc">
+    <rect x="68.3" y="103.5" width="1.4" height="34" opacity=".7"/>
+    <rect x="64.5" y="111.5" width="9" height="19"/>
+  </g>
+  <g fill="#89aed6">
+    <rect x="84.3" y="89" width="1.4" height="37" opacity=".7"/>
+    <rect x="80.5" y="97" width="9" height="22"/>
+  </g>
+  <g fill="#c8d8e8">
+    <rect x="100.3" y="71" width="1.4" height="43" opacity=".7"/>
+    <rect x="96.5" y="80" width="9" height="26"/>
+  </g>
+  <g fill="#9aa8b2">
+    <rect x="116.3" y="83.5" width="1.4" height="30" opacity=".7"/>
+    <rect x="112.5" y="91.5" width="9" height="15"/>
+  </g>
+  <g fill="#8a9aa8">
+    <rect x="132.3" y="91.5" width="1.4" height="25" opacity=".7"/>
+    <rect x="128.5" y="99.5" width="9" height="9"/>
+  </g>
+  <g fill="#c17f3a">
+    <rect x="148.3" y="70" width="1.4" height="35" opacity=".7"/>
+    <rect x="144.5" y="78" width="9" height="20"/>
+  </g>
+  <g fill="#e8391a">
+    <rect x="164.3" y="41.5" width="1.4" height="45" opacity=".7"/>
+    <rect x="160.5" y="45.5" width="9" height="33"/>
+  </g>
+</svg>

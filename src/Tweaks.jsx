@@ -83,9 +83,13 @@ function Root() {
     return () => window.removeEventListener("message", onMsg);
   }, []);
 
+  // Everything below the gate only mounts once Firebase reports a signed-in
+  // user, so no component has to defend against a null auth.
   return (
     <>
-      <window.App tweaks={tweaks} />
+      <window.AuthGate>
+        {(auth) => <window.App tweaks={tweaks} user={auth.user} profile={auth.profile} />}
+      </window.AuthGate>
       <TweaksPanel
         visible={tweaksVisible}
         tweaks={tweaks}
