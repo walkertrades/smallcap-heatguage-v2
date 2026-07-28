@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-25T10:34:12.128537Z",
-  "count": 9494,
+  "exportedAt": "2026-07-28T11:17:21.455065Z",
+  "count": 9504,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,807 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-27",
+      "runners": [
+        {
+          "sym": "FIEE",
+          "hod": 285,
+          "hodExact": 285.09,
+          "news": [
+            "**• Possible reasons for the price movement (as of July 27, 2026):**  \n- Extreme low-float volatility and momentum-drive",
+            "FiEE, Inc. Enters Into At-The-Market Sales Agreement for Common Stock",
+            "HEADLINE: FiEE, Inc. Enters Into Sales Agreement for At-the-Market Offering of Common Stock\n\n1.) Summary: \n- FiEE, Inc.",
+            "HEADLINE: FiEE, Inc. Enters into At-the-Market (ATM) Common Stock Sales Agreement\n\n1.) Summary: \n- FiEE, Inc. has entere",
+            "June 2026 ATM | Offering amount: $6,272,809 | Bank: A.G.P./Alliance Global Partners"
+          ],
+          "tag": "OFFERING",
+          "name": "FiEE, Inc Common Stock",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 2.65,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$27M",
+          "riskBadges": [
+            "Float 2.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.65M + RelVol 3156.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.65M + RelVol 3156.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.75,
+          "open": 2.88,
+          "gapPct": 4.73,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 10.59,
+          "hodTimeExact": "12:02 PM ET",
+          "close": 3.1,
+          "fade": 70,
+          "fadeExact": 70.73,
+          "vwap": 6.2343,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "12.0M",
+          "volDollar": 74830683,
+          "relVol": 3156.6,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement (as of July 27, 2026):**  \n- Extreme low-float volatility and momentum-drive",
+            "FiEE, Inc. Enters Into At-The-Market Sales Agreement for Common Stock",
+            "HEADLINE: FiEE, Inc. Enters Into Sales Agreement for At-the-Market Offering of Common Stock\n\n1.) Summary: \n- FiEE, Inc.",
+            "HEADLINE: FiEE, Inc. Enters into At-the-Market (ATM) Common Stock Sales Agreement\n\n1.) Summary: \n- FiEE, Inc. has entere",
+            "June 2026 ATM | Offering amount: $6,272,809 | Bank: A.G.P./Alliance Global Partners"
+          ],
+          "newsSummary": "FIEE announced an ATM (At-The-Market) offering on June 23, 2026 for $6.27M via A.G.P./Alliance Global Partners. The July 27 spike appears driven by pure low-float momentum volatility rather than a real catalyst, with the ATM agreement representing a structural headwind for sustainable upside. Jack explicitly avoids dilutive announcements and ATM offerings — this is a red flag.",
+          "bullFactors": [
+            "Micro float of 2.65M shares creates extreme intraday volatility potential",
+            "3156.6x relative volume shows massive intraday participation and tape heat",
+            "Session HOD dominance (285% gain vs 71% fade) suggests afternoon continuation strength and potential short squeeze"
+          ],
+          "bearFactors": [
+            "Active ATM offering (June 23) is direct dilution risk — classic avoid signal for Jack's framework",
+            "No real catalyst — movement is pure low-float momentum/sympathy, not earnings, data, or partnership",
+            "High fade percentage (71%) despite large gains indicates premarket spike and likely institutional distribution into retail FOMO"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "DFNS",
+          "hod": 267,
+          "hodExact": 267.59,
+          "news": [
+            "**• Primary driver: Extreme low-float volatility from 1-for-125 reverse stock split**  \nEffective July 20, 2026 (post-ap",
+            "DFNS this used to be NUKK - had that huge run from like $2 to $80 back in dec 2024\n- last couple were premarket pop and",
+            "**• Possible reasons for the 89.7% surge (with ~218k shares traded):**\n- **13D filing disclosing a major 16.67% stake**",
+            "1.) **Name of the reporting person or owner**\n*   X S.E. Security and Defense Ltd.\n*   Elad Shohat\n\n2.) **Types of secur",
+            "**• Possible reasons for today's 20.3% move (high volume of ~239k shares):**\n- Follow-through momentum and retail/specul"
+          ],
+          "tag": "NO-NEWS",
+          "name": "T3 Defense Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.94,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 0.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.94M + RelVol 47.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.94M + RelVol 47.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.35,
+          "open": 6.96,
+          "gapPct": 60.0,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 15.99,
+          "hodTimeExact": "12:22 PM ET",
+          "close": 13.1,
+          "fade": 18,
+          "fadeExact": 18.07,
+          "vwap": 10.0821,
+          "vsVwap": "above",
+          "pmHigh": 8.7,
+          "volRaw": "78.9M",
+          "volDollar": 795121469,
+          "relVol": 47.2,
+          "avgVolM": 1.7,
+          "ssr": false,
+          "reverseSplit": "125:1",
+          "newsHeadlines": [
+            "**• Primary driver: Extreme low-float volatility from 1-for-125 reverse stock split**  \nEffective July 20, 2026 (post-ap",
+            "DFNS this used to be NUKK - had that huge run from like $2 to $80 back in dec 2024\n- last couple were premarket pop and",
+            "**• Possible reasons for the 89.7% surge (with ~218k shares traded):**\n- **13D filing disclosing a major 16.67% stake**",
+            "1.) **Name of the reporting person or owner**\n*   X S.E. Security and Defense Ltd.\n*   Elad Shohat\n\n2.) **Types of secur",
+            "**• Possible reasons for today's 20.3% move (high volume of ~239k shares):**\n- Follow-through momentum and retail/specul"
+          ],
+          "newsSummary": "DFNS (formerly NUKK) spiked 267% on a combination of a 1-for-125 reverse split (July 20) and a 13D filing showing X S.E. Security and Defense Ltd./Elad Shohat acquiring 16.67% stake. The reverse split itself is a mechanical catalyst with no fundamental value; the 13D is ownership disclosure, not a cash deal or partnership. This is classic small-cap refi/restructuring volatility, not real business catalyst.",
+          "bullFactors": [
+            "Extreme low float at 0.94M shares — perfect for Jack's micro-float preference and volatility amplification",
+            "Session HOD dominating (267.59% move) with sustained high relative volume (47.2x) suggests institutional/insider accumulation, not just premarket fade",
+            "Previous history as NUKK with strong past runner credentials ($2→$80 Dec 2024) shows tape recognition and potential repeat cycle"
+          ],
+          "bearFactors": [
+            "Catalyst is pure mechanical (reverse split) + ownership disclosure (13D) — no real cash value, partnerships, or earnings; textbook fluff for Jack's avoidance list",
+            "Reverse splits historically precede dilution and are often red flags for distressed/zombie refi plays; increased black swan risk on micro-float",
+            "Post-spike fade pattern noted in headlines ('last couple were premarket pop and drops') — tape temperature is COLD, not HOT; institutional accumulation claim is speculative given no real news"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "EDBL",
+          "hod": 173,
+          "hodExact": 173.89,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Announcement of a significant new Walmart distribution deal for fresh c",
+            "EDBL theyve released a few prs like this in the past with Target, Amazon, Walmart, mostly faded, one with Amazon held up",
+            "Edible Garden Wins Significant Walmart Distribution for Fresh Cut Herbs Across the Mid-Atlantic",
+            "Wakefern and ShopRite Expand Edible Garden’s Successful “Garden Starters” Program with Midsummer Promotion",
+            "Edible Garden Announces Successful Completion of Clean-Label RTD Prototype Production at Tetra Pak&#39;s New Product Development Center"
+          ],
+          "tag": "CONTRACT",
+          "name": "Edible Garden AG Incorporated Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 0.63,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.63M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.63M + RelVol 26.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.63M + RelVol 26.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.14,
+          "open": 7.88,
+          "gapPct": 150.96,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 8.6,
+          "hodTimeExact": "08:26 AM ET",
+          "close": 2.91,
+          "fade": 66,
+          "fadeExact": 66.16,
+          "vwap": 6.2999,
+          "vsVwap": "below",
+          "pmHigh": 9.94,
+          "volRaw": "34.8M",
+          "volDollar": 219407121,
+          "relVol": 26.2,
+          "avgVolM": 1.3,
+          "ssr": true,
+          "reverseSplit": "45:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Announcement of a significant new Walmart distribution deal for fresh c",
+            "EDBL theyve released a few prs like this in the past with Target, Amazon, Walmart, mostly faded, one with Amazon held up",
+            "Edible Garden Wins Significant Walmart Distribution for Fresh Cut Herbs Across the Mid-Atlantic",
+            "Wakefern and ShopRite Expand Edible Garden’s Successful “Garden Starters” Program with Midsummer Promotion",
+            "Edible Garden Announces Successful Completion of Clean-Label RTD Prototype Production at Tetra Pak&#39;s New Product Development Center"
+          ],
+          "newsSummary": "EDBL announced a significant Walmart distribution deal for fresh cut herbs across the Mid-Atlantic region. While this appears to be real retail shelf space (not fluff), the trader notes EDBL has released similar big-name partnership PRs (Target, Amazon, Walmart) in the past with mostly fades and one Amazon hold—pattern suggests market skepticism on conversion to sustained revenue.",
+          "bullFactors": [
+            "Ultra-tight float at 0.63M shares—extreme leverage for momentum if retail sustains",
+            "Session HOD 173.89% with 66% fade suggests intraday institutional accumulation before retail push; tape shows strength in afternoon session dominance pattern",
+            "Real retail distribution (Walmart shelf space) is higher-quality catalyst than sympathy/fluff news",
+            "Elevated relative volume (26.2x) indicates genuine intraday interest, not dead money"
+          ],
+          "bearFactors": [
+            "Repeat-announcement fatigue: trader's own tape notes EDBL has cried Walmart/Amazon/Target wolf before with fades; market may be conditioned to discount these PRs",
+            "HOD spike occurred rapidly on news (173% gap + 150% HOD suggests 1-2 min spike risk); typical fade signature already embedded in 66% pullback",
+            "Premarket spike dominated session (gap 150.96% vs HOD 173.89% = limited new highs intraday); classic COLD tape pattern",
+            "No revenue/earnings timeline disclosed; distribution announcement ≠ revenue recognition or cash flow—execution risk unknown"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BIYA",
+          "hod": 153,
+          "hodExact": 153.89,
+          "news": [
+            "**• No identifiable fundamental news or company-specific catalyst in the last 3 days (as of July 28, 2026); the move app",
+            "**• Possible reasons for the price movement:**\n- Speculative momentum trading and continuation from strong after-hours g",
+            "July 2026 SHELF + SHARE RESALE REGISTRATION | Float: 1,430,732",
+            "**• Possible reasons for the 21.3% surge and high volume (564k+ shares):**\n- Speculative momentum trading and volatility",
+            "**• Possible reasons for the ~36% close (July 17, 2026) / after-hours surge (up to ~51% intraday/after-hours references)"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Baiya International Group Inc Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 1.45,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 1.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.93,
+          "open": 2.935,
+          "gapPct": 52.07,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.9,
+          "hodTimeExact": "10:17 AM ET",
+          "close": 4.17,
+          "fade": 14,
+          "fadeExact": 14.9,
+          "vwap": 3.8262,
+          "vsVwap": "above",
+          "pmHigh": 3.36,
+          "volRaw": "90.4M",
+          "volDollar": 346056883,
+          "relVol": 9.9,
+          "avgVolM": 9.2,
+          "ssr": true,
+          "reverseSplit": "10:1",
+          "newsHeadlines": [
+            "**• No identifiable fundamental news or company-specific catalyst in the last 3 days (as of July 28, 2026); the move app",
+            "**• Possible reasons for the price movement:**\n- Speculative momentum trading and continuation from strong after-hours g",
+            "July 2026 SHELF + SHARE RESALE REGISTRATION | Float: 1,430,732",
+            "**• Possible reasons for the 21.3% surge and high volume (564k+ shares):**\n- Speculative momentum trading and volatility",
+            "**• Possible reasons for the ~36% close (July 17, 2026) / after-hours surge (up to ~51% intraday/after-hours references)"
+          ],
+          "newsSummary": "BIYA has no identifiable fundamental catalyst driving the 153.89% HOD move—pure speculative momentum and retail continuation trading. The July 2026 shelf registration (dilutive overhang) is the only material event, but it predates the move and represents future selling risk rather than bullish fundamentals.",
+          "bullFactors": [
+            "Micro float (1.45M shares) creates explosive volatility and liquidity constraints for short covering",
+            "Session HOD dominating over premarket spike (153.89% HOD vs 52.07% gap) shows sustained afternoon strength, not a quick fade pattern",
+            "9.9x relative volume indicates institutional or sustained retail accumulation, not a one-minute spike blow-off"
+          ],
+          "bearFactors": [
+            "Zero real catalyst—pure sympathy/momentum play with no cash value deal, earnings, or partnership; high black swan risk",
+            "Shelf registration (July 23) creates dilutive overhang and signals management capital raise intent; warrants continued selling pressure",
+            "Chinese small-cap industrial with minimal market cap ($13.2M) and no fundamental visibility—typical pump-and-dump risk profile",
+            "Up 500%+ from recent lows (implied from HOD structure)—cycle shift warning; liquidity spillover and sudden reversals likely"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "LGHL",
+          "hod": 126,
+          "hodExact": 126.25,
+          "news": [
+            "LGHL i dont really know what the exact conversion price is of the convertible notes is now but based on the reset provis",
+            "**• Possible reasons for the 53.8% surge today (July 27, 2026):**  \n- Momentum continuation from recent positive corpora",
+            "1.) Name of the reporting person or owner\n* HRT FINANCIAL LP\n\n2.) Types of securities transacted and associated amounts",
+            "1.) **Name of the reporting person or owner**\n* HRT Financial LP\n\n2.) **Types of securities transacted and associated am",
+            "**• Possible reasons for the 28.1% price surge and heavy volume (2.4M+ shares):**\n- Announcement on July 20, 2026, that"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Lion Group Holding Ltd. American Depositary Share",
+          "sector": "Financial Services",
+          "country": "SG",
+          "floatM": 0.93,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.93M + RelVol 19.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.93M + RelVol 19.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9105,
+          "open": 2.045,
+          "gapPct": 124.6,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.06,
+          "hodTimeExact": "04:24 AM ET",
+          "close": 1.07,
+          "fade": 48,
+          "fadeExact": 48.06,
+          "vwap": 1.9431,
+          "vsVwap": "below",
+          "pmHigh": 3.96,
+          "volRaw": "53.1M",
+          "volDollar": 103174926,
+          "relVol": 19.7,
+          "avgVolM": 2.7,
+          "ssr": true,
+          "reverseSplit": "9:1",
+          "newsHeadlines": [
+            "LGHL i dont really know what the exact conversion price is of the convertible notes is now but based on the reset provis",
+            "**• Possible reasons for the 53.8% surge today (July 27, 2026):**  \n- Momentum continuation from recent positive corpora",
+            "1.) Name of the reporting person or owner\n* HRT FINANCIAL LP\n\n2.) Types of securities transacted and associated amounts",
+            "1.) **Name of the reporting person or owner**\n* HRT Financial LP\n\n2.) **Types of securities transacted and associated am",
+            "**• Possible reasons for the 28.1% price surge and heavy volume (2.4M+ shares):**\n- Announcement on July 20, 2026, that"
+          ],
+          "newsSummary": "LGHL spiked 126% HOD with vague headlines about convertible note conversion prices and insider trading by HRT Financial LP—no concrete catalyst disclosed. The news is fragmented, unclear on specifics, and lacks substance on real cash value or operational catalysts; appears to be sympathy/momentum-driven with convertible dilution concerns lurking.",
+          "bullFactors": [
+            "Micro float at 0.93M shares—extremely tight supply, high squeeze potential",
+            "Session HOD at +126% dominated (vs 48% fade)—tape shows afternoon continuation strength, not premarket collapse",
+            "Relative volume 19.7x—sustained intraday participation, not a one-minute spike",
+            "Gap of 124.6% indicates institutional accumulation or short squeeze, not pump-and-dump open"
+          ],
+          "bearFactors": [
+            "Convertible notes with reset provisions = dilution risk and overhead supply pressure coming",
+            "Headlines are cryptic and fragmented—no clarity on catalyst, suggests retail-driven sympathy trade",
+            "HRT Financial LP insider buys on 7/23 and 7/27 could signal insider support OR accumulation into distribution",
+            "Micro-cap Singapore financial services stock with <$1M market cap—liquidity trap risk, black swan potential"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ENTX",
+          "hod": 104,
+          "hodExact": 104.88,
+          "news": [
+            "ENTX pretty bullish PIPE with notable investors and no warrant coverage",
+            "Entera Bio Announces Pricing of Oversubscribed $275 Million Private Placement",
+            "Entera Bio Announces Pricing of Oversubscribed $275 Million Private Placement",
+            "**• Primary driver: Oversubscribed $275 million private placement announced and priced today (July 27, 2026).**  \n  - Le",
+            "Entera Bio Ltd. Announces Results of 2026 Annual Meeting of Shareholders"
+          ],
+          "tag": "OFFERING",
+          "name": "Entera Bio Ltd. Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 54.14,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$216M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.05,
+          "open": 2.96,
+          "gapPct": 44.39,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.2,
+          "hodTimeExact": "10:32 AM ET",
+          "close": 3.92,
+          "fade": 6,
+          "fadeExact": 6.67,
+          "vwap": 3.5542,
+          "vsVwap": "above",
+          "pmHigh": 3.92,
+          "volRaw": "83.4M",
+          "volDollar": 296357989,
+          "relVol": 325.8,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "ENTX pretty bullish PIPE with notable investors and no warrant coverage",
+            "Entera Bio Announces Pricing of Oversubscribed $275 Million Private Placement",
+            "Entera Bio Announces Pricing of Oversubscribed $275 Million Private Placement",
+            "**• Primary driver: Oversubscribed $275 million private placement announced and priced today (July 27, 2026).**  \n  - Le",
+            "Entera Bio Ltd. Announces Results of 2026 Annual Meeting of Shareholders"
+          ],
+          "newsSummary": "Entera Bio announced a $275M oversubscribed private placement priced today with notable institutional investors and no warrant coverage—legitimate capital raise for a biotech with real cash needs. However, this is a dilutive offering that increases share count and typically pressures post-announcement, despite initial PIPE enthusiasm.",
+          "bullFactors": [
+            "104.88% HOD achieved—session highs dominating suggests institutional accumulation and short covering strength in afternoon tape",
+            "Oversubscribed PIPE with 'notable investors' and clean structure (no warrants) indicates quality backing, not desperation financing",
+            "325.8x relative volume—exceptional intraday participation, suggesting retail following smart money into the move",
+            "Real cash value catalyst (biotech funding for pipeline advancement) vs. sympathy or fluff news"
+          ],
+          "bearFactors": [
+            "Float 54.14M—well above Jack's <10M preference; limits squeeze intensity and increases fade risk on distribution",
+            "Dilutive offering will increase share count materially, creating overhead supply and long-term equity pressure",
+            "Premarket spike dominating (44.39% gap) with 6.67% fade already registered—classic pop-and-drop structure; afternoon HOD may cap out and sell into close",
+            "Private placement pricing already locked in premarket; retail buying into known dilution window—high risk of gap-fill tomorrow"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "WLDS",
+          "hod": 84,
+          "hodExact": 84.14,
+          "news": [
+            "WLDS probably another warrant inducement deal lining up again (with Armistice)",
+            "Here is the summary of the SEC ownership filing:\n\n**1.) Name of the reporting person or owner**\n*   J.B.D Innovation Ltd",
+            "Joint Filing Agreement Regarding Wearable Devices Ltd.",
+            "J.B.D Innovation Ltd. and Tshuva Victor & Co. Enter Into Share Purchase and Acting in Concert Agreement Regarding Wearable Devices Ltd. (WLDS)",
+            "Shareholders Demand Special Meeting to Replace Majority of Wearable Devices Ltd. Board"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Wearable Devices Ltd. Ordinary Share",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 2.21,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 2.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.53,
+          "open": 3.24,
+          "gapPct": -8.22,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 6.5,
+          "hodTimeExact": "02:41 PM ET",
+          "close": 3.18,
+          "fade": 51,
+          "fadeExact": 51.08,
+          "vwap": 4.5038,
+          "vsVwap": "below",
+          "pmHigh": 3.52,
+          "volRaw": "10.2M",
+          "volDollar": 46090651,
+          "relVol": 3.2,
+          "avgVolM": 3.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "WLDS probably another warrant inducement deal lining up again (with Armistice)",
+            "Here is the summary of the SEC ownership filing:\n\n**1.) Name of the reporting person or owner**\n*   J.B.D Innovation Ltd",
+            "Joint Filing Agreement Regarding Wearable Devices Ltd.",
+            "J.B.D Innovation Ltd. and Tshuva Victor & Co. Enter Into Share Purchase and Acting in Concert Agreement Regarding Wearable Devices Ltd. (WLDS)",
+            "Shareholders Demand Special Meeting to Replace Majority of Wearable Devices Ltd. Board"
+          ],
+          "newsSummary": "WLDS moved on warrant inducement speculation and corporate governance chaos (board replacement demand, share purchase agreements with Armistice-linked entities). No real cash catalyst or operating news—this is pure structural/dilution concern masquerading as a catalyst. The moves appear driven by insider maneuvering and equity warfare, not business fundamentals.",
+          "bullFactors": [
+            "Ultra-low float at 2.21M shares—classic runner structure with potential for explosive moves on retail attention",
+            "84% HOD dominance suggests intraday continuation strength and short squeeze potential despite overall weakness",
+            "High relative volume (3.2x) indicates institutional/retail participation despite fluff news—tape could have room if setup holds"
+          ],
+          "bearFactors": [
+            "Warrant inducement deal likely incoming (Armistice pattern)—textbook dilution red flag that Jack avoids entirely; equity holders will be hammered",
+            "51% fade from premarket spike is classic COLD tape signature—retail fomo pop with institutional selling into strength",
+            "-8.22% gap down + governance chaos (shareholder revolt, acting in concert agreements) screams insider conflict and potential offering overhang",
+            "News is pure fluff/sympathy play—no revenue catalyst, no partnership, no real business news, just corporate soap opera"
+          ],
+          "setupGrade": "F"
+        },
+        {
+          "sym": "KIDZ",
+          "hod": 80,
+          "hodExact": 80.43,
+          "news": [
+            "KIDZ AI Issues Shareholder Letter Addressing Disconnect Between Current Share Price and Fundamentals",
+            "KIDZ AI Issues Shareholder Letter Addressing Disconnect Between Current Share Price and Fundamentals",
+            "**• Primary catalyst: Shareholder letter released today (July 27, 2026) highlighting valuation disconnect.** Management",
+            "KIDZ AI Addresses Valuation Disconnect, Expands Share Repurchase Program, and Outlines GPU Revenue Timeline",
+            "KIDZ AI Inc. Issues Open Letter to Shareholders Regarding Share Price Disconnect"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "KIDZ AI Inc. Class B Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 10.94,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4191,
+          "open": 0.5103,
+          "gapPct": 21.76,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.7562,
+          "hodTimeExact": "11:24 AM ET",
+          "close": 0.602,
+          "fade": 20,
+          "fadeExact": 20.39,
+          "vwap": 0.6254,
+          "vsVwap": "below",
+          "pmHigh": 0.6562,
+          "volRaw": "250.9M",
+          "volDollar": 156907413,
+          "relVol": 9.4,
+          "avgVolM": 26.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "KIDZ AI Issues Shareholder Letter Addressing Disconnect Between Current Share Price and Fundamentals",
+            "KIDZ AI Issues Shareholder Letter Addressing Disconnect Between Current Share Price and Fundamentals",
+            "**• Primary catalyst: Shareholder letter released today (July 27, 2026) highlighting valuation disconnect.** Management",
+            "KIDZ AI Addresses Valuation Disconnect, Expands Share Repurchase Program, and Outlines GPU Revenue Timeline",
+            "KIDZ AI Inc. Issues Open Letter to Shareholders Regarding Share Price Disconnect"
+          ],
+          "newsSummary": "KIDZ AI management issued a shareholder letter addressing valuation disconnect and expanding share repurchase program alongside GPU revenue timeline. The catalyst has moderate merit—buybacks + management acknowledgment of undervaluation can signal confidence, but shareholder letters are softer catalysts than hard earnings beats or partnerships. Real question: is this addressing genuine value or masking weak fundamentals?",
+          "bullFactors": [
+            "80.43% HOD dominance indicates sustained afternoon strength and short covering, not premarket fade—tape is hot",
+            "Float just over 10M (10.94M) at edge of preferred range; relVol 9.4x shows intraday volume outpacing premarket",
+            "Share repurchase program + GPU revenue timeline provides dual narrative (capital return + growth catalyst), reducing pure fluff risk",
+            "Gap up 21.76% on news gives room to work intraday if momentum holds"
+          ],
+          "bearFactors": [
+            "Shareholder letter is a softer catalyst than real earnings data or big-name partnership—management commentary without financial proof",
+            "Consumer Defensive sector + micro-cap ($6.68M market cap) suggests limited institutional demand; buyback may be desperation move",
+            "Already gapped and held HOD heavily (80% HOD)—may have given time to set up, but risk of exhaustion into close or fade tomorrow",
+            "No mention of actual cash position, profitability, or GPU revenue visibility—buyback credibility depends on balance sheet health"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "VEEE",
+          "hod": 79,
+          "hodExact": 79.77,
+          "news": [
+            "**• Possible reasons for the 21.8% surge (low-float/volatile name with ongoing momentum from transformative July 13 merg",
+            "**• Primary driver: Strategic merger announcement with USFM Corporation subsidiary (July 13, 2026)**  \n- Definitive agre",
+            "**• Primary driver: Strategic merger announcement on July 13, 2026**  \nTwin Vee PowerCats Co. (VEEE) announced a definit",
+            "USFM Corporation to Combine with Nasdaq-Listed Twin Vee PowerCats Co., Creating Publicly Traded Company Focused on Greenland&#39;s Disko-Nuussuaq District-Scale Magmatic Nickel-Copper-Cobalt-PGE Project",
+            "USFM Corporation Enters into Company Support Agreement with Twin Vee PowerCats Co. Stockholders"
+          ],
+          "tag": "MERGER",
+          "name": "Twin Vee PowerCats Co. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 0.53,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 0.53M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 12.97,
+          "open": 15.22,
+          "gapPct": 17.35,
+          "time": "regular session",
+          "session": "morning",
+          "high": 23.316,
+          "hodTimeExact": "10:14 AM ET",
+          "close": 15.77,
+          "fade": 32,
+          "fadeExact": 32.36,
+          "vwap": 18.5189,
+          "vsVwap": "below",
+          "pmHigh": 17.8342,
+          "volRaw": "3.7M",
+          "volDollar": 68981865,
+          "relVol": 0.5,
+          "avgVolM": 6.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 21.8% surge (low-float/volatile name with ongoing momentum from transformative July 13 merg",
+            "**• Primary driver: Strategic merger announcement with USFM Corporation subsidiary (July 13, 2026)**  \n- Definitive agre",
+            "**• Primary driver: Strategic merger announcement on July 13, 2026**  \nTwin Vee PowerCats Co. (VEEE) announced a definit",
+            "USFM Corporation to Combine with Nasdaq-Listed Twin Vee PowerCats Co., Creating Publicly Traded Company Focused on Greenland&#39;s Disko-Nuussuaq District-Scale Magmatic Nickel-Copper-Cobalt-PGE Project",
+            "USFM Corporation Enters into Company Support Agreement with Twin Vee PowerCats Co. Stockholders"
+          ],
+          "newsSummary": "VEEE announced a definitive merger agreement with USFM Corporation (July 13, 2026) to create a publicly traded company focused on Greenland's Disko-Nuussuaq nickel-copper-cobalt-PGE project. This is a real M&A catalyst with tangible asset backing (mining project), not a sympathy theme or dilutive fluff, though execution risk and regulatory uncertainty in Greenland warrant caution.",
+          "bullFactors": [
+            "Ultra-tight float at 0.53M shares — severe scarcity premium, ideal for small-cap momentum runner",
+            "HOD domination at 79.77% with sustained high-volume afternoon strength signals hot tape and short squeeze continuation",
+            "Real cash-value catalyst: strategic merger with defined asset (magmatic nickel-copper-cobalt project), not a dilutive announcement",
+            "Fresh setup window from July 13 news allows institutional accumulation phase before retail push — not a 1-2 minute spike trap"
+          ],
+          "bearFactors": [
+            "Gap up 17.35% premarket on merger news — initial spike already captured, fade risk into cash open typical for M&A euphoria",
+            "Fade percentage 32.36% shows material intraday pullback pressure, suggesting early sellers and profit-taking after news run",
+            "Greenland jurisdiction and mining project development carry regulatory/geopolitical risk; deal not yet closed, integration uncertain",
+            "RelVol 0.5 is submarket — liquidity thins into squeeze moves; risk of liquidity evaporation on reversal or profit-taking"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MTNB",
+          "hod": 78,
+          "hodExact": 78.13,
+          "news": [
+            "**• Possible reasons for the 60.4% surge (low-float speculative momentum on limited new catalysts):**\n- Low float (~5.3M",
+            "Matinas BioPharma Holdings, Inc. Announces Termination of At-The-Market Sales Agreement",
+            "**• Recent 8-K filing (July 24, 2026, after hours) terminating the At-The-Market (ATM) offering agreement with BTIG effe",
+            "1.) Name of the reporting person or owner\n* Hezbay Holdings LLC\n\n2.) Types of securities transacted and associated amoun",
+            "Matinas BioPharma Announces Strategic Business Combination with GH Power to Create Publicly Traded, Advanced Clean Energy and Green Hydrogen Company; Signs Definitive Agreement to Sell LNC Platform Technology and Lead Product Candidate MAT2203 to Azurity Pharmaceuticals"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Matinas BioPharma Holdings, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 14.07,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 14.07M + RelVol 66.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 14.07M + RelVol 66.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2414,
+          "open": 0.38,
+          "gapPct": 57.42,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.43,
+          "hodTimeExact": "05:16 AM ET",
+          "close": 0.332,
+          "fade": 22,
+          "fadeExact": 22.79,
+          "vwap": 0.3997,
+          "vsVwap": "below",
+          "pmHigh": 0.5426,
+          "volRaw": "206.2M",
+          "volDollar": 82430912,
+          "relVol": 66.3,
+          "avgVolM": 3.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 60.4% surge (low-float speculative momentum on limited new catalysts):**\n- Low float (~5.3M",
+            "Matinas BioPharma Holdings, Inc. Announces Termination of At-The-Market Sales Agreement",
+            "**• Recent 8-K filing (July 24, 2026, after hours) terminating the At-The-Market (ATM) offering agreement with BTIG effe",
+            "1.) Name of the reporting person or owner\n* Hezbay Holdings LLC\n\n2.) Types of securities transacted and associated amoun",
+            "Matinas BioPharma Announces Strategic Business Combination with GH Power to Create Publicly Traded, Advanced Clean Energy and Green Hydrogen Company; Signs Definitive Agreement to Sell LNC Platform Technology and Lead Product Candidate MAT2203 to Azurity Pharmaceuticals"
+          ],
+          "newsSummary": "MTNB announced a strategic business combination with GH Power (clean energy/hydrogen) and simultaneously signed a definitive agreement to divest its LNC platform and lead candidate MAT2203 to Azurity Pharmaceuticals. This is a fundamental pivot away from pharma into energy—a transformational but high-uncertainty catalyst. The real merit is questionable: selling off core pharma assets while combining with an unproven energy company signals distress, not growth.",
+          "bullFactors": [
+            "Float appears compressed (~5.3M based on headlines, below Jack's 10M preference), supporting momentum mechanics",
+            "78% HOD dominance vs 23% fade indicates sustained institutional accumulation intraday rather than premarket spike-and-dump",
+            "66.3x relative volume shows genuine engagement; not a thin ghost trade",
+            "ATM offering termination (July 24) removed dilution overhang—removes future supply ceiling risk"
+          ],
+          "bearFactors": [
+            "Catalyst is structurally dilutive to existing shareholders: asset sale + SPAC-style merger = classic distressed restructuring, not value creation",
+            "57% gap suggests premarket euphoria on M&A news (often fades hard post-open as reality sets in)",
+            "Pharma asset sale (MAT2203) removes core revenue pipeline—converts this from biopharma to blank-check energy play, reducing institutional credibility",
+            "No real cash value disclosed; GH Power is unproven in public markets; combination appears desperation-driven, not strategic partnership"
+          ],
+          "setupGrade": "C+"
+        }
+      ],
+      "hod": 285,
+      "fade": 35,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "FIEE led +285.09% (70% fade). 3/10 held <20% fade. news: FIEE — \"**• Possible reasons for the price movement (as of July 27, 2026):**  \n- Extreme low-float volatility and momentum-drive\".",
+      "aiSummary": "Today's tape is dominated by dilutive and low-conviction catalysts—offerings (FIEE, ENTX) and no-news runners (DFNS, BIYA, LGHL, WLDS)—with zero A++ setups and a dangerous concentration in sub-1M float micro-caps that spiked premarket then faded hard (EDBL -66%, LGHL -48%, WLDS -51%). The afternoon HOD dominance (FIEE, DFNS, WLDS) suggests some institutional rotation into higher-volume names, but FIEE's offering kill and DFNS's lack of catalyst make both traps; DFNS's 0.94M float and 795M vol dollar is the only legitimate tape signal, but it caught momentum too late in the session to set up properly. International exposure (HK, CN, SG, IL) adds liquidity and black-swan risk, while the buyback (KIDZ) and M&A plays (VEEE, MTNB) are too small or already deep in their cycles. **Grade: COLD cycle**—premarket spike dominance with heavy afternoon fades and no real accumulation setup; Jack should sit tight and wait for tomorrow's fresh tape."
+    },
     {
       "date": "2026-07-24",
       "runners": [
