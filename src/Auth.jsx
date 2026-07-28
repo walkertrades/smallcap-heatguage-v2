@@ -224,8 +224,15 @@ function AuthLanding() {
 
         let photoURL = null;
         if (photoBlob) {
+          // Deliberately non-blocking: the account already exists by this point,
+          // so failing the whole signup over a photo would be worse. But don't
+          // drop it silently — stash the reason so Edit Profile can say why the
+          // photo never appeared.
           try { photoURL = await window.pfUploadAvatar(uid, photoBlob); }
-          catch (e3) { console.warn("[auth] avatar upload failed:", e3.code || e3.message); }
+          catch (e3) {
+            console.warn("[auth] avatar upload failed:", e3.code || e3.message);
+            window.pfNoteAvatarFailure(e3.message);
+          }
         }
         // Claim transactionally so simultaneous signups can't both take it.
         try { await window.pfClaimUsername(uid, handle, null); }
@@ -274,7 +281,7 @@ function AuthLanding() {
 
       <header className="vault-head">
         <div className="vault-logo" aria-hidden="true">
-          <img src="src/logo.svg?v=29" width="120" height="120" alt="" draggable="false" />
+          <img src="src/logo.svg?v=30" width="120" height="120" alt="" draggable="false" />
         </div>
         <h1 className="vault-title">
           <AuthDecrypt text="THE HEAT GAUGE" delay={260} speed={52} />

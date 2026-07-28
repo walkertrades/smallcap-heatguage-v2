@@ -177,7 +177,7 @@ function Sidebar({ view, setView, session, folders, folderId, setFolderId, onNew
 
       <div className="brand" data-label="THE HEAT GAUGE">
         <span className="brand-logo">
-          <img src="src/logo-small.svg?v=29" width="28" height="28" alt="" draggable="false" />
+          <img src="src/logo-small.svg?v=30" width="28" height="28" alt="" draggable="false" />
         </span>
         <span className="brand-name">THE HEAT GAUGE</span>
       </div>

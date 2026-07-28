@@ -453,6 +453,34 @@ def ae_get(endpoint, params):
     print(f"    ⏭  {endpoint}: 3 retries failed, skipping")
     return {}
 
+
+def fetch_ae_news(ticker, date_str):
+    """
+    Pull recent news from AskEdgar for this ticker.
+    Returns list of {title, publisher, date} dicts.
+    Falls back to empty list if AE is blocked or returns nothing.
+    """
+    if _AE_BLOCKED:
+        return []
+    raw = ae_get("news", {
+        "ticker": ticker,
+        "limit": 10,
+    })
+    results = safe_get(raw, "results", default=[])
+    news = []
+    for item in results:
+        title = item.get("title") or item.get("headline") or item.get("summary", "")[:120]
+        publisher = item.get("source") or item.get("publisher") or "AskEdgar"
+        filed = item.get("filed_at") or item.get("date") or ""
+        if title and len(title) > 10:
+            news.append({
+                "title": title.strip(),
+                "publisher": publisher,
+                "date": filed[:10] if filed else date_str,
+            })
+    return news[:5]
+
+
 def fetch_ae_bundle(ticker, debug=False, as_of_date=None):
     """
     Pull everything we need from AskEdgar in one batch.
@@ -1166,7 +1194,11 @@ def get_day_movers(target_date):
         avg_vol = fetch_avg_volume(ticker, date_str)
         rel_vol = round(c["vol"]/avg_vol, 1) if avg_vol else None
         time.sleep(0.05)
-        headlines = fetch_news(ticker, date_str)
+        # AskEdgar first, Polygon as the backup. AE returns recent filings-adjacent
+        # news carrying its own filed_at date; Polygon is scoped to date_str only.
+        headlines = fetch_ae_news(ticker, date_str)
+        if not headlines:
+            headlines = fetch_news(ticker, date_str)
         time.sleep(0.05)
 
         print(f"      → AskEdgar lookup...")
@@ -1632,7 +1664,9 @@ def call_claude_runner(m, date_str):
     Per-runner Claude pass → {newsSummary, bullFactors, bearFactors, tag}.
     Degrades to a keyword fallback (no summary/factors) if Claude is unavailable.
     """
-    headlines = [h.get("title", "") for h in (m.get("headlines") or []) if h.get("title")]
+    # Kept as dicts, not flattened to title strings: the context below passes each
+    # headline's date through so Claude can weigh how recent the catalyst is.
+    headlines = [h for h in (m.get("headlines") or []) if h.get("title")]
     fallback = {
         "newsSummary": None,
         "bullFactors": [],
@@ -1654,7 +1688,7 @@ def call_claude_runner(m, date_str):
         "country":    m.get("country"),
         "marketCap":  m.get("marketCap"),
         "relVol":     m.get("relVol"),
-        "headlines":  headlines[:8],
+        "headlines": [{"title": h["title"], "date": h.get("date", date_str)} for h in headlines[:8]],
     }
     prompt = (
         "You are analyzing a small-cap momentum runner for an experienced day trader.\n\n"

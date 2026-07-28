@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Heat Gauge</title>
 <link rel="icon" href="src/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="src/styles.css?v=29">
-<link rel="stylesheet" href="src/dashboard.css?v=29">
-<link rel="stylesheet" href="src/auth.css?v=29">
+<link rel="stylesheet" href="src/styles.css?v=30">
+<link rel="stylesheet" href="src/dashboard.css?v=30">
+<link rel="stylesheet" href="src/auth.css?v=30">
 </head>
 <body>
 <div id="root"></div>
@@ -19,10 +19,10 @@
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-storage-compat.js"></script>
 <!-- Config + initializeApp. Plain JS on purpose: it must run before any Babel
      module renders, and it holds the security rules to publish. -->
-<script src="src/firebase.js?v=29"></script>
+<script src="src/firebase.js?v=30"></script>
 <!-- Landing background effect. Standalone vanilla JS + Canvas 2D; exposes
      window.GridScan.mount(canvasOrCanvases). No framework, no build step. -->
-<script src="src/gridscan.js?v=29"></script>
+<script src="src/gridscan.js?v=30"></script>
 
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
@@ -31,28 +31,28 @@
      so the indicator colors saved in Settings actually apply. -->
 <script src="https://s3.tradingview.com/tv.js"></script>
 
-<script type="text/babel" src="src/scoring.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/scoring.jsx"></script>
-<script type="text/babel" src="src/v2schema.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/v2schema.jsx"></script>
-<script type="text/babel" src="src/metrics.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/metrics.jsx"></script>
-<script type="text/babel" src="src/chartprefs.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/chartprefs.jsx"></script>
+<script type="text/babel" src="src/scoring.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/scoring.jsx"></script>
+<script type="text/babel" src="src/v2schema.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/v2schema.jsx"></script>
+<script type="text/babel" src="src/metrics.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/metrics.jsx"></script>
+<script type="text/babel" src="src/chartprefs.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/chartprefs.jsx"></script>
 <!-- Usernames + avatars. Must load BEFORE Auth/Notes/shots — they call
      window.pfUseProfile / window.Avatar / window.PfUsernameField at render time. -->
-<script type="text/babel" src="src/Profile.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Profile.jsx"></script>
-<script type="text/babel" src="src/Auth.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Auth.jsx"></script>
-<script type="text/babel" src="src/Notes.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Notes.jsx"></script>
-<script type="text/babel" src="src/shots.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/shots.jsx"></script>
-<script type="text/babel" src="src/Gauge.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Gauge.jsx"></script>
-<script type="text/babel" src="src/Strip.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Strip.jsx"></script>
-<script type="text/babel" src="src/DayDetail.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/DayDetail.jsx"></script>
-<script type="text/babel" src="src/Calendar.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Calendar.jsx"></script>
-<script type="text/babel" src="src/EntryForm.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/EntryForm.jsx"></script>
-<script type="text/babel" src="src/Import.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Import.jsx"></script>
-<script type="text/babel" src="src/Insights.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Insights.jsx"></script>
-<script type="text/babel" src="src/Overview.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Overview.jsx"></script>
-<script type="text/babel" src="src/Settings.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Settings.jsx"></script>
-<script type="text/babel" src="src/Playbook.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Playbook.jsx"></script>
-<script type="text/babel" src="src/App.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/App.jsx"></script>
-<script type="text/babel" src="src/Tweaks.jsx?v=29" data-plugins="transform-react-jsx-source" data-filename="src/Tweaks.jsx"></script>
+<script type="text/babel" src="src/Profile.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Profile.jsx"></script>
+<script type="text/babel" src="src/Auth.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Auth.jsx"></script>
+<script type="text/babel" src="src/Notes.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Notes.jsx"></script>
+<script type="text/babel" src="src/shots.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/shots.jsx"></script>
+<script type="text/babel" src="src/Gauge.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Gauge.jsx"></script>
+<script type="text/babel" src="src/Strip.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Strip.jsx"></script>
+<script type="text/babel" src="src/DayDetail.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/DayDetail.jsx"></script>
+<script type="text/babel" src="src/Calendar.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Calendar.jsx"></script>
+<script type="text/babel" src="src/EntryForm.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/EntryForm.jsx"></script>
+<script type="text/babel" src="src/Import.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Import.jsx"></script>
+<script type="text/babel" src="src/Insights.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Insights.jsx"></script>
+<script type="text/babel" src="src/Overview.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Overview.jsx"></script>
+<script type="text/babel" src="src/Settings.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Settings.jsx"></script>
+<script type="text/babel" src="src/Playbook.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Playbook.jsx"></script>
+<script type="text/babel" src="src/App.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/App.jsx"></script>
+<script type="text/babel" src="src/Tweaks.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Tweaks.jsx"></script>
 
 <script type="text/babel" data-plugins="transform-react-jsx-source" data-filename="inline-root">
   const root = ReactDOM.createRoot(document.getElementById("root"));

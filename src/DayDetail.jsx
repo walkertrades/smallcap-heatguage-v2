@@ -491,6 +491,56 @@ function DynamicSection({ section }) {
 }
 
 // Turn inline URLs into <a> tags. Returns an array of strings + elements.
+// ── news section ───────────────────────────────────────────────────
+// Headlines live under two different keys depending on when the entry was
+// written: the v2 pipeline emits `newsHeadlines`, everything older emits
+// `news`. Measured across data2.json: `news` is populated on 3079 runners,
+// `newsHeadlines` on only 7 (it exists but sits empty on 123 more). So the
+// preference has to be "newsHeadlines when it actually has items" — preferring
+// it merely when PRESENT would blank out every v2 runner whose headlines
+// landed in `news`.
+function pickHeadlines(r) {
+  const nh = Array.isArray(r.newsHeadlines) ? r.newsHeadlines.filter(Boolean) : [];
+  if (nh.length) return { list: nh, field: "newsHeadlines" };
+  const n = Array.isArray(r.news) ? r.news.filter(Boolean) : [];
+  if (n.length) return { list: n, field: "news" };
+  return { list: [], field: null };
+}
+
+// Claude's newsSummary reads as the lede; raw headlines list underneath it.
+function NewsSection({ r }) {
+  const { list } = pickHeadlines(r);
+  const summary = r.newsSummary && String(r.newsSummary).trim();
+
+  if (!summary && list.length === 0) {
+    return (
+      <div className="rt-news">
+        <div className="rt-lbl">NEWS</div>
+        <p className="rt-news-empty">No news data available for this date</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="rt-news">
+      <div className="rt-lbl">NEWS</div>
+      {summary && <p className="rt-newssum-body">{linkifyText(summary)}</p>}
+      {list.length > 0 && (
+        <>
+          <div className="rt-news-sub">Headlines · {list.length}</div>
+          <ul className="rt-headlines">
+            {list.map((h, i) => (
+              <li key={i}>
+                <a href={headlineHref(r.sym, h)} target="_blank" rel="noopener noreferrer">{h}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </div>
+  );
+}
+
 function linkifyText(s) {
   if (!s) return s;
   const parts = [];
@@ -819,7 +869,8 @@ function RunnerTile({ r, onGradeChange }) {
   const tag = (effTag || "MIXED").toUpperCase();
   const accent = tagAccent(tag);
   const sections = visibleSections(r.sections);
-  const hasTile = r.riskBadges || r.reasons || r.tldr || r.news && r.news.length > 0;
+  const hasTile = r.riskBadges || r.reasons || r.tldr
+    || pickHeadlines(r).list.length > 0 || !!r.newsSummary;
 
   // If this runner was imported from a weekly/daily recap WITHOUT the evening-recap
   // extras, we still show a clean tile with price action + whatever we have.
@@ -868,12 +919,7 @@ function RunnerTile({ r, onGradeChange }) {
       {/* Shared desk notes for this ticker+date, live via onSnapshot */}
       {window.NotesPanel && <window.NotesPanel sym={r.sym} date={r._date} />}
 
-      {r.newsSummary && (
-        <div className="rt-newssum">
-          <div className="rt-lbl">NEWS SUMMARY</div>
-          <p className="rt-newssum-body">{linkifyText(r.newsSummary)}</p>
-        </div>
-      )}
+      <NewsSection r={r} />
 
       <FactorColumns r={r} />
 
@@ -971,20 +1017,8 @@ function RunnerTile({ r, onGradeChange }) {
         )}
       </div>
 
-      {r.news && r.news.length > 0 && (
-        <>
-          <div className="rt-lbl">Headlines</div>
-          <ul className="rt-headlines">
-            {r.news.map((h, i) => (
-              <li key={i}>
-                <a href={headlineHref(r.sym, h)} target="_blank" rel="noopener noreferrer">
-                  {h}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </>
-      )}
+      {/* Headlines now render inside <NewsSection> above, alongside the
+          Claude newsSummary, rather than in a second detached list here. */}
 
       <BehaviorEditor r={r} />
 
@@ -997,4 +1031,7 @@ function RunnerTile({ r, onGradeChange }) {
   );
 }
 
-Object.assign(window, { RunnersBlock, AdvancedRunnerCard, AdvancedRunnersTable, RunnerTile });
+Object.assign(window, {
+  RunnersBlock, AdvancedRunnerCard, AdvancedRunnersTable, RunnerTile,
+  NewsSection, pickHeadlines,
+});

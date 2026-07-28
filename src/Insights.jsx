@@ -637,6 +637,13 @@ const TREND_MODEL = "claude-sonnet-4-6";
 const TREND_MAX_TOKENS = 150;
 const TREND_DAYS = 5;
 
+// Drop any summary cached by a previous page load. Without this a blend written
+// before the prompt changed keeps being served for the rest of the session, so
+// prompt/tone edits look like they did nothing.
+(function trendPurgeCache() {
+  try { window.sessionStorage.removeItem(TREND_CACHE_KEY); } catch (_) {}
+})();
+
 // Newest ≤5 entries that actually carry an aiSummary, returned oldest → newest.
 function trendDays(entries) {
   return (entries || [])
@@ -651,15 +658,35 @@ function trendKey(days) {
 function buildTrendPrompt(days) {
   const block = days.map((d) => `${d.date}: ${String(d.aiSummary).trim()}`).join("\n\n");
   return (
-    `You are summarizing ${days.length} days of small-cap tape reads for a momentum trader.\n` +
-    `Here are the last ${days.length} daily summaries in order from oldest to newest:\n\n` +
+    `Below are ${days.length} daily small-cap tape summaries, oldest to newest.\n\n` +
     `${block}\n\n` +
-    "Write 1-2 sentences identifying what themes, float tiers, countries, or catalyst types\n" +
-    "have been consistently showing up or trending over this " +
-    `${days.length}-day window. Be specific and direct.\n` +
+    `Write 1-2 sentences describing what has trended ACROSS these ${days.length} sessions —\n` +
+    "themes, float tiers, countries, or catalyst types that recur or are shifting.\n" +
+    "Describe the multi-day window as a whole, not the newest day on its own.\n\n" +
+    "STYLE — objective third-person tape language only:\n" +
+    "- Write about the tape, not about any reader. No second person, no names, no\n" +
+    "  first person. Never use the words you, your, I, we, us, or our.\n" +
+    "- No advice or instructions to a reader. Describe conditions, not what to do.\n" +
+    "- Good: \"Tape has been dominated by news-driven micro floats.\"\n" +
+    "- Good: \"Session HODs are trending higher this week.\"\n" +
+    "- Good: \"This is a skip environment — fades heavy, premarket dominant.\"\n" +
+    "- Bad: \"Jack, today looks like a skip day for you.\"\n" +
+    "- Bad: \"You may want to sit out.\"\n\n" +
     "Return only the summary text, no preamble."
   );
 }
+// Cheap guard against the model slipping into second person anyway. If it does,
+// the blend is discarded rather than shown — the fallback chain still fills the
+// bar, so a tone miss degrades to the single-day summary instead of leaking.
+//
+// Deliberately case-SENSITIVE, matching only lowercase and Capitalized forms.
+// A case-insensitive test flags "US names" and "WE" as the pronouns "us"/"we",
+// and this tape copy is full of country codes and tickers — that would throw
+// away good blends. ALL-CAPS tokens are never pronouns here; "I" is the one
+// exception, since the pronoun is only ever written uppercase.
+const TREND_PERSONAL_RE =
+  /\b(?:[Yy]ou|[Yy]our|[Yy]ours|[Yy]ou're|[Ww]e|[Ww]e're|[Uu]s|[Oo]ur|[Oo]urs|[Ll]et's|I|I'm)\b/;
+function trendToneOk(text) { return !TREND_PERSONAL_RE.test(String(text || "")); }
 // Cached per browser session; re-fetches only when data2.json gains a newer date.
 function readTrendCache(days) {
   try {
@@ -715,10 +742,18 @@ function AISummaryBar({ entries, aiSummary }) {
     fetchTrendSummary(buildTrendPrompt(days))
       .then((text) => {
         if (cancelled) return;
+        if (text && !trendToneOk(text)) {
+          console.warn("[trend] blend used second/first person, discarding:", text);
+          setPhase("failed");
+          return;
+        }
         if (text) { writeTrendCache(days, text); setRolling(text); setPhase("live"); }
         else setPhase("failed");
       })
-      .catch(() => { if (!cancelled) setPhase("failed"); });
+      .catch((e) => {
+        console.warn("[trend] blend unavailable:", e.message);
+        if (!cancelled) setPhase("failed");
+      });
     return () => { cancelled = true; };
   }, [daysKey]);
 

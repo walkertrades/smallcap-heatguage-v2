@@ -2153,6 +2153,15 @@ textarea {
 /* ── News summary + bull/bear factors ── */
 .rt-newssum { margin: 8px 0; }
 .rt-newssum-body { font-size: 12px; line-height: 1.5; color: var(--text-dim); margin: 4px 0 0; }
+
+/* One news block: Claude's newsSummary as the lede, raw headlines under it. */
+.rt-news { margin: 10px 0; }
+.rt-news .rt-newssum-body { margin: 5px 0 0; }
+.rt-news-sub {
+  margin: 9px 0 3px; font-size: 9px; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted);
+}
+.rt-news-empty { margin: 5px 0 0; font-size: 12px; font-style: italic; color: var(--text-muted); }
 .rt-factors { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0; }
 @media (max-width: 560px) { .rt-factors { grid-template-columns: 1fr; } }
 .rt-factor-col {

@@ -122,10 +122,44 @@ function pfCompressAvatar(file) {
     reader.readAsDataURL(file);
   });
 }
+// Path is exactly `avatars/{uid}` — NO extension. The Storage rule is
+// `match /avatars/{userId} { allow write: if request.auth.uid == userId }`,
+// which binds {userId} to the entire object name, so "avatars/abc123.jpg"
+// would compare "abc123.jpg" against the uid and always be denied.
+function pfAvatarPath(uid) { return "avatars/" + uid; }
+
+// Turns Storage's error codes into something that names the actual problem.
+// A bare "upload failed" here is what made this look like a code bug when it
+// was really an unpublished ruleset.
+function pfUploadError(e) {
+  const code = (e && e.code) || "";
+  if (code === "storage/unauthorized" || code === "storage/project-not-found") {
+    return "Storage permission denied — check Firebase rules (Console → Storage → Rules; see src/firebase.js).";
+  }
+  if (code === "storage/unauthenticated") return "Signed out — sign in again to upload a photo.";
+  if (code === "storage/retry-limit-exceeded") return "Upload timed out — check your connection and retry.";
+  if (code === "storage/quota-exceeded") return "Storage quota exceeded for this Firebase project.";
+  if (code === "storage/canceled") return "Upload canceled.";
+  return (e && e.message) || "Could not upload that photo.";
+}
+
+// Signup can't block on a failed avatar (the account already exists), so it
+// parks the reason here for the next Edit Profile open to surface.
+let pfPendingAvatarError = null;
+function pfNoteAvatarFailure(msg) { pfPendingAvatarError = msg || null; }
+function pfTakeAvatarFailure() { const m = pfPendingAvatarError; pfPendingAvatarError = null; return m; }
+
 async function pfUploadAvatar(uid, blob) {
-  const ref = window.storage.ref("avatars/" + uid + ".jpg");
-  await ref.put(blob, { contentType: "image/jpeg", cacheControl: "public,max-age=300" });
-  return ref.getDownloadURL();
+  const ref = window.storage.ref(pfAvatarPath(uid));
+  try {
+    await ref.put(blob, { contentType: "image/jpeg", cacheControl: "public,max-age=300" });
+    return await ref.getDownloadURL();
+  } catch (e) {
+    console.warn("[profile] avatar upload to", pfAvatarPath(uid), "failed:", e.code || e.message);
+    const wrapped = new Error(pfUploadError(e));
+    wrapped.code = e && e.code;
+    throw wrapped;
+  }
 }
 
 // ── username reservation ───────────────────────────────────────────
@@ -273,7 +307,9 @@ function EditProfileModal({ user, profile, onClose }) {
   const [preview, setPreview] = useState_Pf((profile && profile.photoURL) || null);
   const [cleared, setCleared] = useState_Pf(false);
   const [busy, setBusy] = useState_Pf(false);
-  const [err, setErr] = useState_Pf("");
+  // Carries over a photo upload that failed during signup, so the first thing
+  // this modal shows is why the picture never appeared.
+  const [err, setErr] = useState_Pf(() => pfTakeAvatarFailure() || "");
   const [done, setDone] = useState_Pf(false);
 
   const original = (profile && profile.username) || "";
@@ -311,9 +347,15 @@ function EditProfileModal({ user, profile, onClose }) {
       setDone(true);
       window.setTimeout(onClose, 550);
     } catch (e2) {
-      setErr(e2.code === "permission-denied"
-        ? "Firestore rules don't allow this yet — see src/firebase.js."
-        : (e2.message || "Could not save."));
+      const code = e2.code || "";
+      setErr(
+        // Storage and Firestore are separate rulesets and fail separately —
+        // saying which one refused is the whole point of this message.
+        String(code).indexOf("storage/") === 0 ? e2.message
+          : code === "permission-denied"
+            ? "Firestore permission denied — check Firebase rules (Console → Firestore → Rules; see src/firebase.js)."
+            : (e2.message || "Could not save."),
+      );
       setBusy(false);
     }
   };
@@ -361,6 +403,8 @@ Object.assign(window, {
   Avatar, PhotoPicker, PfUsernameField, EditProfileModal,
   pfUseProfile, pfPrime, pfSubscribe,
   pfUsernameError, pfNormalizeUsername, pfUsernameKey, pfUsernameTaken, pfClaimUsername,
-  pfCompressAvatar, pfUploadAvatar, pfAvatarColors, pfAvatarHue, pfHandle, pfLetter,
+  pfCompressAvatar, pfUploadAvatar, pfAvatarPath, pfUploadError,
+  pfNoteAvatarFailure, pfTakeAvatarFailure,
+  pfAvatarColors, pfAvatarHue, pfHandle, pfLetter,
   pfUseUsernameCheck, PF_USERNAME_RE,
 });

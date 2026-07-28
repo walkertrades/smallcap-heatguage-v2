@@ -76,28 +76,31 @@
  *     }
  *   }
  *
- * STEP 2 — Firebase Console -> Storage -> Rules tab -> paste -> Publish
- * Storage is a SEPARATE ruleset from Firestore.
+ * STEP 2 — PASTE INTO: Firebase Console -> Storage -> Rules tab -> Publish
+ * Storage is a SEPARATE ruleset from Firestore; publishing step 1 does NOT
+ * publish this. Profile picture uploads fail with storage/unauthorized until
+ * this is pasted and published.
  *
  *   rules_version = '2';
  *   service firebase.storage {
  *     match /b/{bucket}/o {
- *       match /charts/{fileName} {
+ *       match /avatars/{userId} {
  *         allow read: if request.auth != null;
- *         allow write: if request.auth != null
- *                      && request.resource.size < 10 * 1024 * 1024
- *                      && request.resource.contentType.matches('image/.*');
+ *         allow write: if request.auth.uid == userId;
  *       }
- *       // avatars/{uid}.jpg — only the owner may write their own file
- *       match /avatars/{fileName} {
+ *       match /charts/{allPaths=**} {
  *         allow read: if request.auth != null;
- *         allow write: if request.auth != null
- *                      && fileName.matches(request.auth.uid + '[.].*')
- *                      && request.resource.size < 2 * 1024 * 1024
- *                      && request.resource.contentType.matches('image/.*');
+ *         allow write: if request.auth != null;
  *       }
  *     }
  *   }
+ *
+ * NOTE ON THE AVATAR PATH: `match /avatars/{userId}` binds {userId} to the WHOLE
+ * object name, so the upload path must be exactly `avatars/{uid}` with no file
+ * extension — `avatars/{uid}.jpg` would make userId "abc123.jpg", which never
+ * equals request.auth.uid and is denied. pfUploadAvatar() in Profile.jsx writes
+ * to `avatars/{uid}` to match. The contentType is set on the upload metadata
+ * instead of being carried by the name.
  *
  * Deliberate changes from the rules as originally handed over:
  *   1. `users`  — added `request.auth != null &&`, and split read from write so
