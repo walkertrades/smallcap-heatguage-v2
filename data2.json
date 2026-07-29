@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-28T11:17:21.455065Z",
-  "count": 9504,
+  "exportedAt": "2026-07-29T10:37:10.536189Z",
+  "count": 9514,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,810 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-28",
+      "runners": [
+        {
+          "sym": "STKH",
+          "hod": 366,
+          "hodExact": 366.67,
+          "news": [
+            "**• Possible reasons for the 22%+ surge (with heavy volume):**\n- Completion of the 1-for-3 reverse ADS split effective J",
+            "**• Primary catalyst: 1-for-3 reverse ADS split (ADS ratio adjustment) effective today (July 27, 2026)**  \n  - Announced",
+            "**• Possible reasons for the $STKH price movement today (July 22, 2026):**\n- Low-float momentum trading on a nano float",
+            "Steakholder Foods Announces ADS Ratio Adjustment",
+            "Steakholder Foods Ltd. Announces ADS Ratio Adjustment"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Steakholder Foods Ltd. American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "IL",
+          "floatM": 0.82,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.82M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.82M + RelVol 101.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.82M + RelVol 101.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.35,
+          "open": 1.35,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 6.3,
+          "hodTimeExact": "01:35 PM ET",
+          "close": 3.6,
+          "fade": 42,
+          "fadeExact": 42.86,
+          "vwap": 3.677,
+          "vsVwap": "below",
+          "pmHigh": 1.43,
+          "volRaw": "33.3M",
+          "volDollar": 122479366,
+          "relVol": 101.5,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": "3:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the 22%+ surge (with heavy volume):**\n- Completion of the 1-for-3 reverse ADS split effective J",
+            "**• Primary catalyst: 1-for-3 reverse ADS split (ADS ratio adjustment) effective today (July 27, 2026)**  \n  - Announced",
+            "**• Possible reasons for the $STKH price movement today (July 22, 2026):**\n- Low-float momentum trading on a nano float",
+            "Steakholder Foods Announces ADS Ratio Adjustment",
+            "Steakholder Foods Ltd. Announces ADS Ratio Adjustment"
+          ],
+          "newsSummary": "STKH spiked 366% on a 1-for-3 reverse ADS split effective July 27—a corporate action, not a cash-generating catalyst or fundamental trigger. Reverse splits are typically neutral to dilutive signals; this is a mechanical ratio adjustment with no business value creation, common in nano-caps managing share structure rather than driving growth.",
+          "bullFactors": [
+            "Ultra-low float at 0.82M shares—extreme liquidity constraint creates potential squeeze dynamics on intraday pushes",
+            "Session HOD dominating (366% HOD vs 42% fade) suggests afternoon institutional or retail accumulation momentum, not just premarket spike fade",
+            "Sustained volume at 101.5% relative vol indicates real participation, not flash spike followed by abandonment"
+          ],
+          "bearFactors": [
+            "Reverse split is structural dilution red flag—management tool often deployed by distressed nano-caps; no intrinsic value created",
+            "42.86% fade from HOD shows meaningful profit-taking and institutional exit; tape cooled into close despite extreme open move",
+            "Catalyst has zero real merit (mechanical corporate action vs earnings, partnership, contract); rally is pure technicals + float squeeze, prone to violent reversals",
+            "$2.95M market cap with 0.82M float creates liquidity trap; any position build risks black swan unwind or halt conditions"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "EGG",
+          "hod": 254,
+          "hodExact": 254.15,
+          "news": [
+            "**• Possible reasons for the $EGG price movement (volatile intraday swings with significant volume):**\n- Speculative mom",
+            "**• Possible reasons for the price movement:**\n- Low-float momentum/volatility play (float cited around 24M shares) attr",
+            "**• Primary catalyst: Announcement of investment in KUNGFULAND (Singapore-Canada treaty co-production film).**  \nEnigmat",
+            "Enigmatig Limited Invests in KUNGFULAND, a Singapore-Canada Treaty Co-Production",
+            "Enigmatig Limited Announces Investment in \"KUNGFULAND\" Feature Film"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Enigmatig Limited",
+          "sector": "Industrials",
+          "country": "SG",
+          "floatM": 9.12,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$140M",
+          "riskBadges": [
+            "Float 9.12M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.12M + RelVol 269.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.12M + RelVol 269.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.05,
+          "open": 2.04,
+          "gapPct": -0.49,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.26,
+          "hodTimeExact": "10:22 AM ET",
+          "close": 3.81,
+          "fade": 47,
+          "fadeExact": 47.52,
+          "vwap": 4.8793,
+          "vsVwap": "below",
+          "pmHigh": 2.293,
+          "volRaw": "21.1M",
+          "volDollar": 102779673,
+          "relVol": 269.2,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the $EGG price movement (volatile intraday swings with significant volume):**\n- Speculative mom",
+            "**• Possible reasons for the price movement:**\n- Low-float momentum/volatility play (float cited around 24M shares) attr",
+            "**• Primary catalyst: Announcement of investment in KUNGFULAND (Singapore-Canada treaty co-production film).**  \nEnigmat",
+            "Enigmatig Limited Invests in KUNGFULAND, a Singapore-Canada Treaty Co-Production",
+            "Enigmatig Limited Announces Investment in \"KUNGFULAND\" Feature Film"
+          ],
+          "newsSummary": "EGG spiked 254% on a low-float momentum play tied to a KUNGFULAND film investment announcement from July 21–23. The catalyst lacks real cash value or material business impact—it's a speculative media/entertainment play with no revenue substance, making this pure fluff momentum rather than fundamentally justified.",
+          "bullFactors": [
+            "Float under 10M (9.12M) fits Jack's core preference for tight share structure",
+            "Relative volume 269.2× normal — sustained intraday heat, not just premarket spike domination",
+            "HOD-driven session (254% gain suggests afternoon/sustained push, not quick fade pattern)",
+            "No dilutive offerings, warrants, or ATM announced — clean float structure risk-wise"
+          ],
+          "bearFactors": [
+            "Catalyst is pure fluff — film investment announcement has zero real cash value or business catalyst; sympathy/spec play only",
+            "Extreme single-day move (254% HOD) signals peak euphoria risk and potential black-swan liquidity event on reversal",
+            "47.52% fade already occurred intraday — suggests retail chase at top and institutional exit; tape cooling risk",
+            "Float data conflict in headlines (9.12M vs. 24M cited) raises transparency/reporting concerns on actual float size"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "STFS",
+          "hod": 181,
+          "hodExact": 181.25,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Momentum/continuation trading following prior volatility and financings",
+            "Star Fashion Culture Holdings Limited Enters Into Subscription Agreement for Private Placement",
+            "Star Fashion Culture Holdings Limited Enters into Subscription Agreement for 2,000,000 Class B Ordinary Shares",
+            "1.) Name of the reporting person or owner\n* ZHANG PINGTING\n\n2.) Types of securities transacted and associated amounts an",
+            "**• Possible reasons for the 31.3% price surge (high-volume move in a low-float microcap):**\n- Strong bullish signal fro"
+          ],
+          "tag": "OFFERING",
+          "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 1.13,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 1.13M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.13M + RelVol 28.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.13M + RelVol 28.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.04,
+          "open": 2.8,
+          "gapPct": -7.89,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 8.55,
+          "hodTimeExact": "12:42 PM ET",
+          "close": 3.63,
+          "fade": 57,
+          "fadeExact": 57.54,
+          "vwap": 5.0744,
+          "vsVwap": "below",
+          "pmHigh": 3,
+          "volRaw": "4.4M",
+          "volDollar": 22328010,
+          "relVol": 28.6,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Momentum/continuation trading following prior volatility and financings",
+            "Star Fashion Culture Holdings Limited Enters Into Subscription Agreement for Private Placement",
+            "Star Fashion Culture Holdings Limited Enters into Subscription Agreement for 2,000,000 Class B Ordinary Shares",
+            "1.) Name of the reporting person or owner\n* ZHANG PINGTING\n\n2.) Types of securities transacted and associated amounts an",
+            "**• Possible reasons for the 31.3% price surge (high-volume move in a low-float microcap):**\n- Strong bullish signal fro"
+          ],
+          "newsSummary": "STFS announced a private placement subscription agreement for 2M Class B shares on 7/28, triggering a 31.3% intraday spike. This is dilutive news disguised as momentum—the offering increases share count materially, which Jack explicitly avoids. Real cash value is unclear; this reads as financing-driven hype rather than operational catalyst.",
+          "bullFactors": [
+            "Ultra-tight float at 1.13M shares—extreme leverage for any sustained move",
+            "Massive 28.6x relative volume indicates retail/institutional participation picking up",
+            "181% HOD vs 57.5% fade suggests afternoon session strength and short covering, not pure premarket spike dominance"
+          ],
+          "bearFactors": [
+            "Dilutive private placement offering is a hard sell for Jack—reduces per-share value and signals potential warrant/convertible overhang",
+            "Catalyst is financing-driven, not operational (no revenue synergy, partnership, or ER beat mentioned)",
+            "Negative gap (-7.89%) into the news spike is typical fade setup risk; premarket weakness before offering announcement is a warning flag",
+            "Chinese communication services microcap with minimal market cap ($17.3M) carries liquidity and listing stability risk"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "DFNS",
+          "hod": 180,
+          "hodExact": 180.08,
+          "news": [
+            "**• Possible reasons for the 29.4%+ surge (and prior-day volatility up to ~200% intraday moves):**\n- Post 1-for-125 reve",
+            "DFNS heres that wild move in dec 2024 when it was NUKK",
+            "DFNS didnt realize it started running on this 13D - not an open market purchase, basically the company gave X Security 1",
+            "**• Primary driver: Extreme low-float volatility from 1-for-125 reverse stock split**  \nEffective July 20, 2026 (post-ap",
+            "Capital, Composites, and Construction: Why Boxabl, T3 Defense, and Xeriant Are Drawing Attention"
+          ],
+          "tag": "NO-NEWS",
+          "name": "T3 Defense Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.94,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$46M",
+          "riskBadges": [
+            "Float 0.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 13.1,
+          "open": 20.47,
+          "gapPct": 56.26,
+          "time": "regular session",
+          "session": "morning",
+          "high": 36.69,
+          "hodTimeExact": "10:06 AM ET",
+          "close": 24,
+          "fade": 34,
+          "fadeExact": 34.59,
+          "vwap": 24.6967,
+          "vsVwap": "below",
+          "pmHigh": 22.38,
+          "volRaw": "28.6M",
+          "volDollar": 706697626,
+          "relVol": 5.2,
+          "avgVolM": 5.5,
+          "ssr": false,
+          "reverseSplit": "125:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the 29.4%+ surge (and prior-day volatility up to ~200% intraday moves):**\n- Post 1-for-125 reve",
+            "DFNS heres that wild move in dec 2024 when it was NUKK",
+            "DFNS didnt realize it started running on this 13D - not an open market purchase, basically the company gave X Security 1",
+            "**• Primary driver: Extreme low-float volatility from 1-for-125 reverse stock split**  \nEffective July 20, 2026 (post-ap",
+            "Capital, Composites, and Construction: Why Boxabl, T3 Defense, and Xeriant Are Drawing Attention"
+          ],
+          "newsSummary": "DFNS spiked on post-1-for-125 reverse stock split volatility (effective July 20, 2026) combined with a 13D filing showing X Security Capital received shares—not a real cash catalyst or operational news. The move is pure float compression and technical mechanics, with no fundamental business improvement or deal substance.",
+          "bullFactors": [
+            "Extreme low float (0.94M shares)—textbook small-cap momentum fuel if intraday vol sustains",
+            "High relative volume (5.2x) and session HOD up 180%—shows institutional/retail accumulation, not just premarket spike fade",
+            "Reverse split mechanics can trap shorts and force covering on low-float runners"
+          ],
+          "bearFactors": [
+            "Catalyst is purely technical (reverse split) with zero business merit—fluff news territory, high fade risk into close/next session",
+            "34.59% fade from HOD signals heavy premarket spike dominance and retail chase into resistance, classic cold-tape signature",
+            "13D filing is a structural change, not cash inflow or partnership—dilution/governance risk wrapped in low-float volatility, black-swan condition warning at these moves"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "INLF",
+          "hod": 149,
+          "hodExact": 149.39,
+          "news": [
+            "**• Possible reasons for the 29%+ move (and prior volatility):**  \n- **Low-float momentum/speculative trading**: Tiny po",
+            "**• Recent developments (last 3 days max):** The most recent filing/news is the closing of a small July PIPE financing f",
+            "INLIF Limited Completes $103,200 PIPE Transaction",
+            "**• Possible reasons for today's +33.2% move (low-float speculative momentum/pump):**\n  - Retail trader interest and mom",
+            "INLIF LIMITED Announces 1-for-200 Share Combination"
+          ],
+          "tag": "NO-NEWS",
+          "name": "INLIF LIMITED Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 0.99,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 0.99M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.28,
+          "open": 4.731,
+          "gapPct": 44.24,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.18,
+          "hodTimeExact": "10:33 AM ET",
+          "close": 5.3,
+          "fade": 35,
+          "fadeExact": 35.21,
+          "vwap": 5.5832,
+          "vsVwap": "below",
+          "pmHigh": 5.36,
+          "volRaw": "33.0M",
+          "volDollar": 184356443,
+          "relVol": 8.8,
+          "avgVolM": 3.8,
+          "ssr": false,
+          "reverseSplit": "200:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the 29%+ move (and prior volatility):**  \n- **Low-float momentum/speculative trading**: Tiny po",
+            "**• Recent developments (last 3 days max):** The most recent filing/news is the closing of a small July PIPE financing f",
+            "INLIF Limited Completes $103,200 PIPE Transaction",
+            "**• Possible reasons for today's +33.2% move (low-float speculative momentum/pump):**\n  - Retail trader interest and mom",
+            "INLIF LIMITED Announces 1-for-200 Share Combination"
+          ],
+          "newsSummary": "INLF spiked 149% HOD on low-float momentum and retail speculation rather than a material catalyst. The most recent news (July 24 PIPE closure of $103.2K) is a micro financing that doesn't justify the magnitude of move—this is pure speculative pump on a 0.99M float micro-cap with a prior 1-for-200 reverse split, suggesting distressed capital structure.",
+          "bullFactors": [
+            "Extremely tight float at 0.99M shares—meets Jack's <10M preference with room for squeeze",
+            "Session HOD dominance (149% HOD vs 35% fade) shows sustained intraday strength, not premarket spike collapse",
+            "High relative volume (8.8x) and micro market cap create liquidity vacuum for retail accumulation push"
+          ],
+          "bearFactors": [
+            "Catalyst is fluff—$103.2K PIPE is dilutive crumb financing with no real business merit; reverse split history signals distress and cap structure risk",
+            "CN-listed industrial micro-cap with $5.8M market cap carries execution/liquidity risk and potential delisting concerns",
+            "35% fade from HOD is significant pullback; fades this large on low-float names often signal retail exhaustion and institutional no-show",
+            "No real catalyst (earnings, partnership, revenue deal)—pure momentum/speculation play vulnerable to sudden liquidity collapse"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "CISS",
+          "hod": 114,
+          "hodExact": 114.84,
+          "news": [
+            "CISS zero exercise price warrant offering yesterday, their cost basis is around $0.10 for 58M shares",
+            "**• Primary catalyst: Announcement of a $6.0 million underwritten public offering**  \nC3is Inc. priced an underwritten p",
+            "Based on the filing provided, here are the important details of the offering:\n\n**1.) Type of offering**\n*   New Offering",
+            "C3is Inc. Completes $6.0 Million Registered Offering of Units and Warrants",
+            "C3is Inc. Announces Pricing of $6.0 Million Underwritten Public Offering"
+          ],
+          "tag": "OFFERING",
+          "name": "C3is Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "GR",
+          "floatM": 13.19,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 13.19M + RelVol 160.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 13.19M + RelVol 160.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1024,
+          "open": 0.1849,
+          "gapPct": 80.57,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.22,
+          "hodTimeExact": "04:02 AM ET",
+          "close": 0.167,
+          "fade": 24,
+          "fadeExact": 24.09,
+          "vwap": 0.1997,
+          "vsVwap": "below",
+          "pmHigh": 0.2724,
+          "volRaw": "405.9M",
+          "volDollar": 81051088,
+          "relVol": 160.5,
+          "avgVolM": 2.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "CISS zero exercise price warrant offering yesterday, their cost basis is around $0.10 for 58M shares",
+            "**• Primary catalyst: Announcement of a $6.0 million underwritten public offering**  \nC3is Inc. priced an underwritten p",
+            "Based on the filing provided, here are the important details of the offering:\n\n**1.) Type of offering**\n*   New Offering",
+            "C3is Inc. Completes $6.0 Million Registered Offering of Units and Warrants",
+            "C3is Inc. Announces Pricing of $6.0 Million Underwritten Public Offering"
+          ],
+          "newsSummary": "CISS completed a $6.0M underwritten public offering of units and warrants, with a zero-exercise-price warrant offering on 58M shares at ~$0.10 cost basis. This is dilutive financing with massive warrant overhang, not a real cash-value catalyst—the move is pure speculation on offering completion noise.",
+          "bullFactors": [
+            "114.84% HOD dominance suggests intraday institutional accumulation or short squeeze momentum",
+            "RelVol 160.5x indicates sustained volume interest despite offering dilution",
+            "80.57% gap and fade recovery shows some resilience past initial premarket spike"
+          ],
+          "bearFactors": [
+            "Zero-exercise-price warrants on 58M shares (4.4x current float) = catastrophic dilution overhang and guaranteed future dilution",
+            "Primary catalyst is dilutive public offering, not real business catalyst—falls under AVOID per framework",
+            "80.57% gap suggests premarket spike dominance; 24.09% fade indicates early momentum already fading into session",
+            "13.19M float exceeds Jack's <10M preference; warrant exercise will crush any sustained upside"
+          ],
+          "setupGrade": "F"
+        },
+        {
+          "sym": "ONFO",
+          "hod": 98,
+          "hodExact": 98.31,
+          "news": [
+            "**• Primary catalyst: Announcement of strategic alternatives review (July 28, 2026)**  \nOnfolio Holdings launched a stra",
+            "Onfolio Holdings Inc. Announces Strategic Initiatives to Drive Shareholder Value and Regain Nasdaq Compliance",
+            "Onfolio Pursuing Strategic Alternatives to Maximize Shareholder Value",
+            "Onfolio Holdings Inc. Announces Pursuit of Strategic Alternatives to Maximize Shareholder Value",
+            "OnFolio Holdings Inc. Terminates Proposed Acquisition of Paramount Helium, LLC"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Onfolio Holdings Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 5.88,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 5.88M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1005,
+          "open": 0.14,
+          "gapPct": 39.3,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.1993,
+          "hodTimeExact": "10:03 AM ET",
+          "close": 0.1148,
+          "fade": 42,
+          "fadeExact": 42.4,
+          "vwap": 0.1446,
+          "vsVwap": "below",
+          "pmHigh": 0.1552,
+          "volRaw": "232.4M",
+          "volDollar": 33602406,
+          "relVol": 19.8,
+          "avgVolM": 11.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Announcement of strategic alternatives review (July 28, 2026)**  \nOnfolio Holdings launched a stra",
+            "Onfolio Holdings Inc. Announces Strategic Initiatives to Drive Shareholder Value and Regain Nasdaq Compliance",
+            "Onfolio Pursuing Strategic Alternatives to Maximize Shareholder Value",
+            "Onfolio Holdings Inc. Announces Pursuit of Strategic Alternatives to Maximize Shareholder Value",
+            "OnFolio Holdings Inc. Terminates Proposed Acquisition of Paramount Helium, LLC"
+          ],
+          "newsSummary": "Onfolio announced a strategic alternatives review and Nasdaq compliance initiatives on July 28, alongside termination of a helium acquisition. The catalyst has structural merit (M&A optionality, delisting prevention) but lacks concrete cash value—it's a salvage/restructuring play rather than growth-accretive news. Real catalysts emerge only if a buyer materializes or compliance succeeds.",
+          "bullFactors": [
+            "Float 5.88M is sub-10M sweet spot for momentum amplification",
+            "98.31% HOD dominance + 19.8x relative volume signals institutional accumulation and short covering into afternoon strength",
+            "Strategic alternatives review keeps door open for takeout/merger upside with real cash valuation",
+            "High tape temperature (session HODs, sustained vol) vs. premarket spike fade risk"
+          ],
+          "bearFactors": [
+            "Compliance/delisting news is survival-driven, not growth—limited sustainable upside if no buyer emerges",
+            "Terminated acquisition signals prior M&A optionality failed; current 'alternatives' may be window dressing",
+            "39.3% gap + 42.4% fade risk suggests premarket spike already captured move; afternoon HOD may be covering short squeeze rather than institutional accumulation",
+            "Micro-cap 784K market cap raises liquidity and black swan risk if cycle extends beyond single session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NEXR",
+          "hod": 78,
+          "hodExact": 78.02,
+          "news": [
+            "**• No major company-specific news or announcements in the last 3 days (most recent relevant development was July 20, 20",
+            "Nexera Technologies Ltd Announces 1-for-11 Reverse Share Split",
+            "Nexera: KeepZone AI Facilitates First Purchase Order for RT LTA Systems’ SkyStar 180™ Aerostats",
+            "**• Primary catalyst: Today’s (July 20, 2026) GlobeNewswire press release announcing that wholly-owned subsidiary KeepZo",
+            "SHARE RESALE REGISTRATION | Shares: 1,200,000"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Nexera Technologies Ltd Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 6.21,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 6.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 6.21M + RelVol 34.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 6.21M + RelVol 34.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2511,
+          "open": 0.2698,
+          "gapPct": 7.45,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.447,
+          "hodTimeExact": "02:49 PM ET",
+          "close": 0.3357,
+          "fade": 24,
+          "fadeExact": 24.9,
+          "vwap": 0.369,
+          "vsVwap": "below",
+          "pmHigh": 0.3,
+          "volRaw": "38.6M",
+          "volDollar": 14244579,
+          "relVol": 34.3,
+          "avgVolM": 1.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• No major company-specific news or announcements in the last 3 days (most recent relevant development was July 20, 20",
+            "Nexera Technologies Ltd Announces 1-for-11 Reverse Share Split",
+            "Nexera: KeepZone AI Facilitates First Purchase Order for RT LTA Systems’ SkyStar 180™ Aerostats",
+            "**• Primary catalyst: Today’s (July 20, 2026) GlobeNewswire press release announcing that wholly-owned subsidiary KeepZo",
+            "SHARE RESALE REGISTRATION | Shares: 1,200,000"
+          ],
+          "newsSummary": "NEXR spiked 7.45% on gap with no major company-specific news in the last 3 days; the most recent catalyst (July 20 KeepZone PO announcement for SkyStar 180 aerostats) is 8 days old and already priced in. The 1-for-11 reverse split (July 24) is a structural red flag typical of distressed small-caps, not a bullish catalyst.",
+          "bullFactors": [
+            "Float under 6.5M shares — excellent for momentum amplification",
+            "78% HOD dominance signals sustained intraday strength and short covering pressure",
+            "34.3x relative volume indicates retail/institutional participation above baseline"
+          ],
+          "bearFactors": [
+            "No fresh catalyst — 8-day-old news (KeepZone PO) cannot sustain momentum; fade risk high into close",
+            "Reverse split is classic distress signal; combined with resale registration (June 29, 1.2M shares) signals dilution ahead",
+            "24.9% premarket fade on a gap day suggests weak institutional conviction and retail exhaustion risk",
+            "Micro market cap ($2.1M) creates liquidity trap; wide bid-ask on breakdowns"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "LGHL",
+          "hod": 73,
+          "hodExact": 73.84,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- High volatility and momentum trading in a low-float microcap stock, con",
+            "1.) Name of the reporting person or owner\n* HRT FINANCIAL LP\n\n2.) Types of securities transacted and associated amounts",
+            "**• Possible reasons for the price movement:**\n- Speculative momentum trading in a low-float stock, with high relative v",
+            "LGHL i dont really know what the exact conversion price is of the convertible notes is now but based on the reset provis",
+            "**• Possible reasons for the 53.8% surge today (July 27, 2026):**  \n- Momentum continuation from recent positive corpora"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Lion Group Holding Ltd. American Depositary Share",
+          "sector": "Financial Services",
+          "country": "SG",
+          "floatM": 0.93,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.07,
+          "open": 0.9985,
+          "gapPct": -6.68,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.8601,
+          "hodTimeExact": "11:04 AM ET",
+          "close": 1.08,
+          "fade": 41,
+          "fadeExact": 41.94,
+          "vwap": 1.3936,
+          "vsVwap": "below",
+          "pmHigh": 1.11,
+          "volRaw": "19.0M",
+          "volDollar": 26482008,
+          "relVol": 3.6,
+          "avgVolM": 5.2,
+          "ssr": true,
+          "reverseSplit": "9:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- High volatility and momentum trading in a low-float microcap stock, con",
+            "1.) Name of the reporting person or owner\n* HRT FINANCIAL LP\n\n2.) Types of securities transacted and associated amounts",
+            "**• Possible reasons for the price movement:**\n- Speculative momentum trading in a low-float stock, with high relative v",
+            "LGHL i dont really know what the exact conversion price is of the convertible notes is now but based on the reset provis",
+            "**• Possible reasons for the 53.8% surge today (July 27, 2026):**  \n- Momentum continuation from recent positive corpora"
+          ],
+          "newsSummary": "LGHL moved on pure momentum and speculative trading in a low-float microcap with no material catalyst disclosed. Headlines reference convertible note conversion mechanics and insider trading activity (HRT Financial LP), not fundamental business developments. This is textbook momentum/tape action with zero real catalyst merit.",
+          "bullFactors": [
+            "Ultra-low float at 0.93M shares — extreme leverage for intraday moves",
+            "73.84% HOD percentage suggests afternoon session domination and potential short squeeze continuation",
+            "3.6x relative volume indicates institutional/retail participation spike above typical baseline",
+            "Singapore-listed microcap with likely tight spreads and retail momentum chasing potential"
+          ],
+          "bearFactors": [
+            "Convertible notes overhang creates dilution risk and potential forced selling on conversion resets",
+            "No real catalyst — pure momentum/sympathy play with 53.8% prior day surge signals exhaustion risk",
+            "41.94% fade percentage indicates significant premarket spike failure and weak afternoon follow-through",
+            "-6.68% gap down on current session suggests overnight momentum reversal and technical breakdown"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "FIRY",
+          "hod": 68,
+          "hodExact": 68.9,
+          "news": [
+            "Federal Court Orders Papaya Gaming to Pay $719 Million to Skillz Platform Inc., a FIRY (NYSE: FIRY) Company, Disgorging Its Unjust Profits From False Advertising",
+            "**• Possible reasons for the 21.7% price move today:**\n- High trading volume (53,750+ shares) suggests retail/speculativ",
+            "Federal Court Orders Papaya Gaming to Pay $719 Million to Firy Inc. Subsidiary in False Advertising Case",
+            "Firy Inc. Subsidiary Awarded $719 Million Judgment Against Papaya Gaming",
+            "1.) Name of the reporting person or owner\n* Robert A. Walsh\n\n4.) Dates of the transaction(s)\n* 07/13/2026 (Date of event"
+          ],
+          "tag": "CONTRACT",
+          "name": "Firy Inc.",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 10.79,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$156M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 8.36,
+          "open": 13.965,
+          "gapPct": 67.05,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 14.12,
+          "hodTimeExact": "09:28 AM ET",
+          "close": 9.84,
+          "fade": 30,
+          "fadeExact": 30.31,
+          "vwap": 11.991,
+          "vsVwap": "below",
+          "pmHigh": 14.47,
+          "volRaw": "21.7M",
+          "volDollar": 259848831,
+          "relVol": 222.2,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Federal Court Orders Papaya Gaming to Pay $719 Million to Skillz Platform Inc., a FIRY (NYSE: FIRY) Company, Disgorging Its Unjust Profits From False Advertising",
+            "**• Possible reasons for the 21.7% price move today:**\n- High trading volume (53,750+ shares) suggests retail/speculativ",
+            "Federal Court Orders Papaya Gaming to Pay $719 Million to Firy Inc. Subsidiary in False Advertising Case",
+            "Firy Inc. Subsidiary Awarded $719 Million Judgment Against Papaya Gaming",
+            "1.) Name of the reporting person or owner\n* Robert A. Walsh\n\n4.) Dates of the transaction(s)\n* 07/13/2026 (Date of event"
+          ],
+          "newsSummary": "Federal court ordered Papaya Gaming to pay FIRY subsidiary $719M in a false advertising judgment, representing real cash value recovery rather than speculative news. This is a material legal win with actual financial substance, though execution risk exists on collection.",
+          "bullFactors": [
+            "Real cash catalyst — $719M judgment is concrete value, not sympathy or dilutive news",
+            "HOD dominance at 68.9% suggests institutional accumulation and sustained strength into close, not premarket fade pattern",
+            "Float at 10.79M is borderline acceptable and intraday volume (222.2x relVol) shows retail following institutional buyers",
+            "Daily chart likely has room given judgment news hasn't been priced in historically; potential flag/breakout setup off this catalyst"
+          ],
+          "bearFactors": [
+            "Float just above 10M preference threshold — liquidity could thin on any pullback, increasing slippage risk",
+            "21.7% single-day move suggests retail is already aware; risk of fading into close or next session if no follow-through news",
+            "Judgment collection risk — $719M is only valuable if Papaya Gaming pays; default/appeal could crater the narrative",
+            "Gap up 67% intraday means entry window is narrow; late entries into afternoon strength carry typical momentum fade risk"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 366,
+      "fade": 38,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "STKH led +366.67% (42% fade). 0/10 held <20% fade. news: STKH — \"**• Possible reasons for the 22%+ surge (with heavy volume):**\n- Completion of the 1-for-3 reverse ADS split effective J\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS runners (5 of top 10), a massive red flag signaling pure technicals and retail momentum absent fundamental conviction—exactly the kind of thin-air moves Jack avoids. Float concentration is stellar for his style (seven sub-10M runners), but the session HODs split between afternoon (STKH, STFS, NEXR) and morning (DFNS, INLF, ONFO, LGHL, EGG) with zero sustained afternoon dominance, indicating a transitional/neutral cycle rather than hot shorts-blowing continuation. Dilutive catalysts (STFS and CISS offerings) poison two solid volume plays, and FIRY's premarket spike to +69% on vague \"CONTRACT\" news falls into the pump-and-dump zone. This tape reads **COLD-to-NEUTRAL**: too much anonymous float juice, zero real catalysts, and fade percentages 24–57% across the board suggest retail exhaustion rather than institutional accumulation Jack wants to ride into the afternoon."
+    },
     {
       "date": "2026-07-27",
       "runners": [
