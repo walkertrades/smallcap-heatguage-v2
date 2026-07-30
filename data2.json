@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-29T10:37:10.536189Z",
-  "count": 9514,
+  "exportedAt": "2026-07-30T10:41:08.058928Z",
+  "count": 9524,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,809 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-29",
+      "runners": [
+        {
+          "sym": "AGRZ",
+          "hod": 195,
+          "hodExact": 195.32,
+          "news": [
+            "**• Possible reasons for the ~22.7%+ surge (with ~83k shares traded and multiple circuit breaker halts):**\n- Speculative",
+            "Agroz Inc. Receives Nasdaq Notification Regarding Annual Report Filing Deficiency",
+            "Agroz Inc. Announces Publicly Traded Shares Name Change to Class A Ordinary Shares",
+            "**• Possible reasons for the 20.5% surge and high volume (87,539+ shares):**\n- Low-float/small-cap volatility and specul",
+            "Agroz Inc. Files Second Amended and Restated Memorandum and Articles of Association to Increase Authorized Share Capital"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Agroz Inc. Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "MY",
+          "floatM": 12.04,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 12.04M + RelVol 915.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 12.04M + RelVol 915.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2201,
+          "open": 0.239,
+          "gapPct": 8.59,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.65,
+          "hodTimeExact": "11:13 AM ET",
+          "close": 0.3398,
+          "fade": 47,
+          "fadeExact": 47.72,
+          "vwap": 0.4651,
+          "vsVwap": "below",
+          "pmHigh": 0.235,
+          "volRaw": "122.0M",
+          "volDollar": 56740539,
+          "relVol": 915.6,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~22.7%+ surge (with ~83k shares traded and multiple circuit breaker halts):**\n- Speculative",
+            "Agroz Inc. Receives Nasdaq Notification Regarding Annual Report Filing Deficiency",
+            "Agroz Inc. Announces Publicly Traded Shares Name Change to Class A Ordinary Shares",
+            "**• Possible reasons for the 20.5% surge and high volume (87,539+ shares):**\n- Low-float/small-cap volatility and specul",
+            "Agroz Inc. Files Second Amended and Restated Memorandum and Articles of Association to Increase Authorized Share Capital"
+          ],
+          "newsSummary": "AGRZ spiked ~22.7% on 2026-07-29 with no substantive catalyst disclosed — only vague references to 'speculative' moves and low-float volatility. Recent headlines reveal regulatory friction: Nasdaq filing deficiency notice (07-17), share class restructuring (07-17), and authorized capital increase (06-30), suggesting potential dilution risk rather than fundamental strength.",
+          "bullFactors": [
+            "RelVol 915.6× shows extreme intraday volume concentration — tape heat signature present",
+            "HOD at +195% suggests retail/momentum participation and potential institutional accumulation window",
+            "Float just above 12M (within Jack's extended tolerance) given the intraday vol/min ratio justifies entry consideration"
+          ],
+          "bearFactors": [
+            "Pure speculative no-news catalyst with zero real cash value, partnership, or earnings driver — classic fluff setup",
+            "Premarket spike dominance + heavy fade pattern (47.72% fade) signals retail exhaustion; afternoon strength needed to validate continuation",
+            "Recent Nasdaq filing deficiency and authorized capital increase filings hint at dilution concerns and compliance red flags; Class A share restructuring adds structural uncertainty",
+            "Malaysian small-cap with minimal market cap ($7.55M) and liquidity constraints — black swan/delisting risk on regulatory front"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "NCRA",
+          "hod": 178,
+          "hodExact": 178.32,
+          "news": [
+            "NCRA basically giving 300k shares to acquire some company that is a qualified distributor of Micron (MU) products- tryin",
+            "Nocera Advances AI Infrastructure Strategy with Agreement to Acquire QMAX Technology, a Taiwan-Based Authorized Distributor of Micron / Crucial Memory and Storage Products",
+            "**• Primary catalyst: Today’s (July 29, 2026) announcement of a binding agreement to acquire a 30% controlling interest",
+            "Nocera (Nasdaq: NCRA) Regains Nasdaq Bid Price Compliance; Three Binding Transactions in Sixty Days Advance Nocera Holdings",
+            "**• Primary driver: Post 1-for-30 reverse stock split effects and trading dynamics.**  \nThe split was announced July 2,"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Nocera, Inc. Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "TW",
+          "floatM": 1.33,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 1.33M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.33M + RelVol 115.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.33M + RelVol 115.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.43,
+          "open": 3.48,
+          "gapPct": 143.36,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.98,
+          "hodTimeExact": "08:42 AM ET",
+          "close": 3.12,
+          "fade": 21,
+          "fadeExact": 21.61,
+          "vwap": 3.0825,
+          "vsVwap": "above",
+          "pmHigh": 4.55,
+          "volRaw": "127.7M",
+          "volDollar": 393552291,
+          "relVol": 115.7,
+          "avgVolM": 1.1,
+          "ssr": false,
+          "reverseSplit": "30:1",
+          "newsHeadlines": [
+            "NCRA basically giving 300k shares to acquire some company that is a qualified distributor of Micron (MU) products- tryin",
+            "Nocera Advances AI Infrastructure Strategy with Agreement to Acquire QMAX Technology, a Taiwan-Based Authorized Distributor of Micron / Crucial Memory and Storage Products",
+            "**• Primary catalyst: Today’s (July 29, 2026) announcement of a binding agreement to acquire a 30% controlling interest",
+            "Nocera (Nasdaq: NCRA) Regains Nasdaq Bid Price Compliance; Three Binding Transactions in Sixty Days Advance Nocera Holdings",
+            "**• Primary driver: Post 1-for-30 reverse stock split effects and trading dynamics.**  \nThe split was announced July 2,"
+          ],
+          "newsSummary": "NCRA announced acquisition of QMAX Technology, a Taiwan-based Micron authorized distributor, issuing 300k shares (dilutive) for a 30% controlling interest. While the Micron partnership angle has surface appeal, the deal structure is fundamentally dilutive and the company appears to be executing a desperation M&A strategy (3 binding transactions in 60 days post-reverse split) rather than organic growth.",
+          "bullFactors": [
+            "Micro-float at 1.33M shares — extreme leverage if momentum sustains",
+            "178% HOD with only 21.61% fade suggests institutional accumulation and short covering pressure",
+            "Micron partnership nameplate provides surface-level credibility and potential institutional interest in AI infrastructure angle"
+          ],
+          "bearFactors": [
+            "Dilutive equity issuance (300k shares) weakens per-share value and signals capital desperation",
+            "No-cash acquisition financed with stock — red flag for equity raise necessity and balance sheet stress",
+            "Post 1-for-30 reverse split (July 2) combined with rapid M&A activity (3 deals in 60 days) suggests pump-and-dump cycle; reverse splits often precede washouts",
+            "143% gap and 178% HOD in single session on equity-dilutive news is classic premarket spike pattern — high fade risk into close and follow days"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "AMIX",
+          "hod": 163,
+          "hodExact": 163.64,
+          "news": [
+            "**• Possible reasons for the 71.3% move (as of July 29, 2026):**\n- Positive preclinical data released July 24 showing th",
+            "Autonomix Medical, Inc. Reports Cash Balance and Outstanding Share Count",
+            "**• Positive preclinical study results announced July 24, 2026**: Autonomix demonstrated its catheter-based sensing tech",
+            "SHARE RESALE REGISTRATION",
+            "Autonomix Medical Demonstrates Renal Nerve Sensing and Neural Activity Change in Preclinical Study"
+          ],
+          "tag": "PHASE-1",
+          "name": "Autonomix Medical, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.96,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 0.96M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.75,
+          "open": 4.315,
+          "gapPct": 56.91,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.25,
+          "hodTimeExact": "09:43 AM ET",
+          "close": 4.57,
+          "fade": 36,
+          "fadeExact": 36.97,
+          "vwap": 5.2326,
+          "vsVwap": "below",
+          "pmHigh": 5.29,
+          "volRaw": "70.1M",
+          "volDollar": 366581456,
+          "relVol": 59.7,
+          "avgVolM": 1.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 71.3% move (as of July 29, 2026):**\n- Positive preclinical data released July 24 showing th",
+            "Autonomix Medical, Inc. Reports Cash Balance and Outstanding Share Count",
+            "**• Positive preclinical study results announced July 24, 2026**: Autonomix demonstrated its catheter-based sensing tech",
+            "SHARE RESALE REGISTRATION",
+            "Autonomix Medical Demonstrates Renal Nerve Sensing and Neural Activity Change in Preclinical Study"
+          ],
+          "newsSummary": "Autonomix Medical released positive preclinical data on July 24 showing successful catheter-based renal nerve sensing technology, driving a 71.3% move. The catalyst has real merit as it demonstrates proof-of-concept for their core technology platform, though preclinical stage carries significant execution risk before clinical translation.",
+          "bullFactors": [
+            "Ultra-tight float at 0.96M shares — excellent volatility multiplier for retail momentum",
+            "Preclinical data is tangible, peer-reviewed science (real catalyst, not fluff news)",
+            "High relative volume (59.7x) and HOD dominance (163.64% spike) suggests institutional accumulation and sustained retail interest, not a pure premarket pop-and-fade",
+            "Healthcare/medical device sector with pathway to clinical trials and potential revenue"
+          ],
+          "bearFactors": [
+            "Preclinical stage only — still 2-3+ years from potential revenue; execution risk is extreme",
+            "Share resale registration filed July 28 (day after spike) — insider/institutional selling likely imminent, potential dilution overhang",
+            "63.97% fade from HOD already occurred; premarket spike (56.91% gap) dominated early action, classic cold tape signature",
+            "Micro-cap ($4.5M market cap) with penny-stock volatility — liquidity evaporates quickly on reversal, trapped retail buyers"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "DFNS",
+          "hod": 155,
+          "hodExact": 155.75,
+          "news": [
+            "**• Primary driver: Massive low-float squeeze following 1-for-125 reverse stock split effective July 20, 2026**  \n- Redu",
+            "**• Possible reasons for the 29.4%+ surge (and prior-day volatility up to ~200% intraday moves):**\n- Post 1-for-125 reve",
+            "DFNS heres that wild move in dec 2024 when it was NUKK",
+            "DFNS didnt realize it started running on this 13D - not an open market purchase, basically the company gave X Security 1",
+            "**• Primary driver: Extreme low-float volatility from 1-for-125 reverse stock split**  \nEffective July 20, 2026 (post-ap"
+          ],
+          "tag": "NO-NEWS",
+          "name": "T3 Defense Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.94,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$97M",
+          "riskBadges": [
+            "Float 0.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 24,
+          "open": 39.23,
+          "gapPct": 63.46,
+          "time": "regular session",
+          "session": "morning",
+          "high": 61.38,
+          "hodTimeExact": "09:35 AM ET",
+          "close": 50.22,
+          "fade": 18,
+          "fadeExact": 18.18,
+          "vwap": 46.2353,
+          "vsVwap": "above",
+          "pmHigh": 42.5,
+          "volRaw": "21.2M",
+          "volDollar": 982372377,
+          "relVol": 3.1,
+          "avgVolM": 7.0,
+          "ssr": false,
+          "reverseSplit": "125:1",
+          "newsHeadlines": [
+            "**• Primary driver: Massive low-float squeeze following 1-for-125 reverse stock split effective July 20, 2026**  \n- Redu",
+            "**• Possible reasons for the 29.4%+ surge (and prior-day volatility up to ~200% intraday moves):**\n- Post 1-for-125 reve",
+            "DFNS heres that wild move in dec 2024 when it was NUKK",
+            "DFNS didnt realize it started running on this 13D - not an open market purchase, basically the company gave X Security 1",
+            "**• Primary driver: Extreme low-float volatility from 1-for-125 reverse stock split**  \nEffective July 20, 2026 (post-ap"
+          ],
+          "newsSummary": "DFNS is running on a 1-for-125 reverse stock split (effective July 20, 2026) that artificially compressed the float to 0.94M shares—creating extreme low-float squeeze mechanics rather than fundamental catalyst. The move is pure structural volatility with no real cash value deal, earnings beat, partnership, or business catalyst driving it; this is textbook sympathy/technical-only momentum with black swan liquidity risk.",
+          "bullFactors": [
+            "Ultra-low float at 0.94M shares creates extreme squeeze potential and wide bid-ask spreads favoring fast movers",
+            "HOD dominance (155.75% gain) with sustained high relative volume (3.1x) suggests institutional accumulation or short covering panic",
+            "Prior 13D filing shows company gift to X Security (non-dilutive to public float), potentially reducing share count further",
+            "Intraday volatility up to ~200% creates outsized scalping/momentum day-trade opportunity if tape stays hot"
+          ],
+          "bearFactors": [
+            "Catalyst is purely structural (reverse split) with zero fundamental merit—no business improvement, cash deal, or real growth driver",
+            "Premarket spike dominated (63.46% gap), classic fade setup; fade already significant at 18.18% suggesting retail exhaustion and institutional distribution",
+            "Reverse split itself is often a red flag for distressed/dying companies attempting to reset; high risk of black swan delisting or secondary offering",
+            "Setup is sympathy/fluff news that Jack explicitly avoids; no room for position sizing given liquidity risk on 0.94M float if tape turns cold"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "MSS",
+          "hod": 130,
+          "hodExact": 130.82,
+          "news": [
+            "**• Possible reasons for the ~20.8% move (with ~140k shares traded):**\n- Regaining Nasdaq compliance with the annual mee",
+            "Maison Solutions Issues Letter to Shareholders on Operational Reset, Recent Transaction Value and the Company&#39;s Path Forward",
+            "Maison Solutions Inc. to Form \"Maison AI Limited\" Joint Venture for AI Software Development",
+            "Maison Solutions Regains Compliance with Nasdaq Annual Meeting Requirement",
+            "**• Possible reasons for the ~26.6% surge (high volume of ~838k shares):**\n- Announcement of a definitive agreement (Jul"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Maison Solutions Inc. Class A Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 0.48,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.48M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.48M + RelVol 19.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.48M + RelVol 19.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.59,
+          "open": 1.59,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.67,
+          "hodTimeExact": "10:54 AM ET",
+          "close": 1.64,
+          "fade": 55,
+          "fadeExact": 55.31,
+          "vwap": 2.6934,
+          "vsVwap": "below",
+          "pmHigh": 1.6,
+          "volRaw": "28.0M",
+          "volDollar": 75336666,
+          "relVol": 19.1,
+          "avgVolM": 1.5,
+          "ssr": true,
+          "reverseSplit": "5:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the ~20.8% move (with ~140k shares traded):**\n- Regaining Nasdaq compliance with the annual mee",
+            "Maison Solutions Issues Letter to Shareholders on Operational Reset, Recent Transaction Value and the Company&#39;s Path Forward",
+            "Maison Solutions Inc. to Form \"Maison AI Limited\" Joint Venture for AI Software Development",
+            "Maison Solutions Regains Compliance with Nasdaq Annual Meeting Requirement",
+            "**• Possible reasons for the ~26.6% surge (high volume of ~838k shares):**\n- Announcement of a definitive agreement (Jul"
+          ],
+          "newsSummary": "MSS regained Nasdaq compliance after meeting annual meeting requirements, coupled with a shareholder letter on operational reset and a new AI JV announcement. The catalyst mix is thin—compliance is procedural (not cash-generative), the AI JV is vague on economics, and the 'operational reset' signals prior distress. Real merit is marginal; this reads as a relief bounce off bad news, not a fundamental driver.",
+          "bullFactors": [
+            "Ultra-low float (0.48M shares) = extreme leverage on any vol push",
+            "HOD dominance at +130.82% with fade to -55.31% suggests institutional accumulation into dip; potential for afternoon continuation if tape holds",
+            "High relative vol (19.1x) and absolute volume (~838k on 7/27) shows retail interest can sustain intraday moves"
+          ],
+          "bearFactors": [
+            "Premarket spike dominated (gap was catalyst-driven); 55% fade indicates heavy early exit by smart money—classic cold tape signature",
+            "Compliance + AI JV are fluff catalysts with no cash value or partnership credibility; shareholder letter on 'reset' screams prior distress and dilution risk",
+            "Consumer Defensive sector + micro-cap + vague AI pivot suggest high pump risk; no real business traction evident in headlines"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "FIEE",
+          "hod": 108,
+          "hodExact": 108.13,
+          "news": [
+            "**• Possible reasons for the price movement (as of July 29, 2026):**  \n- Low-float momentum/volatility play (reported fl",
+            "**• Possible reasons for the price movement (as of July 27, 2026):**  \n- Extreme low-float volatility and momentum-drive",
+            "FiEE, Inc. Enters Into At-The-Market Sales Agreement for Common Stock",
+            "HEADLINE: FiEE, Inc. Enters Into Sales Agreement for At-the-Market Offering of Common Stock\n\n1.) Summary: \n- FiEE, Inc.",
+            "HEADLINE: FiEE, Inc. Enters into At-the-Market (ATM) Common Stock Sales Agreement\n\n1.) Summary: \n- FiEE, Inc. has entere"
+          ],
+          "tag": "OFFERING",
+          "name": "FiEE, Inc Common Stock",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 2.65,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$28M",
+          "riskBadges": [
+            "Float 2.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.83,
+          "open": 2.78,
+          "gapPct": -1.77,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.89,
+          "hodTimeExact": "10:19 AM ET",
+          "close": 3.2,
+          "fade": 45,
+          "fadeExact": 45.67,
+          "vwap": 3.6959,
+          "vsVwap": "below",
+          "pmHigh": 2.71,
+          "volRaw": "2.3M",
+          "volDollar": 8319319,
+          "relVol": 3.6,
+          "avgVolM": 0.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement (as of July 29, 2026):**  \n- Low-float momentum/volatility play (reported fl",
+            "**• Possible reasons for the price movement (as of July 27, 2026):**  \n- Extreme low-float volatility and momentum-drive",
+            "FiEE, Inc. Enters Into At-The-Market Sales Agreement for Common Stock",
+            "HEADLINE: FiEE, Inc. Enters Into Sales Agreement for At-the-Market Offering of Common Stock\n\n1.) Summary: \n- FiEE, Inc.",
+            "HEADLINE: FiEE, Inc. Enters into At-the-Market (ATM) Common Stock Sales Agreement\n\n1.) Summary: \n- FiEE, Inc. has entere"
+          ],
+          "newsSummary": "FIEE entered an At-The-Market (ATM) offering agreement on June 23, 2026, enabling continuous dilutive equity issuance. This is a classic overhang that Jack Walker explicitly avoids — ATM agreements create persistent selling pressure and cap upside potential on runners. The recent 108% HOD spike appears to be pure low-float momentum mechanics with no fundamental catalyst.",
+          "bullFactors": [
+            "Ultra-low float (2.65M) — theoretical fuel for parabolic moves if retail ignites",
+            "Strong intraday HOD dominance (108% vs 45% fade) — suggests some institutional accumulation or short squeeze dynamics",
+            "3.6x relative volume — above-average participation for follow-through"
+          ],
+          "bearFactors": [
+            "Active ATM offering (announced June 23) — company can dilute at market prices, hard ceiling on upside and institutional selling pressure",
+            "No real catalyst — headlines cite only low-float volatility mechanics, not a business event or earnings",
+            "45% fade indicates premarket spike dominated — typical cold cycle signal with heavy retail retail-driven fomo into overhead",
+            "Hong Kong tech micro-cap with minimal liquidity depth — difficult exit on size, black swan gap-down risk"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "GSUN",
+          "hod": 92,
+          "hodExact": 92.41,
+          "news": [
+            "**• No identifiable fundamental news or company-specific announcements in the last 3 days (July 26–29, 2026) explain the",
+            "**• Possible reasons for the ~22.5-26% price surge today (July 23/24, 2026 close):**  \n- Extremely high trading volume (",
+            "**• No company-specific news, announcements, or filings identified in the last 3 days (July 20–23, 2026) to explain the",
+            "**• Possible reasons for the +26.3% surge (with ~2.16M shares traded):**\n- Speculative momentum/volume-driven rally in a",
+            "**• Possible reasons for the 24.5% price movement (with elevated volume of ~154k shares):**\n- Speculative momentum or re"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Golden Sun Technology Group Limited Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 8.12,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 8.12M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.195,
+          "open": 0.1959,
+          "gapPct": 0.46,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.3752,
+          "hodTimeExact": "02:12 PM ET",
+          "close": 0.3232,
+          "fade": 13,
+          "fadeExact": 13.86,
+          "vwap": 0.296,
+          "vsVwap": "above",
+          "pmHigh": 0.1936,
+          "volRaw": "175.2M",
+          "volDollar": 51860547,
+          "relVol": 10.0,
+          "avgVolM": 17.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• No identifiable fundamental news or company-specific announcements in the last 3 days (July 26–29, 2026) explain the",
+            "**• Possible reasons for the ~22.5-26% price surge today (July 23/24, 2026 close):**  \n- Extremely high trading volume (",
+            "**• No company-specific news, announcements, or filings identified in the last 3 days (July 20–23, 2026) to explain the",
+            "**• Possible reasons for the +26.3% surge (with ~2.16M shares traded):**\n- Speculative momentum/volume-driven rally in a",
+            "**• Possible reasons for the 24.5% price movement (with elevated volume of ~154k shares):**\n- Speculative momentum or re"
+          ],
+          "newsSummary": "GSUN spiked 22.5-26% on July 22-24 with no identifiable fundamental catalysts or company announcements driving the move—pure speculative momentum and volume. This is classic pump-and-dump territory with zero real cash value, partnerships, or earnings news to justify the rally, making it fluff-driven.",
+          "bullFactors": [
+            "Float is 8.12M—well under Jack's 10M preference, providing low-float dynamics",
+            "HOD dominance at 92.41% suggests sustained intraday strength and potential short squeeze energy",
+            "Relative volume at 10.0x indicates retail/spec excitement and liquidity to trade"
+          ],
+          "bearFactors": [
+            "NO real catalyst—pure speculation with no company news, earnings, partnerships, or data catalysts",
+            "Premarket spike dominated early moves; 13.86% fade already visible, classic pump-and-drop pattern",
+            "Chinese small-cap consumer defensive play with minimal market cap ($2.8M)—high black swan and liquidity risk; sympathy/fluff-driven rather than substantive",
+            "Already rallied hard off no news—momentum exhaustion risk and likely institutional unwind into strength"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "SPRC",
+          "hod": 91,
+          "hodExact": 91.37,
+          "news": [
+            "SciSparc: Subsidiary NeuroThera Labs Advances its Quantum Platform for Clinical Data Analytics on a Platform of an S&amp;P 500 company",
+            "SciSparc Announces Strategic Pivot to Agentic AI and Advances Quantum Platform",
+            "SciSparc Announces Strategic Pivot to Target the Agentic AI Market",
+            "SciSparc Subsidiary NeuroThera Labs Validates Quantum Platform for Clinical Data Analytics",
+            "**• Primary driver: Strategic pivot into agentic AI market (announced July 27, 2026)**  \nSciSparc’s board decided to tar"
+          ],
+          "tag": "NO-NEWS",
+          "name": "SciSparc Ltd. Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 0.58,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 0.58M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.33,
+          "open": 6.29,
+          "gapPct": 18.01,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 10.2,
+          "hodTimeExact": "03:44 PM ET",
+          "close": 9.09,
+          "fade": 10,
+          "fadeExact": 10.88,
+          "vwap": 7.9793,
+          "vsVwap": "above",
+          "pmHigh": 6.59,
+          "volRaw": "7.9M",
+          "volDollar": 63164410,
+          "relVol": 207.2,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "SciSparc: Subsidiary NeuroThera Labs Advances its Quantum Platform for Clinical Data Analytics on a Platform of an S&amp;P 500 company",
+            "SciSparc Announces Strategic Pivot to Agentic AI and Advances Quantum Platform",
+            "SciSparc Announces Strategic Pivot to Target the Agentic AI Market",
+            "SciSparc Subsidiary NeuroThera Labs Validates Quantum Platform for Clinical Data Analytics",
+            "**• Primary driver: Strategic pivot into agentic AI market (announced July 27, 2026)**  \nSciSparc’s board decided to tar"
+          ],
+          "newsSummary": "SciSparc announced a strategic pivot to agentic AI with quantum platform advancement claims, but lacks concrete catalysts—no partnerships with named S&P 500 companies confirmed, no revenue guidance, no clinical data released. The repeated headlines suggest press release recycling rather than material developments; quantum/AI pivots without cash deals or real validation are classic fluff narratives that drive premarket speculation but fade hard into session.",
+          "bullFactors": [
+            "Ultra-low float (0.58M) creates structural squeeze potential if retail sustains buying",
+            "91% HOD dominance signals afternoon institutional accumulation rather than premarket spike fade—tape looks hot, not cold",
+            "207% relative volume shows genuine intraday participation, not just premarket pop"
+          ],
+          "bearFactors": [
+            "Catalyst is vague pivots and unvalidated quantum claims—no real cash value, no binding partnerships disclosed, textbook sympathy-theme fluff",
+            "18% gap + premarket spike pattern (multiple identical headlines same day) suggests momentum already front-ran the news; risk of hard fade into close",
+            "Healthcare/AI pivot without proof of concept or partnership agreements is high-risk reputational play vulnerable to sudden short selling",
+            "Micro-cap ($5.2M market cap) with 0.58M float creates illiquidity traps and black swan risk if sentiment turns"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "GWAV",
+          "hod": 83,
+          "hodExact": 83.1,
+          "news": [
+            "This summary is based on the provided financial report for Greenwave Technology Solutions, Inc.\n\n**1.) Upcoming dates or",
+            "**• Primary catalyst: Q1 2026 10-Q earnings filing released today (July 29, 2026)**  \n  - Dramatic YoY improvement repor",
+            "Based on the report provided, here is the summary of the company’s financial and operational status:\n\n**1.) Upcoming dat",
+            "Greenwave Announces Receipt of Additional Delinquency Notice from Nasdaq",
+            "Greenwave Technology Solutions Receives Additional Nasdaq Delinquency Notice"
+          ],
+          "tag": "EARNINGS",
+          "name": "Greenwave Technology Solutions, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.8,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.8M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.485,
+          "open": 2.45,
+          "gapPct": -1.41,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.55,
+          "hodTimeExact": "01:25 PM ET",
+          "close": 3.06,
+          "fade": 32,
+          "fadeExact": 32.75,
+          "vwap": 3.5871,
+          "vsVwap": "below",
+          "pmHigh": 2.9421,
+          "volRaw": "5.0M",
+          "volDollar": 17807943,
+          "relVol": 556.4,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "This summary is based on the provided financial report for Greenwave Technology Solutions, Inc.\n\n**1.) Upcoming dates or",
+            "**• Primary catalyst: Q1 2026 10-Q earnings filing released today (July 29, 2026)**  \n  - Dramatic YoY improvement repor",
+            "Based on the report provided, here is the summary of the company’s financial and operational status:\n\n**1.) Upcoming dat",
+            "Greenwave Announces Receipt of Additional Delinquency Notice from Nasdaq",
+            "Greenwave Technology Solutions Receives Additional Nasdaq Delinquency Notice"
+          ],
+          "newsSummary": "Q1 2026 10-Q earnings filed today showing dramatic YoY improvement, providing real fundamental catalyst rather than fluff news. However, the company faces Nasdaq delinquency notices (May 2026), which raises compliance risk and suggests potential delisting pressure despite operational improvements.",
+          "bullFactors": [
+            "Ultra-low float of 0.8M shares — ideal for Jack's sub-10M preference with extreme liquidity compression",
+            "HOD dominance at 83.1% with high relVol (556.4x) indicates hot tape, afternoon continuation strength, and institutional accumulation potential",
+            "Real catalyst: earnings report with YoY improvement provides fundamental merit vs. sympathy or dilutive news",
+            "Modest gap of -1.41% leaves intraday room to run without heavy premarket fade domination"
+          ],
+          "bearFactors": [
+            "Nasdaq delinquency notices (May 2026) signal compliance trouble and delisting risk — potential black swan event that could trigger halts or regulatory action",
+            "Fade percentage at 32.75% suggests some afternoon distribution and profit-taking despite HOD strength",
+            "Micro-cap market cap ($2.54M) with low float increases volatility risk and potential liquidity gaps on reversals",
+            "Headlines incomplete/poorly formatted — suggests minimal institutional coverage and potential for whipsaws on thin research"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MGN",
+          "hod": 79,
+          "hodExact": 79.49,
+          "news": [
+            "**• Possible reasons for the +20.9% move (high volume of ~597k shares):**  \n- Retail momentum/FOMO-driven trading on a l",
+            "Megan Holdings Limited Announces Results of Annual General Meeting",
+            "**• No company-specific fundamental news, contracts, earnings, or major announcements in the last 3 days (June 21–24, 20",
+            "**• Possible reasons for the 23.3% surge (with ~1.89M shares traded):**  \n- Speculative retail momentum trading in a mic",
+            "Megan Holdings Limited Announces Annual General Meeting and Share Consolidation Proposal"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Megan Holdings Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 22.29,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0702,
+          "open": 0.0614,
+          "gapPct": -12.54,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.126,
+          "hodTimeExact": "11:46 AM ET",
+          "close": 0.0703,
+          "fade": 44,
+          "fadeExact": 44.21,
+          "vwap": 0.0863,
+          "vsVwap": "below",
+          "pmHigh": 0.0755,
+          "volRaw": "44.0M",
+          "volDollar": 3798146,
+          "relVol": 37.4,
+          "avgVolM": 1.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the +20.9% move (high volume of ~597k shares):**  \n- Retail momentum/FOMO-driven trading on a l",
+            "Megan Holdings Limited Announces Results of Annual General Meeting",
+            "**• No company-specific fundamental news, contracts, earnings, or major announcements in the last 3 days (June 21–24, 20",
+            "**• Possible reasons for the 23.3% surge (with ~1.89M shares traded):**  \n- Speculative retail momentum trading in a mic",
+            "Megan Holdings Limited Announces Annual General Meeting and Share Consolidation Proposal"
+          ],
+          "newsSummary": "MGN moved +20.9% on retail FOMO momentum with no company-specific fundamental catalysts, earnings, contracts, or major announcements in the last 3 days. The move is purely speculative momentum trading on a micro-cap with no real cash-value catalyst to support it.",
+          "bullFactors": [
+            "High relative volume (37.4x) suggests intraday institutional or retail accumulation on the move",
+            "79.49% HOD dominance indicates afternoon session strength and potential continuation bias",
+            "Previous consolidation/dip setup structure visible before the +20.9% push"
+          ],
+          "bearFactors": [
+            "Float of 22.29M exceeds Jack's preferred <10M threshold by 2.2x, limiting liquidity runway",
+            "No real catalyst — pure sympathy/FOMO momentum on fluff news; high fade risk into close/next session",
+            "Recent share consolidation proposal (June 18) signals potential dilution concerns or corporate actions ahead",
+            "Malaysia-listed micro-cap with structural liquidity and oversight risks; difficult to short cover if it runs"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 195,
+      "fade": 32,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "AGRZ led +195.32% (47% fade). 3/10 held <20% fade. news: AGRZ — \"**• Possible reasons for the ~22.7%+ surge (with ~83k shares traded and multiple circuit breaker halts):**\n- Speculative\".",
+      "aiSummary": "Today's tape is **dominated by no-news runners (5 of 10)** with scattered real catalysts (acquisition, Phase-1 data, earnings, compliance)—a red flag for sympathy chasing over conviction plays. Float is heavily skewed ultra-tight (seven names under 2M shares) but **NCRA's premarket spike dominance paired with 47% fade signals cold cycle risk**, while afternoon HOD holds in GSUN and SPRC suggest some institutional conviction, yet the majority of volume dollars ($393M in NCRA alone) concentrated in premarket exhaustion kills the setup quality Jack demands. Country concentration tilts emerging markets (Malaysia, Taiwan, China, Hong Kong = 5 names) with weaker daily structure and lower institutional backing. **Grade the overall tape COLD to NEUTRAL**—too many no-news pops, premarket-heavy session distribution, and fade percentages above 35% on most names indicate retail front-running with limited room for institutional accumulation plays; DFNS is the lone A-range candidate (ultra-float, morning HOD, real volume), but the ecosystem lacks the sustained high-volume afternoon continuation that confirms Jack's hot-cycle momentum bias."
+    },
     {
       "date": "2026-07-28",
       "runners": [
