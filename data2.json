@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-30T10:41:08.058928Z",
-  "count": 9524,
+  "exportedAt": "2026-07-31T10:43:04.569175Z",
+  "count": 9534,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,805 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-30",
+      "runners": [
+        {
+          "sym": "CYCU",
+          "hod": 580,
+          "hodExact": 580.98,
+          "news": [
+            "**• Primary catalyst: Major contract win announced July 30, 2026** — Cycurion landed its largest contract in company his",
+            "**• Primary catalyst: Major contract announcement today (July 30, 2026)**  \n- Cycurion announced its largest contract in",
+            "Cycurion Lands Largest Contract in Company History: $54.6 Million 10-Year Award with Top-5 Global Consulting Firm",
+            "Cycurion, Inc. Reports Potential Failure to Close Merger with Halo Privacy and havenX",
+            "Kustom Entertainment Amends Divestiture Terms with Cycurion into Upgraded $6.1M Deal Featuring Immediate Cash Injection and 12% Yielding Preferred Equity"
+          ],
+          "tag": "CONTRACT",
+          "name": "Cycurion, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 11.04,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$28M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2702,
+          "open": 0.3233,
+          "gapPct": 19.65,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 1.84,
+          "hodTimeExact": "04:30 PM ET",
+          "close": 1.61,
+          "fade": 12,
+          "fadeExact": 12.5,
+          "vwap": 1.0019,
+          "vsVwap": "above",
+          "pmHigh": 0.444,
+          "volRaw": "645.5M",
+          "volDollar": 646706546,
+          "relVol": 447.8,
+          "avgVolM": 1.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Major contract win announced July 30, 2026** — Cycurion landed its largest contract in company his",
+            "**• Primary catalyst: Major contract announcement today (July 30, 2026)**  \n- Cycurion announced its largest contract in",
+            "Cycurion Lands Largest Contract in Company History: $54.6 Million 10-Year Award with Top-5 Global Consulting Firm",
+            "Cycurion, Inc. Reports Potential Failure to Close Merger with Halo Privacy and havenX",
+            "Kustom Entertainment Amends Divestiture Terms with Cycurion into Upgraded $6.1M Deal Featuring Immediate Cash Injection and 12% Yielding Preferred Equity"
+          ],
+          "newsSummary": "Cycurion announced a $54.6M 10-year contract with a top-5 global consulting firm on July 30—its largest contract in company history. This is real cash value with multi-year revenue visibility, providing genuine fundamental support for the move. However, the massive 581% HOD gain and 12.5% fade suggests the spike front-loaded heavily on premarket hype, raising concerns about sustained momentum.",
+          "bullFactors": [
+            "Real contract catalyst with $54.6M revenue—not fluff or sympathy play",
+            "RelVol 447.8x shows extreme intraday volume spike, supporting Jack's float criteria (intraday vol/min > premarket vol/min despite float slightly over 10M)",
+            "Multi-year deal provides structural revenue visibility and reduces future dilution risk"
+          ],
+          "bearFactors": [
+            "580% HOD spike in single session indicates front-loaded premarket move—classic 'pop and drop' pattern Jack avoids; 12.5% fade already underway suggests shorts covering into retail FOMO rather than institutional accumulation",
+            "Float 11.04M is marginally above Jack's <10M sweet spot; combined with the magnitude of move, liquidity may be insufficient for sustainable afternoon continuation",
+            "Overshadowed by failed merger announcement (Halo Privacy/havenX merger collapse on July 29) which creates headline noise and suggests prior dilution/execution risk concerns",
+            "No flag or downtrend break setup visible—pure gap/spike structure with no consolidation period to read institutional accumulation before retail push"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "NUWE",
+          "hod": 238,
+          "hodExact": 238.62,
+          "news": [
+            "**• Possible reasons for the ~98%+ price surge and high volume (266k+ shares):**\n- Positive preliminary Q2 2026 revenue",
+            "Nuwellis Announces Acceptance by Frontiers in Pediatrics of New Single-Center Retrospective Study Supporting Alternative Anticoagulation Strategy for Aquadex Ultrafiltration Therapy",
+            "NUWE\n- these guys did an offering in June - the warrants from that just got approved last week\n- likely another offering",
+            "**• Possible reasons for the 31.1% price surge and high volume (312k+ shares):**\n- Positive momentum from recent company",
+            "Nuwellis Expands Pediatric Footprint with First Aquadex SmartFlow® Installations in Wisconsin"
+          ],
+          "tag": "OFFERING",
+          "name": "Nuwellis, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.66,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.66M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.66M + RelVol 162.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.66M + RelVol 162.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.89,
+          "open": 5.14,
+          "gapPct": 171.96,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.3999,
+          "hodTimeExact": "09:42 AM ET",
+          "close": 4.45,
+          "fade": 30,
+          "fadeExact": 30.47,
+          "vwap": 4.7771,
+          "vsVwap": "below",
+          "pmHigh": 5.93,
+          "volRaw": "117.9M",
+          "volDollar": 563412469,
+          "relVol": 162.8,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~98%+ price surge and high volume (266k+ shares):**\n- Positive preliminary Q2 2026 revenue",
+            "Nuwellis Announces Acceptance by Frontiers in Pediatrics of New Single-Center Retrospective Study Supporting Alternative Anticoagulation Strategy for Aquadex Ultrafiltration Therapy",
+            "NUWE\n- these guys did an offering in June - the warrants from that just got approved last week\n- likely another offering",
+            "**• Possible reasons for the 31.1% price surge and high volume (312k+ shares):**\n- Positive momentum from recent company",
+            "Nuwellis Expands Pediatric Footprint with First Aquadex SmartFlow® Installations in Wisconsin"
+          ],
+          "newsSummary": "NUWE spiked 98%+ on Q2 revenue beat and pediatric Aquadex expansion news, but the real story is warrant approval from June offering creating dilution risk. While the clinical data on anticoagulation strategy has merit, the recent warrant exercise and 'likely another offering' signal this is a dilutive cycle rather than a sustainable runner.",
+          "bullFactors": [
+            "Micro-float (0.66M shares) — extreme leverage if tape stays hot",
+            "Positive Q2 revenue and real clinical publication in Frontiers (not fluff)",
+            "Intraday volume spike (266k+ shares) suggests genuine institutional interest despite headline catalysts",
+            "Healthcare device with recurring revenue moat (Aquadex installed base expanding)"
+          ],
+          "bearFactors": [
+            "CRITICAL: Recent warrant approval from June offering + 'likely another offering' incoming = dilution ahead, classic dump zone",
+            "238% HOD but 30.47% fade suggests premarket/early pop exhaustion — institutional unload after warrant holders jump ship",
+            "Micro-cap ($3M market cap) with offering cycle = black swan liquidity risk mid-move",
+            "Clinical news (pediatric study) is legitimate but secondary to warrant dilution narrative — tape will reject on secondary offering news"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "GCTK",
+          "hod": 215,
+          "hodExact": 215.79,
+          "news": [
+            "**• Primary driver: July 29, 2026 announcement from Lōkahi Therapeutics (post-merger entity) advancing LT-100 developmen",
+            "Not enough info for this filing.  Check the Press Releases and Exhibits for other summaries.",
+            "Lōkahi Therapeutics Advances LT-100 Development Strategy Toward Single-Injection Administration",
+            "Lōkahi Therapeutics™ Advances LT-100 Development Strategy Toward Single-Injection Administration",
+            "**• Possible reasons for the 37.5% price surge and high volume (2M+ shares):**\n- Release of positive development update"
+          ],
+          "tag": "PHASE-2",
+          "name": "GlucoTrack, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 6.64,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 6.64M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.285,
+          "open": 0.408,
+          "gapPct": 43.16,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.9,
+          "hodTimeExact": "04:01 AM ET",
+          "close": 0.78,
+          "fade": 13,
+          "fadeExact": 13.33,
+          "vwap": 0.5877,
+          "vsVwap": "above",
+          "pmHigh": 0.48,
+          "volRaw": "367.9M",
+          "volDollar": 216211816,
+          "relVol": 37.0,
+          "avgVolM": 10.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary driver: July 29, 2026 announcement from Lōkahi Therapeutics (post-merger entity) advancing LT-100 developmen",
+            "Not enough info for this filing.  Check the Press Releases and Exhibits for other summaries.",
+            "Lōkahi Therapeutics Advances LT-100 Development Strategy Toward Single-Injection Administration",
+            "Lōkahi Therapeutics™ Advances LT-100 Development Strategy Toward Single-Injection Administration",
+            "**• Possible reasons for the 37.5% price surge and high volume (2M+ shares):**\n- Release of positive development update"
+          ],
+          "newsSummary": "Lōkahi Therapeutics announced advancement of LT-100 development strategy toward single-injection administration on July 29, 2026. This is a legitimate clinical development milestone for a therapeutic candidate, showing concrete R&D progress rather than sympathy or fluff news.",
+          "bullFactors": [
+            "Ideal float at 6.64M shares — well under 10M threshold for small-cap momentum",
+            "Real catalyst with clinical merit — Phase development advance is tangible, not dilutive",
+            "Strong relative volume at 37.0x with 215.79% HOD dominance indicates sustained institutional/retail accumulation, not premarket spike fade pattern",
+            "Gap up 43.16% with controlled fade to 13.33% suggests tape digestion before continuation; good risk/reward setup for dip buys"
+          ],
+          "bearFactors": [
+            "Limited headline detail available ('Not enough info for this filing') — may indicate minimal institutional coverage or shallow catalyst depth",
+            "Micro-cap market cap of $6.1M creates liquidity risk and black swan tail exposure on reversals",
+            "Post-merger entity (Lōkahi) — watch for hidden dilution or warrant overhang in cap structure not yet visible",
+            "Clinical development news alone (Phase-2 pacing) lacks revenue/partnership validation that typically sustains 200%+ moves"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "PN",
+          "hod": 123,
+          "hodExact": 123.88,
+          "news": [
+            "PN Smart Energy Limited Completes Acquisition of Nanjing Cesun Power Co., Ltd.",
+            "**• Possible reasons for the 32.7% surge (low-float Chinese small-cap solar/HPC stock, formerly Skycorp Solar Group):**",
+            "PN Smart Energy Completes Acquisition of Nanjing Cesun Power, Advancing Its Transition Toward an Independent Power Producer",
+            "Consent of Independent Registered Public Accounting Firm for PN Smart Energy Limited",
+            "Nanjing Cesun Power Co., Ltd. Releases Audited Consolidated Financial Statements for Fiscal Years 2025 and 2024"
+          ],
+          "tag": "ACQUISITION",
+          "name": "PN Smart Energy Limited Class A Ordinary Shares",
+          "sector": "Energy",
+          "country": "CN",
+          "floatM": 1.29,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$334M",
+          "riskBadges": [
+            "Float 1.29M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.72,
+          "open": 20.37,
+          "gapPct": 90.02,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 24,
+          "hodTimeExact": "03:58 PM ET",
+          "close": 23.67,
+          "fade": 1,
+          "fadeExact": 1.37,
+          "vwap": 18.1831,
+          "vsVwap": "above",
+          "pmHigh": 21.2,
+          "volRaw": "8.5M",
+          "volDollar": 154682159,
+          "relVol": 11.0,
+          "avgVolM": 0.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "PN Smart Energy Limited Completes Acquisition of Nanjing Cesun Power Co., Ltd.",
+            "**• Possible reasons for the 32.7% surge (low-float Chinese small-cap solar/HPC stock, formerly Skycorp Solar Group):**",
+            "PN Smart Energy Completes Acquisition of Nanjing Cesun Power, Advancing Its Transition Toward an Independent Power Producer",
+            "Consent of Independent Registered Public Accounting Firm for PN Smart Energy Limited",
+            "Nanjing Cesun Power Co., Ltd. Releases Audited Consolidated Financial Statements for Fiscal Years 2025 and 2024"
+          ],
+          "newsSummary": "PN Smart Energy completed acquisition of Nanjing Cesun Power, a strategic move positioning it as an independent power producer in the Chinese energy sector. The catalyst has real merit as a transformational deal with actual asset consolidation and revenue runway, not a dilutive financing or sympathy play.",
+          "bullFactors": [
+            "Ultra-low float at 1.29M shares — extreme leverage for intraday moves, well below Jack's 10M preference",
+            "High relative volume (11.0x) with 123.88% HOD dominance vs only 1.37% fade — strong institutional accumulation signal, not a premarket spike fade pattern",
+            "Real cash-generating asset acquisition (power producer) with audited financials released same day — tangible value, not fluff news",
+            "90% gap open provides room to run intraday on continued institutional momentum and shorts covering"
+          ],
+          "bearFactors": [
+            "Chinese small-cap exposure introduces regulatory/geopolitical risk and potential delisting concerns for US-listed ADR",
+            "Acquisition completion (already closed) is the catalyst — upside may front-load into open; limited fuel for sustained afternoon push if institutional buyers sated early",
+            "1.37% fade suggests some profit-taking at open; volume concentration in HOD could indicate sharp rejection if tape cools",
+            "Energy/solar sector volatile; no indication of deal premium multiples or synergy pricing — acquisition news alone may not sustain high-volume continuation"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "STKH",
+          "hod": 88,
+          "hodExact": 88.19,
+          "news": [
+            "**• Possible reasons for the $STKH price movement (July 30, 2026 surge of ~36.5% intraday with elevated volume):**\n- Con",
+            "**• Possible reasons for the 22%+ surge (with heavy volume):**\n- Completion of the 1-for-3 reverse ADS split effective J",
+            "**• Primary catalyst: 1-for-3 reverse ADS split (ADS ratio adjustment) effective today (July 27, 2026)**  \n  - Announced",
+            "**• Possible reasons for the $STKH price movement today (July 22, 2026):**\n- Low-float momentum trading on a nano float",
+            "Steakholder Foods Announces ADS Ratio Adjustment"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Steakholder Foods Ltd. American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "IL",
+          "floatM": 0.82,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.82M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.71,
+          "open": 4.295,
+          "gapPct": 58.49,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.1,
+          "hodTimeExact": "09:34 AM ET",
+          "close": 2.83,
+          "fade": 44,
+          "fadeExact": 44.51,
+          "vwap": 4.038,
+          "vsVwap": "below",
+          "pmHigh": 4.7,
+          "volRaw": "20.3M",
+          "volDollar": 81807183,
+          "relVol": 8.7,
+          "avgVolM": 2.3,
+          "ssr": true,
+          "reverseSplit": "3:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the $STKH price movement (July 30, 2026 surge of ~36.5% intraday with elevated volume):**\n- Con",
+            "**• Possible reasons for the 22%+ surge (with heavy volume):**\n- Completion of the 1-for-3 reverse ADS split effective J",
+            "**• Primary catalyst: 1-for-3 reverse ADS split (ADS ratio adjustment) effective today (July 27, 2026)**  \n  - Announced",
+            "**• Possible reasons for the $STKH price movement today (July 22, 2026):**\n- Low-float momentum trading on a nano float",
+            "Steakholder Foods Announces ADS Ratio Adjustment"
+          ],
+          "newsSummary": "STKH moved +36.5% intraday on July 30 following a 1-for-3 reverse ADS split completed July 27-28. The reverse split itself is a structural adjustment with no underlying business catalyst—typical of distressed or nano-cap reorganizations. This is pure technical/liquidity play masquerading as momentum; no real cash value, earnings, or partnership driving the move.",
+          "bullFactors": [
+            "Extreme micro-float at 0.82M shares—extremely tight supply for intraday volatility",
+            "88% of session high dominance shows afternoon strength and potential short squeeze continuation",
+            "High relative volume (8.7x) indicates genuine retail/institutional participation vs. dead-fish tape",
+            "Post-split structure may temporarily reduce share count friction and create tactical squeezes"
+          ],
+          "bearFactors": [
+            "Reverse split is textbook red flag—used by distressed/diluted companies, signals prior shareholder dilution and potential future offerings",
+            "Premarket spike dominance (58% gap) with 44% fade rate shows classic pop-and-drop exhaustion; retail frontrunning structure changes",
+            "No real catalyst—this is pure momentum on structural news, not business fundamentals; high whipsaw risk intraday",
+            "Nano-cap at $2.3M market cap with Israeli domicile adds liquidity/regulatory risk; Consumer Defensive sector doesn't justify momentum premium"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "DFNS",
+          "hod": 81,
+          "hodExact": 81.2,
+          "news": [
+            "DFNS i would expect another private placement of some sort, likely with Esousa again - on this chart that big after hour",
+            "**• Primary driver: Massive low-float squeeze following 1-for-125 reverse stock split effective July 20, 2026**  \n- Redu",
+            "**• Possible reasons for the 29.4%+ surge (and prior-day volatility up to ~200% intraday moves):**\n- Post 1-for-125 reve",
+            "DFNS heres that wild move in dec 2024 when it was NUKK",
+            "DFNS didnt realize it started running on this 13D - not an open market purchase, basically the company gave X Security 1"
+          ],
+          "tag": "NO-NEWS",
+          "name": "T3 Defense Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.94,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$96M",
+          "riskBadges": [
+            "Float 0.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 50.22,
+          "open": 84.06,
+          "gapPct": 67.38,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 91,
+          "hodTimeExact": "07:39 AM ET",
+          "close": 84.98,
+          "fade": 6,
+          "fadeExact": 6.62,
+          "vwap": 81.3887,
+          "vsVwap": "above",
+          "pmHigh": 108.23,
+          "volRaw": "9.7M",
+          "volDollar": 788635342,
+          "relVol": 1.2,
+          "avgVolM": 8.0,
+          "ssr": false,
+          "reverseSplit": "125:1",
+          "newsHeadlines": [
+            "DFNS i would expect another private placement of some sort, likely with Esousa again - on this chart that big after hour",
+            "**• Primary driver: Massive low-float squeeze following 1-for-125 reverse stock split effective July 20, 2026**  \n- Redu",
+            "**• Possible reasons for the 29.4%+ surge (and prior-day volatility up to ~200% intraday moves):**\n- Post 1-for-125 reve",
+            "DFNS heres that wild move in dec 2024 when it was NUKK",
+            "DFNS didnt realize it started running on this 13D - not an open market purchase, basically the company gave X Security 1"
+          ],
+          "newsSummary": "DFNS spiked 67%+ on a reverse split (1-for-125 effective July 20) combined with a low-float squeeze dynamic, not a real cash catalyst or business driver. The move is largely mechanical—post-split liquidity reset and short covering on a 0.94M share float, with speculative 13D chatter and private placement rumors adding noise but no concrete value creation.",
+          "bullFactors": [
+            "Extremely tight float at 0.94M shares — textbook squeeze fuel if retail piles in",
+            "81.2% HOD dominance signals intraday strength and shorts getting blown out, not premarket fade pattern",
+            "Post-split reset can create technical volatility for day traders; prior Dec 2024 NUKK move shows this ticker has history of wild intraday swings"
+          ],
+          "bearFactors": [
+            "Reverse split is a red flag for financial distress; private placement rumors suggest dilution incoming — classic pump before dilution cycle",
+            "Gap spike of 67% in one session is overdone; premarket-dominated move with fades likely as retail euphoria wears off",
+            "No real catalyst — just mechanical reverse split + squeeze hype; headlines are speculative (13D, private placement chatter, 'expect another placement') = fluff, not business fundamentals",
+            "Market cap $96M on 0.94M float is fragile; liquidity will evaporate on reversal, trapping late buyers"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "SXTC",
+          "hod": 74,
+          "hodExact": 74.86,
+          "news": [
+            "**• Possible reasons for the ~34.5% surge (high volume of ~1.52M shares):**\n- Speculative momentum/pump in a low-float C",
+            "**• Recent $9M registered direct offering (announced July 23, 2026; priced at $2.00 per unit with warrants; closed ~July",
+            "FIXED PRICE OFFERING | Offering amount: $9,000,000 | Shares: 4,500,000 | Price: $2.000 | Bank: Univest Securities, LLC",
+            "China SXT Pharmaceuticals Inc. Announces $9 Million Registered Direct Offering",
+            "China SXT Pharmaceuticals, Inc. Announces $9 Million Registered Direct Offering"
+          ],
+          "tag": "OFFERING",
+          "name": "China SXT Pharmaceuticals, Inc. Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 43.28,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0525,
+          "open": 0.07,
+          "gapPct": 33.33,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.0918,
+          "hodTimeExact": "04:28 AM ET",
+          "close": 0.0731,
+          "fade": 20,
+          "fadeExact": 20.37,
+          "vwap": 0.077,
+          "vsVwap": "below",
+          "pmHigh": 0.092,
+          "volRaw": "540.7M",
+          "volDollar": 41634246,
+          "relVol": 12.3,
+          "avgVolM": 44.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~34.5% surge (high volume of ~1.52M shares):**\n- Speculative momentum/pump in a low-float C",
+            "**• Recent $9M registered direct offering (announced July 23, 2026; priced at $2.00 per unit with warrants; closed ~July",
+            "FIXED PRICE OFFERING | Offering amount: $9,000,000 | Shares: 4,500,000 | Price: $2.000 | Bank: Univest Securities, LLC",
+            "China SXT Pharmaceuticals Inc. Announces $9 Million Registered Direct Offering",
+            "China SXT Pharmaceuticals, Inc. Announces $9 Million Registered Direct Offering"
+          ],
+          "newsSummary": "SXTC spiked ~34.5% on a $9M registered direct offering (4.5M shares at $2.00 + warrants) announced July 24 and closed ~July 27. This is dilutive news with warrant overhang—classic pump structure, not real cash value creation. The surge appears to be speculative momentum in a low-float name post-offering rather than merit-based.",
+          "bullFactors": [
+            "Float under 10M (43.28M post-offering expansion, but core momentum traders see window before full dilution settles)",
+            "74.86% HOD dominance signals afternoon continuation strength and potential short squeeze mechanics",
+            "12.3x relative volume shows retail/institutional interest despite offering structure"
+          ],
+          "bearFactors": [
+            "Recent $9M dilutive direct offering with warrant exercise risk—classic pump setup that typically fades hard as lockup period settles",
+            "33.33% gap up on premarket spike (not sustained HOD strength)—high fade risk when morning euphoria wears off",
+            "Catalyst is fluff (offering news + warrant overhang), not real pharma catalyst (ER, Phase data, partnership, cash deal)",
+            "Healthcare micro-cap China ticker with regulatory/listing risk; offering overhead supply will pressure intraday holds"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "NBIL",
+          "hod": 64,
+          "hodExact": 64.62,
+          "news": [
+            "**• NBIS (underlying for NBIL) surged sharply on July 30, 2026 (up ~12-28% intraday in reports), driving the 2x daily ET",
+            "**• Primary driver: Strong performance and sentiment lift in underlying Nebius Group (NBIS) stock, amplified by the 2x d",
+            "**• Primary driver: Nvidia’s disclosure of a 9.3% stake (via shares and warrants) in Nebius Group N.V. (NBIS), announced",
+            "**• NBIS (underlying stock for the 2x ETF) surged ~10.9% on July 8, 2026 (closing at $216.48 from $195.19 prior close),",
+            "**• Primary catalyst: Major institutional stake disclosure today (May 28, 2026)**  \nLeopold Aschenbrenner’s AI-focused S"
+          ],
+          "tag": "SYMPATHY",
+          "name": "GraniteShares 2x Long NBIS Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 6.3,
+          "floatTier": "Low",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 6.3M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 13.35,
+          "open": 17.42,
+          "gapPct": 30.49,
+          "time": "regular session",
+          "session": "morning",
+          "high": 21.9774,
+          "hodTimeExact": "10:28 AM ET",
+          "close": 20.47,
+          "fade": 6,
+          "fadeExact": 6.86,
+          "vwap": 19.7345,
+          "vsVwap": "above",
+          "pmHigh": 17.67,
+          "volRaw": "7.9M",
+          "volDollar": 155991829,
+          "relVol": 2.4,
+          "avgVolM": 3.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• NBIS (underlying for NBIL) surged sharply on July 30, 2026 (up ~12-28% intraday in reports), driving the 2x daily ET",
+            "**• Primary driver: Strong performance and sentiment lift in underlying Nebius Group (NBIS) stock, amplified by the 2x d",
+            "**• Primary driver: Nvidia’s disclosure of a 9.3% stake (via shares and warrants) in Nebius Group N.V. (NBIS), announced",
+            "**• NBIS (underlying stock for the 2x ETF) surged ~10.9% on July 8, 2026 (closing at $216.48 from $195.19 prior close),",
+            "**• Primary catalyst: Major institutional stake disclosure today (May 28, 2026)**  \nLeopold Aschenbrenner’s AI-focused S"
+          ],
+          "newsSummary": "NBIL is a 2x leveraged ETF tracking NBIS (Nebius Group), which spiked on Nvidia's 9.3% stake disclosure and subsequent institutional buying. While Nvidia's involvement adds credibility, NBIL itself is a derivative product with no direct catalyst—the move is sympathy-driven off NBIS strength. Real merit exists in the underlying (Nvidia partnership), but leverage and ETF structural decay present execution risks.",
+          "bullFactors": [
+            "Ultra-low float at 6.3M shares—excellent for momentum multiplier effect",
+            "HOD domination at 64.62% with only 6.86% fade shows strong tape heat and short squeeze potential",
+            "2.4x relative volume indicates institutional accumulation spillover into the leveraged product",
+            "Underlying catalyst (Nvidia stake) is legitimate institutional-grade news, not fluff"
+          ],
+          "bearFactors": [
+            "SYMPATHY play—NBIL has no independent catalyst; entirely dependent on NBIS momentum; fade risk if underlying cools",
+            "Leveraged ETF structure creates daily decay and slippage, especially on intraday volatility; not ideal for hold-through patterns",
+            "30.49% gap already consumed most of the move; limited room to chase on open; typical premarket spike behavior",
+            "No daily chart visibility provided—cannot assess overhead supply, warrants, or true breakout room on the 2x product itself"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "AXTX",
+          "hod": 64,
+          "hodExact": 64.45,
+          "news": [
+            "**• Primary driver: Strong Q2 2026 earnings beat from underlying stock AXTI (reported after market close on July 30, 202",
+            "**• Primary catalyst: Major long-term supply agreement with Lumentum (announced July 29, 2026)**  \nAXT, Inc. (AXTI) ente",
+            "**• $AXTX is the Tradr 2X Long AXTI Daily ETF (leveraged exposure to AXT Inc., ticker AXTI), which manufactures compound",
+            "**• Possible reasons for the ~20% move in $AXTX (Tradr 2X Long AXTI Daily ETF) today:**\n- Sharp rebound/bounce in underl",
+            "**$AXTX is the Tradr 2X Long AXTI Daily ETF (leveraged exposure to AXT Inc./AXTI, a provider of indium phosphide (InP) w"
+          ],
+          "tag": "EARNINGS",
+          "name": "Tradr 2X Long AXTI Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 18.0,
+          "floatTier": "Mid",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.01,
+          "open": 3.75,
+          "gapPct": 24.58,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.95,
+          "hodTimeExact": "02:00 PM ET",
+          "close": 4.7,
+          "fade": 5,
+          "fadeExact": 5.05,
+          "vwap": 4.9907,
+          "vsVwap": "below",
+          "pmHigh": 3.75,
+          "volRaw": "17.9M",
+          "volDollar": 89552138,
+          "relVol": 3.9,
+          "avgVolM": 4.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary driver: Strong Q2 2026 earnings beat from underlying stock AXTI (reported after market close on July 30, 202",
+            "**• Primary catalyst: Major long-term supply agreement with Lumentum (announced July 29, 2026)**  \nAXT, Inc. (AXTI) ente",
+            "**• $AXTX is the Tradr 2X Long AXTI Daily ETF (leveraged exposure to AXT Inc., ticker AXTI), which manufactures compound",
+            "**• Possible reasons for the ~20% move in $AXTX (Tradr 2X Long AXTI Daily ETF) today:**\n- Sharp rebound/bounce in underl",
+            "**$AXTX is the Tradr 2X Long AXTI Daily ETF (leveraged exposure to AXT Inc./AXTI, a provider of indium phosphide (InP) w"
+          ],
+          "newsSummary": "AXTX is a 2X leveraged daily ETF tracking AXTI (AXT Inc.), which reported a strong Q2 2026 earnings beat and announced a major long-term supply agreement with Lumentum on July 29. The underlying catalyst is real (cash-generating contract + earnings beat), but AXTX is a derivative instrument—the move reflects AXTI's strength, not independent momentum.",
+          "bullFactors": [
+            "Real catalysts: earnings beat + major Lumentum supply contract = legitimate cash value, not fluff",
+            "Solid tape: 64.45% HOD dominance signals sustained institutional buying in underlying AXTI",
+            "High relative volume (3.9x) with only 5.05% fade = strong retention, not a premarket spike fade pattern"
+          ],
+          "bearFactors": [
+            "Float too high (18M shares) — exceeds Jack's <10M preference; no intraday vol/min spike to justify override",
+            "AXTX is a leveraged ETF, not the stock — daily rebalancing decay and tracking error risks; not a pure momentum runner setup",
+            "Gap of 24.58% already captured premarket — limited room left for Jack's intraday flag/dip-soak playbook; momentum may be front-loaded"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NBIG",
+          "hod": 64,
+          "hodExact": 64.19,
+          "news": [
+            "**• Primary driver: Sharp rally in underlying NBIS (Nebius Group N.V., an AI cloud infrastructure company), with NBIS su",
+            "**• Possible reasons for $NBIG's 21.4% surge (tied directly to underlying $NBIS/Nebius Group N.V. performance):**  \n- St",
+            "**• Primary driver: Sharp upside in underlying NBIS (Nebius Group N.V.) stock today (~10-12% intraday gains at times), a",
+            "**• NBIG’s 22.9% surge is driven by a sharp ~7-10%+ intraday rally in underlying NBIS (Nebius Group N.V.) stock on July",
+            "**• Primary driver: Strong upside in underlying NBIS (Nebius Group N.V., an AI cloud/data center company), which rose ~1"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Leverage Shares 2X Long NBIS Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 5.1,
+          "floatTier": "Low",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 5.1M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 9.27,
+          "open": 12.19,
+          "gapPct": 31.5,
+          "time": "regular session",
+          "session": "morning",
+          "high": 15.22,
+          "hodTimeExact": "10:28 AM ET",
+          "close": 14.3,
+          "fade": 6,
+          "fadeExact": 6.04,
+          "vwap": 13.7771,
+          "vsVwap": "above",
+          "pmHigh": 12.25,
+          "volRaw": "5.5M",
+          "volDollar": 75491206,
+          "relVol": 2.2,
+          "avgVolM": 2.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary driver: Sharp rally in underlying NBIS (Nebius Group N.V., an AI cloud infrastructure company), with NBIS su",
+            "**• Possible reasons for $NBIG's 21.4% surge (tied directly to underlying $NBIS/Nebius Group N.V. performance):**  \n- St",
+            "**• Primary driver: Sharp upside in underlying NBIS (Nebius Group N.V.) stock today (~10-12% intraday gains at times), a",
+            "**• NBIG’s 22.9% surge is driven by a sharp ~7-10%+ intraday rally in underlying NBIS (Nebius Group N.V.) stock on July",
+            "**• Primary driver: Strong upside in underlying NBIS (Nebius Group N.V., an AI cloud/data center company), which rose ~1"
+          ],
+          "newsSummary": "NBIG is a tracking vehicle/derivative of Nebius Group N.V. (NBIS), an AI cloud infrastructure company. The 31.5% gap and 64% HOD are driven entirely by sympathy moves in the underlying NBIS stock (7-10%+ intraday rallies), not by direct catalysts to NBIG itself. This is pure sympathy play with no independent fundamental merit or cash-generating news specific to NBIG.",
+          "bullFactors": [
+            "Extremely tight float at 5.1M shares — fits preferred <10M profile for volatility potential",
+            "High HOD dominance (64%) with 2.2x relative volume suggests retail intraday accumulation and short squeeze mechanics",
+            "Sustained multi-day sympathy pattern shows liquidity spillover from NBIS momentum into NBIG"
+          ],
+          "bearFactors": [
+            "Pure sympathy catalyst with zero independent drivers — entirely dependent on NBIS price action, not NBIG fundamentals",
+            "Tracking vehicle structure creates execution risk and potential tracking error, especially on fades",
+            "Large premarket gap (31.5%) dominating the move — classic fade setup; retail chasing already-moved stock into session open",
+            "Reliance on 3rd party stock performance removes trader control; liquidity can evaporate if NBIS reverses"
+          ],
+          "setupGrade": "C+"
+        }
+      ],
+      "hod": 580,
+      "fade": 14,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "CYCU led +580.98% (12% fade). 7/10 held <20% fade. news: CYCU — \"**• Primary catalyst: Major contract win announced July 30, 2026** — Cycurion landed its largest contract in company his\".",
+      "aiSummary": "Today's tape is dominated by dilutive catalysts—two offerings and a no-news pump—with real value deals (CYCU contract, PN acquisition) buried beneath noise, signaling a COLD cycle unfavorable for Jack's style. Float concentration is ultra-tight (six names under 1.5M shares) but this creates liquidity traps rather than runners; the premarket session (GCTK, DFNS, SXTC) is doing the heavy lifting on HOD prints, while afternoon holds (CYCU, PN, AXTX) suggest retail chase rather than institutional accumulation. US tech and healthcare dominate with sympathy plays filling gaps, but the 238%+ morning spike on NUWE (offering) and 88% fade-heavy STKH indicate classic pop-and-drop conditions—premarket spikes are leading, afternoon volume is chasing extended moves. This is a tape to stay flat on; Jack should wait for a session where real catalysts drive sustained HOD breaks on flags, not chase fades or micro-float offering pumps bleeding 30-44% intraday."
+    },
     {
       "date": "2026-07-29",
       "runners": [
