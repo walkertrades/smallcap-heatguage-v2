@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-07-31T10:43:04.569175Z",
-  "count": 9534,
+  "exportedAt": "2026-08-01T10:54:03.615971Z",
+  "count": 9544,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,802 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-07-31",
+      "runners": [
+        {
+          "sym": "FCUV",
+          "hod": 835,
+          "hodExact": 835.64,
+          "news": [
+            "**• Primary catalyst: Announcement of \"Deterministic AI Forms Auto-Populate Engine\" (today, July 31, 2026)**  \nNewMediaW",
+            "FCUV news not showing up cuz not from any of the major newswires - https://ca.finance.yahoo.com/news/focus-universal-ann",
+            "**• Primary driver: 1-for-4 reverse stock split effective June 23, 2026**  \nShares began trading on a split-adjusted bas",
+            "FCUV - this one could be warrant inducement situation but no history of doing so - also Armistice holding all the warran",
+            "Focus Universal Inc. Adjourns 2026 Annual Meeting Due to Lack of Quorum"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Focus Universal Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.63,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 0.63M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.63M + RelVol 3302.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.63M + RelVol 3302.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.88,
+          "open": 10.22,
+          "gapPct": 443.62,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 17.59,
+          "hodTimeExact": "04:14 PM ET",
+          "close": 11.6,
+          "fade": 34,
+          "fadeExact": 34.05,
+          "vwap": 12.2892,
+          "vsVwap": "below",
+          "pmHigh": 10.49,
+          "volRaw": "103.1M",
+          "volDollar": 1267475153,
+          "relVol": 3302.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Announcement of \"Deterministic AI Forms Auto-Populate Engine\" (today, July 31, 2026)**  \nNewMediaW",
+            "FCUV news not showing up cuz not from any of the major newswires - https://ca.finance.yahoo.com/news/focus-universal-ann",
+            "**• Primary driver: 1-for-4 reverse stock split effective June 23, 2026**  \nShares began trading on a split-adjusted bas",
+            "FCUV - this one could be warrant inducement situation but no history of doing so - also Armistice holding all the warran",
+            "Focus Universal Inc. Adjourns 2026 Annual Meeting Due to Lack of Quorum"
+          ],
+          "newsSummary": "FCUV announced a 'Deterministic AI Forms Auto-Populate Engine' today, but the news failed to appear on major newswires—only picked up on secondary channels. The catalyst lacks specificity on revenue impact, partnerships, or commercial viability, reading as pure marketing fluff rather than real cash-value catalyst. Combined with a June reverse split and failed quorum meeting, this reeks of promotional activity masking fundamental weakness.",
+          "bullFactors": [
+            "Ultra-low float at 0.63M shares—extreme scarcity if retail volume sustains",
+            "Massive relative volume at 3302x normal—genuine intraday liquidity explosion",
+            "835% HOD move with only 34% fade suggests afternoon institutional accumulation, not premarket spike-and-dump pattern"
+          ],
+          "bearFactors": [
+            "Catalyst is non-news: unverified AI announcement on fringe outlets, zero major wire coverage = fluff pump",
+            "Recent reverse split (June 23) + failed shareholder meeting (June 25) = distressed company signaling dilution risk ahead",
+            "Gap up 443% on bad news structure—classic premarket spike trap; sustained HOD strength masks thin liquidity and black swan risk on reversal",
+            "Warrant overhang via Armistice holding warrants; reverse split history suggests capital structure manipulation"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "FMFC",
+          "hod": 438,
+          "hodExact": 438.92,
+          "news": [
+            "**• Possible reasons for the 27.5% move (low-float momentum/speculative trading play):**  \n- Extremely low float and thi",
+            "Based on the financial report provided, here is the summary grouped by the requested categories:\n\n**1.) Upcoming dates o",
+            "Kandal M Venture Limited Announces Financial Results for Full Fiscal Year Ended March 31, 2026",
+            "Kandal M Venture Limited Announces Financial Results for Full Fiscal Year Ended March 31, 2026",
+            "Kandal M Venture Limited Announces Financial Results for Full Fiscal Year Ended March 31, 2026"
+          ],
+          "tag": "EARNINGS",
+          "name": "Kandal M Venture Limited Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "KH",
+          "floatM": 8.86,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 8.86M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.86M + RelVol 1581.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.86M + RelVol 1581.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2171,
+          "open": 0.2254,
+          "gapPct": 3.82,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.17,
+          "hodTimeExact": "12:48 PM ET",
+          "close": 0.5241,
+          "fade": 55,
+          "fadeExact": 55.21,
+          "vwap": 0.7126,
+          "vsVwap": "below",
+          "pmHigh": 0.277,
+          "volRaw": "193.3M",
+          "volDollar": 137745673,
+          "relVol": 1581.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 27.5% move (low-float momentum/speculative trading play):**  \n- Extremely low float and thi",
+            "Based on the financial report provided, here is the summary grouped by the requested categories:\n\n**1.) Upcoming dates o",
+            "Kandal M Venture Limited Announces Financial Results for Full Fiscal Year Ended March 31, 2026",
+            "Kandal M Venture Limited Announces Financial Results for Full Fiscal Year Ended March 31, 2026",
+            "Kandal M Venture Limited Announces Financial Results for Full Fiscal Year Ended March 31, 2026"
+          ],
+          "newsSummary": "FMFC announced FY2026 financial results on 2026-07-30, triggering a 27.5% intraday move on 2026-07-31. The catalyst appears to be earnings-driven momentum in a micro-cap, low-float name rather than fundamental strength—typical speculative play mechanics dominate.",
+          "bullFactors": [
+            "Float 8.86M is in Jack's sweet spot (<10M preferred)",
+            "RelVol 1581.5% shows extreme intraday volume spike vs premarket—fits hot tape signature",
+            "HOD dominance at 438.92% fade suggests institutional accumulation before retail retail push, not pure premarket spike fade",
+            "Real catalyst (earnings) vs sympathy/fluff, though merit of results unclear from headlines"
+          ],
+          "bearFactors": [
+            "Huge HOD % (438.92%) combined with 55.21% fade signals potential exhaustion and afternoon short-covering, not sustainable strength",
+            "Headlines lack financial detail—unclear if earnings beat/miss or if there's actual cash value driving the move",
+            "Cambodia-domiciled micro-cap with $6.1M market cap raises liquidity and listing quality concerns",
+            "Fast spike on earnings news (27.5% single day) fits 'out of play' territory if momentum already burned off in open hours"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WETO",
+          "hod": 377,
+          "hodExact": 377.0,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Announcement of a 1-for-100 share consolidation (reverse split) effecti",
+            "Wetour Robotics Announces Share Consolidation",
+            "Wetour Robotics Joins Qualcomm Partner Network to Advance Orchestra Physical AI",
+            "Wetour Robotics to Enter into Warehouse Robotics Cooperation Agreement; Management Estimates Full Contemplated Rollout Could Generate Approximately US$5.0 Million in Project-Level Gross Profit",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries."
+          ],
+          "tag": "CONTRACT",
+          "name": "Wetour Robotics Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 66.57,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.03,
+          "open": 0.1043,
+          "gapPct": 247.67,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.1431,
+          "hodTimeExact": "07:37 AM ET",
+          "close": 0.09,
+          "fade": 37,
+          "fadeExact": 37.11,
+          "vwap": 0.108,
+          "vsVwap": "below",
+          "pmHigh": 0.1698,
+          "volRaw": "1489.4M",
+          "volDollar": 160859863,
+          "relVol": 129.3,
+          "avgVolM": 11.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Announcement of a 1-for-100 share consolidation (reverse split) effecti",
+            "Wetour Robotics Announces Share Consolidation",
+            "Wetour Robotics Joins Qualcomm Partner Network to Advance Orchestra Physical AI",
+            "Wetour Robotics to Enter into Warehouse Robotics Cooperation Agreement; Management Estimates Full Contemplated Rollout Could Generate Approximately US$5.0 Million in Project-Level Gross Profit",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries."
+          ],
+          "newsSummary": "WETO announced a Qualcomm partnership and warehouse robotics cooperation agreement with estimated $5M gross profit potential, followed by a 1-for-100 reverse split. The partnership has real cash-value merit (Qualcomm credibility), but the reverse split is a major red flag—typically used to manage stock price on weak fundamentals and signals potential dilution ahead.",
+          "bullFactors": [
+            "Qualcomm partnership adds institutional-grade credibility vs. sympathy plays",
+            "Warehouse robotics contract with quantified revenue potential ($5M) shows real business traction",
+            "377% HOD with 129% relative volume shows retail/institutional accumulation interest despite float size"
+          ],
+          "bearFactors": [
+            "Float of 66.57M is 6.6x Jack's preferred threshold—liquidity and fade risk significantly higher",
+            "1-for-100 reverse split typically precedes dilutive offerings; strong warning signal for equity raise",
+            "37% fade off HOD suggests premarket spike dominance pattern (COLD cycle); afternoon strength unconfirmed",
+            "Gap up 247% into news removes setup time and increases black-swan fade risk into close"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "MGRX",
+          "hod": 325,
+          "hodExact": 325.75,
+          "news": [
+            "**• Primary catalyst: Announcement of definitive business combination agreement with Nuclea Energy Inc. (July 30, 2026).",
+            "Nuclea Energy Enters Definitive Business Combination Agreement with Mangoceuticals, Establishing a Path to a Nasdaq Public Listing to Advance the Morpheus Microreactor",
+            "Mangoceuticals Announces Business Combination Agreement with Nuclea Energy Inc.",
+            "Mangoceuticals Announces Business Combination Agreement with Nuclea Energy Inc. to Advance Next-Generation Nuclear Microreactor Technology",
+            "Mangoceuticals Announces Business Combination Agreement with Nuclea Energy Inc."
+          ],
+          "tag": "MERGER",
+          "name": "Mangoceuticals, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 16.09,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 16.09M + RelVol 111.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 16.09M + RelVol 111.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2936,
+          "open": 0.641,
+          "gapPct": 118.32,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.25,
+          "hodTimeExact": "10:21 AM ET",
+          "close": 0.5571,
+          "fade": 55,
+          "fadeExact": 55.43,
+          "vwap": 0.7555,
+          "vsVwap": "below",
+          "pmHigh": 0.8,
+          "volRaw": "512.1M",
+          "volDollar": 386925258,
+          "relVol": 111.4,
+          "avgVolM": 4.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Announcement of definitive business combination agreement with Nuclea Energy Inc. (July 30, 2026).",
+            "Nuclea Energy Enters Definitive Business Combination Agreement with Mangoceuticals, Establishing a Path to a Nasdaq Public Listing to Advance the Morpheus Microreactor",
+            "Mangoceuticals Announces Business Combination Agreement with Nuclea Energy Inc.",
+            "Mangoceuticals Announces Business Combination Agreement with Nuclea Energy Inc. to Advance Next-Generation Nuclear Microreactor Technology",
+            "Mangoceuticals Announces Business Combination Agreement with Nuclea Energy Inc."
+          ],
+          "newsSummary": "Mangoceuticals announced a definitive business combination agreement with Nuclea Energy Inc. to advance nuclear microreactor technology and achieve a Nasdaq listing. This is a legitimate cash/strategic deal with real asset value (next-gen nuclear tech), not dilutive fluff—solid M&A catalyst with substance.",
+          "bullFactors": [
+            "Real catalyst: Definitive business combination agreement with clear path to Nasdaq, not sympathy or no-cash news",
+            "HOD dominance: 325.75% HOD suggests sustained institutional and retail accumulation into afternoon, signaling hot cycle strength vs. premarket fade pattern",
+            "Volume confirmation: RelVol of 111.4% supports genuine intraday momentum vs. manufactured pump—tape temperature appears HOT",
+            "Float above preference but manageable: 16.09M is higher than ideal <10M, but elevated intraday vol/min relative to premarket justifies play per Jack's criteria"
+          ],
+          "bearFactors": [
+            "Float bloat: 16.09M shares is 60% above Jack's preferred <10M threshold, reducing scarcity and upside cap potential",
+            "Gap spike risk: 118.32% overnight gap suggests majority of move already executed premarket; high fade % (55.43%) indicates retail pullback into session, typical of HOD-dominated reversals",
+            "SPAC/merger overhead: Business combination agreements often attract warrant exercises, dilution announcements, and regulatory scrutiny that can materialize within days—watch for secondary offerings",
+            "No visibility on deal terms: Merger announcements lack specifics on valuation, share structure, timeline to close, and dilution impact—material risks unknown"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CUPR",
+          "hod": 116,
+          "hodExact": 116.91,
+          "news": [
+            "**• Possible reasons for the 69.9% surge (as of July 31, 2026):**\n- Low-float momentum/volatile penny stock dynamics (na",
+            "1.) Name of the reporting person or owner\n* Jane Street Group, LLC\n* Jane Street Capital, LLC\n* Jane Street Global Tradi",
+            "OFFERING - Firm Commitment | Bank: R. F. Lafferty & Co., Inc.",
+            "Based on the financial report provided, here is the summary of the company’s status:\n\n**1.) Upcoming dates or timelines*",
+            "**• Primary driver appears to be continued momentum from the June 15, 2026 FDA 510(k) clearance for MEDIFLY Maggots (fir"
+          ],
+          "tag": "OFFERING",
+          "name": "Cuprina Holdings (Cayman) Limited Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "SG",
+          "floatM": 0.93,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 0.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.66,
+          "open": 3.28,
+          "gapPct": 23.31,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.7699,
+          "hodTimeExact": "10:26 AM ET",
+          "close": 2.92,
+          "fade": 49,
+          "fadeExact": 49.39,
+          "vwap": 3.8752,
+          "vsVwap": "below",
+          "pmHigh": 3,
+          "volRaw": "777K",
+          "volDollar": 3011802,
+          "relVol": 20.6,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 69.9% surge (as of July 31, 2026):**\n- Low-float momentum/volatile penny stock dynamics (na",
+            "1.) Name of the reporting person or owner\n* Jane Street Group, LLC\n* Jane Street Capital, LLC\n* Jane Street Global Tradi",
+            "OFFERING - Firm Commitment | Bank: R. F. Lafferty & Co., Inc.",
+            "Based on the financial report provided, here is the summary of the company’s status:\n\n**1.) Upcoming dates or timelines*",
+            "**• Primary driver appears to be continued momentum from the June 15, 2026 FDA 510(k) clearance for MEDIFLY Maggots (fir"
+          ],
+          "newsSummary": "CUPR spiked 69.9% on continued momentum from June 15 FDA 510(k) clearance for MEDIFLY Maggots, but a firm commitment offering (July 7) and Jane Street insider accumulation (July 28) signal dilution ahead. The catalyst has real merit (FDA approval), but the offering structure is a major red flag for a small-cap momentum play.",
+          "bullFactors": [
+            "Ultra-low float at 0.93M shares — explosive volatility potential if retail pushes",
+            "Real FDA catalyst (510(k) clearance June 15) provides legitimate healthcare credibility vs. sympathy/fluff",
+            "Session HOD dominance (116.91% move) with 20.6x relative volume shows sustained institutional/retail push, not pure premarket fade",
+            "Healthcare sector with micro-cap structure fits Jack's sweet spot for intraday runners"
+          ],
+          "bearFactors": [
+            "OFFERING announced July 7 — dilutive capital raise signals company weakness and typical post-offering crash risk",
+            "Jane Street (major algo/HFT player) accumulating July 28 suggests institutional unwind or front-running likely upcoming dump",
+            "69.9% single-session spike risks triggering halt-resume cycles and attracts stop-hunts into close",
+            "Singapore-listed with low market cap ($7.9M) raises liquidity and regulatory risk; offering + insider activity = exit signal for day traders"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "ZEO",
+          "hod": 111,
+          "hodExact": 111.54,
+          "news": [
+            "**Possible reasons for the $ZEO price movement (as of July 31, 2026):**\n- **Retail momentum/penny stock volatility**: Lo",
+            "### 1.) What items are being voted on?\n*   **Director Election Proposal:** To elect Timothy Bridgewater, Dr. Abigail M.",
+            "1.) What items are being voted on?\n*   **Director Election Proposal:** To elect Timothy Bridgewater, Dr. Abigail M. Alle",
+            "HEADLINE: Zeo Energy Corp. Enters into $7.5 Million Convertible Note Purchase Agreement\n\n1.) Summary: \n- Zeo Energy Corp",
+            "Zeo Energy Corp. Enters into $7.5 Million Convertible Note Purchase Agreement with White Lion Capital"
+          ],
+          "tag": "OFFERING",
+          "name": "Zeo Energy Corporation Class A Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 41.53,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$30M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.52,
+          "open": 0.5392,
+          "gapPct": 3.69,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.1,
+          "hodTimeExact": "02:47 PM ET",
+          "close": 0.5006,
+          "fade": 54,
+          "fadeExact": 54.49,
+          "vwap": 0.7669,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "39.5M",
+          "volDollar": 30282296,
+          "relVol": 814.2,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**Possible reasons for the $ZEO price movement (as of July 31, 2026):**\n- **Retail momentum/penny stock volatility**: Lo",
+            "### 1.) What items are being voted on?\n*   **Director Election Proposal:** To elect Timothy Bridgewater, Dr. Abigail M.",
+            "1.) What items are being voted on?\n*   **Director Election Proposal:** To elect Timothy Bridgewater, Dr. Abigail M. Alle",
+            "HEADLINE: Zeo Energy Corp. Enters into $7.5 Million Convertible Note Purchase Agreement\n\n1.) Summary: \n- Zeo Energy Corp",
+            "Zeo Energy Corp. Enters into $7.5 Million Convertible Note Purchase Agreement with White Lion Capital"
+          ],
+          "newsSummary": "ZEO spiked 111.54% on retail momentum/penny stock volatility, but the underlying catalyst is a $7.5M convertible note from June 15—dilutive financing with no real cash value execution. This is classic fluff news being recycled; convertible debt is equity overhang disguised as capital raise.",
+          "bullFactors": [
+            "Extreme relative volume (814.2x) suggests institutional or retail accumulation interest intraday",
+            "111.54% HOD gain with 54.49% fade indicates some institutional buying before retail push—not a pure premarket spike collapse"
+          ],
+          "bearFactors": [
+            "Float of 41.53M is well above Jack's <10M preference and disqualifies intraday liquidity edge",
+            "Convertible note is dilutive—classic F-grade catalyst; equity conversion pressure will cap upside long-term",
+            "No real catalyst; director elections and financing are non-events; penny stock volatility with no fundamental merit",
+            "54.49% fade from HOD signals weak sustained demand despite high volume—retail pump not holding"
+          ],
+          "setupGrade": "F"
+        },
+        {
+          "sym": "ZBAO",
+          "hod": 104,
+          "hodExact": 104.75,
+          "news": [
+            "Zhibao Technology Inc. Announces Signing of Definitive Securities Purchase Agreement for PIPE Financing Payable in Bitcoin",
+            "Zhibao Technology Inc. Announces $154.7 Million PIPE Financing Payable in Bitcoin",
+            "**• Primary catalyst: Announcement of a definitive PIPE financing agreement (escalating from a July 22 non-binding term",
+            "Zhibao Technology Inc. Announces $154.7 Million Private Placement Financing",
+            "Zhibao Technology Inc. Announces $154.7 Million PIPE Financing Payable in Bitcoin"
+          ],
+          "tag": "OFFERING",
+          "name": "Zhibao Technology Inc. Class A Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 11.44,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1725,
+          "open": 0.2783,
+          "gapPct": 61.33,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.3532,
+          "hodTimeExact": "09:06 AM ET",
+          "close": 0.2001,
+          "fade": 43,
+          "fadeExact": 43.34,
+          "vwap": 0.2761,
+          "vsVwap": "below",
+          "pmHigh": 0.43,
+          "volRaw": "380.3M",
+          "volDollar": 105010428,
+          "relVol": 7.9,
+          "avgVolM": 48.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Zhibao Technology Inc. Announces Signing of Definitive Securities Purchase Agreement for PIPE Financing Payable in Bitcoin",
+            "Zhibao Technology Inc. Announces $154.7 Million PIPE Financing Payable in Bitcoin",
+            "**• Primary catalyst: Announcement of a definitive PIPE financing agreement (escalating from a July 22 non-binding term",
+            "Zhibao Technology Inc. Announces $154.7 Million Private Placement Financing",
+            "Zhibao Technology Inc. Announces $154.7 Million PIPE Financing Payable in Bitcoin"
+          ],
+          "newsSummary": "ZBAO announced a $154.7M PIPE financing agreement payable in Bitcoin on 7/31, escalating from a non-binding term sheet on 7/22. While a large capital raise in crypto can attract certain investors, PIPE financings are inherently dilutive and typically trigger post-close selloffs; the Bitcoin payment structure adds execution risk and regulatory uncertainty.",
+          "bullFactors": [
+            "HOD spike of 104.75% shows strong intraday momentum and retail participation",
+            "Real cash financing ($154.7M) is tangible versus sympathy/no-news catalysts",
+            "RelVol of 7.9x indicates institutional liquidity inflow during the move"
+          ],
+          "bearFactors": [
+            "PIPE financing is dilutive by nature—incoming institutional cap table dilution historically triggers multi-day fades post-close",
+            "43.34% fade from HOD signals heavy premarket spike dominance (COLD tape signature), typical of pump-and-dump dynamics in small-cap China financials",
+            "Float of 11.44M exceeds Jack's sub-10M preference; combined with dilution risk, liquidity risk is elevated",
+            "Bitcoin payment structure introduces FX/execution risk and regulatory uncertainty—not traditional cash deal merit"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "NWGL",
+          "hod": 96,
+          "hodExact": 96.11,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Speculative momentum/pump on low-float microcap stock, with high volume",
+            "July 2026 SHELF | Float: 39,492,471",
+            "**• Possible reasons for the 20.4% surge (with ~309k shares traded):**  \n- Typical low-float microcap volatility and spe",
+            "CL Workshop Group Limited Announces Private Placement of Units",
+            "1.) Name of the reporting person or owner\n* Wong Heung Ming Henry\n\n3.) Description of the owner's current holdings\n* The"
+          ],
+          "tag": "OFFERING",
+          "name": "CL Workshop Group Limited American Depositary Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 4.64,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 4.64M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.64M + RelVol 107.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.64M + RelVol 107.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2316,
+          "open": 0.2482,
+          "gapPct": 7.17,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.4542,
+          "hodTimeExact": "12:25 PM ET",
+          "close": 0.2529,
+          "fade": 44,
+          "fadeExact": 44.32,
+          "vwap": 0.3483,
+          "vsVwap": "below",
+          "pmHigh": 0.2474,
+          "volRaw": "51.2M",
+          "volDollar": 17822146,
+          "relVol": 107.7,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Speculative momentum/pump on low-float microcap stock, with high volume",
+            "July 2026 SHELF | Float: 39,492,471",
+            "**• Possible reasons for the 20.4% surge (with ~309k shares traded):**  \n- Typical low-float microcap volatility and spe",
+            "CL Workshop Group Limited Announces Private Placement of Units",
+            "1.) Name of the reporting person or owner\n* Wong Heung Ming Henry\n\n3.) Description of the owner's current holdings\n* The"
+          ],
+          "newsSummary": "NWGL is a Chinese microcap (4.64M float) experiencing speculative momentum on low-float volatility. The July 14 private placement announcement and July 17 shelf filing (39.5M shares available) signal dilution risk and overhead supply. This is fluff momentum on a dilutive capital raise, not a real cash-value catalyst.",
+          "bullFactors": [
+            "Sub-5M float creates natural intraday volatility and squeeze potential if momentum holds",
+            "96% HOD percentage suggests tape temperature is hot with session highs dominating — continuation signal",
+            "107.7% relative volume indicates institutional/retail participation above normal daily average"
+          ],
+          "bearFactors": [
+            "Private placement + shelf filing = dilutive overhead supply ceiling; 39.5M shares on shelf dwarfs 4.64M actual float",
+            "44.32% fade percentage shows heavy premarket spike into selloff — classic pump-and-dump structure",
+            "No real catalyst — speculative momentum on low-float microcap is textbook sympathy/fluff news; Chinese small-cap adds additional risk",
+            "Shelf filing creates uncertainty and potential future dilution overhang that will cap rally"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "AXTU",
+          "hod": 92,
+          "hodExact": 92.81,
+          "news": [
+            "**• Primary catalyst: AXT, Inc. (AXTI) reported blowout Q2 2026 earnings after the bell on July 30, 2026**, with revenue",
+            "**• AXTU is the T-REX 2X Long AXTI Daily Target ETF (leveraged 2x daily performance of AXT, Inc. / AXTI). Its ~22% move",
+            "**AXTU is the T-REX 2X Long AXTI Daily Target ETF (seeks ~200% daily exposure to AXT, Inc. / NASDAQ: AXTI, a compound se",
+            "**AXTI (AXT, Inc., compound semiconductor substrates/InP wafers for AI/optics; likely ticker referenced as $AXTU)** show",
+            "**$AXTU is the T-REX 2X Long AXTI Daily Target ETF (2x daily leveraged exposure to AXT, Inc. / AXTI).** Its ~20% move to"
+          ],
+          "tag": "NO-NEWS",
+          "name": "T-REX 2X Long AXTI Daily Target ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 2.0,
+          "floatTier": "Micro",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 2.0M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.505,
+          "open": 4.64,
+          "gapPct": 85.23,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.83,
+          "hodTimeExact": "09:31 AM ET",
+          "close": 3.93,
+          "fade": 18,
+          "fadeExact": 18.63,
+          "vwap": 3.9373,
+          "vsVwap": "below",
+          "pmHigh": 4.77,
+          "volRaw": "2.7M",
+          "volDollar": 10727457,
+          "relVol": 5.6,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: AXT, Inc. (AXTI) reported blowout Q2 2026 earnings after the bell on July 30, 2026**, with revenue",
+            "**• AXTU is the T-REX 2X Long AXTI Daily Target ETF (leveraged 2x daily performance of AXT, Inc. / AXTI). Its ~22% move",
+            "**AXTU is the T-REX 2X Long AXTI Daily Target ETF (seeks ~200% daily exposure to AXT, Inc. / NASDAQ: AXTI, a compound se",
+            "**AXTI (AXT, Inc., compound semiconductor substrates/InP wafers for AI/optics; likely ticker referenced as $AXTU)** show",
+            "**$AXTU is the T-REX 2X Long AXTI Daily Target ETF (2x daily leveraged exposure to AXT, Inc. / AXTI).** Its ~20% move to"
+          ],
+          "newsSummary": "AXTU is a 2x leveraged ETF tracking AXTI (AXT, Inc.), which reported strong Q2 2026 earnings on July 30. However, AXTU itself is a derivative instrument with no independent catalyst—it moves purely on AXTI's underlying performance and leverage decay. The 85% gap and 92% HOD reflect leveraged amplification of AXTI's move, not a direct fundamental catalyst for AXTU.",
+          "bullFactors": [
+            "Ultra-tight float (2.0M) creates extreme leverage and volatility amplification—ideal for intraday runners",
+            "5.6x relative volume shows institutional/retail attention flowing into the leveraged vehicle",
+            "92% HOD dominance with only 18.6% fade suggests sustained afternoon strength, not a premarket pop-and-drop"
+          ],
+          "bearFactors": [
+            "AXTU is a leveraged ETF product—subject to daily reset decay and structural degradation on choppy multi-day holds; not a stock with real cash/growth",
+            "85% gap + 92% HOD suggests most of the move already realized premarket; limited remaining room to run intraday",
+            "Underlying catalyst (AXTI earnings) already priced in after-hours on July 30; tape momentum is secondary/derivative, not fresh institutional accumulation"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "AXTL",
+          "hod": 92,
+          "hodExact": 92.8,
+          "news": [
+            "**• AXTL is the Leverage Shares 2X Long AXTI Daily ETF (launched ~June 16, 2026), providing 2x daily leveraged exposure",
+            "**$AXTL** is the Leverage Shares 2X Long AXTI Daily ETF, which seeks 2x daily exposure to AXT Inc. (AXTI), a compound se",
+            "**• AXTL is the Leverage Shares 2X Long AXTI Daily ETF (launched June 2026), providing 2x daily leveraged exposure to AX",
+            "**• Possible reasons for the 21.8% surge in $AXTL (Leverage Shares 2X Long AXTI Daily ETF) today:**\n- Momentum continuat",
+            "**$AXTL refers to the Leverage Shares 2X Long AXTI Daily ETF, which seeks ~2x daily exposure to AXT, Inc. (AXTI) stock.*"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Leverage Shares 2X Long AXTI Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 0.4,
+          "floatTier": "Nano",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 0.4M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.805,
+          "open": 3.31,
+          "gapPct": 83.38,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.48,
+          "hodTimeExact": "09:31 AM ET",
+          "close": 2.83,
+          "fade": 18,
+          "fadeExact": 18.68,
+          "vwap": 2.8854,
+          "vsVwap": "below",
+          "pmHigh": 3.45,
+          "volRaw": "1.9M",
+          "volDollar": 5585912,
+          "relVol": 7.3,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• AXTL is the Leverage Shares 2X Long AXTI Daily ETF (launched ~June 16, 2026), providing 2x daily leveraged exposure",
+            "**$AXTL** is the Leverage Shares 2X Long AXTI Daily ETF, which seeks 2x daily exposure to AXT Inc. (AXTI), a compound se",
+            "**• AXTL is the Leverage Shares 2X Long AXTI Daily ETF (launched June 2026), providing 2x daily leveraged exposure to AX",
+            "**• Possible reasons for the 21.8% surge in $AXTL (Leverage Shares 2X Long AXTI Daily ETF) today:**\n- Momentum continuat",
+            "**$AXTL refers to the Leverage Shares 2X Long AXTI Daily ETF, which seeks ~2x daily exposure to AXT, Inc. (AXTI) stock.*"
+          ],
+          "newsSummary": "AXTL is a 2X leveraged ETF on AXTI (compound semiconductor) launched in June 2026 with no fundamental catalyst driving the 83% gap. The move appears to be pure leverage spillover and retail momentum chasing on a newly launched product with minimal real company-level news.",
+          "bullFactors": [
+            "Micro float at 0.4M shares — extremely tight supply structure",
+            "83% gap with 92.8% HOD percentage shows sustained afternoon strength, not premarket fade",
+            "7.3x relative volume indicates genuine intraday participation beyond typical ETF flow"
+          ],
+          "bearFactors": [
+            "ETF product with no underlying company catalyst — purely leveraged momentum vehicle prone to decay and black swan volatility",
+            "Newly launched (~June 2026) with unknown daily liquidity profile; leverage amplifies both gains and flash crash risk",
+            "Gap this large on a 2X ETF signals potential premarket spike dominance and retail euphoria, high fade risk into close",
+            "Zero fundamental merit — no earnings, partnerships, or cash-backed news; pure technical/sympathy play"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 835,
+      "fade": 41,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "FCUV led +835.64% (34% fade). 2/10 held <20% fade. news: FCUV — \"**• Primary catalyst: Announcement of \"Deterministic AI Forms Auto-Populate Engine\" (today, July 31, 2026)**  \nNewMediaW\".",
+      "aiSummary": "Today's tape is dominated by dilutive catalysts—four offerings competing with one earnings play and one merger—which Jack should flat-out avoid; the list skews heavily toward micro-floats (six under 5M shares) paired with either no-news or dilutive structures, a classic pump setup lacking real cash value. HODs printed almost exclusively in premarket and morning sessions (FCUV, WETO, ZBAO, AXTU/AXTL all pre-retail), with only FMFC and ZEO showing afternoon strength—a textbook COLD cycle signature where retail fades institutional weakness. The geographic and sector concentration (three China-domiciled names, heavy tech/healthcare) adds liquidity risk and black-swan tail exposure. For Jack's playbook, this is a hard pass: no flags forming on daily charts, no sustained afternoon volume confirmation, and the tape temperature screaming premarket-spike-and-fade with zero institutional accumulation signals—a C-/D cycle day best used for observational tape reading rather than risk capital."
+    },
     {
       "date": "2026-07-30",
       "runners": [
