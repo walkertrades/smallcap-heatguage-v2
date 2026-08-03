@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-01T10:54:03.615971Z",
-  "count": 9544,
+  "exportedAt": "2026-08-03T21:16:45.377496Z",
+  "count": 9554,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,806 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-03",
+      "runners": [
+        {
+          "sym": "RITR",
+          "hod": 605,
+          "hodExact": 605.49,
+          "news": [
+            "**• No company-specific news, announcements, or developments identified in the last 3 days (July 31–Aug 3, 2026) driving",
+            "Reitar Logtech Announces Strategic Cooperation Between Jingxing HK and Cainiao Group for Global Smart Warehousing and Automated Logistics Solutions",
+            "Reitar Logtech Announces Strategic Cooperation Between Jingxing HK and Cainiao Group",
+            "Jingxing HK, Logistics Technology Arm of Reitar Logtech, Partners with Cainiao Group to Capture Global Smart Warehousing Market",
+            "**No clear fundamental catalyst identified in the last 3 days (July 28–31, 2026).**\n\n- **Possible reasons for the ~28% s"
+          ],
+          "tag": "CONTRACT",
+          "name": "Reitar Logtech Holdings Limited Ordinary shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 17.53,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 17.53M + RelVol 201.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 17.53M + RelVol 201.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0565,
+          "open": 0.2035,
+          "gapPct": 260.18,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.3986,
+          "hodTimeExact": "11:28 AM ET",
+          "close": 0.3418,
+          "fade": 14,
+          "fadeExact": 14.25,
+          "vwap": 0.2206,
+          "vsVwap": "above",
+          "pmHigh": 0.2196,
+          "volRaw": "1511.0M",
+          "volDollar": 333319214,
+          "relVol": 201.2,
+          "avgVolM": 7.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• No company-specific news, announcements, or developments identified in the last 3 days (July 31–Aug 3, 2026) driving",
+            "Reitar Logtech Announces Strategic Cooperation Between Jingxing HK and Cainiao Group for Global Smart Warehousing and Automated Logistics Solutions",
+            "Reitar Logtech Announces Strategic Cooperation Between Jingxing HK and Cainiao Group",
+            "Jingxing HK, Logistics Technology Arm of Reitar Logtech, Partners with Cainiao Group to Capture Global Smart Warehousing Market",
+            "**No clear fundamental catalyst identified in the last 3 days (July 28–31, 2026).**\n\n- **Possible reasons for the ~28% s"
+          ],
+          "newsSummary": "Reitar Logtech announced a strategic cooperation between its Jingxing HK logistics arm and Cainiao Group (Alibaba affiliate) for smart warehousing and automated logistics solutions. While the partnership involves a recognizable name (Cainiao), the announcement lacks specifics on deal value, revenue guarantees, or meaningful cash inflows—typical fluff for a micro-cap logistics play.",
+          "bullFactors": [
+            "RelVol 201.2x is extreme and sustained—not a 1-2 minute spike, suggests institutional accumulation into afternoon session",
+            "HOD% of 605% with only 14.25% fade indicates hot tape and shorts covering; session strength dominating premarket",
+            "Float of 17.53M is above preference but manageable given the intraday volume spike justifies the exception per Jack's criteria"
+          ],
+          "bearFactors": [
+            "Contract/partnership news with no disclosed cash value or revenue terms—classic sympathy/fluff catalyst, not real deal substance",
+            "Gap of 260% off open already front-loads move; high risk of institutional distribution into close or next session",
+            "HK-listed industrial logistics play with micro market cap ($15.8M)—low liquidity, black swan tail risk at 600%+ move; typical pump candidate vulnerable to sharp reversal"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "HYFM",
+          "hod": 492,
+          "hodExact": 492.59,
+          "news": [
+            "**• Primary catalyst: Announcement today (August 3, 2026) of the completed sale of Aurora Peat Products ULC to Raven Hol",
+            "Hydrofarm Completes Sale of Aurora Peat Products and Launches Project Agility to Scale Its Logistics Services Platform",
+            "Hydrofarm Holdings Group, Inc. Receives Nasdaq Delisting Notice and Minimum Bid Price Deficiency Notice",
+            "Hydrofarm Holdings Group, Inc. Announces Results of 2026 Annual Meeting of Stockholders",
+            "1.) Name of the reporting person or owner\n* Renah Persofsky\n\n2.) Types of securities transacted and associated amounts a"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Hydrofarm Holdings Group, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 3.9,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 3.9M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.9M + RelVol 3610.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.9M + RelVol 3610.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.54,
+          "open": 3.11,
+          "gapPct": 475.93,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.2,
+          "hodTimeExact": "07:58 AM ET",
+          "close": 2.15,
+          "fade": 32,
+          "fadeExact": 32.81,
+          "vwap": 2.5716,
+          "vsVwap": "below",
+          "pmHigh": 4.12,
+          "volRaw": "144.1M",
+          "volDollar": 370677051,
+          "relVol": 3610.8,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Announcement today (August 3, 2026) of the completed sale of Aurora Peat Products ULC to Raven Hol",
+            "Hydrofarm Completes Sale of Aurora Peat Products and Launches Project Agility to Scale Its Logistics Services Platform",
+            "Hydrofarm Holdings Group, Inc. Receives Nasdaq Delisting Notice and Minimum Bid Price Deficiency Notice",
+            "Hydrofarm Holdings Group, Inc. Announces Results of 2026 Annual Meeting of Stockholders",
+            "1.) Name of the reporting person or owner\n* Renah Persofsky\n\n2.) Types of securities transacted and associated amounts a"
+          ],
+          "newsSummary": "Hydrofarm completed the sale of Aurora Peat Products to Raven Holdings and launched Project Agility to scale logistics services. This is a real cash-generating divestiture that de-risks the balance sheet and allows focus on core platform growth—legitimate M&A news with operational substance, not a sympathy trade or dilutive announcement.",
+          "bullFactors": [
+            "Ultra-low float at 3.9M shares creates explosive intraday vol/min potential; relVol of 3610.8x shows institutional demand massive vs. premarket baseline",
+            "Real catalyst with cash proceeds—asset sale + strategic pivot to logistics platform is tangible value, not fluff news",
+            "Session HOD still 492.59% up with fade of only 32.81%, indicating sustained strength and shorts covering intraday rather than premarket spike fade pattern",
+            "Gap of 475.93% on real news gives room to run if daily chart structure holds; institutional accumulation likely before retail push"
+          ],
+          "bearFactors": [
+            "NASDAQ delisting notice (July 9, 2026) is critical red flag—minimum bid price deficiency threatens exchange compliance and future liquidity/credibility",
+            "Sale of Aurora Peat is a reduction in revenue-generating assets; while de-risking, it signals prior operational stress and smaller future revenue base",
+            "492% intraday move on announcement day risks blow-off top and violent fade on next session; tape temperature may flip cold quickly",
+            "Micro-cap market cap of $9.6M limits institutional slots and exit liquidity on multi-day holds; highly illiquid for trailing position"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MGN",
+          "hod": 321,
+          "hodExact": 321.2,
+          "news": [
+            "**• Possible reasons for today's 22.1% surge (with ~1.91M shares traded):**  \n- **Retail momentum/day-trading frenzy on",
+            "**• Possible reasons for the 23.7% price movement (no confirmed fundamental catalyst identified):**\n- Speculative retail",
+            "**• Possible reasons for the +20.9% move (high volume of ~597k shares):**  \n- Retail momentum/FOMO-driven trading on a l",
+            "Megan Holdings Limited Announces Results of Annual General Meeting",
+            "**• No company-specific fundamental news, contracts, earnings, or major announcements in the last 3 days (June 21–24, 20"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Megan Holdings Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 22.29,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0736,
+          "open": 0.1209,
+          "gapPct": 64.27,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.31,
+          "hodTimeExact": "11:45 AM ET",
+          "close": 0.1378,
+          "fade": 55,
+          "fadeExact": 55.55,
+          "vwap": 0.1882,
+          "vsVwap": "below",
+          "pmHigh": 0.2489,
+          "volRaw": "957.1M",
+          "volDollar": 180131065,
+          "relVol": 168.9,
+          "avgVolM": 5.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for today's 22.1% surge (with ~1.91M shares traded):**  \n- **Retail momentum/day-trading frenzy on",
+            "**• Possible reasons for the 23.7% price movement (no confirmed fundamental catalyst identified):**\n- Speculative retail",
+            "**• Possible reasons for the +20.9% move (high volume of ~597k shares):**  \n- Retail momentum/FOMO-driven trading on a l",
+            "Megan Holdings Limited Announces Results of Annual General Meeting",
+            "**• No company-specific fundamental news, contracts, earnings, or major announcements in the last 3 days (June 21–24, 20"
+          ],
+          "newsSummary": "MGN has surged 321% HOD with no confirmed fundamental catalyst—pure retail momentum/FOMO-driven trading across multiple days (22.1%, 23.7%, +20.9% moves). Zero real cash value deals, earnings, partnerships, or material news; only an AGM announcement from July 15 with no substance.",
+          "bullFactors": [
+            "Extreme HOD dominance (321.2%) suggests afternoon session strength and potential short squeeze continuation",
+            "High relative volume (168.9) indicates retail participation and potential institutional spillover into momentum",
+            "22M float slightly above 10M threshold but intraday vol/min may justify entry if sustaining above key pivots"
+          ],
+          "bearFactors": [
+            "Pure sympathy/no-news catalyst with zero fundamental merit—classic pump setup primed for violent fade",
+            "Premarket spike dominance pattern (multiple 20%+ daily moves) suggests retail exhaustion and liquidity trap",
+            "Float 22M is above Jack's 10M preference; combined with fluff news creates high washout risk and poor risk/reward",
+            "Malaysia-listed industrials stock with minimal transparency; black swan liquidity risks on 500%+ cycle move"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "UPC",
+          "hod": 167,
+          "hodExact": 167.09,
+          "news": [
+            "**• Possible reasons for the 143.4% surge (with 237k+ shares traded):**\n- Closing of the patent-rich acquisition of Best",
+            "Universe Pharmaceuticals INC Completes Acquisition of Best Praise International Limited",
+            "**• Possible reasons for the ~37% price surge (low-float/micro-cap volatility common):**\n- Reaction to the July 29, 2026",
+            "Universe Pharmaceuticals INC Financial Results for the Six Months Ended March 31, 2026",
+            "Universe Pharmaceuticals Inc. Reports Unaudited Financial Results for the Six Months Ended March 31, 2026"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Universe Pharmaceuticals Inc. Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 0.57,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 0.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.16,
+          "open": 7.02,
+          "gapPct": 122.15,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 8.44,
+          "hodTimeExact": "04:09 AM ET",
+          "close": 6.48,
+          "fade": 23,
+          "fadeExact": 23.22,
+          "vwap": 7.4086,
+          "vsVwap": "below",
+          "pmHigh": 10.61,
+          "volRaw": "27.6M",
+          "volDollar": 204614226,
+          "relVol": 38.7,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 143.4% surge (with 237k+ shares traded):**\n- Closing of the patent-rich acquisition of Best",
+            "Universe Pharmaceuticals INC Completes Acquisition of Best Praise International Limited",
+            "**• Possible reasons for the ~37% price surge (low-float/micro-cap volatility common):**\n- Reaction to the July 29, 2026",
+            "Universe Pharmaceuticals INC Financial Results for the Six Months Ended March 31, 2026",
+            "Universe Pharmaceuticals Inc. Reports Unaudited Financial Results for the Six Months Ended March 31, 2026"
+          ],
+          "newsSummary": "Universe Pharmaceuticals completed acquisition of Best Praise International Limited on July 31, driving a 143.4% surge on August 3 with 237k+ shares traded. The deal adds patent-rich assets to a micro-cap healthcare name, providing real M&A value rather than fluff news.",
+          "bullFactors": [
+            "Extremely tight float at 0.57M shares — textbook low-float runner with 38.7x relative volume",
+            "Real catalyst: patent-rich acquisition closing with substantive healthcare/pharma assets, not sympathy or dilutive news",
+            "HOD still dominating (167% gain) with sustained high-volume tape — suggests institutional accumulation and short squeeze, not premarket fade pattern",
+            "Multi-day catalyst lag: ER dropped July 29, acquisition announced July 31, stock ripped August 3 — gave time for institutional setup before retail push"
+          ],
+          "bearFactors": [
+            "167% gain in single session is extreme; risks black-swan liquidity conditions and potential hard fade into close or next session",
+            "China-based micro-cap healthcare with $3.9M market cap — regulatory/delisting risk and limited institutional following",
+            "23.22% fade already occurred intraday — volume may be exhausting; confirm daily chart has room to additional upside and no warrant/convertible overhead",
+            "Acquisition closed 3 days ago — initial euphoria may be pricing in the full benefit; need to validate HOD holds and tape temperature remains hot into afternoon"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "DFNS",
+          "hod": 155,
+          "hodExact": 155.71,
+          "news": [
+            "**• Possible reasons for today's +21.8% move (low-float momentum/squeeze play following the July 20 1-for-125 reverse sp",
+            "T3 Defense Inc. Subsidiaries Rimon and Tiltan Deliver Strong Year-to-Date Operating Performance",
+            "DFNS i would expect another private placement of some sort, likely with Esousa again - on this chart that big after hour",
+            "**• Primary driver: Massive low-float squeeze following 1-for-125 reverse stock split effective July 20, 2026**  \n- Redu",
+            "**• Possible reasons for the 29.4%+ surge (and prior-day volatility up to ~200% intraday moves):**\n- Post 1-for-125 reve"
+          ],
+          "tag": "NO-NEWS",
+          "name": "T3 Defense Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.94,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$58M",
+          "riskBadges": [
+            "Float 0.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 27.68,
+          "open": 41.91,
+          "gapPct": 51.41,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 70.78,
+          "hodTimeExact": "02:11 PM ET",
+          "close": 61.5,
+          "fade": 13,
+          "fadeExact": 13.11,
+          "vwap": 54.0732,
+          "vsVwap": "above",
+          "pmHigh": 48,
+          "volRaw": "13.9M",
+          "volDollar": 749245018,
+          "relVol": 1.6,
+          "avgVolM": 8.7,
+          "ssr": true,
+          "reverseSplit": "125:1",
+          "newsHeadlines": [
+            "**• Possible reasons for today's +21.8% move (low-float momentum/squeeze play following the July 20 1-for-125 reverse sp",
+            "T3 Defense Inc. Subsidiaries Rimon and Tiltan Deliver Strong Year-to-Date Operating Performance",
+            "DFNS i would expect another private placement of some sort, likely with Esousa again - on this chart that big after hour",
+            "**• Primary driver: Massive low-float squeeze following 1-for-125 reverse stock split effective July 20, 2026**  \n- Redu",
+            "**• Possible reasons for the 29.4%+ surge (and prior-day volatility up to ~200% intraday moves):**\n- Post 1-for-125 reve"
+          ],
+          "newsSummary": "The +21.8% move today is pure low-float squeeze mechanics following a 1-for-125 reverse stock split on July 20, not a fundamental catalyst. Subsidiaries' YTD operating performance (July 31) is stale news with no material new data; whispers of private placement dilution are red flags. This is a technicals-only play with significant black swan risk.",
+          "bullFactors": [
+            "Micro-float at 0.94M shares — extreme leverage for intraday moves and short squeeze potential",
+            "Session HOD dominating tape (155.71% HOD vs 13.11% fade) suggests institutional accumulation and shorts covering into afternoon",
+            "High relative volume (1.6x) with sustained volatility indicates real tape participation, not a one-minute spike"
+          ],
+          "bearFactors": [
+            "No real cash catalyst — reverse split mechanics and squeeze play only; fluff news on operating performance and dilutive placement whispers ahead",
+            "High-cycle warning: Already up 500%+ on reverse split tailwinds; severe liquidity and black swan risk if momentum reverses",
+            "Premarket spike (51.41% gap) sets dangerous overhead resistance; high fade potential into close typical for these mechanics-driven runners"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "EZRA",
+          "hod": 152,
+          "hodExact": 152.75,
+          "news": [
+            "Reliance Global Group Signs LOI to Sell Altruis Benefit Consulting for $11 Million in Cash",
+            "**• Primary catalyst: Non-binding LOI announced today (Aug 3, 2026) to sell Altruis Benefit Consulting subsidiary for $1",
+            "Based on the financial report provided, here is the summary grouped by your requested categories:\n\n### 1.) Upcoming date",
+            "This summary outlines the key points from the Reliance Global Group 2026 Second Quarter Business Update.\n\n### **Key Driv",
+            "Reliance Global Group Reports Second Quarter 2026 Results and Accelerates AI-Driven Transformation"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Reliance Global Group, Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 1.0,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.0M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.0M + RelVol 960.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.0M + RelVol 960.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.82,
+          "open": 3.19,
+          "gapPct": 75.27,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.6,
+          "hodTimeExact": "09:34 AM ET",
+          "close": 2.65,
+          "fade": 42,
+          "fadeExact": 42.39,
+          "vwap": 3.5392,
+          "vsVwap": "below",
+          "pmHigh": 3.7999,
+          "volRaw": "108.4M",
+          "volDollar": 383477055,
+          "relVol": 960.1,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Reliance Global Group Signs LOI to Sell Altruis Benefit Consulting for $11 Million in Cash",
+            "**• Primary catalyst: Non-binding LOI announced today (Aug 3, 2026) to sell Altruis Benefit Consulting subsidiary for $1",
+            "Based on the financial report provided, here is the summary grouped by your requested categories:\n\n### 1.) Upcoming date",
+            "This summary outlines the key points from the Reliance Global Group 2026 Second Quarter Business Update.\n\n### **Key Driv",
+            "Reliance Global Group Reports Second Quarter 2026 Results and Accelerates AI-Driven Transformation"
+          ],
+          "newsSummary": "Reliance Global Group announced a non-binding LOI to sell its Altruis Benefit Consulting subsidiary for $11M in cash on Aug 3, 2026. This is real cash value monetization of a subsidiary, not dilutive equity issuance, which provides genuine balance sheet benefit and addresses potential liquidity concerns for a micro-cap.",
+          "bullFactors": [
+            "Tiny float (1.0M shares) creates explosive vol potential with sustained intraday momentum",
+            "Real cash deal (not equity-based) with named buyer intent — genuine M&A catalyst vs. sympathy play",
+            "152.75% HOD% with 42.39% fade suggests institutional accumulation before retail push, classic dip-soak setup",
+            "960.1% relative volume shows tape heat and retail participation; 75.27% gap indicates overnight positioning strength"
+          ],
+          "bearFactors": [
+            "Non-binding LOI carries deal execution risk — not binding and subject to due diligence fall-through",
+            "High fade % (42.39%) despite strong HOD suggests heavy premarket spike with afternoon fade pattern — tape showing distribution risk",
+            "Micro-cap financial services (2.6M market cap, 1M float) with prior Q2 results update indicates prior news risk and potential secondary offering dilution",
+            "LOI at only $11M valuation implies weak asking price and potential desperation liquidity event — may signal distress rather than strength"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "FUSE",
+          "hod": 134,
+          "hodExact": 134.69,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Low-float momentum/penny stock runner play (float cited as ~10.7M–18.72",
+            "Frost &amp; Sullivan Selects Fusemachines as a Strategic Partner for Agentic AI",
+            "Fusemachines Inc. Receives Nasdaq Notification of Non-Compliance with Minimum Market Value Requirement",
+            "Amazon Web Services Sponsors Fusemachines’ Agentic AI Event Bringing Together 20+ Enterprises to Discuss Trust, Governance, and Agentic AI in Hiring",
+            "Fusemachines Announces Agentic AI Suite for Talent Acquisition, Bringing Agentic AI Across the Hiring Lifecycle"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Fusemachines Inc. Common stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 14.29,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$40M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.784,
+          "open": 0.849,
+          "gapPct": 8.29,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.84,
+          "hodTimeExact": "10:48 AM ET",
+          "close": 1.33,
+          "fade": 27,
+          "fadeExact": 27.72,
+          "vwap": 1.4025,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "58.4M",
+          "volDollar": 81920307,
+          "relVol": 1196.3,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Low-float momentum/penny stock runner play (float cited as ~10.7M–18.72",
+            "Frost &amp; Sullivan Selects Fusemachines as a Strategic Partner for Agentic AI",
+            "Fusemachines Inc. Receives Nasdaq Notification of Non-Compliance with Minimum Market Value Requirement",
+            "Amazon Web Services Sponsors Fusemachines’ Agentic AI Event Bringing Together 20+ Enterprises to Discuss Trust, Governance, and Agentic AI in Hiring",
+            "Fusemachines Announces Agentic AI Suite for Talent Acquisition, Bringing Agentic AI Across the Hiring Lifecycle"
+          ],
+          "newsSummary": "FUSE spiked 134.69% on the back of partnership announcements (Frost & Sullivan, AWS sponsorship) and an Agentic AI product launch, but the move is clouded by a critical July 24 Nasdaq non-compliance notice for minimum market cap. The catalyst mix is real (enterprise partnerships, product announcements) but overshadowed by compliance risk that could force delisting.",
+          "bullFactors": [
+            "Low float (14.29M, just above 10M threshold) with extreme relative volume (1196% on intraday basis) — institutional accumulation signal if dip holds",
+            "Real catalyst quality: AWS sponsorship and Frost & Sullivan partnership are name-brand partnerships, not pure sympathy plays",
+            "HOD-driven session (134.69% move) suggests afternoon shorts covering, potential continuation if tape stays hot and institutional buyers absorb overhead",
+            "Gap up 8.29% holds structural support; if daily chart holds above vwap, dip/soak pattern could present another entry"
+          ],
+          "bearFactors": [
+            "Nasdaq non-compliance notice (July 24) is a black swan risk — delisting threat supersedes any momentum trade; compliance could reverse entire thesis overnight",
+            "Fade percentage (27.72%) is substantial and suggests premarket spike dominated; afternoon hold doesn't guarantee next-day follow-through with regulatory headwind",
+            "Float just above comfort zone (14.29M vs. <10M preferred) limits liquidity cushion; if shorts don't capitulate fully or institutional demand dries up, reversal is violent",
+            "News catalyst stack (4 announcements over 3 weeks) front-loads narrative — fresh headline risk is low, meaning momentum is backward-looking, vulnerable to profit-taking"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "STKH",
+          "hod": 97,
+          "hodExact": 97.92,
+          "news": [
+            "**• Primary catalyst: Expected closing today (August 3, 2026) of the up-to-$10.5M private placement announced July 31, 2",
+            "Steakholder Foods Ltd. Announces Up To $10.5 Million Private Placement",
+            "Steakholder Foods Ltd. Announces $3.5 Million Private Placement Offering",
+            "Steakholder Foods Ltd. Announces Up To $10.5 Million Private Placement",
+            "**• Possible reasons for the $STKH price movement (July 30, 2026 surge of ~36.5% intraday with elevated volume):**\n- Con"
+          ],
+          "tag": "OFFERING",
+          "name": "Steakholder Foods Ltd. American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "IL",
+          "floatM": 0.82,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.82M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.4,
+          "open": 2.38,
+          "gapPct": -0.83,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.75,
+          "hodTimeExact": "10:05 AM ET",
+          "close": 2.78,
+          "fade": 41,
+          "fadeExact": 41.47,
+          "vwap": 3.6123,
+          "vsVwap": "below",
+          "pmHigh": 2.55,
+          "volRaw": "7.5M",
+          "volDollar": 27033435,
+          "relVol": 2.2,
+          "avgVolM": 3.4,
+          "ssr": true,
+          "reverseSplit": "3:1",
+          "newsHeadlines": [
+            "**• Primary catalyst: Expected closing today (August 3, 2026) of the up-to-$10.5M private placement announced July 31, 2",
+            "Steakholder Foods Ltd. Announces Up To $10.5 Million Private Placement",
+            "Steakholder Foods Ltd. Announces $3.5 Million Private Placement Offering",
+            "Steakholder Foods Ltd. Announces Up To $10.5 Million Private Placement",
+            "**• Possible reasons for the $STKH price movement (July 30, 2026 surge of ~36.5% intraday with elevated volume):**\n- Con"
+          ],
+          "newsSummary": "STKH announced a $10.5M private placement (initially $3.5M, expanded) closing today. This is a dilutive capital raise with no operational catalyst (no product launch, partnership, or revenue driver) — classic fluff news masking equity dilution. The stock spiked ~36.5% on July 30 on the announcement, a classic premarket/news-driven pop with fade risk baked in.",
+          "bullFactors": [
+            "Ultra-low float (0.82M shares) — highest leverage for retail push if momentum holds",
+            "High relative volume (2.2x) suggests intraday participation despite dilution news",
+            "HOD dominated 97.92% of session — some institutional or retail conviction sustaining into close"
+          ],
+          "bearFactors": [
+            "OFFERING = DILUTIVE CATALYST — Jack explicitly avoids these; equity raise destroys shareholder value and signals weak fundamentals",
+            "41.47% fade pct indicates heavy premarket spike followed by selloff — classic pop-and-drop pattern (cold tape signal)",
+            "No real business catalyst — no partnership, ER, contract, or product news; capital raise alone is not a trading edge",
+            "Already spiked 36.5% on announcement July 30; likely exhausted short-term retail interest by close Aug 3"
+          ],
+          "setupGrade": "F"
+        },
+        {
+          "sym": "LNAI",
+          "hod": 94,
+          "hodExact": 94.84,
+          "news": [
+            "**• Possible reasons for the 52.4% surge (with 134k+ shares traded, low-float momentum play):**\n- No company-specific ne",
+            "1.) Name of the reporting person or owner\n*   Hans Christian Hansen\n*   Hansen5751H ApS\n*   Hansen5751V ApS\n\n2.) Types o",
+            "LUNAI BIOWORKS: CEO LETTER TO SHAREHOLDERS",
+            "**• Primary catalyst: Regaining Nasdaq compliance with the minimum bid price rule ($1.00/share).**  \nLunai Bioworks disc",
+            "Lunai Bioworks, Inc. Issues Letter to Shareholders"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Lunai Bioworks Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 3.21,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [
+            "Float 3.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.21M + RelVol 238.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.21M + RelVol 238.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.94,
+          "open": 2.0001,
+          "gapPct": 3.1,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.7799,
+          "hodTimeExact": "10:57 AM ET",
+          "close": 2.39,
+          "fade": 36,
+          "fadeExact": 36.77,
+          "vwap": 2.8964,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "8.1M",
+          "volDollar": 23415482,
+          "relVol": 238.2,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 52.4% surge (with 134k+ shares traded, low-float momentum play):**\n- No company-specific ne",
+            "1.) Name of the reporting person or owner\n*   Hans Christian Hansen\n*   Hansen5751H ApS\n*   Hansen5751V ApS\n\n2.) Types o",
+            "LUNAI BIOWORKS: CEO LETTER TO SHAREHOLDERS",
+            "**• Primary catalyst: Regaining Nasdaq compliance with the minimum bid price rule ($1.00/share).**  \nLunai Bioworks disc",
+            "Lunai Bioworks, Inc. Issues Letter to Shareholders"
+          ],
+          "newsSummary": "LNAI surged 52.4% on regaining Nasdaq minimum bid price compliance ($1.00/share threshold), a technical/administrative milestone rather than operational catalyst. While compliance restoration removes delisting risk, it's a procedural fix without revenue, partnership, or clinical advancement—characteristic fluff for momentum plays.",
+          "bullFactors": [
+            "Micro-float at 3.21M shares—well under 10M preference, high leverage for intraday swings",
+            "Session HOD dominating (94.84% of range captured), not premarket fade pattern—suggests institutional accumulation into afternoon push",
+            "Relative volume 238.2x—sustained intraday volume strength, not one-minute spike dump (52.4% over full session with 134k shares)",
+            "CEO shareholder letter and compliance narrative gave setup time, not 100%+ in 2-minute halts"
+          ],
+          "bearFactors": [
+            "Catalyst is pure compliance theater—no real cash value, revenue, partnership, or clinical data; regaining listing status is avoiding failure, not creating value",
+            "Healthcare micro-cap with delisting risk history suggests weak fundamentals and liquidity fragility",
+            "No daily chart context provided—cannot assess overhead supply, previous HOD resistance, or room to upside; fade risk on compliance news relief selling",
+            "Premarket gap (3.1%) + session fade pattern (36.77%) indicates early spike captured by smart money; retail chasing into afternoon weakness"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ZBAO",
+          "hod": 83,
+          "hodExact": 83.71,
+          "news": [
+            "**• Primary catalyst: Definitive Securities Purchase Agreement announced July 31, 2026, for a $154.7 million PIPE financ",
+            "1.) **Name of the reporting person or owner**\n* Han Tang\n\n2.) **Types of securities transacted and associated amounts an",
+            "1.) Name of the reporting person or owner\n* Dai YiYun\n\n2.) Types of securities transacted and associated amounts and pri",
+            "1.) Name of the reporting person or owner\n* Ren Guangtong\n\n2.) Types of securities transacted and associated amounts and",
+            "1.) **Name of the reporting person or owner**\nXiaowei Le\n\n2.) **Types of securities transacted and associated amounts an"
+          ],
+          "tag": "OFFERING",
+          "name": "Zhibao Technology Inc. Class A Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 11.44,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$130M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2001,
+          "open": 0.2213,
+          "gapPct": 10.57,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.3676,
+          "hodTimeExact": "09:52 AM ET",
+          "close": 0.2552,
+          "fade": 30,
+          "fadeExact": 30.58,
+          "vwap": 0.2748,
+          "vsVwap": "below",
+          "pmHigh": 0.3165,
+          "volRaw": "208.2M",
+          "volDollar": 57225185,
+          "relVol": 3.1,
+          "avgVolM": 67.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Definitive Securities Purchase Agreement announced July 31, 2026, for a $154.7 million PIPE financ",
+            "1.) **Name of the reporting person or owner**\n* Han Tang\n\n2.) **Types of securities transacted and associated amounts an",
+            "1.) Name of the reporting person or owner\n* Dai YiYun\n\n2.) Types of securities transacted and associated amounts and pri",
+            "1.) Name of the reporting person or owner\n* Ren Guangtong\n\n2.) Types of securities transacted and associated amounts and",
+            "1.) **Name of the reporting person or owner**\nXiaowei Le\n\n2.) **Types of securities transacted and associated amounts an"
+          ],
+          "newsSummary": "ZBAO announced a $154.7M PIPE financing via definitive Securities Purchase Agreement on July 31, with multiple insider transactions filed same day. This is dilutive capital raise masquerading as a positive catalyst — classic offering structure that will pressure stock post-momentum fade as new shares enter the float.",
+          "bullFactors": [
+            "HOD dominated 83.71% of session — strong afternoon continuation and short squeeze energy typical of hot cycles",
+            "RelVol 3.1x with 10.57% gap suggests retail/institutional intraday buying pressure despite offering news",
+            "Float at 11.44M is near Jack's sub-10M preference threshold and small enough to amplify intraday volatility"
+          ],
+          "bearFactors": [
+            "OFFERING structure is explicitly on Jack's AVOID list — dilutive financing with guaranteed overhead supply as new shares settle and insiders unwind",
+            "30.58% fade off HOD signals heavy premarket spike that lost steam; typical cold-cycle signature despite strong close",
+            "Insider transactions (Han Tang, Dai YiYun, Ren Guangtong, Xiaowei Le) on announcement day suggest pre-arranged exits and reduced conviction from management",
+            "China-based financial services in low-trust regulatory environment; PIPE partners may dump aggressively post-lockup expiration"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 605,
+      "fade": 31,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "RITR led +605.49% (14% fade). 2/10 held <20% fade. news: RITR — \"**• No company-specific news, announcements, or developments identified in the last 3 days (July 31–Aug 3, 2026) driving\".",
+      "aiSummary": "**TAPE READ — 2026-08-03**\n\nAcquisitions dominate the top movers (HYFM, UPC, EZRA) but dilutive offerings (STKH, ZBAO) and no-news fluff (MGN, DFNS) are spiking alongside, signaling weak catalyst quality overall—this is a mixed-integrity tape. Industrials cluster hard across HK/MY/US micro-caps, with a dangerous float tier split: sub-1M ultra-runners (DFNS $749M vol, UPC, EZRA) are fighting against bloated 15M+ floats (RITR, MGN, FUSE), creating liquidity fragmentation. HOD prints split premarket-heavy (HYFM, UPC spike early) vs. afternoon hold (DFNS sustained), but the 32–55% fade rates on PM runners and RITR's 605% HOD on a 17.5M float scream supply exhaustion, not institutional accumulation—this is a **COLD cycle** dominated by retail panic-buying in PM, not the dip-soak momentum setup Jack hunts. Skip the float-bloated names and offerings entirely; only DFNS shows afternoon strength on no-news (red flag for trap), making today a day to **sit tight or hunt only the sub-1M floats on hard breaks below open.**"
+    },
     {
       "date": "2026-07-31",
       "runners": [
