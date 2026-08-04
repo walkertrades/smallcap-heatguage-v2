@@ -1905,28 +1905,38 @@ def render_heat_gauge_json(target_date, movers, near_miss):
 # Main
 # ---------------------------------------------------------------------------
 
+def _load_key(name, label, optional=""):
+    """Read an API key from the environment, prompting only if it isn't set.
+
+    All three keys behave the same way. Previously only ANTHROPIC_API_KEY
+    checked the environment; Polygon and AskEdgar always prompted, so a
+    perfectly good `setx POLYGON_API_KEY ...` was ignored every run.
+
+    Note `setx` only affects processes started afterwards — if a key is set but
+    this still prompts, the terminal predates the setx and needs reopening.
+    """
+    value = os.environ.get(name, "").strip()
+    if value:
+        print(f"\n{label} loaded from the {name} environment variable.")
+        return value
+
+    print(f"\n{name} is not set in this environment.")
+    print(f"Paste your {label} and press Enter"
+          + (f"\n  — {optional}:" if optional else ":"))
+    return input("> ").strip()
+
+
 def main():
     global POLYGON_API_KEY, ASKEDGAR_API_KEY, ANTHROPIC_API_KEY, DEBUG_MODE
 
     print("📊 Small Cap Evening Rundown Generator")
     print("=" * 50)
 
-    print("\nPaste your Polygon API key and press Enter:")
-    POLYGON_API_KEY = input("> ").strip()
-
-    print("\nPaste your AskEdgar API key and press Enter:")
-    ASKEDGAR_API_KEY = input("> ").strip()
-
-    # Prefer the ANTHROPIC_API_KEY environment variable so the key doesn't have
-    # to be pasted every run; fall back to prompting if it isn't set.
-    env_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if env_key:
-        ANTHROPIC_API_KEY = env_key
-        print("\nAnthropic API key loaded from environment variable.")
-    else:
-        print("\nPaste your Anthropic (Claude) API key and press Enter")
-        print("  — leave blank to skip Claude tags/summaries:")
-        ANTHROPIC_API_KEY = input("> ").strip()
+    POLYGON_API_KEY = _load_key("POLYGON_API_KEY", "Polygon API key")
+    ASKEDGAR_API_KEY = _load_key("ASKEDGAR_API_KEY", "AskEdgar API key")
+    ANTHROPIC_API_KEY = _load_key(
+        "ANTHROPIC_API_KEY", "Anthropic (Claude) API key",
+        optional="leave blank to skip Claude tags/summaries")
 
     print("\nEnable debug mode? Dumps raw AskEdgar JSON for the first ticker (y/N):")
     DEBUG_MODE = input("> ").strip().lower() in ("y", "yes")

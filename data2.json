@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-03T21:16:45.377496Z",
-  "count": 9554,
+  "exportedAt": "2026-08-04T22:18:54.634607Z",
+  "count": 9564,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,797 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-04",
+      "runners": [
+        {
+          "sym": "AMIX",
+          "hod": 576,
+          "hodExact": 576.16,
+          "news": [
+            "Autonomix Medical Expands Precision Neuromodulation Platform with Broad New U.S. Patent Supporting Nerve Sensing, Mapping and Targeted Therapy",
+            "**• Possible reasons for the 69.6% surge (low-float microcap volatility typical of such moves):**\n- Low float (~949k sha",
+            "Based on the filing provided, here are the important details of the offering:\n\n**1.) Type of offering**\n*   Equity Line",
+            "**• Possible reasons for the 71.3% move (as of July 29, 2026):**\n- Positive preclinical data released July 24 showing th",
+            "Autonomix Medical, Inc. Reports Cash Balance and Outstanding Share Count"
+          ],
+          "tag": "OFFERING",
+          "name": "Autonomix Medical, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.96,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [
+            "Float 0.96M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.65,
+          "open": 5.38,
+          "gapPct": 47.4,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 24.68,
+          "hodTimeExact": "03:44 PM ET",
+          "close": 19.5,
+          "fade": 20,
+          "fadeExact": 20.99,
+          "vwap": 11.1021,
+          "vsVwap": "above",
+          "pmHigh": 7.3599,
+          "volRaw": "118.8M",
+          "volDollar": 1318888291,
+          "relVol": 24.9,
+          "avgVolM": 4.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Autonomix Medical Expands Precision Neuromodulation Platform with Broad New U.S. Patent Supporting Nerve Sensing, Mapping and Targeted Therapy",
+            "**• Possible reasons for the 69.6% surge (low-float microcap volatility typical of such moves):**\n- Low float (~949k sha",
+            "Based on the filing provided, here are the important details of the offering:\n\n**1.) Type of offering**\n*   Equity Line",
+            "**• Possible reasons for the 71.3% move (as of July 29, 2026):**\n- Positive preclinical data released July 24 showing th",
+            "Autonomix Medical, Inc. Reports Cash Balance and Outstanding Share Count"
+          ],
+          "newsSummary": "AMIX spiked 576% on a combination of patent expansion news (Aug 4) and accumulated positive catalysts (preclinical data July 24, cash balance July 28), but a critical equity line offering was filed July 31—dilutive capital raise that typically triggers sharp fades in micro-caps. The patent news has merit for a neuromodulation platform, but it's being overshadowed by dilution risk.",
+          "bullFactors": [
+            "Ultra-low float (0.96M shares) creates structural volatility and explosive intraday moves",
+            "Real catalyst foundation: Patent expansion for nerve sensing/mapping + positive preclinical data provides legitimate R&D progression",
+            "Relative volume 24.9x and sustained high volume suggest institutional interest beyond pure hype",
+            "Healthcare/precision neuromodulation sector has investor tailwinds"
+          ],
+          "bearFactors": [
+            "CRITICAL: Equity line offering filed July 31 = dilutive capital raise, classic red flag for micro-cap fade and shareholder value destruction",
+            "576% HOD move is extreme spike territory—exhaustion risk high, premarket dominance suggests retail FOMO rather than institutional accumulation",
+            "20.99% fade already occurring; offering news will likely trigger secondary wave selling and lock-up relief",
+            "Micro-cap at $14M market cap with offering = liquidity trap; typical pattern is sharp reversal after news settles"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "TNMG",
+          "hod": 149,
+          "hodExact": 149.17,
+          "news": [
+            "**• Primary catalyst: Announcement of strategic alternatives review**  \nTNL Mediagene (TNMG) announced on or around Augu",
+            "TNL Mediagene and Miro Bring AI-Powered Organizational Design Services to Enterprise Clients in Japan",
+            "TNL Mediagene and Totaligent Take Different Paths Toward the Future of Enterprise Marketing",
+            "TNL Mediagene Establishes Special Committee to Evaluate Strategic Alternatives",
+            "TNL Mediagene Establishes Special Committee to Evaluate Strategic Alternatives, Engages Imperial Capital as Financial Advisor to Pursue Strategic Alternatives to Maximize Shareholder Value"
+          ],
+          "tag": "ACQUISITION",
+          "name": "TNL Mediagene Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "JP",
+          "floatM": 2.08,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 2.08M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.08M + RelVol 63.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.08M + RelVol 63.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3575,
+          "open": 0.7791,
+          "gapPct": 117.92,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.8908,
+          "hodTimeExact": "07:23 AM ET",
+          "close": 0.4757,
+          "fade": 46,
+          "fadeExact": 46.6,
+          "vwap": 0.6938,
+          "vsVwap": "below",
+          "pmHigh": 0.9989,
+          "volRaw": "248.9M",
+          "volDollar": 172699553,
+          "relVol": 63.9,
+          "avgVolM": 3.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Announcement of strategic alternatives review**  \nTNL Mediagene (TNMG) announced on or around Augu",
+            "TNL Mediagene and Miro Bring AI-Powered Organizational Design Services to Enterprise Clients in Japan",
+            "TNL Mediagene and Totaligent Take Different Paths Toward the Future of Enterprise Marketing",
+            "TNL Mediagene Establishes Special Committee to Evaluate Strategic Alternatives",
+            "TNL Mediagene Establishes Special Committee to Evaluate Strategic Alternatives, Engages Imperial Capital as Financial Advisor to Pursue Strategic Alternatives to Maximize Shareholder Value"
+          ],
+          "newsSummary": "TNMG announced a strategic alternatives review with a special committee and Imperial Capital as financial advisor, signaling potential M&A activity. This is real cash-value news (potential acquisition/restructuring) rather than fluff, though the outcome remains uncertain and execution risk exists.",
+          "bullFactors": [
+            "Ultra-tight float at 2.08M shares — extreme leverage for momentum move",
+            "Strategic alternatives review is legitimate M&A catalyst with real shareholder value thesis, not sympathy or dilutive news",
+            "149% HOD with 46.6% fade and 63.9x relative volume shows strong intraday institutional accumulation pattern before retail push",
+            "Japan-based communications/media play with real enterprise partnerships (Miro, Totaligent) adds credibility to strategic positioning"
+          ],
+          "bearFactors": [
+            "117.92% gap suggests premarket spike dominated — classic setup for hard fade if retail doesn't hold intraday momentum",
+            "Strategic alternatives review creates uncertainty: M&A could take months, dilute shareholders, or fail entirely",
+            "Japan-listed complicates liquidity and after-hours trading; low market cap (1.4B) limits institutional follow-through",
+            "Partnership announcements (Miro, Totaligent) appear timed with strategic review news — potential coordinated fluff to support stock narrative"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "ADGM",
+          "hod": 145,
+          "hodExact": 145.65,
+          "news": [
+            "**• Primary catalyst: Positive clinical milestone announcement on August 3, 2026**  \nAdagio Medical announced the succes",
+            "Adagio Medical Treats First Patient with Faster, Single-Freeze Next-Generation ULTA System",
+            "**• Primary catalyst: Company announcement today (August 3, 2026) that Adagio Medical treated the first patient with its",
+            "1.) Name of the reporting person or owner\n* Sio Capital Management, LLC\n\n2.) Types of securities transacted and associat",
+            "Adagio Medical Holdings, Inc. Announces Results of 2026 Annual Meeting of Stockholders"
+          ],
+          "tag": "PHASE-1",
+          "name": "Adagio Medical Holdings, Inc Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 7.25,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 7.25M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.46,
+          "open": 0.6006,
+          "gapPct": 30.57,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.13,
+          "hodTimeExact": "10:46 AM ET",
+          "close": 0.8,
+          "fade": 29,
+          "fadeExact": 29.2,
+          "vwap": 0.852,
+          "vsVwap": "below",
+          "pmHigh": 0.7849,
+          "volRaw": "474.6M",
+          "volDollar": 404326411,
+          "relVol": 891.2,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Positive clinical milestone announcement on August 3, 2026**  \nAdagio Medical announced the succes",
+            "Adagio Medical Treats First Patient with Faster, Single-Freeze Next-Generation ULTA System",
+            "**• Primary catalyst: Company announcement today (August 3, 2026) that Adagio Medical treated the first patient with its",
+            "1.) Name of the reporting person or owner\n* Sio Capital Management, LLC\n\n2.) Types of securities transacted and associat",
+            "Adagio Medical Holdings, Inc. Announces Results of 2026 Annual Meeting of Stockholders"
+          ],
+          "newsSummary": "Adagio Medical announced successful treatment of first patient using its next-generation ULTA cryoablation system on August 3, 2026—a legitimate clinical milestone with real operational progress, not just sympathy or fluff. This is genuine cash-value driven healthcare development that moves the clinical needle forward for the company's core product.",
+          "bullFactors": [
+            "Float 7.25M is well within Jack's <10M preference; excellent liquidity profile for intraday momentum",
+            "Real clinical catalyst (first patient treatment) has merit vs. sympathy/no-cash news; product advancement = tangible value",
+            "145.65% HOD hold strong with 29.2% fade suggests afternoon institutional accumulation into session close, not early premarket pop-and-drop pattern",
+            "891.2x relative volume and 30.57% gap indicate sustained tape heat; session HODs dominating suggests continuation structure"
+          ],
+          "bearFactors": [
+            "Clinical milestones are binary/early-stage events; single patient treatment is proof-of-concept but lacks revenue or Phase enrollment scale—risk of fade if market reprices expectations",
+            "No intraday volume vs. premarket volume comparison provided; if majority of move occurred in premarket spike, setup is compromised and fade risk high",
+            "Market cap only $18.36M with 7.25M float = micro-cap illiquidity risk on wider spreads and reduced exit liquidity on sharp reversals"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "GCTK",
+          "hod": 88,
+          "hodExact": 88.72,
+          "news": [
+            "**• Possible reasons for today's ~39.6% surge (high volume of ~4.46M shares):**\n- Momentum/short-squeeze play driven by",
+            "Lōkahi Therapeutics™ ai² Futures Lab™ Changes How Biopharma Builds a Pipeline",
+            "1.) What items are being voted on?\n*   **Proposal 1:** Approval of the full issuance of shares of common stock (includin",
+            "CORRECTING and REPLACING Lōkahi Therapeutics™ ai² Futures Lab™ Changes How Biopharma Builds a Pipeline",
+            "**• Primary driver: July 29, 2026 announcement from Lōkahi Therapeutics (post-merger entity) advancing LT-100 developmen"
+          ],
+          "tag": "MERGER",
+          "name": "GlucoTrack, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 7.93,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 7.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4149,
+          "open": 0.4045,
+          "gapPct": -2.51,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.783,
+          "hodTimeExact": "03:21 PM ET",
+          "close": 0.5986,
+          "fade": 23,
+          "fadeExact": 23.55,
+          "vwap": 0.6336,
+          "vsVwap": "below",
+          "pmHigh": 0.4069,
+          "volRaw": "54.9M",
+          "volDollar": 34805574,
+          "relVol": 1.9,
+          "avgVolM": 29.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for today's ~39.6% surge (high volume of ~4.46M shares):**\n- Momentum/short-squeeze play driven by",
+            "Lōkahi Therapeutics™ ai² Futures Lab™ Changes How Biopharma Builds a Pipeline",
+            "1.) What items are being voted on?\n*   **Proposal 1:** Approval of the full issuance of shares of common stock (includin",
+            "CORRECTING and REPLACING Lōkahi Therapeutics™ ai² Futures Lab™ Changes How Biopharma Builds a Pipeline",
+            "**• Primary driver: July 29, 2026 announcement from Lōkahi Therapeutics (post-merger entity) advancing LT-100 developmen"
+          ],
+          "newsSummary": "GCTK (post-merger entity Lōkahi Therapeutics) advanced LT-100 development pipeline following merger completion, with shareholder vote approval on share issuance. The catalyst has real merit (pipeline advancement + merger close-out), but the shareholder approval component signals potential dilution ahead, which is a structural red flag for momentum plays.",
+          "bullFactors": [
+            "Float 7.93M is in sweet spot (<10M preferred)",
+            "88.72% HOD dominance with 4.46M volume shows sustained session strength, not premarket spike fade",
+            "Real catalyst (pipeline advancement + merger finalization) has tangible biopharma value vs. sympathy fluff",
+            "1.9x relative volume with high-volume session suggests institutional accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Shareholder vote approval of 'full issuance of shares of common stock' is dilutive structural risk — classic post-merger overhang",
+            "39.6% single-day move is aggressive; watch for fade into close and next session gap-down risk",
+            "Biopharma developmental stage (LT-100 in pipeline) = binary/speculative, high volatility blowoff risk",
+            "Merger close-out news typically loses momentum after initial pop — liquidity spillover potential if run continues 500%+"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ELPW",
+          "hod": 79,
+          "hodExact": 79.79,
+          "news": [
+            "**• Recent catalyst: Elong Power Holding Limited announced the pricing of a US$1.38 million public offering (best-effort",
+            "Based on the filing provided, here are the important details of the offering:\n\n**1.) Type of offering**\n*   New Offering",
+            "Elong Power Holding Limited Announces Pricing of US$1.38 Million Public Offering",
+            "Elong Power Holding Limited Announces Closing of US$1.38 Million Public Offering",
+            "Elong Power Holding Limited Announces Closing of US$1.38 Million Public Offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Elong Power Holding Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 34.93,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1049,
+          "open": 0.1574,
+          "gapPct": 50.05,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.1886,
+          "hodTimeExact": "04:03 AM ET",
+          "close": 0.1594,
+          "fade": 15,
+          "fadeExact": 15.48,
+          "vwap": 0.1652,
+          "vsVwap": "below",
+          "pmHigh": 0.2276,
+          "volRaw": "432.1M",
+          "volDollar": 71377352,
+          "relVol": 18.2,
+          "avgVolM": 23.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Recent catalyst: Elong Power Holding Limited announced the pricing of a US$1.38 million public offering (best-effort",
+            "Based on the filing provided, here are the important details of the offering:\n\n**1.) Type of offering**\n*   New Offering",
+            "Elong Power Holding Limited Announces Pricing of US$1.38 Million Public Offering",
+            "Elong Power Holding Limited Announces Closing of US$1.38 Million Public Offering",
+            "Elong Power Holding Limited Announces Closing of US$1.38 Million Public Offering"
+          ],
+          "newsSummary": "Elong Power announced pricing and closing of a $1.38M public offering on 2026-08-04. This is a dilutive capital raise with no operational/cash-generating catalyst — pure equity dilution that typically signals weakness and attracts institutional sellers post-announcement.",
+          "bullFactors": [
+            "79.79% HOD dominance suggests intraday retail momentum and short squeeze pressure despite dilution news",
+            "Relative volume of 18.2x indicates genuine session participation and liquidity to scalp"
+          ],
+          "bearFactors": [
+            "OFFERING = dilutive news — Jack's framework explicitly lists offerings as F-grade catalyst material; market will likely fade hard into close and next session",
+            "Float of 34.93M is well above Jack's 10M preference threshold and offering increases share count further, reducing liquidity quality",
+            "50.05% gap + 79.79% HOD concentration suggests classic premarket spike that fades — high risk of morning-only momentum with afternoon selloff",
+            "China-based small-cap with micro market cap ($5.26M) and dilutive financing = elevated black swan/delisting risk; minimal institutional support"
+          ],
+          "setupGrade": "F"
+        },
+        {
+          "sym": "MOVE",
+          "hod": 75,
+          "hodExact": 75.56,
+          "news": [
+            "Corvex Signs Multi-Year Agreement to Provide NVIDIA Blackwell GPUs",
+            "**• Primary catalyst: Corvex announced today (August 4, 2026) a multi-year agreement to provide clusters of NVIDIA Black",
+            "Corvex Appoints AI Infrastructure Veteran Michael Craig as Vice President of Architecture and Site Operations",
+            "SHARE RESALE REGISTRATION | Shares: 53,390,008",
+            "1.) **Name of the reporting person or owner**\n* Seth Demsey\n\n2.) **Types of securities transacted and associated amounts"
+          ],
+          "tag": "CONTRACT",
+          "name": "Corvex, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.82,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$407M",
+          "riskBadges": [
+            "Float 1.82M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.82M + RelVol 184.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.82M + RelVol 184.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.76,
+          "open": 18.78,
+          "gapPct": 74.54,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 18.89,
+          "hodTimeExact": "08:00 AM ET",
+          "close": 13.73,
+          "fade": 27,
+          "fadeExact": 27.32,
+          "vwap": 17.9697,
+          "vsVwap": "below",
+          "pmHigh": 25.01,
+          "volRaw": "7.4M",
+          "volDollar": 132698669,
+          "relVol": 184.5,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Corvex Signs Multi-Year Agreement to Provide NVIDIA Blackwell GPUs",
+            "**• Primary catalyst: Corvex announced today (August 4, 2026) a multi-year agreement to provide clusters of NVIDIA Black",
+            "Corvex Appoints AI Infrastructure Veteran Michael Craig as Vice President of Architecture and Site Operations",
+            "SHARE RESALE REGISTRATION | Shares: 53,390,008",
+            "1.) **Name of the reporting person or owner**\n* Seth Demsey\n\n2.) **Types of securities transacted and associated amounts"
+          ],
+          "newsSummary": "Corvex announced a multi-year agreement to provide NVIDIA Blackwell GPU clusters, a real cash-generating contract with a blue-chip partner. This is legitimate enterprise infrastructure demand, not sympathy or fluff—direct revenue potential from AI infrastructure buildout.",
+          "bullFactors": [
+            "Tiny float at 1.82M shares—extreme leverage for sustained volume push",
+            "Real catalyst with named partnership (NVIDIA) and multi-year contract value, not dilutive news",
+            "HOD dominance at 75.56% with 184.5x relative volume indicates institutional accumulation and retail follow-through continuation strength",
+            "High gap (74.54%) plus afternoon HOD momentum suggests tape temperature is HOT, shorts covering into strength"
+          ],
+          "bearFactors": [
+            "Major red flag: 53.39M share resale registration filed 2026-07-10 (25x float) creates severe overhead supply overhang—dilution risk when insiders/VCs unload",
+            "Premarket spike dominated early move (gap 74.54% vs fade 27.32%)—classic top-heavy structure, retail chasing after institutions already captured gains",
+            "Recent VP appointment (2026-07-15) and insider transactions (2026-07-08) suggest insider selling activity preceding announcement—timing suspicious",
+            "No detail on contract size, revenue impact, or timeline—'multi-year agreement' is vague and could be smaller than market pricing in"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ENSC",
+          "hod": 72,
+          "hodExact": 72.44,
+          "news": [
+            "**• Possible reasons for the ~97% price surge and high volume (1.38M+ shares):**\n- Viral social media momentum on X/Twit",
+            "**• Possible reasons for the ~42% surge (with high volume of ~1.48M shares):**\n- Receipt of a U.S. Notice of Allowance f",
+            "Ensysce Biosciences, Inc. Announces Resignation of Chief Operating Officer",
+            "Ensysce Biosciences Awarded $5.3 Million Installment in NIDA Funding Completing Multi-Year $15 Million Federal Grant",
+            "**• Primary catalyst: Announcement today (July 14, 2026) of a $5.3 million installment from the National Institute on Dr"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Ensysce Biosciences, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 15.56,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2801,
+          "open": 0.4337,
+          "gapPct": 54.84,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.483,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 0.3842,
+          "fade": 20,
+          "fadeExact": 20.46,
+          "vwap": 0.447,
+          "vsVwap": "below",
+          "pmHigh": 0.65,
+          "volRaw": "181.2M",
+          "volDollar": 81018459,
+          "relVol": 24.6,
+          "avgVolM": 7.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~97% price surge and high volume (1.38M+ shares):**\n- Viral social media momentum on X/Twit",
+            "**• Possible reasons for the ~42% surge (with high volume of ~1.48M shares):**\n- Receipt of a U.S. Notice of Allowance f",
+            "Ensysce Biosciences, Inc. Announces Resignation of Chief Operating Officer",
+            "Ensysce Biosciences Awarded $5.3 Million Installment in NIDA Funding Completing Multi-Year $15 Million Federal Grant",
+            "**• Primary catalyst: Announcement today (July 14, 2026) of a $5.3 million installment from the National Institute on Dr"
+          ],
+          "newsSummary": "ENSC spiked 97% on viral social media momentum on X/Twitter with no material catalyst announced today. Prior catalysts (NIDA grant installment on 7/14, patent allowance on 8/3) are stale relative to the 8/4 move, indicating this is pure retail/social momentum rather than institutional accumulation on real news.",
+          "bullFactors": [
+            "72.44% HOD dominance signals continued session strength and potential short squeeze pressure",
+            "24.6x relative volume indicates genuine retail engagement and liquidity to scale",
+            "Real catalyst foundation exists (NIDA $5.3M grant, patent allowance) providing narrative legitimacy even if not today's trigger"
+          ],
+          "bearFactors": [
+            "97% spike in 1-2 minutes on viral social media = disqualifying red flag per trader framework (out of play territory)",
+            "Float 15.56M exceeds <10M preference; at upper threshold for Jack's criteria",
+            "Premarket spike dominating narrative over institutional dip/soak accumulation — classic COLD tape fade pattern setup",
+            "COO resignation on 7/15 adds insider risk layer; healthcare micro-cap with executive turnover and viral hype is black swan prone"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "SXTC",
+          "hod": 69,
+          "hodExact": 69.05,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Momentum-driven retail trading and short covering, fueled by the recent",
+            "**• Possible reasons for the 23.4% surge with 2.16M+ shares traded:**  \n- Speculative retail momentum and high-volume tr",
+            "**• Possible reasons for the ~34.5% surge (high volume of ~1.52M shares):**\n- Speculative momentum/pump in a low-float C",
+            "**• Recent $9M registered direct offering (announced July 23, 2026; priced at $2.00 per unit with warrants; closed ~July",
+            "FIXED PRICE OFFERING | Offering amount: $9,000,000 | Shares: 4,500,000 | Price: $2.000 | Bank: Univest Securities, LLC"
+          ],
+          "tag": "OFFERING",
+          "name": "China SXT Pharmaceuticals, Inc. Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 43.28,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0769,
+          "open": 0.075,
+          "gapPct": -2.47,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.13,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 0.1231,
+          "fade": 5,
+          "fadeExact": 5.31,
+          "vwap": 0.094,
+          "vsVwap": "above",
+          "pmHigh": 0.077,
+          "volRaw": "159.7M",
+          "volDollar": 15007600,
+          "relVol": 1.7,
+          "avgVolM": 95.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Momentum-driven retail trading and short covering, fueled by the recent",
+            "**• Possible reasons for the 23.4% surge with 2.16M+ shares traded:**  \n- Speculative retail momentum and high-volume tr",
+            "**• Possible reasons for the ~34.5% surge (high volume of ~1.52M shares):**\n- Speculative momentum/pump in a low-float C",
+            "**• Recent $9M registered direct offering (announced July 23, 2026; priced at $2.00 per unit with warrants; closed ~July",
+            "FIXED PRICE OFFERING | Offering amount: $9,000,000 | Shares: 4,500,000 | Price: $2.000 | Bank: Univest Securities, LLC"
+          ],
+          "newsSummary": "SXTC completed a $9M registered direct offering (4.5M shares at $2.00/unit with warrants) on July 23-27, introducing significant dilution into the float. Recent 3-day rallies (34.5%, 23.4%, 69% HOD) appear driven by speculative retail momentum and short covering rather than fundamental catalyst merit, with headlines explicitly citing 'speculation' and 'pump' dynamics.",
+          "bullFactors": [
+            "Strong intraday tape action: 69% HOD on session with 5.31% fade suggests institutional accumulation and short squeeze momentum",
+            "RelVol 1.7x indicates sustained volume relative to premarket, fitting Jack's criteria for intraday vol strength",
+            "Healthcare sector with China exposure could attract sympathy flows if broader small-cap momentum continues"
+          ],
+          "bearFactors": [
+            "CRITICAL: $9M registered direct offering with 4.5M new shares + warrants = heavy dilution overhang and classic pump-and-dump pattern",
+            "Float bloat risk: 43.28M shares well above Jack's <10M preference; offering materially increased float post-July 23",
+            "Catalyst quality FLUFF: No real cash value, earnings, partnership, or FDA news — pure speculative momentum on vague headlines citing 'retail trading' and 'momentum'",
+            "Offering-related selling pressure likely to resurface; warrants create future dilution tail risk"
+          ],
+          "setupGrade": "F"
+        },
+        {
+          "sym": "PLTG",
+          "hod": 61,
+          "hodExact": 61.31,
+          "news": [
+            "**• Primary driver: PLTR (Palantir Technologies) reported blowout Q2 2026 earnings on August 3, 2026 (yesterday), with r",
+            "- **Primary driver: Strong Q4 2025 earnings beat from underlying Palantir Technologies (PLTR) reported after market clos"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Leverage Shares 2X Long PLTR Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 2.7,
+          "floatTier": "Micro",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [
+            "Float 2.7M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.08,
+          "open": 13.06,
+          "gapPct": 29.56,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 16.26,
+          "hodTimeExact": "02:01 PM ET",
+          "close": 15.94,
+          "fade": 1,
+          "fadeExact": 1.97,
+          "vwap": 14.9604,
+          "vsVwap": "above",
+          "pmHigh": 13.55,
+          "volRaw": "1.7M",
+          "volDollar": 26173354,
+          "relVol": 5.4,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary driver: PLTR (Palantir Technologies) reported blowout Q2 2026 earnings on August 3, 2026 (yesterday), with r",
+            "- **Primary driver: Strong Q4 2025 earnings beat from underlying Palantir Technologies (PLTR) reported after market clos"
+          ],
+          "newsSummary": "PLTG moved on sympathy/spillover from PLTR's blowout Q2 2026 earnings reported August 3rd. While PLTR's earnings have real merit (strong beats, institutional relevance), PLTG itself appears to be a ticker riding coattails rather than having its own catalyst. The merit is borrowed, not fundamental to PLTG.",
+          "bullFactors": [
+            "Ultra-tight float at 2.7M shares — textbook small-cap momentum vehicle with structural fuel",
+            "Strong intraday tape: 61.31% HOD dominance signals institutional accumulation and short covering into afternoon",
+            "5.4x relative volume shows retail/algo engagement; premarket gap of 29.56% gave room to run intraday",
+            "Daily chart likely has room to upside if float tightness holds — no mention of warrants/convertibles/ATM overhang"
+          ],
+          "bearFactors": [
+            "Sympathy/spillover catalyst, not proprietary — PLTG riding PLTR's coattails; lacks its own real cash value news or partnership",
+            "Only 1.97% fade on session suggests tape may be exhausted; afternoon HOD dominance can reverse hard on profit-taking into close",
+            "Unknown sector and zero market cap data — red flag for due diligence; unable to confirm if PLTG is a shell, holding company, or legitimate operating entity",
+            "Sympathy plays historically fade sharp; liquidity can evaporate when PLTR momentum cools or profit-takers hit"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "PTIR",
+          "hod": 61,
+          "hodExact": 61.15,
+          "news": [
+            "**• Primary driver: Palantir (PLTR) Q2 2026 earnings beat and surge**  \nPLTR released results after the August 3 close,",
+            "• **Strong Q4 Earnings from Palantir (PLTR) Released After Market Close on February 2, 2026**: PTIR, which seeks 2x dail"
+          ],
+          "tag": "SYMPATHY",
+          "name": "GraniteShares 2x Long PLTR Daily ETF",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 27.2,
+          "floatTier": "Thick",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.58,
+          "open": 13.805,
+          "gapPct": 30.48,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 17.0499,
+          "hodTimeExact": "12:46 PM ET",
+          "close": 16.72,
+          "fade": 1,
+          "fadeExact": 1.93,
+          "vwap": 15.6102,
+          "vsVwap": "above",
+          "pmHigh": 14.19,
+          "volRaw": "22.3M",
+          "volDollar": 348310674,
+          "relVol": 5.1,
+          "avgVolM": 4.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary driver: Palantir (PLTR) Q2 2026 earnings beat and surge**  \nPLTR released results after the August 3 close,",
+            "• **Strong Q4 Earnings from Palantir (PLTR) Released After Market Close on February 2, 2026**: PTIR, which seeks 2x dail"
+          ],
+          "newsSummary": "PTIR is a 2x daily inverse ETF riding sympathy from PLTR's Q2 2026 earnings beat and subsequent surge. This is derivative momentum with no direct fundamental catalyst—the move is purely technical spillover from a mega-cap name. Fluff news by Jack's standards: no real cash value, no partnership, no data—just leverage and correlation.",
+          "bullFactors": [
+            "HOD dominance at 61.15% suggests intraday institutional accumulation and retail continuation, not premarket fade",
+            "5.1x relative volume indicates genuine tape heat and liquidity to work with intraday",
+            "Inverse leverage to PLTR weakness could sustain if tech corrects, reducing fade risk in afternoon"
+          ],
+          "bearFactors": [
+            "Float of 27.2M is 2.7x Jack's preferred max—reduces volatility per share and increases slippage risk",
+            "Pure sympathy play with zero fundamental catalyst; fluff by Jack's criteria (no earnings, no partnership, no real data)",
+            "Gap of 30.48% pre-market spike suggests retail FOMO dominance; high risk of morning fade and liquidity trap",
+            "Inverse ETFs carry daily rebalance decay and are structurally poor swing/momentum vehicles; tape will likely stall after retail exhaustion"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 576,
+      "fade": 19,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "AMIX led +576.16% (20% fade). 4/10 held <20% fade. news: AMIX — \"Autonomix Medical Expands Precision Neuromodulation Platform with Broad New U.S. Patent Supporting Nerve Sensing, Mapping and Targeted Therapy\".",
+      "aiSummary": "Today's tape is dominated by dilutive news—three offerings and two sympathy plays with zero real cash value—signaling a cold, retail-driven cycle that Jack should largely avoid. The float profile splits sharply between micro-caps under 3M (AMIX, MOVE, TNMG, GCTK) and bloated names over 30M (ELPW, SXTC, ENSC, PTIR), with healthcare oversaturated at six names and no clear institutional accumulation setup. HODs printed predominantly in premarket and morning sessions with heavy afternoon fades (AMIX 577% spike followed by 21% washout is textbook pump rejection), and the only sustained afternoon strength (GCTK, PLTG, PTIR) rides sympathy with no catalyst—classic trap for momentum traders chasing dead volume. This is a neutral-to-cold tape: Jack should skip the offerings outright, ignore sympathy, and hunt for ADGM (Phase-1 data, real catalyst, still 145% HOD, morning setup allowed accumulation) as the only credible risk/reward—everything else is noise."
+    },
     {
       "date": "2026-08-03",
       "runners": [
