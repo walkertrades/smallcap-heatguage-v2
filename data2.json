@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-04T22:18:54.634607Z",
-  "count": 9564,
+  "exportedAt": "2026-08-05T22:34:15.036570Z",
+  "count": 9574,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,808 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-05",
+      "runners": [
+        {
+          "sym": "ZYBT",
+          "hod": 235,
+          "hodExact": 235.16,
+          "news": [
+            "**• Possible reasons for today's 31.2% surge (low-float momentum play with heavy volume of ~160k shares):**\n- Speculativ",
+            "**• Primary driver: Pure momentum/day-trader frenzy in a low-float name with no fundamental news.**  \nZYBT exploded >1,0",
+            "Zhengye Biotechnology Holding Limited Comments on Unusual Trading Activity",
+            "Zhengye Biotechnology Holding Limited Issues Statement Regarding Unusual Trading Activity",
+            "Zhengye Biotechnology Holding Limited Comments on Unusual Trading Activity"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Zhengye Biotechnology Holding Limited Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 4.49,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$93M",
+          "riskBadges": [
+            "Float 4.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.28,
+          "open": 1.26,
+          "gapPct": -1.56,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.29,
+          "hodTimeExact": "11:36 AM ET",
+          "close": 2.36,
+          "fade": 44,
+          "fadeExact": 44.99,
+          "vwap": 2.7392,
+          "vsVwap": "below",
+          "pmHigh": 1.25,
+          "volRaw": "71.3M",
+          "volDollar": 195348154,
+          "relVol": 6.1,
+          "avgVolM": 11.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for today's 31.2% surge (low-float momentum play with heavy volume of ~160k shares):**\n- Speculativ",
+            "**• Primary driver: Pure momentum/day-trader frenzy in a low-float name with no fundamental news.**  \nZYBT exploded >1,0",
+            "Zhengye Biotechnology Holding Limited Comments on Unusual Trading Activity",
+            "Zhengye Biotechnology Holding Limited Issues Statement Regarding Unusual Trading Activity",
+            "Zhengye Biotechnology Holding Limited Comments on Unusual Trading Activity"
+          ],
+          "newsSummary": "ZYBT spiked 31.2% on pure momentum/day-trader frenzy with zero fundamental catalyst—only speculative low-float pressure and heavy volume. Company issued multiple 'unusual trading activity' statements suggesting no real news driver, indicating this is a self-sustaining tape move with no underlying merit.",
+          "bullFactors": [
+            "Extremely tight float at 4.49M shares—textbook low-float runner setup",
+            "235% HOD on session indicates strong retail accumulation and shorts covering",
+            "6.1x relative volume shows sustained intraday participation, not just premarket spike fade",
+            "Daily room to upside if chart structurally clean (no warrants/ATM overhead mentioned)"
+          ],
+          "bearFactors": [
+            "Pure momentum play with zero real catalyst—44.99% fade shows institutional lack of conviction",
+            "Multiple company statements on 'unusual trading activity' signal awareness of manipulation; regulatory risk high",
+            "Chinese healthcare micro-cap with $92.7M market cap—liquidity and delisting risk in this sector",
+            "No cash-backed news, partnerships, or data—entirely sentiment-driven; vulnerable to sudden black-swan halt or reverse"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "INLF",
+          "hod": 198,
+          "hodExact": 198.11,
+          "news": [
+            "**• Possible reasons for the 44.3% surge today:**\n- Momentum-driven trading in a low-float post-1-for-200 reverse split",
+            "INLIF Soars Ahead of Critical Shareholder Vote",
+            "INLIF LIMITED to Hold Extraordinary General Meeting on August 17, 2026",
+            "INLIF Limited Announces 2026 Extraordinary General Meeting to Approve Share Capital Restructuring",
+            "INLIF LIMITED Announces Extraordinary General Meeting of Shareholders"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "INLIF LIMITED Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 0.99,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 0.99M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.18,
+          "open": 7.805,
+          "gapPct": 145.44,
+          "time": "regular session",
+          "session": "morning",
+          "high": 9.48,
+          "hodTimeExact": "11:26 AM ET",
+          "close": 6.27,
+          "fade": 33,
+          "fadeExact": 33.86,
+          "vwap": 6.739,
+          "vsVwap": "below",
+          "pmHigh": 8.05,
+          "volRaw": "60.8M",
+          "volDollar": 409902209,
+          "relVol": 12.3,
+          "avgVolM": 5.0,
+          "ssr": true,
+          "reverseSplit": "200:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the 44.3% surge today:**\n- Momentum-driven trading in a low-float post-1-for-200 reverse split",
+            "INLIF Soars Ahead of Critical Shareholder Vote",
+            "INLIF LIMITED to Hold Extraordinary General Meeting on August 17, 2026",
+            "INLIF Limited Announces 2026 Extraordinary General Meeting to Approve Share Capital Restructuring",
+            "INLIF LIMITED Announces Extraordinary General Meeting of Shareholders"
+          ],
+          "newsSummary": "INLF spiked 44.3% on momentum trading ahead of an August 17 shareholder vote on share capital restructuring following a 1-for-200 reverse split. The catalyst is a corporate restructuring event with unclear real cash value—typical compliance/administrative news that drives pre-vote speculation rather than fundamental business improvement. High risk of post-vote fade if shareholders approve the dilutive restructuring.",
+          "bullFactors": [
+            "Ultra-low float at 0.99M shares—excellent for momentum acceleration if retail piles in",
+            "Extreme relative volume (12.3x) and 198% HOD spike show strong intraday tape temperature and institutional accumulation potential",
+            "Gap up 145% post-reverse split creates psychological reset and room to run if shorts get squeezed pre-vote"
+          ],
+          "bearFactors": [
+            "Reverse split + shareholder vote screams dilution risk and potential capital raise—classic pump-before-dilution pattern",
+            "Catalyst is administrative compliance, not real business value (no earnings, partnerships, or cash deals)—fluff headline driving speculation",
+            "33.86% fade already occurred; premarket spike dominance with significant pullback suggests weak tape and retail exhaustion, not institutional strength",
+            "Chinese industrial micro-cap with $5.9M market cap adds geopolitical/liquidity risk and low credibility for sustained moves"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "JLHL",
+          "hod": 197,
+          "hodExact": 197.79,
+          "news": [
+            "**• Possible reasons for the price movement (bulleted list):**\n- Momentum-driven retail trading and short-term speculati",
+            "July 2026 SHELF | Float: 1,448,632",
+            "**Possible reasons for the $JLHL price movement (as of July 17, 2026 premarket/early session):**\n\n- Low-float momentum/v",
+            "**• No identifiable fundamental catalyst (e.g., earnings, contracts, or announcements) in the last 3 days or recently; p",
+            "**• Possible reasons for today's 20.6% surge (high-volume momentum move):**\n- Pure speculative momentum/continuation tra"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Julong Holding Limited Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 1.47,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$188M",
+          "riskBadges": [
+            "Float 1.47M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.42,
+          "open": 7.01,
+          "gapPct": 29.34,
+          "time": "regular session",
+          "session": "morning",
+          "high": 16.14,
+          "hodTimeExact": "11:11 AM ET",
+          "close": 9.35,
+          "fade": 42,
+          "fadeExact": 42.07,
+          "vwap": 11.5835,
+          "vsVwap": "below",
+          "pmHigh": 10.56,
+          "volRaw": "33.2M",
+          "volDollar": 384269291,
+          "relVol": 5.4,
+          "avgVolM": 6.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement (bulleted list):**\n- Momentum-driven retail trading and short-term speculati",
+            "July 2026 SHELF | Float: 1,448,632",
+            "**Possible reasons for the $JLHL price movement (as of July 17, 2026 premarket/early session):**\n\n- Low-float momentum/v",
+            "**• No identifiable fundamental catalyst (e.g., earnings, contracts, or announcements) in the last 3 days or recently; p",
+            "**• Possible reasons for today's 20.6% surge (high-volume momentum move):**\n- Pure speculative momentum/continuation tra"
+          ],
+          "newsSummary": "JLHL spiked 197.79% HOD with zero identifiable fundamental catalyst—pure momentum/retail speculation driven by low float (1.47M). Headlines confirm no earnings, contracts, partnerships, or material announcements; this is a classic sympathy/speculation play with no real cash value deal backing the move.",
+          "bullFactors": [
+            "Ultra-tight float at 1.47M—well below Jack's <10M preference, amplifies any retail demand",
+            "Session HOD dominance (197.79% HOD vs 42.07% fade) signals afternoon strength and potential shorts covering",
+            "5.4x relative volume shows institutional/retail participation, not a 1-2 minute spike-out scenario"
+          ],
+          "bearFactors": [
+            "No identifiable catalyst—pure momentum/speculation with fluff headlines; Jack avoids sympathy themes and no-cash news",
+            "42.07% fade from HOD is notable; premarket spike dominance pattern suggests retail front-running and likely continuation fade into close/next session",
+            "Recent shelf filing (July 24) + China-based ticker (CN) + Basic Materials sector = dilution/geopolitical risk; no real operational catalyst to sustain momentum",
+            "HOD 197.79% in single session on no news is a red flag for black swan liquidity conditions and pump exhaustion"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "RITR",
+          "hod": 138,
+          "hodExact": 138.88,
+          "news": [
+            "**• Primary catalyst: Strategic partnership announcement**  \nJingxing HK (Reitar Logtech’s logistics technology arm) sig",
+            "**• No company-specific news, announcements, or developments identified in the last 3 days (July 31–Aug 3, 2026) driving",
+            "Reitar Logtech Announces Strategic Cooperation Between Jingxing HK and Cainiao Group for Global Smart Warehousing and Automated Logistics Solutions",
+            "Reitar Logtech Announces Strategic Cooperation Between Jingxing HK and Cainiao Group",
+            "Jingxing HK, Logistics Technology Arm of Reitar Logtech, Partners with Cainiao Group to Capture Global Smart Warehousing Market"
+          ],
+          "tag": "CONTRACT",
+          "name": "Reitar Logtech Holdings Limited Ordinary shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 17.53,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1461,
+          "open": 0.256,
+          "gapPct": 75.26,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.349,
+          "hodTimeExact": "08:06 AM ET",
+          "close": 0.262,
+          "fade": 24,
+          "fadeExact": 24.93,
+          "vwap": 0.2595,
+          "vsVwap": "above",
+          "pmHigh": 0.351,
+          "volRaw": "721.3M",
+          "volDollar": 187167270,
+          "relVol": 8.2,
+          "avgVolM": 88.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Strategic partnership announcement**  \nJingxing HK (Reitar Logtech’s logistics technology arm) sig",
+            "**• No company-specific news, announcements, or developments identified in the last 3 days (July 31–Aug 3, 2026) driving",
+            "Reitar Logtech Announces Strategic Cooperation Between Jingxing HK and Cainiao Group for Global Smart Warehousing and Automated Logistics Solutions",
+            "Reitar Logtech Announces Strategic Cooperation Between Jingxing HK and Cainiao Group",
+            "Jingxing HK, Logistics Technology Arm of Reitar Logtech, Partners with Cainiao Group to Capture Global Smart Warehousing Market"
+          ],
+          "newsSummary": "Reitar Logtech announced a strategic partnership between its logistics arm Jingxing HK and Cainiao Group for smart warehousing and automated logistics solutions. This is a real cash-value partnership with a major player (Alibaba's Cainiao), not sympathy or dilutive news, providing legitimate fundamental support for the move.",
+          "bullFactors": [
+            "Real catalyst: Strategic partnership with Cainiao Group (major logistics/Alibaba ecosystem player) — not fluff or sympathy",
+            "Hot tape structure: 138.88% HOD with only 24.93% fade indicates institutional accumulation and sustained strength, shorts being squeezed",
+            "High relative volume (8.2x) on afternoon HOD dominance — continuation signal rather than premarket spike fade",
+            "Gap up 75.26% on catalyst gives intraday room to work with if breakout holds"
+          ],
+          "bearFactors": [
+            "Float 17.53M — above Jack's preferred <10M threshold, reduces scarcity and squeeze potential",
+            "Hong Kong-listed small-cap with potential liquidity/ADR considerations and lower retail attention than US-listed names",
+            "Partnership announcement already priced in by market open/premarket; risk of fade as retail FOMO exhausts without additional catalysts",
+            "No follow-up news or earnings catalyst visible — single-catalyst setup with limited fuel for sustained continuation"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ASTC",
+          "hod": 77,
+          "hodExact": 77.07,
+          "news": [
+            "**• Possible reasons for the ~26.7% surge (retail/momentum-driven with high volume of ~128k shares):**\n- Continued specu",
+            "Gravitics Appoints Philip Wong as Chief Financial Officer",
+            "1.) Name of the reporting person or owner\n* Nihanth Badugu (Chief Operating Officer of Astrotech Corp)\n\n2.) Types of sec",
+            "Astrotech Corporation Appoints Matthew Kreps to Board of Directors",
+            "Astrotech Corporation Appoints Matt Kreps to Board of Directors"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Astrotech Corporation (DE) Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 1.68,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 1.68M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.68M + RelVol 60.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.68M + RelVol 60.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 7.24,
+          "open": 7.26,
+          "gapPct": 0.28,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 12.82,
+          "hodTimeExact": "01:42 PM ET",
+          "close": 9.11,
+          "fade": 28,
+          "fadeExact": 28.94,
+          "vwap": 10.2883,
+          "vsVwap": "below",
+          "pmHigh": 7.5,
+          "volRaw": "4.0M",
+          "volDollar": 40817894,
+          "relVol": 60.4,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~26.7% surge (retail/momentum-driven with high volume of ~128k shares):**\n- Continued specu",
+            "Gravitics Appoints Philip Wong as Chief Financial Officer",
+            "1.) Name of the reporting person or owner\n* Nihanth Badugu (Chief Operating Officer of Astrotech Corp)\n\n2.) Types of sec",
+            "Astrotech Corporation Appoints Matthew Kreps to Board of Directors",
+            "Astrotech Corporation Appoints Matt Kreps to Board of Directors"
+          ],
+          "newsSummary": "ASTC spiked ~26.7% on retail/momentum volume (128k shares) with no material catalyst disclosed. Recent headlines show board appointments (Kreps, Wong as CFO) and insider transactions, but these are routine governance moves lacking real cash value or operational catalyst. This is a classic fluff-driven momentum pop with no fundamental merit.",
+          "bullFactors": [
+            "Ultra-tight float at 1.68M shares — perfect for runner dynamics",
+            "77% HOD percentage signals afternoon strength and potential short squeeze energy",
+            "60.4x relative volume shows intraday volume eclipsing premarket — fits trader's vol/min breakout criteria",
+            "Industrials sector with micro-cap valuation leaves room for outsized % moves"
+          ],
+          "bearFactors": [
+            "No real catalyst — board appointments and insider transactions are noise, not cash value deals or partnerships",
+            "28.94% fade percentage indicates significant premarket spike dumping into retail FOMO (cold tape signature)",
+            "Spike already 26.7% on low share count (128k shares moved) — easy for liquidity to evaporate on any dip",
+            "Routine governance announcements suggest pump-prone ticker with dilution/offering risk typical of micro-caps"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "BJDX",
+          "hod": 69,
+          "hodExact": 69.0,
+          "news": [
+            "**• Possible reasons for the +55% price surge (with elevated volume of ~241k shares):**\n- Classic low-float momentum/sho",
+            "**• No company-specific news, press releases, or announcements in the last 3 days (as of Aug 4, 2026).** The most recent",
+            "Bluejay Diagnostics Completes Patient Enrollment in SYMON-II Clinical Trial",
+            "1.) Name of the reporting person or owner\n* Bank of America Corporation\n* BofA Securities, Inc.\n* Bank of America, N.A.",
+            "1.) Name of the reporting person or owner\n* Bank of America Corporation\n* BofA Securities, Inc.\n* Bank of America, N.A."
+          ],
+          "tag": "NO-NEWS",
+          "name": "Bluejay Diagnostics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 4.75,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 4.75M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1,
+          "open": 1.48,
+          "gapPct": 48.0,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.69,
+          "hodTimeExact": "04:11 AM ET",
+          "close": 1.24,
+          "fade": 26,
+          "fadeExact": 26.63,
+          "vwap": 1.4794,
+          "vsVwap": "below",
+          "pmHigh": 1.78,
+          "volRaw": "90.1M",
+          "volDollar": 133318079,
+          "relVol": 25.4,
+          "avgVolM": 3.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the +55% price surge (with elevated volume of ~241k shares):**\n- Classic low-float momentum/sho",
+            "**• No company-specific news, press releases, or announcements in the last 3 days (as of Aug 4, 2026).** The most recent",
+            "Bluejay Diagnostics Completes Patient Enrollment in SYMON-II Clinical Trial",
+            "1.) Name of the reporting person or owner\n* Bank of America Corporation\n* BofA Securities, Inc.\n* Bank of America, N.A.",
+            "1.) Name of the reporting person or owner\n* Bank of America Corporation\n* BofA Securities, Inc.\n* Bank of America, N.A."
+          ],
+          "newsSummary": "BJDX spiked +55% on 2026-08-05 with no company-specific news or announcements in the last 3 days—pure low-float momentum play. Most recent catalyst (SYMON-II patient enrollment completion on 2026-07-22) is 14 days old and lacks real commercial/revenue validation; BofA insider filings suggest institutional positioning but no concrete catalyst justifies a 55% single-day move.",
+          "bullFactors": [
+            "Ultra-tight float at 4.75M shares—elite momentum fuel for intraday runners",
+            "69% HOD dominance signals sustained institutional/retail accumulation through session, not premarket-only spike fade",
+            "25.4x relative volume shows genuine intraday participation; tape temperature appears HOT rather than COLD",
+            "Micro-cap market structure ($6.4M) allows meaningful % moves on modest dollar volume if sustained"
+          ],
+          "bearFactors": [
+            "Zero company news on Aug 5—this is pure sympathy/technicals momentum with no real catalyst merit; high fade risk on any profit-taking",
+            "48% gap + 55% spike in single session = extreme velocity; Jack avoids names spiking 100%+ in 1-2 min, and while this hits 55%, the absence of hard news makes it speculative",
+            "SYMON-II enrollment completion (Jul 22) is old news and pre-clinical/trial data lacks revenue visibility; does not meet 'real cash value deals' standard",
+            "Premarket vs. intraday vol skew unknown; if premarket spiked first, this is COLD tape disguised as HOT—high fade probability into EOD"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "GTE",
+          "hod": 68,
+          "hodExact": 68.72,
+          "news": [
+            "**• Major transformative asset sale announcement (primary catalyst):** On August 5, 2026, Gran Tierra announced an agree",
+            "This summary outlines the key points from Grand Tierra Energy’s Q2 2026 earnings call.\n\n### **Strategic Developments**\n*",
+            "1.) **Name of the reporting person or owner**\n* LM Asset Management Inc.\n* Daniel Lau\n* Christine Man\n\n2.) **Types of se",
+            "Gran Tierra Energy to Sell Colombia and Ecuador Assets for $1.33 Billion",
+            "Based on the financial report provided for the period ended June 30, 2026, here is the summary grouped by the requested"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Gran Tierra Energy Inc.",
+          "sector": "Energy",
+          "country": "CA",
+          "floatM": 34.82,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$338M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.83,
+          "open": 10.33,
+          "gapPct": 51.24,
+          "time": "regular session",
+          "session": "morning",
+          "high": 11.5239,
+          "hodTimeExact": "09:41 AM ET",
+          "close": 9.44,
+          "fade": 18,
+          "fadeExact": 18.08,
+          "vwap": 10.0686,
+          "vsVwap": "below",
+          "pmHigh": 10.75,
+          "volRaw": "20.3M",
+          "volDollar": 204537165,
+          "relVol": 66.0,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Major transformative asset sale announcement (primary catalyst):** On August 5, 2026, Gran Tierra announced an agree",
+            "This summary outlines the key points from Grand Tierra Energy’s Q2 2026 earnings call.\n\n### **Strategic Developments**\n*",
+            "1.) **Name of the reporting person or owner**\n* LM Asset Management Inc.\n* Daniel Lau\n* Christine Man\n\n2.) **Types of se",
+            "Gran Tierra Energy to Sell Colombia and Ecuador Assets for $1.33 Billion",
+            "Based on the financial report provided for the period ended June 30, 2026, here is the summary grouped by the requested"
+          ],
+          "newsSummary": "Gran Tierra Energy announced a $1.33B asset sale of Colombia and Ecuador operations on 2026-08-05, a material transformative event with real cash value and strategic repositioning. This is legitimate M&A catalyst, not fluff—cash proceeds from divesting producing assets should support balance sheet and shareholder returns.",
+          "bullFactors": [
+            "Real cash catalyst: $1.33B asset sale is tangible value event, not sympathy or no-cash news",
+            "68.72% HOD dominance signals sustained institutional buying into the announcement, not premarket spike fade",
+            "66.0x relative volume and 51.24% gap show strong conviction retail follow-through on material news"
+          ],
+          "bearFactors": [
+            "Float too high at 34.82M shares—well above Jack's <10M preference and reduces volatility per share",
+            "18.08% fade component present despite HOD dominance, suggesting some profit-taking or short covering resistance",
+            "Energy sector cyclical and sentiment-dependent; asset sale could be viewed as distressed liquidation rather than growth catalyst by value investors"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "OESX",
+          "hod": 68,
+          "hodExact": 68.27,
+          "news": [
+            "This summary highlights the key points from Orion Energy Systems’ fiscal 2027 first-quarter earnings call.\n\n### **Busine",
+            "Based on the financial report provided, here is the summary categorized as requested:\n\n**1.) Upcoming dates or timelines",
+            "**• Primary catalyst: Strong Q1 FY2027 earnings release (today, August 5, 2026)**  \n- Revenue rose 32% YoY to $25.7M (vs",
+            "Orion Energy Systems Reports Fiscal Q1 2027 Financial Results",
+            "Orion Reports First Quarter Financial Results: Revenue Increases 32% to 25.7M, Net Income at $2M"
+          ],
+          "tag": "EARNINGS",
+          "name": "Orion Energy Systems, Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 3.83,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$65M",
+          "riskBadges": [
+            "Float 3.83M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.4,
+          "open": 13.67,
+          "gapPct": 31.44,
+          "time": "regular session",
+          "session": "morning",
+          "high": 17.4999,
+          "hodTimeExact": "10:17 AM ET",
+          "close": 16.06,
+          "fade": 8,
+          "fadeExact": 8.23,
+          "vwap": 15.8106,
+          "vsVwap": "above",
+          "pmHigh": 14,
+          "volRaw": "675K",
+          "volDollar": 10676993,
+          "relVol": 18.4,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "This summary highlights the key points from Orion Energy Systems’ fiscal 2027 first-quarter earnings call.\n\n### **Busine",
+            "Based on the financial report provided, here is the summary categorized as requested:\n\n**1.) Upcoming dates or timelines",
+            "**• Primary catalyst: Strong Q1 FY2027 earnings release (today, August 5, 2026)**  \n- Revenue rose 32% YoY to $25.7M (vs",
+            "Orion Energy Systems Reports Fiscal Q1 2027 Financial Results",
+            "Orion Reports First Quarter Financial Results: Revenue Increases 32% to 25.7M, Net Income at $2M"
+          ],
+          "newsSummary": "OESX reported strong Q1 FY2027 earnings today with 32% YoY revenue growth to $25.7M and $2M net income—real cash profitability with genuine operational leverage. This is a legitimate catalyst with concrete financial results, not fluff or sympathy-driven news.",
+          "bullFactors": [
+            "Ultra-tight float at 3.83M shares—excellent for momentum compression and low supply friction",
+            "68.27% HOD dominance signals hot session tape with sustained institutional/retail buying, not a premarket spike fade",
+            "Real earnings catalyst with 32% revenue growth and positive net income—addresses Jack's 'real cash value' requirement",
+            "31.44% gap + 18.4x relative volume shows institutional accumulation and retail push concurrent, not fast 1-2 minute spike blow-off"
+          ],
+          "bearFactors": [
+            "8.23% fade into close suggests some profit-taking by end of session—need to monitor if tomorrow opens weak or gaps down",
+            "Need to verify daily chart for overhead supply and room to run upside; earnings alone don't guarantee further legs without technical setup",
+            "Market cap $64.8M and float $3.83M could limit total addressable move if liquidity dries on sustained rips"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "CISS",
+          "hod": 64,
+          "hodExact": 64.93,
+          "news": [
+            "**• Possible reasons for the ~36% surge (high volume of 5.46M shares):**\n- Recent institutional stake disclosures (Sched",
+            "1.) **Name of the reporting person or owner**\n*   Ascent Partners Fund LLC\n*   Ascent Partners LLC\n*   Dominion Capital",
+            "1.) **Name of the reporting person or owner**\n*   CVI Investments, Inc.\n*   Heights Capital Management, Inc. (Investment",
+            "1.) Name of the reporting person or owner\n* Alta Partners LLC\n\n2.) Types of securities transacted and associated amounts",
+            "Joint Filing Agreement for C3is Inc. Common Shares"
+          ],
+          "tag": "NO-NEWS",
+          "name": "C3is Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "GR",
+          "floatM": 13.19,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 13.19M + RelVol 16.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 13.19M + RelVol 16.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0881,
+          "open": 0.1287,
+          "gapPct": 46.08,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.1453,
+          "hodTimeExact": "04:41 AM ET",
+          "close": 0.1085,
+          "fade": 25,
+          "fadeExact": 25.33,
+          "vwap": 0.1394,
+          "vsVwap": "below",
+          "pmHigh": 0.1809,
+          "volRaw": "579.4M",
+          "volDollar": 80766561,
+          "relVol": 16.3,
+          "avgVolM": 35.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~36% surge (high volume of 5.46M shares):**\n- Recent institutional stake disclosures (Sched",
+            "1.) **Name of the reporting person or owner**\n*   Ascent Partners Fund LLC\n*   Ascent Partners LLC\n*   Dominion Capital",
+            "1.) **Name of the reporting person or owner**\n*   CVI Investments, Inc.\n*   Heights Capital Management, Inc. (Investment",
+            "1.) Name of the reporting person or owner\n* Alta Partners LLC\n\n2.) Types of securities transacted and associated amounts",
+            "Joint Filing Agreement for C3is Inc. Common Shares"
+          ],
+          "newsSummary": "CISS spiked ~36% on high volume (5.46M shares) driven by recent institutional stake disclosures from Ascent Partners, CVI Investments, Heights Capital, and Alta Partners—classic accumulation signal. However, these are passive Schedule 13D/13G filings (ownership disclosures), not operational catalysts; the merit is institutional positioning rather than fundamental business value.",
+          "bullFactors": [
+            "HOD dominance at 64.93% with sustained high volume (RelVol 16.3x) suggests institutional accumulation and shorts covering, not just a premarket spike fade",
+            "Multiple institutional stakes disclosed over 3 days (Ascent, CVI, Heights, Alta) indicates coordinated smart money entry and real buying pressure",
+            "Float at 13.19M is near Jack's sub-10M preference; intraday volume spike (5.46M) demonstrates retail liquidity can follow institutional moves",
+            "Afternoon continuation into close (HOD dominating fade) signals hot tape and potential follow-through setup for next session"
+          ],
+          "bearFactors": [
+            "Catalyst is purely passive ownership disclosure, not real cash deals, ER, partnerships, or business-moving events—fluff by Jack's standards",
+            "Float sits above the 10M sweet spot at 13.19M; higher float increases fade risk and reduces explosive potential on retail pushes",
+            "Gap at 46.08% leaves no room to upside without running into hard technical resistance; daily chart may already be stretched overhead",
+            "Institutional stakes alone can reverse quickly if positioning is tactical accumulation for a short squeeze rather than conviction buying"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "JDZG",
+          "hod": 60,
+          "hodExact": 60.68,
+          "news": [
+            "**• Possible reasons for the 31.9% surge (low-float speculative momentum play):**\n- Recent Nasdaq trading resumption on",
+            "Nasdaq Resumes Trading in Jiade Limited – Class A Ordinary Shares",
+            "JIADE LIMITED Announces Resumption of Trading on Nasdaq",
+            "JIADE LIMITED Announces Resumption of Trading on Nasdaq",
+            "Jiade Limited Announces Resumption of Trading on Nasdaq"
+          ],
+          "tag": "HALT-RESUME",
+          "name": "JIADE LIMITED Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 5.21,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [
+            "Float 5.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.23,
+          "open": 3.67,
+          "gapPct": 13.62,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.1899,
+          "hodTimeExact": "09:47 AM ET",
+          "close": 3.79,
+          "fade": 26,
+          "fadeExact": 26.97,
+          "vwap": 3.9159,
+          "vsVwap": "below",
+          "pmHigh": 5.05,
+          "volRaw": "2.6M",
+          "volDollar": 10364816,
+          "relVol": 3.9,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 31.9% surge (low-float speculative momentum play):**\n- Recent Nasdaq trading resumption on",
+            "Nasdaq Resumes Trading in Jiade Limited – Class A Ordinary Shares",
+            "JIADE LIMITED Announces Resumption of Trading on Nasdaq",
+            "JIADE LIMITED Announces Resumption of Trading on Nasdaq",
+            "Jiade Limited Announces Resumption of Trading on Nasdaq"
+          ],
+          "newsSummary": "JDZG resumed Nasdaq trading on July 31st after a halt, driving a 31.9% intraday surge on August 5th. The catalyst is a regulatory compliance event (trading resumption) rather than fundamental business improvement—this is a technical/structural catalyst with limited real cash value or operational merit.",
+          "bullFactors": [
+            "Excellent float at 5.21M shares—well under 10M threshold, ideal for momentum compression",
+            "Strong intraday tape with 60.68% HOD dominance vs 26.97% fade, signaling institutional accumulation and short covering into resumption",
+            "3.9x relative volume provides liquidity for swing trades without slippage concerns"
+          ],
+          "bearFactors": [
+            "Halt-resume catalysts are structural plays with no underlying business catalyst—high risk of mean reversion once retail exhausts on news",
+            "China-listed tech on Nasdaq (JDZG) carries regulatory/delisting risk; halt itself may reflect prior compliance issues",
+            "Premarket spike dominance (gap 13.62%, resume news dated July 30-31) suggests retail FOMO into open—classic fade setup, not institutional accumulation into HOD"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 235,
+      "fade": 27,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "ZYBT led +235.16% (44% fade). 2/10 held <20% fade. news: ZYBT — \"**• Possible reasons for today's 31.2% surge (low-float momentum play with heavy volume of ~160k shares):**\n- Speculativ\".",
+      "aiSummary": "Today's tape is dominated by Chinese micro-caps with zero fundamental catalysts—ZYBT, INLF, JLHL are all \"NO-NEWS\" runners posting 197-235% HODs entirely in the morning session, signaling a cold fade cycle where premarket spikes are bleeding out rather than sustaining. The float tier is ideal for Jack's style (sub-5M dominates the top five), but the absence of real cash catalysts combined with heavy afternoon fade percentages (33-45%) and a glut of compliance/halt issues (INLF, JDZG) makes this a textbook pump environment—GTE's acquisition news and OESX's earnings stand out as legitimate, but both are drowned out by noise. This is a COLD tape: premarket dominated the session opens, fades are structural not tactical, and the only real play (GTE, but floated at 34.8M) sits outside Jack's sweet spot—pass the fluff, wait for tomorrow's institutional setups."
+    },
     {
       "date": "2026-08-04",
       "runners": [
