@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-05T22:34:15.036570Z",
-  "count": 9574,
+  "exportedAt": "2026-08-06T21:12:50.551521Z",
+  "count": 9585,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,794 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-06",
+      "runners": [
+        {
+          "sym": "WYHG",
+          "hod": 683,
+          "hodExact": 683.39,
+          "news": [
+            "**• Possible reasons for the ~183% surge (low-float speculative momentum in a thinly traded ADS):**\n- Anticipation and/o",
+            "Wing Yip Food Holdings Group Limited Announces Results of Extraordinary General Meeting and Private Placement",
+            "Wing Yip Food Holdings Group Limited Announces Amended Proposals for Extraordinary General Meeting and Private Placement",
+            "Wing Yip Food Holdings Group Limited Announces Extraordinary General Meeting and Proposed Private Placement",
+            "**• Possible reasons for the ~20.8% price surge (as of June 26, 2026 premarket/early trading):**  \n- Momentum and volati"
+          ],
+          "tag": "OFFERING",
+          "name": "Wing Yip Food Holdings Group Limited American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 0.6,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$92M",
+          "riskBadges": [
+            "Float 0.6M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.6M + RelVol 1115.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.6M + RelVol 1115.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.3406,
+          "open": 8.26,
+          "gapPct": 147.26,
+          "time": "regular session",
+          "session": "morning",
+          "high": 26.17,
+          "hodTimeExact": "11:31 AM ET",
+          "close": 9.83,
+          "fade": 62,
+          "fadeExact": 62.44,
+          "vwap": 12.2987,
+          "vsVwap": "below",
+          "pmHigh": 12.82,
+          "volRaw": "57.2M",
+          "volDollar": 703937076,
+          "relVol": 1115.6,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~183% surge (low-float speculative momentum in a thinly traded ADS):**\n- Anticipation and/o",
+            "Wing Yip Food Holdings Group Limited Announces Results of Extraordinary General Meeting and Private Placement",
+            "Wing Yip Food Holdings Group Limited Announces Amended Proposals for Extraordinary General Meeting and Private Placement",
+            "Wing Yip Food Holdings Group Limited Announces Extraordinary General Meeting and Proposed Private Placement",
+            "**• Possible reasons for the ~20.8% price surge (as of June 26, 2026 premarket/early trading):**  \n- Momentum and volati"
+          ],
+          "newsSummary": "WYHG announced a private placement alongside an extraordinary general meeting on 2026-06-29, with amended proposals on 2026-07-22 and results announced 2026-08-06. Private placements are dilutive capital raises that signal weakness and typically precede sustained selling pressure; this is classic fluff catalyst masking equity dilution rather than real business value creation.",
+          "bullFactors": [
+            "Micro-float of 0.6M shares creates potential for explosive intraday volatility if retail FOMO ignites",
+            "RelVol of 1115.6% shows extreme volume spike suggesting possible institutional accumulation or retail enthusiasm",
+            "HOD dominance at 683% suggests afternoon continuation strength and potential short squeeze dynamics"
+          ],
+          "bearFactors": [
+            "Private placement is inherently dilutive — Jack's framework explicitly flags dilutive announcements as AVOID; destroys shareholder value",
+            "Fade of 62.44% after 683% HOD spike is severe and indicates premarket/early spike with heavy institutional distribution into retail FOMO",
+            "Gap of 147% combined with massive fade suggests lack of sustained institutional buying — classic pump and dump structure, not accumulation setup",
+            "Chinese small-cap ADS with thin trading liquidity and no real cash-generating catalyst — high risk of liquidity black swan"
+          ],
+          "setupGrade": "F"
+        },
+        {
+          "sym": "XHLD",
+          "hod": 580,
+          "hodExact": 580.05,
+          "news": [
+            "**• Possible reasons for the price movement (no clear fundamental catalyst identified):**\n- High-volume speculative trad",
+            "1.) Name of the reporting person or owner\n* Cheong Jia Jin Kevin\n\n4.) Dates of the transaction(s)\n* 07/24/2026\n\n5.) Expl",
+            "SHARE RESALE REGISTRATION",
+            "TEN Holdings, Inc. Announces Termination of Multiple Advisory Agreements and Board of Directors Changes",
+            "TEN Holdings, Inc. Reports Compliance with Nasdaq Equity Standard Following Registered Direct Offering"
+          ],
+          "tag": "NO-NEWS",
+          "name": "TEN Holdings, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 9.69,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$21M",
+          "riskBadges": [
+            "Float 9.69M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.69M + RelVol 136.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.69M + RelVol 136.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.797,
+          "open": 0.81,
+          "gapPct": 1.63,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 5.42,
+          "hodTimeExact": "03:40 PM ET",
+          "close": 2.81,
+          "fade": 48,
+          "fadeExact": 48.15,
+          "vwap": 1.9335,
+          "vsVwap": "above",
+          "pmHigh": 0.79,
+          "volRaw": "66.4M",
+          "volDollar": 128386859,
+          "relVol": 136.7,
+          "avgVolM": 0.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement (no clear fundamental catalyst identified):**\n- High-volume speculative trad",
+            "1.) Name of the reporting person or owner\n* Cheong Jia Jin Kevin\n\n4.) Dates of the transaction(s)\n* 07/24/2026\n\n5.) Expl",
+            "SHARE RESALE REGISTRATION",
+            "TEN Holdings, Inc. Announces Termination of Multiple Advisory Agreements and Board of Directors Changes",
+            "TEN Holdings, Inc. Reports Compliance with Nasdaq Equity Standard Following Registered Direct Offering"
+          ],
+          "newsSummary": "XHLD spiked 580% with no clear fundamental catalyst—only insider resale registration, board changes, and a prior registered direct offering. The headlines reveal dilutive history (RDO compliance, insider selling) rather than real cash value or revenue drivers. This is pure speculative momentum on the tape with no merit-based fuel.",
+          "bullFactors": [
+            "Float under 10M (9.69M) fits Jack's sweet spot for low-float runners",
+            "RelVol 136.7× suggests intraday volume structure exceeded premarket, meeting vol/min criteria for higher-float tolerance",
+            "Session HOD dominating at 580% suggests tape strength and potential short-squeeze continuation into afternoon"
+          ],
+          "bearFactors": [
+            "No real catalyst—insider resale registration + board changes + prior dilutive RDO are red flags; this is pure pump territory",
+            "48% fade from session HOD indicates heavy premarket spike followed by profit-taking; classic COLD tape temperature pattern",
+            "Insider selling (Cheong Jia Jin Kevin resale 07/24) signals insiders bailing; overhead supply risk from dilutive offering history",
+            "580% spike in one session exceeds Jack's black-swan warning threshold (500%+); liquidity spillover risk and likely retail-driven parabolic blow-off"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "GAUZ",
+          "hod": 286,
+          "hodExact": 286.96,
+          "news": [
+            "**• Possible reasons for the 31.6% surge (with ~73.6k shares traded):**\n- Low-float penny stock volatility and speculati",
+            "Gauzy Ltd. Proposes Debt Settlement and Announces Binding PIPE Financing Term Sheet",
+            "Gauzy Ltd. Announces Receipt of Nasdaq Notice Regarding Delayed Filing of Annual Report on Form 20-F",
+            "Gauzy Ltd. Receives Nasdaq Notification Regarding Delayed Annual Report Filing",
+            "Gauzy Ltd. Receives Nasdaq Notice Regarding Delayed Filing of Annual Report"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Gauzy Ltd. Ordinary Shares",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 18.51,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 18.51M + RelVol 1508.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 18.51M + RelVol 1508.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2507,
+          "open": 0.2689,
+          "gapPct": 7.26,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.9701,
+          "hodTimeExact": "10:52 AM ET",
+          "close": 0.425,
+          "fade": 56,
+          "fadeExact": 56.19,
+          "vwap": 0.6337,
+          "vsVwap": "below",
+          "pmHigh": 0.28,
+          "volRaw": "231.4M",
+          "volDollar": 146620922,
+          "relVol": 1508.6,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 31.6% surge (with ~73.6k shares traded):**\n- Low-float penny stock volatility and speculati",
+            "Gauzy Ltd. Proposes Debt Settlement and Announces Binding PIPE Financing Term Sheet",
+            "Gauzy Ltd. Announces Receipt of Nasdaq Notice Regarding Delayed Filing of Annual Report on Form 20-F",
+            "Gauzy Ltd. Receives Nasdaq Notification Regarding Delayed Annual Report Filing",
+            "Gauzy Ltd. Receives Nasdaq Notice Regarding Delayed Filing of Annual Report"
+          ],
+          "newsSummary": "GAUZ spiked 287% on intraday strength after months of Nasdaq compliance issues (delayed 20-F filings) and a July debt settlement/PIPE financing announcement. The move appears driven by retail speculation on a low-float Israeli tech name rather than fundamental catalyst merit—the PIPE and debt restructuring are survival plays, not growth catalysts, and the stock is already deep in compliance trouble.",
+          "bullFactors": [
+            "Float 18.5M is elevated but still manageable; relVol 1508.6x shows extreme intraday participation relative to premarket",
+            "HOD 287% suggests session momentum domination (afternoon strength) rather than premarket fade—tape temperature is HOT",
+            "Gap 7.26% + sustained high volume into close indicates institutional/retail accumulation, not one-minute spike exhaustion"
+          ],
+          "bearFactors": [
+            "Compliance red flag: Multiple Nasdaq delayed filing notices (May 2026) + debt settlement + dilutive PIPE financing—classic distressed equity setup prone to reverse splits or offerings",
+            "Catalyst is fluff: PIPE and debt restructuring are financial band-aids, not real cash value or partnerships; no revenue/earnings driver mentioned",
+            "High fade risk: 56.19% fade suggests premarket spike exhaustion; stock may not hold 287% gains into next session given compliance overhang"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "CLRO",
+          "hod": 239,
+          "hodExact": 239.4,
+          "news": [
+            "**• Primary catalyst: SEC filing on August 5, 2026, confirming stockholder approval for share issuance tied to the pendi",
+            "Why Investors Are Watching These Healthcare Movers",
+            "**• Possible reasons for the ~35%+ surge (with ~1M+ shares traded and notable after-hours gains of ~50% in reports):**\n-",
+            "ClearOne, Inc. Announces Warrant Cancellation, Executive Employment Agreement, and Shareholder Approval of Merger-Related Issuance",
+            "**• Main driver: Continuation of momentum from the July 2, 2026 reverse merger announcement** with Cortigent, Inc. (a wh"
+          ],
+          "tag": "MERGER",
+          "name": "ClearOne, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.9,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$28M",
+          "riskBadges": [
+            "Float 0.9M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.68,
+          "open": 11.685,
+          "gapPct": 217.53,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 12.49,
+          "hodTimeExact": "07:29 AM ET",
+          "close": 9.8,
+          "fade": 21,
+          "fadeExact": 21.54,
+          "vwap": 10.267,
+          "vsVwap": "below",
+          "pmHigh": 13.13,
+          "volRaw": "64.4M",
+          "volDollar": 661358651,
+          "relVol": 74.0,
+          "avgVolM": 0.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: SEC filing on August 5, 2026, confirming stockholder approval for share issuance tied to the pendi",
+            "Why Investors Are Watching These Healthcare Movers",
+            "**• Possible reasons for the ~35%+ surge (with ~1M+ shares traded and notable after-hours gains of ~50% in reports):**\n-",
+            "ClearOne, Inc. Announces Warrant Cancellation, Executive Employment Agreement, and Shareholder Approval of Merger-Related Issuance",
+            "**• Main driver: Continuation of momentum from the July 2, 2026 reverse merger announcement** with Cortigent, Inc. (a wh"
+          ],
+          "newsSummary": "CLRO spiked 239% on SEC filing confirming shareholder approval for share issuance tied to pending Cortigent reverse merger (announced July 2). While the merger itself represents real corporate action, the catalyst lacks organic cash value—it's a financial restructuring, not revenue/partnership/earnings strength. The warrant cancellation is neutral housekeeping.",
+          "bullFactors": [
+            "Ultra-tight float at 0.9M shares—explosive leverage for any sustained buying pressure",
+            "HOD dominated session (239% spike), not premarket fade—tape showed intraday strength and continuation, signaling institutional accumulation into retail euphoria",
+            "Real corporate event (merger approval + shareholder vote) provides structural support, not pure pump rumor",
+            "74x relative volume indicates genuine participation, not thin-air spike"
+          ],
+          "bearFactors": [
+            "Share issuance announcement tied to merger = dilution flag; stockholder approval for new shares raises future overhang risk and could cap sustained upside",
+            "Merger plays typically fade hard post-approval unless next catalyst materializes—deal is now 'priced in' and no M&A synergy details disclosed",
+            "239% HOD move in one session is extended; premarket surge + after-hours 50% gains suggest retail FOMO exhaustion; high risk of sharp reversal on volume drop",
+            "No real revenue catalyst, partnership, or earnings beat—catalyst is pure financial engineering, which Jack avoids when catalyst quality is weak"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ENSC",
+          "hod": 170,
+          "hodExact": 170.44,
+          "news": [
+            "Ensysce Biosciences Acquires Cy Biopharma and Secures Up to $77 Million in Financing",
+            "Not enough info for this filing.  Check the Press Releases and Exhibits for other summaries",
+            "Ensysce Biosciences Acquires Cy Biopharma and Announces $43 Million Financing",
+            "Ensysce Biosciences Announces Acquisition of Cy Biopharma and up to $77 Million Private Financing",
+            "**• Primary catalyst: Major corporate announcement today (Aug 6, 2026) of acquiring Cy Biopharma via stock-for-stock mer"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Ensysce Biosciences, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 15.56,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.362,
+          "open": 0.6307,
+          "gapPct": 74.23,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.979,
+          "hodTimeExact": "09:49 AM ET",
+          "close": 0.5243,
+          "fade": 46,
+          "fadeExact": 46.45,
+          "vwap": 0.6569,
+          "vsVwap": "below",
+          "pmHigh": 0.87,
+          "volRaw": "493.7M",
+          "volDollar": 324341992,
+          "relVol": 29.4,
+          "avgVolM": 16.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Ensysce Biosciences Acquires Cy Biopharma and Secures Up to $77 Million in Financing",
+            "Not enough info for this filing.  Check the Press Releases and Exhibits for other summaries",
+            "Ensysce Biosciences Acquires Cy Biopharma and Announces $43 Million Financing",
+            "Ensysce Biosciences Announces Acquisition of Cy Biopharma and up to $77 Million Private Financing",
+            "**• Primary catalyst: Major corporate announcement today (Aug 6, 2026) of acquiring Cy Biopharma via stock-for-stock mer"
+          ],
+          "newsSummary": "ENSC announced acquisition of Cy Biopharma with up to $77M in financing secured, representing a real cash-backed M&A deal with meaningful business expansion. This is legitimate catalyst-grade news (not sympathy/fluff), though the financing structure and dilution implications require scrutiny.",
+          "bullFactors": [
+            "Real acquisition catalyst with secured financing — not dilutive announcement fluff",
+            "HOD dominance at +170% with sustained 29.4x relative volume signals institutional accumulation and retail continuation, not premarket fade pattern",
+            "Small market cap ($8.7M) with sub-$10M float preference met; low-float M&A runners historically have room to run on institutional rebalancing"
+          ],
+          "bearFactors": [
+            "Float at 15.56M exceeds ideal <10M threshold — liquidity stress risk if retail momentum crashes into afternoon",
+            "Financing structure details missing; 'up to $77M' suggests potential equity dilution that could weigh on stock after initial pop",
+            "74% gap + 170% HOD suggests explosive premarket spike followed by 46% fade — typical distribution setup; confirm if fade holds or if institutional buyers stepping in at lows"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CELZ",
+          "hod": 161,
+          "hodExact": 161.66,
+          "news": [
+            "**• Possible reasons for the ~35% price surge (low-float microcap biotech volatility common):**\n- Retail/momentum tradin",
+            "Creative Medical Technology Holdings, Inc. Receives Notice of Allowance for New U.S. Patent Covering Exosome-Based Immunotherapy for Type 1 Diabetes, Deepening IP Protection Across Its MyeloCelz™, CELZ-101 and CELZ-201 Diabetes Platforms",
+            "**• Possible reasons for the ~34%+ price surge and high volume (456k+ shares) on Aug 5, 2026:**\n\n- Momentum-driven move",
+            "SHARE RESALE REGISTRATION",
+            "1.) What items are being voted on?\n*   **Proposal 1:** Approval of an amendment to the Articles of Incorporation to incr"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Creative Medical Technology Holdings, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 6.65,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 6.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6688,
+          "open": 1.14,
+          "gapPct": 70.45,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.75,
+          "hodTimeExact": "11:01 AM ET",
+          "close": 1.15,
+          "fade": 34,
+          "fadeExact": 34.29,
+          "vwap": 1.2694,
+          "vsVwap": "below",
+          "pmHigh": 1.37,
+          "volRaw": "266.5M",
+          "volDollar": 338353684,
+          "relVol": 112.4,
+          "avgVolM": 2.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~35% price surge (low-float microcap biotech volatility common):**\n- Retail/momentum tradin",
+            "Creative Medical Technology Holdings, Inc. Receives Notice of Allowance for New U.S. Patent Covering Exosome-Based Immunotherapy for Type 1 Diabetes, Deepening IP Protection Across Its MyeloCelz™, CELZ-101 and CELZ-201 Diabetes Platforms",
+            "**• Possible reasons for the ~34%+ price surge and high volume (456k+ shares) on Aug 5, 2026:**\n\n- Momentum-driven move",
+            "SHARE RESALE REGISTRATION",
+            "1.) What items are being voted on?\n*   **Proposal 1:** Approval of an amendment to the Articles of Incorporation to incr"
+          ],
+          "newsSummary": "CELZ received a Notice of Allowance for a new U.S. patent covering exosome-based immunotherapy for Type 1 Diabetes, strengthening IP protection for its MyeloCelz and CELZ platforms. While patent allowances provide legitimate IP moat value, they are incremental catalysts—not revenue-generating events like FDA approvals or partnership deals—and the 70% gap + 161% HOD suggests the move was momentum/retail-driven rather than institutional accumulation on fundamentals.",
+          "bullFactors": [
+            "Ultra-tight float at 6.65M shares—well below Jack's <10M preference, providing fuel for intraday acceleration",
+            "High relative volume (112.4%) indicates sustained retail interest and potential for afternoon HOD continuation if tape stays hot",
+            "Real IP catalyst (patent allowance) has merit vs. pure sympathy trades, providing fundamental backstop to momentum move",
+            "Healthcare/biotech sector prone to momentum spikes; low-float exosome/diabetes play fits Jack's small-cap wheelhouse"
+          ],
+          "bearFactors": [
+            "70% gap + 161% HOD is an extreme single-day spike—high risk of violent fade; Jack avoids >100% 1-2 min spikes and this shows classic premarket spike dominance pattern",
+            "Patent allowance is incremental news, not transformational (no revenue, no partnership, no Phase data)—lacking the 'real cash value' catalyst Jack demands",
+            "Premarket spike dominating tape temperature, paired with 34% fade on Aug 5—typical cold cycle signature; HOD chasing on day 2 after big premarket gap is high-risk retail fomo",
+            "Share resale registration (July 24) and shareholder vote on Articles amendment (July 14) suggest potential dilution overhang; no evidence of institutional accumulation setup"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "AZI",
+          "hod": 155,
+          "hodExact": 155.45,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Momentum from ongoing investor interest in recent capital raises and fu",
+            "**• Possible reasons for the 21.6%+ move (with ~479k shares traded):**\n- Momentum-driven trading on recent capital-raisi",
+            "HEADLINE: Autozi Internet Technology (Global) Ltd. Enters Debt Conversion Agreement with CEO\n\n1.) Summary: \n- Autozi Int",
+            "Autozi Internet Technology (Global) Ltd. Enters Debt Conversion Agreement with CEO",
+            "**• Primary catalyst: Recent financing announcement**  \nAutozi announced on June 24, 2026 (GlobeNewswire), that it enter"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Autozi Internet Technology (Global) Ltd. Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 3.49,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$86M",
+          "riskBadges": [
+            "Float 3.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.49M + RelVol 299.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.49M + RelVol 299.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.01,
+          "open": 1.22,
+          "gapPct": 20.79,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.58,
+          "hodTimeExact": "10:25 AM ET",
+          "close": 1.6,
+          "fade": 37,
+          "fadeExact": 37.98,
+          "vwap": 1.8478,
+          "vsVwap": "below",
+          "pmHigh": 1.34,
+          "volRaw": "69.6M",
+          "volDollar": 128627973,
+          "relVol": 299.1,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Momentum from ongoing investor interest in recent capital raises and fu",
+            "**• Possible reasons for the 21.6%+ move (with ~479k shares traded):**\n- Momentum-driven trading on recent capital-raisi",
+            "HEADLINE: Autozi Internet Technology (Global) Ltd. Enters Debt Conversion Agreement with CEO\n\n1.) Summary: \n- Autozi Int",
+            "Autozi Internet Technology (Global) Ltd. Enters Debt Conversion Agreement with CEO",
+            "**• Primary catalyst: Recent financing announcement**  \nAutozi announced on June 24, 2026 (GlobeNewswire), that it enter"
+          ],
+          "newsSummary": "AZI moved 155% intraday on momentum-driven trading following a June debt conversion agreement with the CEO, but this is stale news (10+ days old) being recycled as current catalyst. The debt conversion itself is dilutive and provides no real cash value—this is a FLUFF catalyst being propped up by retail speculation and momentum chasing rather than fundamental strength.",
+          "bullFactors": [
+            "Ultra-tight float at 3.49M shares—ideal for Jack's micro-cap runner preference",
+            "Extreme relative volume (299.1x) and hot session HOD tape (155% intraday)—shows strong afternoon continuation and short squeeze potential",
+            "High intraday volatility (155% HOD vs 38% fade) suggests real tape momentum rather than one-minute spike—gave time to identify and set up"
+          ],
+          "bearFactors": [
+            "Catalyst is dilutive (CEO debt conversion) with zero real cash value—Jack explicitly avoids this type of announcement",
+            "Stale news recycled from June 24–26 being used to justify August spike—suggests premarket or early session spike on old headlines, classic COLD tape pattern",
+            "Chinese small-cap with micro market cap ($86M)—elevated black swan/delisting/liquidity risk; tape momentum alone does not offset weak fundamentals",
+            "37.98% fade within same session signals retail exhaustion and potential overnight/next-day tank; headlines show prior moves also faded sharply (479k shares on 21.6% move in June)"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "PN",
+          "hod": 123,
+          "hodExact": 123.51,
+          "news": [
+            "PN Smart Energy Advances U.S. Localization Strategy With New Subsidiaries and New York Investor Relations Office",
+            "**• Primary catalyst: August 6, 2026 announcement of U.S. localization strategy** — PN Smart Energy incorporated two who",
+            "PN Smart Energy Limited Reports First Half 2026 Financial Results",
+            "PN Smart Energy Limited Reports First Half 2026 Financial Results",
+            "SkyCorp Reports Financial Results for the Six Months Ended March 31, 2026"
+          ],
+          "tag": "CONTRACT",
+          "name": "PN Smart Energy Limited Class A Ordinary Shares",
+          "sector": "Energy",
+          "country": "CN",
+          "floatM": 1.29,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$141M",
+          "riskBadges": [
+            "Float 1.29M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.89,
+          "open": 7.3,
+          "gapPct": 5.95,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 15.4,
+          "hodTimeExact": "12:30 PM ET",
+          "close": 8.29,
+          "fade": 46,
+          "fadeExact": 46.17,
+          "vwap": 11.538,
+          "vsVwap": "below",
+          "pmHigh": 8.2,
+          "volRaw": "12.6M",
+          "volDollar": 145674219,
+          "relVol": 9.8,
+          "avgVolM": 1.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "PN Smart Energy Advances U.S. Localization Strategy With New Subsidiaries and New York Investor Relations Office",
+            "**• Primary catalyst: August 6, 2026 announcement of U.S. localization strategy** — PN Smart Energy incorporated two who",
+            "PN Smart Energy Limited Reports First Half 2026 Financial Results",
+            "PN Smart Energy Limited Reports First Half 2026 Financial Results",
+            "SkyCorp Reports Financial Results for the Six Months Ended March 31, 2026"
+          ],
+          "newsSummary": "PN Smart Energy announced U.S. localization strategy with two new subsidiaries and a New York IR office on Aug 6, paired with H1 2026 financial results on Aug 4. The catalyst has moderate merit—real business expansion into U.S. markets suggests operational growth—but lacks the concrete cash value or major partnership endorsement that Jack targets; localization announcements are often execution-dependent with uncertain near-term impact.",
+          "bullFactors": [
+            "Exceptional float at 1.29M shares—well under 10M threshold, maximizes squeeze potential on sustained volume",
+            "Intraday tape shows 123.51% HOD vs 46.17% fade, indicating afternoon session strength and short covering rather than premarket spike dominance",
+            "9.8x relative volume confirms institutional/retail engagement above baseline; real money flowing on the catalyst day",
+            "Energy sector positioning in China with U.S. expansion thesis has thematic relevance for momentum cycles"
+          ],
+          "bearFactors": [
+            "U.S. localization strategy is execution-heavy news with no binding partnerships or revenue commitments—classic setup for post-announcement fade",
+            "Chinese company (CN) with U.S. expansion claims carries regulatory/geopolitical uncertainty; susceptible to sudden reversals",
+            "46% fade off HOD is material—suggests retail capitulation and potential afternoon institutional distribution after morning retail chase",
+            "Financial results (Aug 4) may have already priced in catalyst expectations; two catalysts 2 days apart reduces surprise factor"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MUAr",
+          "hod": 117,
+          "hodExact": 117.5,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "BlackRock MuniAssets Fund, Inc. Rights (expiring August 20, 2026)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.004,
+          "open": 0.0049,
+          "gapPct": 22.5,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.0087,
+          "hodTimeExact": "02:14 PM ET",
+          "close": 0.0063,
+          "fade": 27,
+          "fadeExact": 27.59,
+          "vwap": 0.0065,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "745K",
+          "volDollar": 4844,
+          "relVol": 0.3,
+          "avgVolM": 2.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "MUAr shows a 117.5% HOD move with a 27.59% fade, suggesting a strong intraday push followed by profit-taking. With no headline catalyst identified and a 22.5% gap, this appears to be a momentum/sympathy play rather than fundamentally driven. Without confirmed real cash value news or partnership catalyst, the move lacks merit anchor.",
+          "bullFactors": [
+            "117.5% HOD percentage indicates hot tape and strong session momentum — afternoon dominance suggests shorts covering",
+            "27.59% fade is moderate for a runner of this magnitude, showing some consolidation rather than hard collapse",
+            "Gap up entry (22.5%) provided retail FOMO setup with intraday continuation potential"
+          ],
+          "bearFactors": [
+            "Float data missing (null) — cannot confirm low float <10M preference, major red flag for Jack's framework",
+            "No confirmed catalyst; NO-NEWS tag means this is pure momentum/sympathy play with no fundamental support",
+            "RelVol 0.3 is extremely low — suggests weak liquidity depth despite percentage gains, hard to scale position safely",
+            "Zero market cap and sector unknown indicates penny/OTC risk profile; potential for offering/dilution without visibility"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "LBGJ",
+          "hod": 116,
+          "hodExact": 116.67,
+          "news": [
+            "**• Possible reasons for the 33.1% surge with elevated volume (~642k shares):**\n- Post-reverse stock split volatility an",
+            "Li Bang International Corporation Inc. Announces 1-for-200 Share Consolidation",
+            "Li Bang International Announces 1-for-200 Share Consolidation",
+            "**• Primary catalyst: Announcement of 1-for-200 reverse share split (July 29, 2026)**  \nLi Bang International Corporatio",
+            "1.) **Name of the reporting person or owner**\n* HRT Financial LP\n\n2.) **Types of securities transacted and associated am"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Li Bang International Corporation Inc. Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 0.55,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.55M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.54,
+          "open": 3.5,
+          "gapPct": -1.13,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 7.67,
+          "hodTimeExact": "01:27 PM ET",
+          "close": 4.12,
+          "fade": 46,
+          "fadeExact": 46.28,
+          "vwap": 5.4364,
+          "vsVwap": "below",
+          "pmHigh": 3.73,
+          "volRaw": "7.1M",
+          "volDollar": 38564212,
+          "relVol": 11.7,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": "200:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the 33.1% surge with elevated volume (~642k shares):**\n- Post-reverse stock split volatility an",
+            "Li Bang International Corporation Inc. Announces 1-for-200 Share Consolidation",
+            "Li Bang International Announces 1-for-200 Share Consolidation",
+            "**• Primary catalyst: Announcement of 1-for-200 reverse share split (July 29, 2026)**  \nLi Bang International Corporatio",
+            "1.) **Name of the reporting person or owner**\n* HRT Financial LP\n\n2.) **Types of securities transacted and associated am"
+          ],
+          "newsSummary": "LBGJ spiked 33.1% on a 1-for-200 reverse stock split announced July 29, which is a mechanical corporate action, not a cash-generative catalyst. Reverse splits are typically fluff or distress signals; the move appears driven by post-split volatility and short covering rather than fundamental value creation. This is a structural play, not a real business catalyst.",
+          "bullFactors": [
+            "Micro float at 0.55M shares — extremely tight supply, high squeeze potential on short covering",
+            "Session HOD dominating (116.67% of fade), suggesting institutional accumulation or tactical shorts blowing out post-split",
+            "Elevated relative volume (11.7x) and ~642k shares traded intraday show liquidity and retail attention despite low float"
+          ],
+          "bearFactors": [
+            "Reverse split is a dilution red flag and classic sign of distressed equity — no real cash value or business improvement",
+            "Fade from HOD is substantial (46.28%) — premarket spike followed by heavy afternoon retreat is a COLD tape signature",
+            "Chinese micro-cap with tiny $2.9M market cap and reverse split history suggests low institutional credibility and high black swan risk",
+            "No real catalyst — only mechanical corporate action; momentum will evaporate once split mechanics settle"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 683,
+      "fade": 42,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "WYHG led +683.39% (62% fade). 0/10 held <20% fade. news: WYHG — \"**• Possible reasons for the ~183% surge (low-float speculative momentum in a thinly traded ADS):**\n- Anticipation and/o\".",
+      "aiSummary": "Today's tape is dominated by **dilutive and fluff catalysts** — offerings, compliance warnings, and no-news sympathy plays that Jack explicitly avoids — with the single real catalyst (CLRO merger) spiking hard premarket and already fading 21%, signaling a **cold cycle early sell-off pattern**. China micro-caps and ultra-low floats (<2M) are overrepresented, but critical weakness emerges: **HODs printed almost exclusively in premarket and morning sessions** with afternoon names showing tired fade percentages (XHLD 48%, PN 46%), indicating retail exhaustion rather than institutional accumulation into strength. Float profile is polarized (0.55M–18M with one null), creating liquidity traps rather than the institutional ramp Jack hunts. **Tape temperature: COLD** — premarket spikes dominating the leaderboard, heavy afternoon fades, and zero sustained high-volume session HODs make this a skip day for momentum setups; the $700M WYHG offering-fueled print is textbook pump-and-dump territory Jack exits immediately."
+    },
     {
       "date": "2026-08-05",
       "runners": [
