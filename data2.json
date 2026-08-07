@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-06T21:12:50.551521Z",
-  "count": 9585,
+  "exportedAt": "2026-08-07T21:12:16.350091Z",
+  "count": 9595,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,814 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-07",
+      "runners": [
+        {
+          "sym": "YJ",
+          "hod": 1035,
+          "hodExact": 1035.77,
+          "news": [
+            "**• Possible reasons for the price movement (purely speculative/momentum-driven, no fundamental catalyst identified):**",
+            "Yunji Files 2025 Annual Report on Form 20-F",
+            "Based on the provided financial report excerpt, here is the summary grouped by the requested categories:\n\n### 1.) Upcomi",
+            "Yunji Inc. Announces Second Half and Fiscal Year 2025 Financial Results",
+            "Yunji Inc. Announces Second Half and Fiscal Year 2025 Financial Results"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Yunji Inc. American Depository Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 1.07,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [
+            "Float 1.07M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.07M + RelVol 3982.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.07M + RelVol 3982.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.23,
+          "open": 1.38,
+          "gapPct": 12.2,
+          "time": "regular session",
+          "session": "morning",
+          "high": 13.97,
+          "hodTimeExact": "11:58 AM ET",
+          "close": 3.4,
+          "fade": 75,
+          "fadeExact": 75.66,
+          "vwap": 6.2998,
+          "vsVwap": "below",
+          "pmHigh": 1.49,
+          "volRaw": "50.5M",
+          "volDollar": 317894611,
+          "relVol": 3982.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement (purely speculative/momentum-driven, no fundamental catalyst identified):**",
+            "Yunji Files 2025 Annual Report on Form 20-F",
+            "Based on the provided financial report excerpt, here is the summary grouped by the requested categories:\n\n### 1.) Upcomi",
+            "Yunji Inc. Announces Second Half and Fiscal Year 2025 Financial Results",
+            "Yunji Inc. Announces Second Half and Fiscal Year 2025 Financial Results"
+          ],
+          "newsSummary": "YJ spiked 1035% intraday with no identifiable fundamental catalyst — purely momentum-driven. Most recent news is a routine 20-F filing from April 2026 and FY2025 earnings from March; neither provides justification for an 1000%+ move. This is sympathy/tape-driven momentum with no real cash value catalyst.",
+          "bullFactors": [
+            "Ultra-low float at 1.07M shares — extreme leverage for intraday moves",
+            "Sustained high relative volume (3982x) indicates institutional accumulation throughout session, not premarket spike fade",
+            "HOD at +1035% suggests multiple session highs printing, consistent with China rig pattern (afternoon continuation strength)"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst identified — pure momentum/sympathy play with significant black swan risk",
+            "1035% move in one session suggests exhaustion and outsized fade risk; already faded 75.66% from HOD",
+            "Chinese micro-cap with history of volatile tape action — liquidity can evaporate quickly on reversal",
+            "Gap up 12.2% premarket sets overhead supply; tape-driven rallies without news typically face resistance and institutional distribution"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "MB",
+          "hod": 426,
+          "hodExact": 426.67,
+          "news": [
+            "**• Possible reasons for the 61.6% surge (low-float momentum/short squeeze dynamics):**  \n- Extremely low public float (",
+            "MASTERBEEF GROUP Announces Strategic Franchise Partnership to Introduce Premium Thai Tea Beverage and Dessert Franchise in Hong Kong and Macau",
+            "**• Possible reasons for the ~35% surge (retail-driven momentum in a low-float micro-cap Nasdaq name):**\n- Strong retail",
+            "MasterBeef Group Announces Expansion into Hong Kong Dessert Market",
+            "MasterBeef Group Announces Entry into Franchise Agreement to Develop Gelato Shops in Hong Kong"
+          ],
+          "tag": "NO-NEWS",
+          "name": "MasterBeef Group Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "HK",
+          "floatM": 4.75,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$139M",
+          "riskBadges": [
+            "Float 4.75M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.75,
+          "open": 14.3,
+          "gapPct": 281.33,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 19.75,
+          "hodTimeExact": "06:06 AM ET",
+          "close": 8.92,
+          "fade": 54,
+          "fadeExact": 54.84,
+          "vwap": 12.2805,
+          "vsVwap": "below",
+          "pmHigh": 19.75,
+          "volRaw": "31.8M",
+          "volDollar": 390212138,
+          "relVol": 8164.9,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 61.6% surge (low-float momentum/short squeeze dynamics):**  \n- Extremely low public float (",
+            "MASTERBEEF GROUP Announces Strategic Franchise Partnership to Introduce Premium Thai Tea Beverage and Dessert Franchise in Hong Kong and Macau",
+            "**• Possible reasons for the ~35% surge (retail-driven momentum in a low-float micro-cap Nasdaq name):**\n- Strong retail",
+            "MasterBeef Group Announces Expansion into Hong Kong Dessert Market",
+            "MasterBeef Group Announces Entry into Franchise Agreement to Develop Gelato Shops in Hong Kong"
+          ],
+          "newsSummary": "MB spiked 426% on a low-float squeeze with no material catalyst dated today—only historical franchise partnership announcements from July and May. The move appears driven purely by extreme float scarcity (4.75M shares) and retail momentum, not fundamental value creation or earnings/data.",
+          "bullFactors": [
+            "Extremely tight float at 4.75M shares—classic squeeze setup for intraday runners",
+            "Sustained high relative volume (8164.9x) suggests institutional accumulation mixed with retail push, not pure premarket spike fade",
+            "HOD printed at +426% with 54.84% fade means buyers defended levels intraday—potential afternoon continuation if tape stays hot"
+          ],
+          "bearFactors": [
+            "No real catalyst today—spike is pure float/momentum play on old news (franchise expansion fluff, not cash-generative deals)",
+            "426% move in single day triggers cycle shift warning; liquidity risk and black swan potential on unwind",
+            "54.84% fade indicates significant profit-taking and institutional distribution; buying pressure may not sustain if momentum breaks"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "WFF",
+          "hod": 286,
+          "hodExact": 286.59,
+          "news": [
+            "**• Possible reasons for the 41%+ surge (high volume ~1.86M shares):**\n- Speculative momentum/day-trading activity in th",
+            "SPA | Offering amount: $30,000,000 | Bank: Univest Securities, LLC",
+            "WF Holding Limited Enters into $30 Million Standby Equity Purchase Agreement",
+            "WF Holding Limited Announces Results of Extraordinary General Meeting",
+            "**• Possible reasons for the 28.6% surge (low-volume move on ~52k shares):**\n- Sharp rebound/volatility following a ~31."
+          ],
+          "tag": "OFFERING",
+          "name": "WF Holding Limited Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 3.61,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$207M",
+          "riskBadges": [
+            "Float 3.61M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.61M + RelVol 1965.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.61M + RelVol 1965.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.7238,
+          "open": 2.53,
+          "gapPct": -7.12,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 10.53,
+          "hodTimeExact": "02:21 PM ET",
+          "close": 2.3,
+          "fade": 78,
+          "fadeExact": 78.16,
+          "vwap": 5.3857,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "30.7M",
+          "volDollar": 165469331,
+          "relVol": 1965.8,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 41%+ surge (high volume ~1.86M shares):**\n- Speculative momentum/day-trading activity in th",
+            "SPA | Offering amount: $30,000,000 | Bank: Univest Securities, LLC",
+            "WF Holding Limited Enters into $30 Million Standby Equity Purchase Agreement",
+            "WF Holding Limited Announces Results of Extraordinary General Meeting",
+            "**• Possible reasons for the 28.6% surge (low-volume move on ~52k shares):**\n- Sharp rebound/volatility following a ~31."
+          ],
+          "newsSummary": "WFF spiked 286% intraday on speculative momentum following a $30M standby equity purchase agreement announced July 31st. The catalyst lacks real cash value merit—standby agreements are dilutive instruments that create overhead supply and investor concern. This is a classic fluff-news runner masking institutional positioning into a dilutive financing.",
+          "bullFactors": [
+            "Ultra-low float at 3.61M shares creates leverage for intraday moves",
+            "Extreme relative volume (1,965.8x) shows genuine tape activity and retail interest",
+            "Session HOD at +286% indicates strong intraday continuation, not premarket spike fade"
+          ],
+          "bearFactors": [
+            "$30M standby equity purchase agreement is dilutive and creates overhead supply overhang",
+            "Negative gap (-7.12%) into session shows premarket weakness despite intraday pop",
+            "Catalyst quality is POOR—standby agreements signal distress, not real business value; high fade risk on open next session",
+            "High fade percentage (78.16%) suggests retail chasing into institutional unload"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "ATGL",
+          "hod": 259,
+          "hodExact": 259.6,
+          "news": [
+            "**• Primary driver: Extreme intraday volatility and repeated Nasdaq trading halts (LULD pauses), leading to a massive sh",
+            "Alpha Technology Group Limited Announces Principal Business Focus on AI Solutions and Marketplace",
+            "Alpha Technology Group Limited Announces Principal Business Focus on Exclusive LLM Solutions and AlphaClaw AI Ecosystem",
+            "Alpha Technology Group Partners with Wai Yuen Tong Medicine to Launch AI + Blockchain Traceability System",
+            "Alpha Technology Group (ATGL) Partners with Wai Yuen Tong to Launch AI + Blockchain Traceability System for Traditional Chinese Medicine"
+          ],
+          "tag": "HALT-RESUME",
+          "name": "Alpha Technology Group Limited Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 9.43,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$181M",
+          "riskBadges": [
+            "Float 9.43M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.43M + RelVol 93.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.43M + RelVol 93.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 7.5,
+          "open": 7.59,
+          "gapPct": 1.2,
+          "time": "regular session",
+          "session": "morning",
+          "high": 26.97,
+          "hodTimeExact": "11:54 AM ET",
+          "close": 8.35,
+          "fade": 69,
+          "fadeExact": 69.04,
+          "vwap": 16.5106,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "680K",
+          "volDollar": 11220141,
+          "relVol": 93.4,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary driver: Extreme intraday volatility and repeated Nasdaq trading halts (LULD pauses), leading to a massive sh",
+            "Alpha Technology Group Limited Announces Principal Business Focus on AI Solutions and Marketplace",
+            "Alpha Technology Group Limited Announces Principal Business Focus on Exclusive LLM Solutions and AlphaClaw AI Ecosystem",
+            "Alpha Technology Group Partners with Wai Yuen Tong Medicine to Launch AI + Blockchain Traceability System",
+            "Alpha Technology Group (ATGL) Partners with Wai Yuen Tong to Launch AI + Blockchain Traceability System for Traditional Chinese Medicine"
+          ],
+          "newsSummary": "ATGL experienced extreme intraday volatility with multiple Nasdaq trading halts (LULD pauses) on 2026-08-07, driving a 259.6% HOD move with 69% fade. The catalyst is the halt-resume cycle itself rather than fundamental news; prior announcements (AI solutions, blockchain partnerships from June) lack material cash value or binding agreements. This is a technical liquidity event, not a real business catalyst.",
+          "bullFactors": [
+            "Float under 10M (9.43M) — fits Jack's preferred small-cap profile for momentum",
+            "Extreme relative volume (93.4x) with sustained intraday activity — shows real institutional participation during halt-resume cycle",
+            "Multiple session HODs printed during trading halts and resumptions — indicates continued buying pressure rather than premarket spike fade",
+            "HK-listed tech name with AI/blockchain positioning — fits sympathy/institutional rig pattern, not pump-and-dump"
+          ],
+          "bearFactors": [
+            "Catalyst is purely technical (halts/LULD pauses), not fundamental — no real business driver or cash-backed deal",
+            "69% fade from HOD suggests significant profit-taking and retail exhaustion after halt cycle",
+            "Prior news (AI + blockchain partnerships) is vague, non-binding, and lacks revenue/profitability metrics — fluff positioning",
+            "259.6% move in one session on halt-resume is black swan territory — liquidity spillover risk and potential regulatory scrutiny, high re-entry risk"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "NAMI",
+          "hod": 225,
+          "hodExact": 225.43,
+          "news": [
+            "**• Possible reasons for the ~130% surge (momentum-driven low-float microcap move with no confirmed fundamental catalyst",
+            "**• Possible reasons for the ~38% surge (with elevated volume of ~65k shares):**\n- Speculative retail-driven momentum or",
+            "1.) **Name of the reporting person or owner**\n*   Wu Capital Ltd\n*   Xinyi Cai\n\n2.) **Types of securities transacted and",
+            "Jinxin Technology Holding Company Regains Compliance with Nasdaq&#39;s Minimum Bid Price Requirement",
+            "Jinxin Technology Holding Company Regains Compliance with Nasdaq’s Minimum Bid Price Requirement"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Jinxin Technology Holding Company American Depositary Shares",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 3.44,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 3.44M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.44M + RelVol 88.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.44M + RelVol 88.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.91,
+          "open": 9.11,
+          "gapPct": 213.06,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 9.47,
+          "hodTimeExact": "08:44 AM ET",
+          "close": 4.41,
+          "fade": 53,
+          "fadeExact": 53.43,
+          "vwap": 7.3815,
+          "vsVwap": "below",
+          "pmHigh": 10.23,
+          "volRaw": "49.7M",
+          "volDollar": 366836759,
+          "relVol": 88.5,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~130% surge (momentum-driven low-float microcap move with no confirmed fundamental catalyst",
+            "**• Possible reasons for the ~38% surge (with elevated volume of ~65k shares):**\n- Speculative retail-driven momentum or",
+            "1.) **Name of the reporting person or owner**\n*   Wu Capital Ltd\n*   Xinyi Cai\n\n2.) **Types of securities transacted and",
+            "Jinxin Technology Holding Company Regains Compliance with Nasdaq&#39;s Minimum Bid Price Requirement",
+            "Jinxin Technology Holding Company Regains Compliance with Nasdaq’s Minimum Bid Price Requirement"
+          ],
+          "newsSummary": "NAMI spiked ~130% on 2026-08-07 with no confirmed fundamental catalyst—purely momentum-driven on a 3.44M float microcap. Prior day saw 38% surge also attributed to retail speculation. The only substantive news is a July compliance regain, which is backward-looking and not the driver of today's move.",
+          "bullFactors": [
+            "Ultra-low float at 3.44M shares—fits Jack's <10M preference perfectly",
+            "High relative volume (88.5) suggests institutional accumulation mixed with retail FOMO, not pure pump",
+            "Chinese microcap with sustained intraday volume pattern typical of 'China rig' institutional plays rather than pump-and-dump premarket fade",
+            "225% HOD print with only 53% fade indicates afternoon continuation strength and shorts blowing out"
+          ],
+          "bearFactors": [
+            "Zero real catalyst—130% move is pure momentum/speculation with no earnings, partnership, or cash-backed news",
+            "Premarket spike dominance pattern (gap 213%) typical of COLD tape; high risk of sustained fade into close or next session",
+            "Chinese microcap with compliance-only news backdrop—reputational/delisting risk inherent to OTC-adjacent names",
+            "No daily chart room confirmed; overhead supply likely given 225% HOD on no fundamental driver"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "HCWC",
+          "hod": 173,
+          "hodExact": 173.8,
+          "news": [
+            "Healthy Choice Wellness Corp. Files Definitive Proxy Statement and Announces Special Meeting of Stockholders in Connection with Merger with Host Digital Infrastructure LLC",
+            "**• Primary catalyst: Filing of definitive proxy statement (around Aug 6, 2026) for previously announced merger with Hos",
+            "Based on the filing provided, here is the summary of the requested information:\n\n**1.) What items are being voted on?**",
+            "**• Possible reasons for the 25% surge (with ~3M shares traded, unusually high for this ~$4.8M market cap microcap):**\n-",
+            "### 1.) What items are being voted on?\nStockholders are being asked to vote on the following seven proposals:\n*   **Prop"
+          ],
+          "tag": "MERGER",
+          "name": "Healthy Choice Wellness Corp.",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 23.77,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2,
+          "open": 0.3167,
+          "gapPct": 58.35,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.5476,
+          "hodTimeExact": "10:13 AM ET",
+          "close": 0.3,
+          "fade": 45,
+          "fadeExact": 45.22,
+          "vwap": 0.3784,
+          "vsVwap": "below",
+          "pmHigh": 0.41,
+          "volRaw": "651.1M",
+          "volDollar": 246364740,
+          "relVol": 840.6,
+          "avgVolM": 0.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Healthy Choice Wellness Corp. Files Definitive Proxy Statement and Announces Special Meeting of Stockholders in Connection with Merger with Host Digital Infrastructure LLC",
+            "**• Primary catalyst: Filing of definitive proxy statement (around Aug 6, 2026) for previously announced merger with Hos",
+            "Based on the filing provided, here is the summary of the requested information:\n\n**1.) What items are being voted on?**",
+            "**• Possible reasons for the 25% surge (with ~3M shares traded, unusually high for this ~$4.8M market cap microcap):**\n-",
+            "### 1.) What items are being voted on?\nStockholders are being asked to vote on the following seven proposals:\n*   **Prop"
+          ],
+          "newsSummary": "HCWC filed a definitive proxy statement for its previously announced merger with Host Digital Infrastructure LLC, triggering a 173.8% HOD run. The merger represents a legitimate M&A catalyst with real corporate action (stockholder vote), though the quality of the deal and Host Digital's cash backing need verification—this is a structural event, not speculative.",
+          "bullFactors": [
+            "Real merger catalyst with definitive proxy filing—hard corporate event, not sympathy or rumor",
+            "173.8% HOD with 840.6x relative volume shows sustained intraday strength and institutional accumulation interest",
+            "58.35% gap and multi-day buildup (news traces back to July 24) suggests institutional positioning ahead of vote",
+            "Micro-cap float (23.77M, close to Jack's <10M preference) with low market cap ($9M) = high leverage on deal certainty"
+          ],
+          "bearFactors": [
+            "45.22% fade from HOD signals weak follow-through and potential premarket/early session spike exhaustion",
+            "Merger structures carry execution/approval risk; deal could collapse if shareholder vote fails or Host Digital backs out",
+            "No detail on Host Digital's financial strength or deal terms—if Host is shell/dilutive, this becomes a fluff announce",
+            "Float above preferred threshold at 23.77M; volume spike may not sustain if retail fades post-vote announcement"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "VSA",
+          "hod": 161,
+          "hodExact": 161.31,
+          "news": [
+            "**• Possible reasons for the 46.9% surge (high volume of ~248k shares):**\n- Speculative momentum trading / \"China mania\"",
+            "ZCMD they have a ROFR with univest so if they drop an offering it would be with them - this action kind of reminding me",
+            "**• Possible reasons for the +23.6% move (as of July 16, 2026):**\n- Momentum-driven pop in a low-float Chinese small-cap",
+            "**• Possible reasons for the 47.1% surge (low-float momentum play with retail/speculative interest):**\n  - Low float (~1",
+            "VisionSys AI Inc. Enters into Securities Purchase Agreement for Private Placement"
+          ],
+          "tag": "NO-NEWS",
+          "name": "VisionSys AI Inc American Depositary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 1.06,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$236M",
+          "riskBadges": [
+            "Float 1.06M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.05,
+          "open": 3.03,
+          "gapPct": -0.66,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 7.97,
+          "hodTimeExact": "12:47 PM ET",
+          "close": 3.8,
+          "fade": 52,
+          "fadeExact": 52.32,
+          "vwap": 4.9527,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "3.1M",
+          "volDollar": 15481437,
+          "relVol": 10.5,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 46.9% surge (high volume of ~248k shares):**\n- Speculative momentum trading / \"China mania\"",
+            "ZCMD they have a ROFR with univest so if they drop an offering it would be with them - this action kind of reminding me",
+            "**• Possible reasons for the +23.6% move (as of July 16, 2026):**\n- Momentum-driven pop in a low-float Chinese small-cap",
+            "**• Possible reasons for the 47.1% surge (low-float momentum play with retail/speculative interest):**\n  - Low float (~1",
+            "VisionSys AI Inc. Enters into Securities Purchase Agreement for Private Placement"
+          ],
+          "newsSummary": "VSA is a Chinese micro-cap with repeated momentum spikes (46.9% on 8/7, 47.1% on 7/15, 23.6% on 7/16) driven by speculative retail interest and low-float dynamics rather than fundamental catalysts. The July 10 securities purchase agreement is dilutive private placement news with no real cash value or operational merit — typical fluff for Chinese spec plays.",
+          "bullFactors": [
+            "Ultra-low float at 1.06M shares — extreme liquidity constraint fuels intraday volatility and squeeze potential",
+            "Strong relative volume (10.5x) indicates sustained institutional or coordinated retail accumulation throughout session",
+            "Today's 161% HOD with only 52% fade suggests China rig pattern (afternoon continuation, not premarket spike collapse) — tape stayed hot and retail didn't capitulate",
+            "Small market cap ($235M) allows retail capital to move price meaningfully — asymmetric risk/reward for directional traders"
+          ],
+          "bearFactors": [
+            "Dilutive private placement announced 7/10 with no real business catalyst — classic red flag for Chinese micro-cap pump mechanics",
+            "Pure NO-NEWS/momentum tag — no earnings, partnerships, or operational developments to anchor valuation; entirely speculative",
+            "Pattern of repeated 40-50% spikes over one month (7/15, 7/16, 8/7) suggests exhaustion risk and institutional lock-up selling windows approaching",
+            "Chinese sector exposure carries geopolitical and delisting risk; low institutional credibility compared to US-listed small caps"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "HUIZ",
+          "hod": 142,
+          "hodExact": 142.12,
+          "news": [
+            "**• Possible reasons for the 33.9% surge (with ~372k shares traded, indicating high relative volume on a likely low floa",
+            "1.) Name of the reporting person or owner\n*   Cunjun Ma\n*   Huidz Holding Limited\n\n2.) Types of securities transacted an",
+            "Huize Holding Limited Announces Select Operating Metrics for the First Quarter of 2026",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "Huize Holding Limited Announces Select Operating Metrics for the First Quarter of 2026"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Huize Holding Limited American Depositary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 4.52,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 4.52M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.52M + RelVol 2886.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.52M + RelVol 2886.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.2101,
+          "open": 1.18,
+          "gapPct": -2.49,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.9299,
+          "hodTimeExact": "01:29 PM ET",
+          "close": 1.66,
+          "fade": 43,
+          "fadeExact": 43.34,
+          "vwap": 1.9064,
+          "vsVwap": "below",
+          "pmHigh": 1.2,
+          "volRaw": "28.3M",
+          "volDollar": 53975713,
+          "relVol": 2886.4,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 33.9% surge (with ~372k shares traded, indicating high relative volume on a likely low floa",
+            "1.) Name of the reporting person or owner\n*   Cunjun Ma\n*   Huidz Holding Limited\n\n2.) Types of securities transacted an",
+            "Huize Holding Limited Announces Select Operating Metrics for the First Quarter of 2026",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "Huize Holding Limited Announces Select Operating Metrics for the First Quarter of 2026"
+          ],
+          "newsSummary": "HUIZ spiked 142% with a 43% fade, gap down -2.49%, on unclear catalyst — headlines reference insider transaction (Cunjun Ma) and Q1 2026 operating metrics from May that are months old. No real cash value deal, partnership, earnings surprise, or material event to justify the move. This is a classic China micro-cap rig pattern: sustained intraday volume (relVol 2,886x) with afternoon HOD printing, not a premarket spike-and-dump.",
+          "bullFactors": [
+            "Ultra-tight float at 4.52M shares — excellent liquidity constraint for momentum runners",
+            "China rig pattern confirmed: high relative volume all day + session HOD domination + afternoon continuation (not premarket fade) = institutional accumulation signature",
+            "Still 142% up on the day despite 43% fade — shows real intraday strength and short blowouts, tape is HOT",
+            "Small market cap ($17.2M) with Financial Services sector positioning offers volatility for directional trades"
+          ],
+          "bearFactors": [
+            "NO real catalyst — insider transaction and stale Q1 metrics do not justify 142% move; pure sympathy/momentum play with dilution risk unclear",
+            "43% fade off session HOD is significant — shows distribution into strength and retail enthusiasm, classic setup for continued weakness into close or next session",
+            "Chinese micro-cap with compliance/regulatory tail risk; no daily chart context provided to assess room to upside or overhead supply",
+            "Negative gap open (-2.49%) suggests premarket weakness before intraday rig — risky entry if momentum stalls"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WWR",
+          "hod": 127,
+          "hodExact": 127.26,
+          "news": [
+            "**• Possible reasons for the ~39.5% surge (high volume ~379k–1M+ shares):**\n- Speculative momentum and potential short s",
+            "Westwater Resources Submits Section 404 Permit Application for Coosa Graphite Deposit",
+            "1.) Name of the reporting person or owner\n* Tracy D. Pagliara\n\n2.) Types of securities transacted and associated amounts",
+            "1.) Name of the reporting person or owner\n* Tracy D. Pagliara\n\n2.) Types of securities transacted and associated amounts",
+            "1.) Name of the reporting person or owner\n* Karli S. Anderson\n\n2.) Types of securities transacted and associated amounts"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Westwater Resources, Inc.",
+          "sector": "Basic Materials",
+          "country": "US",
+          "floatM": 126.44,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$100M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4086,
+          "open": 0.4207,
+          "gapPct": 2.96,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.9286,
+          "hodTimeExact": "03:41 PM ET",
+          "close": 0.7672,
+          "fade": 17,
+          "fadeExact": 17.38,
+          "vwap": 0.7455,
+          "vsVwap": "above",
+          "pmHigh": 0.4363,
+          "volRaw": "118.8M",
+          "volDollar": 88546139,
+          "relVol": 199.4,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~39.5% surge (high volume ~379k–1M+ shares):**\n- Speculative momentum and potential short s",
+            "Westwater Resources Submits Section 404 Permit Application for Coosa Graphite Deposit",
+            "1.) Name of the reporting person or owner\n* Tracy D. Pagliara\n\n2.) Types of securities transacted and associated amounts",
+            "1.) Name of the reporting person or owner\n* Tracy D. Pagliara\n\n2.) Types of securities transacted and associated amounts",
+            "1.) Name of the reporting person or owner\n* Karli S. Anderson\n\n2.) Types of securities transacted and associated amounts"
+          ],
+          "newsSummary": "WWR spiked ~39.5% on high intraday volume (379k–1M+ shares) with no material news catalyst on 2026-08-07. The most recent substantive news is the June 15 Section 404 permit application for the Coosa Graphite Deposit, which has no bearing on today's move. Insider transactions from June and May show routine trading activity with no strategic signal. This appears to be pure speculative momentum with no real cash-value catalyst to support the move.",
+          "bullFactors": [
+            "Sustained intraday volume (199.4x relVol) and session HOD printing suggest institutional accumulation or short covering, not just a premarket spike-and-fade",
+            "Graphite sector interest (Coosa Deposit permit filed) provides thematic tailwind if energy/EV demand narrative accelerates",
+            "127% HOD gain vs 17.4% fade ratio indicates afternoon continuation strength and short blowout pressure"
+          ],
+          "bearFactors": [
+            "Float of 126.44M is 12.6x Jack's preferred threshold—liquidity and dilution risk are elevated, reduces intraday momentum sustainability",
+            "No credible catalyst released today; move is pure momentum/speculation with high whipsaw and fade risk into close/next session",
+            "Insider selling in late May and June (Pagliara and Anderson transactions) signals insiders were unloading, potential headwind for sustained upside",
+            "Real catalyst (404 permit from June 15) is stale and permitting-stage graphite is years from revenue—insufficient fundamental support for 127% move"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "WAFU",
+          "hod": 117,
+          "hodExact": 117.01,
+          "news": [
+            "**• Social media-driven momentum/pump on low-float Chinese education stocks:** TradingView discussions and recent X post",
+            "Based on the financial report provided for Wah Fu Education Group Ltd. for the fiscal year ended March 31, 2026, here is",
+            "Wah Fu Education Group Ltd. Announces Executive Leadership Changes",
+            "1.) Name of the reporting person or owner\n* Ai Shuting (CFO of Wah Fu Education Group Ltd)\n\n4.) Dates of the transaction",
+            "1.) Name of the reporting person or owner\n* Wenxiang Xing\n\n2.) Types of securities transacted and associated amounts and"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Wah Fu Education Group Limited Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 1.54,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 1.54M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.54M + RelVol 841.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.54M + RelVol 841.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.41,
+          "open": 1.42,
+          "gapPct": 0.71,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.0599,
+          "hodTimeExact": "01:28 PM ET",
+          "close": 1.44,
+          "fade": 52,
+          "fadeExact": 52.94,
+          "vwap": 1.9289,
+          "vsVwap": "below",
+          "pmHigh": 1.41,
+          "volRaw": "12.2M",
+          "volDollar": 23483964,
+          "relVol": 841.9,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Social media-driven momentum/pump on low-float Chinese education stocks:** TradingView discussions and recent X post",
+            "Based on the financial report provided for Wah Fu Education Group Ltd. for the fiscal year ended March 31, 2026, here is",
+            "Wah Fu Education Group Ltd. Announces Executive Leadership Changes",
+            "1.) Name of the reporting person or owner\n* Ai Shuting (CFO of Wah Fu Education Group Ltd)\n\n4.) Dates of the transaction",
+            "1.) Name of the reporting person or owner\n* Wenxiang Xing\n\n2.) Types of securities transacted and associated amounts and"
+          ],
+          "newsSummary": "WAFU spiked 117% HOD on social media-driven momentum around low-float Chinese education stocks, with no material catalyst beyond TradingView/X chatter. The 'catalyst' is pure retail sympathy play — recent ER (July 30) and leadership changes (May) are stale. This is a momentum pump on technicals alone, not a real cash value deal or fundamental catalyst.",
+          "bullFactors": [
+            "Ultra-tight float at 1.54M shares — extreme scarcity, high volatility potential",
+            "Extreme relative volume (841.9x) shows sustained intraday buying pressure throughout session, not just premarket spike fade",
+            "HOD printing at 117% late session signals afternoon strength and possible institutional/retail accumulation continuation, consistent with China rig pattern rather than pump-dump",
+            "Chinese micro-cap with characteristic all-day sustained volume behavior — if this pattern holds into next session, shows real institutional rig mechanics"
+          ],
+          "bearFactors": [
+            "Catalyst is pure social media hype (X/TradingView chatter) — fluff news with zero fundamental merit, zero cash value",
+            "No material news today; 52.94% fade signals retail exhaustion and likely gap-fill risk into next session",
+            "Chinese micro-cap education sector prone to delisting risk, regulatory headwinds, and liquidity traps — added black swan risk on overnight news",
+            "Already ran 117% — at extreme elevation with likely overhead supply building, limits room to upside and increases fade risk"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 1035,
+      "fade": 54,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "YJ led +1035.77% (75% fade). 1/10 held <20% fade. news: YJ — \"**• Possible reasons for the price movement (purely speculative/momentum-driven, no fundamental catalyst identified):**\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS Chinese micro-caps (YJ, MB, NAMI, VSA, HUIZ, WAFU) running sustained intraday volume with afternoon/morning HOD prints—classic China rig pattern signaling institutional accumulation rather than pump-dump, though the playbook flags these as sympathy plays lacking real catalysts. Float structure heavily skews sub-5M (7 of 10 names), but the session split is concerning: premarket spikes dominate the top movers (MB, NAMI both premarket HODs with 54-53% fades), indicating classic cold-cycle fade conditions rather than the afternoon HOD continuation strength momentum traders seek. Dilutive/halt noise (WFF offering, ATGL halt-resume) and bloated float (HCWC at 23.77M, WWR at 126.44M) pollute the board, leaving minimal A/A+ caliber setups—this is a COLD tape with institutional positioning hiding behind China rig mechanics, not the hot session continuation cycle this framework targets for optimal entry risk/reward."
+    },
     {
       "date": "2026-08-06",
       "runners": [

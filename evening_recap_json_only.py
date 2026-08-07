@@ -31,6 +31,17 @@ def load_playbook_context():
 
 PLAYBOOK_CONTEXT = load_playbook_context()
 
+# The playbook context is a personal trader profile (it opens "TRADER PROFILE -
+# JACK WALKER"), so without this the model echoes the name straight back into
+# reader-facing copy. These summaries are tape analysis, not journal entries.
+OBJECTIVE_TONE_RULE = (
+    "Never use the trader's name or personal pronouns like 'Jack', 'he', 'his', "
+    "'you', 'your' in the output. Write in objective third-person tape analysis "
+    "language. Say 'momentum traders' or 'this framework' instead of 'Jack'. "
+    "Say 'the playbook avoids' not 'Jack avoids'. Say 'immediate exit signal' "
+    "not 'Jack exits immediately'."
+)
+
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
@@ -1751,7 +1762,8 @@ def call_claude_daily(movers, date_str):
         f"Date: {date_str}. Today's top runners:\n{json.dumps(rows, default=str)}\n\n"
         "Write 2-4 sentences covering: dominant catalyst type, country/sector concentration, "
         "float tier skew, where HODs printed (session vs premarket), and whether today's tape "
-        "signals a hot/neutral/cold cycle for this trader's style. Be specific and direct. "
+        "signals a hot/neutral/cold cycle for this trader's style. Be specific and direct.\n\n"
+        f"{OBJECTIVE_TONE_RULE}\n\n"
         "Return ONLY the paragraph, no JSON, no preamble."
     )
     text = call_claude(prompt, max_tokens=400)
