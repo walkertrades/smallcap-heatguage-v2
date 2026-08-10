@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-07T21:12:16.350091Z",
-  "count": 9595,
+  "exportedAt": "2026-08-10T22:45:04.179877Z",
+  "count": 9605,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,815 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-10",
+      "runners": [
+        {
+          "sym": "SCKT",
+          "hod": 622,
+          "hodExact": 622.61,
+          "news": [
+            "Socket Mobile Partners with 3Eye Technologies to Expand Industrial Mobility Solutions for Apple-Based Frontline Operations",
+            "**• Primary catalyst: Strategic partnership announcement with 3Eye Technologies (Aug 10, 2026, ~9 AM ET).** Socket Mobil",
+            "The Catalysts are Back: Socket Mobile Breaks Out while Biotechs Race Toward Major Milestones",
+            "1.) **Name of the reporting person or owner**\n*   Mills Enrico Kevin\n\n2.) **Types of securities transacted and associate",
+            "1.) Name of the reporting person or owner\n* Ivan Lazarev\n\n2.) Types of securities transacted and associated amounts and"
+          ],
+          "tag": "CONTRACT",
+          "name": "Socket Mobile, Inc. New",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 5.46,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 5.46M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3861,
+          "open": 2.61,
+          "gapPct": 575.99,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.79,
+          "hodTimeExact": "09:07 AM ET",
+          "close": 2.13,
+          "fade": 23,
+          "fadeExact": 23.66,
+          "vwap": 1.9466,
+          "vsVwap": "above",
+          "pmHigh": 3.97,
+          "volRaw": "219.3M",
+          "volDollar": 426909430,
+          "relVol": 2375.6,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Socket Mobile Partners with 3Eye Technologies to Expand Industrial Mobility Solutions for Apple-Based Frontline Operations",
+            "**• Primary catalyst: Strategic partnership announcement with 3Eye Technologies (Aug 10, 2026, ~9 AM ET).** Socket Mobil",
+            "The Catalysts are Back: Socket Mobile Breaks Out while Biotechs Race Toward Major Milestones",
+            "1.) **Name of the reporting person or owner**\n*   Mills Enrico Kevin\n\n2.) **Types of securities transacted and associate",
+            "1.) Name of the reporting person or owner\n* Ivan Lazarev\n\n2.) Types of securities transacted and associated amounts and"
+          ],
+          "newsSummary": "Socket Mobile announced a strategic partnership with 3Eye Technologies to expand industrial mobility solutions for Apple-based frontline operations on Aug 10, 2026. This is a real cash-value deal with a named enterprise partner, representing genuine business expansion rather than speculative hype.",
+          "bullFactors": [
+            "Sub-10M float (5.46M) with 2375.6x relative volume — ideal for sustained intraday momentum",
+            "Real partnership catalyst with named enterprise client (3Eye Technologies) targeting Apple ecosystem — not dilutive or fluff",
+            "HOD of 622.61% with only 23.66% fade — strong session HOD dominance and afternoon continuation strength signal",
+            "Gap of 575.99% on news with sustained volume all day — indicates institutional accumulation and retail continuation, not a 1-2 min spike pump"
+          ],
+          "bearFactors": [
+            "Massive single-day move (622% HOD) carries cycle-shift risk — watch for liquidity spillover and black swan reversal",
+            "Insiders transacting (Mills Enrico Kevin, Ivan Lazarev) on day of announcement — potential distribution risk if large sells",
+            "Small market cap ($13.2M) and ultra-low float concentrate volatility and squeeze risk into tight bands"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "STKH",
+          "hod": 277,
+          "hodExact": 277.66,
+          "news": [
+            "**• Possible reasons for the ~104% surge (with elevated volume of ~292k shares):**  \n- Pure momentum/volume-driven move",
+            "Steakholder Foods Ltd. Announces Up To $10.5 Million Private Placement",
+            "**• Primary catalyst: Expected closing today (August 3, 2026) of the up-to-$10.5M private placement announced July 31, 2",
+            "Steakholder Foods Ltd. Announces $3.5 Million Private Placement Offering",
+            "Steakholder Foods Ltd. Announces Up To $10.5 Million Private Placement"
+          ],
+          "tag": "OFFERING",
+          "name": "Steakholder Foods Ltd. American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "IL",
+          "floatM": 0.82,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 0.82M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.82M + RelVol 19.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.82M + RelVol 19.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.88,
+          "open": 3.86,
+          "gapPct": 105.32,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.1,
+          "hodTimeExact": "10:18 AM ET",
+          "close": 4.3,
+          "fade": 39,
+          "fadeExact": 39.44,
+          "vwap": 4.9479,
+          "vsVwap": "below",
+          "pmHigh": 6.11,
+          "volRaw": "75.8M",
+          "volDollar": 375054491,
+          "relVol": 19.9,
+          "avgVolM": 3.8,
+          "ssr": true,
+          "reverseSplit": "3:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the ~104% surge (with elevated volume of ~292k shares):**  \n- Pure momentum/volume-driven move",
+            "Steakholder Foods Ltd. Announces Up To $10.5 Million Private Placement",
+            "**• Primary catalyst: Expected closing today (August 3, 2026) of the up-to-$10.5M private placement announced July 31, 2",
+            "Steakholder Foods Ltd. Announces $3.5 Million Private Placement Offering",
+            "Steakholder Foods Ltd. Announces Up To $10.5 Million Private Placement"
+          ],
+          "newsSummary": "STKH spiked ~105% on a gap up driven by a $10.5M private placement announcement (July 31) with expected closing on August 3. This is dilutive capital raise news with no operational catalyst or real cash value deal — pure financing activity that typically signals desperation and future shareholder dilution.",
+          "bullFactors": [
+            "Ultra-micro float at 0.82M shares — structural short squeeze potential if institutional accumulation occurs",
+            "Extreme relative volume (19.9x) and session HOD at +277% shows sustained intraday momentum, not immediate premarket fade",
+            "Large intraday move (277% HOD vs 105% gap) suggests afternoon continuation and multiple session HODs — tape showing some institutional rig characteristics"
+          ],
+          "bearFactors": [
+            "Dilutive private placement offering — classic red flag for experienced traders, signals weak fundamentals and future share dilution pressure",
+            "Pure momentum/volume-driven move with no real operational catalyst — 104% gap suggests premarket spike dominance typical of COLD tape cycles",
+            "39% fade from HOD indicates distribution and profit-taking; private placements often mark distribution events for insiders and smart money",
+            "Israeli micro-cap with minimal market cap ($10.3M) and thin liquidity outside the spike window — high slippage risk on exits"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "JWEL",
+          "hod": 233,
+          "hodExact": 233.55,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Low-float momentum/squeeze play on a microcap Chinese stock, with rapid",
+            "### **Executive Summary: Jameson Wellness Q1 2026 Earnings**\n\nJameson Wellness reported a strong start to fiscal 2026, c",
+            "This summary is based on the provided financial report for Jowell Global Ltd. for the fiscal year ended December 31, 202",
+            "1.) Name of the reporting person or owner\n* Wang Haitao\n\n2.) Types of securities transacted and associated amounts and p",
+            "1.) Name of the reporting person or owner\n* Zhao Dan\n\n2.) Types of securities transacted and associated amounts and pric"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Jowell Global Ltd. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 2.07,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 2.07M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.55,
+          "open": 3.97,
+          "gapPct": 156.13,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 5.17,
+          "hodTimeExact": "07:39 AM ET",
+          "close": 4,
+          "fade": 22,
+          "fadeExact": 22.63,
+          "vwap": 4.2683,
+          "vsVwap": "below",
+          "pmHigh": 6.24,
+          "volRaw": "85.0M",
+          "volDollar": 362802295,
+          "relVol": 19298.8,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Low-float momentum/squeeze play on a microcap Chinese stock, with rapid",
+            "### **Executive Summary: Jameson Wellness Q1 2026 Earnings**\n\nJameson Wellness reported a strong start to fiscal 2026, c",
+            "This summary is based on the provided financial report for Jowell Global Ltd. for the fiscal year ended December 31, 202",
+            "1.) Name of the reporting person or owner\n* Wang Haitao\n\n2.) Types of securities transacted and associated amounts and p",
+            "1.) Name of the reporting person or owner\n* Zhao Dan\n\n2.) Types of securities transacted and associated amounts and pric"
+          ],
+          "newsSummary": "JWEL is a Chinese microcap showing classic low-float momentum characteristics with a 233% HOD and only 156% gap, suggesting intraday buying pressure rather than pure premarket spike. No material catalyst today — prior headlines show Q1 earnings (May), FY2025 report (Apr), and insider transactions (Apr-Mar), but nothing triggering an 8/10 move. This is a China rig pattern: sustained intraday volume (relVol 19.3k), afternoon HOD domination, and real accumulation pressure, not pump-and-dump.",
+          "bullFactors": [
+            "Ultra-low float (2.07M) — extreme leverage for institutional accumulation on low share count",
+            "China rig signature: 233% HOD with only 22.6% fade suggests sustained buying all day, not premarket spike collapse",
+            "Massive relative volume (19.3k) confirms real participation, not thin tape manipulation",
+            "Daily chart room to upside: microcap with prior earnings visibility (Q1 2026 results exist) gives fundamental backdrop"
+          ],
+          "bearFactors": [
+            "Chinese microcap with VIE/regulatory risk — black swan exposure on delisting/compliance issues",
+            "NO NEWS catalyst today — pure momentum/squeeze play on sympathy or tape positioning, not fundamental event",
+            "22.6% fade even with sustained volume suggests afternoon HOD exhaustion; risk of gap-fill reversal into tomorrow",
+            "Insider transactions (Apr-Mar) show early-stage selling; reliance on retail momentum, not insider accumulation"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WYHG",
+          "hod": 186,
+          "hodExact": 186.68,
+          "news": [
+            "**• Possible reasons for the 38.6% surge in $WYHG (high volume of ~99k shares):**\n- Strong insider buying signal: On Aug",
+            "1.) Name of the reporting person or owner\n* Wang Xiantao\n\n2.) Types of securities transacted and associated amounts and",
+            "Wing Yip Food Holdings Group Limited Chairman Announces Open Market Share Purchase and Future Trading Plan",
+            "**• Possible reasons for the ~183% surge (low-float speculative momentum in a thinly traded ADS):**\n- Anticipation and/o",
+            "Wing Yip Food Holdings Group Limited Announces Results of Extraordinary General Meeting and Private Placement"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "Wing Yip Food Holdings Group Limited American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 0.6,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$76M",
+          "riskBadges": [
+            "Float 0.6M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.43,
+          "open": 5.29,
+          "gapPct": 19.41,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 12.7,
+          "hodTimeExact": "12:09 PM ET",
+          "close": 5.72,
+          "fade": 54,
+          "fadeExact": 54.96,
+          "vwap": 8.2057,
+          "vsVwap": "below",
+          "pmHigh": 6.34,
+          "volRaw": "10.9M",
+          "volDollar": 89448063,
+          "relVol": 3.6,
+          "avgVolM": 3.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 38.6% surge in $WYHG (high volume of ~99k shares):**\n- Strong insider buying signal: On Aug",
+            "1.) Name of the reporting person or owner\n* Wang Xiantao\n\n2.) Types of securities transacted and associated amounts and",
+            "Wing Yip Food Holdings Group Limited Chairman Announces Open Market Share Purchase and Future Trading Plan",
+            "**• Possible reasons for the ~183% surge (low-float speculative momentum in a thinly traded ADS):**\n- Anticipation and/o",
+            "Wing Yip Food Holdings Group Limited Announces Results of Extraordinary General Meeting and Private Placement"
+          ],
+          "newsSummary": "Chairman Wang Xiantao announced open market share purchases on Aug 7, triggering insider buying sentiment and a ~183% surge by Aug 8, followed by a further 38.6% continuation on Aug 10 on high relative volume (~99k shares). Real insider accumulation is a legitimate bullish signal, though the magnitude of moves and thin float create volatility risk; merit exists but execution risk is elevated.",
+          "bullFactors": [
+            "Ultra-low float of 0.6M shares — extreme scarcity, high leverage for retail momentum push",
+            "Insider buying by Chairman is real cash commitment and credibility signal — not fluff news",
+            "Sustained multi-day HOD printing (186% HOD pct) with continued volume (3.6x relVol) suggests institutional accumulation, not premarket spike fade",
+            "Private placement and EGM results on Aug 6 show corporate restructuring activity — real capital events, not sympathy"
+          ],
+          "bearFactors": [
+            "Chinese micro-cap ADS with inherent liquidity and regulatory risk — higher black swan volatility",
+            "Already up 186% from HOD with 55% fade intraday — significant profit-taking pressure and overhead supply building",
+            "Gap of 19.41% suggests premarket spike component — some momentum already front-run, lower room for new retail entry",
+            "High relative volume (3.6x) on thin float can evaporate quickly; insider buying alone does not guarantee sustained demand"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "PCLA",
+          "hod": 141,
+          "hodExact": 141.84,
+          "news": [
+            "**• Possible reasons for the price movement (as of recent trading around August 7-10, 2026):**\n- High-volatility momentu",
+            "**• No specific company news, announcements, or catalysts identified in the last 3 days (Aug 4–7, 2026).** The most rece",
+            "**• No company-specific news, announcements, or filings identified in the last 3 days (Aug 2–5, 2026).** Recent coverage",
+            "Joint Filing Agreement for PicoCELA Inc. Schedule 13D",
+            "1.) **Name of the reporting person or owner**\n*   About Investment Pte. Ltd.\n*   Jiaming Li\n\n2.) **Types of securities t"
+          ],
+          "tag": "NO-NEWS",
+          "name": "PicoCELA Inc. American Depositary Shares",
+          "sector": "Communication Services",
+          "country": "JP",
+          "floatM": 2.45,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$105M",
+          "riskBadges": [
+            "Float 2.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.45M + RelVol 18.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.45M + RelVol 18.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 8.11,
+          "open": 8.9,
+          "gapPct": 9.74,
+          "time": "regular session",
+          "session": "morning",
+          "high": 19.613,
+          "hodTimeExact": "11:02 AM ET",
+          "close": 9.11,
+          "fade": 53,
+          "fadeExact": 53.55,
+          "vwap": 13.9108,
+          "vsVwap": "below",
+          "pmHigh": 8.82,
+          "volRaw": "4.3M",
+          "volDollar": 59733559,
+          "relVol": 18.0,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement (as of recent trading around August 7-10, 2026):**\n- High-volatility momentu",
+            "**• No specific company news, announcements, or catalysts identified in the last 3 days (Aug 4–7, 2026).** The most rece",
+            "**• No company-specific news, announcements, or filings identified in the last 3 days (Aug 2–5, 2026).** Recent coverage",
+            "Joint Filing Agreement for PicoCELA Inc. Schedule 13D",
+            "1.) **Name of the reporting person or owner**\n*   About Investment Pte. Ltd.\n*   Jiaming Li\n\n2.) **Types of securities t"
+          ],
+          "newsSummary": "PCLA spiked 141.84% intraday with a 53.55% fade, driven by high relative volume (18.0x) on a micro-float (2.45M shares). No real catalysts identified in the last 3 days—only a July 28 Schedule 13D filing from About Investment Pte. Ltd. and Jiaming Li (insider accumulation signal, not company news). This is a momentum-driven, catalyst-light runner with classic tape characteristics.",
+          "bullFactors": [
+            "Ultra-tight float at 2.45M shares—well below Jack's <10M preference, maximizes leverage on retail volume",
+            "Intraday HOD domination (141.84% HOD vs 53.55% fade) suggests afternoon continuation and shorts covering, not a premarket pump-fade",
+            "18.0x relative volume indicates sustained institutional/retail pressure throughout session, not a 100%+ spike in 1-2 minutes",
+            "Schedule 13D insider accumulation (Jiaming Li/About Investment) shows smart money building position pre-announcement"
+          ],
+          "bearFactors": [
+            "Zero real catalysts—no earnings, partnerships, deals, or data; pure momentum/sympathy trade with higher reversal risk",
+            "53.55% fade indicates significant intraday distribution and profit-taking; tape may be cooling into close",
+            "Japanese micro-cap with potential liquidity/ADR complexity; lower institutional quality vs. US small-caps",
+            "No clarity on why 13D was filed or what catalysts are coming; could be early-stage accumulation with no near-term catalyst"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "XHLD",
+          "hod": 132,
+          "hodExact": 132.18,
+          "news": [
+            "**• Possible reasons for the price movement (primarily momentum-driven with no single major catalyst identified):**\n- Hi",
+            "TEN Holdings Reports Second Quarter 2026 Financial Results",
+            "Based on the financial report provided for TEN Holdings, Inc. for the period ended June 30, 2026, here is the summary gr",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "TEN Holdings Reports Second Quarter 2026 Financial Results"
+          ],
+          "tag": "EARNINGS",
+          "name": "TEN Holdings, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 10.2,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$38M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.02,
+          "open": 2.95,
+          "gapPct": 46.04,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.69,
+          "hodTimeExact": "09:53 AM ET",
+          "close": 3.11,
+          "fade": 33,
+          "fadeExact": 33.69,
+          "vwap": 3.5181,
+          "vsVwap": "below",
+          "pmHigh": 3.5993,
+          "volRaw": "54.0M",
+          "volDollar": 190147592,
+          "relVol": 11.5,
+          "avgVolM": 4.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement (primarily momentum-driven with no single major catalyst identified):**\n- Hi",
+            "TEN Holdings Reports Second Quarter 2026 Financial Results",
+            "Based on the financial report provided for TEN Holdings, Inc. for the period ended June 30, 2026, here is the summary gr",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "TEN Holdings Reports Second Quarter 2026 Financial Results"
+          ],
+          "newsSummary": "XHLD reported Q2 2026 earnings on 8/10, providing a real fundamental catalyst rather than fluff news or sympathy. However, the earnings data itself is incomplete in the filing summaries, making it unclear whether results were strong or weak—this limits conviction on catalyst quality.",
+          "bullFactors": [
+            "HOD dominance at 132.18% with 33.69% fade suggests afternoon continuation strength and short covering, not a premarket spike fade pattern",
+            "Sustained intraday volume (relVol 11.5x) indicates institutional accumulation throughout session, not a quick 100%+ spike-and-dump",
+            "Float at 10.2M is just above Jack's <10M preference but acceptable given the high intraday volume relative to premarket—meets his float/volume elasticity criteria"
+          ],
+          "bearFactors": [
+            "Earnings catalyst lacks clear merit—no revenue growth, margin expansion, or concrete business wins disclosed in available headlines; generic ER without substance",
+            "46.04% gap already priced in a massive move; limited daily chart room remaining on the upside after 132% HOD, risk/reward skewed to fade",
+            "Float just above comfort zone (10.2M vs. <10M preference) combined with weak earnings detail creates ambiguity on whether volume is genuine institutional accumulation or retail momentum exhaustion"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RDGT",
+          "hod": 126,
+          "hodExact": 126.6,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Speculative/retail momentum trading in this microcap stock (low float ~",
+            "**• Possible reasons for the 50.5% surge (high volume of ~303k shares):**\n- Low-float penny stock volatility and momentu",
+            "Ridgetech, Inc. Announces Annual General Meeting of Shareholders for August 25, 2026",
+            "Ridgetech, Inc. Announces Annual General Meeting of Shareholders",
+            "Ridgetech, Inc. Announces Annual General Meeting of Shareholders"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Ridgetech, Inc. Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 3.83,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 3.83M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.83M + RelVol 26.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.83M + RelVol 26.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7458,
+          "open": 0.711,
+          "gapPct": -4.67,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.69,
+          "hodTimeExact": "12:58 PM ET",
+          "close": 0.9899,
+          "fade": 41,
+          "fadeExact": 41.43,
+          "vwap": 1.1863,
+          "vsVwap": "below",
+          "pmHigh": 0.7773,
+          "volRaw": "63.3M",
+          "volDollar": 75096070,
+          "relVol": 26.0,
+          "avgVolM": 2.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Speculative/retail momentum trading in this microcap stock (low float ~",
+            "**• Possible reasons for the 50.5% surge (high volume of ~303k shares):**\n- Low-float penny stock volatility and momentu",
+            "Ridgetech, Inc. Announces Annual General Meeting of Shareholders for August 25, 2026",
+            "Ridgetech, Inc. Announces Annual General Meeting of Shareholders",
+            "Ridgetech, Inc. Announces Annual General Meeting of Shareholders"
+          ],
+          "newsSummary": "RDGT spiked 126.6% HOD with only routine AGM announcements (August 25 shareholder meeting) — no real catalyst. Movement driven by low-float microcap momentum and retail speculation rather than fundamental value. This is pure sentiment-driven trading on a 3.83M float name with no cash-value news.",
+          "bullFactors": [
+            "Excellent float at 3.83M shares — well below Jack's <10M preference, maximizes squeeze potential",
+            "Sustained intraday action: 126.6% HOD with 41.43% fade suggests institutional accumulation before retail push (typical dip/soak pattern)",
+            "26.0x relative volume indicates genuine intraday momentum, not a flash spike — tape stayed hot throughout session",
+            "Chinese microcap with potential for China rig pattern continuation if afternoon HODs print late session"
+          ],
+          "bearFactors": [
+            "Zero real catalyst — AGM is administrative fluff, no M&A, ER, partnership, or product news to justify 126% move",
+            "41.43% same-day fade is concerning; if retail bought the hype, institutional unwind risk remains high into next session",
+            "Microcap Chinese healthcare name — elevated black swan and liquidity risk if short squeeze breaks",
+            "-4.67% gap down before the spike suggests overnight weakness; sustainability questionable without follow-on news"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "MTEN",
+          "hod": 102,
+          "hodExact": 102.01,
+          "news": [
+            "**• Possible reasons for the 30.5% surge (high volume of ~232k shares):**\n- Speculative momentum/day-trading frenzy on a",
+            "SHARE RESALE REGISTRATION | Shares: 3,871,000",
+            "**• No specific company news or announcements in the last 3 days (July 19–22, 2026) identified in public sources; the mo",
+            "Mingteng International Announces Full Launch of ERP and MES Systems, Advancing Digitalization in Mold Manufacturing",
+            "SHARE RESALE REGISTRATION | Shares: 3,871,000"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Mingteng International Corporation Inc. Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 7.7,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 7.7M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.7M + RelVol 22.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.7M + RelVol 22.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8811,
+          "open": 0.9501,
+          "gapPct": 7.83,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.7799,
+          "hodTimeExact": "10:04 AM ET",
+          "close": 1.08,
+          "fade": 39,
+          "fadeExact": 39.32,
+          "vwap": 1.3976,
+          "vsVwap": "below",
+          "pmHigh": 1.02,
+          "volRaw": "40.2M",
+          "volDollar": 56127391,
+          "relVol": 22.4,
+          "avgVolM": 1.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 30.5% surge (high volume of ~232k shares):**\n- Speculative momentum/day-trading frenzy on a",
+            "SHARE RESALE REGISTRATION | Shares: 3,871,000",
+            "**• No specific company news or announcements in the last 3 days (July 19–22, 2026) identified in public sources; the mo",
+            "Mingteng International Announces Full Launch of ERP and MES Systems, Advancing Digitalization in Mold Manufacturing",
+            "SHARE RESALE REGISTRATION | Shares: 3,871,000"
+          ],
+          "newsSummary": "MTEN surged 30.5% on high intraday volume (~232k shares) with no specific catalyst identified in the last 3 days—pure speculative momentum play. The most recent material news (ERP/MES digitalization launch on 7/13) is 4 weeks old and insufficient to justify today's move. Two share resale registrations (3.87M shares each on 7/24 and 7/10) signal ongoing dilution risk, not bullish accumulation.",
+          "bullFactors": [
+            "Sub-10M float (7.7M) creates structural squeeze potential for intraday runners",
+            "102% HOD with 39% fade shows late-session HOD printing and potential institutional accumulation window mid-move",
+            "22.4x relative volume demonstrates real intraday participation vs. premarket-only spike pattern"
+          ],
+          "bearFactors": [
+            "NO real catalyst—speculative momentum only; ERP announcement is 4 weeks stale and fluff-tier digitalization news",
+            "Dual share resale registrations (7.7M shares total) indicate dilution and insider/institutional exit supply overhead",
+            "39% fade from HOD warns of classic momentum fade into close; premarket gap (7.83%) already claimed most structural fuel",
+            "Chinese micro-cap with tiny $10.4M market cap—liquidity trap risk if entered late; China rig pattern does NOT apply (no sustained multi-session trend, no afternoon HOD retest)"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "ARTW",
+          "hod": 89,
+          "hodExact": 89.97,
+          "news": [
+            "Art&#39;s Way Announces Significant Increase in Backlog Following Award of Major Modular Building Projects",
+            "**• Primary catalyst: Company-specific announcement of a significant increase in backlog due to awards of major modular",
+            "Art’s-Way Manufacturing Announces Significant Increase in Modular Buildings Backlog",
+            "Art’s-Way Manufacturing Co., Inc. Announces Major Modular Buildings Segment Contracts",
+            "Based on the report provided, here is the summary of the company’s financial and operational status:\n\n**1.) Upcoming dat"
+          ],
+          "tag": "CONTRACT",
+          "name": "Arts-Way Manufacturing Co Inc",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 2.6,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [
+            "Float 2.6M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.195,
+          "open": 2.17,
+          "gapPct": -1.14,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.1699,
+          "hodTimeExact": "02:39 PM ET",
+          "close": 2.87,
+          "fade": 31,
+          "fadeExact": 31.17,
+          "vwap": 3.3459,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "31.4M",
+          "volDollar": 105086793,
+          "relVol": 837.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Art&#39;s Way Announces Significant Increase in Backlog Following Award of Major Modular Building Projects",
+            "**• Primary catalyst: Company-specific announcement of a significant increase in backlog due to awards of major modular",
+            "Art’s-Way Manufacturing Announces Significant Increase in Modular Buildings Backlog",
+            "Art’s-Way Manufacturing Co., Inc. Announces Major Modular Buildings Segment Contracts",
+            "Based on the report provided, here is the summary of the company’s financial and operational status:\n\n**1.) Upcoming dat"
+          ],
+          "newsSummary": "Art's Way Manufacturing announced a significant increase in backlog following awards of major modular building projects. This is real cash-value news with tangible contract awards driving future revenue, not sympathy or fluff. The catalyst has genuine operational merit and should support sustained institutional buying.",
+          "bullFactors": [
+            "Ultra-low float at 2.6M shares — excellent for momentum amplification and reduced overhead resistance",
+            "HOD printing at 89.97% with only 31.17% fade — strong session control and afternoon continuation strength indicating shorts covering and sustained buying pressure",
+            "Real catalyst with actual backlog/contract awards — cash-generative news that institutional buyers target, not dilutive or promotional fluff",
+            "Exceptional relative volume of 837x — intraday volume dominating premarket, consistent with Jack's float preference criteria and institutional accumulation pattern"
+          ],
+          "bearFactors": [
+            "Gap down -1.14% overnight — opens slightly below prior close, reducing room to run if resistance appears early",
+            "High fade percentage at 31% despite strong HOD — suggests meaningful intraday profit-taking or late-session liquidation that could accelerate if volume dries up",
+            "Small market cap ($15.7M) creates liquidity risk for large position exits and potential black swan volatility on any reversal"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "AUUD",
+          "hod": 87,
+          "hodExact": 87.3,
+          "news": [
+            "Auddia Announces SEC Effectiveness of S-4 Registration Statement Clearing Major Merger Milestone",
+            "**• Primary catalyst: SEC effectiveness of S-4 registration statement for merger with Thramann Holdings (announced ~7:00",
+            "Auddia Inc. Enters into Bridge Note Agreements to Fund Pending Merger Targets",
+            "Auddia Launches Discovr Radio Monthly Subscription Model, Advancing Shift Toward Recurring Revenue",
+            "Auddia Announces LT350 Advancement Toward First AI Datacenter Deployment, Engaging Fresh Consulting to Lead Engineering and Development"
+          ],
+          "tag": "MERGER",
+          "name": "Auddia Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 5.65,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 5.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8222,
+          "open": 1.43,
+          "gapPct": 73.92,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.54,
+          "hodTimeExact": "08:14 AM ET",
+          "close": 1.32,
+          "fade": 14,
+          "fadeExact": 14.29,
+          "vwap": 1.4192,
+          "vsVwap": "below",
+          "pmHigh": 1.8,
+          "volRaw": "136.3M",
+          "volDollar": 193420889,
+          "relVol": 694.8,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Auddia Announces SEC Effectiveness of S-4 Registration Statement Clearing Major Merger Milestone",
+            "**• Primary catalyst: SEC effectiveness of S-4 registration statement for merger with Thramann Holdings (announced ~7:00",
+            "Auddia Inc. Enters into Bridge Note Agreements to Fund Pending Merger Targets",
+            "Auddia Launches Discovr Radio Monthly Subscription Model, Advancing Shift Toward Recurring Revenue",
+            "Auddia Announces LT350 Advancement Toward First AI Datacenter Deployment, Engaging Fresh Consulting to Lead Engineering and Development"
+          ],
+          "newsSummary": "AUUD announced SEC effectiveness of S-4 registration statement for merger with Thramann Holdings, clearing a major regulatory milestone for deal closure. This is real catalyst with tangible M&A progress, not fluff—S-4 effectiveness means deal can proceed to shareholder vote and closing. However, bridge note financing from late July suggests potential capital strain, which could signal dilution risk post-merger.",
+          "bullFactors": [
+            "Micro-cap float of 5.65M shares creates tight supply for sustained intraday momentum",
+            "87.3% HOD percentage shows session highs dominating, indicating genuine afternoon continuation strength vs. premarket fade",
+            "Real M&A catalyst with regulatory completion—S-4 effectiveness is concrete deal progress, not sympathy or rumor",
+            "694.8x relative volume suggests institutional accumulation and retail FOMO, classic runner setup profile"
+          ],
+          "bearFactors": [
+            "73.92% gap open consumed most of daily range early, limiting room to upside for intraday scalp extensions",
+            "Bridge note agreements (late July) hint at dilutive financing structure pre-merger; merger terms and share count unknown",
+            "Merger uncertainty—deal closure depends on shareholder vote and Thramann integration; execution risk remains",
+            "14.29% fade percentage still material; if afternoon momentum fails, could see reversal into EOD sell-off"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 622,
+      "fade": 35,
+      "hodTime": "premarket",
+      "theme": "Hot Tape",
+      "note": "SCKT led +622.61% (23% fade). 1/10 held <20% fade. news: SCKT — \"Socket Mobile Partners with 3Eye Technologies to Expand Industrial Mobility Solutions for Apple-Based Frontline Operations\".",
+      "aiSummary": "**TAPE READ — 2026-08-10**\n\nToday's tape is dominated by no-news sympathy runs (JWEL, PCLA, RDGT, MTEN) and Chinese micro-caps, with a heavy concentration in Consumer Defensive and Communication Services sectors—a structural mismatch for this framework's preference for real catalysts and US tech/healthcare. Float tier is ideal (80% sub-5M, median 2.45M), but the session distribution is problematic: five of the top six runners spiked in premarket or morning with substantial fade ratios (23–54%), signaling classic COLD cycle tape where retail exhaustion dominates intraday continuation. SCKT (622% HOD, premarket spike, 23% fade on a CONTRACT) and JWEL (234% HOD on zero news) are already outside the playbook's entry window—too violent, too fast. The afternoon continuation plays (WYHG, RDGT, ARTW) show marginal volume and institutional exhaustion, not accumulation. This is a fade-heavy, dilutive-heavy session with no sustained institutional buying pressure; momentum traders should treat this as a tape to monitor for break-of-trend setups rather than chase existing runners."
+    },
     {
       "date": "2026-08-07",
       "runners": [
