@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-10T22:45:04.179877Z",
-  "count": 9605,
+  "exportedAt": "2026-08-11T21:03:33.062469Z",
+  "count": 9615,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,792 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-11",
+      "runners": [
+        {
+          "sym": "PLAG",
+          "hod": 1103,
+          "hodExact": 1103.82,
+          "news": [
+            "Planet Green Enters the Fast Growing Global Lactoferrin Market, Adding Chief Scientist to Drive Innovation-Based Product Portfolio Growth",
+            "**• Primary catalyst: Announcement today (Aug 11, 2026) that Planet Green has entered commercial operations to source, m",
+            "**• Possible reasons for the 24.2% surge with high volume (627k+ shares):**\n- Momentum-driven trading in a low-float, hi",
+            "**• Possible reasons for the ~80% price surge (with ~160k shares traded):**\n- Momentum/breakout trading following the Ju",
+            "**• Possible reasons for the 28.7% surge (high volume of 613k+ shares):**\n- Announcement of a major new business develop"
+          ],
+          "tag": "CONTRACT",
+          "name": "Planet Green Holdings Corp.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 11.79,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$26M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.79M + RelVol 51.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.79M + RelVol 51.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5657,
+          "open": 1.07,
+          "gapPct": 89.15,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 6.81,
+          "hodTimeExact": "03:39 PM ET",
+          "close": 5.81,
+          "fade": 14,
+          "fadeExact": 14.68,
+          "vwap": 1.7522,
+          "vsVwap": "above",
+          "pmHigh": 1.68,
+          "volRaw": "194.4M",
+          "volDollar": 340658638,
+          "relVol": 51.0,
+          "avgVolM": 3.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Planet Green Enters the Fast Growing Global Lactoferrin Market, Adding Chief Scientist to Drive Innovation-Based Product Portfolio Growth",
+            "**• Primary catalyst: Announcement today (Aug 11, 2026) that Planet Green has entered commercial operations to source, m",
+            "**• Possible reasons for the 24.2% surge with high volume (627k+ shares):**\n- Momentum-driven trading in a low-float, hi",
+            "**• Possible reasons for the ~80% price surge (with ~160k shares traded):**\n- Momentum/breakout trading following the Ju",
+            "**• Possible reasons for the 28.7% surge (high volume of 613k+ shares):**\n- Announcement of a major new business develop"
+          ],
+          "newsSummary": "Planet Green announced entry into the global lactoferrin market with commercial operations and added a Chief Scientist to drive product innovation. This is a real business development catalyst with tangible operational progress, not a speculative announcement. The move into a fast-growing market segment shows legitimate commercial expansion rather than fluff.",
+          "bullFactors": [
+            "Real catalyst: commercial operations entry into established lactoferrin market with named scientific leadership adds credibility",
+            "HOD dominance at 1103% gain suggests sustained intraday strength and afternoon continuation, not premarket spike fade",
+            "High relative volume (51.0x) throughout session indicates institutional accumulation, not retail-only pump",
+            "Float slightly above preference (11.79M) but manageable given intraday vol/min exceeded premarket vol/min per trader criteria"
+          ],
+          "bearFactors": [
+            "Float exceeds 10M preference threshold — reduces explosive micro-cap mechanics",
+            "14.68% fade from HOD signals some profit-taking and potential overhead supply formation",
+            "Historical pattern shows repeated surges (24.2%, 28.7%, ~80% in prior weeks) — may indicate overworked name with limited fresh momentum fuel",
+            "Market cap only $26M with lactoferrin market entry alone may lack staying power if retail enthusiasm cools"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WXM",
+          "hod": 220,
+          "hodExact": 220.0,
+          "news": [
+            "**• Possible reasons for the $WXM price movement (99.2% surge on high relative volume):**\n- Extreme volatility typical o",
+            "WF International Limited Releases Unaudited Financial Results for the Six Months Ended March 31, 2026",
+            "WF International Limited Reports Financial Results for the Six Months Ended March 31, 2026",
+            "WF International Limited Reports Financial Results for the Six Months Ended March 31, 2026",
+            "**• Possible reasons for the 21.8% price surge (low-float speculative trading in a micro-cap stock post-consolidation an"
+          ],
+          "tag": "EARNINGS",
+          "name": "WF International Limited Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 0.58,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 0.58M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.58M + RelVol 708.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.58M + RelVol 708.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4,
+          "open": 10.7203,
+          "gapPct": 168.01,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 12.8,
+          "hodTimeExact": "09:00 AM ET",
+          "close": 7.9,
+          "fade": 38,
+          "fadeExact": 38.28,
+          "vwap": 9.4964,
+          "vsVwap": "below",
+          "pmHigh": 13.91,
+          "volRaw": "42.0M",
+          "volDollar": 398973982,
+          "relVol": 708.3,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the $WXM price movement (99.2% surge on high relative volume):**\n- Extreme volatility typical o",
+            "WF International Limited Releases Unaudited Financial Results for the Six Months Ended March 31, 2026",
+            "WF International Limited Reports Financial Results for the Six Months Ended March 31, 2026",
+            "WF International Limited Reports Financial Results for the Six Months Ended March 31, 2026",
+            "**• Possible reasons for the 21.8% price surge (low-float speculative trading in a micro-cap stock post-consolidation an"
+          ],
+          "newsSummary": "WXM (WF International) released H1 2026 financial results on 2026-08-10, triggering a 99.2% intraday surge on 708.3x relative volume. The earnings catalyst appears to have real merit as a Chinese industrial name with documented financial reporting, though the extreme volatility and micro-cap float (0.58M shares) create black swan risk typical of low-liquidity names post-earnings.",
+          "bullFactors": [
+            "Ultra-low float at 0.58M shares — extreme leverage for any sustained institutional buying",
+            "Massive relative volume at 708.3x — genuine intraday accumulation, not premarket spike dominated",
+            "220% HOD with only 38.28% fade suggests afternoon session strength and short covering, not immediate collapse",
+            "Real earnings catalyst (H1 2026 results) provides fundamental anchor vs. sympathy/no-news themes"
+          ],
+          "bearFactors": [
+            "Chinese micro-cap with 99.2% single-day surge creates black swan liquidity risk and potential regulatory scrutiny",
+            "168% gap on open severely compresses intraday room to upside for fresh entries — most move already captured",
+            "Extreme volatility on micro-float may reflect pump mechanics despite sustained volume profile; distinguish carefully from institutional rig",
+            "Overhead supply likely building at session highs after 220% run — consolidation or hard fade risk into close/next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GLE",
+          "hod": 102,
+          "hodExact": 102.5,
+          "news": [
+            "Global Engine Group Holding Limited and Angkasa-X Holdings Corp. Enter into Strategic Collaboration to Advance Space-to-AI Edge Infrastructure Platform, Accelerating GLE’s Expansion into Next-Generation AI-Powered Digital Infrastructure",
+            "**• Possible reasons for the +27.9% move (with ~220k shares traded):**\n- Retail/momentum-driven trading in a low-float,",
+            "Global Engine Group Holding Limited and Angkasa-X Holdings Corp. Partner to Develop “Space-to-AI” Infrastructure in Sarawak, Malaysia",
+            "Global Engine Group Holding Limited Enters Strategic Collaboration Agreement with Angkasa-X",
+            "**• Possible reasons for the 33.4% surge (low-float/volatility-driven penny stock move with no clear fundamental catalys"
+          ],
+          "tag": "CONTRACT",
+          "name": "Global Engine Group Holding Limited Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 8.41,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 8.41M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.41M + RelVol 683.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.41M + RelVol 683.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3872,
+          "open": 0.6749,
+          "gapPct": 74.3,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.7841,
+          "hodTimeExact": "09:22 AM ET",
+          "close": 0.493,
+          "fade": 37,
+          "fadeExact": 37.12,
+          "vwap": 0.6214,
+          "vsVwap": "below",
+          "pmHigh": 0.815,
+          "volRaw": "144.5M",
+          "volDollar": 89816015,
+          "relVol": 683.5,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Global Engine Group Holding Limited and Angkasa-X Holdings Corp. Enter into Strategic Collaboration to Advance Space-to-AI Edge Infrastructure Platform, Accelerating GLE’s Expansion into Next-Generation AI-Powered Digital Infrastructure",
+            "**• Possible reasons for the +27.9% move (with ~220k shares traded):**\n- Retail/momentum-driven trading in a low-float,",
+            "Global Engine Group Holding Limited and Angkasa-X Holdings Corp. Partner to Develop “Space-to-AI” Infrastructure in Sarawak, Malaysia",
+            "Global Engine Group Holding Limited Enters Strategic Collaboration Agreement with Angkasa-X",
+            "**• Possible reasons for the 33.4% surge (low-float/volatility-driven penny stock move with no clear fundamental catalys"
+          ],
+          "newsSummary": "GLE announced a strategic collaboration with Angkasa-X Holdings to develop 'Space-to-AI' edge infrastructure in Malaysia—positioned as next-generation AI digital infrastructure expansion. The catalyst has merit (real partnership, tangible infrastructure play) but lacks typical cash-flow or binding contract details; partnership announcements are often lighter on substance than M&A or major contracts.",
+          "bullFactors": [
+            "Float 8.41M—well under 10M preference, supports volatility concentration",
+            "RelVol 683.5% is extreme; suggests sustained intraday accumulation not just premarket spike",
+            "HOD printing at 102.5% with only 37.12% fade—shows afternoon/session HOD strength typical of hot cycles, not cold premarket-spike fades",
+            "Gap 74.3% + sustained volume into close signals institutional buying pressure held through session"
+          ],
+          "bearFactors": [
+            "HK-listed micro-cap with history of volatility-driven moves (prior 33.4% surge with no clear fundamental catalyst in June)—retail/sympathy risk high",
+            "Partnership news lacks specificity (no revenue timeline, binding commitments, or cash inflow details); 'strategic collaboration' is lighter catalyst than revenue contract or M&A",
+            "Already up 102.5% HOD on gap day—limited room remaining; overhead supply risk into next session, fade probability high overnight/early session",
+            "Second headline snippet references 'no clear fundamental catalyst'—market may repricing as hype rather than sustainable business catalyst"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "OMH",
+          "hod": 100,
+          "hodExact": 100.57,
+          "news": [
+            "Ohmyhome Limited Announces Extraordinary General Meeting of Shareholders",
+            "Ohmyhome Limited Announces Extraordinary General Meeting to Approve 50-for-1 Share Consolidation",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "**• Possible reasons for the 35.1% surge (with ~23.5M shares traded):**\n- Pure speculative/momentum-driven trading and d",
+            "**Possible reasons for the $OMH price movement (as of ~Aug 5, 2026):**\n\n- **Speculative retail/momentum trading in a mic"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Ohmyhome Limited Class A Ordinary Shares",
+          "sector": "Real Estate",
+          "country": "SG",
+          "floatM": 45.11,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0881,
+          "open": 0.0788,
+          "gapPct": -10.56,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.1767,
+          "hodTimeExact": "12:12 PM ET",
+          "close": 0.1145,
+          "fade": 35,
+          "fadeExact": 35.2,
+          "vwap": 0.1299,
+          "vsVwap": "below",
+          "pmHigh": 0.089,
+          "volRaw": "352.2M",
+          "volDollar": 45747880,
+          "relVol": 7.8,
+          "avgVolM": 45.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Ohmyhome Limited Announces Extraordinary General Meeting of Shareholders",
+            "Ohmyhome Limited Announces Extraordinary General Meeting to Approve 50-for-1 Share Consolidation",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "**• Possible reasons for the 35.1% surge (with ~23.5M shares traded):**\n- Pure speculative/momentum-driven trading and d",
+            "**Possible reasons for the $OMH price movement (as of ~Aug 5, 2026):**\n\n- **Speculative retail/momentum trading in a mic"
+          ],
+          "newsSummary": "OMH announced a 50-for-1 share consolidation via EGM approval—a corporate restructuring with zero real cash value or business catalyst. The 35.2% fade after 100.57% HOD spike indicates classic premarket pump dominance, retail euphoria, and institutional distribution, not sustained intraday accumulation.",
+          "bullFactors": [
+            "Relative volume of 7.8x suggests retail attention and liquidity present",
+            "HOD printed at +100.57%, showing some intraday momentum before fade",
+            "Singapore real estate microcap with low market cap ($5.7M) can move on low float mechanics"
+          ],
+          "bearFactors": [
+            "Share consolidation is dilutive/restructuring fluff, not a real business catalyst—Jack avoids this type of announcement",
+            "Float is 45.11M—well above Jack's <10M preference and his 'will go higher only if intraday vol/min > premarket vol/min' threshold",
+            "35.2% fade after 100.57% HOD is classic COLD tape pattern: premarket spike dominance, pop-and-drop, heavy institutional rejection",
+            "Gap down -10.56% signals overnight sentiment reversal; tape failed to hold momentum into close"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "FRTT",
+          "hod": 69,
+          "hodExact": 69.91,
+          "news": [
+            "Fort Technology Signs Agreements for the Acquisition of Logia USA -  Fuel Integrity Solutions for Data Centers Company",
+            "**• Primary catalyst: Acquisition of Logia USA announced today (August 11, 2026)**  \nFort Technology signed a share tran",
+            "Fort Technology Signs Agreements for the Acquisition of Logia USA",
+            "Fort Technology Inc. to Acquire 50.1% Stake in Logia USA Inc.",
+            "ISP Global Capital Sets $10 Price Target for Fort Technology (NASDAQ: FRTT) Driven by Data Center Expansion"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Fort Technology Inc. Common Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CA",
+          "floatM": 4.26,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 4.26M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.977,
+          "open": 1.43,
+          "gapPct": 46.37,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.66,
+          "hodTimeExact": "08:05 AM ET",
+          "close": 1.29,
+          "fade": 22,
+          "fadeExact": 22.29,
+          "vwap": 1.6126,
+          "vsVwap": "below",
+          "pmHigh": 3.35,
+          "volRaw": "87.9M",
+          "volDollar": 141785968,
+          "relVol": 535.9,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Fort Technology Signs Agreements for the Acquisition of Logia USA -  Fuel Integrity Solutions for Data Centers Company",
+            "**• Primary catalyst: Acquisition of Logia USA announced today (August 11, 2026)**  \nFort Technology signed a share tran",
+            "Fort Technology Signs Agreements for the Acquisition of Logia USA",
+            "Fort Technology Inc. to Acquire 50.1% Stake in Logia USA Inc.",
+            "ISP Global Capital Sets $10 Price Target for Fort Technology (NASDAQ: FRTT) Driven by Data Center Expansion"
+          ],
+          "newsSummary": "Fort Technology announced acquisition of Logia USA (50.1% stake) on 2026-08-11, a data center fuel integrity solutions play with real operational synergy. This is a cash-generating asset in the hot data center infrastructure space, not a dilutive fluff deal—genuine M&A with strategic value and a $10 PT from ISP Global Capital validates the thesis.",
+          "bullFactors": [
+            "Sub-5M float (4.26M) + 46% gap + 69.91% HOD dominance = strong intraday structure with room to run",
+            "Real catalyst with actual cash value: acquisition of operating company in high-demand data center sector, not sympathy or no-news",
+            "535.9% relative volume all day sustains momentum; afternoon HOD printing suggests institutional accumulation continuing, not premarket pop-fade pattern",
+            "Third-party price target ($10) from ISP Global validates thesis beyond just the headline, reduces perception of hype-only move"
+          ],
+          "bearFactors": [
+            "Share transaction structure raises dilution risk—need to confirm whether deal is all-cash or stock-heavy; if heavily dilutive, retail will realize and fade hard",
+            "Already up 69% on HOD; fade of 22% is meaningful—late entries face resistance and potential afternoon selloff into close",
+            "Canadian micro-cap with 4.26M float and $19.4M market cap = liquidity constraints and wide spreads on exits; intraday volume may not sustain into next session",
+            "Acquisition announced same day as run = compressed catalyst window; risk of dead-cat bounce after institutional distribution completes"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "QMCO",
+          "hod": 66,
+          "hodExact": 66.38,
+          "news": [
+            "Breakout Stocks and Next Big Movers Could Be Taking Shape Now",
+            "**• Primary driver: Strong Q1 FY2027 earnings beat and positive outlook released after market close on August 10, 2026.*",
+            "These Have the Market Hot Zone Catalysts and Setups",
+            "Quantum Reports Fiscal First Quarter 2027 Financial Results",
+            "1.) **Name of the reporting person or owner**\nOaktree Capital Management LP\n\n2.) **Types of securities transacted and as"
+          ],
+          "tag": "EARNINGS",
+          "name": "Quantum Corporation",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 30.02,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$791M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 11.78,
+          "open": 14.52,
+          "gapPct": 23.26,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 19.5999,
+          "hodTimeExact": "04:31 PM ET",
+          "close": 19.4,
+          "fade": 1,
+          "fadeExact": 1.02,
+          "vwap": 18.0981,
+          "vsVwap": "above",
+          "pmHigh": 15,
+          "volRaw": "16.4M",
+          "volDollar": 297043808,
+          "relVol": 17.6,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Breakout Stocks and Next Big Movers Could Be Taking Shape Now",
+            "**• Primary driver: Strong Q1 FY2027 earnings beat and positive outlook released after market close on August 10, 2026.*",
+            "These Have the Market Hot Zone Catalysts and Setups",
+            "Quantum Reports Fiscal First Quarter 2027 Financial Results",
+            "1.) **Name of the reporting person or owner**\nOaktree Capital Management LP\n\n2.) **Types of securities transacted and as"
+          ],
+          "newsSummary": "QMCO reported a strong Q1 FY2027 earnings beat with positive forward guidance after market close on August 10, giving the stock real catalyst merit. The 66% HOD print with only 1% fade and 23% gap up shows sustained institutional buying pressure throughout the session, not a premarket spike-and-fade pattern.",
+          "bullFactors": [
+            "66.38% HOD with minimal 1.02% fade indicates hot tape and continued strength, not exhaustion",
+            "Real earnings beat + positive outlook = legitimate catalyst with fundamental support, not fluff",
+            "23.26% gap up + sustained HOD pressure suggests institutional accumulation and retail follow-through",
+            "17.6x relative volume on solid catalyst shows genuine institutional interest before retail FOMO"
+          ],
+          "bearFactors": [
+            "Float of 30M shares exceeds Jack's <10M preference and may limit intraday volatility/acceleration",
+            "Massive single-day move (66%+) creates potential black swan liquidity risk and elevated fade risk on next session open",
+            "Insider activity (Oaktree Capital) flagged in headlines — monitor for dilution or secondary offering risk",
+            "Post-earnings gap-up already priced in most euphoria; limited room to run higher without overhead resistance forming"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "WYHG",
+          "hod": 64,
+          "hodExact": 64.69,
+          "news": [
+            "**• Primary drivers for the ~39.7% surge (with ~167K shares traded):**  \n- Shareholders approved a KRW 36.8 billion (~$2",
+            "**• Possible reasons for the 38.6% surge in $WYHG (high volume of ~99k shares):**\n- Strong insider buying signal: On Aug",
+            "1.) Name of the reporting person or owner\n* Wang Xiantao\n\n2.) Types of securities transacted and associated amounts and",
+            "Wing Yip Food Holdings Group Limited Chairman Announces Open Market Share Purchase and Future Trading Plan",
+            "**• Possible reasons for the ~183% surge (low-float speculative momentum in a thinly traded ADS):**\n- Anticipation and/o"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "Wing Yip Food Holdings Group Limited American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 0.6,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$93M",
+          "riskBadges": [
+            "Float 0.6M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.72,
+          "open": 8.03,
+          "gapPct": 40.38,
+          "time": "regular session",
+          "session": "morning",
+          "high": 9.42,
+          "hodTimeExact": "09:43 AM ET",
+          "close": 7.39,
+          "fade": 21,
+          "fadeExact": 21.55,
+          "vwap": 7.8893,
+          "vsVwap": "below",
+          "pmHigh": 9.08,
+          "volRaw": "11.7M",
+          "volDollar": 92244788,
+          "relVol": 3.3,
+          "avgVolM": 3.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary drivers for the ~39.7% surge (with ~167K shares traded):**  \n- Shareholders approved a KRW 36.8 billion (~$2",
+            "**• Possible reasons for the 38.6% surge in $WYHG (high volume of ~99k shares):**\n- Strong insider buying signal: On Aug",
+            "1.) Name of the reporting person or owner\n* Wang Xiantao\n\n2.) Types of securities transacted and associated amounts and",
+            "Wing Yip Food Holdings Group Limited Chairman Announces Open Market Share Purchase and Future Trading Plan",
+            "**• Possible reasons for the ~183% surge (low-float speculative momentum in a thinly traded ADS):**\n- Anticipation and/o"
+          ],
+          "newsSummary": "WYHG moved on shareholder-approved KRW 36.8 billion buyback (Aug 11) combined with insider buying signal from Chairman Wang Xiantao (Aug 7-10). Real cash deployment and insider conviction signal merit, though micro-cap Chinese ADS liquidity remains a structural concern.",
+          "bullFactors": [
+            "Ultra-low float 0.6M shares — extreme leverage on any institutional accumulation or retail FOMO",
+            "Sustained intraday continuation (64.69% HOD vs 21.55% fade) suggests institutional rig pattern, not premarket pump-dump",
+            "Real catalyst: shareholder-approved buyback + insider buying = dual signal of management conviction and capital deployment",
+            "3.3x relative volume all day indicates genuine accumulation pressure, not flash spike"
+          ],
+          "bearFactors": [
+            "Chinese micro-cap ADS with structural liquidity risk — 167K-99K share volumes are micro-thin; position sizing critical",
+            "Premarket gap 40.38% already front-ran the news — most of move done before open, intraday runners already late",
+            "Consumer Defensive sector (food holdings) lacks the cash-flow visibility of biotech/tech deals; buyback is passive not transformational",
+            "Thinly traded name risks sudden liquidity evaporation on retail exit or short trap reversals"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AIFA",
+          "hod": 63,
+          "hodExact": 63.51,
+          "news": [
+            "**• Possible reasons for the ~22% price surge (microcap volatility common in low-float names post-reverse split):**\n- Re",
+            "**• Possible reasons for the 23.9% surge (high volume of 108k+ shares):**\n- Momentum/low-float squeeze play driven by sp",
+            "**• Possible reasons for the 37.1% price surge and high volume (69k+ shares):**\n- Momentum-driven retail trading and soc",
+            "All In FutureTech Alliance Inc. Announces Further Expansion of the LittleVault IP Matrix with Two New Marquee Knowledge IPs, Each with 10-Million-Plus Followers, as AI Course Development Accelerates",
+            "All In FutureTech Alliance Inc. Advances LittleVault Asset Injection to Strengthen Its Strategic Positioning in AI Content Platforms, Knowledge Distribution, and the Creator Ecosystem"
+          ],
+          "tag": "NO-NEWS",
+          "name": "All In FutureTech Alliance, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 2.96,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 2.96M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.96M + RelVol 84.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.96M + RelVol 84.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.11,
+          "open": 2.28,
+          "gapPct": 8.06,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.45,
+          "hodTimeExact": "03:48 PM ET",
+          "close": 3.18,
+          "fade": 7,
+          "fadeExact": 7.83,
+          "vwap": 3.123,
+          "vsVwap": "above",
+          "pmHigh": 2.29,
+          "volRaw": "7.1M",
+          "volDollar": 22056191,
+          "relVol": 84.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~22% price surge (microcap volatility common in low-float names post-reverse split):**\n- Re",
+            "**• Possible reasons for the 23.9% surge (high volume of 108k+ shares):**\n- Momentum/low-float squeeze play driven by sp",
+            "**• Possible reasons for the 37.1% price surge and high volume (69k+ shares):**\n- Momentum-driven retail trading and soc",
+            "All In FutureTech Alliance Inc. Announces Further Expansion of the LittleVault IP Matrix with Two New Marquee Knowledge IPs, Each with 10-Million-Plus Followers, as AI Course Development Accelerates",
+            "All In FutureTech Alliance Inc. Advances LittleVault Asset Injection to Strengthen Its Strategic Positioning in AI Content Platforms, Knowledge Distribution, and the Creator Ecosystem"
+          ],
+          "newsSummary": "AIFA has no material catalyst driving the 63.51% HOD gain on 2026-08-11. Recent headlines (July 14 & 9) about LittleVault IP expansion and asset injection are old news with no real cash value or partnership substance—classic creator/AI content platform fluff. The move is pure momentum-driven retail squeeze on a 2.96M float micro-cap post-reverse split, with no institutional fundamental support.",
+          "bullFactors": [
+            "Ultra-tight float at 2.96M shares—excellent compression setup for intraday squeezes",
+            "63.51% HOD domination with only 7.83% fade suggests sustained afternoon buying and short covering pressure, not premarket spike collapse",
+            "Relative volume of 84.5x indicates genuine retail/institutional participation all session, not a 2-minute flash spike"
+          ],
+          "bearFactors": [
+            "Zero real catalyst—LittleVault IP announcements are vague, have no monetization detail, and are 3+ weeks old; this is pure sympathy/low-float momentum, not fundamental",
+            "Reverse split history + microcap volatility suggests high risk of sharp fade and gap-down; no daily chart room established yet post-spike",
+            "Fluff news (creator ecosystem, AI courses) lacks cash flow, partnership names, or revenue proof—typical pump signature despite strong tape"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "STIM",
+          "hod": 58,
+          "hodExact": 58.53,
+          "news": [
+            "Neuronetics Reports Second Quarter 2026 Financial and Operating Results",
+            "Neuronetics Reports Second Quarter 2026 Financial Results and Leadership Appointments",
+            "Neuronetics, Inc. August 2026 Company Presentation and Financial Outlook",
+            "Neuronetics, Inc. Announces Second Quarter 2026 Financial Results",
+            "**• Strong Q2 2026 earnings release (today, pre-market):** Revenue of $41.6M (+9.1% YoY, beat estimates ~$40.2M); adj. E"
+          ],
+          "tag": "EARNINGS",
+          "name": "Neuronetics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 30.57,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$225M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.17,
+          "open": 2.735,
+          "gapPct": 26.04,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.44,
+          "hodTimeExact": "10:01 AM ET",
+          "close": 3.19,
+          "fade": 7,
+          "fadeExact": 7.27,
+          "vwap": 3.0619,
+          "vsVwap": "above",
+          "pmHigh": 2.99,
+          "volRaw": "28.8M",
+          "volDollar": 88189438,
+          "relVol": 12.6,
+          "avgVolM": 2.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Neuronetics Reports Second Quarter 2026 Financial and Operating Results",
+            "Neuronetics Reports Second Quarter 2026 Financial Results and Leadership Appointments",
+            "Neuronetics, Inc. August 2026 Company Presentation and Financial Outlook",
+            "Neuronetics, Inc. Announces Second Quarter 2026 Financial Results",
+            "**• Strong Q2 2026 earnings release (today, pre-market):** Revenue of $41.6M (+9.1% YoY, beat estimates ~$40.2M); adj. E"
+          ],
+          "newsSummary": "Neuronetics reported Q2 2026 earnings pre-market with $41.6M revenue (+9.1% YoY), beating estimates of ~$40.2M, plus leadership appointments. Real earnings beat with positive YoY growth and forward guidance provides legitimate fundamental support, though healthcare sector volatility remains a risk.",
+          "bullFactors": [
+            "Strong earnings beat (41.6M vs ~40.2M est.) with positive YoY growth (+9.1%) = real cash value catalyst, not fluff",
+            "58.53% HOD dominance with 7.27% fade suggests institutional accumulation and sustained afternoon strength, not premarket spike-and-dump",
+            "12.6x relative volume indicates genuine intraday participation; tape temperature HOT with session HODs printing"
+          ],
+          "bearFactors": [
+            "Float at 30.57M exceeds Jack's <10M preference — higher float dilutes momentum velocity and increases fade risk on intraday pullbacks",
+            "Healthcare sector prone to profit-taking and data re-reads; earnings catalyst can reverse on analyst downgrades or macro rotation",
+            "Gap of 26.04% already captured most euphoria in premarket; room-to-upside on daily chart unclear without overhead supply analysis"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MUAr",
+          "hod": 54,
+          "hodExact": 54.0,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "BlackRock MuniAssets Fund, Inc. Rights (expiring August 20, 2026)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.005,
+          "open": 0.0077,
+          "gapPct": 54.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.0077,
+          "hodTimeExact": "09:30 AM ET",
+          "close": 0.0075,
+          "fade": 2,
+          "fadeExact": 2.6,
+          "vwap": 0.0058,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "800K",
+          "volDollar": 4640,
+          "relVol": 0.5,
+          "avgVolM": 1.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsSummary": "MUAr gapped 54% at open with no identifiable headline or catalyst. This is a pure premarket spike with no fundamental news driving the move, suggesting retail/momentum chasing rather than institutional accumulation on real value.",
+          "bullFactors": [
+            "54% HOD still holding (not an immediate fade), suggesting some intraday demand",
+            "Session HOD domination over premarket spike is constructive tape signal if sustained"
+          ],
+          "bearFactors": [
+            "Massive 54% premarket gap with zero news is a major red flag — classic pump setup with fade risk",
+            "Float unknown and market cap = 0 indicate micro-cap shell or data quality issue — high risk for manipulation",
+            "0.5x relative volume is weak; lacks institutional volume confirmation needed for Jack's dip/soak accumulation reads",
+            "No catalyst merit means this is pure momentum chase with high probability of afternoon fade and gap reversal"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 1103,
+      "fade": 18,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "PLAG led +1103.82% (14% fade). 5/10 held <20% fade. news: PLAG — \"Planet Green Enters the Fast Growing Global Lactoferrin Market, Adding Chief Scientist to Drive Innovation-Based Product Portfolio Growth\".",
+      "aiSummary": "Today's tape is dominated by CONTRACT and EARNINGS catalysts with heavy concentration in Chinese microcaps (WXM, WYHG, GLE) and a notable US industrial spike (PLAG at 1103% HOD), but the session structure screams COLD CYCLE — premarket spikes control the top 3 names (WXM, GLE, FRTT) with fade rates of 37–38%, while HOD printing in afternoon session (PLAG, OMH, AIFA) shows fragmented strength rather than sustained momentum continuation. Float skews dangerously high outside the preferred <10M tier, with OMH at 45M and QMCO at 30M diluting clean setups, though micro-float names like WYHG (0.6M) and WXM (0.58M) offer entry mechanics — however, the 100%+ spike velocity on PLAG and GLE's premarket dominance signal liquidity traps this framework would avoid. This playbook should treat today as a fade-prone environment: real catalyst quality (EARNINGS, ACQUISITIONS) is present, but the premarket-spike-then-fade pattern combined with high float overhead makes risk/reward poor for dip accumulation reads; sustained afternoon HODs on lower float names (AIFA, QMCO's after-hours hold) are the only structural positives, but volume concentration and session timing suggest patient entry or full pass is optimal."
+    },
     {
       "date": "2026-08-10",
       "runners": [
