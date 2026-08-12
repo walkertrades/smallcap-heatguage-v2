@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-11T21:03:33.062469Z",
-  "count": 9615,
+  "exportedAt": "2026-08-12T20:45:47.250657Z",
+  "count": 9625,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,816 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-12",
+      "runners": [
+        {
+          "sym": "OFAL",
+          "hod": 431,
+          "hodExact": 431.41,
+          "news": [
+            "**• Possible reasons for the ~24.6% surge (low-float momentum/volume-driven move):**\n- Short squeeze or oversold rebound",
+            "**• Possible reasons for the price movement:**\n- Low-float microcap momentum/pump trade with extreme pre-market volume (",
+            "OFA Group, Inc. Announces 1-for-10 Consolidation of Class A Ordinary Shares",
+            "OFA Group Announces 1-for-10 Share Consolidation",
+            "OFA Group, Inc. Announces 1-for-10 Consolidation of Class A Ordinary Shares"
+          ],
+          "tag": "NO-NEWS",
+          "name": "OFA Group Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 1.83,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.83M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.83M + RelVol 212.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.83M + RelVol 212.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7132,
+          "open": 2.54,
+          "gapPct": 256.14,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.79,
+          "hodTimeExact": "09:56 AM ET",
+          "close": 1.36,
+          "fade": 64,
+          "fadeExact": 64.12,
+          "vwap": 2.0924,
+          "vsVwap": "below",
+          "pmHigh": 3.5,
+          "volRaw": "148.0M",
+          "volDollar": 309708335,
+          "relVol": 212.8,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": "10:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the ~24.6% surge (low-float momentum/volume-driven move):**\n- Short squeeze or oversold rebound",
+            "**• Possible reasons for the price movement:**\n- Low-float microcap momentum/pump trade with extreme pre-market volume (",
+            "OFA Group, Inc. Announces 1-for-10 Consolidation of Class A Ordinary Shares",
+            "OFA Group Announces 1-for-10 Share Consolidation",
+            "OFA Group, Inc. Announces 1-for-10 Consolidation of Class A Ordinary Shares"
+          ],
+          "newsSummary": "OFAL spiked 431% on a 256% gap with no material catalyst—only generic commentary on low-float momentum and possible short squeeze. The only real news is a 1-for-10 share consolidation from late July, which is a neutral restructuring event, not a bullish catalyst. This is a pure momentum/liquidity play with zero fundamental support.",
+          "bullFactors": [
+            "Extreme low float at 1.83M shares—textbook squeeze setup if shorts trapped",
+            "Relative volume 212.8x suggests sustained intraday buying pressure, not one-minute spike fade",
+            "HOD 431% with 64% fade still leaves massive room to upside if momentum holds into afternoon"
+          ],
+          "bearFactors": [
+            "No real catalyst—share consolidation is dilutive optics and fluff news masking a struggling stock",
+            "256% premarket gap is a classic red flag; runner already spiked hard before retail entry, leaving limited edge",
+            "Fade of 64% intraday shows institutional distribution already underway—late entries face cliff risk",
+            "Microcap industrials with no earnings, partnerships, or cash-backed news typically roll over hard into close"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "VBIO",
+          "hod": 319,
+          "hodExact": 319.35,
+          "news": [
+            "Valion Bio Announces U.S. Government-Funded Entolimod Studies Targeting Lethal Radiation-Induced GI Injury",
+            "**• Primary catalyst: Company-specific announcement of U.S. government-funded Entolimod studies**  \nValion Bio announced",
+            "1.) **Name of the reporting person or owner**\n*   3i, LP\n*   Tumim Stone Capital, LLC\n*   3i Management LLC\n*   Maier J.",
+            "Valion Bio, Inc. Achieves Development Milestone and Issues Series A Preferred Stock",
+            "1.) **Name of the reporting person or owner**\n*   3i, LP\n*   Tumim Stone Capital, LLC\n*   3i Management LLC\n*   Maier J."
+          ],
+          "tag": "CONTRACT",
+          "name": "Valion Bio, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 4.33,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 4.33M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.33M + RelVol 122.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.33M + RelVol 122.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.31,
+          "open": 0.3333,
+          "gapPct": 7.52,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.3,
+          "hodTimeExact": "09:56 AM ET",
+          "close": 0.226,
+          "fade": 82,
+          "fadeExact": 82.62,
+          "vwap": 0.5222,
+          "vsVwap": "below",
+          "pmHigh": 0.341,
+          "volRaw": "130.4M",
+          "volDollar": 68076864,
+          "relVol": 122.2,
+          "avgVolM": 1.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Valion Bio Announces U.S. Government-Funded Entolimod Studies Targeting Lethal Radiation-Induced GI Injury",
+            "**• Primary catalyst: Company-specific announcement of U.S. government-funded Entolimod studies**  \nValion Bio announced",
+            "1.) **Name of the reporting person or owner**\n*   3i, LP\n*   Tumim Stone Capital, LLC\n*   3i Management LLC\n*   Maier J.",
+            "Valion Bio, Inc. Achieves Development Milestone and Issues Series A Preferred Stock",
+            "1.) **Name of the reporting person or owner**\n*   3i, LP\n*   Tumim Stone Capital, LLC\n*   3i Management LLC\n*   Maier J."
+          ],
+          "newsSummary": "Valion Bio announced U.S. government-funded Entolimod studies targeting lethal radiation-induced GI injury — a real cash-backed contract with clinical merit, not sympathy or fluff. This is a legitimate catalyst with institutional credibility, though the stock has already experienced massive intraday run (319% HOD) raising questions about entry timing and remaining fuel.",
+          "bullFactors": [
+            "Ultra-tight float at 4.33M shares — excellent for sustained momentum and low liquidity friction",
+            "Real catalyst: U.S. government-funded clinical studies indicate legitimate institutional interest and de-risked development pathway",
+            "Strong relative volume (122.2x) sustains intraday buying pressure throughout session — not a premarket spike fade",
+            "Healthcare biotech sector with clinical-stage asset has structural appeal to momentum capital"
+          ],
+          "bearFactors": [
+            "319% HOD on single day suggests spike is already extremely extended — Jack avoids names spiking 100%+ in 1-2 minutes and this qualifies as 'out of play' territory",
+            "82.62% fade from HOD indicates retail exhaustion and potential institutional distribution into strength — likely sitting in overhead supply zone",
+            "Recent Series A preferred stock issuance (2026-08-06) signals capital raise which could be dilutive to equity holders; insider activity from 3i/Tumim Stone warrants scrutiny for insider distribution",
+            "Biotech contract announcements can carry execution risk; government-funded studies don't guarantee commercialization or revenue"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "BOXL",
+          "hod": 237,
+          "hodExact": 237.54,
+          "news": [
+            "**• Primary catalyst: Announcement of initial closing of $5.5M private placement (part of up to $7.5M total) in Series D",
+            "Boxlight Corporation Announces Securities Purchase Agreement and $15 Million Equity Line of Credit",
+            "**• Possible reasons for the 34.7% price surge (low-float volatility typical of this penny stock):**\n- Speculative tradi",
+            "Boxlight Corporation Announces Initial Closing of Private Placement",
+            "Boxlight Corporation Announces CFO Resignation and Appointment of Interim CFO"
+          ],
+          "tag": "OFFERING",
+          "name": "Boxlight Corporation Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.57,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 0.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.57M + RelVol 215.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.57M + RelVol 215.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.93,
+          "open": 4.565,
+          "gapPct": 55.8,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 9.89,
+          "hodTimeExact": "05:05 AM ET",
+          "close": 7.87,
+          "fade": 20,
+          "fadeExact": 20.42,
+          "vwap": 6.1609,
+          "vsVwap": "above",
+          "pmHigh": 6.8,
+          "volRaw": "63.4M",
+          "volDollar": 390488698,
+          "relVol": 215.0,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Announcement of initial closing of $5.5M private placement (part of up to $7.5M total) in Series D",
+            "Boxlight Corporation Announces Securities Purchase Agreement and $15 Million Equity Line of Credit",
+            "**• Possible reasons for the 34.7% price surge (low-float volatility typical of this penny stock):**\n- Speculative tradi",
+            "Boxlight Corporation Announces Initial Closing of Private Placement",
+            "Boxlight Corporation Announces CFO Resignation and Appointment of Interim CFO"
+          ],
+          "newsSummary": "BOXL announced closing of $5.5M private placement (part of $7.5M Series D) plus a $15M equity line of credit. While funding announcements can provide runway, private placements and equity lines are inherently dilutive and signal capital desperation rather than organic strength. The 237% HOD move appears driven by low-float speculation on funding news, not real cash-generative catalysts.",
+          "bullFactors": [
+            "Ultra-low float at 0.57M shares — extreme leverage on any intraday volume spike",
+            "237% HOD with 215% relative volume shows sustained intraday momentum and retail/institutional chasing",
+            "High-volume afternoon continuation pattern (not pure premarket spike fade) suggests some institutional accumulation"
+          ],
+          "bearFactors": [
+            "Private placement + equity line = dilutive capital raise, not revenue/earnings/partnership catalyst — fluff news by Jack's standards",
+            "CFO resignation on 2026-08-04 signals internal instability and governance risk",
+            "20.4% fade from HOD + micro-cap tech sector vulnerable to sharp reversals; equity line suggests ongoing burn rate concerns",
+            "Micro-cap market cap ($4.5M) with dilution ahead = high risk of waterfall post-euphoria"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "RMCF",
+          "hod": 219,
+          "hodExact": 219.7,
+          "news": [
+            "Rocky Mountain Chocolate Factory, Inc. Explores Strategic Alternatives Including Potential Sale",
+            "**• Primary catalyst: Strategic review announced via 8-K filing on/around August 11, 2026.** Rocky Mountain Chocolate Fa",
+            "Powerful Catalysts Sending These Stocks into High Gear",
+            "Rocky Mountain Chocolate Factory, Inc. Announces Results of 2026 Annual Meeting of Stockholders",
+            "Rocky Mountain Chocolate Factory Expands Company-Owned Store Portfolio with Acquisition of Chino Hills, California Location"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Rocky Mountain Chocolate Factory, Inc. Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 6.33,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [
+            "Float 6.33M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6725,
+          "open": 1.74,
+          "gapPct": 158.74,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.15,
+          "hodTimeExact": "07:22 AM ET",
+          "close": 1.52,
+          "fade": 29,
+          "fadeExact": 29.3,
+          "vwap": 1.576,
+          "vsVwap": "below",
+          "pmHigh": 2.48,
+          "volRaw": "201.1M",
+          "volDollar": 316872807,
+          "relVol": 5786.5,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Rocky Mountain Chocolate Factory, Inc. Explores Strategic Alternatives Including Potential Sale",
+            "**• Primary catalyst: Strategic review announced via 8-K filing on/around August 11, 2026.** Rocky Mountain Chocolate Fa",
+            "Powerful Catalysts Sending These Stocks into High Gear",
+            "Rocky Mountain Chocolate Factory, Inc. Announces Results of 2026 Annual Meeting of Stockholders",
+            "Rocky Mountain Chocolate Factory Expands Company-Owned Store Portfolio with Acquisition of Chino Hills, California Location"
+          ],
+          "newsSummary": "Rocky Mountain Chocolate Factory announced a strategic review including potential sale via 8-K on August 11, 2026. This is real M&A catalyst with genuine deal potential, not fluff news. The market repriced 159% gap + 220% HOD on institutional recognition of takeout value.",
+          "bullFactors": [
+            "Float 6.33M — well under 10M preference, tight float amplifies institutional demand",
+            "219.7% HOD with sustained high relVol (5786x) — session HODs dominating, shorts blowing out, afternoon continuation strength",
+            "Real cash catalyst (M&A/strategic sale) — Jack's highest-quality catalyst tier, not sympathy or dilutive",
+            "Daily chart room intact — no warrants/ATM mentioned, small-cap micro allows room to run on bid support"
+          ],
+          "bearFactors": [
+            "159.74% gap into open — initial spike velocity high; must confirm afternoon HOD holds or risk 29.3% fade into close",
+            "Consumer Defensive sector — typically lower vol/momentum than biotech/tech; retail participation may cool by afternoon",
+            "Strategic review timeline unclear — deal may take weeks/months; risk of news fade if no update or if competing bids don't emerge",
+            "$13.6M market cap on $6.33M float creates extreme illiquidity risk; large exits could trigger cascading stops"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "BIVI",
+          "hod": 198,
+          "hodExact": 198.43,
+          "news": [
+            "**• Primary driver: Anticipation and momentum around today’s (August 12, 2026) 4:15 p.m. EDT investor webinar/conference",
+            "**• Positive Phase 2 SUNRISE-PD topline results for bezisterim (NE3107) in early Parkinson’s disease** (announced August",
+            "1.) **Name of the reporting person or owner**\n* Morgan Stanley\n* Morgan Stanley Smith Barney LLC\n\n2.) **Types of securit",
+            "1.) Name of the reporting person or owner\n* Morgan Stanley\n* Morgan Stanley Smith Barney LLC\n\n2.) Types of securities tr",
+            "BioVie Announces Topline Results of Phase 2 SUNRISE-PD Trial of Bezisterim in Early Parkinson’s Disease"
+          ],
+          "tag": "PHASE-2",
+          "name": "BioVie, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 7.39,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [
+            "Float 7.39M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.27,
+          "open": 1.35,
+          "gapPct": 6.3,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.79,
+          "hodTimeExact": "10:42 AM ET",
+          "close": 1.56,
+          "fade": 58,
+          "fadeExact": 58.84,
+          "vwap": 2.7139,
+          "vsVwap": "below",
+          "pmHigh": 1.48,
+          "volRaw": "118.8M",
+          "volDollar": 322378745,
+          "relVol": 122.2,
+          "avgVolM": 1.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary driver: Anticipation and momentum around today’s (August 12, 2026) 4:15 p.m. EDT investor webinar/conference",
+            "**• Positive Phase 2 SUNRISE-PD topline results for bezisterim (NE3107) in early Parkinson’s disease** (announced August",
+            "1.) **Name of the reporting person or owner**\n* Morgan Stanley\n* Morgan Stanley Smith Barney LLC\n\n2.) **Types of securit",
+            "1.) Name of the reporting person or owner\n* Morgan Stanley\n* Morgan Stanley Smith Barney LLC\n\n2.) Types of securities tr",
+            "BioVie Announces Topline Results of Phase 2 SUNRISE-PD Trial of Bezisterim in Early Parkinson’s Disease"
+          ],
+          "newsSummary": "BioVie announced positive Phase 2 SUNRISE-PD topline results for bezisterim (NE3107) in early Parkinson's disease on August 6, with primary momentum driver being today's 4:15 p.m. EDT investor webinar. This is real clinical data with genuine therapeutic merit, not fluff news.",
+          "bullFactors": [
+            "Float of 7.39M is well under 10M preference — tight float supports momentum runs",
+            "HOD up 198% with only 58.84% fade suggests sustained intraday buying pressure and short-squeeze dynamics, not premarket spike fade pattern",
+            "Genuine Phase 2 efficacy data in Parkinson's is legitimate catalyst with real clinical/commercial value; webinar today extends catalyst duration into afternoon session",
+            "RelVol 122.2 confirms strong institutional engagement throughout session; market cap $13.75M supports small-cap runner mechanics"
+          ],
+          "bearFactors": [
+            "6.3% gap up into a 198% intraday run risks extended move with limited room left and potential afternoon fade into/after webinar",
+            "Phase 2 data announced August 6 but stock running hard on August 12 — delayed reaction suggests retail FOMO chase rather than institutional entry at discovery",
+            "Webinar at 4:15 p.m. EDT is event risk; if guidance/commentary disappoints, sharp fade likely in final 15 mins or AH",
+            "Healthcare/biotech micro-caps carry clinical/regulatory binary risk; single Phase 2 positive does not guarantee Phase 3 or approval"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BQ",
+          "hod": 160,
+          "hodExact": 160.22,
+          "news": [
+            "**• No company-specific news, earnings, announcements, or filings from the last 3 days (Aug 9–12, 2026) identified as a",
+            "Boqii Holding Limited Filed Annual Report on Form 20-F for Fiscal Year 2026",
+            "**• No specific company news, earnings, announcements, or filings identified in the last 3 days (July 10–13, 2026) to ex",
+            "Based on the financial report provided, here is the summary categorized as requested:\n\n### 1.) Upcoming dates or timelin",
+            "Boqii Holding Limited Addresses Unusual Market Activity"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Boqii Holding Limited",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 15.04,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.807,
+          "open": 0.8975,
+          "gapPct": 11.21,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.1,
+          "hodTimeExact": "11:12 AM ET",
+          "close": 1.23,
+          "fade": 41,
+          "fadeExact": 41.43,
+          "vwap": 1.36,
+          "vsVwap": "below",
+          "pmHigh": 1.3,
+          "volRaw": "119.3M",
+          "volDollar": 162261127,
+          "relVol": 1492.3,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• No company-specific news, earnings, announcements, or filings from the last 3 days (Aug 9–12, 2026) identified as a",
+            "Boqii Holding Limited Filed Annual Report on Form 20-F for Fiscal Year 2026",
+            "**• No specific company news, earnings, announcements, or filings identified in the last 3 days (July 10–13, 2026) to ex",
+            "Based on the financial report provided, here is the summary categorized as requested:\n\n### 1.) Upcoming dates or timelin",
+            "Boqii Holding Limited Addresses Unusual Market Activity"
+          ],
+          "newsSummary": "BQ spiked 11.21% in the gap with no company-specific catalyst in the last 3 days—this is a pure sympathy/tape-driven move. The most recent filing is a routine 20-F annual report from July 13, which has zero intraday catalyst merit. Movement is driven entirely by tape temperature and retail momentum in a Chinese micro-cap name.",
+          "bullFactors": [
+            "Session HOD dominance: 160% HOD vs 41% fade suggests afternoon continuation strength and potential short-covering into close, not premarket fade pattern",
+            "Sustained relative volume (1492.3x) all day indicates institutional accumulation pressure, consistent with China rig pattern rather than pump-and-dump",
+            "Chinese micro-cap with 15M float shows enough liquidity for intraday scalps if tape stays hot; small cap structure supports momentum runners",
+            "Late-session HOD printing typical of China rig setups—multi-push consolidation with repeat buys vs classic premarket spike fade"
+          ],
+          "bearFactors": [
+            "Float at 15.04M exceeds Jack's <10M preference—at upper tolerance limit and will reduce velocity if retail interest fades",
+            "NO catalyst merit—purely sympathy/tape-driven with routine 20-F filing as only recent news, meaning vulnerability to sudden washout if market sentiment shifts",
+            "Already up 160% on session; late-entry risk is high—tape could flip from hot to cold quickly in Chinese micro-caps without real business catalyst to anchor demand",
+            "Market cap only $17.6M suggests low institutional conviction long-term; this is a day-trade only setup with black swan liquidation risk if news turns negative"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WCT",
+          "hod": 110,
+          "hodExact": 110.53,
+          "news": [
+            "**• Possible reasons for the 36.2% surge (low-float momentum/penny stock dynamics):**  \n- Micro-float Chinese stock (rep",
+            "Wellchange Holdings Company Limited Announces Resignation of Independent Director Shi Zhu",
+            "**• Possible reasons for the 24.5% price surge (low-float speculative momentum in a micro-cap HK software stock):**  \n-",
+            "OFFERING - Best Efforts | Bank: Prime Number Capital, LLC",
+            "Wellchange Holdings Company Limited Announces Results of Shareholder Meetings and Approval of Capital Restructuring"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Wellchange Holdings Company Limited Class A Ordinary shares",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 2.75,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 2.75M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.874,
+          "open": 0.88,
+          "gapPct": 0.69,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.84,
+          "hodTimeExact": "11:46 AM ET",
+          "close": 1.04,
+          "fade": 43,
+          "fadeExact": 43.48,
+          "vwap": 1.3663,
+          "vsVwap": "below",
+          "pmHigh": 0.88,
+          "volRaw": "32.3M",
+          "volDollar": 44081627,
+          "relVol": 377.4,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 36.2% surge (low-float momentum/penny stock dynamics):**  \n- Micro-float Chinese stock (rep",
+            "Wellchange Holdings Company Limited Announces Resignation of Independent Director Shi Zhu",
+            "**• Possible reasons for the 24.5% price surge (low-float speculative momentum in a micro-cap HK software stock):**  \n-",
+            "OFFERING - Best Efforts | Bank: Prime Number Capital, LLC",
+            "Wellchange Holdings Company Limited Announces Results of Shareholder Meetings and Approval of Capital Restructuring"
+          ],
+          "newsSummary": "WCT spiked 110.53% HOD with a 43.48% fade, driven by micro-float momentum dynamics rather than meaningful catalyst. Recent headlines show director resignation (fluff), capital restructuring approval (dilutive), and an active offering (red flag for ongoing dilution). No real cash value news or strong catalyst present.",
+          "bullFactors": [
+            "Ultra-tight float at 2.75M shares — fits Jack's sub-10M preference perfectly",
+            "Extreme relative volume (377.4x) indicates sustained institutional or coordinated buying pressure throughout session",
+            "HOD printing at 110% suggests afternoon continuation and potential China rig pattern, not premarket spike-fade"
+          ],
+          "bearFactors": [
+            "Active offering from Prime Number Capital (July 7) indicates ongoing dilution risk and secondary supply overhead",
+            "No real catalyst — director resignation and capital restructuring are corporate housekeeping, not value drivers",
+            "43.48% fade shows significant intraday weakness; premarket gap only 0.69% means spike occurred on session momentum, not overnight catalyst",
+            "HK-listed micro-cap with minimal market cap ($7.4M) raises liquidity and black swan risk despite high relative volume"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "CHOW",
+          "hod": 103,
+          "hodExact": 103.39,
+          "news": [
+            "**• Possible reasons for the 42.4% surge (with >1M shares traded):**\n- Low-float momentum/speculative day trade in a vol",
+            "**No specific fundamental news, announcements, or catalysts identified in the last 3 days (June 29–July 2, 2026).** The",
+            "ChowChow Cloud International Holdings Limited Announces $500,000 Private Placement",
+            "HEADLINE: ChowChow Cloud International Holdings Ltd. Announces Securities Purchase Agreement\n\n1.) Summary: \n- ChowChow C",
+            "ChowChow Cloud International Holdings Limited Provides Response to Unusual Market Action"
+          ],
+          "tag": "NO-NEWS",
+          "name": "ChowChow Cloud International Holdings Limited",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 11.18,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.18M + RelVol 676.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.18M + RelVol 676.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.354,
+          "open": 0.6356,
+          "gapPct": 79.55,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.72,
+          "hodTimeExact": "08:20 AM ET",
+          "close": 0.5,
+          "fade": 30,
+          "fadeExact": 30.56,
+          "vwap": 0.5589,
+          "vsVwap": "below",
+          "pmHigh": 0.7468,
+          "volRaw": "237.5M",
+          "volDollar": 132748238,
+          "relVol": 676.2,
+          "avgVolM": 0.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 42.4% surge (with >1M shares traded):**\n- Low-float momentum/speculative day trade in a vol",
+            "**No specific fundamental news, announcements, or catalysts identified in the last 3 days (June 29–July 2, 2026).** The",
+            "ChowChow Cloud International Holdings Limited Announces $500,000 Private Placement",
+            "HEADLINE: ChowChow Cloud International Holdings Ltd. Announces Securities Purchase Agreement\n\n1.) Summary: \n- ChowChow C",
+            "ChowChow Cloud International Holdings Limited Provides Response to Unusual Market Action"
+          ],
+          "newsSummary": "CHOW spiked 79.55% on gap with no identifiable fundamental catalyst in the last 3 days—pure low-float momentum/speculative trading. Recent news (June 18) shows a $500K private placement, which is dilutive and explains institutional caution; the 42.4% intraday surge appears driven solely by float compression and retail FOMO rather than real cash value or earnings data.",
+          "bullFactors": [
+            "Extreme relative volume (676.2x) indicates genuine intraday institutional participation, not just retail chasing",
+            "HOD printing at 103.39% with only 30.56% fade suggests sustained buying pressure and potential shorts covering",
+            "Float just above 11M is tight enough for momentum amplification if institutional accumulation is real"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst—pure sympathy/momentum play with high risk of flash crash when retail unwinds",
+            "Recent $500K private placement (June 18) is dilutive and signals weak balance sheet; no real cash value deal",
+            "79.55% gap + 42.4% intraday surge in one day is aggressive spike territory; risk of premarket dominance fading into close",
+            "Hong Kong micro-cap with headline stating 'No specific fundamental news' confirms this is a rig, not a sustainable thesis"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SBEV",
+          "hod": 81,
+          "hodExact": 81.73,
+          "news": [
+            "Splash Beverage Group to Rebrand as Endovia Health Sciences",
+            "Splash Beverage Group to Rebrand as Endovia Health Sciences",
+            "Splash Beverage Group, Inc. Announces Corporate Name Change to Endovia Health Sciences, Inc.",
+            "**• Primary catalyst: Corporate rebranding announcement (most recent, today Aug 12, 2026)**  \nSplash Beverage Group anno",
+            "Splash Beverage Group, Inc. Announces Corporate Name Change to Endovia Health Sciences, Inc."
+          ],
+          "tag": "NO-NEWS",
+          "name": "Splash Beverage Group, Inc.",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 6.41,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 6.41M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3519,
+          "open": 0.3473,
+          "gapPct": -1.31,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.6395,
+          "hodTimeExact": "10:18 AM ET",
+          "close": 0.4096,
+          "fade": 35,
+          "fadeExact": 35.95,
+          "vwap": 0.4773,
+          "vsVwap": "below",
+          "pmHigh": 0.3572,
+          "volRaw": "47.5M",
+          "volDollar": 22650207,
+          "relVol": 9.3,
+          "avgVolM": 5.1,
+          "ssr": true,
+          "reverseSplit": "4:1",
+          "newsHeadlines": [
+            "Splash Beverage Group to Rebrand as Endovia Health Sciences",
+            "Splash Beverage Group to Rebrand as Endovia Health Sciences",
+            "Splash Beverage Group, Inc. Announces Corporate Name Change to Endovia Health Sciences, Inc.",
+            "**• Primary catalyst: Corporate rebranding announcement (most recent, today Aug 12, 2026)**  \nSplash Beverage Group anno",
+            "Splash Beverage Group, Inc. Announces Corporate Name Change to Endovia Health Sciences, Inc."
+          ],
+          "newsSummary": "Splash Beverage Group announced a corporate rebranding to Endovia Health Sciences, a classic pivot play with no real cash catalyst, revenue synergy, or partnership details disclosed. Rebranding alone is cosmetic—this is a shell transformation narrative with zero substance behind the name change. High risk of post-announcement fade as retail exhausts into the news.",
+          "bullFactors": [
+            "Float at 6.41M—well under Jack's 10M preference, tight share structure supports volatility",
+            "81.73% HOD ratio suggests intraday session strength and institutional absorption vs. premarket spike dominance",
+            "9.3x relative volume indicates real participation, not a micro-volume washout"
+          ],
+          "bearFactors": [
+            "Rebranding is pure fluff with no business catalyst—no partnership, no revenue deal, no data; typical pump narrative for shell pivots",
+            "35.95% fade pct already shows significant intraday pullback despite HOD dominance—retail exhaustion into news",
+            "Corporate name change without forward guidance or operational story is a red flag for dilution risk or reverse-split setup; Jack avoids these",
+            "Negative gap (-1.31%) into the open on cosmetic news signals weak institutional conviction; likely premarket retailer accumulation"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "BANL",
+          "hod": 81,
+          "hodExact": 81.38,
+          "news": [
+            "**• Possible reasons for the +46.1% price movement (as of Aug 12, 2026):**\n- Speculative momentum and retail-driven vola",
+            "CBL International Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+            "CBL International Announces Regaining Compliance with Nasdaq Minimum Bid Price Requirement",
+            "CBL International Announces Regaining Compliance with Nasdaq Minimum Bid Price Requirement – Updated",
+            "**• Primary catalyst: Announcement of regaining Nasdaq minimum bid price compliance**  \nCBL International Limited (BANL)"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "CBL International Limited Class B Ordinary Shares",
+          "sector": "Energy",
+          "country": "MY",
+          "floatM": 0.49,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 0.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.49M + RelVol 25.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.49M + RelVol 25.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.135,
+          "open": 4.05,
+          "gapPct": -2.06,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 7.5,
+          "hodTimeExact": "01:38 PM ET",
+          "close": 6.09,
+          "fade": 18,
+          "fadeExact": 18.8,
+          "vwap": 6.0681,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "2.8M",
+          "volDollar": 17186862,
+          "relVol": 25.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": "13:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the +46.1% price movement (as of Aug 12, 2026):**\n- Speculative momentum and retail-driven vola",
+            "CBL International Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+            "CBL International Announces Regaining Compliance with Nasdaq Minimum Bid Price Requirement",
+            "CBL International Announces Regaining Compliance with Nasdaq Minimum Bid Price Requirement – Updated",
+            "**• Primary catalyst: Announcement of regaining Nasdaq minimum bid price compliance**  \nCBL International Limited (BANL)"
+          ],
+          "newsSummary": "BANL regained Nasdaq minimum bid price compliance on Aug 4, lifting it from delisting risk—a real catalyst with tangible value to shareholders. The +46.1% move on Aug 12 is a delayed reaction to this compliance win combined with speculative retail momentum, suggesting institutional accumulation may be present after the initial news digestion.",
+          "bullFactors": [
+            "Ultra-low float (0.49M shares) creates high leverage for sustained intraday moves and reduces dilution risk",
+            "81.38% HOD percentage dominates fade (18.8%), signaling afternoon continuation strength and short covering pressure typical of hot cycles",
+            "Real catalyst (delisting avoidance) has measurable merit—compliance restoration removes existential risk and unlocks potential institutional re-entry",
+            "Intraday relative volume of 25.5x suggests genuine accumulation momentum, not a pure premarket spike-and-fade pattern"
+          ],
+          "bearFactors": [
+            "Gap-down entry (-2.06%) after +46% move indicates potential late-stage momentum with limited runway for additional HOD breaks",
+            "Malaysia-listed Energy micro-cap with $13.1M market cap carries liquidity and regulatory uncertainty risk beyond standard US small-caps",
+            "Compliance news alone is defensive (delisting avoidance), not offensive growth catalyst—may lack fuel for sustained multi-day push",
+            "Vague 'speculative momentum' language in headlines suggests retail-driven volatility rather than institutional flow; risk of sharp reversal"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 431,
+      "fade": 42,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "OFAL led +431.41% (64% fade). 1/10 held <20% fade. news: OFAL — \"**• Possible reasons for the ~24.6% surge (low-float momentum/volume-driven move):**\n- Short squeeze or oversold rebound\".",
+      "aiSummary": "Today's tape is dominated by no-news sympathy plays (5 of top 10) mixed with offshore institutional rigs (China/HK names showing sustained afternoon/morning HODs with 100M+ vol dollar), creating a COLD-TO-NEUTRAL cycle for momentum traders following this framework. Float tier is fragmented—three micro-caps under 1M (BOXL, BANL, RMCF) showing premarket dominance and hard fades (20-30% pullback), while mid-float names (OFAL, BIVI, BOXL) printed morning session HODs after massive premarket spikes (431%, 198%, 237%), signaling retail enthusiasm already exhausted by tape-on. The playbook avoids OFAL and VBIO outright: OFAL's no-news 431% spike on 310M volume smells pure premarket pump, and VBIO's 82% fade despite a contract tag shows institutional distribution, not accumulation. BOXL presents the sharpest red flag—an offering announcement on a 0.57M float with premarket HOD is structurally dilutive and typically rolls over hard into afternoon, while offshore names like WCT and CHOW offer no cash catalysts and carry Asia market spillover risk, leaving this session with minimal setups that meet the daily chart room + real catalyst + time-to-set criteria."
+    },
     {
       "date": "2026-08-11",
       "runners": [
