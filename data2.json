@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-12T20:45:47.250657Z",
-  "count": 9625,
+  "exportedAt": "2026-08-13T21:41:30.023783Z",
+  "count": 9635,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,808 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-13",
+      "runners": [
+        {
+          "sym": "XHG",
+          "hod": 690,
+          "hodExact": 690.12,
+          "news": [
+            "XChange TEC.INC Announces Intent to Acquire First Cycle, INC., Accelerating AI-Powered Insurance Transformation",
+            "**• Primary catalyst: Announcement today (August 13, 2026) of a non-binding letter of intent (LOI) to acquire First Cycl",
+            "Today&#39;s Stocks in the News",
+            "XChange TEC.INC Reports Financial Results for the Six Months Ended March 31, 2026",
+            "**• No company-specific news, announcements, or catalysts identified in the last 3 days (June 8–11, 2026) to explain the"
+          ],
+          "tag": "ACQUISITION",
+          "name": "XChange TEC.INC American Depositary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 1.59,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$183M",
+          "riskBadges": [
+            "Float 1.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.59M + RelVol 3039.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.59M + RelVol 3039.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9151,
+          "open": 5.8,
+          "gapPct": 533.84,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 7.23,
+          "hodTimeExact": "08:36 AM ET",
+          "close": 4.1,
+          "fade": 43,
+          "fadeExact": 43.29,
+          "vwap": 4.4328,
+          "vsVwap": "below",
+          "pmHigh": 18.08,
+          "volRaw": "85.1M",
+          "volDollar": 377077466,
+          "relVol": 3039.1,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "XChange TEC.INC Announces Intent to Acquire First Cycle, INC., Accelerating AI-Powered Insurance Transformation",
+            "**• Primary catalyst: Announcement today (August 13, 2026) of a non-binding letter of intent (LOI) to acquire First Cycl",
+            "Today&#39;s Stocks in the News",
+            "XChange TEC.INC Reports Financial Results for the Six Months Ended March 31, 2026",
+            "**• No company-specific news, announcements, or catalysts identified in the last 3 days (June 8–11, 2026) to explain the"
+          ],
+          "newsSummary": "XHG announced a non-binding LOI to acquire First Cycle, Inc., positioning itself in AI-powered insurance transformation. This is a real M&A catalyst with stated business rationale, though LOI is non-binding and execution risk exists. The deal has substantive merit vs. sympathy/fluff, but needs monitoring for dilution structure.",
+          "bullFactors": [
+            "Micro-cap float of 1.59M shares—extremely tight, high velocity potential on sustained buying",
+            "RelVol of 3039% indicates massive intraday institutional demand, consistent with China rig pattern (not premarket pump fade)",
+            "HOD of 690% with only 43% fade shows session strength and late-day continuation—shorts covering, momentum intact",
+            "Real M&A catalyst (AI insurance acquisition) vs. sympathy/no-news, gives fundamental reason for institutional accumulation"
+          ],
+          "bearFactors": [
+            "Non-binding LOI carries execution risk; no cash terms disclosed yet—could signal dilutive equity deal structure",
+            "533% gap and 690% HOD in single session is extreme; high probability of black swan liquidity event or secondary offering announcement",
+            "China micro-cap (Financial Services) regulatory/delisting risk and potential for sudden halts or reverse splits",
+            "Tape shows China rig pattern—sustainable intraday but vulnerable to sudden momentum reversal or block selling if insiders exit"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "FGI",
+          "hod": 321,
+          "hodExact": 321.35,
+          "news": [
+            "**• Earnings release as primary catalyst:** FGI announced Q2 2026 results after market close on August 12, 2026, showing",
+            "This summary outlines the key points from FGI Industries’ Q2 2025 earnings call.\n\n### **Key Drivers of Business Performa",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "FGI Industries Reports Second Quarter 2026 Financial Results",
+            "FGI INDUSTRIES ANNOUNCES SECOND QUARTER 2026 RESULTS"
+          ],
+          "tag": "EARNINGS",
+          "name": "FGI Industries Ltd. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 0.55,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [
+            "Float 0.55M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.73,
+          "open": 8.47,
+          "gapPct": 79.07,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 19.93,
+          "hodTimeExact": "12:37 PM ET",
+          "close": 11.72,
+          "fade": 41,
+          "fadeExact": 41.19,
+          "vwap": 11.3214,
+          "vsVwap": "above",
+          "pmHigh": 9.7,
+          "volRaw": "101.7M",
+          "volDollar": 1150856822,
+          "relVol": 1211.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Earnings release as primary catalyst:** FGI announced Q2 2026 results after market close on August 12, 2026, showing",
+            "This summary outlines the key points from FGI Industries’ Q2 2025 earnings call.\n\n### **Key Drivers of Business Performa",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "FGI Industries Reports Second Quarter 2026 Financial Results",
+            "FGI INDUSTRIES ANNOUNCES SECOND QUARTER 2026 RESULTS"
+          ],
+          "newsSummary": "FGI reported Q2 2026 earnings after market close on August 12, driving a 79% gap up on August 13 with strong intraday continuation (321% HOD). The earnings catalyst appears to have real merit given the sustained volume (1211.5x relVol) and afternoon HOD dominance rather than premarket fade pattern, suggesting institutional accumulation and retail follow-through.",
+          "bullFactors": [
+            "Ultra-low float (0.55M shares) provides explosive leverage on volume and institutional buying pressure",
+            "HOD dominance at 321% with only 41% fade indicates HOT tape and sustained strength—afternoon continuation, not premarket spike dump",
+            "Earnings as real cash value catalyst (not sympathy/fluff)—Q2 results provide fundamental reason for move",
+            "Massive relative volume (1211.5x) and gap up (79%) suggest institutional accumulation and retail continuation into session"
+          ],
+          "bearFactors": [
+            "Already up 321% from session open—most upside may be priced in; late entries risk chasing at extended levels",
+            "Gap up 79% reduces room to run; potential overhead supply at HOD if afternoon volume dries up",
+            "Earnings release was after-hours (Aug 12 close), so move is day-2 reaction; momentum may not sustain if no follow-on catalysts",
+            "Consumer Cyclical sector cyclicality and small micro-cap illiquidity on any reversal could trigger sharp fade"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "DFSC",
+          "hod": 187,
+          "hodExact": 187.9,
+          "news": [
+            "DEFSEC Technologies Inc. Announces Third Quarter Fiscal 2026 Results",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "DEFSEC Technologies Inc. Announces Third Quarter Fiscal 2026 Results",
+            "**• Q3 Fiscal 2026 earnings release (today, Aug 13, 2026) driving the move:** Revenue rose 92% YoY to CAD$2.722M (with d",
+            "1.) Name of the reporting person or owner\n*   Ayrton Capital LLC\n*   Alto Opportunity Master Fund, SPC - Segregated Mast"
+          ],
+          "tag": "EARNINGS",
+          "name": "DEFSEC Technologies Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "CA",
+          "floatM": 2.7,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 2.7M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.24,
+          "open": 2.58,
+          "gapPct": 108.06,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.57,
+          "hodTimeExact": "09:45 AM ET",
+          "close": 2.31,
+          "fade": 35,
+          "fadeExact": 35.29,
+          "vwap": 2.4773,
+          "vsVwap": "below",
+          "pmHigh": 2.72,
+          "volRaw": "112.8M",
+          "volDollar": 279401983,
+          "relVol": 1934.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "DEFSEC Technologies Inc. Announces Third Quarter Fiscal 2026 Results",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries.",
+            "DEFSEC Technologies Inc. Announces Third Quarter Fiscal 2026 Results",
+            "**• Q3 Fiscal 2026 earnings release (today, Aug 13, 2026) driving the move:** Revenue rose 92% YoY to CAD$2.722M (with d",
+            "1.) Name of the reporting person or owner\n*   Ayrton Capital LLC\n*   Alto Opportunity Master Fund, SPC - Segregated Mast"
+          ],
+          "newsSummary": "DFSC released Q3 FY2026 earnings today (Aug 13) with 92% YoY revenue growth to CAD$2.722M, a real cash value catalyst that justified the move. The earnings beat and strong top-line growth have legitimate merit, though the absolute revenue base remains micro-cap scale.",
+          "bullFactors": [
+            "Ultra-low float of 2.7M shares creates explosive leverage on volume; relVol of 1934.5x shows institutional intraday accumulation, not premarket pump",
+            "Session HOD dominant pattern (187.9% HOD vs 35.29% fade) indicates sustained afternoon strength and short squeeze continuation, classic Jack Walker hot cycle",
+            "Real earnings catalyst with 92% YoY revenue growth provides fundamental justification; not sympathy or fluff news",
+            "Small-cap industrials with strong vol profile and room to run if shorts are still trapped"
+          ],
+          "bearFactors": [
+            "Absolute revenue base (CAD$2.722M) is micro-cap level; growth % looks better than absolute dollar volume, typical small-cap illusion risk",
+            "Gap of 108% suggests significant premarket spike before session open; if most move occurred premarket vs intraday session HODs, limits continuation setup",
+            "Canadian ticker with minimal US institutional coverage; liquidity spillover risk and potential black swan volatility given 187% HOD move",
+            "No detail on profitability, margins, or cash burn; revenue growth alone doesn't confirm viability in industrials sector"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "INHD",
+          "hod": 114,
+          "hodExact": 114.08,
+          "news": [
+            "**• Possible reasons for today's 33.2% surge (with ~326K shares traded):**  \n- High short interest (~60% of tradable flo",
+            "**• Primary catalyst remains the June 2026 $3M AI-powered used mobile phone sales agent development deal (and related AI",
+            "**• Resumption of Nasdaq trading after recent halt (late July 2026):** The stock resumed trading around July 31/Aug 1 fo",
+            "Inno Holdings Inc. Announces Resumption of Trading on Nasdaq",
+            "Inno Holdings Inc. Announces Resumption of Trading on Nasdaq"
+          ],
+          "tag": "HALT-RESUME",
+          "name": "Inno Holdings Inc. Common Stock",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 2.4,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$28M",
+          "riskBadges": [
+            "Float 2.4M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.89,
+          "open": 6.51,
+          "gapPct": -5.52,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 14.75,
+          "hodTimeExact": "02:56 PM ET",
+          "close": 10.84,
+          "fade": 26,
+          "fadeExact": 26.51,
+          "vwap": 11.187,
+          "vsVwap": "below",
+          "pmHigh": 6.69,
+          "volRaw": "2.8M",
+          "volDollar": 30867293,
+          "relVol": 2.0,
+          "avgVolM": 1.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for today's 33.2% surge (with ~326K shares traded):**  \n- High short interest (~60% of tradable flo",
+            "**• Primary catalyst remains the June 2026 $3M AI-powered used mobile phone sales agent development deal (and related AI",
+            "**• Resumption of Nasdaq trading after recent halt (late July 2026):** The stock resumed trading around July 31/Aug 1 fo",
+            "Inno Holdings Inc. Announces Resumption of Trading on Nasdaq",
+            "Inno Holdings Inc. Announces Resumption of Trading on Nasdaq"
+          ],
+          "newsSummary": "INHD resumed Nasdaq trading after a late-July halt, with today's 114% HOD driven by short covering (~60% short interest on 2.4M float) and reinvigorated interest in the June 2026 $3M AI-powered mobile phone sales agent deal. The catalyst has real merit—actual cash contract for AI development—but the move is heavily compounded by technical short squeeze rather than fresh news.",
+          "bullFactors": [
+            "Tiny 2.4M float creates explosive leverage on short covering + institutional re-entry post-halt",
+            "Real catalyst: $3M AI contract with concrete development scope (not sympathy/fluff)",
+            "Session HOD printed at +114% with sustained volume (relVol 2.0), suggesting afternoon continuation strength vs. premarket fade pattern",
+            "Daily chart likely has room to upside after halt/gap reset; -5.52% gap fill is low bar"
+          ],
+          "bearFactors": [
+            "Hong Kong micro-cap with Nasdaq-listed structure = compliance/delisting risk re-emergence post-halt",
+            "26.51% fade into close signals exhaustion; short squeeze squeezes both ways—retail capitulation likely imminent",
+            "Halt itself is a red flag for prior compliance issues; resumption momentum often doesn't sustain without fresh, incremental news",
+            "At +114% HOD with high short interest, setup is vulnerable to coordinated unwind; liquidity thins fast on reversal"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BGIN",
+          "hod": 87,
+          "hodExact": 87.65,
+          "news": [
+            "**• Possible reasons for the 62.4% surge (low-float volatility/momentum play):**\n- Low float (~43M shares) combined with",
+            "1.) Name of the reporting person or owner\n* Wang Weina\n\n2.) Types of securities transacted and associated amounts and pr",
+            "BGIN Blockchain Limited Announces Executive Leadership Changes",
+            "BGIN BLOCKCHAIN LIMITED Launches ASIC Chip Customization Solutions Business and Completes Inaugural Customer Delivery",
+            "BGIN BLOCKCHAIN LIMITED Launches ASIC Chip Customization Solutions Business and Completes Inaugural Customer Delivery"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Bgin Blockchain Limited Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 43.35,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$264M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.7,
+          "open": 1.6901,
+          "gapPct": -0.58,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.19,
+          "hodTimeExact": "12:58 PM ET",
+          "close": 1.97,
+          "fade": 38,
+          "fadeExact": 38.24,
+          "vwap": 2.2161,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "1.8M",
+          "volDollar": 4076407,
+          "relVol": 216.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the 62.4% surge (low-float volatility/momentum play):**\n- Low float (~43M shares) combined with",
+            "1.) Name of the reporting person or owner\n* Wang Weina\n\n2.) Types of securities transacted and associated amounts and pr",
+            "BGIN Blockchain Limited Announces Executive Leadership Changes",
+            "BGIN BLOCKCHAIN LIMITED Launches ASIC Chip Customization Solutions Business and Completes Inaugural Customer Delivery",
+            "BGIN BLOCKCHAIN LIMITED Launches ASIC Chip Customization Solutions Business and Completes Inaugural Customer Delivery"
+          ],
+          "newsSummary": "BGIN spiked 62.4% on what appears to be low-float momentum volatility rather than a material catalyst. The most recent substantive news (May 26 ASIC chip customization launch) is over 2 months old; June leadership changes and insider transactions are standard corporate moves, not catalysts. This is a pure momentum/sympathy play with no fresh real cash value trigger.",
+          "bullFactors": [
+            "RelVol 216% shows sustained intraday volume — not a 1-2 min spike fade pattern",
+            "87.65% HOD print suggests afternoon session strength and continuation bias rather than premarket fade",
+            "Singapore tech micro-cap with 43.35M float under Jack's 50M threshold for high intraday vol/min scenarios"
+          ],
+          "bearFactors": [
+            "Float 43.35M is above preferred <10M, limiting explosive upside room on daily chart",
+            "NO-NEWS tag — catalyst is pure low-float momentum/sympathy rig, not real business merit (no earnings, partnership, or revenue driver)",
+            "38.24% fade percentage indicates material intraday profit-taking and seller overhead accumulation post-spike",
+            "Gap -0.58% shows weak open into spike, typical setup for sustained fade into close or next session"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "HCTI",
+          "hod": 85,
+          "hodExact": 85.48,
+          "news": [
+            "Healthcare Triangle Reports 322% Increase in Gross Profit and 158% Increase in Revenue for Q2 2026",
+            "**• Primary catalyst: Strong Q2 2026 earnings release (reported ~Aug 13, 2026 pre-market or morning), showing explosive",
+            "Based on the financial report provided, here is the summary of the company’s performance and outlook:\n\n**1.) Upcoming da",
+            "HCTI&#39;s Teyame Delivers a Full Year of Client Revenue in Six Months; €2 Million in Target",
+            "Healthcare Triangle Completes Share Issuances Relating to Legacy M&amp;A Transactions, Strengthening Compliance With Nasdaq&#39;s New $5 Million Market Value Listing Standard"
+          ],
+          "tag": "EARNINGS",
+          "name": "Healthcare Triangle, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 2.13,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$26M",
+          "riskBadges": [
+            "Float 2.13M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.24,
+          "open": 1.3,
+          "gapPct": 4.84,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.2999,
+          "hodTimeExact": "11:27 AM ET",
+          "close": 1.73,
+          "fade": 24,
+          "fadeExact": 24.78,
+          "vwap": 1.7412,
+          "vsVwap": "below",
+          "pmHigh": 1.55,
+          "volRaw": "44.8M",
+          "volDollar": 78074900,
+          "relVol": 204.1,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Healthcare Triangle Reports 322% Increase in Gross Profit and 158% Increase in Revenue for Q2 2026",
+            "**• Primary catalyst: Strong Q2 2026 earnings release (reported ~Aug 13, 2026 pre-market or morning), showing explosive",
+            "Based on the financial report provided, here is the summary of the company’s performance and outlook:\n\n**1.) Upcoming da",
+            "HCTI&#39;s Teyame Delivers a Full Year of Client Revenue in Six Months; €2 Million in Target",
+            "Healthcare Triangle Completes Share Issuances Relating to Legacy M&amp;A Transactions, Strengthening Compliance With Nasdaq&#39;s New $5 Million Market Value Listing Standard"
+          ],
+          "newsSummary": "HCTI reported Q2 2026 earnings with 322% gross profit increase and 158% revenue growth pre-market on 2026-08-13, triggering a strong intraday momentum move. Real cash value catalyst with tangible operational metrics (Teyame delivering full-year revenue in 6 months), not fluff—this is legitimate earnings-driven strength.",
+          "bullFactors": [
+            "Ultra-low float at 2.13M shares—textbook small-cap runner territory with high relative volatility (204.1 RelVol)",
+            "HOD dominance at 85.48% with only 24.78% fade suggests sustained institutional buying pressure and short squeezes throughout session, not premarket spike dump",
+            "Real earnings catalyst with 3x+ growth metrics and operational proof points (Teyame revenue milestone) justify intraday continuation",
+            "Daily chart setup intact: small market cap ($25.5M) with room to run on fresh earnings breakout if no overhead supply overhead identified"
+          ],
+          "bearFactors": [
+            "Recent share issuance (July 29) for M&A compliance may create overhead supply and dilution concerns near previous resistance",
+            "4.84% gap suggests early momentum was front-loaded at open; monitor for afternoon fade if volume rolls over after initial institutional accumulation phase",
+            "Healthcare micro-cap with low absolute volume despite high RelVol—liquidity risk on exits, potential wick-outs on profit-taking",
+            "No detail on whether earnings beat or met guidance; headline-only data lacks context on sustainability of move"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "BYSI",
+          "hod": 81,
+          "hodExact": 81.94,
+          "news": [
+            "**• Primary catalyst appears to be social media-driven momentum around BeyondSpring’s subsidiary SEED Therapeutics and i",
+            "1.) Name of the reporting person or owner\n* Jiangwen Majeti\n\n2.) Types of securities transacted and associated amounts a",
+            "Not enough info",
+            "1.) Name of the reporting person or owner\n* Min Qiu\n\n2.) Types of securities transacted and associated amounts and price",
+            "1.) Name of the reporting person or owner\n* Min Qiu (Chief Executive Officer)\n\n2.) Types of securities transacted and as"
+          ],
+          "tag": "NO-NEWS",
+          "name": "BeyondSpring Inc. Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 31.24,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$41M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.742,
+          "open": 0.76,
+          "gapPct": 2.43,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.35,
+          "hodTimeExact": "12:16 PM ET",
+          "close": 0.9963,
+          "fade": 26,
+          "fadeExact": 26.2,
+          "vwap": 1.0686,
+          "vsVwap": "below",
+          "pmHigh": 0.7421,
+          "volRaw": "38.7M",
+          "volDollar": 41398729,
+          "relVol": 1023.7,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst appears to be social media-driven momentum around BeyondSpring’s subsidiary SEED Therapeutics and i",
+            "1.) Name of the reporting person or owner\n* Jiangwen Majeti\n\n2.) Types of securities transacted and associated amounts a",
+            "Not enough info",
+            "1.) Name of the reporting person or owner\n* Min Qiu\n\n2.) Types of securities transacted and associated amounts and price",
+            "1.) Name of the reporting person or owner\n* Min Qiu (Chief Executive Officer)\n\n2.) Types of securities transacted and as"
+          ],
+          "newsSummary": "Primary catalyst is social media-driven momentum around BeyondSpring's subsidiary SEED Therapeutics with no substantive clinical, financial, or partnership news disclosed. Recent insider transactions (July 6) show executive selling activity, suggesting insiders are not accumulating ahead of moves. This is pure retail/social sentiment with no real cash value catalyst.",
+          "bullFactors": [
+            "81.94% HOD percentage indicates strong session continuation and potential short squeezes throughout day",
+            "1023.7x relative volume shows extreme intraday engagement vs. typical trading patterns",
+            "82% fade from HOD suggests institutional absorption and potential setup for afternoon continuation cycle"
+          ],
+          "bearFactors": [
+            "Float of 31.24M significantly exceeds Jack's <10M preference — liquidity risk and institutional bag-holding vulnerability",
+            "Social media-driven momentum with no real catalyst (FDA, partnership, ER, or cash deal) — textbook fluff news pattern",
+            "Insider selling on July 6 is red flag for top accumulation by management; no bullish insider accumulation ahead of move",
+            "High float + premarket dominance + fading pattern typical of pump structures, not institutional rigs"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "LIMN",
+          "hod": 69,
+          "hodExact": 69.59,
+          "news": [
+            "Liminatus Pharma Announces Transfer to Nasdaq Capital Market and Extension to Regain Compliance with Minimum Bid Price Requirement",
+            "**• Primary driver: Company-specific announcement on Nasdaq listing transfer and compliance extension.** Liminatus Pharm",
+            "Liminatus Pharma, Inc. Announces Results of 2026 Annual Meeting of Stockholders",
+            "Liminatus Pharma, Inc. Reports Stockholders’ Equity Exceeding Nasdaq Compliance Threshold Following Merger",
+            "Liminatus Pharma Faces Potential Nasdaq Delisting Following Bid Price Deficiency"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Liminatus Pharma, Inc. Class A Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 49.24,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1085,
+          "open": 0.1477,
+          "gapPct": 36.13,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.184,
+          "hodTimeExact": "07:53 AM ET",
+          "close": 0.1499,
+          "fade": 18,
+          "fadeExact": 18.53,
+          "vwap": 0.1615,
+          "vsVwap": "below",
+          "pmHigh": 0.204,
+          "volRaw": "554.4M",
+          "volDollar": 89537555,
+          "relVol": 16.1,
+          "avgVolM": 34.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Liminatus Pharma Announces Transfer to Nasdaq Capital Market and Extension to Regain Compliance with Minimum Bid Price Requirement",
+            "**• Primary driver: Company-specific announcement on Nasdaq listing transfer and compliance extension.** Liminatus Pharm",
+            "Liminatus Pharma, Inc. Announces Results of 2026 Annual Meeting of Stockholders",
+            "Liminatus Pharma, Inc. Reports Stockholders’ Equity Exceeding Nasdaq Compliance Threshold Following Merger",
+            "Liminatus Pharma Faces Potential Nasdaq Delisting Following Bid Price Deficiency"
+          ],
+          "newsSummary": "LIMN announced a transfer to Nasdaq Capital Market and extension to regain compliance with minimum bid price requirements following a delisting threat on 2026-07-24. This is a technical/administrative win (not cash value, not operational), but addresses an existential near-term risk. The news has merit insofar as it removes immediate bankruptcy/delisting risk, but it's inherently fluff—no revenue driver, no product catalyst, pure housekeeping.",
+          "bullFactors": [
+            "High session HOD dominance (69.59%) suggests institutional accumulation post-news, not premarket fade pattern",
+            "Relative volume 16.1x indicates sustained intraday buying pressure throughout the day, not a 1-2 minute spike",
+            "Delisting threat removal eliminates overhang; stock now has breathing room for operational focus",
+            "69.59% HOD retention + only 18.53% fade suggests tape temperature is HOT, typical of institutional follow-through"
+          ],
+          "bearFactors": [
+            "Float 49.24M is well above Jack's <10M preference; even with 16.1x rel vol, this is a larger-cap micro-cap runaway",
+            "Catalyst is compliance/administrative, not real cash value (ER, partnership, FDA) — classified as fluff by framework",
+            "Nasdaq Capital Market transfer is a downgrade, not an upgrade; market interprets as weakness mitigation, not strength",
+            "Gap 36.13% on open + high HOD pct suggests most upside may already be captured; risk of afternoon fade into close or next session"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "GXAI",
+          "hod": 65,
+          "hodExact": 65.42,
+          "news": [
+            "**• Record Q2 2026 earnings release (most recent catalyst, announced ~Aug 12, 2026):** Gaxos reported record consolidate",
+            "Based on the financial report provided, here is the summary of the company’s status:\n\n**1.) Upcoming dates or timelines*",
+            "Gaxos Delivers Record Second-Quarter Revenue, Up 35.8% Sequentially and 1,337% Year over Year",
+            "**• Primary catalyst: Record Q2 2026 revenue announcement released today (August 12, 2026)**  \nGaxos Delivers Record Sec",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries."
+          ],
+          "tag": "EARNINGS",
+          "name": "Gaxos.ai Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 10.66,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8705,
+          "open": 1.31,
+          "gapPct": 50.49,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.44,
+          "hodTimeExact": "05:39 AM ET",
+          "close": 1.26,
+          "fade": 12,
+          "fadeExact": 12.5,
+          "vwap": 1.3406,
+          "vsVwap": "below",
+          "pmHigh": 1.56,
+          "volRaw": "82.0M",
+          "volDollar": 109940752,
+          "relVol": 41.2,
+          "avgVolM": 2.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Record Q2 2026 earnings release (most recent catalyst, announced ~Aug 12, 2026):** Gaxos reported record consolidate",
+            "Based on the financial report provided, here is the summary of the company’s status:\n\n**1.) Upcoming dates or timelines*",
+            "Gaxos Delivers Record Second-Quarter Revenue, Up 35.8% Sequentially and 1,337% Year over Year",
+            "**• Primary catalyst: Record Q2 2026 revenue announcement released today (August 12, 2026)**  \nGaxos Delivers Record Sec",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries."
+          ],
+          "newsSummary": "GXAI reported record Q2 2026 revenue up 35.8% sequentially and 1,337% year-over-year, announced Aug 12. This is a legitimate cash-backed catalyst with massive YoY growth metrics — real earnings strength, not fluff. The 50.49% gap and sustained 65.42% HOD dominance suggest institutional accumulation on the print.",
+          "bullFactors": [
+            "Record earnings with 1,337% YoY revenue growth — substantial real value catalyst, not sympathy or no-news",
+            "65.42% HOD dominance with only 12.5% fade indicates afternoon session strength and short blowouts, classic hot cycle signal",
+            "Float just over 10M (10.66M) with 41.2x relative volume — tight float with sustained institutional buying pressure all day",
+            "Gapped 50.49% on the print with room to run; no mention of warrants, convertibles, or ATM dilution overhead"
+          ],
+          "bearFactors": [
+            "Float slightly above preferred <10M threshold at 10.66M — marginal edge on float efficiency",
+            "Gap spike of 50.49% already executed premarket; must confirm intraday volume/minute sustains above premarket to validate continuation rather than fade trap",
+            "Headline summary lacks detail on guidance, margin profile, or forward outlook — verify earnings quality beyond headline YoY numbers"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "IVDA",
+          "hod": 60,
+          "hodExact": 60.65,
+          "news": [
+            "**• Primary catalyst: Strategic partnership announcement with GlobalMed (Aug 12, 2026)**  \n- Iveda (NASDAQ: IVDA) announ",
+            "GlobalMed® and Iveda Partner to Bring Intelligent, Mission-Ready Technology to Government Agencies",
+            "**• Primary catalyst: Strategic partnership announcement with GlobalMed (August 12, 2026)**  \nIveda (NASDAQ: IVDA) annou",
+            "Iveda Leads the Way in EU AI Act Readiness for Europe’s $18B Video Intelligence Industry",
+            "Primion and Iveda Partner to Bring AI Vision Innovation to Converged Security Across Europe"
+          ],
+          "tag": "CONTRACT",
+          "name": "Iveda Solutions, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 11.61,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.368,
+          "open": 0.4701,
+          "gapPct": 27.74,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.5912,
+          "hodTimeExact": "06:18 AM ET",
+          "close": 0.5253,
+          "fade": 11,
+          "fadeExact": 11.15,
+          "vwap": 0.4956,
+          "vsVwap": "above",
+          "pmHigh": 0.58,
+          "volRaw": "179.2M",
+          "volDollar": 88801788,
+          "relVol": 36.7,
+          "avgVolM": 4.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Primary catalyst: Strategic partnership announcement with GlobalMed (Aug 12, 2026)**  \n- Iveda (NASDAQ: IVDA) announ",
+            "GlobalMed® and Iveda Partner to Bring Intelligent, Mission-Ready Technology to Government Agencies",
+            "**• Primary catalyst: Strategic partnership announcement with GlobalMed (August 12, 2026)**  \nIveda (NASDAQ: IVDA) annou",
+            "Iveda Leads the Way in EU AI Act Readiness for Europe’s $18B Video Intelligence Industry",
+            "Primion and Iveda Partner to Bring AI Vision Innovation to Converged Security Across Europe"
+          ],
+          "newsSummary": "IVDA announced a strategic partnership with GlobalMed (Aug 12) to deliver AI-powered video intelligence technology to government agencies—a real cash-value deal with identifiable end-user demand, not sympathy or dilution. The catalyst has legitimate merit: government contracts represent recurring revenue and validate the core product in a high-stakes vertical.",
+          "bullFactors": [
+            "Real catalyst with cash value: government agency partnerships drive recurring revenue, not fluff sympathy",
+            "60.65% HOD ratio signals strong afternoon session HODs and sustained institutional buying pressure, not premarket fade",
+            "Float 11.61M is near Jack's <10M preference; at 36.7x relative volume, intraday volatility clearly exceeded premarket, meeting float flexibility criteria",
+            "Daily chart room remains available in Tech sector; partnership announcement provides multi-day runway if momentum holds"
+          ],
+          "bearFactors": [
+            "Float slightly above preferred 10M threshold at 11.61M—increases float risk if retail dumps into strength",
+            "27.74% gap entry consumed significant intraday move already; HOD at 60.65% suggests tape ran hot but limited margin for error on continuation days",
+            "11.15% fade ratio indicates some afternoon/EOD selling pressure—tape may be cooling into close despite strong HOD dominance",
+            "Catalyst announced Aug 12; by Aug 13 market open the news is already 16+ hours old, reducing freshness and institutional re-accumulation probability"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 690,
+      "fade": 27,
+      "hodTime": "premarket",
+      "theme": "Hot Tape",
+      "note": "XHG led +690.12% (43% fade). 3/10 held <20% fade. news: XHG — \"XChange TEC.INC Announces Intent to Acquire First Cycle, INC., Accelerating AI-Powered Insurance Transformation\".",
+      "aiSummary": "**TAPE READ — 2026-08-13**\n\nEarnings dominance (5 of 10 runners) paired with one mega-spike acquisition (XHG +690%, premarket fade 43%) creates a mixed-quality session tilted toward institutional catalyst plays rather than pure momentum setups. US micro-caps (FGI, DFSC, HCTI) cluster in the sub-3M float tier with afternoon/morning HOD prints—particularly FGI's 321% afternoon continuation—signaling sustained intraday demand rather than classic premarket spike-and-dump, though XHG's overnight China acquisition rip followed by steep fade reads as institutional unwind and stays out of play per the 100%+ one-minute spike rule. Float distribution is healthy overall (median 2.7M, only BGIN and BYSI bloated above 30M), but the premarket HOD concentration (XHG, GXAI, IVDA, LIMN) against afternoon strength (FGI, INHD, BYSI) suggests a tape split—early runners fading into close, afternoon names sustaining—indicating a **NEUTRAL-to-COLD cycle** where setup time and dip accumulation were sacrificed to overnight news, limiting the high-probability flag/downtrend break patterns this playbook targets. FGI and DFSC earn closer inspection for real earnings substance, but tape temperature leans toward fade risk rather than hot session continuation."
+    },
     {
       "date": "2026-08-12",
       "runners": [
