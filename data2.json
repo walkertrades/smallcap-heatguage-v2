@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-13T21:41:30.023783Z",
-  "count": 9635,
+  "exportedAt": "2026-08-14T20:58:50.984674Z",
+  "count": 9644,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,727 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-14",
+      "runners": [
+        {
+          "sym": "WETO",
+          "hod": 258,
+          "hodExact": 258.73,
+          "news": [
+            "**• Possible reasons for today's 23.5% surge (with 419k+ shares traded):**\n- Speculation and trading interest around the",
+            "Wetour Robotics Limited Announces $1.8 Million Private Placement",
+            "Wetour Robotics Limited Announces Extraordinary General Meeting to Approve Share Consolidation and Capital Increase",
+            "Wetour Robotics Limited Announces Extraordinary General Meeting to Approve Share Consolidation and Capital Increase",
+            "Wetour Robotics Limited Announces Extraordinary General Meeting of Shareholders"
+          ],
+          "tag": "OFFERING",
+          "name": "Wetour Robotics Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.67,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [
+            "Float 0.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.67M + RelVol 61.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.67M + RelVol 61.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.61,
+          "open": 10.65,
+          "gapPct": 195.01,
+          "time": "regular session",
+          "session": "morning",
+          "high": 12.95,
+          "hodTimeExact": "09:56 AM ET",
+          "close": 8.22,
+          "fade": 36,
+          "fadeExact": 36.53,
+          "vwap": 9.3952,
+          "vsVwap": "below",
+          "pmHigh": 11.74,
+          "volRaw": "58.5M",
+          "volDollar": 549999142,
+          "relVol": 61.0,
+          "avgVolM": 1.0,
+          "ssr": true,
+          "reverseSplit": "100:1",
+          "newsHeadlines": [
+            "**• Possible reasons for today's 23.5% surge (with 419k+ shares traded):**\n- Speculation and trading interest around the",
+            "Wetour Robotics Limited Announces $1.8 Million Private Placement",
+            "Wetour Robotics Limited Announces Extraordinary General Meeting to Approve Share Consolidation and Capital Increase",
+            "Wetour Robotics Limited Announces Extraordinary General Meeting to Approve Share Consolidation and Capital Increase",
+            "Wetour Robotics Limited Announces Extraordinary General Meeting of Shareholders"
+          ],
+          "newsSummary": "WETO announced a $1.8M private placement on 8/12, followed by extraordinary shareholder meetings (8/10) for share consolidation and capital increase. Today's 258% HOD spike with 36% fade on 419k shares is classic dilution-announcement behavior—the news has zero real cash value beyond the placement itself, and the consolidation+capital increase signals heavy dilution ahead. This is fluff catalyst with structural headwinds.",
+          "bullFactors": [
+            "Ultra-low float at 0.67M shares creates mechanical squeeze potential on intraday vol spikes",
+            "Session HOD 258% with sustained intraday volume (61x relative) shows retail/retail-driven momentum, not premarket-only spike",
+            "Small market cap ($23M) means micro liquidity can amplify 1-2% institutional buys into multi-100% moves"
+          ],
+          "bearFactors": [
+            "OFFERING tag = dilutive news by definition; private placement + capital increase destroys per-share value and signals insider/sponsor pressure to raise cash",
+            "36% fade from HOD indicates weak institutional follow-through; retail-only momentum without big money conviction typically fades hard by close or next session",
+            "Share consolidation + capital increase announce dilution pipeline; float will expand materially post-shareholder approval, killing the squeeze thesis",
+            "Incomplete headline ('Speculation and trading interest around the...') suggests no real operational catalyst, just momentum chasing on technical setup"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "ONFO",
+          "hod": 163,
+          "hodExact": 163.2,
+          "news": [
+            "**• Primary driver appears to be post-reverse stock split low-float momentum trading.** The 1-for-50 reverse split (anno",
+            "**• Possible reasons for the ~44.7% surge (with >3.3M shares traded) include post-reverse-split low-float volatility, mo",
+            "Onfolio Holdings Inc. Announces Results of 2026 Annual Meeting of Stockholders",
+            "Onfolio Holdings Announces 1-For-50 Reverse Stock Split To Regain Nasdaq Compliance",
+            "Onfolio Holdings Inc. Announces 1-for-50 Reverse Stock Split"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Onfolio Holdings Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 0.84,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.84M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.84M + RelVol 46.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.84M + RelVol 46.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.31,
+          "open": 2.6999,
+          "gapPct": 16.88,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.08,
+          "hodTimeExact": "11:09 AM ET",
+          "close": 2.59,
+          "fade": 57,
+          "fadeExact": 57.4,
+          "vwap": 4.025,
+          "vsVwap": "below",
+          "pmHigh": 3.88,
+          "volRaw": "84.2M",
+          "volDollar": 338711667,
+          "relVol": 46.2,
+          "avgVolM": 1.8,
+          "ssr": true,
+          "reverseSplit": "50:1",
+          "newsHeadlines": [
+            "**• Primary driver appears to be post-reverse stock split low-float momentum trading.** The 1-for-50 reverse split (anno",
+            "**• Possible reasons for the ~44.7% surge (with >3.3M shares traded) include post-reverse-split low-float volatility, mo",
+            "Onfolio Holdings Inc. Announces Results of 2026 Annual Meeting of Stockholders",
+            "Onfolio Holdings Announces 1-For-50 Reverse Stock Split To Regain Nasdaq Compliance",
+            "Onfolio Holdings Inc. Announces 1-for-50 Reverse Stock Split"
+          ],
+          "newsSummary": "ONFO triggered a 1-for-50 reverse stock split to regain Nasdaq compliance, catalyzing post-split low-float momentum trading. This is a structural event (not cash-generative), creating artificial float compression and technical technicals rather than fundamental business improvement.",
+          "bullFactors": [
+            "Extremely low float at 0.84M shares — well below Jack's <10M preference, maximizing velocity on retail/institutional momentum",
+            "HOD dominance at 163.2% with only 57.4% fade suggests sustained intraday strength and afternoon continuation rather than premarket spike-and-dump",
+            "High relative volume (46.2x) validates real participation; reverse split restructuring attracts technical traders and short-squeeze positioning",
+            "Session HODs printing late indicates hot cycle tape temperature — shorts are being squeezed, not early fades"
+          ],
+          "bearFactors": [
+            "Reverse split is a compliance event with zero real cash value or business catalyst — purely structural manipulation of share price",
+            "Post-reverse-split runners carry execution/liquidity risk; wide spreads and thin order book typical in first 2–3 sessions post-split",
+            "Market cap of $2.6M is micro-cap territory; dilution/future offerings highly likely given compliance history; no earnings or partnership to anchor valuation",
+            "Gap of 16.88% combined with 163% move in single session signals extreme volatility; fade risk on next session open is material"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MDXH",
+          "hod": 144,
+          "hodExact": 144.59,
+          "news": [
+            "**• Positive Q2 2026 earnings release (after close on Aug 13) drove the move:** Revenue rose 16% YoY to $27.2M (continui",
+            "These Biotech Breakouts and Squeeze Setups Could Be Just Getting Started",
+            "1.) Name of the reporting person or owner\n*   Bleichroeder LP\n*   Bleichroeder Holdings LLC\n*   Andrew Gundlach\n\n2.) Typ",
+            "1.) Name of the reporting person or owner\nLaurence W. Lytton\n\n2.) Types of securities transacted and associated amounts",
+            "Mdxhealth Reports Second Quarter 2026 Financial Results"
+          ],
+          "tag": "EARNINGS",
+          "name": "MDxHealth SA Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "BE",
+          "floatM": 82.11,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$76M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.462,
+          "open": 0.6075,
+          "gapPct": 31.49,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.13,
+          "hodTimeExact": "11:31 AM ET",
+          "close": 0.808,
+          "fade": 28,
+          "fadeExact": 28.5,
+          "vwap": 0.9099,
+          "vsVwap": "below",
+          "pmHigh": 0.65,
+          "volRaw": "323.6M",
+          "volDollar": 294447628,
+          "relVol": 510.5,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Positive Q2 2026 earnings release (after close on Aug 13) drove the move:** Revenue rose 16% YoY to $27.2M (continui",
+            "These Biotech Breakouts and Squeeze Setups Could Be Just Getting Started",
+            "1.) Name of the reporting person or owner\n*   Bleichroeder LP\n*   Bleichroeder Holdings LLC\n*   Andrew Gundlach\n\n2.) Typ",
+            "1.) Name of the reporting person or owner\nLaurence W. Lytton\n\n2.) Types of securities transacted and associated amounts",
+            "Mdxhealth Reports Second Quarter 2026 Financial Results"
+          ],
+          "newsSummary": "MDXH gapped +31.49% on positive Q2 2026 earnings (revenue +16% YoY to $27.2M) released after close Aug 13, driving intraday continuation with 144.59% HOD against 28.5% fade. Real cash value catalyst with beat metrics, but large float and heavy premarket dominance raise structural concerns.",
+          "bullFactors": [
+            "Real earnings beat with 16% YoY revenue growth — genuine cash value, not fluff news",
+            "144.59% HOD with only 28.5% fade shows institutional accumulation holding into afternoon — sustained buying pressure",
+            "510.5x relative volume indicates retail following institutional entry, typical of post-ER continuation plays"
+          ],
+          "bearFactors": [
+            "Float of 82.11M is 8x Jack's preferred threshold (<10M) — liquidity diluted, retail retail-dependent move, poor structural setup",
+            "31.49% gap suggests premarket spike dominated, not intraday breakout — classic fade pattern risk for afternoon entries",
+            "Insider transactions (Bleichroeder LP, Lytton) visible on filings — potential overhang and lock-up expiry risk post-ER",
+            "Belgian healthcare micro-cap with limited institutional following — earnings beat may not sustain volume into next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "STKH",
+          "hod": 118,
+          "hodExact": 118.4,
+          "news": [
+            "**• Possible reasons for the ~38.4% move (momentum-driven small-cap volatility):**\n- Carryover momentum from the U.S. co",
+            "Steakholder Foods Ltd. Announces Special General Meeting of Shareholders",
+            "Steakholder Foods Ltd. Announces Special General Meeting of Shareholders",
+            "Steakholder Foods Ltd. Announces Special General Meeting of Shareholders",
+            "Steakholder Foods Ltd. Announces Special General Meeting of Shareholders"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Steakholder Foods Ltd. American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "IL",
+          "floatM": 0.82,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 0.82M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.88,
+          "open": 5.26,
+          "gapPct": 82.64,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 6.29,
+          "hodTimeExact": "08:38 AM ET",
+          "close": 3.6,
+          "fade": 42,
+          "fadeExact": 42.77,
+          "vwap": 5.6375,
+          "vsVwap": "below",
+          "pmHigh": 8.2,
+          "volRaw": "29.0M",
+          "volDollar": 163588969,
+          "relVol": 3.7,
+          "avgVolM": 7.8,
+          "ssr": true,
+          "reverseSplit": "3:1",
+          "newsHeadlines": [
+            "**• Possible reasons for the ~38.4% move (momentum-driven small-cap volatility):**\n- Carryover momentum from the U.S. co",
+            "Steakholder Foods Ltd. Announces Special General Meeting of Shareholders",
+            "Steakholder Foods Ltd. Announces Special General Meeting of Shareholders",
+            "Steakholder Foods Ltd. Announces Special General Meeting of Shareholders",
+            "Steakholder Foods Ltd. Announces Special General Meeting of Shareholders"
+          ],
+          "newsSummary": "STKH spiked 82.64% on gap with carryover momentum from U.S. co-movement; no material catalyst disclosed today. The only headline is a repeated shareholder meeting announcement from 2026-08-11, which is administrative and non-catalytic. This is pure sympathy/momentum play with no real cash value or operational catalyst.",
+          "bullFactors": [
+            "Ultra-low float at 0.82M shares — exceptional leverage for retail-driven moves",
+            "HOD printing at 118.4% gain with 42.77% fade suggests intraday volatility and potential institutional accumulation dips",
+            "3.7x relative volume indicates real participation, not dead tape",
+            "Israeli micro-cap with small market cap ($9.8M) can sustain momentum if tape stays hot"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — pure sympathy/carryover play with zero fundamental support; high risk of collapse when momentum dies",
+            "82.64% gap open is aggressive entry zone; premarket spike dominated setup, classic COLD tape signature",
+            "42.77% fade intraday suggests heavy profit-taking and institutional distribution, not accumulation",
+            "Consumer Defensive sector + Israeli micro-cap + shareholder meeting (potential dilution risk) — no clarity on AGM outcome"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "MF",
+          "hod": 96,
+          "hodExact": 96.3,
+          "news": [
+            "**• Possible reasons for the ~50% price surge and high volume (103k+ shares):**\n- Pure momentum/retail-driven speculatio",
+            "**• Primary catalyst: Recent corporate rebranding and Nasdaq ticker change**  \nU-BX Technology Ltd. rebranded to MindFor",
+            "**• Ticker/symbol change and rebrand effective today (July 20, 2026):** U-BX Technology Ltd. (previously trading as UBXG",
+            "U-BX Technology Ltd. Rebrands to MindForge Inc. and Updates Trading Symbol",
+            "**• Possible reasons for the 24.9% price surge and elevated volume (265k+ shares):**\n- Speculative retail momentum tradi"
+          ],
+          "tag": "NO-NEWS",
+          "name": "MindForge Inc. Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 1.55,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$24M",
+          "riskBadges": [
+            "Float 1.55M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.55M + RelVol 15.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.55M + RelVol 15.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10,
+          "open": 13.04,
+          "gapPct": 30.4,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 19.63,
+          "hodTimeExact": "09:15 AM ET",
+          "close": 13,
+          "fade": 33,
+          "fadeExact": 33.77,
+          "vwap": 15.3959,
+          "vsVwap": "below",
+          "pmHigh": 25.1,
+          "volRaw": "3.8M",
+          "volDollar": 59195034,
+          "relVol": 15.8,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~50% price surge and high volume (103k+ shares):**\n- Pure momentum/retail-driven speculatio",
+            "**• Primary catalyst: Recent corporate rebranding and Nasdaq ticker change**  \nU-BX Technology Ltd. rebranded to MindFor",
+            "**• Ticker/symbol change and rebrand effective today (July 20, 2026):** U-BX Technology Ltd. (previously trading as UBXG",
+            "U-BX Technology Ltd. Rebrands to MindForge Inc. and Updates Trading Symbol",
+            "**• Possible reasons for the 24.9% price surge and elevated volume (265k+ shares):**\n- Speculative retail momentum tradi"
+          ],
+          "newsSummary": "MF (formerly U-BX Technology/UBXG) spiked ~50% on 2026-08-14 with 103k+ shares traded, but the primary catalyst is a rebranding and ticker change from late July—now 3+ weeks old with no new material developments. The move appears driven by pure retail momentum speculation rather than fresh fundamental catalysts, making this a sympathy/sentiment-driven runner with fluff news.",
+          "bullFactors": [
+            "Ultra-tight float at 1.55M shares—well below Jack's <10M preference, creating scarcity pressure",
+            "High relative volume (15.8x) and sustained intraday momentum with 96.3% of day at HOD—classic China rig pattern with afternoon continuation strength",
+            "Session HOD domination late in day signals institutional accumulation and short-covering, not premarket fade—fits hot cycle profile"
+          ],
+          "bearFactors": [
+            "Catalyst is stale rebranding from 3+ weeks prior with no cash-backed news, real partnerships, or material business updates—pure fluff/sympathy play",
+            "Significant fade risk: 33.77% fade pct suggests retail trapped; premarket gap of 30.4% already priced in most upside",
+            "Chinese micro-cap with micro market cap (~$24.3M)—liquidity spillover and black swan volatility risk if momentum reverses; tape could dry up fast"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CAPR",
+          "hod": 93,
+          "hodExact": 93.59,
+          "news": [
+            "**• Possible reasons for the ~62.6% surge (with ~70k shares traded, consistent with after-hours/premarket moves reported",
+            "1.) **Name of the reporting person or owner**\n*   Tang Capital Management, LLC (TCM)\n*   Kevin Tang\n*   Tang Capital Par",
+            "This summary is based on the provided financial report for Capricor Therapeutics, Inc.\n\n### 1.) Upcoming Dates or Timeli",
+            "Capricor Therapeutics Reports Second Quarter 2026 Financial Results and Provides Corporate Update",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries."
+          ],
+          "tag": "EARNINGS",
+          "name": "Capricor Therapeutics Inc",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 50.91,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$384M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.21,
+          "open": 7.66,
+          "gapPct": 81.95,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 8.15,
+          "hodTimeExact": "06:26 AM ET",
+          "close": 6.65,
+          "fade": 18,
+          "fadeExact": 18.4,
+          "vwap": 7.3707,
+          "vsVwap": "below",
+          "pmHigh": 9.61,
+          "volRaw": "65.7M",
+          "volDollar": 484598826,
+          "relVol": 9.3,
+          "avgVolM": 7.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~62.6% surge (with ~70k shares traded, consistent with after-hours/premarket moves reported",
+            "1.) **Name of the reporting person or owner**\n*   Tang Capital Management, LLC (TCM)\n*   Kevin Tang\n*   Tang Capital Par",
+            "This summary is based on the provided financial report for Capricor Therapeutics, Inc.\n\n### 1.) Upcoming Dates or Timeli",
+            "Capricor Therapeutics Reports Second Quarter 2026 Financial Results and Provides Corporate Update",
+            "Not enough info for this filing. Check the Press Releases and Exhibits for other summaries."
+          ],
+          "newsSummary": "CAPR reported Q2 2026 earnings on 8/13 with a ~62.6% surge, though the move appears driven primarily by premarket/after-hours activity on minimal volume (~70k shares). Earnings alone lack detail on cash position, runway, or pipeline progress—insufficient to justify sustained intraday momentum without real operational catalysts.",
+          "bullFactors": [
+            "Healthcare sector with potential for clinical/regulatory newsflow",
+            "Earnings announcement provides framework for institutional re-rating if cash position is strong",
+            "9.3x relative volume shows some intraday interest beyond premarket spike"
+          ],
+          "bearFactors": [
+            "Float of 50.91M is well above Jack's <10M preference—liquidity risk and retail-driven volatility",
+            "Premarket spike dominates (81.95% gap) with heavy fade (18.4% from HOD)—classic COLD tape signature, not sustained buying",
+            "Minimal headline detail on financial results or clinical progress; no real cash value or partnership catalyst evident",
+            "93.59% HOD% with early premarket move suggests exhaustion risk rather than afternoon continuation strength"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "LFS",
+          "hod": 91,
+          "hodExact": 91.2,
+          "news": [
+            "**• Possible reasons for the ~20.4% price surge (with elevated volume of ~186k shares):**  \n- Positive company-specific",
+            "Former Japan National Team Player Yoichiro Kakitani Appointed Official Ambassador of &#34;SIX SHOOT PREMIERE 0,&#34; Personally Coaching the Next Generation of Strikers at Official &#34;BLUELOCK&#34; Collaboration Tournament",
+            "Approximately 600 Registrants Draw Attention: Public- and Private-Sector Representatives Discuss the Present Status and Future of Regional School Sports Club Development",
+            "LEIFRAS Awarded Tobishima Village&#39;s Weekend School Club Activities Contract for the Third Consecutive Year -- Fostering Non-Cognitive Skills Through Instruction by Full-Time Staff",
+            "LEIFRAS Co., Ltd. Participates as a Speaker at JSPO-Hosted &#34;School Sports Club Reform Seminar&#34;"
+          ],
+          "tag": "NO-NEWS",
+          "name": "LEIFRAS Co., Ltd. American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "JP",
+          "floatM": 12.7,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$77M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.16,
+          "open": 2.43,
+          "gapPct": 12.5,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.13,
+          "hodTimeExact": "12:14 PM ET",
+          "close": 2.42,
+          "fade": 41,
+          "fadeExact": 41.4,
+          "vwap": 3.2112,
+          "vsVwap": "below",
+          "pmHigh": 2.83,
+          "volRaw": "30.8M",
+          "volDollar": 98826510,
+          "relVol": 36.8,
+          "avgVolM": 0.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the ~20.4% price surge (with elevated volume of ~186k shares):**  \n- Positive company-specific",
+            "Former Japan National Team Player Yoichiro Kakitani Appointed Official Ambassador of &#34;SIX SHOOT PREMIERE 0,&#34; Personally Coaching the Next Generation of Strikers at Official &#34;BLUELOCK&#34; Collaboration Tournament",
+            "Approximately 600 Registrants Draw Attention: Public- and Private-Sector Representatives Discuss the Present Status and Future of Regional School Sports Club Development",
+            "LEIFRAS Awarded Tobishima Village&#39;s Weekend School Club Activities Contract for the Third Consecutive Year -- Fostering Non-Cognitive Skills Through Instruction by Full-Time Staff",
+            "LEIFRAS Co., Ltd. Participates as a Speaker at JSPO-Hosted &#34;School Sports Club Reform Seminar&#34;"
+          ],
+          "newsSummary": "LFS gapped up 12.5% on a vague 'positive company-specific' catalyst with no material substance disclosed. The preceding headlines are sympathy/PR noise (sports ambassador appointment, school club contracts) with zero cash value or earnings impact. This is a classic fluff-driven move lacking real institutional conviction.",
+          "bullFactors": [
+            "HOD percentage of 91.2% shows strong session dominance and sustained bid into close",
+            "RelVol of 36.8x suggests intraday accumulation demand beyond typical retail noise",
+            "Japanese small-cap with modest 12.7M float — potential for low-liquidity runners if consolidation holds"
+          ],
+          "bearFactors": [
+            "Fade percentage of 41.4% indicates material premarket-to-session pullback — classic cold tape signature",
+            "Catalyst is vague corporate PR (ambassador, school contracts) with zero earnings, partnership, or M&A substance",
+            "Gap of 12.5% premarket consumed already — limited room for clean breakout setup; high risk of gap-fill rejection"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "GIPR",
+          "hod": 80,
+          "hodExact": 80.09,
+          "news": [
+            "1.) **Name of the reporting person or owner**\n*   Armistice Capital, LLC\n*   Steven Boyd\n\n2.) **Types of securities tran",
+            "**• Primary catalyst: Schedule 13G filing on August 14, 2026, by Armistice Capital, LLC disclosing a 9.99% passive stake",
+            "Generation Income Properties, Inc. Receives Nasdaq Delisting Notice and Regains Equity Compliance",
+            "1.) Name of the reporting person or owner\n* David Sobelman\n\n2.) Types of securities transacted and associated amounts an",
+            "1.) Name of the reporting person or owner\nDavid Sobelman\n\n2.) Types of securities transacted and associated amounts and"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Generation Income Properties Inc. Common Stock",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 3.02,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 3.02M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.02M + RelVol 50.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.02M + RelVol 50.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7052,
+          "open": 0.7201,
+          "gapPct": 2.11,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.27,
+          "hodTimeExact": "12:26 PM ET",
+          "close": 0.4985,
+          "fade": 60,
+          "fadeExact": 60.75,
+          "vwap": 0.8477,
+          "vsVwap": "below",
+          "pmHigh": 0.7397,
+          "volRaw": "33.5M",
+          "volDollar": 28380681,
+          "relVol": 50.1,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "1.) **Name of the reporting person or owner**\n*   Armistice Capital, LLC\n*   Steven Boyd\n\n2.) **Types of securities tran",
+            "**• Primary catalyst: Schedule 13G filing on August 14, 2026, by Armistice Capital, LLC disclosing a 9.99% passive stake",
+            "Generation Income Properties, Inc. Receives Nasdaq Delisting Notice and Regains Equity Compliance",
+            "1.) Name of the reporting person or owner\n* David Sobelman\n\n2.) Types of securities transacted and associated amounts an",
+            "1.) Name of the reporting person or owner\nDavid Sobelman\n\n2.) Types of securities transacted and associated amounts and"
+          ],
+          "newsSummary": "GIPR received a Nasdaq delisting notice but regained equity compliance on 2026-08-12, followed by a Schedule 13G filing on 2026-08-14 showing Armistice Capital taking a 9.99% passive stake. The compliance win is real catalyst merit (company saved from delisting), but the 13G is a passive institutional position disclosure—not an aggressive buyout signal. Delisting recovery + institutional step-in provides credibility, though real estate micro-caps remain speculative.",
+          "bullFactors": [
+            "Micro-float at 3.02M shares—ideal for momentum amplification and controlled supply",
+            "Compliance recovery is legitimate catalyst (delisting risk removed), provides technical support",
+            "Armistice Capital 9.99% stake signals institutional confidence and potential accumulation phase",
+            "High relative volume (50.1x) suggests sustained intraday buying, not premarket spike-fade pattern"
+          ],
+          "bearFactors": [
+            "Real estate sector is structurally weak and illiquid—limited institutional follow-through typical",
+            "80% HOD achieved with 60% fade indicates strong rejection at highs; fade severity warns of afternoon collapse",
+            "Passive 13G filing has no M&A or operational upside—pure passive hold, minimal fuel for continuation",
+            "2.11% gap and micro market cap ($3.08M) suggest thin liquidity; risk of liquidity void on reversal"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SURG",
+          "hod": 74,
+          "hodExact": 74.37,
+          "news": [
+            "**• Possible reasons for the price movement:**\n- Strong Q2 2026 earnings beat released on August 11 (revenue +40.7% YoY",
+            "SurgePays Reports Q2 2026 Revenue Growth of 40.7% Year-Over-Year to $16.2 Million, Reports Positive Net Income of $1.29 Million",
+            "SurgePays Reports 23% Month-Over-Month Growth in Smartphone Rent-to-Own Program, Reaching $176,000 in July Retail Sales",
+            "**• Primary catalyst: Announcement of Redline Wireless Group, LLC joint venture (Aug 5, 2026 after-hours release).** Sur",
+            "SurgePays Expands Prepaid Wireless Distribution with Formation of Redline Wireless Group Across 20,000 Plus Dealers, Targeting More Than 1 Million Subscribers"
+          ],
+          "tag": "EARNINGS",
+          "name": "SurgePays, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 19.27,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2466,
+          "open": 0.3943,
+          "gapPct": 59.89,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.43,
+          "hodTimeExact": "08:30 AM ET",
+          "close": 0.282,
+          "fade": 34,
+          "fadeExact": 34.42,
+          "vwap": 0.3827,
+          "vsVwap": "below",
+          "pmHigh": 0.4897,
+          "volRaw": "287.9M",
+          "volDollar": 110189560,
+          "relVol": 17.2,
+          "avgVolM": 16.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "**• Possible reasons for the price movement:**\n- Strong Q2 2026 earnings beat released on August 11 (revenue +40.7% YoY",
+            "SurgePays Reports Q2 2026 Revenue Growth of 40.7% Year-Over-Year to $16.2 Million, Reports Positive Net Income of $1.29 Million",
+            "SurgePays Reports 23% Month-Over-Month Growth in Smartphone Rent-to-Own Program, Reaching $176,000 in July Retail Sales",
+            "**• Primary catalyst: Announcement of Redline Wireless Group, LLC joint venture (Aug 5, 2026 after-hours release).** Sur",
+            "SurgePays Expands Prepaid Wireless Distribution with Formation of Redline Wireless Group Across 20,000 Plus Dealers, Targeting More Than 1 Million Subscribers"
+          ],
+          "newsSummary": "SURG reported Q2 2026 earnings on Aug 11 with 40.7% YoY revenue growth to $16.2M and positive net income of $1.29M—real cash value catalyst, not fluff. Paired with the Aug 5 Redline Wireless JV announcement (20,000+ dealer expansion targeting 1M+ subscribers), this creates genuine business momentum with tangible revenue acceleration and distribution scale.",
+          "bullFactors": [
+            "Real earnings beat with 40.7% YoY revenue growth + positive net income—actual cash value, not sympathy",
+            "Sequential M/M growth (23% in smartphone rent-to-own, $176K July retail sales) shows sustained momentum post-earnings",
+            "Strategic JV catalyst (Redline Wireless, 20K+ dealers) provides concrete growth vector and distribution scale",
+            "74.37% HOD percentage and 17.2x relative volume suggest afternoon session HODs dominating—continuation strength, not premarket fade pattern"
+          ],
+          "bearFactors": [
+            "Float at 19.27M is above Jack's <10M preference; requires intraday vol/min > premarket vol/min to justify—marginal on that threshold",
+            "59.89% gap suggests significant premarket spike; watch for fade into afternoon, though 74.37% HOD pct mitigates fade risk",
+            "Small market cap ($8.1M) with 19M float creates liquidity/scalability concerns on larger position sizing",
+            "Multi-day run risk (earnings Aug 11 + JV Aug 5)—check daily chart for overhead supply/previous resistance levels"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 258,
+      "fade": 39,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "WETO led +258.73% (36% fade). 1/9 held <20% fade. news: WETO — \"**• Possible reasons for today's 23.5% surge (with 419k+ shares traded):**\n- Speculation and trading interest around the\".",
+      "aiSummary": "Earnings and compliance news dominate today's tape with zero real cash-value catalysts, while offerings poison the float-under-10M tier—WETO and ONFO are immediate avoids despite massive vol. Geography splits US/international with heavy China and Belgium exposure (MF, MDXH), yet the critical tell is premarket domination: six of ten HODs printed in overnight or early session, with afternoon setups (LFS, GIPR) showing sustained fades exceeding 18–60%, signaling classic cold-cycle behavior where retail exhausts before institutional heavy lifting can appear. Float tier skew toward ultra-micros (0.67M–3.02M) is textbook, but the playbook avoids this setup entirely—no daily room confirmation visible, compliance issues flagging real delisting risk, and the afternoon session HODs lack the sustained institutional accumulation volume needed to trigger continuation. This tape reads cold: premarket spike exhaustion with fade-dominant afternoon action and zero A-tier setups for momentum runners."
+    },
     {
       "date": "2026-08-13",
       "runners": [
