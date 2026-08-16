@@ -34,7 +34,77 @@ function SettingRow({ label, hint, children }) {
   );
 }
 
-function SettingsPage() {
+// Overrides whose ticker+date no longer appears in data2.json. Listed, never
+// auto-deleted — data2.json is regenerated nightly and has dropped runners that
+// later came back, so silent pruning could destroy a hand-made override on the
+// one name that mattered. See ovrOrphans() in overrides.jsx.
+function OrphanCleanup({ entries }) {
+  window.ovrUseVersion();
+  const [busy, setBusy] = useState_St("");
+  const [err, setErr] = useState_St("");
+  const orphans = window.ovrOrphans ? window.ovrOrphans(entries) : [];
+  const status = window.ovrStatus ? window.ovrStatus() : { ready: false, count: 0 };
+
+  const remove = async (key) => {
+    if (!window.confirm(`Permanently delete the override for ${key}?\n\nThis cannot be undone.`)) return;
+    setBusy(key); setErr("");
+    try { await window.ovrDeleteDoc(key); }
+    catch (e) { setErr(e.message || "Could not delete."); }
+    setBusy("");
+  };
+
+  return (
+    <div className="card settings-card">
+      <div className="settings-head">
+        <div>
+          <div className="card-title">MANUAL OVERRIDES</div>
+          <p className="settings-sub">
+            Catalyst, country, theme, behavior, custom tags and news edits — shared across the desk.
+          </p>
+        </div>
+        <div className="settings-actions">
+          <span className="settings-saved">
+            {status.ready ? `${status.count} stored` : "loading…"}
+          </span>
+        </div>
+      </div>
+
+      {status.error && <div className="tagedit-err">{status.error}</div>}
+
+      {orphans.length === 0 ? (
+        <div className="set-orphan-none">
+          No orphaned overrides. Every stored override still matches a runner in data2.json.
+        </div>
+      ) : (
+        <>
+          <div className="settings-note">
+            <b>{orphans.length} orphaned override{orphans.length > 1 ? "s" : ""}.</b> The ticker+date
+            no longer appears in data2.json, so these are never read — they only cost a document
+            on load. They are <em>not</em> deleted automatically: a runner can drop out of a
+            nightly rebuild and come back later, and pruning it would take your edit with it.
+            Delete only when you're sure the runner is gone for good.
+          </div>
+          <div className="set-orphans">
+            {orphans.map((o) => (
+              <div className="set-orphan" key={o.key}>
+                <span className="set-orphan-key">{o.ticker}</span>
+                <span className="set-orphan-date">{o.date}</span>
+                <span className="set-orphan-fields">{o.fields.join(", ") || "—"}</span>
+                <button className="set-orphan-del" disabled={busy === o.key}
+                  onClick={() => remove(o.key)}>
+                  {busy === o.key ? "…" : "delete"}
+                </button>
+              </div>
+            ))}
+          </div>
+          {err && <div className="tagedit-err">{err}</div>}
+        </>
+      )}
+    </div>
+  );
+}
+
+function SettingsPage({ entries }) {
   const [prefs, setPrefs] = useState_St(() => window.cpLoad());
   const [saved, setSaved] = useState_St(false);
 
@@ -107,6 +177,8 @@ function SettingsPage() {
           enabled they share the first enabled EMA's color and length.
         </div>
       </div>
+
+      <OrphanCleanup entries={entries} />
     </div>
   );
 }

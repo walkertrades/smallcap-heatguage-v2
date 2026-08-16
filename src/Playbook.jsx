@@ -24,6 +24,16 @@ const PB_PRICE_RANGES = [
   { key: "1_10", label: "$1–$10",   test: (p) => p != null && p >= 1 && p < 10 },
   { key: "10p",  label: "$10+",     test: (p) => p != null && p >= 10 },
 ];
+// The price labels already carry their numbers, but not their inclusivity —
+// "$1–$10" doesn't say which end is open. Spelled out from the same bounds the
+// test functions above use.
+const PB_PRICE_HINTS = {
+  "u1":   "open < $1.00",
+  "1_10": "open ≥ $1.00 and < $10.00",
+  "10p":  "open ≥ $10.00",
+};
+function pbPriceRangeHint(key) { return PB_PRICE_HINTS[key] || ""; }
+
 const PB_SSR_MODES = [
   { key: "any",  label: "Any" },
   { key: "only", label: "SSR only" },
@@ -33,7 +43,7 @@ const PB_SSR_MODES = [
 function pbEmptyCriteria() {
   return {
     floatTiers: [], countries: [], sectors: [], tags: [], sessions: [],
-    grades: [], aiGrades: [], priceRanges: [],
+    grades: [], aiGrades: [], priceRanges: [], themes: [],
     minHod: null, maxFade: null,
     ssr: "any", dateFrom: "", dateTo: "",
   };
@@ -77,6 +87,19 @@ function pbReadSaved() {
     return Array.isArray(arr) ? arr : [];
   } catch (_) { return []; }
 }
+// "All Plays" is the default view, not a peer folder, so it is pinned to the
+// top permanently. Everything below it sorts alphabetically, case-insensitively
+// — built-ins and user folders in one list, no manual ordering. Applied on load
+// and again on every mutation so a create or rename lands in the right slot
+// immediately.
+function pbSortFolders(list) {
+  return list.slice().sort((a, b) => {
+    const aAll = a && a.id === "all", bAll = b && b.id === "all";
+    if (aAll !== bAll) return aAll ? -1 : 1;
+    return String(a && a.name || "").localeCompare(String(b && b.name || ""), undefined,
+      { sensitivity: "base", numeric: true });
+  });
+}
 function pbLoadFolders() {
   const saved = pbReadSaved();
   const byId = {};
@@ -87,7 +110,7 @@ function pbLoadFolders() {
   const builtinIds = PB_DEFAULT_FOLDERS.map((d) => d.id);
   const customs = saved.filter((f) => f && f.id && builtinIds.indexOf(f.id) < 0)
     .map((f) => Object.assign({}, f, { builtin: false }));
-  return builtins.concat(customs);
+  return pbSortFolders(builtins.concat(customs));
 }
 function pbAllFolders() {
   if (!pbFolderCache) pbFolderCache = pbLoadFolders();
@@ -104,9 +127,10 @@ function pbPersist(folders) {
   try { window.localStorage.setItem(PB_FOLDER_KEY, JSON.stringify(out)); } catch (_) {}
 }
 function pbSetFolders(next) {
-  pbFolderCache = next;
-  pbPersist(next);
-  pbFolderSubs.forEach((fn) => fn(next));
+  const sorted = pbSortFolders(next);
+  pbFolderCache = sorted;
+  pbPersist(sorted);
+  pbFolderSubs.forEach((fn) => fn(sorted));
 }
 function pbAddFolder(f) {
   const next = pbAllFolders().concat([Object.assign({ builtin: false }, f)]);
@@ -221,10 +245,11 @@ function pbOptions() {
 }
 
 // ── Matching ───────────────────────────────────────────────────────
+// r.tag is already the EFFECTIVE catalyst — App.jsx layers manual overrides
+// over the pipeline value before anything downstream sees a runner — so folder
+// criteria automatically match what's displayed on the tile.
 function pbEffTag(r) {
-  const edit = window.getTagEdit ? window.getTagEdit(r._date, r.sym) : null;
-  const t = (edit && edit.tag) || r.tag;
-  return t ? String(t).toUpperCase() : null;
+  return r.tag ? String(r.tag).toUpperCase() : null;
 }
 function pbPrice(r) {
   if (r.open != null && Number.isFinite(Number(r.open))) return Number(r.open);
@@ -243,6 +268,14 @@ function pbMatchesCriteria(r, raw) {
   if (!pbIn(c.sectors, r.sectorNorm)) return false;
   if (!pbIn(c.sessions, r.session)) return false;
   if (c.tags.length && !pbIn(c.tags, pbEffTag(r))) return false;
+  // Theme is independent of catalyst and multi-valued: match if the runner
+  // carries ANY selected theme. Runners predating theme tagging simply have no
+  // themes and therefore never match — surfaced in the editor's hint.
+  if ((c.themes || []).length) {
+    const rt = (Array.isArray(r.themes) ? r.themes : [])
+      .map((t) => (typeof t === "string" ? t : t && t.theme)).filter(Boolean);
+    if (!rt.some((t) => c.themes.indexOf(t) >= 0)) return false;
+  }
   if (c.grades.length) {
     const g = window.getGrade(r._date, r.sym) || "Ungraded";
     if (c.grades.indexOf(g) < 0) return false;
@@ -302,7 +335,7 @@ function pbMatches(r, folder) {
 function pbCriteriaCount(raw) {
   const c = pbFullCriteria(raw);
   let n = 0;
-  for (const k of ["floatTiers", "countries", "sectors", "tags", "sessions", "grades", "aiGrades", "priceRanges"]) {
+  for (const k of ["floatTiers", "countries", "sectors", "tags", "sessions", "grades", "aiGrades", "priceRanges", "themes"]) {
     if (c[k].length) n++;
   }
   if (c.minHod != null) n++;
@@ -339,16 +372,21 @@ function pbFmtDate(iso) {
 function pbSessionLabel(s) { return window.sessionLabel ? window.sessionLabel(s) : s; }
 
 // ── Editor building blocks ─────────────────────────────────────────
-function PbChips({ options, selected, onToggle, colorOf, labelOf }) {
+// `titleOf` surfaces the numeric range behind a tiered option — hovering "Nano"
+// says "< 1M float". The text comes from the threshold definitions themselves
+// (v2schema FLOAT_TIERS / SESSION_BOUNDS), never a restatement of them.
+function PbChips({ options, selected, onToggle, colorOf, labelOf, titleOf }) {
   const sel = selected || [];
   return (
     <div className="pbe-chips">
       {options.map((o) => {
         const on = sel.indexOf(o) >= 0;
         const c = colorOf ? colorOf(o) : null;
+        const t = titleOf ? titleOf(o) : null;
         return (
-          <button key={o} type="button" className={`pbe-chip ${on ? "on" : ""}`}
-            style={c ? { "--oc": c } : null} onClick={() => onToggle(o)}>
+          <button key={o} type="button"
+            className={`pbe-chip ${on ? "on" : ""} ${t ? "has-range" : ""}`}
+            style={c ? { "--oc": c } : null} title={t || null} onClick={() => onToggle(o)}>
             {labelOf ? labelOf(o) : o}
           </button>
         );
@@ -437,12 +475,12 @@ function FolderEditor({ folder, onSave, onCancel }) {
       <div className="pbe-grid">
         <PbRow label="FLOAT TIER">
           <PbChips options={PB_TIERS} selected={c.floatTiers} onToggle={(v) => toggleIn("floatTiers", v)}
-            colorOf={window.floatTierColor} />
+            colorOf={window.floatTierColor} titleOf={window.floatTierRange} />
         </PbRow>
 
         <PbRow label="SESSION">
           <PbChips options={PB_SESSIONS} selected={c.sessions} onToggle={(v) => toggleIn("sessions", v)}
-            labelOf={pbSessionLabel} />
+            labelOf={pbSessionLabel} titleOf={window.sessionRange} />
         </PbRow>
 
         <PbRow label="COUNTRY" hint={c.countries.length ? `${c.countries.length} selected` : null}>
@@ -462,6 +500,11 @@ function FolderEditor({ folder, onSave, onCancel }) {
             colorOf={window.catalystColor} />
         </PbRow>
 
+        <PbRow label="THEME" hint="separate from catalyst · only tagged from the pipeline switchover forward">
+          <PbChips options={window.V2_THEMES || []} selected={c.themes}
+            onToggle={(v) => toggleIn("themes", v)} colorOf={window.themeColor} />
+        </PbRow>
+
         <PbRow label="MY GRADE">
           <PbChips options={window.GRADES.slice().reverse().concat(["Ungraded"])} selected={c.grades}
             onToggle={(v) => toggleIn("grades", v)}
@@ -477,7 +520,8 @@ function FolderEditor({ folder, onSave, onCancel }) {
         <PbRow label="PRICE RANGE">
           <PbChips options={PB_PRICE_RANGES.map((p) => p.key)} selected={c.priceRanges}
             onToggle={(v) => toggleIn("priceRanges", v)}
-            labelOf={(k) => (PB_PRICE_RANGES.find((p) => p.key === k) || {}).label} />
+            labelOf={(k) => (PB_PRICE_RANGES.find((p) => p.key === k) || {}).label}
+            titleOf={pbPriceRangeHint} />
         </PbRow>
 
         <PbRow label="THRESHOLDS">
@@ -613,16 +657,15 @@ function AddToPlaybook({ r, compact }) {
       )}
 
       {creating && (
-        <div className="pb-modal" onClick={(e) => { e.stopPropagation(); setCreating(false); }}>
-          <div className="pb-modal-inner pb-modal-editor" onClick={(e) => e.stopPropagation()}>
-            <button className="pb-modal-close" onClick={() => setCreating(false)}>×</button>
+        <window.HgOverlay onClose={() => setCreating(false)} className="hgo-dim hgo-scroll">
+          <div className="pb-modal-inner pb-modal-editor">
             <div className="card">
               <div className="card-title">NEW PLAYBOOK FOLDER</div>
               <p className="pbe-note">{r.sym} · {pbFmtDate(r._date)} will be added to this folder once saved.</p>
               <FolderEditor folder={null} onSave={created} onCancel={() => setCreating(false)} />
             </div>
           </div>
-        </div>
+        </window.HgOverlay>
       )}
     </>
   );
@@ -630,7 +673,6 @@ function AddToPlaybook({ r, compact }) {
 
 // ── One play tile ──────────────────────────────────────────────────
 function PlayTile({ r, pinned, onOpen }) {
-  const grade = window.getGrade(r._date, r.sym);
   const hod = r.hodExact != null ? Math.round(r.hodExact) : (r.hod || 0);
   return (
     <div className={`play-tile ${pinned ? "pinned" : ""}`}>
@@ -648,15 +690,19 @@ function PlayTile({ r, pinned, onOpen }) {
               style={{ "--gc": window.gradeColor(String(r.setupGrade).replace(/\+$/, "")) }}
               title="Claude's setup grade">{r.setupGrade}</span>
           )}
-          <span className={`grade-badge ${grade ? "graded" : "ungraded"} ${grade === "A++" ? "grade-gold" : ""}`}
-            style={{ "--gc": window.gradeColor(grade) }}>{grade || "—"}</span>
+          <window.GrGradeBadge date={r._date} sym={r.sym} showEmpty />
         </div>
       </div>
 
       <div className="play-stats" onClick={() => onOpen(r)}>
         <span className="play-hod">+{hod}%</span>
         <span className={`play-fade ${r.fade > 40 ? "neg" : r.fade < 20 ? "pos" : "fadewarn"}`}>{r.fade}% fade</span>
-        {r.tag && <span className="cat-badge" style={{ "--cat": window.catalystColor(r.tag) }}>{String(r.tag).toUpperCase()}</span>}
+        {r.tag && (
+          <span className="cat-badge" style={{ "--cat": window.catalystColor(r.tag) }}>
+            {String(r.tag).toUpperCase()}
+            {r._manual && r._manual.catalyst && <span className="rt-chip-man" title="Set manually">✎</span>}
+          </span>
+        )}
       </div>
 
       <div className="play-chart">
@@ -683,9 +729,16 @@ function PlaybookPage({ entries, folderId, folders, onOpenNewFolder, newFolderOp
   const [editing, setEditing] = useState_Pb(false);
   const [page, setPage] = useState_Pb(1);
   const pins = pbUsePins();
+  // Folder criteria can FILTER on grade and the tile list can SORT by it, both
+  // across every runner rather than the visible page — so a grade write by
+  // anyone has to re-run the match and the sort below.
+  const grVer = window.grUseVersion ? window.grUseVersion() : 0;
   const PER_PAGE = 24;
 
-  const folder = folders.find((f) => f.id === folderId) || folders[0];
+  // Fall back to "All Plays" by id, not by position — the list is sorted by
+  // name, so folders[0] is whatever happens to sort first.
+  const folder = folders.find((f) => f.id === folderId)
+    || folders.find((f) => f.id === "all") || folders[0];
 
   const allRunners = useMemo_Pb(() => {
     const out = [];
@@ -704,7 +757,7 @@ function PlaybookPage({ entries, folderId, folders, onOpenNewFolder, newFolderOp
       out.push({ r, pinned });
     }
     return out;
-  }, [allRunners, folder, pins]);
+  }, [allRunners, folder, pins, grVer]);
 
   // allRunners is already date-desc / HOD-desc and Array#sort is stable, so ties
   // (every runner on the grade sorts today) keep that ordering underneath.
@@ -715,7 +768,7 @@ function PlaybookPage({ entries, folderId, folders, onOpenNewFolder, newFolderOp
       if (s.text) return String(av).localeCompare(String(bv)) * sort.dir;
       return (av - bv) * sort.dir;
     });
-  }, [matched, sort]);
+  }, [matched, sort, grVer]);
 
   React.useEffect(() => { setPage(1); }, [folderId, sort]);
   React.useEffect(() => { setEditing(false); }, [folderId]);
@@ -797,12 +850,12 @@ function PlaybookPage({ entries, folderId, folders, onOpenNewFolder, newFolderOp
       )}
 
       {openRunner && (
-        <div className="pb-modal" onClick={() => setOpenRunner(null)}>
-          <div className="pb-modal-inner" onClick={(e) => e.stopPropagation()}>
-            <button className="pb-modal-close" onClick={() => setOpenRunner(null)}>×</button>
+        <window.HgOverlay label={`${openRunner.sym} · ${pbFmtDate(openRunner._date)}`}
+          onClose={() => setOpenRunner(null)} className="hgo-dim hgo-scroll">
+          <div className="pb-modal-inner">
             <window.RunnerTile r={openRunner} />
           </div>
-        </div>
+        </window.HgOverlay>
       )}
     </div>
   );

@@ -19,6 +19,35 @@ Usage:
 import sys, os, time, json, html, webbrowser, requests
 from datetime import date, timedelta, datetime, timezone
 
+# Windows gives a REDIRECTED process a cp1252 stdout, so the emoji in the banner
+# raises UnicodeEncodeError as soon as output is piped or logged to a file —
+# fine interactively, fatal under Task Scheduler. Force UTF-8 so a decorative
+# character can never kill a run.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:                                           # noqa: BLE001
+    pass
+
+# News comes from StockTitan (press releases) + SEC EDGAR (filings). Both free,
+# both keyless. Replaced the AskEdgar/Polygon news path, which returned
+# aggregator roundups ("Here Are 75 Stocks Moving...") rather than the actual
+# company release. AskEdgar is still used for float/dilution — only its NEWS
+# usage was removed. See news_sources.py for the coverage measurements.
+import news_sources
+# Theme extraction: word-boundary regex proposes candidates, the per-runner
+# Claude call judges them. Deliberately folded into the EXISTING Claude call
+# rather than a second one — it already has the news, sector, country and float
+# in context, so a separate call would double cost for no extra signal.
+import themes as themes_mod
+# Polygon MIC code -> TradingView EXCHANGE:SYMBOL, needed before chart-img can
+# address a ticker at all. Costs no extra API calls: fetch_ticker_details()
+# already returns primary_exchange.
+import symbols as symbols_mod
+# Auto chart capture. Optional: if CHARTIMG_API_KEY or the Firebase service
+# account isn't configured, the run continues without charts rather than dying.
+import chart_capture as charts_mod
+
 
 def load_playbook_context():
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "playbook_context.txt")
@@ -70,17 +99,33 @@ CATALYST_TAGS = [
 SETUP_GRADES = ["A++", "A", "B+", "B", "C+", "C", "F"]
 
 # ---------------------------------------------------------------------------
-# Output directory — set this to your local repo folder so all files
-# (HTML, MD, and heat-gauge JSON) land directly there ready to push.
+# Output directory — the folder THIS SCRIPT lives in.
+#
+# DO NOT hardcode a repo path here. This was previously pinned to
+# ...\smallcap-heatguage-v2, which meant running the SANDBOX copy dropped its
+# output into the production repo, right next to the real data2.json, and then
+# told you to run merge.py there. A sandbox run must never be one command away
+# from merging un-reviewed data into production.
+#
+# Deriving it from __file__ makes the rule self-enforcing: the sandbox copy
+# writes to the sandbox, the v2 copy writes to v2, and moving the script moves
+# its output with it. Override with HEATGAUGE_OUTPUT_DIR only if you mean to.
 # ---------------------------------------------------------------------------
-OUTPUT_DIR = r"D:\Projects\smallcap-heatguage-v2"
+OUTPUT_DIR = (os.environ.get("HEATGAUGE_OUTPUT_DIR")
+              or os.path.dirname(os.path.abspath(__file__)))
 
 TOP_N            = 10
+# Set to True (or pass --no-charts) to skip auto chart capture for a run —
+# useful when re-running a date purely to fix data.
+SKIP_CHARTS      = "--no-charts" in sys.argv
 NEAR_MISS_PCT    = 100        # any gapper >= this % that missed top 10
 MIN_VOLUME       = 500_000
 MAX_FLOAT_M      = 150
 
-DEBUG_MODE       = False      # set True at runtime to dump first ticker's AE JSON
+# Dumps the first ticker's raw AskEdgar JSON. Was an interactive prompt answered
+# "n" every single run; now a flag, so it stays available without sitting in the
+# path of an automated run.
+DEBUG_MODE       = "--debug" in sys.argv
 
 HOLIDAYS = set([
     "2024-01-01","2024-01-15","2024-02-19","2024-03-29","2024-05-27",
@@ -1205,12 +1250,18 @@ def get_day_movers(target_date):
         avg_vol = fetch_avg_volume(ticker, date_str)
         rel_vol = round(c["vol"]/avg_vol, 1) if avg_vol else None
         time.sleep(0.05)
-        # AskEdgar first, Polygon as the backup. AE returns recent filings-adjacent
-        # news carrying its own filed_at date; Polygon is scoped to date_str only.
-        headlines = fetch_ae_news(ticker, date_str)
-        if not headlines:
-            headlines = fetch_news(ticker, date_str)
-        time.sleep(0.05)
+        # StockTitan (press releases) + SEC EDGAR (filings). Per-ticker isolated:
+        # a failure here logs and moves on rather than killing the run.
+        # news_status is one of ok / none / error / outrange and is stored on the
+        # runner — "no news" may ONLY be inferred from "none". A 429 or a date
+        # outside the feed's reach is NOT a clean tape.
+        try:
+            news_items, news_status = news_sources.build_news(
+                ticker, date_str, hod_time_et=hod_time)
+        except Exception as _e:                      # noqa: BLE001
+            print(f"      news failed for {ticker}: {type(_e).__name__}: {_e}")
+            news_items, news_status = [], "error"
+        headlines = [{"title": i["title"], "publisher": i["publisher"]} for i in news_items]
 
         print(f"      → AskEdgar lookup...")
         # Debug only the first ticker so we don't spam the terminal
@@ -1256,6 +1307,10 @@ def get_day_movers(target_date):
             "relVol":    rel_vol,
             "avgVol":    round(avg_vol/1e6, 1) if avg_vol else None,
             "headlines": headlines,
+            "news_items":  news_items,     # rich: title/url/publisher/published_utc/source_type/rel
+            "news_status": news_status,    # ok | none | error | outrange
+            "exchange":    details.get("primary_exchange"),
+            "tv_symbol":   symbols_mod.tv_symbol(ticker, details.get("primary_exchange"))[0],
             "ae":        ae,
             "insights":  pre_insights,
             "insider_pct":       ae_float_out.get("insider_percent"),
@@ -1644,11 +1699,18 @@ def call_claude(prompt, max_tokens=700):
     return None
 
 
-def fallback_catalyst_tag(headlines):
-    """Keyword-map headlines to a v2 catalyst tag when Claude is unavailable."""
+def fallback_catalyst_tag(headlines, news_status="none"):
+    """
+    Keyword-map headlines to a v2 catalyst tag when Claude is unavailable.
+
+    NO-NEWS is a CLAIM, not a default. It may only be returned when the news
+    fetch actually succeeded and found nothing (`news_status == "none"`). A 429,
+    a timeout, or a date outside the feed's reach all mean we don't know — and
+    labelling those NO-NEWS makes a rate-limit look like a clean tape.
+    """
     text = " ".join((h.get("title", "") if isinstance(h, dict) else str(h)) for h in (headlines or [])).lower()
     if not text.strip():
-        return "NO-NEWS"
+        return "NO-NEWS" if news_status == "none" else None
     rules = [
         (("phase 3", "phase iii", "phase-3"), "PHASE-3"),
         (("phase 2", "phase ii", "phase-2"), "PHASE-2"),
@@ -1667,7 +1729,9 @@ def fallback_catalyst_tag(headlines):
     for kws, tag in rules:
         if any(k in text for k in kws):
             return tag
-    return "NO-NEWS"
+    # Headlines existed but matched no rule — that's "we found news we couldn't
+    # classify", never "no news".
+    return None
 
 
 def call_claude_runner(m, date_str):
@@ -1683,11 +1747,16 @@ def call_claude_runner(m, date_str):
         "bullFactors": [],
         "bearFactors": [],
         "setupGrade":  None,
-        "tag":         fallback_catalyst_tag(m.get("headlines")),
+        "tag":         fallback_catalyst_tag(m.get("headlines"), m.get("news_status", "none")),
+        # No Claude means no theme judgement. Emitting regex candidates unjudged
+        # would produce exactly the naive-substring themes the spec forbids.
+        "themes":      [],
+        "themeStatus": "unknown" if m.get("news_status") in ("error", "outrange") else "none",
     }
     if _CLAUDE_BLOCKED or not ANTHROPIC_API_KEY:
         return fallback
 
+    _theme_ctx = themes_mod.build_theme_context(m, m.get("news_items"))
     context = {
         "ticker":     m.get("ticker"),
         "date":       date_str,
@@ -1699,18 +1768,41 @@ def call_claude_runner(m, date_str):
         "country":    m.get("country"),
         "marketCap":  m.get("marketCap"),
         "relVol":     m.get("relVol"),
-        "headlines": [{"title": h["title"], "date": h.get("date", date_str)} for h in headlines[:8]],
+        # Rich news items, each carrying whether it landed BEFORE the high (so it
+        # could be the catalyst) or AFTER it (reactive). Claude gets the
+        # distinction so it stops treating a response-to-the-move release as a
+        # cause. news_status tells it whether "no news" is even a claim we can make.
+        "news_status": m.get("news_status", "none"),
+        "news": [{"title": i["title"], "source": i["source_type"],
+                  "when": i.get("published_utc"), "relative_to_high": i.get("rel")}
+                 for i in (m.get("news_items") or [])[:8]],
+        # Theme signals. regex_candidates are SUGGESTIONS from word-boundary
+        # matching; sector/country/float_tier are in here because "China + low
+        # float + no cash catalyst" is a pattern no headline regex can see.
+        "theme_vocabulary": themes_mod.THEME_VOCAB,
+        "theme_signals": _theme_ctx,
     }
     prompt = (
         "You are analyzing a small-cap momentum runner for an experienced day trader.\n\n"
         f"TRADER FRAMEWORK:\n{PLAYBOOK_CONTEXT}\n\n"
         f"TODAY'S RUNNER DATA:\n{json.dumps(context, default=str)}\n\n"
+        "NEWS RULES:\n"
+        "  · Items with relative_to_high='after' FOLLOWED the move. They are reactive and\n"
+        "    must never be described as the cause of it.\n"
+        "  · Only use the NO-NEWS tag when news_status is exactly 'none', which means the\n"
+        "    sources were checked and were genuinely empty. If news_status is 'error' or\n"
+        "    'outrange' the news is UNKNOWN, not absent — pick the best tag from price\n"
+        "    action instead and do not claim there was no news.\n"
+        "  · Do not restate the same story more than once.\n\n"
+        + themes_mod.PROMPT_RULES + "\n"
         "Return ONLY a JSON object with these exact keys:\n"
-        '  "tag": one of ' + json.dumps(CATALYST_TAGS) + " — pick the single best catalyst, use NO-NEWS if unclear,\n"
+        '  "tag": one of ' + json.dumps(CATALYST_TAGS) + " — pick the single best catalyst,\n"
         '  "newsSummary": 2-3 sentences on why it moved and whether the catalyst has real merit or is fluff,\n'
         '  "bullFactors": array of 2-4 bullish points specific to this trader\'s criteria,\n'
         '  "bearFactors": array of 2-4 bearish/risk points (dilution, fade, premarket spike, overhead supply),\n'
-        '  "setupGrade": one of ["A++", "A", "B+", "B", "C+", "C", "F"] based on the grading scale above.\n'
+        '  "setupGrade": one of ["A++", "A", "B+", "B", "C+", "C", "F"] based on the grading scale above,\n'
+        '  "themes": array of AT MOST 3 objects [{"theme": <from theme_vocabulary>, "confidence": 0.0-1.0}],\n'
+        "            ordered by confidence, or [] if no theme is clearly present.\n"
         "No prose outside the JSON."
     )
     text = call_claude(prompt, max_tokens=700)
@@ -1726,12 +1818,18 @@ def call_claude_runner(m, date_str):
     grade = str(data.get("setupGrade", "")).upper().strip()
     if grade not in SETUP_GRADES:
         grade = None
+    # Anything outside the vocabulary or under the confidence floor is dropped,
+    # not coerced. An empty theme list is better than a wrong one.
+    theme_list, theme_status = themes_mod.normalize(
+        data.get("themes"), m.get("news_status", "none"))
     return {
         "newsSummary": (str(data["newsSummary"]).strip() if data.get("newsSummary") else None),
         "bullFactors": _arr(data.get("bullFactors")),
         "bearFactors": _arr(data.get("bearFactors")),
         "setupGrade":  grade,
         "tag":         tag,
+        "themes":      theme_list,
+        "themeStatus": theme_status,
     }
 
 
@@ -1850,6 +1948,28 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
             "ssr":          bool(m.get("ssr")),
             "reverseSplit": m.get("reverse_split"),
             "newsHeadlines": news,
+            # v2 news: discrete items, newest first, stored RAW. The UI renders
+            # these directly — no AI paraphrasing, no "possible reasons" bullets.
+            # `rel` says whether an item preceded the high (possible catalyst) or
+            # followed it (reactive), which is what stops a response-to-the-move
+            # press release from reading like a cause.
+            "newsItems":    m.get("news_items", []),
+            # ok | none | error | outrange. NO-NEWS may only be inferred from
+            # "none"; the others mean we don't actually know.
+            "newsStatus":   m.get("news_status", "none"),
+            # THEME is a separate field from `tag` (catalyst) and never overwrites
+            # it — they answer different questions and both are filterable.
+            # themeStatus: ok | none | nonews | unknown. A runner with NO
+            # themeStatus at all predates theming entirely, which the UI must not
+            # render as "no theme".
+            "themes":       cl.get("themes", []),
+            "themeStatus":  cl.get("themeStatus", "none"),
+            # Polygon MIC + the TradingView symbol chart-img needs. tvSymbol is
+            # null for tickers that can't be addressed safely (rights/preferred
+            # suffixes, unmapped exchanges) — see symbols.py for why guessing is
+            # worse than skipping.
+            "exchange":     m.get("exchange"),
+            "tvSymbol":     m.get("tv_symbol"),
             "newsSummary":  cl.get("newsSummary"),
             "bullFactors":  cl.get("bullFactors", []),
             "bearFactors":  cl.get("bearFactors", []),
@@ -1909,6 +2029,11 @@ def render_heat_gauge_json(target_date, movers, near_miss):
         "exportedAt": datetime.utcnow().isoformat() + "Z",
         "count":      len(movers),
         "thresholds": THRESHOLDS,
+        # Ship the vocabulary WITH the data. v2schema.jsx keeps a hand-written
+        # mirror (the browser can't import Python) and checks itself against
+        # this at startup, so a drift is reported rather than discovered by
+        # someone hand-picking a theme the pipeline can't read back.
+        "themeVocab": themes_mod.THEME_VOCAB,
         "entries":    [entry],
     }
 
@@ -1917,45 +2042,88 @@ def render_heat_gauge_json(target_date, movers, near_miss):
 # Main
 # ---------------------------------------------------------------------------
 
-def _load_key(name, label, optional=""):
-    """Read an API key from the environment, prompting only if it isn't set.
-
-    All three keys behave the same way. Previously only ANTHROPIC_API_KEY
-    checked the environment; Polygon and AskEdgar always prompted, so a
-    perfectly good `setx POLYGON_API_KEY ...` was ignored every run.
-
-    Note `setx` only affects processes started afterwards — if a key is set but
-    this still prompts, the terminal predates the setx and needs reopening.
-    """
-    value = os.environ.get(name, "").strip()
-    if value:
-        print(f"\n{label} loaded from the {name} environment variable.")
-        return value
-
-    print(f"\n{name} is not set in this environment.")
-    print(f"Paste your {label} and press Enter"
-          + (f"\n  — {optional}:" if optional else ":"))
-    return input("> ").strip()
-
-
 def main():
     global POLYGON_API_KEY, ASKEDGAR_API_KEY, ANTHROPIC_API_KEY, DEBUG_MODE
 
     print("📊 Small Cap Evening Rundown Generator")
     print("=" * 50)
+    # Say WHICH repo this run will write to before a single API call is spent.
+    # The output path used to be hardcoded, so it was possible to run the
+    # sandbox script and have it write into production without noticing.
+    _repo = os.path.basename(OUTPUT_DIR.rstrip("\\/")) or OUTPUT_DIR
+    print(f"\n  Running from : {os.path.dirname(os.path.abspath(__file__))}")
+    print(f"  Writing to   : {OUTPUT_DIR}")
+    if "sandbox" in _repo.lower():
+        print("  Repo         : SANDBOX  (safe to experiment)")
+    else:
+        print("  Repo         : *** PRODUCTION *** - merge.py here updates the live data2.json")
+    print("=" * 50)
 
-    POLYGON_API_KEY = _load_key("POLYGON_API_KEY", "Polygon API key")
-    ASKEDGAR_API_KEY = _load_key("ASKEDGAR_API_KEY", "AskEdgar API key")
-    ANTHROPIC_API_KEY = _load_key(
-        "ANTHROPIC_API_KEY", "Anthropic (Claude) API key",
-        optional="leave blank to skip Claude tags/summaries")
+    # ── Keys: environment only, never prompted ─────────────────────
+    # All four come from Windows user env vars, same as every other tool in this
+    # project. Prompting for them meant pasting secrets into a terminal AND made
+    # the script impossible to automate — a script that blocks on input() can't
+    # run under Task Scheduler, which is the whole point of the 1m archive only
+    # existing going forward.
+    #
+    # Missing keys fail LOUDLY here rather than degrading silently mid-run.
+    POLYGON_API_KEY = os.environ.get("POLYGON_API_KEY", "").strip()
+    ASKEDGAR_API_KEY = os.environ.get("ASKEDGAR_API_KEY", "").strip()
+    ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 
-    print("\nEnable debug mode? Dumps raw AskEdgar JSON for the first ticker (y/N):")
-    DEBUG_MODE = input("> ").strip().lower() in ("y", "yes")
+    missing = [n for n, v in (("POLYGON_API_KEY", POLYGON_API_KEY),
+                              ("ASKEDGAR_API_KEY", ASKEDGAR_API_KEY)) if not v]
+    if missing:
+        print("\n  MISSING REQUIRED ENVIRONMENT VARIABLES: " + ", ".join(missing))
+        print("  Set them and open a NEW terminal (setx only affects future processes):")
+        for n in missing:
+            print(f'      setx {n} "your-key-here"')
+        print("\n  Nothing was pulled and nothing was written.")
+        return
+
+    print("\n  Keys loaded from environment:")
+    print(f"    POLYGON_API_KEY   ok ({len(POLYGON_API_KEY)} chars)")
+    print(f"    ASKEDGAR_API_KEY  ok ({len(ASKEDGAR_API_KEY)} chars)")
+    # Anthropic stays optional — without it the run still produces price action,
+    # news and charts, just no Claude summaries, tags, grades or themes.
+    if ANTHROPIC_API_KEY:
+        print(f"    ANTHROPIC_API_KEY ok ({len(ANTHROPIC_API_KEY)} chars)")
+    else:
+        print("    ANTHROPIC_API_KEY NOT SET - no Claude summaries, tags, grades or themes")
+    print(f"    CHARTIMG_API_KEY  {'ok' if charts_mod.CHARTIMG_KEY else 'NOT SET - auto charts skipped'}")
+
     if DEBUG_MODE:
-        print("  🔍 Debug mode ON — first ticker's raw response will be saved.")
+        print("  Debug mode ON (--debug) - first ticker's raw AskEdgar response will be saved.")
 
-    while True:
+    # --date YYYY-MM-DD (or --date today) makes the run fully non-interactive,
+    # which is what Task Scheduler needs. Without it, the date is the ONLY
+    # question asked.
+    cli_date = None
+    if "--date" in sys.argv:
+        i = sys.argv.index("--date")
+        if i + 1 < len(sys.argv):
+            cli_date = sys.argv[i + 1].strip()
+    if cli_date:
+        if cli_date.lower() in ("today", "latest"):
+            target = date.today()
+            while not is_trading_day(target):
+                target -= timedelta(days=1)
+        else:
+            try:
+                parts = cli_date.split("-")
+                target = date(int(parts[0]), int(parts[1]), int(parts[2]))
+            except Exception:                               # noqa: BLE001
+                print(f"  --date {cli_date} is not YYYY-MM-DD. Nothing run.")
+                return
+            if not is_trading_day(target):
+                print(f"  --date {cli_date} is not a trading day. Nothing run.")
+                return
+            if target > date.today():
+                print("  --date cannot be in the future. Nothing run.")
+                return
+        print(f"  Date from --date: {target}")
+
+    while not cli_date:
         print("\nEnter date to pull (YYYY-MM-DD), or press Enter for most recent trading day:")
         date_input = input("> ").strip()
         if not date_input:
@@ -1977,12 +2145,44 @@ def main():
             print("  Invalid format. Use YYYY-MM-DD.")
 
     date_str = str(target)
+
+    # Tell the user NOW, before a single Polygon/Claude/chart-img call, that this
+    # date is already in data2.json and a plain merge will refuse it. Finding
+    # that out at the end means 40 chart-img calls spent on output that can't be
+    # delivered without --force.
+    _existing = os.path.join(OUTPUT_DIR, "data2.json")
+    if os.path.isfile(_existing):
+        try:
+            with open(_existing, "r", encoding="utf-8") as fh:
+                _dates = {e.get("date") for e in json.load(fh).get("entries", [])}
+            if date_str in _dates:
+                print(f"\n  !! {date_str} ALREADY EXISTS in {_existing}")
+                print("  !! merge.py SKIPS existing dates by default, so this run's output")
+                print("  !! will not reach the app unless you replace it:")
+                print(f"  !!     py -3 merge.py --force        (replace without asking)")
+                print(f"  !!     py -3 merge.py                (shows old vs new, asks y/N)")
+                # An unattended run must not block on a prompt; --date implies
+                # "you already decided", so it continues and the closing line
+                # still tells you to merge with --force.
+                if cli_date:
+                    print("  (--date given, continuing without asking)")
+                else:
+                    print("\n  Continue anyway? (Y/n):")
+                    if input("  > ").strip().lower() in ("n", "no"):
+                        print("  Aborted before spending any API calls.")
+                        return
+        except Exception as e:                              # noqa: BLE001
+            print(f"  (could not pre-check data2.json: {e})")
+
     print(f"\nRunning rundown for {date_str}...")
 
+    news_sources.reset_run_stats()
+    charts_mod.reset_run_stats()
     movers, near_miss = get_day_movers(target)
     if not movers:
         print("No movers found.")
-        input("\nPress Enter to close...")
+        if not cli_date:
+            input("\nPress Enter to close...")
         return
 
     hg_json  = render_heat_gauge_json(target, movers, near_miss)
@@ -1999,14 +2199,67 @@ def main():
     with open(hg_file, "w", encoding="utf-8") as f:
         json.dump(hg_json, f, indent=2, ensure_ascii=False)
 
+    # ── Auto chart capture ─────────────────────────────────────────
+    # Runs AFTER the JSON is written, so a chart-img or Firebase problem can
+    # never cost you the day's data. Entirely optional: no key, no charts, no
+    # failure. Manual four-slot upload remains the fallback either way.
+    if charts_mod.CHARTIMG_KEY and not SKIP_CHARTS:
+        print("\n  Capturing charts (4 timeframes per runner)...")
+        for m in movers:
+            sym = m.get("ticker")
+            try:
+                slots, errs = charts_mod.capture_runner(
+                    sym, date_str, m.get("tv_symbol"))
+                mark = f"{len(slots)}/4" if slots else "skipped"
+                print(f"    {sym:6} {mark}" + (f"  ({errs[0][:60]})" if errs else ""))
+            except charts_mod.QuotaCeiling as e:
+                print(f"\n  !! {e}")
+                print("  !! Stopping chart capture. The rest of the run is unaffected.")
+                break
+            except Exception as e:                          # noqa: BLE001
+                print(f"    {sym:6} FAILED {type(e).__name__}: {e}")
+    elif not charts_mod.CHARTIMG_KEY:
+        print("\n  CHARTIMG_API_KEY not set - skipping auto chart capture.")
+
+    # Loud, at the end, where it can't be missed. Silent empties are how the
+    # news path rots without anyone noticing.
+    print(news_sources.run_summary())
+    if charts_mod.CHARTIMG_KEY and not SKIP_CHARTS:
+        print(charts_mod.run_summary())
+
     print(f"\n✅ Done!")
     print(f"   Heat-gauge: {hg_file}")
-    print(f"\n→ Run merge.py in {out_dir} to fold into data2.json, then push via GitHub Desktop.")
+    # Name the folder explicitly — "run merge.py there" is how the wrong
+    # data2.json gets updated.
+    _d2 = os.path.join(out_dir, "data2.json")
+    _dupe = False
+    if os.path.isfile(_d2):
+        try:
+            with open(_d2, "r", encoding="utf-8") as fh:
+                _dupe = date_str in {e.get("date") for e in json.load(fh).get("entries", [])}
+        except Exception:                                   # noqa: BLE001
+            pass
+    if _dupe:
+        print(f"\n→ {date_str} ALREADY EXISTS in data2.json - a plain merge will SKIP it.")
+        print(f"  To replace it:  cd /d {out_dir}  &&  py -3 merge.py --force")
+        print(f"  To review first: cd /d {out_dir}  &&  py -3 merge.py   (shows old vs new)")
+    else:
+        print(f"\n→ To fold into data2.json:  cd /d {out_dir}  &&  py -3 merge.py")
+    if "sandbox" not in os.path.basename(out_dir.rstrip("\\/")).lower():
+        print("  NOTE: that is the PRODUCTION repo. Only merge there when you mean to publish.")
 
 if __name__ == "__main__":
+    _failed = False
     try:
         main()
     except Exception as e:
+        _failed = True
         print(f"\nERROR: {e}")
         import traceback; traceback.print_exc()
-    input("\nPress Enter to close...")
+    # Only pause when a human is driving. Under --date (Task Scheduler) the
+    # process must exit, and it must exit NON-ZERO on failure so a scheduled
+    # run reports as failed rather than silently succeeding.
+    if "--date" not in sys.argv:
+        input("\nPress Enter to close...")
+    if _failed:
+        sys.exit(1)

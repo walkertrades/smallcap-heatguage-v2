@@ -28,7 +28,9 @@ function useSpring(target, { stiffness = 0.12, damping = 0.78 } = {}) {
 // Direct 0–100 → position mapping so the needle always sits at the score's
 // proportional place on the arc (42 → left-of-center, 66 → into the hot right).
 // Visual zone boundaries (in score): COLD 0–45 · NEUTRAL 45–62 · HOT 62–100.
-const ZONE_EDGE = { coldTop: 45, hotBottom: 62 };
+// Sourced from scoring.jsx so the trend chart's gridlines land on the same
+// boundaries as this dial's zones.
+const ZONE_EDGE = window.HEAT_ZONE_EDGE || { coldTop: 45, hotBottom: 62 };
 function scoreToDeg(score) { return clampS(score, 0, 100) / 100 * 180; }
 function clampS(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
 function gaugeZone(score) {
@@ -75,14 +77,15 @@ function Gauge({ score, state, size = "lg" }) {
     <div className="gauge-wrap">
       <svg viewBox="0 0 400 210" className="gauge-svg">
         <defs>
-          {/* one continuous cold → amber → hot gradient across the dial */}
+          {/* One continuous cold → amber → hot gradient across the dial. The
+              stops are generated from window.HEAT_GRADIENT (scoring.jsx) rather
+              than hardcoded here, so this dial and every heat-coloured element
+              elsewhere can never drift apart. Output is byte-identical to the
+              stops this previously carried inline. */}
           <linearGradient id="gaugeGrad" gradientUnits="userSpaceOnUse" x1={cx - r} y1="0" x2={cx + r} y2="0">
-            <stop offset="0%"   stopColor="oklch(0.62 0.18 255)" />
-            <stop offset="26%"  stopColor="oklch(0.68 0.15 215)" />
-            <stop offset="48%"  stopColor="oklch(0.80 0.15 150)" />
-            <stop offset="68%"  stopColor="oklch(0.86 0.16 95)" />
-            <stop offset="86%"  stopColor="oklch(0.76 0.19 55)" />
-            <stop offset="100%" stopColor="oklch(0.64 0.23 28)" />
+            {(window.HEAT_GRADIENT || []).map((s) => (
+              <stop key={s.at} offset={`${s.at}%`} stopColor={window.heatStopColor(s)} />
+            ))}
           </linearGradient>
           <filter id="knobGlow" x="-80%" y="-80%" width="260%" height="260%">
             <feGaussianBlur stdDeviation="4" result="b" />

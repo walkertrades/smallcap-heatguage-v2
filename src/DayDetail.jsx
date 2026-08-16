@@ -507,36 +507,185 @@ function pickHeadlines(r) {
   return { list: [], field: null };
 }
 
-// Claude's newsSummary reads as the lede; raw headlines list underneath it.
-function NewsSection({ r }) {
-  const { list } = pickHeadlines(r);
-  const summary = r.newsSummary && String(r.newsSummary).trim();
+// "a day ago", "3h ago", "just now" — relative age, like the Discord format.
+function newsAge(iso) {
+  if (!iso) return "";
+  const t = new Date(iso);
+  if (isNaN(t)) return "";
+  const mins = Math.round((Date.now() - t.getTime()) / 60000);
+  if (mins < 2) return "just now";
+  if (mins < 60) return `${mins}m ago`;
+  const h = Math.round(mins / 60);
+  if (h < 24) return `${h}h ago`;
+  const d = Math.round(h / 24);
+  if (d === 1) return "a day ago";
+  if (d < 30) return `${d} days ago`;
+  const mo = Math.round(d / 30);
+  return mo === 1 ? "a month ago" : `${mo} months ago`;
+}
+function newsStamp(iso) {
+  const t = new Date(iso);
+  return isNaN(t) ? "" : t.toLocaleString("en-US",
+    { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
+}
 
-  if (!summary && list.length === 0) {
-    return (
-      <div className="rt-news">
-        <div className="rt-lbl">NEWS</div>
-        <p className="rt-news-empty">No news data available for this date</p>
-      </div>
-    );
-  }
+// One discrete news item: source tag, relative age, the real headline, a link.
+// No paraphrasing, no "possible reasons" bullets.
+function NewsItem({ item, onHide }) {
+  const src = String(item.source_type || "PR").toUpperCase();
+  const after = item.rel === "after";
+  return (
+    <li className={`rt-newsitem ${after ? "is-after" : ""}`}>
+      <span className={`rt-news-src rt-news-src-${src.toLowerCase()}`}>{src}</span>
+      <span className="rt-news-age" title={newsStamp(item.published_utc)}>{newsAge(item.published_utc)}</span>
+      {/* A release that landed AFTER the high is a reaction, not a catalyst —
+          labelled so it can never be read as the reason for the move. */}
+      {after && <span className="rt-news-after" title="Published after the high printed — reactive, not a catalyst">after the move</span>}
+      {item.url
+        ? <a className="rt-news-title" href={item.url} target="_blank" rel="noopener noreferrer">{item.title}</a>
+        : <span className="rt-news-title">{item.title}</span>}
+      {item._manual && <span className="rt-chip-man" title={`Added manually by @${item.byName || "a trader"}`}>✎</span>}
+      {onHide && (
+        <button className="rt-news-del" title={item._manual ? "Delete this item" : "Hide this item"}
+          onClick={(e) => { e.stopPropagation(); onHide(item); }}>×</button>
+      )}
+    </li>
+  );
+}
+
+// The four honest states the pipeline can report. "No news" is a claim we only
+// make when the sources were actually checked and were empty.
+const NEWS_EMPTY = {
+  none:     { cls: "ok",   text: "No news found — sources checked and empty" },
+  error:    { cls: "warn", text: "News fetch FAILED for this runner — news is unknown, not absent" },
+  outrange: { cls: "warn", text: "Outside the news feed's range — this date was never checked" },
+};
+
+function NewsSection({ r }) {
+  const [editing, setEditing] = React.useState(false);
+  const items = Array.isArray(r.newsItems) ? r.newsItems : [];
+  // Legacy days carry a flat headline list and a Claude summary instead.
+  const legacy = pickHeadlines(r);
+  const summary = r.newsSummary && String(r.newsSummary).trim();
+  const status = r.newsStatus || (items.length ? "ok" : null);
+
+  const hide = async (item) => {
+    const ov = window.ovrGet(r._date, r.sym);
+    const cur = (ov && ov.news && ov.news.value) || { add: [], hide: [] };
+    const next = item._manual
+      ? { add: (cur.add || []).filter((x) => x.url !== item.url || x.title !== item.title),
+          hide: cur.hide || [] }
+      : { add: cur.add || [], hide: (cur.hide || []).concat([item.url]) };
+    try { await window.ovrSetField(r._date, r.sym, "news", next); } catch (e) { console.warn(e); }
+  };
 
   return (
     <div className="rt-news">
-      <div className="rt-lbl">NEWS</div>
-      {summary && <p className="rt-newssum-body">{linkifyText(summary)}</p>}
-      {list.length > 0 && (
-        <>
-          <div className="rt-news-sub">Headlines · {list.length}</div>
-          <ul className="rt-headlines">
-            {list.map((h, i) => (
-              <li key={i}>
-                <a href={headlineHref(r.sym, h)} target="_blank" rel="noopener noreferrer">{h}</a>
-              </li>
-            ))}
-          </ul>
-        </>
+      <div className="rt-news-head">
+        <span className="rt-lbl">NEWS</span>
+        {items.length > 0 && <span className="rt-news-count">{items.length}</span>}
+        <button className="rt-news-edit" onClick={(e) => { e.stopPropagation(); setEditing((v) => !v); }}>
+          {editing ? "Close" : "+ add / edit"}
+        </button>
+      </div>
+
+      {items.length > 0 && (
+        <ul className="rt-newslist">
+          {items.map((it, i) => <NewsItem key={it.url || i} item={it} onHide={hide} />)}
+        </ul>
       )}
+
+      {items.length === 0 && status && NEWS_EMPTY[status] && (
+        <p className={`rt-news-empty rt-news-${NEWS_EMPTY[status].cls}`}>{NEWS_EMPTY[status].text}</p>
+      )}
+
+      {/* Historical days predate the rebuilt news path. Shown plainly as legacy
+          rather than dressed up as the new format. */}
+      {items.length === 0 && !status && (legacy.list.length > 0 || summary) && (
+        <div className="rt-news-legacy">
+          <div className="rt-news-sub">Legacy news (pre-rebuild)</div>
+          {summary && <p className="rt-newssum-body">{linkifyText(summary)}</p>}
+          {legacy.list.map((h, i) => (
+            <div key={i} className="rt-news-legacy-item">
+              <a href={headlineHref(r.sym, h)} target="_blank" rel="noopener noreferrer">{h}</a>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {items.length === 0 && !status && legacy.list.length === 0 && !summary && (
+        <p className="rt-news-empty">No news data available for this date</p>
+      )}
+
+      {editing && <NewsEditor r={r} onClose={() => setEditing(false)} />}
+    </div>
+  );
+}
+
+// Add a news item by hand. Lands in the same override doc as catalyst/country/
+// themes and always wins over pipeline items.
+function NewsEditor({ r, onClose }) {
+  const [title, setTitle] = React.useState("");
+  const [url, setUrl] = React.useState("");
+  const [src, setSrc] = React.useState("PR");
+  const [when, setWhen] = React.useState(`${r._date}T09:30`);
+  const [busy, setBusy] = React.useState(false);
+  const [err, setErr] = React.useState("");
+
+  const save = async () => {
+    if (!title.trim()) { setErr("A headline is required."); return; }
+    setBusy(true); setErr("");
+    try {
+      const ov = window.ovrGet(r._date, r.sym);
+      const cur = (ov && ov.news && ov.news.value) || { add: [], hide: [] };
+      const iso = when ? new Date(when).toISOString() : new Date(`${r._date}T13:30:00Z`).toISOString();
+      const item = {
+        title: title.trim(),
+        url: url.trim(),
+        publisher: src === "SEC" ? "SEC EDGAR" : "Manual",
+        source_type: src,
+        published_utc: iso,
+        // Same before/after rule the pipeline applies, so a hand-added item
+        // can't quietly read as a catalyst when it followed the move.
+        rel: (window.minutesFromExact && r.hodTimeExact
+          && new Date(iso) > new Date(`${r._date}T${r.hodTimeExact}:00`)) ? "after" : "before",
+      };
+      await window.ovrSetField(r._date, r.sym, "news",
+        { add: (cur.add || []).concat([item]), hide: cur.hide || [] });
+      onClose();
+    } catch (e) {
+      setErr(e.code === "permission-denied"
+        ? "Firestore rules rejected the write — publish the `overrides` rules block."
+        : (e.message || "Could not save."));
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div className="tagedit" onClick={(e) => e.stopPropagation()}>
+      <div className="tagedit-lbl">ADD NEWS ITEM</div>
+      <div className="rt-newsform">
+        <input className="tagedit-free" placeholder="Headline" value={title} disabled={busy}
+          onChange={(e) => setTitle(e.target.value)} />
+        <input className="tagedit-free" placeholder="https://… (optional)" value={url} disabled={busy}
+          onChange={(e) => setUrl(e.target.value)} />
+        <div className="rt-newsform-row">
+          <select className="tagedit-sel" value={src} disabled={busy} onChange={(e) => setSrc(e.target.value)}>
+            <option value="PR">PR</option>
+            <option value="SEC">SEC</option>
+            <option value="NEWS">News outlet</option>
+          </select>
+          <input className="tagedit-free" type="datetime-local" value={when} disabled={busy}
+            onChange={(e) => setWhen(e.target.value)} />
+        </div>
+      </div>
+      {err && <div className="tagedit-err">{err}</div>}
+      <div className="tagedit-actions">
+        <button className="tagedit-save" onClick={save} disabled={busy || !title.trim()}>
+          {busy ? "Saving…" : "Add"}
+        </button>
+        <button className="tagedit-cancel" onClick={onClose} disabled={busy}>Cancel</button>
+      </div>
     </div>
   );
 }
@@ -563,10 +712,18 @@ function linkifyText(s) {
 // ── v2 chip row: colored tag chips by type ─────────────────────────
 // catalyst = one color family, country = another, sector = another,
 // float tier = another. Colors come from window (v2schema.jsx).
-function TagChips({ r }) {
+// `onEdit` makes the overridable chips their own edit affordance — click the
+// tag to change it, or click a ghost chip to add one when the pipeline didn't
+// produce a value at all.
+function TagChips({ r, onEdit }) {
   const chips = [];
+  const man = r._manual || {};
   if (r.tag) {
-    chips.push({ cls: "catalyst", label: String(r.tag).toUpperCase(), color: window.catalystColor(r.tag) });
+    chips.push({
+      cls: "catalyst", label: String(r.tag).toUpperCase(), color: window.catalystColor(r.tag),
+      manual: man.catalyst || null, onClick: onEdit,
+      title: man.catalyst ? null : "AI-assigned catalyst — click to change",
+    });
   }
   if (r.floatTier) {
     chips.push({ cls: "floattier", label: r.floatTier + (r.floatM != null ? ` · ${r.floatM}M` : ""), color: window.floatTierColor(r.floatTier) });
@@ -576,21 +733,123 @@ function TagChips({ r }) {
     chips.push({ cls: "sector", label: sec, color: window.sectorColor(sec), title: r.sector });
   }
   if (r.country) {
-    chips.push({ cls: "country", label: r.country, color: window.countryColor(r.country) });
+    chips.push({
+      cls: "country", label: r.country, color: window.countryColor(r.country),
+      manual: man.country || null, onClick: onEdit,
+      title: man.country ? null
+        : `${window.countryLabel(r.country)} — from the pipeline, click to correct`,
+    });
   }
   if (r.marketCap) {
     chips.push({ cls: "mktcap", label: `MC ${r.marketCap}`, color: "oklch(0.52 0.02 250)" });
   }
+  // Nothing from the pipeline for an overridable field — still offer a way in.
+  if (!r.country && onEdit) {
+    chips.unshift({ cls: "addcat", label: "+ COUNTRY", color: "oklch(0.55 0.02 260)",
+      onClick: onEdit, title: "No country set — click to add one" });
+  }
+  if (!r.tag && onEdit) {
+    chips.unshift({ cls: "addcat", label: "+ CATALYST", color: "oklch(0.55 0.02 260)",
+      onClick: onEdit, title: "No catalyst set — click to add one" });
+  }
   if (chips.length === 0) return null;
   return (
     <div className="rt-chips">
-      {chips.map((c, i) => (
+      {chips.map((c, i) => c.onClick ? (
+        <button key={i} type="button" className={`rt-chip rt-chip-${c.cls} rt-chip-edit`}
+          style={{ "--chip-color": c.color }}
+          title={c.manual ? `Set manually by @${c.manual.byName || "a trader"} — click to change` : (c.title || c.cls)}
+          onClick={(e) => { e.stopPropagation(); c.onClick(); }}>
+          {c.label}
+          {c.manual && <ManualMark by={c.manual.by} fallback={c.manual.byName} />}
+        </button>
+      ) : (
         <span key={i} className={`rt-chip rt-chip-${c.cls}`} style={{ "--chip-color": c.color }} title={c.title || c.cls}>
           {c.label}
         </span>
       ))}
     </div>
   );
+}
+
+// Theme chips. Rendered as their own row, in a violet/magenta hue family, so a
+// theme is never mistaken for a catalyst — they answer different questions and
+// a runner routinely carries both.
+//
+// The four states are kept distinct on purpose. "predates" means this day is
+// older than theme tagging, which is NOT the same as "we looked and found
+// nothing" — treating them alike would make a Drone/UAV filter look like the
+// theme never runs.
+const THEME_EMPTY = {
+  none:     { cls: "ok",   text: "no theme" },
+  nonews:   { cls: "ok",   text: "no theme — no news to judge from" },
+  unknown:  { cls: "warn", text: "theme unknown — news fetch failed" },
+  predates: { cls: "dim",  text: "predates theme tagging" },
+};
+function ThemeChips({ r, onEdit }) {
+  const state = window.themeState(r);
+  const list = Array.isArray(r.themes) ? r.themes : [];
+  const manual = r._manual && r._manual.themes;
+  return (
+    <div className="rt-themes">
+      <span className="rt-themes-lbl">THEME</span>
+      {state === "ok" && list.map((t, i) => {
+        const name = typeof t === "string" ? t : t.theme;
+        const conf = typeof t === "object" ? t.confidence : null;
+        const uncertain = typeof t === "object" && t.uncertain;
+        return (
+          <span key={i}
+            className={`rt-theme-chip ${uncertain ? "uncertain" : ""}`}
+            style={{ "--chip-color": window.themeColor(name) }}
+            title={uncertain
+              ? `${name} — low confidence (${conf}), treat as uncertain`
+              : `${name}${conf != null ? ` — confidence ${conf}` : ""}`}>
+            {name}
+            {uncertain && <span className="rt-theme-q">?</span>}
+          </span>
+        );
+      })}
+      {state !== "ok" && (
+        <span className={`rt-theme-empty rt-theme-${THEME_EMPTY[state].cls}`}>
+          {THEME_EMPTY[state].text}
+        </span>
+      )}
+      {manual && <ManualMark by={manual.by} fallback={manual.byName} />}
+      {onEdit && (
+        <button className="rt-theme-edit" onClick={(e) => { e.stopPropagation(); onEdit(); }}>
+          {state === "ok" ? "edit" : "+ add"}
+        </button>
+      )}
+    </div>
+  );
+}
+
+// Shown inside the theme picker when v2schema's V2_THEMES has drifted from the
+// pipeline's THEME_VOCAB. Deliberately not auto-fixed — a silent correction
+// would hide that the two files disagree.
+function ThemeDriftWarning() {
+  const d = window.themeVocabDrift ? window.themeVocabDrift() : null;
+  if (!d || !d.checked || d.ok) return null;
+  return (
+    <div className="rt-theme-drift">
+      <b>Theme vocabulary drift.</b> The UI list disagrees with the pipeline's.
+      {d.extraInUi.length > 0 && (
+        <> Themes the pipeline will <b>not</b> recognise: {d.extraInUi.join(", ")}.</>
+      )}
+      {d.missingInUi.length > 0 && (
+        <> Missing from this list: {d.missingInUi.join(", ")}.</>
+      )}
+      {" "}See the console for the fix.
+    </div>
+  );
+}
+
+// The subtle "a human set this" marker. Live handle via pfUseProfile, the same
+// pattern ShotUploader uses, so a rename propagates to old edits.
+function ManualMark({ by, fallback }) {
+  const live = window.pfUseProfile ? window.pfUseProfile(by) : null;
+  const name = (live && live.username) || fallback || "a trader";
+  return <span className="rt-chip-man" title={`Set manually by @${String(name).replace(/^@+/, "")}`}>✎</span>;
 }
 
 // ── Warning badges: SSR + reverse split ────────────────────────────
@@ -649,21 +908,30 @@ function FactorColumns({ r }) {
   );
 }
 
-// ── Behavior tag — manual, editable inline, persisted to localStorage ──
+// ── Behavior tag — manual, editable inline, shared via the override layer ──
+// Moved off localStorage with catalyst: it had the same per-browser flaw, so
+// the tags didn't travel between machines and nobody else could see them.
 const BEHAVIOR_PRESETS = [
   "Clean fade", "Backside short", "Frontside runner", "Halt-go", "Grinder",
   "Trap / squeeze", "Multiday", "Choppy", "One-and-done", "Dead",
 ];
 function BehaviorEditor({ r }) {
   const date = r._date;
-  const [value, setValue] = React.useState(() => window.getBehaviorTag(date, r.sym, r.behaviorTag) || "");
+  const value = r.behaviorTag || "";
   const [editing, setEditing] = React.useState(false);
   const [draft, setDraft] = React.useState(value);
+  const [err, setErr] = React.useState("");
 
-  const commit = (v) => {
-    const saved = window.setBehaviorTag(date, r.sym, v);
-    setValue(saved);
-    setEditing(false);
+  const commit = async (v) => {
+    setErr("");
+    try {
+      await window.ovrSetField(date, r.sym, "behavior", String(v || "").trim() || null);
+      setEditing(false);
+    } catch (e) {
+      setErr(e.code === "permission-denied"
+        ? "Firestore rules rejected the write — publish the `overrides` rules block."
+        : (e.message || "Could not save."));
+    }
   };
 
   return (
@@ -694,6 +962,7 @@ function BehaviorEditor({ r }) {
               <button key={p} className="rt-behavior-preset" onClick={() => commit(p)}>{p}</button>
             ))}
           </div>
+          {err && <div className="tagedit-err">{err}</div>}
           <div className="rt-behavior-actions">
             <button className="rt-behavior-save" onClick={() => commit(draft)}>Save</button>
             {value && <button className="rt-behavior-clear" onClick={() => commit("")}>Clear</button>}
@@ -756,10 +1025,72 @@ function TradingViewChart({ sym, date }) {
 
 // Inline catalyst tag editor — pick from the v2 vocabulary and/or add custom
 // tags (ETB, HARD-TO-BORROW, HALT-L1…). Persists to localStorage by date+ticker.
-function TagEditor({ r, edit, onChange, onClose }) {
-  const [tag, setTag] = React.useState((edit && edit.tag) || r.tag || "");
-  const [customs, setCustoms] = React.useState((edit && edit.customTags) || []);
+// Catalyst + country + custom tags, backed by the shared Firestore override
+// layer. `r` is already merged: r.tag / r.country are the EFFECTIVE values,
+// r._manual says which were hand-set, r._base holds the pipeline's originals.
+//
+// One panel for every override field rather than a popover per chip — it is
+// the same doc, the same write path, and item 9 adds a THEMES section here.
+const TE_FREE = "__free__";
+
+// A dropdown whose empty option means "no override — use whatever the pipeline
+// produced", labelled with that value so the choice is never a guess.
+function OverrideSelect({ label, options, optionLabel, colorOf, baseValue, manual,
+                         value, onChange, free, onFree, busy, placeholder }) {
+  const chosen = value === TE_FREE ? String(free || "").trim().toUpperCase() : value;
+  return (
+    <>
+      <div className="tagedit-lbl">{label}</div>
+      <div className="tagedit-catrow">
+        <select className="tagedit-sel" value={value} disabled={busy}
+          style={{ "--cat": colorOf ? colorOf(chosen) : "var(--text)" }}
+          onChange={(e) => onChange(e.target.value)}>
+          <option value="">{baseValue ? `— use AI value: ${baseValue} —` : "— none —"}</option>
+          {options.map((t) => <option key={t} value={t}>{optionLabel ? optionLabel(t) : t}</option>)}
+          <option value={TE_FREE}>Custom…</option>
+        </select>
+        {value === TE_FREE && (
+          <input className="tagedit-free" value={free} autoFocus disabled={busy}
+            placeholder={placeholder} onChange={(e) => onFree(e.target.value)} />
+        )}
+      </div>
+      <div className="tagedit-prov">
+        {manual
+          ? <>Set manually by <b>@<ShotOrName by={manual.by} fallback={manual.byName} /></b> · overrides the pipeline</>
+          : (baseValue ? <>From the pipeline: <b>{baseValue}</b></> : <>Nothing from the pipeline</>)}
+      </div>
+    </>
+  );
+}
+
+function TagEditor({ r, onClose }) {
+  const man = r._manual || {};
+  const base = r._base || { tag: r.tag || "", country: r.country || "" };
+  const catVocab = window.V2_CATALYST_TAGS || [];
+  const ctryVocab = window.V2_COUNTRIES || [];
+
+  const initial = (cur, manual, vocab) => {
+    if (!manual) return ["", ""];                       // no override → use AI value
+    const v = String(cur || "").toUpperCase();
+    return vocab.indexOf(v) >= 0 ? [v, ""] : [TE_FREE, v];
+  };
+  const [tag0, tagFree0] = initial(r.tag, man.catalyst, catVocab);
+  const [ctry0, ctryFree0] = initial(r.country, man.country, ctryVocab);
+
+  const [tag, setTag] = React.useState(tag0);
+  const [free, setFree] = React.useState(tagFree0);
+  const [ctry, setCtry] = React.useState(ctry0);
+  const [ctryFree, setCtryFree] = React.useState(ctryFree0);
+  const [customs, setCustoms] = React.useState(() => (r.customTags || []).slice());
   const [draft, setDraft] = React.useState("");
+  const [busy, setBusy] = React.useState(false);
+  const [err, setErr] = React.useState("");
+  // Themes are multi-select (max 3), so they get chips rather than a dropdown.
+  const [themeSel, setThemeSel] = React.useState(() =>
+    (Array.isArray(r.themes) ? r.themes : []).map((t) => (typeof t === "string" ? t : t.theme)));
+  const toggleTheme = (t) => setThemeSel((prev) =>
+    prev.indexOf(t) >= 0 ? prev.filter((x) => x !== t)
+      : (prev.length >= (window.V2_THEME_MAX || 3) ? prev : prev.concat([t])));
 
   const addCustom = () => {
     const v = draft.trim().toUpperCase();
@@ -767,47 +1098,104 @@ function TagEditor({ r, edit, onChange, onClose }) {
     setCustoms(customs.concat(v));
     setDraft("");
   };
-  const save = () => {
-    onChange(window.setTagEdit(r._date, r.sym, { tag, customTags: customs }));
-    onClose();
-  };
-  const clear = () => {
-    onChange(window.setTagEdit(r._date, r.sym, { tag: null, customTags: [] }));
-    onClose();
+
+  const pick = (sel, freeText) => sel === TE_FREE ? String(freeText || "").trim().toUpperCase() : sel;
+  const chosenTag = pick(tag, free);
+  const chosenCtry = pick(ctry, ctryFree);
+
+  // Each field is written independently, so clearing one never disturbs another
+  // and an empty selection deletes just that override.
+  const save = async () => {
+    setBusy(true); setErr("");
+    try {
+      await window.ovrSetField(r._date, r.sym, "catalyst", chosenTag || null,
+        chosenTag ? { custom: tag === TE_FREE } : null);
+      await window.ovrSetField(r._date, r.sym, "country", chosenCtry || null,
+        chosenCtry ? { custom: ctry === TE_FREE } : null);
+      await window.ovrSetField(r._date, r.sym, "customTags", customs.length ? customs : null);
+      // Hand-set themes carry confidence 1 and are never flagged uncertain —
+      // a human said so.
+      await window.ovrSetField(r._date, r.sym, "themes",
+        themeSel.length ? themeSel.map((t) => ({ theme: t, confidence: 1, uncertain: false })) : null);
+      onClose();
+    } catch (e) {
+      setErr(e.code === "permission-denied"
+        ? "Firestore rules rejected the write — publish the `overrides` rules block in src/firebase.js."
+        : (e.message || "Could not save."));
+      setBusy(false);
+    }
   };
 
   return (
     <div className="tagedit" onClick={(e) => e.stopPropagation()}>
-      <div className="tagedit-lbl">CATALYST</div>
-      <div className="tagedit-opts">
-        {window.V2_CATALYST_TAGS.map((t) => (
-          <button key={t} className={`tagedit-opt ${tag === t ? "on" : ""}`}
-            style={{ "--cat": window.catalystColor(t) }} onClick={() => setTag(t)}>{t}</button>
-        ))}
+      <OverrideSelect label="CATALYST" options={catVocab} colorOf={window.catalystColor}
+        baseValue={base.tag ? String(base.tag).toUpperCase() : ""} manual={man.catalyst}
+        value={tag} onChange={setTag} free={free} onFree={setFree}
+        busy={busy} placeholder="Type a catalyst" />
+
+      <OverrideSelect label="COUNTRY OF ORIGIN" options={ctryVocab}
+        optionLabel={window.countryLabel} colorOf={window.countryColor}
+        baseValue={base.country ? String(base.country).toUpperCase() : ""} manual={man.country}
+        value={ctry} onChange={setCtry} free={ctryFree} onFree={setCtryFree}
+        busy={busy} placeholder="ISO-2 code, e.g. CN" />
+
+      <div className="tagedit-lbl">
+        THEME <span className="pbe-row-hint">separate from catalyst · max {window.V2_THEME_MAX || 3} · {themeSel.length} selected</span>
       </div>
+      {/* Surfaced here specifically: this is the moment a vocabulary drift
+          actually costs you, by writing a theme the pipeline can't read back. */}
+      <ThemeDriftWarning />
+      <div className="tagedit-themes">
+        {(window.V2_THEMES || []).map((t) => {
+          const on = themeSel.indexOf(t) >= 0;
+          const full = !on && themeSel.length >= (window.V2_THEME_MAX || 3);
+          return (
+            <button key={t} type="button" disabled={busy || full}
+              className={`rt-theme-chip pick ${on ? "on" : ""} ${full ? "full" : ""}`}
+              style={{ "--chip-color": window.themeColor(t) }}
+              title={(window.V2_ENTITY_THEMES || []).indexOf(t) >= 0
+                ? "Named entity — needs a real relationship, not a mention" : t}
+              onClick={() => toggleTheme(t)}>{t}</button>
+          );
+        })}
+      </div>
+
       <div className="tagedit-lbl">CUSTOM TAGS</div>
       {customs.length > 0 && (
         <div className="tagedit-customs">
           {customs.map((c) => (
-            <button key={c} className="rt-chip rt-chip-custom" onClick={() => setCustoms(customs.filter((x) => x !== c))}>
+            <button key={c} className="rt-chip rt-chip-custom" disabled={busy}
+              onClick={() => setCustoms(customs.filter((x) => x !== c))}>
               {c} <span className="tagedit-x">×</span>
             </button>
           ))}
         </div>
       )}
       <div className="tagedit-add">
-        <input value={draft} placeholder="e.g. ETB, HARD-TO-BORROW, HALT-L1"
+        <input value={draft} placeholder="e.g. ETB, HARD-TO-BORROW, HALT-L1" disabled={busy}
           onChange={(e) => setDraft(e.target.value)}
           onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); addCustom(); } }} />
-        <button className="tagedit-addbtn" onClick={addCustom}>Add</button>
+        <button className="tagedit-addbtn" onClick={addCustom} disabled={busy}>Add</button>
       </div>
+      {err && <div className="tagedit-err">{err}</div>}
+      {/* No separate "reset" button: picking "— use AI value —" in a dropdown
+          IS the revert, which keeps one mental model per field. */}
       <div className="tagedit-actions">
-        <button className="tagedit-save" onClick={save}>Save</button>
-        <button className="tagedit-clear" onClick={clear}>Reset</button>
-        <button className="tagedit-cancel" onClick={onClose}>Cancel</button>
+        <button className="tagedit-save" onClick={save}
+          disabled={busy || (tag === TE_FREE && !free.trim()) || (ctry === TE_FREE && !ctryFree.trim())}>
+          {busy ? "Saving…" : "Save"}
+        </button>
+        <button className="tagedit-cancel" onClick={onClose} disabled={busy}>Cancel</button>
       </div>
     </div>
   );
+}
+
+// Live handle for an override author.
+function ShotOrName({ by, fallback }) {
+  const live = window.pfUseProfile ? window.pfUseProfile(by) : null;
+  const name = (live && live.username) || fallback || "a trader";
+  return <>{String(name).replace(/^@+/, "")}</>;
 }
 
 // v2 cleanup: these research sections are being replaced by Claude summarization
@@ -826,23 +1214,39 @@ function aiGradeColor(g) {
   return window.gradeColor(known);
 }
 
-// Inline manual grade picker (replaces the auto Setup Score).
-// Shows Claude's setupGrade alongside it as a muted, clearly-labeled "AI" badge.
+// Inline grade picker. The big badge is the DESK AVERAGE of everyone's grades;
+// the highlighted button is YOUR OWN vote. You can only ever change your own —
+// other people's are shown read-only in the roster underneath.
+// Claude's setupGrade sits alongside as a muted, clearly-labeled "AI" badge.
 function GradePicker({ r, onGradeChange }) {
-  const [grade, setGradeState] = React.useState(() => window.getGrade(r._date, r.sym));
-  const pick = (g) => {
-    const next = window.setGrade(r._date, r.sym, g === grade ? null : g); // click again to clear
-    setGradeState(next);
-    if (onGradeChange) onGradeChange(next);
+  window.grUseVersion();
+  const mine = window.grMyGrade(r._date, r.sym);
+  const agg = window.grAggregate(r._date, r.sym);
+  const [busy, setBusy] = React.useState(false);
+  const [err, setErr] = React.useState("");
+
+  const pick = async (g) => {
+    setBusy(true); setErr("");
+    try {
+      // clicking your current grade again clears your vote
+      const next = await window.grSetMyGrade(r._date, r.sym, g === mine ? null : g);
+      if (onGradeChange) onGradeChange(next);
+    } catch (e) {
+      setErr(e.code === "permission-denied"
+        ? "Firestore rules rejected the write — publish the `grades` rules block in src/firebase.js."
+        : (e.message || "Could not save your grade."));
+    }
+    setBusy(false);
   };
-  const c = window.gradeColor(grade);
   const ai = r.setupGrade || null;
+
   return (
     <div className="rt-grade">
       <span className="rt-lbl rt-grade-lbl">GRADE</span>
-      <span className={`grade-badge ${grade ? "graded" : "ungraded"} ${grade === "A++" ? "grade-gold" : ""}`} style={{ "--gc": c }}>
-        {grade || "—"}
-      </span>
+      <window.GrGradeBadge date={r._date} sym={r.sym} showEmpty />
+      {agg.count >= 2 && (
+        <span className="rt-grade-avg" title={`Mean of ${agg.count} grades`}>desk avg</span>
+      )}
       {ai && (
         <span className="rt-aigrade" title="Claude's setup grade from the evening pipeline">
           <span className="rt-aigrade-lbl">AI</span>
@@ -851,22 +1255,24 @@ function GradePicker({ r, onGradeChange }) {
       )}
       <div className="rt-grade-opts">
         {window.GRADES.map((g) => (
-          <button key={g} className={`rt-grade-opt ${grade === g ? "on" : ""}`}
-            style={{ "--gc": window.gradeColor(g) }}
+          <button key={g} className={`rt-grade-opt ${mine === g ? "on" : ""}`}
+            style={{ "--gc": window.gradeColor(g) }} disabled={busy}
+            title={mine === g ? "Your grade — click again to clear" : "Set your grade"}
             onClick={(e) => { e.stopPropagation(); pick(g); }}>{g}</button>
         ))}
       </div>
+      <window.GrGraderList date={r._date} sym={r.sym} />
+      {err && <div className="tagedit-err">{err}</div>}
     </div>
   );
 }
 
+// `r` arrives already merged with any manual overrides (App.jsx does it once
+// for every runner), so r.tag / r.country / r.behaviorTag are the effective
+// values and r._manual carries who set what.
 function RunnerTile({ r, onGradeChange }) {
-  const [edit, setEdit] = React.useState(() => window.getTagEdit(r._date, r.sym));
   const [editing, setEditing] = React.useState(false);
-  // an edited catalyst overrides the pipeline's tag
-  const effTag = (edit && edit.tag) || r.tag;
-  const rr = { ...r, tag: effTag };
-  const tag = (effTag || "MIXED").toUpperCase();
+  const tag = (r.tag || "MIXED").toUpperCase();
   const accent = tagAccent(tag);
   const sections = visibleSections(r.sections);
   const hasTile = r.riskBadges || r.reasons || r.tldr
@@ -885,35 +1291,44 @@ function RunnerTile({ r, onGradeChange }) {
         <div className="rt-hod">+{r.hodExact != null ? r.hodExact.toFixed(2) : r.hod}% <span className="rt-hod-sub">HOD</span></div>
       </div>
 
-      <div className="rt-chiprow">
-        <TagChips r={rr} />
-        {edit && edit.customTags && edit.customTags.length > 0 && (
-          <div className="rt-chips rt-chips-custom">
-            {edit.customTags.map((c) => (
-              <span key={c} className="rt-chip rt-chip-custom">{c}</span>
-            ))}
+      {/* Two columns: identity/tags/grade on the left, chart anchored top-right.
+          The chart used to sit below everything at full tile width, which forced
+          a 16:9 image into a short wide box and left ~330px of dead space either
+          side of it. */}
+      <div className="rt-split">
+        <div className="rt-split-main">
+          <div className="rt-chiprow">
+            <TagChips r={r} onEdit={() => setEditing(true)} />
+            {r.customTags && r.customTags.length > 0 && (
+              <div className="rt-chips rt-chips-custom">
+                {r.customTags.map((c) => (
+                  <span key={c} className="rt-chip rt-chip-custom">{c}</span>
+                ))}
+              </div>
+            )}
+            <button className="rt-editbtn" onClick={(e) => { e.stopPropagation(); setEditing((v) => !v); }}>
+              {editing ? "Close" : "Edit"}
+            </button>
           </div>
-        )}
-        <button className="rt-editbtn" onClick={(e) => { e.stopPropagation(); setEditing((v) => !v); }}>
-          {editing ? "Close" : "Edit Tags"}
-        </button>
-      </div>
-      {editing && (
-        <TagEditor r={r} edit={edit} onChange={setEdit} onClose={() => setEditing(false)} />
-      )}
-      <WarnBadges r={r} />
-      <GradePicker r={r} onGradeChange={onGradeChange} />
-      <HodTimeSlot r={r} />
-
-      {/* Chart screenshots replaced the TradingView embed. Backed by Firebase
-          Storage + Firestore, so the whole desk sees the same image here and on
-          the matching Playbook tile. */}
-      <div className="rt-chart">
-        <div className="rt-chart-head">
-          <span className="rt-lbl">CHART · {String(r.sym).toUpperCase()}</span>
-          <span className="rt-chart-date">{r._date}</span>
+          <ThemeChips r={r} onEdit={() => setEditing(true)} />
+          {editing && (
+            <TagEditor r={r} onClose={() => setEditing(false)} />
+          )}
+          <WarnBadges r={r} />
+          <GradePicker r={r} onGradeChange={onGradeChange} />
+          <HodTimeSlot r={r} />
         </div>
-        <window.ShotZone date={r._date} sym={r.sym} />
+
+        {/* Chart screenshots replaced the TradingView embed. Backed by Firebase
+            Storage + Firestore, so the whole desk sees the same image here and on
+            the matching Playbook tile. */}
+        <div className="rt-chart rt-split-chart">
+          <div className="rt-chart-head">
+            <span className="rt-lbl">CHART · {String(r.sym).toUpperCase()}</span>
+            <span className="rt-chart-date">{r._date}</span>
+          </div>
+          <window.ShotZone date={r._date} sym={r.sym} />
+        </div>
       </div>
 
       {/* Shared desk notes for this ticker+date, live via onSnapshot */}

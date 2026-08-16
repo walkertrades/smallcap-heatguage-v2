@@ -340,6 +340,10 @@ function App({ tweaks, user, profile }) {
         let data; try { data = JSON.parse(raw); } catch { throw new Error("data2.json is not valid JSON"); }
         const list = Array.isArray(data) ? data : (data && Array.isArray(data.entries) ? data.entries : null);
         if (cancelled) return;
+        // The UI's theme vocabulary is a hand-written mirror of the pipeline's.
+        // Compare them the moment the data lands and shout if they disagree —
+        // picking a theme the pipeline can't read back is a silent data bug.
+        if (window.checkThemeVocab) window.checkThemeVocab(data && data.themeVocab);
         if (!list || list.length === 0) { setEntries([]); setStatus("empty"); return; }
         const normalized = list.map(normalizeEntry).filter(Boolean);
         if (normalized.length === 0) { setEntries([]); setStatus("empty"); return; }
@@ -352,10 +356,19 @@ function App({ tweaks, user, profile }) {
     return () => { cancelled = true; };
   }, []);
 
+  // Manual overrides are layered over the pipeline data ONCE, here, so every
+  // downstream consumer — filters, Top Movers, Playbook criteria, Insights —
+  // sees the same effective values as the tiles do. ovrVer changes whenever the
+  // Firestore snapshot does, including edits made by someone else on the desk.
+  // ovrMergeRunner returns the runner unchanged when it has no override, so
+  // this stays cheap across ~9.6k runners.
+  const ovrVer = window.ovrUseVersion ? window.ovrUseVersion() : 0;
   const scoredEntries = useMemo_App(() => entries.map((e) => {
     const r = window.computeHeat(e, thresholds);
-    return { ...e, score: r.score, state: r.state, isBlackSwan: r.isBlackSwan || false };
-  }), [entries, thresholds]);
+    const runners = window.ovrMergeRunner
+      ? (e.runners || []).map(window.ovrMergeRunner) : e.runners;
+    return { ...e, runners, score: r.score, state: r.state, isBlackSwan: r.isBlackSwan || false };
+  }), [entries, thresholds, ovrVer]);
 
   // The folder editor is reachable from places that don't hold `entries` (the
   // Add-to-Playbook popover), so publish the loaded data for its option lists.
@@ -408,7 +421,7 @@ function App({ tweaks, user, profile }) {
     page = <window.PlaybookPage entries={scoredEntries} folderId={folderId} folders={folders}
       newFolderOpen={newFolderOpen} onCreateFolder={createFolder} onCancelFolder={() => setNewFolderOpen(false)} />;
   } else if (view === "settings") {
-    page = <window.SettingsPage />;
+    page = <window.SettingsPage entries={scoredEntries} />;
   } else if (view === "gauge") {
     page = <GaugePage entries={scoredEntries} selectedDate={selectedDate} onSelectDate={setSelectedDate} />;
   } else {

@@ -135,4 +135,62 @@ const RULES = {
   },
 };
 
-Object.assign(window, { computeHeat, computeStreak, RULES, DEFAULT_THRESHOLDS });
+// ── Heat colour scale ──────────────────────────────────────────────
+// ONE gradient for the whole app: cold blue → cyan → green → amber → orange →
+// hot red. These are the exact stops the radial gauge has always used; they
+// were locked inside an SVG <linearGradient> in Gauge.jsx, so nothing else
+// could reach them. The gauge now builds its stops from this array and every
+// other heat-coloured element calls heatColor(), so there is still exactly one
+// scale and a change to it lands everywhere at once.
+//
+// NOTE the cold end is BLUE, not green — green sits in the MIDDLE of this ramp.
+// Anything colouring by heat must keep that, or the same number would read as a
+// different temperature depending on which control you looked at.
+const HEAT_GRADIENT = [
+  { at: 0,   l: 0.62, c: 0.18, h: 255 },
+  { at: 26,  l: 0.68, c: 0.15, h: 215 },
+  { at: 48,  l: 0.80, c: 0.15, h: 150 },
+  { at: 68,  l: 0.86, c: 0.16, h: 95  },
+  { at: 86,  l: 0.76, c: 0.19, h: 55  },
+  { at: 100, l: 0.64, c: 0.23, h: 28  },
+];
+function heatStopColor(s) { return `oklch(${s.l} ${s.c} ${s.h})`; }
+
+// `score` is ALWAYS on the absolute 0–100 scale, never a chart's zoomed axis —
+// a 61 has to read as the same temperature on the dial and on the trend line.
+function heatColor(score) {
+  const v = Number(score);
+  if (score == null || !Number.isFinite(v)) return "oklch(0.55 0.02 260)";
+  const s = Math.max(0, Math.min(100, v));
+  let a = HEAT_GRADIENT[0], b = HEAT_GRADIENT[HEAT_GRADIENT.length - 1];
+  for (let i = 0; i < HEAT_GRADIENT.length - 1; i++) {
+    if (s >= HEAT_GRADIENT[i].at && s <= HEAT_GRADIENT[i + 1].at) {
+      a = HEAT_GRADIENT[i]; b = HEAT_GRADIENT[i + 1];
+      break;
+    }
+  }
+  const span = b.at - a.at;
+  const t = span === 0 ? 0 : (s - a.at) / span;
+  const mix = (x, y) => x + (y - x) * t;
+  // Hue runs 255 → 28 monotonically down, so linear interpolation is safe here
+  // — there is no wraparound to shortest-path around the colour wheel.
+  return `oklch(${mix(a.l, b.l).toFixed(4)} ${mix(a.c, b.c).toFixed(4)} ${mix(a.h, b.h).toFixed(2)})`;
+}
+
+// Visual zone boundaries in score. Shared by the radial gauge's arc highlight
+// and the trend chart's gridlines, so the chart's bands line up with the dial's.
+const HEAT_ZONE_EDGE = { coldTop: 45, hotBottom: 62 };
+
+// Trend-chart y-axis. Measured over all 1,028 days in data2.json on 2026-08-15:
+//   min 32 · p1 42 · p25 57 · median 61 · p75 68 · p99 88 · max 96
+//   0.00% of days below 30, 0.68% above 90.
+// A 0–100 axis therefore spent a third of its height on empty space. 30–95 is
+// the tightest range that clips nothing in a current 30-day window (2 days in
+// four years touch the ceiling) while cutting wasted height by 35%.
+// Values outside the range are CLAMPED to the edge, never dropped.
+const HEAT_AXIS = { min: 30, max: 95 };
+
+Object.assign(window, {
+  computeHeat, computeStreak, RULES, DEFAULT_THRESHOLDS,
+  HEAT_GRADIENT, heatStopColor, heatColor, HEAT_ZONE_EDGE, HEAT_AXIS,
+});

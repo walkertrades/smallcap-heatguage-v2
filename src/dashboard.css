@@ -376,6 +376,22 @@ body { background: var(--app-bg); }
   font-size: 12px; color: var(--text-muted);
 }
 
+/* Runner tile: metadata left, chart anchored TOP RIGHT.
+   The chart column is sized so a 16:9 image lands at a readable width without
+   dominating the tile; below 1100px it stacks so the chart never gets squeezed
+   into an unreadable sliver. */
+.rt-split { display: flex; align-items: flex-start; gap: 16px; }
+.rt-split-main { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+.rt-split-chart { flex: 0 0 440px; max-width: 440px; margin: 0; }
+@media (max-width: 1400px) { .rt-split-chart { flex-basis: 380px; max-width: 380px; } }
+@media (max-width: 1100px) {
+  .rt-split { flex-direction: column; }
+  .rt-split-chart { flex: 1 1 auto; max-width: 100%; width: 100%; }
+}
+/* The Top Movers detail row is already narrow; never split there. */
+.mover-detail-row .rt-split { flex-direction: column; }
+.mover-detail-row .rt-split-chart { flex: 1 1 auto; max-width: 100%; width: 100%; }
+
 /* chip row + tag editing */
 .rt-chiprow { display: flex; align-items: flex-start; gap: 8px; flex-wrap: wrap; }
 .rt-chiprow .rt-chips { margin-bottom: 0; }
@@ -383,6 +399,24 @@ body { background: var(--app-bg); }
 .rt-chip-custom {
   --chip-color: oklch(0.62 0.01 260);
   text-transform: none; letter-spacing: 0.02em; cursor: default;
+}
+/* A catalyst chip that is also the edit affordance — click the tag to change it. */
+.rt-chip-edit { cursor: pointer; font: inherit; }
+.rt-chip-edit:hover {
+  border-color: color-mix(in oklch, var(--chip-color) 85%, transparent);
+  filter: brightness(1.18);
+}
+.rt-chip-edit:focus-visible { outline: 2px solid var(--neutral); outline-offset: 1px; }
+/* Ghost chip when the pipeline produced no catalyst at all. */
+.rt-chip-addcat {
+  border-style: dashed; opacity: 0.75; letter-spacing: 0.06em;
+}
+.rt-chip-addcat:hover { opacity: 1; }
+/* The subtle "a human set this" marker. Deliberately quiet — it should read as
+   provenance, not as a second tag. */
+.rt-chip-man {
+  margin-left: 4px; font-size: 8.5px; opacity: 0.7; vertical-align: super;
+  cursor: help;
 }
 .rt-editbtn {
   margin-left: auto; font-size: 10.5px; padding: 3px 9px; border-radius: 999px; cursor: pointer;
@@ -394,6 +428,26 @@ body { background: var(--app-bg); }
   background: oklch(0.185 0.012 260); border: 1px solid oklch(1 0 0 / 0.08);
 }
 .tagedit-lbl { font-size: 9px; letter-spacing: 0.14em; font-weight: 700; color: var(--text-muted); margin-bottom: 7px; }
+
+/* Catalyst: dropdown of the full vocabulary (frequency-ordered) + free text. */
+.tagedit-catrow { display: flex; gap: 7px; align-items: center; flex-wrap: wrap; }
+.tagedit-sel {
+  font-family: var(--font); font-size: 11.5px; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 9px; border-radius: 6px; cursor: pointer; min-width: 190px;
+  color: color-mix(in oklch, var(--cat, var(--text)) 80%, white);
+  background: var(--bg); border: 1px solid color-mix(in oklch, var(--cat, var(--card-border)) 45%, transparent);
+}
+.tagedit-sel:focus { outline: none; border-color: var(--text-muted); }
+.tagedit-free {
+  font-family: var(--font); font-size: 11.5px; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 9px; border-radius: 6px; flex: 1; min-width: 150px; text-transform: uppercase;
+  color: var(--text); background: var(--bg); border: 1px solid var(--card-border-strong);
+}
+.tagedit-free:focus { outline: none; border-color: var(--text-muted); }
+/* Provenance line: who set this, or that it's still the pipeline's value. */
+.tagedit-prov { font-size: 10px; color: var(--text-muted); margin: 7px 0 12px; }
+.tagedit-prov b { color: var(--text-dim); font-weight: 700; }
+.tagedit-err { font-size: 10.5px; color: var(--hot); margin: 8px 0 0; }
 .tagedit-opts { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
 .tagedit-opt {
   font-size: 9.5px; font-weight: 700; letter-spacing: 0.03em; padding: 4px 8px; border-radius: 5px;
@@ -472,33 +526,208 @@ body { background: var(--app-bg); }
 /* ── Chart screenshots (shared: Playbook tiles + Top Movers detail) ── */
 .shot-zone {
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
-  width: 100%; height: 300px; border-radius: 8px; cursor: pointer; text-align: center; padding: 10px;
+  width: 100%; aspect-ratio: 16 / 9; border-radius: 8px; cursor: pointer; text-align: center; padding: 10px;
   border: 1.5px dashed var(--card-border-strong); background: oklch(0.175 0.01 260);
   transition: border-color 0.15s, background 0.15s;
 }
-.shot-zone.compact { height: 150px; gap: 4px; }
+/* Empty state matches the filled state's shape so the tile doesn't jump height
+   the moment a chart lands. */
+.shot-zone.compact { height: auto; aspect-ratio: 16 / 9; gap: 4px; }
 .shot-zone:hover, .shot-zone.over { border-color: var(--neutral); background: oklch(0.21 0.02 250); }
 .shot-zone-ic { font-size: 18px; color: var(--text-muted); }
 .shot-zone-txt { font-size: 11.5px; color: var(--text-muted); line-height: 1.4; }
 .shot-zone.compact .shot-zone-txt { font-size: 10.5px; }
 .shot-zone-err { font-size: 10.5px; color: var(--hot); }
-.shot-has { position: relative; width: 100%; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid oklch(1 0 0 / 0.08); background: oklch(0.13 0.01 260); }
-.shot-has.compact { height: 150px; }
-.shot-has img { width: 100%; height: 100%; object-fit: contain; display: block; cursor: zoom-in; }
+/* chart-img returns 1920x1080, so the container is 16:9 and the image fills it
+   edge to edge. It used to be a fixed 300px tall at full tile width: a 16:9
+   image `contain`-ed into that is only ~533px wide, leaving ~330px of dead
+   space on EACH SIDE. The corner-pinned badges then landed out in that dead
+   space, which made one chart read as two separate panels. */
+.shot-has {
+  position: relative; width: 100%; aspect-ratio: 16 / 9;
+  border-radius: 8px; overflow: hidden;
+  border: 1px solid oklch(1 0 0 / 0.08); background: oklch(0.13 0.01 260);
+}
+/* `cover` not `contain`: the container now matches the image's own ratio, so
+   there is nothing to crop — but cover guarantees no hairline gap if a manually
+   uploaded screenshot is a slightly different shape. */
+.shot-has img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; }
 .shot-remove {
   position: absolute; top: 6px; right: 6px; width: 22px; height: 22px; border-radius: 50%;
   cursor: pointer; font-size: 14px; line-height: 1; color: var(--text);
   background: oklch(0.18 0.01 260 / 0.85); border: 1px solid oklch(1 0 0 / 0.18);
 }
 .shot-remove:hover { background: var(--hot); border-color: transparent; }
-.shot-lightbox {
-  position: fixed; inset: 0; z-index: 200; display: flex; flex-direction: column;
-  background: oklch(0.08 0.005 260 / 0.94); backdrop-filter: blur(4px); cursor: zoom-out;
+/* ── Settings: orphaned override cleanup ────────────────────────────
+   Listed, never auto-pruned — see ovrOrphans() for why. */
+.set-orphan-none { font-size: 12px; color: var(--text-muted); padding: 6px 0 2px; }
+.set-orphans { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+.set-orphan {
+  display: flex; align-items: center; gap: 12px; padding: 7px 10px; border-radius: 7px;
+  background: oklch(0.19 0.012 260); border: 1px solid var(--card-border);
 }
-.shot-lightbox-bar { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; color: var(--text-dim); font-size: 13px; }
-.shot-lightbox-close { background: none; border: none; color: var(--text-dim); font-size: 28px; cursor: pointer; line-height: 1; }
-.shot-lightbox-close:hover { color: var(--text); }
-.shot-lightbox img { flex: 1; min-height: 0; max-width: 96vw; object-fit: contain; margin: 0 auto 22px; cursor: default; }
+.set-orphan-key { font-size: 12px; font-weight: 800; color: var(--neutral); min-width: 62px; }
+.set-orphan-date { font-size: 11px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.set-orphan-fields { font-size: 10.5px; color: var(--text-muted); flex: 1; }
+.set-orphan-del {
+  font-size: 10px; padding: 3px 10px; border-radius: 999px; cursor: pointer;
+  color: var(--text-dim); background: transparent; border: 1px solid var(--card-border-strong);
+}
+.set-orphan-del:hover { color: oklch(0.98 0 0); background: var(--hot); border-color: transparent; }
+.set-orphan-del:disabled { opacity: 0.4; cursor: default; }
+
+/* ── Four-timeframe charts (src/shots.jsx) ──────────────────────────
+   Slots are a fixed grid in fixed order — the SLOT owns the label, never the
+   upload order, so a Daily dropped first can't end up labelled 1m. */
+.sh-slots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+@media (max-width: 780px) { .sh-slots { grid-template-columns: repeat(2, 1fr); } }
+.sh-slot {
+  /* Same 16:9 as the chart itself, so the four manage-view slots preview the
+     real shape rather than letterboxing it. */
+  position: relative; aspect-ratio: 16 / 9; border-radius: 9px; overflow: hidden; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+  background: oklch(0.16 0.01 260); border: 1px solid oklch(1 0 0 / 0.08);
+  transition: border-color 0.12s, background 0.12s;
+}
+.sh-slot.empty { border-style: dashed; border-color: oklch(1 0 0 / 0.16); }
+.sh-slot.empty:hover, .sh-slot.over { border-color: var(--neutral); background: oklch(0.20 0.015 260); }
+.sh-slot.over { border-style: solid; }
+.sh-slot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Grey placeholder label, centred, so the target is unambiguous before a drop. */
+.sh-slot-lbl { font-size: 17px; font-weight: 800; color: oklch(0.52 0.02 260); letter-spacing: 0.02em; }
+.sh-slot-txt { font-size: 9.5px; color: var(--text-muted); }
+.sh-slot-err { font-size: 9px; color: var(--hot); padding: 0 6px; text-align: center; }
+.sh-slot-tag {
+  position: absolute; top: 6px; left: 6px; font-size: 9px; font-weight: 800;
+  letter-spacing: 0.06em; padding: 1px 6px; border-radius: 4px;
+  color: var(--text); background: oklch(0.10 0.01 260 / 0.82);
+}
+.sh-slot-x, .sh-slot-swap {
+  position: absolute; top: 5px; border-radius: 5px; cursor: pointer; opacity: 0;
+  color: var(--text); background: oklch(0.12 0.01 260 / 0.85); border: 1px solid oklch(1 0 0 / 0.18);
+  transition: opacity 0.12s;
+}
+.sh-slot-x { right: 5px; width: 20px; height: 20px; font-size: 13px; line-height: 1; }
+.sh-slot-swap { right: 30px; height: 20px; font-size: 9px; padding: 0 6px; }
+.sh-slot:hover .sh-slot-x, .sh-slot:hover .sh-slot-swap { opacity: 1; }
+.sh-slot-x:hover { background: var(--hot); border-color: transparent; }
+.sh-auto-badge {
+  font-size: 8px; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase;
+  padding: 1px 5px; border-radius: 4px; color: oklch(0.86 0.14 95);
+  background: oklch(0.86 0.14 95 / 0.16); border: 1px solid oklch(0.86 0.14 95 / 0.4);
+}
+.sh-slot .sh-auto-badge { position: absolute; bottom: 6px; left: 6px; }
+.sh-count {
+  position: absolute; bottom: 6px; left: 6px; font-size: 9px; font-weight: 700;
+  padding: 1px 6px; border-radius: 4px; color: var(--text);
+  background: oklch(0.10 0.01 260 / 0.82);
+}
+.shot-has .sh-auto-badge { position: absolute; bottom: 6px; right: 6px; }
+.sh-edit-link {
+  margin-left: 8px; font-size: 10px; padding: 1px 8px; border-radius: 999px; cursor: pointer;
+  color: var(--text-dim); background: transparent; border: 1px dashed var(--card-border-strong);
+}
+.sh-edit-link:hover { color: var(--text); border-color: var(--text-muted); }
+
+/* Manage view — the empty state IS the upload interface. */
+.sh-manage { max-width: 1000px; margin: 0 auto; }
+.sh-manage-head { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+.sh-manage-done {
+  margin-left: auto; font-size: 11px; padding: 5px 14px; border-radius: 7px; cursor: pointer;
+  color: oklch(0.85 0.15 150); background: oklch(0.24 0.015 260);
+  border: 1px solid oklch(0.5 0.12 150);
+}
+.sh-manage-hint { font-size: 11px; color: var(--text-muted); margin: 0 0 14px; }
+
+/* Viewer — one chart fills the frame. No peek at the neighbour. */
+.sh-viewer {
+  position: relative; width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+}
+.sh-viewer-img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; border-radius: 6px; }
+/* Arrows PERSIST — no fade, no hover-to-reveal. Big enough to be an obvious
+   target, since this is the primary way the sequence is navigated. */
+.sh-arrow {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 4;
+  width: 60px; height: 60px; border-radius: 50%; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 40px; line-height: 1; padding-bottom: 5px;
+  color: oklch(0.99 0 0);
+  background: oklch(0.10 0.01 260 / 0.62);
+  border: 1px solid oklch(1 0 0 / 0.22);
+  backdrop-filter: blur(3px);
+  transition: background 0.12s, transform 0.12s;
+}
+.sh-arrow:hover { background: oklch(0.10 0.01 260 / 0.85); transform: translateY(-50%) scale(1.06); }
+.sh-arrow.left { left: 18px; }
+.sh-arrow.right { right: 18px; }
+.sh-viewer-bar {
+  position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); z-index: 4;
+  display: flex; align-items: center; gap: 12px; cursor: default;
+  padding: 8px 16px; border-radius: 999px;
+  background: oklch(0.10 0.01 260 / 0.85); border: 1px solid oklch(1 0 0 / 0.14);
+  backdrop-filter: blur(4px);
+}
+.sh-tf-name { font-size: 13px; font-weight: 800; color: var(--text); }
+.sh-tf-pos { font-size: 10.5px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.sh-dots { display: flex; gap: 5px; }
+.sh-dot {
+  width: 7px; height: 7px; border-radius: 50%; padding: 0; cursor: pointer;
+  background: oklch(1 0 0 / 0.28); border: none; transition: background 0.12s;
+}
+.sh-dot.on { background: oklch(0.98 0 0); }
+.sh-dot:hover { background: oklch(1 0 0 / 0.6); }
+.sh-viewer-credit { font-size: 10px; color: var(--text-muted); }
+.sh-manage-btn {
+  font-size: 10px; padding: 3px 10px; border-radius: 999px; cursor: pointer;
+  color: var(--text-dim); background: transparent; border: 1px solid oklch(1 0 0 / 0.22);
+}
+.sh-manage-btn:hover { color: var(--text); border-color: var(--text); }
+
+/* ── Shared fullscreen overlay (src/overlay.jsx) ────────────────────
+   Portalled into <body>, so this z-index sits in the ROOT stacking context and
+   is genuinely absolute. 900 clears every other layer in the app:
+   vault/profile modal 500, user menu 400, playbook modal 150, tweaks 100. */
+.hgo-overlay {
+  position: fixed; inset: 0; z-index: 900;
+  display: flex; flex-direction: column;
+  background: oklch(0.07 0.005 260);   /* fully opaque — nothing bleeds through */
+}
+.hgo-label {
+  position: absolute; top: 20px; left: 22px; z-index: 1; pointer-events: none;
+  font-size: 11px; letter-spacing: 0.12em; font-weight: 700; text-transform: uppercase;
+  color: var(--text-dim);
+}
+.hgo-close {
+  position: absolute; top: 14px; right: 18px; z-index: 3;
+  width: 42px; height: 42px; border-radius: 50%; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 26px; line-height: 1; cursor: pointer;
+  color: oklch(0.98 0 0);
+  background: oklch(0.16 0.01 260 / 0.85);
+  border: 1px solid oklch(1 0 0 / 0.22);
+  box-shadow: 0 4px 16px -4px oklch(0 0 0 / 0.7);
+  transition: background 0.12s, border-color 0.12s, transform 0.12s;
+}
+.hgo-close:hover { background: var(--hot); border-color: transparent; transform: scale(1.07); }
+.hgo-close:focus-visible { outline: 2px solid var(--neutral); outline-offset: 2px; }
+.hgo-body {
+  flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center;
+  padding: 64px 26px 30px;
+}
+/* Image/chart viewers: click anywhere off the content to dismiss. */
+.hgo-overlay.hgo-view { cursor: zoom-out; }
+/* Tighter gutters than a generic modal — the chart should own the screen.
+   The image itself stays `contain` here: the viewport is not 16:9, and cropping
+   price action off a chart to fill a frame is never the right trade. */
+.hgo-overlay.hgo-view .hgo-body { padding: 52px 16px 22px; }
+.hgo-overlay.hgo-view .hgo-body > img {
+  max-width: 100%; max-height: 100%; object-fit: contain;
+  display: block; cursor: default; border-radius: 6px;
+}
+/* Form/detail modals keep the translucent scrim and scroll their own content. */
+.hgo-overlay.hgo-dim { background: oklch(0.08 0.005 260 / 0.92); backdrop-filter: blur(4px); }
+.hgo-overlay.hgo-scroll .hgo-body { display: block; overflow-y: auto; padding: 56px 20px 40px; }
 
 /* ── Playbook ── */
 .playbook { display: flex; flex-direction: column; gap: 16px; }
@@ -534,16 +763,10 @@ body { background: var(--app-bg); }
 .play-expand:hover { color: var(--text); border-color: var(--text-muted); }
 .pb-empty { padding: 60px 20px; text-align: center; color: var(--text-muted); font-size: 13px; }
 .pb-pager { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 4px 0 10px; }
-.pb-modal {
-  position: fixed; inset: 0; z-index: 150; overflow-y: auto; padding: 40px 20px;
-  background: oklch(0.08 0.005 260 / 0.9); backdrop-filter: blur(4px);
-}
+/* The Playbook modals now render through .hgo-overlay (src/overlay.jsx), which
+   supplies the scrim, the × and the ESC/backdrop handling. Only the inner
+   content box is still styled here. */
 .pb-modal-inner { position: relative; max-width: 900px; margin: 0 auto; }
-.pb-modal-close {
-  position: absolute; top: -30px; right: 0; background: none; border: none;
-  color: var(--text-dim); font-size: 28px; cursor: pointer; line-height: 1; z-index: 2;
-}
-.pb-modal-close:hover { color: var(--text); }
 .pb-newfolder {
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 14px;
   background: oklch(0.20 0.013 260); border: 1px solid var(--glass-border); border-radius: var(--radius);
@@ -741,10 +964,157 @@ body { background: var(--app-bg); }
 .hodtime-axis-end { position: absolute; right: 0; }
 .hist-trend { position: relative; }
 .trend-svg { width: 100%; height: 70px; display: block; }
+/* ── Themes ─────────────────────────────────────────────────────────
+   Violet/magenta hue family, deliberately outside the catalyst palette, so a
+   theme chip is never mistaken for a catalyst at a glance. They answer
+   different questions and a runner routinely carries both. */
+.rt-themes { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin: 2px 0 4px; }
+.rt-themes-lbl {
+  font-size: 9px; letter-spacing: 0.14em; font-weight: 700;
+  color: var(--text-muted); text-transform: uppercase;
+}
+.rt-theme-chip {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.02em; padding: 2px 8px;
+  border-radius: 999px; white-space: nowrap; font-family: var(--font);
+  color: color-mix(in oklch, var(--chip-color) 85%, white);
+  background: color-mix(in oklch, var(--chip-color) 18%, transparent);
+  border: 1px solid color-mix(in oklch, var(--chip-color) 55%, transparent);
+}
+/* Low-confidence themes are flagged as uncertain rather than shown as fact. */
+.rt-theme-chip.uncertain { border-style: dashed; opacity: 0.72; }
+.rt-theme-q { font-size: 8.5px; margin-left: 3px; vertical-align: super; opacity: 0.9; }
+.rt-theme-chip.pick { cursor: pointer; }
+.rt-theme-chip.pick:hover { filter: brightness(1.2); }
+.rt-theme-chip.pick.on {
+  background: color-mix(in oklch, var(--chip-color) 40%, transparent);
+  color: oklch(0.98 0 0);
+}
+.rt-theme-chip.pick.full { opacity: 0.3; cursor: not-allowed; }
+.tagedit-themes { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
+.rt-theme-drift {
+  font-size: 10.5px; line-height: 1.5; margin: 0 0 9px; padding: 7px 9px; border-radius: 6px;
+  color: oklch(0.86 0.14 60);
+  background: oklch(0.72 0.16 45 / 0.12); border: 1px solid oklch(0.72 0.16 45 / 0.45);
+}
+.rt-theme-empty { font-size: 10.5px; }
+.rt-theme-ok  { color: var(--text-muted); }
+.rt-theme-warn { color: oklch(0.80 0.16 60); }
+/* "predates theme tagging" is deliberately the quietest state — it is a fact
+   about our data, not about the runner. */
+.rt-theme-dim { color: var(--text-muted); opacity: 0.6; font-style: italic; }
+.rt-theme-edit {
+  font-size: 9.5px; padding: 1px 8px; border-radius: 999px; cursor: pointer;
+  color: var(--text-muted); background: transparent; border: 1px dashed var(--card-border-strong);
+}
+.rt-theme-edit:hover { color: var(--text); border-color: var(--text-muted); }
+.filter-note {
+  font-size: 10px; color: var(--text-muted); margin: 0 0 6px; line-height: 1.45;
+  padding: 5px 8px; border-radius: 6px;
+  background: oklch(0.20 0.012 260); border: 1px solid var(--card-border);
+}
+
+/* ── News (rebuilt) ─────────────────────────────────────────────────
+   Discrete items, newest first: source tag, relative age, real headline, link.
+   Replaced a Claude paraphrase wall that was faithfully summarising aggregator
+   roundup junk — the defect was the SOURCE, not the summariser. */
+.rt-news-head { display: flex; align-items: center; gap: 8px; margin-bottom: 7px; }
+.rt-news-count {
+  font-size: 9px; font-weight: 700; padding: 1px 6px; border-radius: 999px;
+  color: var(--text-muted); background: oklch(0.24 0.015 260);
+}
+.rt-news-edit {
+  margin-left: auto; font-size: 10px; padding: 2px 9px; border-radius: 999px; cursor: pointer;
+  color: var(--text-dim); background: transparent; border: 1px dashed var(--card-border-strong);
+}
+.rt-news-edit:hover { color: var(--text); border-color: var(--text-muted); }
+.rt-newslist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
+.rt-newsitem {
+  display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap;
+  padding: 6px 8px; border-radius: 7px;
+  background: oklch(0.20 0.012 260); border: 1px solid oklch(1 0 0 / 0.06);
+  border-left: 2px solid oklch(0.60 0.14 150);
+}
+/* Reactive items are visually demoted so they can't be mistaken for a cause. */
+.rt-newsitem.is-after { border-left-color: oklch(0.55 0.02 260); opacity: 0.78; }
+.rt-news-src {
+  font-size: 8.5px; font-weight: 800; letter-spacing: 0.08em; padding: 1px 5px;
+  border-radius: 4px; text-transform: uppercase; flex-shrink: 0;
+}
+.rt-news-src-sec  { color: oklch(0.86 0.14 95);  background: oklch(0.86 0.14 95 / 0.16); }
+.rt-news-src-pr   { color: oklch(0.80 0.15 150); background: oklch(0.80 0.15 150 / 0.16); }
+.rt-news-src-news { color: oklch(0.75 0.13 240); background: oklch(0.75 0.13 240 / 0.16); }
+.rt-news-age { font-size: 10px; color: var(--text-muted); white-space: nowrap; flex-shrink: 0; cursor: help; }
+.rt-news-after {
+  font-size: 8.5px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+  color: oklch(0.72 0.16 40); border: 1px solid oklch(0.72 0.16 40 / 0.4);
+  padding: 0 5px; border-radius: 4px; cursor: help; flex-shrink: 0;
+}
+.rt-news-title { font-size: 12px; color: var(--text); flex: 1; min-width: 180px; line-height: 1.4; }
+a.rt-news-title:hover { color: var(--neutral); text-decoration: underline; }
+.rt-news-del {
+  margin-left: auto; width: 18px; height: 18px; border-radius: 50%; cursor: pointer; flex-shrink: 0;
+  font-size: 12px; line-height: 1; color: var(--text-muted);
+  background: transparent; border: 1px solid transparent;
+}
+.rt-news-del:hover { color: var(--text); background: var(--hot); }
+/* The four honest empty states. A failed fetch must not look like a clean tape. */
+.rt-news-ok   { color: var(--text-muted); }
+.rt-news-warn { color: oklch(0.80 0.16 60); }
+.rt-news-legacy { border-left: 2px solid oklch(0.35 0.02 260); padding-left: 10px; }
+.rt-news-legacy-item { font-size: 11.5px; margin-bottom: 4px; }
+.rt-newsform { display: flex; flex-direction: column; gap: 7px; }
+.rt-newsform-row { display: flex; gap: 7px; flex-wrap: wrap; }
+
+/* Tiered filter options whose numeric range is only in the tooltip. The dotted
+   underline is the standard "there's a definition behind this" affordance —
+   without it there's nothing telling you a hover is worth trying. */
+.pbe-chip.has-range, .filter-opt.has-range { text-decoration: underline dotted 1px; text-underline-offset: 3px; }
+.pbe-chip.has-range { text-decoration-color: oklch(1 0 0 / 0.28); }
+.filter-opt.has-range { text-decoration-color: oklch(1 0 0 / 0.28); }
+.pbe-chip.has-range:hover, .filter-opt.has-range:hover { text-decoration-color: currentColor; cursor: help; }
+
+/* ── Shared grades (src/grades.jsx) ─────────────────────────────────
+   The badge shows the DESK AVERAGE; the superscript is how many people graded,
+   shown once 2+ have. Per-grader detail is a native title tooltip — a styled
+   one would be clipped by the Top Movers scroll container and trapped by its
+   sticky column's stacking context. */
+.gr-count {
+  font-size: 8px; font-weight: 800; margin-left: 1.5px;
+  opacity: 0.85; vertical-align: super; line-height: 0;
+}
+.gr-roster {
+  display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px;
+  flex-basis: 100%;
+}
+.gr-roster-item {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 9.5px; padding: 2px 7px; border-radius: 999px;
+  color: var(--text-muted);
+  background: oklch(0.22 0.012 260); border: 1px solid var(--card-border);
+}
+/* your own vote reads as editable; everyone else's as reference */
+.gr-roster-item.mine { border-color: var(--text-muted); color: var(--text-dim); }
+.gr-roster-name { font-weight: 600; }
+.gr-roster-grade { font-weight: 800; }
+.rt-grade-avg {
+  font-size: 8.5px; letter-spacing: 0.1em; font-weight: 700;
+  text-transform: uppercase; color: var(--text-muted);
+}
+
+/* Gridlines sit on the gauge's COLD/NEUTRAL/HOT boundaries (45, 62). */
 .trend-grid { stroke: oklch(0.28 0.02 260 / 0.6); stroke-width: 1; stroke-dasharray: 2 3; }
-.trend-line { stroke: oklch(0.72 0.14 280); stroke-width: 2; }
-.trend-dot { fill: oklch(0.82 0.14 280); }
-.trend-last { position: absolute; right: 12px; top: 26px; font-size: 20px; font-weight: 800; color: oklch(0.82 0.14 280); }
+/* .trend-line / .trend-dot are gone: segments and points are now coloured
+   per-day from window.heatColor(), so the stroke/fill come from the element. */
+.trend-axis {
+  position: absolute; left: 10px; top: 26px; bottom: 8px;
+  display: flex; flex-direction: column; justify-content: space-between;
+  font-size: 8.5px; font-weight: 700; color: var(--text-muted);
+  font-variant-numeric: tabular-nums; pointer-events: none;
+}
+.trend-last {
+  position: absolute; right: 12px; top: 26px; font-size: 20px; font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
 
 /* ── Market intel ── */
 .intel-bar { display: grid; grid-template-columns: 1.6fr 1fr; gap: 16px; }

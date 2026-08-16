@@ -195,16 +195,8 @@ function CatalystBadge({ tag }) {
   const color = window.catalystColor(tag);
   return <span className="cat-badge" style={{ "--cat": color }}>{String(tag).toUpperCase()}</span>;
 }
-// Manual letter grade (replaces the auto-computed setup score).
-function GradeBadge({ grade }) {
-  const c = window.gradeColor(grade);
-  return (
-    <span className={`grade-badge ${grade ? "graded" : "ungraded"} ${grade === "A++" ? "grade-gold" : ""}`}
-      style={{ "--gc": c }} title={grade ? `Grade ${grade}` : "Ungraded"}>
-      {grade || "—"}
-    </span>
-  );
-}
+// The desk's averaged grade, with a superscript count and a per-grader hover.
+// window.GrGradeBadge (grades.jsx) does its own lookup and subscribes itself.
 
 const MOVER_RANGES = [
   { key: "today", label: "TODAY" },
@@ -250,7 +242,10 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive, hodWi
   const [from, setFrom] = useState_Ov("");
   const [to, setTo] = useState_Ov("");
   const [sort, setSort] = useState_Ov({ key: "hod", dir: -1 }); // default HOD % desc
-  const [gradeTick, setGradeTick] = useState_Ov(0); // bumped when a grade is edited
+  // Sorting by grade happens BEFORE pagination, so the whole in-range set needs
+  // its grades resolved. This version changes on any grade write — anyone's —
+  // and re-runs the sort below.
+  const gradeTick = window.grUseVersion ? window.grUseVersion() : 0;
   const [page, setPage] = useState_Ov(1);
   const [expanded, setExpanded] = useState_Ov(null);
 
@@ -388,9 +383,14 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive, hodWi
                     <td className="num pos">+{hodDisp(r)}%</td>
                     <td className={`num ${fadeCls(r.fade)}`}>{r.fade != null ? `${r.fade}%` : "—"}</td>
                     <td className="num">{r.volRaw || "—"}</td>
-                    <td>{r.country || "—"}</td>
+                    <td title={r.country ? window.countryLabel(r.country) : null}>
+                      {r.country || "—"}
+                      {r._manual && r._manual.country && (
+                        <span className="rt-chip-man" title="Country set manually">✎</span>
+                      )}
+                    </td>
                     <td className="mv-sector">{r.sectorNorm || "—"}</td>
-                    <td className="num"><GradeBadge grade={window.getGrade(r._date, r.sym)} /></td>
+                    <td className="num"><window.GrGradeBadge date={r._date} sym={r.sym} showEmpty /></td>
                     <td className="mv-pb" onClick={(e) => e.stopPropagation()}>
                       <window.AddToPlaybook r={r} compact />
                     </td>
@@ -402,7 +402,9 @@ function TopMovers({ entries, selectedDate, filterPredicate, filterActive, hodWi
                         {/* small inset: the panel sits inside the table, so matching
                             the container exactly nudges the table past it */}
                         <div className="mover-detail-inner" style={wrapW ? { width: Math.max(0, wrapW - 8) + "px" } : null}>
-                          <window.RunnerTile r={r} onGradeChange={() => setGradeTick((t) => t + 1)} />
+                          {/* No onGradeChange needed: the grade store bumps
+                              grUseVersion, which re-runs the sort memo above. */}
+                          <window.RunnerTile r={r} />
                         </div>
                       </td>
                     </tr>
@@ -610,23 +612,62 @@ function HodTimeDistribution({ entries, predicate, selected, onSelect, range: ra
   );
 }
 
+// The y-axis is 30–95, not 0–100. Measured over all 1,028 days: 0.00% of days
+// score below 30 and 0.68% above 90, so a full-range axis spent a third of its
+// height on space nothing ever occupies and flattened the day-to-day movement
+// that the chart exists to show. See HEAT_AXIS in scoring.jsx for the numbers.
+//
+// Every point is coloured by heatColor(score) on the ABSOLUTE 0–100 scale — the
+// same scale the radial gauge uses — while its POSITION uses the zoomed 30–95
+// axis. Those are deliberately independent: a 61 must read as the same
+// temperature here as on the dial, whatever the axis happens to be cropped to.
 function HeatTrend({ series }) {
   const data = window.heatCalendar(series, 30);
+  const AX = window.HEAT_AXIS || { min: 30, max: 95 };
+  const ZONE = window.HEAT_ZONE_EDGE || { coldTop: 45, hotBottom: 62 };
   const W = 320, H = 70, pad = 6;
   const n = data.length;
   const x = (i) => pad + (n <= 1 ? 0 : (i / (n - 1)) * (W - 2 * pad));
-  const y = (v) => H - pad - (v / 100) * (H - 2 * pad);
-  const pts = data.map((d, i) => `${x(i).toFixed(1)},${y(d.score).toFixed(1)}`).join(" ");
-  const last = data.length ? Math.round(data[data.length - 1].score) : 0;
+  // CLAMP, don't clip: a day outside the axis pins to the edge rather than
+  // vanishing off the chart with no indication it was ever there.
+  const span = AX.max - AX.min || 1;
+  const y = (v) => {
+    const t = (Math.max(AX.min, Math.min(AX.max, Number(v) || 0)) - AX.min) / span;
+    return H - pad - t * (H - 2 * pad);
+  };
+  const pts = data.map((d, i) => ({
+    x: x(i), y: y(d.score), score: Number(d.score) || 0, date: d.date,
+    pinned: d.score < AX.min || d.score > AX.max,
+  }));
+  const last = n ? Math.round(data[n - 1].score) : 0;
+  // Gridlines on the gauge's own zone boundaries, so the chart's bands line up
+  // with the dial's COLD / NEUTRAL / HOT arcs instead of arbitrary quarters.
+  const grids = [ZONE.coldTop, ZONE.hotBottom].filter((g) => g > AX.min && g < AX.max);
   return (
     <div className="hist-box hist-trend">
       <div className="hist-label">HEAT SCORE TREND (30D)</div>
       <svg viewBox={`0 0 ${W} ${H}`} className="trend-svg" preserveAspectRatio="none">
-        {[25, 50, 75].map((g) => <line key={g} x1={pad} y1={y(g)} x2={W - pad} y2={y(g)} className="trend-grid" />)}
-        <polyline points={pts} className="trend-line" fill="none" />
-        {n > 0 && <circle cx={x(n - 1)} cy={y(data[n - 1].score)} r="3" className="trend-dot" />}
+        {grids.map((g) => (
+          <line key={g} x1={pad} y1={y(g)} x2={W - pad} y2={y(g)} className="trend-grid" />
+        ))}
+        {/* One segment per day-pair, each taking the colour of its midpoint, so
+            the line itself carries the temperature rather than a flat stroke. */}
+        {pts.slice(1).map((p, i) => (
+          <line key={`s${i}`} x1={pts[i].x} y1={pts[i].y} x2={p.x} y2={p.y}
+            stroke={window.heatColor((pts[i].score + p.score) / 2)}
+            strokeWidth="1.9" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+        ))}
+        {pts.map((p, i) => (
+          <circle key={`p${i}`} cx={p.x} cy={p.y} r={i === n - 1 ? 3.2 : 1.8}
+            fill={window.heatColor(p.score)}
+            stroke={p.pinned ? "oklch(0.98 0 0)" : "none"} strokeWidth={p.pinned ? 0.9 : 0}
+            vectorEffect="non-scaling-stroke">
+            <title>{p.date} · {Math.round(p.score)}{p.pinned ? " (off scale)" : ""}</title>
+          </circle>
+        ))}
       </svg>
-      <div className="trend-last">{last}</div>
+      <div className="trend-axis"><span>{AX.max}</span><span>{AX.min}</span></div>
+      <div className="trend-last" style={{ color: window.heatColor(last) }}>{last}</div>
     </div>
   );
 }

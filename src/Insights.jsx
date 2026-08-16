@@ -7,6 +7,11 @@ const { useState: useState_I, useMemo: useMemo_I } = React;
 // Chip-toggle dims (small, enumerable sets) vs. search dims (large text lists).
 const CHIP_DIMS = [
   { key: "tag",       label: "Catalyst",   get: (r) => r.tag || null },
+  // Theme is INDEPENDENT of catalyst and is multi-valued — a runner can carry
+  // up to 3, so `multi` switches matching from equality to intersection.
+  { key: "themes",    label: "Theme",      multi: true,
+    get: (r) => (Array.isArray(r.themes) ? r.themes : [])
+      .map((t) => (typeof t === "string" ? t : t && t.theme)).filter(Boolean) },
   { key: "floatTier", label: "Float Tier", get: (r) => r.floatTier || null },
   { key: "session",   label: "Session",    get: (r) => r.session || null },
 ];
@@ -25,6 +30,16 @@ const PRICE_PRESETS = [
   { key: "5_20", label: "$5–$20",   test: (o) => o != null && o >= 5 && o < 20 },
   { key: "20p",  label: "$20+",     test: (o) => o != null && o >= 20 },
 ];
+// The labels carry the numbers but not their inclusivity — "$1–$5" doesn't say
+// which end is open. Spelled out from the same bounds the test functions use.
+// NOTE these presets differ from the Playbook's (u1 / 1_10 / 10p) on purpose;
+// they are separate filters with separate vocabularies.
+const PRICE_HINTS = {
+  "u1":   "open < $1.00",
+  "1_5":  "open ≥ $1.00 and < $5.00",
+  "5_20": "open ≥ $5.00 and < $20.00",
+  "20p":  "open ≥ $20.00",
+};
 const HOD_PRESETS = [
   { key: 50,  label: "50%+" }, { key: 100, label: "100%+" },
   { key: 200, label: "200%+" }, { key: 500, label: "500%+" },
@@ -42,7 +57,8 @@ function buildFilterOptions(entries) {
     for (const r of (e.runners || [])) {
       for (const d of SET_DIMS) {
         const v = d.get(r);
-        if (v != null && v !== "") sets[d.key].add(v);
+        if (d.multi) { for (const x of (v || [])) if (x) sets[d.key].add(x); }
+        else if (v != null && v !== "") sets[d.key].add(v);
       }
     }
   }
@@ -85,7 +101,9 @@ function makePredicate(state) {
       const sel = state[d.key];
       if (sel && sel.size > 0) {
         const v = d.get(r);
-        if (!sel.has(v)) return false;
+        // multi dims match if ANY of the runner's values is selected
+        if (d.multi) { if (!(v || []).some((x) => sel.has(x))) return false; }
+        else if (!sel.has(v)) return false;
       }
     }
     if (priceP && !priceP.test(r.open)) return false;
@@ -114,6 +132,14 @@ function chipColorFor(dimKey, value) {
 function optionLabel(dimKey, value) {
   if (dimKey === "session") return window.sessionLabel(value);
   return value;
+}
+// Numeric range behind a tiered option, so "Nano" and "MORNING" stop being
+// opaque. Text is generated from the threshold definitions in v2schema
+// (FLOAT_TIERS / SESSION_BOUNDS) rather than restated here.
+function optionRange(dimKey, value) {
+  if (dimKey === "floatTier") return window.floatTierRange ? window.floatTierRange(value) : "";
+  if (dimKey === "session") return window.sessionRange ? window.sessionRange(value) : "";
+  return "";
 }
 
 function cloneFilterState(state) {
@@ -165,6 +191,18 @@ function FilterPanel({ entries, state, onChange, matchCount, totalCount }) {
   const [open, setOpen] = useState_I(false);
   const options = useMemo_I(() => buildFilterOptions(entries), [entries]);
   const active = filterActiveCount(state);
+  // How much of the loaded range was even eligible for theme tagging. Drives
+  // the honesty note under the Theme group.
+  const themeCoverage = useMemo_I(() => {
+    let total = 0, tagged = 0, predates = 0;
+    for (const e of entries) for (const r of (e.runners || [])) {
+      total++;
+      const st = window.themeState ? window.themeState(r) : "predates";
+      if (st === "predates") predates++;
+      else if (st === "ok") tagged++;
+    }
+    return { total, tagged, predates };
+  }, [entries]);
 
   const toggle = (dimKey, value) => {
     const next = cloneFilterState(state);
@@ -198,13 +236,24 @@ function FilterPanel({ entries, state, onChange, matchCount, totalCount }) {
           {CHIP_DIMS.map((d) => (
             <div key={d.key} className="filter-group">
               <div className="filter-group-label">{d.label}</div>
+              {/* Themes only exist from the pipeline switchover forward. Without
+                  this note, filtering on Drone/UAV over four years of history
+                  would look like the theme never runs, when the truth is we
+                  weren't tagging yet. Same lie as NO-NEWS. */}
+              {d.key === "themes" && themeCoverage.predates > 0 && (
+                <div className="filter-note">
+                  {themeCoverage.tagged} of {themeCoverage.total} runners in range are theme-tagged.
+                  {" "}{themeCoverage.predates} predate theme tagging and can never match a theme filter.
+                </div>
+              )}
               <div className="filter-options">
                 {options[d.key].length === 0 && <span className="filter-none">—</span>}
                 {options[d.key].map((v) => {
                   const on = state[d.key].has(v);
+                  const range = optionRange(d.key, v);
                   return (
-                    <button key={v} className={`filter-opt ${on ? "on" : ""}`}
-                      style={{ "--opt-color": chipColorFor(d.key, v) }}
+                    <button key={v} className={`filter-opt ${on ? "on" : ""} ${range ? "has-range" : ""}`}
+                      style={{ "--opt-color": chipColorFor(d.key, v) }} title={range || null}
                       onClick={() => toggle(d.key, v)}>{optionLabel(d.key, v)}</button>
                   );
                 })}
@@ -223,7 +272,8 @@ function FilterPanel({ entries, state, onChange, matchCount, totalCount }) {
             <div className="filter-group-label">Price (open)</div>
             <div className="filter-options">
               {PRICE_PRESETS.map((p) => (
-                <button key={p.key} className={`filter-opt ${state.price === p.key ? "on" : ""}`}
+                <button key={p.key} className={`filter-opt has-range ${state.price === p.key ? "on" : ""}`}
+                  title={PRICE_HINTS[p.key] || null}
                   onClick={() => setScalar("price", p.key)}>{p.label}</button>
               ))}
             </div>

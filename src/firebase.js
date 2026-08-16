@@ -11,67 +11,120 @@
  * the security rules below, so those have to be right.
  *
  * ===========================================================================
- * !! ACTION REQUIRED — the username / profile-picture feature is BLOCKED until
- * !! both rulesets below are re-published. Measured 2026-07-27, all four of the
- * !! operations it needs currently return PERMISSION_DENIED:
- * !!    · unauthenticated get of usernames/{name}  (signup availability check)
- * !!    · authenticated create of usernames/{name} (reserving the handle)
- * !!    · authenticated read of another users/{uid} (avatars in the notes feed)
- * !!    · Storage write to avatars/                (profile pictures)
- * !! Until then the app degrades: accounts still create and the username is
- * !! stored on the profile, but uniqueness is NOT enforced, avatars fall back to
- * !! generated letter circles, and other people's handles show from the copy
- * !! saved on each note rather than live.
- * ===========================================================================
+ * THIS BLOCK IS THE RECORD OF TRUTH FOR THE PUBLISHED RULES.
+ * If you change them in the console, change them here in the same sitting —
+ * a rules file that documents something other than what's live is worse than
+ * no documentation, because it gets trusted.
  *
- * RULES STATE, measured 2026-07-27:
- *   Firestore — published and enforcing (verified: one account cannot delete
- *     another's note). Needs the two NEW blocks below.
- *   Storage   — now published and enforcing too (an avatars/ write returned 403
- *     where it previously succeeded). Needs the new avatars/ block below.
+ * RULES STATE: both rulesets below published 2026-08-15 and believed current.
+ *
+ * ---------------------------------------------------------------------------
+ * WHY EACH NON-OBVIOUS RULE IS THE WAY IT IS
+ *
+ * users — READ is open to every signed-in user, not owner-only.
+ *   pfSubscribe() (Profile.jsx) opens a listener on ARBITRARY uids, because the
+ *   notes feed, chart credits, override provenance (✎) and grade tooltips all
+ *   resolve OTHER people's CURRENT handle rather than the copy denormalised at
+ *   write time. That live lookup is what makes a rename propagate to old
+ *   records. Owner-only read silently breaks all of it: the error is swallowed
+ *   at Profile.jsx:66 and the UI falls back to the stored name, so it LOOKS
+ *   fine — and looks perfectly fine when testing solo, since your own uid is
+ *   the one case that passes. Writes stay owner-only.
+ *   Tradeoff accepted: profile docs carry `email`, so it is readable by any
+ *   signed-in user. That's the three of us.
+ *
+ * usernames/{name} — `get` is PUBLIC, deliberately.
+ *   pfUsernameTaken() runs at Auth.jsx:219, BEFORE
+ *   createUserWithEmailAndPassword — there is no request.auth to check yet.
+ *   Requiring auth here fails the availability check, and because Auth.jsx:220
+ *   swallows it and Auth.jsx:239 swallows the claim failure too, signup
+ *   succeeds while uniqueness is NOT enforced and two people can hold the same
+ *   handle. `list` stays closed so the handle directory can't be enumerated.
+ *
+ * usernames update — must be ALLOWED for the owner (was `if false`).
+ *   pfClaimUsername() claims via a transactional set(), which counts as an
+ *   UPDATE whenever the doc already exists. `if false` blocks re-claiming a
+ *   handle you already own. Owner is checked on both the existing and incoming
+ *   doc, so a handle still can't be stolen.
+ *
+ * chartsAuto — write: if false, and that is NOT the real protection.
+ *   The pipeline writes it with the Firebase Admin SDK, which BYPASSES rules
+ *   entirely. This block only stops browsers forging auto slots. The actual
+ *   guarantee that the pipeline can never destroy a manual upload is
+ *   STRUCTURAL: auto charts live in a different collection from `charts`, so a
+ *   rules-bypassing write physically cannot reach manual data.
+ *
+ * grades — the doc ID IS the uid.
+ *   That's what makes "a user can only write their own grade" a rule that
+ *   cannot be spoofed: no field on the document is trusted for ownership.
+ * ---------------------------------------------------------------------------
  *
  * STEP 1 — Firebase Console -> Firestore Database -> Rules tab -> paste -> Publish
  *
  *   rules_version = '2';
  *   service cloud.firestore {
  *     match /databases/{database}/documents {
+ *
  *       match /users/{uid} {
- *         // READ is open to any signed-in user so the notes feed can render
- *         // live avatars and handles. Writes stay owner-only. Profile docs hold
- *         // username / fullName / photoURL / email — nothing secret, but note
- *         // that email is visible to signed-in users under this rule.
  *         allow read:  if request.auth != null;
  *         allow write: if request.auth != null && request.auth.uid == uid;
  *       }
  *
- *       // Username reservations: one doc per lowercased handle, { uid, username }.
- *       // `get` is public because availability has to be checked DURING signup,
- *       // before the account exists. `list` stays closed so the full handle
- *       // directory can't be enumerated.
+ *       // one doc per lowercased handle, { uid, username }
  *       match /usernames/{name} {
  *         allow get:    if true;
  *         allow list:   if false;
  *         allow create: if request.auth != null
  *                       && request.resource.data.uid == request.auth.uid;
+ *         allow update: if request.auth != null
+ *                       && resource.data.uid == request.auth.uid
+ *                       && request.resource.data.uid == request.auth.uid;
  *         allow delete: if request.auth != null
  *                       && resource.data.uid == request.auth.uid;
- *         allow update: if false;
  *       }
  *
+ *       // Manual chart uploads. Now holds a `manual` map of up to four
+ *       // timeframes (1m / 5m / 15m / 1D) rather than a single flat image, so
+ *       // the doc no longer has ONE owner — different people can fill
+ *       // different slots. Removing a slot is an UPDATE (FieldValue.delete on
+ *       // manual.{tf}); whole-doc delete is only for cleaning up an empty doc,
+ *       // and the rule enforces that so a full set can't be nuked in one call.
  *       match /charts/{chartId} {
  *         allow read:   if request.auth != null;
  *         allow create: if request.auth != null;
- *         // any signed-in user may REPLACE a chart (re-upload wins, as specced),
- *         // but only the uploader may DELETE it
  *         allow update: if request.auth != null;
  *         allow delete: if request.auth != null
- *                       && resource.data.uploaderUid == request.auth.uid;
+ *                       && (!('manual' in resource.data)
+ *                           || resource.data.manual.size() == 0);
  *       }
+ *
+ *       // pipeline-generated charts (item 10) — Admin SDK only
+ *       match /chartsAuto/{chartId} {
+ *         allow read:  if request.auth != null;
+ *         allow write: if false;
+ *       }
+ *
  *       match /notes/{noteId}/comments/{commentId} {
  *         allow read:   if request.auth != null;
  *         allow create: if request.auth != null;
  *         allow delete: if request.auth != null
  *                       && request.auth.uid == resource.data.authorUid;
+ *       }
+ *
+ *       // manual override layer (src/overrides.jsx) — one doc per runner at
+ *       // {TICKER}-{date}, holding catalyst / country / themes / behavior /
+ *       // customTags. Group-shared by design: anyone signed in may set any
+ *       // override, because all three of us are describing the same tape.
+ *       match /overrides/{key} {
+ *         allow read:  if request.auth != null;
+ *         allow write: if request.auth != null;
+ *       }
+ *
+ *       // per-user grades (item 6) — everyone reads everyone's
+ *       match /grades/{key}/gradeVotes/{uid} {
+ *         allow read:   if request.auth != null;
+ *         allow write:  if request.auth != null && request.auth.uid == uid;
+ *         allow delete: if request.auth != null && request.auth.uid == uid;
  *       }
  *     }
  *   }
@@ -88,9 +141,26 @@
  *         allow read: if request.auth != null;
  *         allow write: if request.auth.uid == userId;
  *       }
- *       match /charts/{allPaths=**} {
- *         allow read: if request.auth != null;
+ *       // !! ORDER AND WILDCARD SHAPE ARE LOAD-BEARING HERE !!
+ *       // Firebase Security Rules are a PERMISSIVE UNION: if any matching rule
+ *       // grants access, access is granted. A broad grant CANNOT be narrowed by
+ *       // a more specific `allow write: if false` underneath it. So the manual
+ *       // rule below uses a SINGLE-SEGMENT wildcard {fileName}, which matches
+ *       //     charts/AAPL-2026-08-10-1m-uid.png        (manual, 1 segment)
+ *       // but NOT
+ *       //     charts/auto/AAPL-2026-08-10-1m.png       (auto,   2 segments)
+ *       // Using {allPaths=**} here would silently make every auto image
+ *       // browser-writable no matter what the auto rule says.
+ *       match /charts/{fileName} {
+ *         allow read:  if request.auth != null;
  *         allow write: if request.auth != null;
+ *       }
+ *       // Pipeline-written images. Browsers read, never write. The Admin SDK
+ *       // bypasses rules entirely, which is exactly why auto lives on its own
+ *       // path: the separation is structural, not policy.
+ *       match /charts/auto/{fileName} {
+ *         allow read:  if request.auth != null;
+ *         allow write: if false;
  *       }
  *     }
  *   }
@@ -102,13 +172,12 @@
  * to `avatars/{uid}` to match. The contentType is set on the upload metadata
  * instead of being carried by the name.
  *
- * Deliberate changes from the rules as originally handed over:
- *   1. `users`  — added `request.auth != null &&`, and split read from write so
- *      signed-in users can render each other's avatars.
- *   2. `charts` — the original allowed ANY signed-in user to delete ANY chart,
- *      contradicting "don't let users delete each other's charts". Split into
- *      update (anyone, so re-upload still wins) vs delete (owner only).
- *   3. `usernames` — new, required for unique-handle enforcement.
+ * CHART DOC SHAPE (item 10):
+ *   charts/{TICKER}-{date}      { ticker, date, manual: { "1m"|"5m"|"15m"|"1D": {...} },
+ *                                 url/storagePath (legacy flat image, read-only compat) }
+ *   chartsAuto/{TICKER}-{date}  { ticker, date, auto: { same four keys } }
+ * Resolution per timeframe is manual[tf] ?? auto[tf] ?? null — manual always
+ * holds primary, and a later manual upload always takes it back.
  * =========================================================================== */
 
 var firebaseConfig = {
