@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-14T20:58:50.984674Z",
-  "count": 9644,
+  "exportedAt": "2026-08-17T22:45:45.069012Z",
+  "count": 9654,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,923 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-17",
+      "runners": [
+        {
+          "sym": "WFF",
+          "hod": 643,
+          "hodExact": 643.75,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "WF Holding Limited Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 3.61,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$97M",
+          "riskBadges": [
+            "Float 3.61M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.61M + RelVol 44.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.61M + RelVol 44.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.44,
+          "open": 1.5,
+          "gapPct": 4.17,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 10.71,
+          "hodTimeExact": "12:08 PM ET",
+          "close": 2.02,
+          "fade": 81,
+          "fadeExact": 81.14,
+          "vwap": 4.6607,
+          "vsVwap": "below",
+          "pmHigh": 1.5382,
+          "volRaw": "85.2M",
+          "volDollar": 396951469,
+          "relVol": 44.5,
+          "avgVolM": 1.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WFF",
+          "newsSummary": "WFF ran 643.75% with no identifiable cash catalyst or substantive news. The move appears driven by structural intraday accumulation pressure on a micro-float Malaysian industrial name (3.61M shares). High relative volume (44.5x) and sustained HOD printing suggest institutional rig pattern rather than reactive news event.",
+          "bullFactors": [
+            "Micro-float (3.61M) — tight supply structure favors continuation on volume",
+            "Sustained intraday momentum with 643% HOD — tape shows afternoon continuation strength, not premarket spike fade",
+            "44.5x relative volume — institutional accumulation intensity throughout session, not retail flash",
+            "Greater China micro-cap structural setup — consistent with aggressive rig pattern behavior"
+          ],
+          "bearFactors": [
+            "NO identifiable catalyst — move is purely structural/liquidity-driven, high risk of whipsaw reversal",
+            "81% fade from HOD — significant intraday pullback signals retail exhaustion or profit-taking",
+            "Malaysian small-cap with limited US market awareness — liquidity/exit risk on any gap down",
+            "No-news runners at 600%+ carry black swan delisting or regulatory shock risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "IPST",
+          "hod": 339,
+          "hodExact": 339.07,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "IP Strategy Holdings, Inc. Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 1.25,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 1.25M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.25M + RelVol 1515.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.25M + RelVol 1515.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.2001,
+          "open": 7.92,
+          "gapPct": 259.98,
+          "time": "regular session",
+          "session": "morning",
+          "high": 9.66,
+          "hodTimeExact": "10:59 AM ET",
+          "close": 7.39,
+          "fade": 23,
+          "fadeExact": 23.5,
+          "vwap": 7.3806,
+          "vsVwap": "above",
+          "pmHigh": 8.71,
+          "volRaw": "103.5M",
+          "volDollar": 764147993,
+          "relVol": 1515.0,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IPST",
+          "newsSummary": "IPST ran 339% on the session with no identifiable news catalyst — a classic no-news micro-cap spike driven purely by tape action and float compression. The 259% gap and 1515x relative volume indicate retail/sympathy momentum with zero fundamental trigger, making this a structural liquidity play rather than a catalyst-driven move.",
+          "bullFactors": [
+            "Extremely tight float at 1.25M shares — textbook compression setup for explosive intraday moves",
+            "HOD printing at 339% with only 23.5% fade suggests sustained buying pressure and shorts squeezed throughout session",
+            "Massive relative volume (1515x) indicates genuine tape participation, not a thin-volume ghost spike"
+          ],
+          "bearFactors": [
+            "No news catalyst — move is pure momentum/sympathy with zero fundamental support, high re-entry risk and fade vulnerability",
+            "Gap up 259% in premarket already consumed most of the move before RTH, leaving limited room for continuation",
+            "No-news micro-cap runners are historically prone to sharp reversals and multi-day collapses once retail exhaustion hits"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "WETO",
+          "hod": 258,
+          "hodExact": 258.87,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Wetour Robotics Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.67,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$103M",
+          "riskBadges": [
+            "Float 0.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 8.22,
+          "open": 10.16,
+          "gapPct": 23.6,
+          "time": "regular session",
+          "session": "morning",
+          "high": 29.4991,
+          "hodTimeExact": "10:29 AM ET",
+          "close": 24.59,
+          "fade": 16,
+          "fadeExact": 16.64,
+          "vwap": 20.8198,
+          "vsVwap": "above",
+          "pmHigh": 10.73,
+          "volRaw": "34.0M",
+          "volDollar": 707818819,
+          "relVol": 8.3,
+          "avgVolM": 4.1,
+          "ssr": false,
+          "reverseSplit": "100:1",
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026088400/ea0301733-6k_wetour.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-12T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WETO",
+          "newsSummary": "WETO filed a Form 6-K on 2026-08-12, five days before this 258% intraday move, indicating the SEC filing was reactive disclosure rather than the catalyst. The move appears driven by intraday momentum and tape action rather than substantive news; the filing itself carries no disclosed material event that would justify a 500%+ cycle move.",
+          "bullFactors": [
+            "Extreme nano-float (0.67M shares) — minimal float creates structural volatility and can sustain extended intraday runs with relative volume 8.3x",
+            "Session HOD domination: 258.87% HOD with only 16.64% fade indicates strong late-day continuation and institutional accumulation rather than premarket spike collapse",
+            "No dilutive catalyst: Form 6-K filing is backward-looking disclosure, not an offering or warrant exercise — daily chart remains clean for further upside",
+            "Sustained intraday volume: RelVol 8.3x on a nano-float suggests institutional buying pressure throughout the session, not a 1-2 minute spike collapse"
+          ],
+          "bearFactors": [
+            "No substantive catalyst identified: Form 6-K is reactive filing, not a real cash deal, partnership, or earnings beat — move is pure tape/momentum driven",
+            "Cycle stage risk: 258% move in nano-float can trigger liquidity spillover and black swan conditions; sustainability beyond EOD is questionable",
+            "Gap and fade structure: 23.6% gap + 16.64% fade suggests some premarket weakness into the move; holding overnight risk is elevated",
+            "Unknown form 6-K content: No details on what the filing disclosed — if it contained dilutive details or guidance miss, rally could reverse violently on next session open"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "IVF",
+          "hod": 188,
+          "hodExact": 188.18,
+          "news": [
+            "Form 8-K",
+            "INVO Fertility Reports Second Quarter 2026 Results Highlighting Revenue Growth and Clinic Platform Profitability",
+            "Form 10-Q"
+          ],
+          "tag": "EARNINGS",
+          "name": "INVO Fertility, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 2.54,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 2.54M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.54M + RelVol 1574.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.54M + RelVol 1574.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9716,
+          "open": 2.26,
+          "gapPct": 132.61,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.8,
+          "hodTimeExact": "07:00 AM ET",
+          "close": 1.53,
+          "fade": 45,
+          "fadeExact": 45.36,
+          "vwap": 2.3278,
+          "vsVwap": "below",
+          "pmHigh": 3.12,
+          "volRaw": "119.1M",
+          "volDollar": 277315179,
+          "relVol": 1574.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "INVO Fertility Reports Second Quarter 2026 Results Highlighting Revenue Growth and Clinic Platform Profitability",
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1417926/000149315226038648/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "INVO Fertility Reports Second Quarter 2026 Results Highlighting Revenue Growth and Clinic Platform Profitability",
+              "url": "https://www.stocktitan.net/news/IVF/invo-fertility-reports-second-quarter-2026-results-highlighting-u61qsfnfalcd.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-17T12:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1417926/000149315226038528/form10-q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IVF",
+          "newsSummary": "IVF reported Q2 2026 earnings at 12:30 PM showing revenue growth and clinic platform profitability — a real cash catalyst with substance. The stock had already gapped 132% and printed 188% HOD by end of day, with the earnings announcement coming after the move had already established itself, suggesting the gap/early momentum anticipated the report.",
+          "bullFactors": [
+            "Micro float (2.54M) — excellent for momentum amplification and intraday volatility",
+            "Real earnings catalyst with profitability metrics, not fluff — addresses Jack's 'real cash value' criterion",
+            "Extreme relative volume (1574.5x) sustained throughout session indicates institutional buying pressure, not a quick pump fade",
+            "188% HOD on high volume with afternoon continuation suggests hot tape and genuine institutional accumulation cycle"
+          ],
+          "bearFactors": [
+            "Gap of 132% at open leaves limited room to the upside intraday — may have already run most of the move before setup window",
+            "Earnings announcement at 12:30 PM came AFTER the initial spike, reducing setup time for a day trader to establish position with margin of safety",
+            "45% fade from HOD indicates late-session profit-taking and potential exhaustion — typical of high-volatility micro-cap earnings runs",
+            "Form 8-K filed after-hours post-HOD may contain material disclosures that could trigger gap-down or halt on next session open"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "OSRH",
+          "hod": 153,
+          "hodExact": 153.16,
+          "news": [
+            "Form 10-Q",
+            "OSR Health CEO Reaffirms Confidence and Highlights Subsidiary Business Development",
+            "Form 8-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "OSR Health, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 9.63,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 9.63M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.63M + RelVol 526.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.63M + RelVol 526.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.316,
+          "open": 0.347,
+          "gapPct": 9.81,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.8,
+          "hodTimeExact": "12:19 PM ET",
+          "close": 0.59,
+          "fade": 26,
+          "fadeExact": 26.25,
+          "vwap": 0.5641,
+          "vsVwap": "above",
+          "pmHigh": 0.44,
+          "volRaw": "369.5M",
+          "volDollar": 208452021,
+          "relVol": 526.3,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-Q",
+            "OSR Health CEO Reaffirms Confidence and Highlights Subsidiary Business Development",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1840425/000121390026089904/ea0301514-10q_osrhealth.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "OSR Health CEO Reaffirms Confidence and Highlights Subsidiary Business Development",
+              "url": "https://www.stocktitan.net/news/OSRH/osr-health-ceo-reaffirms-confidence-and-highlights-subsidiary-il8qatw7yc6x.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-11T12:52:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1840425/000121390026087087/ea0301344-8k_osrhealth.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-10T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OSRH",
+          "newsSummary": "OSRH filed a Form 10-Q on 2026-08-14 followed by a 153% HOD move, suggesting the quarterly results triggered institutional accumulation and retail FOMO. The prior 8-K and CEO confidence statement (both pre-move) set the narrative; the 10-Q appears to have delivered actionable fundamentals or guidance that justified the breakout.",
+          "bullFactors": [
+            "Float 9.63M — ideal for sustained momentum and low liquidity churn; under Jack's 10M threshold",
+            "153% HOD with only 26% fade — strong continuation strength, suggests short covering and afternoon HOD printing (hot cycle signature)",
+            "Relative volume 526% — far exceeds premarket dominance risk; intraday institutional conviction evident",
+            "9.81% gap + earnings catalyst = clean setup with room to upside; no warrant/convertible/ATM red flags noted"
+          ],
+          "bearFactors": [
+            "All news (10-Q, 8-K, CEO statement) arrived *before* the high — no fresh catalyst to sustain into next session",
+            "153% single-day spike risks EOD distribution and institutional profit-taking; watch for heavy premarket fade on day 2",
+            "Healthcare micro-cap subject to sudden dilutive announcements (pipeline updates, financing needs); no detail on subsidiary 'business development' — could mask future capital raise",
+            "Market cap $18.9M is nano-cap territory — liquidity cliff risk if retail enthusiasm cools"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AGRZ",
+          "hod": 124,
+          "hodExact": 124.75,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Agroz Inc. Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "MY",
+          "floatM": 12.04,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 12.04M + RelVol 16.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 12.04M + RelVol 16.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2453,
+          "open": 0.2378,
+          "gapPct": -3.06,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.5513,
+          "hodTimeExact": "07:46 AM ET",
+          "close": 0.2681,
+          "fade": 51,
+          "fadeExact": 51.37,
+          "vwap": 0.3601,
+          "vsVwap": "below",
+          "pmHigh": 0.57,
+          "volRaw": "110.5M",
+          "volDollar": 39807386,
+          "relVol": 16.8,
+          "avgVolM": 6.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AGRZ",
+          "newsSummary": "AGRZ ran 124.75% intraday with no substantive news catalyst detected. The move appears driven by structural buying pressure—sustained high relative volume (16.8x) throughout the session with multiple session HODs, characteristic of institutional accumulation in a low-float micro-cap rather than a premarket spike-and-fade pump.",
+          "bullFactors": [
+            "Sustained intraday momentum with 124.75% HOD gain and high relative volume (16.8x) — session HODs dominating indicates institutional buying pressure and short covering",
+            "Low float micro-cap (12.04M, borderline sub-10M tier) with strong volume-to-float ratio creates structural squeeze conditions ideal for Jack's momentum style",
+            "Extended fade to 51.37% still represents >50% net gain, showing resilience and institutional accumulation support rather than pure retail flush"
+          ],
+          "bearFactors": [
+            "No catalyst identified — move is entirely technical/structural; sustainability beyond today is speculative without fundamental trigger",
+            "Malaysia-listed micro-cap with limited analyst coverage and potential liquidity/regulatory friction vs. US-listed peers",
+            "Already printed massive session HOD (124.75%); limited room to chase at these levels without risk of end-of-day capitulation or tomorrow reversal"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "TRUG",
+          "hod": 87,
+          "hodExact": 87.72,
+          "news": [
+            "Form 10-Q"
+          ],
+          "tag": "EARNINGS",
+          "name": "TruGolf Holdings, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.91,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.91M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.91M + RelVol 168.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.91M + RelVol 168.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9695,
+          "open": 1.58,
+          "gapPct": 62.97,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.8199,
+          "hodTimeExact": "04:02 AM ET",
+          "close": 1.54,
+          "fade": 15,
+          "fadeExact": 15.38,
+          "vwap": 1.6246,
+          "vsVwap": "below",
+          "pmHigh": 2.05,
+          "volRaw": "63.9M",
+          "volDollar": 103796742,
+          "relVol": 168.2,
+          "avgVolM": 0.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1857086/000149315226038488/form10-q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TRUG",
+          "newsSummary": "TRUG filed its 10-Q on 2026-08-14, three days before this intraday move. The filing preceded the high and was not the immediate catalyst for today's 62.97% gap and 87.72% session HOD performance. The move appears driven by post-earnings institutional accumulation rather than news surprise.",
+          "bullFactors": [
+            "Micro-cap float (1.91M) — excellent liquidity constraint for momentum",
+            "87.72% HOD with sustained high relative volume (168.2x) — strong afternoon continuation, not premarket fade pattern",
+            "62.97% gap with 15.38% fade only — solid hold of opening range, institutional bid holding",
+            "Post-10-Q timing gives fundamental credibility; no dilutive announcements present"
+          ],
+          "bearFactors": [
+            "10-Q catalyst relative_to_high='before' — news predates the move by 3 days, so retail may be pricing in old information on day 4",
+            "Small market cap ($3.2M) and micro-float increase volatility risk and liquidity cliff potential on reversal",
+            "Gap-and-go structure with 87% HOD at session close — limited room to upside intraday tomorrow; reversion risk high on open"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SNYR",
+          "hod": 80,
+          "hodExact": 80.44,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Synergy CHC Corp. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 8.62,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 8.62M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.62M + RelVol 332.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.62M + RelVol 332.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0997,
+          "open": 0.0941,
+          "gapPct": -5.62,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.1799,
+          "hodTimeExact": "05:42 AM ET",
+          "close": 0.1549,
+          "fade": 13,
+          "fadeExact": 13.9,
+          "vwap": 0.1402,
+          "vsVwap": "above",
+          "pmHigh": 0.2052,
+          "volRaw": "193.8M",
+          "volDollar": 27171719,
+          "relVol": 332.1,
+          "avgVolM": 0.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1562733/000121390026087826/ea0301649-8k_synergy.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-11T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SNYR",
+          "newsSummary": "SNYR filed a Form 8-K on 2026-08-11, which preceded today's move and likely disclosed material information (filing details not fully specified in data). The 8-K timing suggests a substantive corporate event rather than routine disclosure. Real merit depends on the specific content—if it signals positive operational or financial change, it has legs; if neutral/housekeeping, it's supportive context only.",
+          "bullFactors": [
+            "Low float (8.62M) with 332% relative volume—strong fuel for sustained intraday momentum",
+            "80.44% HOD dominance with only 13.9% fade suggests institutional accumulation and afternoon continuation strength, not a premarket pop-and-drop",
+            "8-K filing preceded the move, indicating material disclosure that market is digesting and buying into intraday",
+            "Daily chart room available (no mention of heavy overhead supply or warrants/convertibles flagged)"
+          ],
+          "bearFactors": [
+            "Gap down -5.62% into the move—starting from underwater position increases risk of mean reversion and intraday profit-taking",
+            "Form 8-K content unspecified in data—catalyst quality cannot be fully vetted; if disclosure is dilutive or neutral, conviction weakens",
+            "Healthcare sector prone to binary risk events; single negative follow-up news can collapse momentum quickly",
+            "No explicit high-volume session HODs or breakout confirmation detail provided—relying on aggregate metrics rather than tape-level confirmation"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "STFS",
+          "hod": 78,
+          "hodExact": 78.46,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 1.13,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [
+            "Float 1.13M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.9,
+          "open": 4.55,
+          "gapPct": 16.67,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.96,
+          "hodTimeExact": "10:02 AM ET",
+          "close": 4.21,
+          "fade": 39,
+          "fadeExact": 39.51,
+          "vwap": 5.5955,
+          "vsVwap": "below",
+          "pmHigh": 5.14,
+          "volRaw": "5.9M",
+          "volDollar": 32960942,
+          "relVol": 4.4,
+          "avgVolM": 1.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:STFS",
+          "newsSummary": "STFS ran 78.46% with zero announced catalysts — a pure structural China rig pattern typical of micro-cap Greater China names. No earnings, partnerships, or cash events triggered this move; sustained intraday volume and afternoon HOD continuation suggest institutional accumulation mechanics rather than retail-driven sentiment.",
+          "bullFactors": [
+            "Ultra-tight float at 1.13M shares — explosive leverage on institutional buying pressure",
+            "78.46% HOD dominance with 39.51% fade signal indicates afternoon strength and short covering, not premarket spike collapse",
+            "4.4x relative volume sustained throughout session — characteristic of China rig institutional accumulation, not one-minute pop",
+            "16.67% gap up with continued intraday push suggests real positioning, not pump-and-dump mechanics"
+          ],
+          "bearFactors": [
+            "Zero catalyst news creates binary reversal risk — no fundamental anchor if retail exits tomorrow",
+            "Communication Services micro-cap from China carries regulatory and delisting uncertainty",
+            "39.51% fade signal shows meaningful profit-taking; afternoon HOD may not hold through next session",
+            "No daily chart overhead supply data provided — risk of gap fill or round-number resistance collapse"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "RETO",
+          "hod": 68,
+          "hodExact": 68.75,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ReTo Eco-Solutions, Inc. Class A Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 33.31,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$58M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.28,
+          "open": 1.24,
+          "gapPct": -3.13,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.16,
+          "hodTimeExact": "01:25 PM ET",
+          "close": 1.67,
+          "fade": 22,
+          "fadeExact": 22.69,
+          "vwap": 1.7335,
+          "vsVwap": "below",
+          "pmHigh": 1.24,
+          "volRaw": "12.2M",
+          "volDollar": 21103086,
+          "relVol": 27.5,
+          "avgVolM": 0.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RETO",
+          "newsSummary": "RETO ran 68.75% on the session with no identifiable news catalyst—a classic China-listed micro-cap structural move. The -3.13% gap and 22.69% fade suggest institutional accumulation into weakness followed by sustained intraday buying pressure and afternoon continuation, characteristic of aggressive Greater China capital flows rather than event-driven momentum.",
+          "bullFactors": [
+            "68.75% HOD printing with only 22.69% fade indicates real institutional demand and afternoon strength—not a premarket spike collapse",
+            "27.5x relative volume on no news shows structural buying pressure, consistent with China rig pattern on thick float",
+            "Daily chart likely has room to upside if this is early institutional accumulation cycle; no warrant/convertible/ATM overhead flagged",
+            "Session HODs dominating (afternoon continuation) fits Jack's hot tape criteria for shorts blowing out"
+          ],
+          "bearFactors": [
+            "33.31M float is well above Jack's preferred <10M threshold, reducing explosive potential and increasing slippage risk",
+            "No identifiable catalyst means move is theme/flow-driven; vulnerable to sudden reversal on profit-taking or overnight news",
+            "China-listed micro-cap carries geopolitical, delisting, and accounting risk—even if this is a genuine rig, regulatory headwinds can flash-crash",
+            "Negative gap (-3.13%) into HOD suggests intraday recovery from weakness, not breakout from strength—potential consolidation/fade risk into close"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 643,
+      "fade": 33,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "WFF led +643.75% (81% fade). 3/10 held <20% fade. news: WETO — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ - 2026-08-17**\n\nToday's tape is fragmented and structurally weak for sustained momentum plays: NO-NEWS dominates the tag distribution (5 of top 10), with earnings scattered across Healthcare and Technology providing thin fundamental scaffolding, while Malaysia and China represent over 40% of dollar volume in names that typically lack institutional follow-through. Float profile is ideal on the surface—three sub-1M float names (WETO, STFS, IPST) and four under 3M—but execution timing is toxic: premarket HODs (IVF +188%, TRUG +87%, AGRZ +124%) signal a classic fade pattern where retail rotation exhausts at open, contradicting the playbook's requirement for afternoon session dominance and sustained institutional accumulation. The two afternoon HOD prints (WFF +643%, OSRH +153%) show violent spikes rather than dip-and-soak setups, with WFF's Malaysia micro-cap NO-NEWS tag and 81% fade suggesting pure sympathy spillover rather than the \"China rig\" sustained-volume pattern—both are exit signals, not entry signals. **Grade: COLD cycle.** Momentum traders should sit tight; premarket-dominated HODs with heavy fades and NO-NEWS catalysts across exotic microcaps represent the exact opposite of the framework's required conditions (real catalysts, afternoon strength, time to set up)."
+    },
     {
       "date": "2026-08-14",
       "runners": [
@@ -495689,5 +496606,48 @@
       "theme": "PM-Led Tape",
       "note": "VRAX led +154.63% (13% fade). 7/10 held <20% fade."
     }
+  ],
+  "themeVocab": [
+    "AI",
+    "Agriculture",
+    "Amazon",
+    "Apple",
+    "Biotech-Clinical",
+    "Biotech-FDA",
+    "Cannabis",
+    "China Rig",
+    "Consumer Brand",
+    "Crypto/Bitcoin",
+    "Cybersecurity",
+    "Data Center",
+    "Defense",
+    "Drone/UAV",
+    "EV",
+    "Education",
+    "Fintech/Payments",
+    "Gaming/Betting",
+    "Gold/Silver",
+    "Google",
+    "Lithium/Battery",
+    "Logistics",
+    "Medical Device",
+    "Microsoft",
+    "Nasdaq Compliance",
+    "Nuclear/Uranium",
+    "Nvidia",
+    "Oil & Gas",
+    "OpenAI",
+    "Quantum",
+    "Rare Earth",
+    "Reverse Merger/SPAC",
+    "Robotics",
+    "Semiconductor",
+    "Shipping",
+    "Solar",
+    "Space",
+    "SpaceX",
+    "Tesla",
+    "Trump/Policy",
+    "Weight Loss/GLP-1"
   ]
 }
