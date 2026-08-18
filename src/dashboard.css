@@ -28,6 +28,9 @@ body { background: var(--app-bg); }
     var(--app-bg);
 }
 
+/* Sidebar mark. logo-icon.png is already the mark alone, so this just sizes it. */
+.brand-mark { width: 28px; height: 28px; border-radius: 6px; object-fit: contain; }
+
 /* ── Sidebar ── */
 .sidebar {
   width: 216px; flex: 0 0 216px;

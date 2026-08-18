@@ -177,7 +177,12 @@ function Sidebar({ view, setView, session, folders, folderId, setFolderId, onNew
 
       <div className="brand" data-label="THE HEAT GAUGE">
         <span className="brand-logo">
-          <img src="src/logo-small.svg?v=30" width="28" height="28" alt="" draggable="false" />
+          {/* logo-icon.png is the gauge/bull mark ONLY, generated from the master
+              artwork — the wordmark is illegible at 28px. object-position can't
+              do this job: the source is square and so is the box, so `cover`
+              never actually crops. */}
+          <img className="brand-mark" src="src/logo-icon.png?v=46" width="28" height="28"
+               alt="" draggable="false" />
         </span>
         <span className="brand-name">THE HEAT GAUGE</span>
       </div>

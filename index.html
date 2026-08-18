@@ -4,10 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Heat Gauge</title>
-<link rel="icon" href="src/favicon.svg" type="image/svg+xml">
+<!-- Generated from logo-mark.png, cropped to the gauge/bull — the wordmark is
+     unreadable at 32px. See the crop step in the handoff. -->
+<link rel="icon" href="src/favicon.ico?v=46" sizes="any">
+<link rel="icon" href="src/favicon-32.png?v=46" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="src/apple-touch-icon.png?v=46">
 <link rel="stylesheet" href="src/styles.css?v=30">
-<link rel="stylesheet" href="src/dashboard.css?v=45">
-<link rel="stylesheet" href="src/auth.css?v=30">
+<link rel="stylesheet" href="src/dashboard.css?v=46">
+<link rel="stylesheet" href="src/auth.css?v=46">
 </head>
 <body>
 <div id="root"></div>
@@ -45,7 +49,7 @@
 <!-- Usernames + avatars. Must load BEFORE Auth/Notes/shots — they call
      window.pfUseProfile / window.Avatar / window.PfUsernameField at render time. -->
 <script type="text/babel" src="src/Profile.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Profile.jsx"></script>
-<script type="text/babel" src="src/Auth.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Auth.jsx"></script>
+<script type="text/babel" src="src/Auth.jsx?v=46" data-plugins="transform-react-jsx-source" data-filename="src/Auth.jsx"></script>
 <script type="text/babel" src="src/Notes.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Notes.jsx"></script>
 <script type="text/babel" src="src/shots.jsx?v=40" data-plugins="transform-react-jsx-source" data-filename="src/shots.jsx"></script>
 <!-- Shared per-user grades (window.gr*). Owns window.getGrade — the AVERAGED
@@ -62,8 +66,8 @@
 <script type="text/babel" src="src/Insights.jsx?v=38" data-plugins="transform-react-jsx-source" data-filename="src/Insights.jsx"></script>
 <script type="text/babel" src="src/Overview.jsx?v=35" data-plugins="transform-react-jsx-source" data-filename="src/Overview.jsx"></script>
 <script type="text/babel" src="src/Settings.jsx?v=42" data-plugins="transform-react-jsx-source" data-filename="src/Settings.jsx"></script>
-<script type="text/babel" src="src/Playbook.jsx?v=38" data-plugins="transform-react-jsx-source" data-filename="src/Playbook.jsx"></script>
-<script type="text/babel" src="src/App.jsx?v=42" data-plugins="transform-react-jsx-source" data-filename="src/App.jsx"></script>
+<script type="text/babel" src="src/Playbook.jsx?v=46" data-plugins="transform-react-jsx-source" data-filename="src/Playbook.jsx"></script>
+<script type="text/babel" src="src/App.jsx?v=46" data-plugins="transform-react-jsx-source" data-filename="src/App.jsx"></script>
 <script type="text/babel" src="src/Tweaks.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Tweaks.jsx"></script>
 
 <script type="text/babel" data-plugins="transform-react-jsx-source" data-filename="inline-root">

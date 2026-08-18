@@ -97,6 +97,18 @@ class QuotaCeiling(Exception):
     """Raised when the run hits CHART_MAX_CALLS. Stops the run loudly."""
 
 
+class QuotaExhausted(Exception):
+    """
+    Raised on the FIRST HTTP 429 from chart-img: the plan's DAILY quota is gone.
+
+    This must stop the run immediately. Without it the loop keeps calling into a
+    wall — a 120-day backfill burned 337 consecutive 429s after the daily cap
+    was hit, each one counted as a call, produced nothing, and buried the real
+    cause under a wall of identical errors. A 429 here is not transient and
+    cannot be retried away; the quota resets on the provider's schedule.
+    """
+
+
 def _throttle():
     gap = time.time() - _last_req[0]
     if gap < CHART_REQ_INTERVAL:
@@ -204,6 +216,16 @@ def fetch_chart(tv_symbol, interval, date_str):
             detail = e.read().decode("utf-8", "replace")[:160]
         except Exception:                                  # noqa: BLE001
             pass
+        # 429 = the plan's DAILY quota is gone. Not transient, not retryable —
+        # stop the whole run rather than hammering a wall for the rest of the
+        # plan. Every subsequent call would fail identically while still
+        # counting against the ceiling and hiding the real cause.
+        if e.code == 429:
+            _STATS["quota_exhausted"] = True
+            raise QuotaExhausted(
+                f"chart-img returned HTTP 429 (daily quota exhausted) after "
+                f"{_STATS['calls']} calls this run. The quota resets on the "
+                f"provider's schedule - re-run later; resume state is intact.")
         return None, f"HTTP {e.code} {detail}"
     except Exception as e:                                 # noqa: BLE001
         return None, f"{type(e).__name__}: {e}"

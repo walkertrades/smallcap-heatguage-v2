@@ -53,6 +53,17 @@ function pbFullCriteria(c) { return Object.assign(pbEmptyCriteria(), c || {}); }
 
 // Built-in folders. Criteria are pre-filled so they open in the editor ready to
 // tweak, exactly like a user-made folder.
+// "all" is RESERVED. It is the unfiltered catch-all view, the fallback in
+// PlaybookPage, and the entry pbSortFolders pins to the top. It must never be
+// renamed or given criteria.
+//
+// It was possible to destroy it: the folder editor saves with `folder.id`, so
+// selecting All Plays -> Edit -> rename wrote straight over the builtin. The
+// result looked harmless but there was then NO catch-all folder, and the sort
+// pinned whatever now held the id. Guarded in pbUpdateFolder below, and the
+// Edit control is hidden for it.
+const PB_RESERVED_ID = "all";
+
 const PB_DEFAULT_FOLDERS = [
   { id: "all", name: "All Plays", builtin: true, criteria: pbEmptyCriteria() },
   {
@@ -133,13 +144,29 @@ function pbSetFolders(next) {
   pbFolderSubs.forEach((fn) => fn(sorted));
 }
 function pbAddFolder(f) {
+  // A create can't normally reach "all" (pbNewFolderId emits "c..." ids), but
+  // never let one through.
+  if (f && f.id === PB_RESERVED_ID) f = Object.assign({}, f, { id: pbNewFolderId() });
   const next = pbAllFolders().concat([Object.assign({ builtin: false }, f)]);
   pbSetFolders(next);
   return f;
 }
 function pbUpdateFolder(id, patch) {
+  // Defence in depth: even if a future UI path forgets, the reserved folder's
+  // name and criteria are not writable.
+  if (id === PB_RESERVED_ID) {
+    const safe = Object.assign({}, patch);
+    delete safe.name; delete safe.criteria; delete safe.rules;
+    if (!Object.keys(safe).length) {
+      console.warn('[playbook] "All Plays" is the unfiltered fallback view - it cannot be '
+        + 'renamed or filtered. Create a new folder instead.');
+      return false;
+    }
+    patch = safe;
+  }
   const next = pbAllFolders().map((f) => (f.id === id ? Object.assign({}, f, patch) : f));
   pbSetFolders(next);
+  return true;
 }
 function pbDeleteFolder(id) {
   pbSetFolders(pbAllFolders().filter((f) => f.id !== id));
@@ -791,8 +818,16 @@ function PlaybookPage({ entries, folderId, folders, onOpenNewFolder, newFolderOp
             {pinnedCount > 0 ? ` · ${pinnedCount} pinned` : ""}
             {critCount > 0 ? ` · ${critCount} criteria` : ""}
           </span>
-          {folder && !editing && !newFolderOpen && (
+          {/* All Plays is the unfiltered catch-all and the pinned default —
+              editing it used to overwrite the builtin in place and leave a
+              normal folder squatting on the reserved id. Offer a new folder
+              instead of an edit. */}
+          {folder && !editing && !newFolderOpen && folder.id !== PB_RESERVED_ID && (
             <button className="pb-edit" onClick={() => setEditing(true)}>Edit filters</button>
+          )}
+          {folder && !editing && !newFolderOpen && folder.id === PB_RESERVED_ID && (
+            <button className="pb-edit" title="All Plays shows every runner and can't be filtered"
+              onClick={onOpenNewFolder}>+ New folder</button>
           )}
         </div>
       </div>

@@ -55,6 +55,9 @@ BACKFILL_MIN_BYTES = 45_000
 # hard stop - a runaway loop at 15 req/s eats 1,000/day in about a minute.
 BACKFILL_MAX_CALLS = 600
 
+# Remembered so the "re-run tomorrow" hint can echo the exact window used.
+DAYS_USED = [14]
+
 
 def load_state():
     try:
@@ -178,51 +181,71 @@ def run(plan, poly_key, dry_run=False):
         print(f"\n  Resuming - {len(done)} (ticker,date,timeframe) slots already captured.\n")
     cache = {}
     report = []
+    capped = False
+    exhausted = False
+    stopped_at = None
 
+    # The ceiling is a SAFETY STOP, not an error: hitting it must still produce
+    # the per-day report and the summary. Letting QuotaCeiling propagate killed
+    # the script before either printed — 52 days of work completed and reported
+    # nothing but a one-line message, which defeats the point of the guard.
     try:
         for p in plan:
             date_str = p["date"]
             landed, skipped_gate, failed, skipped_sym = 0, 0, 0, 0
-            for sym in p["syms"]:
-                tv, why = resolve_symbol(sym, cache, poly_key)
-                if not tv:
-                    skipped_sym += 1
-                    print(f"    [{date_str}] {sym}: {why}")
-                    continue
-                for tf in cc.ALL_TFS:
-                    if tf not in p["allowed"]:
-                        skipped_gate += 1
+            try:
+                for sym in p["syms"]:
+                    tv, why = resolve_symbol(sym, cache, poly_key)
+                    if not tv:
+                        skipped_sym += 1
+                        print(f"    [{date_str}] {sym}: {why}")
                         continue
-                    key = (sym, date_str, tf)
-                    if key in done:
-                        continue
-                    if dry_run:
-                        landed += 1
-                        continue
-                    try:
+                    for tf in cc.ALL_TFS:
+                        if tf not in p["allowed"]:
+                            skipped_gate += 1
+                            continue
+                        key = (sym, date_str, tf)
+                        if key in done:
+                            continue
+                        if dry_run:
+                            landed += 1
+                            continue
                         data, err = cc.fetch_chart(tv, tf, date_str)
-                    except cc.QuotaCeiling as e:
-                        print(f"\n  !! {e}")
-                        raise
-                    if err:
-                        failed += 1
-                        print(f"    [{date_str}] {sym} {tf}: {err}")
-                        continue
-                    try:
-                        slot = cc.upload_chart(sym, date_str, tf, data)
-                        # merge=True so each timeframe lands independently and a
-                        # partial day is never rewritten as a whole.
-                        cc.write_auto_slot(sym, date_str, tf, slot)
-                        done.add(key)
-                        landed += 1
-                    except Exception as e:                  # noqa: BLE001
-                        failed += 1
-                        print(f"    [{date_str}] {sym} {tf}: upload failed: {type(e).__name__}: {e}")
-                save_state(done)
+                        if err:
+                            failed += 1
+                            # Also record it centrally — the summary's "failed"
+                            # counter lives in chart_capture and only
+                            # capture_runner() was feeding it, so a backfill
+                            # reported "failed: 0" while 339 calls had failed.
+                            cc._STATS["failed"] += 1
+                            print(f"    [{date_str}] {sym} {tf}: {err}")
+                            continue
+                        try:
+                            slot = cc.upload_chart(sym, date_str, tf, data)
+                            # merge=True so each timeframe lands independently and
+                            # a partial day is never rewritten as a whole.
+                            cc.write_auto_slot(sym, date_str, tf, slot)
+                            done.add(key)
+                            landed += 1
+                        except Exception as e:              # noqa: BLE001
+                            failed += 1
+                            print(f"    [{date_str}] {sym} {tf}: upload failed: {type(e).__name__}: {e}")
+                    save_state(done)
+            except (cc.QuotaCeiling, cc.QuotaExhausted) as e:
+                capped = True
+                stopped_at = date_str
+                exhausted = isinstance(e, cc.QuotaExhausted)
+                print(f"\n  !! {e}")
+            # record the day even when the ceiling cut it short, so the report
+            # shows exactly how far the run got
             report.append((date_str, p["age"], landed, skipped_gate, skipped_sym, failed, p["skipped"]))
             print(f"  {date_str} ({p['age']}d): {landed} captured, "
-                  f"{skipped_gate} gated, {skipped_sym} unchartable, {failed} failed")
+                  f"{skipped_gate} gated, {skipped_sym} unchartable, {failed} failed"
+                  + ("   <-- CEILING, day incomplete" if capped else ""))
+            if capped:
+                break
     finally:
+        save_state(done)
         cc.CHART_MIN_BYTES = original_floor
         cc.CHART_MAX_CALLS = original_cap
 
@@ -234,15 +257,33 @@ def run(plan, poly_key, dry_run=False):
         print(f"  {date_str:12} {age:>3}d {landed:>5} {gated:>6} {nosym:>6} {failed:>5}  {','.join(wall) or '-'}")
     print(cc.run_summary())
 
+    if capped:
+        remaining = sum(
+            len([s for s in p["syms"]]) * len(p["allowed"]) for p in plan
+        ) - len(done)
+        print(f"\n  STOPPED AT THE CALL CEILING on {stopped_at}. This backfill is INCOMPLETE.")
+        print(f"  {len(done)} slots captured so far; roughly {max(0, remaining)} still to go.")
+        print("  Re-run the SAME command tomorrow - resume state skips everything")
+        print("  already captured, so it picks up exactly where this stopped:")
+        print(f"      py -3 backfill_charts.py --days {DAYS_USED[0]} --max-calls {BACKFILL_MAX_CALLS}")
+    return capped
+
 
 def main():
+    global BACKFILL_MAX_CALLS
     ap = argparse.ArgumentParser(description="Charts-only backfill (never writes data2.json)")
     ap.add_argument("--days", type=int, default=14, help="calendar days back (default 14)")
     ap.add_argument("--plan", action="store_true", help="print the plan and exit")
     ap.add_argument("--dry-run", action="store_true", help="walk the plan without calling chart-img")
     ap.add_argument("--reset-state", action="store_true", help="forget resume state and start over")
     ap.add_argument("--today", help="override today's date (YYYY-MM-DD)")
+    ap.add_argument("--max-calls", type=int, default=BACKFILL_MAX_CALLS,
+                    help=f"per-run call ceiling (default {BACKFILL_MAX_CALLS}). "
+                         "Keep below the plan's 1,000/day API quota; resume state "
+                         "lets the next run pick up exactly where this one stopped.")
     args = ap.parse_args()
+    BACKFILL_MAX_CALLS = args.max_calls
+    DAYS_USED[0] = args.days
 
     today = (_dt.datetime.strptime(args.today, "%Y-%m-%d").date()
              if args.today else _dt.date.today())
@@ -263,7 +304,11 @@ def main():
     if not cc.CHARTIMG_KEY:
         print("\n  CHARTIMG_API_KEY not set.")
         return
-    run(plan, poly_key, dry_run=args.dry_run)
+    capped = run(plan, poly_key, dry_run=args.dry_run)
+    # Exit 2 = stopped at the ceiling, incomplete but not broken.
+    # Distinct from 1 (a real failure) so automation can tell them apart.
+    if capped:
+        sys.exit(2)
 
 
 if __name__ == "__main__":

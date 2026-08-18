@@ -280,12 +280,13 @@ function AuthLanding() {
       </button>
 
       <header className="vault-head">
+        {/* The artwork carries the "Heat Gauge" wordmark itself, so the old
+            decrypt <h1> would print the name twice. The title is kept in the
+            DOM for screen readers and search, visually hidden. */}
         <div className="vault-logo" aria-hidden="true">
-          <img src="src/logo.svg?v=30" width="120" height="120" alt="" draggable="false" />
+          <img src="src/logo-mark.png?v=46" alt="" draggable="false" />
         </div>
-        <h1 className="vault-title">
-          <AuthDecrypt text="THE HEAT GAUGE" delay={260} speed={52} />
-        </h1>
+        <h1 className="vault-title vault-title-sr">THE HEAT GAUGE</h1>
         <p className="vault-sub">
           <AuthDecrypt text="PROFESSIONAL MOMENTUM ANALYSIS" delay={900} speed={16} />
         </p>

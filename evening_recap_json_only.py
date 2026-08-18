@@ -114,6 +114,20 @@ SETUP_GRADES = ["A++", "A", "B+", "B", "C+", "C", "F"]
 OUTPUT_DIR = (os.environ.get("HEATGAUGE_OUTPUT_DIR")
               or os.path.dirname(os.path.abspath(__file__)))
 
+# Instrument types that are NOT runners: leveraged/inverse ETFs, ETNs, and
+# funds. Excluded at the mover-scan stage.
+#
+# THIS IS A DENYLIST AND MUST STAY ONE. 92 of 1,865 historical tickers return
+# HTTP 404 from Polygon's reference endpoint — delisted, renamed or
+# reverse-merged out of the current data — so they have NO type at all. LIXT,
+# APLS, EKSO, HOTH and 88 others are in that group and are perfectly real
+# names. An allowlist ("keep only CS/ADRC") would delete all 92. Exclude only
+# on an EXPLICIT non-runner type; unknown always means keep.
+#
+# Same lesson as the warrant/rights rule that would have blocked WNW and ATER.
+NON_RUNNER_TYPES = {"ETF", "ETN", "ETV", "ETS", "FUND"}
+_skipped_instruments = []      # (ticker, type, name) — reported in the run summary
+
 TOP_N            = 10
 # Set to True (or pass --no-charts) to skip auto chart capture for a run —
 # useful when re-running a date purely to fix data.
@@ -1217,6 +1231,28 @@ def get_day_movers(target_date):
         details = detail_cache.setdefault(ticker, fetch_ticker_details(ticker))
         time.sleep(0.05)
         if not details: continue
+
+        # ── Non-runner instruments ─────────────────────────────────
+        # Leveraged/inverse wrappers and funds pass every mover filter — they
+        # gap hard and carry a tiny "float" — but they are not runners.
+        # AXTU / AXTL / AXTX were three separate 2x wrappers on ONE AXTI move,
+        # each counted as its own runner, distorting float-tier and country
+        # statistics and anything else grouped by. Measured over all history:
+        # 76 distinct tickers, 133 runner rows, 1.38% of the corpus.
+        #
+        # Costs no extra API call — `type` rides along in the ticker details
+        # already being fetched for float and exchange.
+        #
+        # GOING FORWARD ONLY. History is deliberately left alone: computeHeat
+        # averages HOD and fade ACROSS a day's runners, so removing entries
+        # would silently recompute heat scores and day composition on days
+        # already reviewed and graded (2024-08-05 would lose 5 of 10 runners).
+        sec_type = str(details.get("type") or "").upper()
+        if sec_type in NON_RUNNER_TYPES:
+            _skipped_instruments.append((ticker, sec_type, details.get("name") or ""))
+            print(f"    [SKIP] {ticker} - {sec_type}: {str(details.get('name'))[:46]}")
+            continue
+
         float_shares = details.get("share_class_shares_outstanding")
         float_m = float_shares/1e6 if float_shares else None
 
@@ -2220,6 +2256,16 @@ def main():
                 print(f"    {sym:6} FAILED {type(e).__name__}: {e}")
     elif not charts_mod.CHARTIMG_KEY:
         print("\n  CHARTIMG_API_KEY not set - skipping auto chart capture.")
+
+    # Surfaced rather than silent: if this list is long, the scan thresholds are
+    # letting a lot of leveraged wrappers through and the raw candidate pool is
+    # not what it looks like.
+    if _skipped_instruments:
+        print("\n" + "=" * 62)
+        print(f"NON-RUNNER INSTRUMENTS EXCLUDED: {len(_skipped_instruments)}")
+        for tkr, typ, nm in _skipped_instruments:
+            print(f"    {tkr:7} {typ:5} {nm[:46]}")
+        print("=" * 62)
 
     # Loud, at the end, where it can't be missed. Silent empties are how the
     # news path rots without anyone noticing.
