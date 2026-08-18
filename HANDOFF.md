@@ -1,7 +1,7 @@
 # PROJECT HANDOFF — The Heat Gauge + Trading Review System
 
 **Owner:** Jack (Walker Trading LLC) — small-cap momentum day trader
-**Last updated:** August 2026
+**Last updated:** 2026-08-18
 
 ---
 
@@ -149,10 +149,37 @@ them were believed for a while. Assume the next one looks like this too.
   runners via "said", "chain", "retail", "Thailand". Word-boundary `\bAI\b`
   matches 280. 14.1% of the corpus would have been silently mis-themed.
 
+- **chart-img 429 reported as `failed: 0`.** During the 120-day backfill the
+  daily quota ran out. `fetch_chart` treated HTTP 429 as an ordinary error and
+  returned it, so the loop kept calling into a wall: **337 consecutive failed
+  calls**, each counted against the ceiling, producing nothing and burying the
+  cause under identical errors. Worse, the summary printed `failed: 0`
+  throughout, because the backfill drives `fetch_chart` directly and only
+  `capture_runner()` was feeding the central counter. **Found AFTER the run had
+  been signed off as successful.** Fixed: `QuotaExhausted` raises on the FIRST
+  429 and stops the run; backfill failures feed the central counter; the report
+  now distinguishes "hit my ceiling" from "hit the provider's wall".
+
+- **Grade writes succeeded while grade reads were denied.** A collection-group
+  query needs a recursive-wildcard rule; the published nested `match` authorised
+  the write but not the read, so votes landed in Firestore and the badge never
+  updated. Detail in section 5.
+
 Also in this family, though caught before shipping: `NYSE:MUA` renders a valid
 chart for the ticker `MUAr`, but it's the **common stock, not the rights** — a
 different security. `symbols.py` skips those rather than charting the wrong
 instrument.
+
+### Anything shared needs a TWO-ACCOUNT check, never a solo one
+
+The grades bug survived a "verified" sign-off because one person testing alone
+cannot tell "my vote saved and everyone can see it" apart from "my vote saved
+and nobody can read it back". Local optimism makes both look identical.
+
+**Rule: any feature whose whole point is that the three of us share it — grades,
+overrides, notes, charts, and the Playbook once it migrates — is not verified
+until a SECOND account has confirmed it from a different browser.** A solo pass
+is a smoke test, not a verification.
 
 ### The second recurring trap: paths that resolve somewhere you didn't mean
 
@@ -299,21 +326,176 @@ a scheduled run reports as failed rather than silently succeeding.
 4. Remove personal pronouns from Claude output in two places — `call_claude_daily()` in `evening_recap_json_only.py`, and the 5-day trend blend API call in `src/Insights.jsx`
 5. Add the China rig section to `playbook_context.txt` if not already present
 
-**Backlog:**
-- **[TOP PRIORITY] Playbook -> Firestore migration.** Folders and pins still live in `hg2:playbookFolders` / `hg2:playbookPins`, which is per-ORIGIN localStorage. Two separate incidents traced to this: (1) production folders are a completely different store from the sandbox, so nothing travels between machines and Mikey/Eric see none of it; (2) 2026-08-18 — the reserved `all` id was silently claimed by a renamed folder ("Penny Runners"), destroying the All Plays catch-all and mis-pinning the sidebar. A guard is now in place (`PB_RESERVED_ID`), but the underlying store is still invisible, un-shared and un-auditable. Migrate to `playbookFolders` / `playbookPins` collections on the same subscribe-once-cache pattern as `overrides.jsx`; built-ins stay code-defined and merge over the stored set; pin keys are already `{date}::{sym}` so the doc-id convention carries over.
-- **120-day 15m + Daily chart backfill.** `backfill_charts.py --days 120` covers it; ~1,634 calls, ~190 MB, about two days at the 1,000/day cap. Deliberately 15m+Daily only: 1m retention is ~12 days and 5m ~30, so requesting those for older dates returns blank frames that look successful. The age gate already refuses them. Was verified working on the 16-day run — Jul 31 and Jul 30 correctly gated 1m at zero API cost.
-- **Leveraged ETFs in the movers scan.** The backfill surfaced `AXTU` / `AXTL` / `AXTX` — T-REX 2X, Leverage Shares 2X and Tradr 2X Long AXTI, all Cboe BZX-listed 2x products tracking the same underlying. They pass the mover filters and now chart correctly under the `BATS:` prefix, but **they are not really separate runners** — three leveraged wrappers on one move, each with its own tiny "float". Open question: filter them out of the scan, tag them as derivatives, or keep them. They inflate runner counts and would distort any float-tier or country statistic.
-- **Playbook folders + pins are still localStorage** (`hg2:playbookFolders`, `hg2:playbookPins`) — per-browser, so the Playbook doesn't travel between machines and Mikey/Eric can't see it. This is the biggest remaining instance of the flaw items 3/4/6/9 fixed, and it's the agreed next item after these 10. Migration would mean: a `playbookFolders` collection (shared, group-writable, folders are desk-wide not per-user), a `playbookPins` collection keyed `{TICKER}-{date}` holding a folder-id array, both on the same subscribe-once-cache pattern as `overrides.jsx`. Built-in folders stay code-defined and are merged over the stored set, as now. The pin store already keys on `date::sym`, so the doc-id convention carries over unchanged.
-- Polygon 1-minute OHLCV around each trade's entry/exit, fed into the daily review prompt, so Claude can reason about actual price action rather than just P&L
-- Investigate why Polygon's mover scan missed YXT; loosen thresholds if that's the cause
-- Decide whether `LIQUIDITY-TRAP` becomes a permanent catalyst tag (1 occurrence; kept in the 22-tag vocabulary for now)
-- In-app "Ask Claude" panel with the day's runner data pre-loaded
-- Weekly round-trip trend wired into `weekly_review.py` (`round_tripper_count` etc. already computed in `summarize()`, not yet consumed)
-- `ARCX`/`BATS` exchange prefixes unverified — map them if a runner ever appears on one
+**Backlog — in priority order:**
+
+1. **Playbook -> Firestore migration.** Folders and pins still live in
+   `hg2:playbookFolders` / `hg2:playbookPins`, which is per-ORIGIN localStorage.
+   Two separate incidents came from this: production folders are a completely
+   different store from the sandbox, so nothing travels between machines and
+   Mikey/Eric see none of it; and the reserved `all` id was silently claimed by
+   a renamed folder, destroying the catch-all. The guard added on 2026-08-18
+   stops the corruption but does nothing about the store being invisible,
+   unshared and unauditable — which is the actual problem. Migrate to
+   `playbookFolders` / `playbookPins` collections on the same
+   subscribe-once-cache pattern as `overrides.jsx`; built-ins stay code-defined
+   and merge over the stored set; pin keys are already `{date}::{sym}` so the
+   doc-id convention carries over unchanged. Verify with TWO accounts.
+
+2. **Windows Task Scheduler.** The 1m chart archive only exists going forward —
+   chart-img's 1m retention is ~12 calendar days, so **every night the pipeline
+   does not run is 1m charts that can never be recovered.** Fully unblocked: the
+   script reads all keys from env vars, takes `--date`, never prompts, and exits
+   non-zero on failure. Schedule
+   `evening_recap_json_only.py --date today` -> `merge.py --force` ->
+   `daily_review.py` at ~5pm on trading days. Use a `.cmd` wrapper logging to a
+   dated file, the absolute `py -3` path (Scheduler does not inherit PATH), and
+   "run whether user is logged on".
+
+3. **Finish the 120-day backfill** — ~424 slots remain,
+   `py -3 backfill_charts.py --days 120 --max-calls 700`. Optional; resume state
+   makes it safe to run any time.
+
+4. Polygon 1-minute OHLCV around each trade's entry/exit, fed into the daily
+   review prompt, so Claude can reason about price action rather than just P&L.
+
+5. Investigate why Polygon's mover scan missed YXT; loosen thresholds if that is
+   the cause.
+
+6. Decide whether `LIQUIDITY-TRAP` becomes a permanent catalyst tag (1
+   occurrence; kept in the 22-tag vocabulary for now).
+
+7. In-app "Ask Claude" panel with the day's runner data pre-loaded.
+
+8. Weekly round-trip trend wired into `weekly_review.py`
+   (`round_tripper_count` etc. already computed in `summarize()`, unused).
+
+9. `ARCX` / `XCBO` / `OTCM` exchange prefixes remain unverified in `symbols.py`
+   and are deliberately refused rather than guessed. Map them only if a runner
+   ever appears on one, and verify by rendering before trusting.
 
 ---
 
-## 7. FIRESTORE SCHEMA
+### After the migration — incidents 2026-08-16 to 08-18
+
+All of the following was found AFTER the v2 migration and is now fixed and
+present in both repos.
+
+**Grades were never working — a rules bug, not a code bug.** `grades.jsx` reads
+with `db.collectionGroup("gradeVotes").onSnapshot(...)` but writes to a direct
+document path. The published rule was:
+
+    match /grades/{key}/gradeVotes/{uid} { ... }        // WRONG for the read
+
+A nested match authorises the direct-path WRITE but **does not authorise a
+collection-group query** — those require the recursive wildcard. Correct rule,
+now published:
+
+    match /{path=**}/gradeVotes/{uid} {
+      allow read:   if request.auth != null;
+      allow write:  if request.auth != null && request.auth.uid == uid;
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
+
+Symptom: the vote saved, the listener died with `permission-denied`, the cache
+stayed empty, the badge never updated — it looked completely broken while the
+data was landing correctly. **This was broken in the sandbox too**; item 6 was
+never actually working, and a solo check passed visually. `grades` is the ONLY
+collection-group query in the app; `overrides`, `charts`, `chartsAuto` and
+`notes` use plain collection/document access and their rules are correct.
+
+**The Playbook reserved id could be silently destroyed.** `FolderEditor.save()`
+saved under `folder.id`, so selecting **All Plays** then Edit then rename wrote
+straight over the builtin. Result: no catch-all folder at all, and
+`pbSortFolders` pinned whatever now held the id — a folder named "Penny Runners"
+sat at the top looking deliberate. It stayed invisible because everything still
+*looked* sorted; the pin was working, just on the wrong folder. A create could
+never cause this (`pbNewFolderId()` emits `c...` ids) — only editing the builtin.
+
+Guarded: `PB_RESERVED_ID`; `pbUpdateFolder` strips `name`/`criteria`/`rules` for
+id `all` and warns; `pbAddFolder` re-ids anything arriving as `all`; and the
+**Edit filters** button becomes **+ New folder** when All Plays is selected.
+To repair an already-damaged store: re-id the squatting folder to a fresh
+`c...` id, repoint every `hg2:playbookPins` entry referencing `all` to that new
+id, drop the `all` entry so the builtin regenerates, and back both keys up first.
+
+**Logo and favicon are transparent, all generated from one master.** The supplied
+artwork had an opaque near-black matte that CSS cannot remove. The correct fix
+was **unpremultiplying, not chroma-keying**: the mark is glow rendered on black,
+which is mathematically a premultiplied image (a glow at 30% intensity literally
+IS `0.3 x colour`), so alpha comes from glow intensity and colour is divided back
+out. A threshold or key would have hard-clipped the falloff and left a fringe.
+Result: 85.5% fully transparent, 12.7% partial (the glow, preserved as real
+alpha), verified clean against orange, white and mid-grey.
+
+Derived assets, all from `logo-mark.png`: `logo-icon.png` (mark only — the
+wordmark is illegible at 28px), `favicon.ico` (16/32/48/64), `favicon-32.png`,
+`apple-touch-icon.png` (180), `icon-512.png`. Original kept as
+`logo-mark-original.png` so everything can be re-derived.
+
+A bug worth recording from that work: the sidebar first used
+`object-fit: cover; object-position: 50% 34%` to crop the mark out of the full
+artwork. **That can never work — a square source in a square box means `cover`
+does no cropping at all**, so the wordmark would have rendered as mush at 28px.
+The sidebar now uses the real mark-only asset with `object-fit: contain`.
+
+Login page: mark is the hero at `min(340px, 46vmin)`, login card below it in the
+same column flex so overlap is structurally impossible. The decrypt `<h1>` is
+visually hidden (the artwork carries the wordmark) but kept for assistive tech.
+Typed-text contrast measured against the brightest frame of the corridor
+animation, not the average: **11.4:1 worst case, AAA at every frame** — the card
+at 86% opacity means the animation cannot meaningfully move the input colour.
+
+**ETF filter shipped.** Excluded at the mover scan in
+`evening_recap_json_only.py`, immediately after `fetch_ticker_details()` — zero
+extra API calls, since `type` rides along with the float/exchange lookup.
+`NON_RUNNER_TYPES = {ETF, ETN, ETV, ETS, FUND}`.
+
+**It is a DENYLIST and must stay one.** 92 of 1,865 historical tickers return
+HTTP 404 from Polygon's reference endpoint (delisted, renamed or reverse-merged)
+and carry no `type` at all — `LIXT`, `APLS`, `EKSO`, `HOTH` among them. An
+allowlist would delete all 92. Exclude only on an EXPLICIT non-runner type;
+unknown always means keep. Same lesson as the warrant/rights rule that would
+have blocked `WNW` and `ATER`.
+
+Evidence over 20 recent days: 190 kept, 10 excluded, zero common stock or ADRs
+touched. Exclusions cluster — Jul 30 lost 3 to a single NBIS/AXTI move, Jul 20
+lost 3 to one IREN move — which is exactly the distortion being removed: one
+underlying move counted as several runners, with `AXTL` contributing a 0.4M
+"float" to the Nano tier. **Going forward only.** Removing historical entries
+would recompute heat scores on days already reviewed and graded, because
+`computeHeat` averages HOD and fade ACROSS a day's runners.
+
+### Chart backfill — current state
+
+**16-day, all four timeframes: COMPLETE.** Audited directly against Firestore
+rather than trusting the run logs (which had reported `failed: 0` while calls
+were failing): **412 of 420 expected slots present**. The 8 missing are all
+`MUAr` across two dates — the rights security `symbols.py` correctly refuses,
+because `NYSE:MUAR` 404s and `NYSE:MUA` charts the common stock instead. Every
+chart that run claims to have, it actually has.
+
+**120-day 15m+Daily: PARKED at 1,438 of 1,862 slots.** Stopped by the chart-img
+daily quota. Deliberately **not finished and not rolled back** — whatever landed
+is a bonus. Resume state is intact in `.backfill_state.json`; re-running the
+same command skips everything already captured and needs roughly 424 more calls.
+
+Slot combinations actually present in production, each verified through the
+cycler logic against real documents:
+
+| combination | count | opens on | indicator | arrows |
+|---|---|---|---|---|
+| `15m, 1D` | 144 | 15m | 1 of 2 | left hidden |
+| `5m, 15m, 1D` | 44 | 5m | 1 of 3 | left hidden |
+| `1m, 5m, 15m, 1D` | 40 | 1m | 1 of 4 | left hidden |
+| `15m` only | 1 | 15m | 1 of 1 | **both hidden** |
+
+Missing slots are absent from the cycler sequence entirely — no broken frames —
+and still show as grey droppable placeholders in *manage charts*. The
+single-slot case (`AEHG-2026-07-15`) exists because that runner's Daily chart was
+**rejected by the 45 KB blank-chart floor**, which is the floor working rather
+than a gap.
+
+## 6. FIRESTORE SCHEMA
 
 One override layer serves catalyst, country, themes, behavior, custom tags and
 news. Doc IDs are `{TICKER}-{date}` with the ticker UPPERCASED and the date
@@ -377,6 +559,6 @@ correctly so: `hg2:chartPrefs`, `hg2:sidebarCollapsed`, `hg2:vaultSound`.
 
 ---
 
-## 8. HOW JACK WANTS TO BE TALKED TO
+## 7. HOW JACK WANTS TO BE TALKED TO
 
 Direct. No fluff, no preamble, no "great question". Push back when something is wrong rather than agreeing politely. Concise unless depth is asked for. Flag real limitations honestly instead of building something that half-works — the TradingView date-jump limitation was correctly surfaced rather than faked, and that was the right call.
