@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-17T22:45:45.069012Z",
-  "count": 9654,
+  "exportedAt": "2026-08-19T10:41:09.041368Z",
+  "count": 9664,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1013 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-18",
+      "runners": [
+        {
+          "sym": "PFSA",
+          "hod": 525,
+          "hodExact": 525.17,
+          "news": [
+            "Form 8-K",
+            "Profusa Announces 1-for-4 Reverse Stock Split"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Profusa, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.62,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 0.62M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.62M + RelVol 161.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.62M + RelVol 161.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.53,
+          "open": 8.82,
+          "gapPct": 94.7,
+          "time": "regular session",
+          "session": "morning",
+          "high": 28.32,
+          "hodTimeExact": "09:58 AM ET",
+          "close": 27.48,
+          "fade": 2,
+          "fadeExact": 2.97,
+          "vwap": 14.1706,
+          "vsVwap": "above",
+          "pmHigh": 12.79,
+          "volRaw": "53.5M",
+          "volDollar": 758720140,
+          "relVol": 161.9,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": "4:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "Profusa Announces 1-for-4 Reverse Stock Split"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1859807/000121390026089362/ea030148402-8k_profusa.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Profusa Announces 1-for-4 Reverse Stock Split",
+              "url": "https://www.stocktitan.net/news/PFSA/profusa-announces-1-for-4-reverse-stock-igssi25oue05.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-13T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PFSA",
+          "newsSummary": "PFSA announced a 1-for-4 reverse stock split on 2026-08-13, preceding a massive 525% HOD run on 2026-08-18. The reverse split is a structural compliance/capital management action, not a cash catalyst. The Form 8-K filed 2026-08-14 came before the move, suggesting it may contain material disclosure driving intraday institutional accumulation.",
+          "bullFactors": [
+            "Ultra-nano float (0.62M shares) — extreme leverage for momentum on high relative volume (161.9x)",
+            "Sustained 525% HOD on only 2.97% fade indicates institutional accumulation and short squeezing, not pump-and-dump premarket spike",
+            "94.7% gap into session + afternoon session HODs suggest tape heat and continuation energy rather than early morning exhaustion",
+            "Form 8-K timing (pre-move disclosure) hints at material news driving intraday buying pressure throughout the session"
+          ],
+          "bearFactors": [
+            "Reverse split is dilutive/defensive signal — typically used to regain compliance or shore up balance sheet perception, not bullish growth catalyst",
+            "No substantive cash deal, partnership, or clinical/FDA catalyst identified — move appears driven by structural/tape mechanics rather than real business value",
+            "Nano float + 525% move = extreme liquidity risk and black swan vulnerability; tight stops and gap-fill danger on any reversal",
+            "News arrived 4-5 days before the spike — unusual timing gap suggests retail sympathy or momentum theme rather than fresh catalyst-driven accumulation"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AIXC",
+          "hod": 342,
+          "hodExact": 342.13,
+          "news": [
+            "Faraday Future Supports AIxC’s Full Strategic Pivot to Physical AI and Robot-Sharing and Rental Operations; RoboShare Completes Its First Paid Commercial Order, With an Initial Fleet of More Than 80 Robots in Place",
+            "S-1/A",
+            "Form 8-K",
+            "AIxC Announces Strategic Pivot to Physical AI and Robotic Operations Commercialization; RoboShare Completes First Paid Commercial Order"
+          ],
+          "tag": "CONTRACT",
+          "name": "AIxCrypto Holdings, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 20.5,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$29M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7102,
+          "open": 0.8585,
+          "gapPct": 20.88,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.14,
+          "hodTimeExact": "10:54 AM ET",
+          "close": 1.32,
+          "fade": 57,
+          "fadeExact": 57.96,
+          "vwap": 1.7017,
+          "vsVwap": "below",
+          "pmHigh": 0.97,
+          "volRaw": "65.0M",
+          "volDollar": 110613519,
+          "relVol": 1615.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Faraday Future Supports AIxC’s Full Strategic Pivot to Physical AI and Robot-Sharing and Rental Operations; RoboShare Completes Its First Paid Commercial Order, With an Initial Fleet of More Than 80 Robots in Place",
+            "S-1/A",
+            "Form 8-K",
+            "AIxC Announces Strategic Pivot to Physical AI and Robotic Operations Commercialization; RoboShare Completes First Paid Commercial Order"
+          ],
+          "newsItems": [
+            {
+              "title": "Faraday Future Supports AIxC’s Full Strategic Pivot to Physical AI and Robot-Sharing and Rental Operations; RoboShare Completes Its First Paid Commercial Order, With an Initial Fleet of More Than 80 Robots in Place",
+              "url": "https://www.stocktitan.net/news/AIXC/faraday-future-supports-a-ix-c-s-full-strategic-pivot-to-physical-ai-mzmggpdcgqol.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-19T01:45:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "S-1/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226039049/forms-1a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-1/A",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226038912/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "AIxC Announces Strategic Pivot to Physical AI and Robotic Operations Commercialization; RoboShare Completes First Paid Commercial Order",
+              "url": "https://www.stocktitan.net/news/AIXC/a-ix-c-announces-strategic-pivot-to-physical-ai-and-robotic-ugz3qms2bwkl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-18T13:27:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIXC",
+          "newsSummary": "AIxC announced a strategic pivot to Physical AI and robotic operations with RoboShare completing its first paid commercial order (80+ robot fleet). Faraday Future publicly endorsed the pivot. The catalyst has real cash merit—first paid commercial deployment is tangible revenue/traction, not vaporware. However, S-1/A and 8-K filings after the move suggest the news led price action rather than following it.",
+          "bullFactors": [
+            "Real paid commercial order (80+ robots) = concrete cash traction, not hype",
+            "Faraday Future endorsement adds credibility from established EV/mobility player",
+            "342% HOD with 57.96% fade still leaves strong net gains and sustained afternoon volume (relVol 1615)",
+            "AI + Robotics dual theme aligns with institutional momentum sectors"
+          ],
+          "bearFactors": [
+            "Float 20.5M is above preferred <10M threshold; relVol 1615 helps but reduces scarcity edge",
+            "S-1/A filing post-move signals dilution risk ahead—typical post-spike red flag",
+            "57.96% fade is material and suggests retail exhaustion or short covering reversal",
+            "Strategic pivot + first order is early-stage traction; not yet recurring or large-scale revenue"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "IPST",
+          "hod": 242,
+          "hodExact": 242.9,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "IP Strategy Holdings, Inc. Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 1.25,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$20M",
+          "riskBadges": [
+            "Float 1.25M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 7.39,
+          "open": 7.46,
+          "gapPct": 0.95,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 25.34,
+          "hodTimeExact": "01:52 PM ET",
+          "close": 15.76,
+          "fade": 37,
+          "fadeExact": 37.81,
+          "vwap": 16.1144,
+          "vsVwap": "below",
+          "pmHigh": 8.51,
+          "volRaw": "32.3M",
+          "volDollar": 520790481,
+          "relVol": 6.1,
+          "avgVolM": 5.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IPST",
+          "newsSummary": "IPST ran 242.9% intraday with no identifiable news catalyst — pure price action driven by micro-float dynamics (1.25M shares) and high relative volume (6.1x). The move appears structural rather than event-driven; no earnings, FDA events, partnerships, or dilutive announcements triggered this.",
+          "bullFactors": [
+            "Micro-float (1.25M shares) creates friction and rapid momentum once buyers engage — textbook setup for sustained intraday runs",
+            "HOD dominated session (242.9% HOD vs 37.81% fade) signals afternoon continuation and sustained institutional or retail buying pressure, not premarket spike-and-dump",
+            "6.1x relative volume confirms conviction and liquidity to hold through close — not a thin, illiquid spike",
+            "Minimal gap (0.95%) means entry did not rely on overnight news surprise; pure intraday tape reading opportunity"
+          ],
+          "bearFactors": [
+            "No catalyst identified creates tail risk of sudden reversal on profit-taking or short-covering squeeze — sustainability uncertain",
+            "242.9% gain in one session on no news is extreme; high probability of significant fade or halt-and-resume on next day without follow-on catalyst",
+            "Consumer Defensive sector is not typically prone to explosive momentum — unusual move warrants caution on whether this is a structural retail/sympathy driver or a one-day anomaly",
+            "Fade still captured 37.81% intraday, showing distribution and profit-taking throughout the session"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CDTG",
+          "hod": 202,
+          "hodExact": 202.86,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "CDT Environmental Technology Investment Holdings Limited ordinary shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 2.81,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 2.81M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.81M + RelVol 51.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.81M + RelVol 51.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.8,
+          "open": 2.94,
+          "gapPct": 5.0,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 8.48,
+          "hodTimeExact": "02:57 PM ET",
+          "close": 3.29,
+          "fade": 61,
+          "fadeExact": 61.2,
+          "vwap": 5.1715,
+          "vsVwap": "below",
+          "pmHigh": 3.71,
+          "volRaw": "37.5M",
+          "volDollar": 193754183,
+          "relVol": 51.9,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CDTG",
+          "newsSummary": "CDTG ran 202.86% HOD with zero news catalyst—pure intraday institutional accumulation pattern typical of micro-cap Chinese industrials. The 61.2% fade and sustained 51.9x relative volume throughout the session indicate a 'China Rig' structural move rather than event-driven buying, with afternoon HOD prints suggesting institutional continuation strength despite the lack of newsflow.",
+          "bullFactors": [
+            "Micro-float (2.81M) with sustained intraday volume (51.9x relVol) — tight float fueling momentum without single-event catalyst",
+            "Multiple session HODs with afternoon strength — institutional accumulation pattern, not premarket spike-fade",
+            "202.86% HOD achieved with zero dilutive news or warrant exercise — clean move structure"
+          ],
+          "bearFactors": [
+            "61.2% fade from HOD—significant intraday reversal risk and potential liquidity cliff on next breakout attempt",
+            "NO-NEWS catalyst is inherently unstable—pure technical/structural play without fundamental anchor, prone to sudden reversals",
+            "Chinese micro-cap with no real earnings, partnership, or cash catalyst—susceptible to liquidity spillover black swan conditions"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CAST",
+          "hod": 167,
+          "hodExact": 167.5,
+          "news": [
+            "FreeCast to Relaunch the Investor News Channel as a Next-Generation Global Business and Financial FAST Network",
+            "FreeCast Adds Former Pentagon and U.S. Space Force Telecommunications Veteran as Satellite, Spectrum and Global Connectivity Strategy Expands"
+          ],
+          "tag": "CONTRACT",
+          "name": "FreeCast, Inc. Class A Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 23.35,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$134M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8598,
+          "open": 0.8598,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 2.3,
+          "hodTimeExact": "04:05 PM ET",
+          "close": 2.1,
+          "fade": 8,
+          "fadeExact": 8.7,
+          "vwap": 1.8291,
+          "vsVwap": "above",
+          "pmHigh": 0.9615,
+          "volRaw": "154.1M",
+          "volDollar": 281777900,
+          "relVol": 185.3,
+          "avgVolM": 0.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "FreeCast to Relaunch the Investor News Channel as a Next-Generation Global Business and Financial FAST Network",
+            "FreeCast Adds Former Pentagon and U.S. Space Force Telecommunications Veteran as Satellite, Spectrum and Global Connectivity Strategy Expands"
+          ],
+          "newsItems": [
+            {
+              "title": "FreeCast to Relaunch the Investor News Channel as a Next-Generation Global Business and Financial FAST Network",
+              "url": "https://www.stocktitan.net/news/CAST/free-cast-to-relaunch-the-investor-news-channel-as-a-next-generation-5ong1uq43pj6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-18T09:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "FreeCast Adds Former Pentagon and U.S. Space Force Telecommunications Veteran as Satellite, Spectrum and Global Connectivity Strategy Expands",
+              "url": "https://www.stocktitan.net/news/CAST/free-cast-adds-former-pentagon-and-u-s-space-force-czxzb3pnyych.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-11T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Defense",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Space",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CAST",
+          "newsSummary": "FreeCast announced a relaunch of the Investor News Channel as a FAST network and hired a former Pentagon/Space Force telecom veteran to lead satellite and spectrum strategy. The news came after the 167.5% move, making it reactive rather than causal. The hiring and network relaunch suggest real operational expansion in connectivity infrastructure, but lack concrete revenue or partnership details.",
+          "bullFactors": [
+            "Sustained intraday momentum with 167.5% HOD and only 8.7% fade — demonstrates institutional holding and retail follow-through, not a premarket spike-and-dump.",
+            "Relative volume of 185.3 shows genuine interest above typical noise levels; session HOD dominance suggests afternoon continuation strength.",
+            "Defense/Space theme with Pentagon veteran hire adds credibility to satellite/spectrum strategy — real cash infrastructure play, not pure hype.",
+            "Low float (23.35M, on higher end of preference but still workable) with sustained volume means fewer shares to accumulate, supporting momentum."
+          ],
+          "bearFactors": [
+            "Float at 23.35M is above Jack's preferred <10M sweet spot — reduces scarcity and may limit explosive continuation.",
+            "News arrived after the move, indicating the catalyst was either pre-leaked, rumored, or the market was already pricing in management changes — reduces fuel for follow-through.",
+            "Investor News Channel relaunch and satellite strategy are capital-intensive, long-timeline initiatives with no near-term revenue milestone or partnership announcement.",
+            "Communication Services sector is broad and competitive; no mention of specific customer commitments, contracts, or revenue acceleration."
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SLE",
+          "hod": 144,
+          "hodExact": 144.04,
+          "news": [
+            "Form 8-K",
+            "424B5 offering",
+            "Metaplanet to Invest 2,100 Bitcoin in Super League to Launch U.S. Bitcoin Treasury Platform, Superplanet",
+            "Form 10-Q",
+            "Super League Reports Second Quarter 2026 Financial Results, Highlighted by Improving Margins and Operating Performance"
+          ],
+          "tag": "OFFERING",
+          "name": "Super League Enterprise, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 1.69,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$259M",
+          "riskBadges": [
+            "Float 1.69M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.69M + RelVol 45.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.69M + RelVol 45.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.02,
+          "open": 6.22,
+          "gapPct": 105.96,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.37,
+          "hodTimeExact": "09:35 AM ET",
+          "close": 5.5,
+          "fade": 25,
+          "fadeExact": 25.37,
+          "vwap": 5.274,
+          "vsVwap": "above",
+          "pmHigh": 7.05,
+          "volRaw": "49.7M",
+          "volDollar": 262074490,
+          "relVol": 45.0,
+          "avgVolM": 1.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "424B5 offering",
+            "Metaplanet to Invest 2,100 Bitcoin in Super League to Launch U.S. Bitcoin Treasury Platform, Superplanet",
+            "Form 10-Q",
+            "Super League Reports Second Quarter 2026 Financial Results, Highlighted by Improving Margins and Operating Performance"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1621672/000143774926028348/slgg20260818c_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1621672/000143774926028345/slgg20260818_424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "after"
+            },
+            {
+              "title": "Metaplanet to Invest 2,100 Bitcoin in Super League to Launch U.S. Bitcoin Treasury Platform, Superplanet",
+              "url": "https://www.stocktitan.net/news/SLE/metaplanet-to-invest-2-100-bitcoin-in-super-league-to-launch-u-s-r6bkxs20wje1.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-18T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1621672/000143774926028066/slgg20260630_10q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "Super League Reports Second Quarter 2026 Financial Results, Highlighted by Improving Margins and Operating Performance",
+              "url": "https://www.stocktitan.net/news/SLE/super-league-reports-second-quarter-2026-financial-results-ny8kzjkphew4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-14T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SLE",
+          "newsSummary": "SLE gapped 106% and ran 144% intraday on a Metaplanet Bitcoin investment catalyst (2,100 BTC for a U.S. Treasury platform). However, a 424B5 offering and Form 8-K were filed after the move, signaling dilution ahead. The real catalyst—Bitcoin/crypto partnership—has merit, but the offering announcement immediately follows the HOD, severely reducing setup quality.",
+          "bullFactors": [
+            "Micro-float (1.69M) with 45x relative volume — typical of small-cap runners",
+            "Bitcoin/institutional partnership is a real, tangible cash catalyst, not sympathy",
+            "Gap + sustained intraday momentum produced session HOD at +144%, showing institutional buying pressure during the day",
+            "Q2 earnings and 10-Q preceded the move, providing fundamental backdrop"
+          ],
+          "bearFactors": [
+            "424B5 offering filed after HOD — classic dilution signal; follow-through will face heavy resistance",
+            "25% fade from peak suggests retail exhaustion and potential institutional exit into the offering",
+            "Offering and 8-K at close eliminate day-trader exit liquidity; momentum will likely reverse at open",
+            "Gap spike (105%) reduced setup quality; less time for flag/accumulation setup before retail pushed"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "XOS",
+          "hod": 136,
+          "hodExact": 136.84,
+          "news": [
+            "Xos Secures U.S. Air Force Contract to Deliver Deployable Mobile Charging, Marking Defense Market Entry",
+            "Xos Extends Gross Profit Streak, Highlighting Operational Efficiency",
+            "Form 8-K",
+            "Form 10-Q"
+          ],
+          "tag": "CONTRACT",
+          "name": "Xos, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 8.71,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$64M",
+          "riskBadges": [
+            "Float 8.71M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.09,
+          "open": 4.53,
+          "gapPct": 116.75,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 4.95,
+          "hodTimeExact": "07:15 AM ET",
+          "close": 4.44,
+          "fade": 10,
+          "fadeExact": 10.3,
+          "vwap": 4.4281,
+          "vsVwap": "above",
+          "pmHigh": 5.38,
+          "volRaw": "110.1M",
+          "volDollar": 487676280,
+          "relVol": 65.5,
+          "avgVolM": 1.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Xos Secures U.S. Air Force Contract to Deliver Deployable Mobile Charging, Marking Defense Market Entry",
+            "Xos Extends Gross Profit Streak, Highlighting Operational Efficiency",
+            "Form 8-K",
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "Xos Secures U.S. Air Force Contract to Deliver Deployable Mobile Charging, Marking Defense Market Entry",
+              "url": "https://www.stocktitan.net/news/XOS/xos-secures-u-s-air-force-contract-to-deliver-deployable-mobile-wg7slyh3zeqz.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-17T20:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Xos Extends Gross Profit Streak, Highlighting Operational Efficiency",
+              "url": "https://www.stocktitan.net/news/XOS/xos-extends-gross-profit-streak-highlighting-operational-th5gw9pg6dzb.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-13T20:10:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1819493/000181949326000055/xos-20260813.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-13T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1819493/000181949326000054/xos-20260630.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-13T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Defense",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XOS",
+          "newsSummary": "XOS secured a U.S. Air Force contract for deployable mobile charging units, marking entry into the defense sector. This is real cash value news—government contract wins are legitimate catalysts. Combined with recent gross profit streak extension and positive operational efficiency signals, the move has fundamental merit beyond pure speculation.",
+          "bullFactors": [
+            "Low float (8.71M) under Jack's 10M preference, enabling sharp intraday moves on sustained volume",
+            "Real defense contract catalyst—government contracts = real revenue potential, not fluff news",
+            "Sustained high relative volume (65.5x) and 136% HOD gain with only 10.3% fade suggests institutional buying continuation, not premarket spike collapse",
+            "Recent operational efficiency improvements (gross profit streak) add credibility; not a one-shot news event"
+          ],
+          "bearFactors": [
+            "136% HOD move is exceptionally sharp—while not a pure 100%+ spike-out, this level of intraday gain carries fade risk and may attract profit-taking",
+            "No daily chart data provided; cannot assess overhead supply, warrants, or room-to-run—critical Jack Walker criterion missing",
+            "News released 2026-08-17 20:30 (before high), so timing is favorable, but large intraday swings can reverse on sector rotation or profit-lock"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "WETO",
+          "hod": 117,
+          "hodExact": 117.93,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Wetour Robotics Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.67,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$94M",
+          "riskBadges": [
+            "Float 0.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 24.59,
+          "open": 43.05,
+          "gapPct": 75.07,
+          "time": "regular session",
+          "session": "morning",
+          "high": 53.5899,
+          "hodTimeExact": "10:38 AM ET",
+          "close": 33,
+          "fade": 38,
+          "fadeExact": 38.42,
+          "vwap": 40.8803,
+          "vsVwap": "below",
+          "pmHigh": 49.38,
+          "volRaw": "9.3M",
+          "volDollar": 381028679,
+          "relVol": 1.6,
+          "avgVolM": 5.8,
+          "ssr": false,
+          "reverseSplit": "100:1",
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026088400/ea0301733-6k_wetour.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-12T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WETO",
+          "newsSummary": "WETO filed a Form 6-K on 2026-08-12, 6 days before today's move — this is a historical SEC filing, not a catalyst for the intraday spike. The 117.93% HOD gain with 75.07% gap and 38.42% fade pattern suggests a premarket-driven move that lost steam intraday, typical of a cold tape setup without fresh news support.",
+          "bullFactors": [
+            "Nano float (0.67M shares) — extremely tight float structure for momentum runs",
+            "Relative volume 1.6x — above average intraday participation despite fade",
+            "Gap up 75% suggests overnight accumulation or retail enthusiasm before market open"
+          ],
+          "bearFactors": [
+            "Heavy fade (38.42%) — premarket spike dominated, intraday failed to sustain; classic COLD tape signature",
+            "No real catalyst on the day — 6-day-old Form 6-K filing cannot explain today's move; tape is reactive, not fundamental",
+            "HOD 117.93% with immediate pullback suggests momentum exhaustion and lack of institutional follow-through into the afternoon"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "MUAr",
+          "hod": 93,
+          "hodExact": 93.23,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "BlackRock MuniAssets Fund, Inc. Rights (expiring August 20, 2026)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0031,
+          "open": 0.0031,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.006,
+          "hodTimeExact": "09:30 AM ET",
+          "close": 0.0048,
+          "fade": 19,
+          "fadeExact": 19.87,
+          "vwap": 0.004,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "975K",
+          "volDollar": 3901,
+          "relVol": 0.7,
+          "avgVolM": 1.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNYS",
+          "tvSymbol": null,
+          "newsSummary": "MUAr moved 93.23% to HOD with no identified news catalyst. The 19.87% fade and 0.7x relative volume suggest premarket spike dominance and retail-driven momentum without institutional accumulation or real fundamental support.",
+          "bullFactors": [
+            "93.23% HOD achievement shows strong intraday conviction and session momentum",
+            "No dilutive announcements (offering, warrants, ATM) visible in data"
+          ],
+          "bearFactors": [
+            "No news catalyst — pure NO-NEWS tag indicates speculative, unsustained move",
+            "19.87% fade signals weak follow-through; premarket spike likely dominated the early move",
+            "0.7x relative volume is subpar — insufficient institutional participation for sustained runner",
+            "Unknown float, sector, and market cap create visibility and liquidity risk; micro-cap liquidity trap possible"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "EJH",
+          "hod": 66,
+          "hodExact": 66.21,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "E-Home Household Service Holdings Limited Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 2.02,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 2.02M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.02M + RelVol 478.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.02M + RelVol 478.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.45,
+          "open": 1.875,
+          "gapPct": 29.31,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.41,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 2.06,
+          "fade": 14,
+          "fadeExact": 14.52,
+          "vwap": 2.1269,
+          "vsVwap": "below",
+          "pmHigh": 3.83,
+          "volRaw": "20.4M",
+          "volDollar": 43443998,
+          "relVol": 478.5,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:EJH",
+          "newsSummary": "EJH ran 66% with no identifiable news catalyst, driven by pure intraday tape strength and institutional accumulation pressure. The move was sustained across the session with high relative volume (478.5x), characteristic of a China Rig structural pattern rather than a reactive news event.",
+          "bullFactors": [
+            "Micro-cap float (2.02M) with 478.5x relative volume — extreme tape torque and low share availability",
+            "66% HOD dominance vs 14.5% fade indicates sustained intraday accumulation and continued short pressure, not premarket spike collapse",
+            "China Rig pattern: afternoon continuation with session HODs printing late, suggesting institutional rig with real buying pressure throughout session",
+            "29.3% gap up provides technical confirmation of overnight accumulation rolling into intraday push"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst — move is purely structural/momentum-driven, increasing black swan liquidity risk on reversal",
+            "Chinese micro-cap with no news and no named partnership reduces institutional conviction and tail-risk exposure",
+            "Extreme relative volume on a micro-float can compress available shares and create violent washout risk if momentum breaks"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 525,
+      "fade": 27,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "PFSA led +525.17% (2% fade). 5/10 held <20% fade. news: PFSA — \"Form 8-K\".",
+      "aiSummary": "**TAPE READ — 2026-08-18**\n\nToday's tape is dominated by CONTRACT and NO-NEWS catalysts (6 of 10 names), with heavy US small-cap concentration but a notable Chinese micro-cap cluster (CDTG, EJH) showing characteristic afternoon HOD prints despite thin narratives—classic sympathy rig pattern rather than pump setup. Float tier is ideal for the playbook: 60% of runners under 10M shares (PFSA 0.62M, IPST 1.25M, WETO 0.67M, SLE 1.69M, CDTG 2.81M), though AIXC and CAST breach the 20M+ zone and dilute conviction. Session HODs skew afternoon/after-hours (IPST, CDTG, CAST), signaling sustained institutional accumulation rather than premarket blow-off—a HOT cycle indicator—but the 57-61% fades on AIXC and CDTG alongside a 525% morning spike (PFSA) with only 3% fade suggests binary risk: real afternoon continuation in tight floats versus structural fade traps in wider floats. This playbook sees selective opportunity in sub-3M float afternoon HOD holds (IPST, WETO, CDTG if rig persists) while flagging PFSA's massive morning spike and SLE's offering tag as immediate avoids."
+    },
     {
       "date": "2026-08-17",
       "runners": [
