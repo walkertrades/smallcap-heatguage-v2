@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-19T10:41:09.041368Z",
-  "count": 9664,
+  "exportedAt": "2026-08-20T12:03:12.642322Z",
+  "count": 9674,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,996 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-19",
+      "runners": [
+        {
+          "sym": "ZSTK",
+          "hod": 573,
+          "hodExact": 573.88,
+          "news": [
+            "Form 8-K",
+            "ZeroStack Announces US$1.0 Billion Strategic Contribution of Memecore ($M) Tokens at US$25.19 Per Share",
+            "ZeroStack Announces Completion of Continuance to Texas"
+          ],
+          "tag": "OFFERING",
+          "name": "ZeroStack Corp. Common Stock",
+          "sector": "Financial Services",
+          "country": "CA",
+          "floatM": 4.53,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$33M",
+          "riskBadges": [
+            "Float 4.53M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.53M + RelVol 1307.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.53M + RelVol 1307.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.8401,
+          "open": 2.29,
+          "gapPct": 24.45,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 12.4,
+          "hodTimeExact": "12:07 PM ET",
+          "close": 4.96,
+          "fade": 60,
+          "fadeExact": 60.0,
+          "vwap": 8.346,
+          "vsVwap": "below",
+          "pmHigh": 2.57,
+          "volRaw": "24.3M",
+          "volDollar": 203002128,
+          "relVol": 1307.2,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "ZeroStack Announces US$1.0 Billion Strategic Contribution of Memecore ($M) Tokens at US$25.19 Per Share",
+            "ZeroStack Announces Completion of Continuance to Texas"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1790169/000106299326004501/form8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "ZeroStack Announces US$1.0 Billion Strategic Contribution of Memecore ($M) Tokens at US$25.19 Per Share",
+              "url": "https://www.stocktitan.net/news/ZSTK/zero-stack-announces-us-1-0-billion-strategic-contribution-of-hmrts1eo2qir.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-19T13:20:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "ZeroStack Announces Completion of Continuance to Texas",
+              "url": "https://www.stocktitan.net/news/ZSTK/zero-stack-announces-completion-of-continuance-to-bq4km5dalvit.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-18T21:34:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.65,
+              "uncertain": false
+            },
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZSTK",
+          "newsSummary": "ZSTK announced a US$1.0B strategic contribution of Memecore tokens at $25.19/share before the session high, followed by a Form 8-K filing after the move. The 'strategic contribution' framing masks a significant dilutive capital raise in crypto tokens—a classic low-float micro-cap pump structure disguised as a partnership. This is a red flag for real cash value and suggests institutional selling into retail momentum.",
+          "bullFactors": [
+            "Ultra-low float at 4.53M shares creates mechanical upside potential on volume",
+            "Sustained intraday volume (RelVol 1307.2×) indicates real participation, not dead tape",
+            "Intraday fade of 60% was severe but not a complete capitulation, suggesting some dip buying"
+          ],
+          "bearFactors": [
+            "Dilutive token 'contribution' (not real cash acquisition) is structurally bearish and typical of reverse-merger/SPAC micro-cap schemes",
+            "573% HOD gain followed by 60% fade = classic pump-and-dump cycle; premarket gap + announcement before HOD = retail chase into weakness",
+            "Form 8-K filed AFTER the high—reactive disclosure, not proactive—suggests potential compliance or structural issues being buried in the move",
+            "No real catalyst merit: crypto token 'contributions' at arbitrary per-share pricing have no tangible business value and signal desperation for liquidity"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "RDAC",
+          "hod": 280,
+          "hodExact": 280.85,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Rising Dragon Acquisition Corp. Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 1.93,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$31M",
+          "riskBadges": [
+            "Float 1.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.93M + RelVol 1597.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.93M + RelVol 1597.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.85,
+          "open": 13.3884,
+          "gapPct": 128.86,
+          "time": "regular session",
+          "session": "morning",
+          "high": 22.28,
+          "hodTimeExact": "09:52 AM ET",
+          "close": 8.78,
+          "fade": 60,
+          "fadeExact": 60.59,
+          "vwap": 15.5641,
+          "vsVwap": "below",
+          "pmHigh": 21.23,
+          "volRaw": "16.5M",
+          "volDollar": 257074139,
+          "relVol": 1597.8,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RDAC",
+          "newsSummary": "RDAC moved 280.85% intraday with no announced catalyst or news events. The move appears driven by pure technical/structural factors—a micro-cap Chinese financial services name with 1.93M float experiencing sustained institutional accumulation and intraday continuation, typical of China rig patterns.",
+          "bullFactors": [
+            "Ultra-tight float (1.93M shares) — extreme leverage to sustained institutional buying",
+            "Massive relative volume (1597.8x) all day, not just premarket spike — indicates real intraday accumulation, not pump",
+            "Session HODs dominating (280.85% HOD vs 60.59% fade) — afternoon continuation strength, shorts covering",
+            "High-volume breakout with room to run — no warrants, convertibles, or ATM overhead visible"
+          ],
+          "bearFactors": [
+            "No substantive catalyst — move is structural/sympathetic, China rig territory, higher black swan risk",
+            "Chinese micro-cap name — regulatory, liquidity, and delisting tail risks inherent to the sector",
+            "60.59% intraday fade suggests profit-taking already begun; sustainability depends on continued tape strength",
+            "NO-NEWS move means narrative is fragile — any negative surprise or volume cliff could reverse sharply"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AACBR",
+          "hod": 248,
+          "hodExact": 248.48,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "MERGER",
+          "name": "Artius II Acquisition Inc. Rights",
+          "sector": "BLANK CHECKS",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0033,
+          "open": 0.0097,
+          "gapPct": 193.94,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.0115,
+          "hodTimeExact": "07:52 AM ET",
+          "close": 0.006,
+          "fade": 47,
+          "fadeExact": 47.83,
+          "vwap": 0.0085,
+          "vsVwap": "below",
+          "pmHigh": 0.0147,
+          "volRaw": "873K",
+          "volDollar": 7416,
+          "relVol": 1.4,
+          "avgVolM": 0.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2034334/000114036126032643/ef20080099_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-13T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AACBR",
+          "newsSummary": "AACBR filed a Form 8-K on 2026-08-13, which preceded today's 248% HOD move by 6 days. The 8-K likely disclosed a merger or business combination, a real cash catalyst common in blank check vehicles. The move is substantive intraday action (HOD 248%, fade 47%) rather than a premarket spike-and-dump, indicating institutional participation and tape strength.",
+          "bullFactors": [
+            "Real M&A catalyst (Form 8-K merger disclosure) — blank check vehicles with defined targets drive institutional buying",
+            "Intraday HOD dominance (248% gain with only 47% fade) — sustained strength and afternoon continuation signal institutional accumulation, not pump retail",
+            "High relative volume (1.4x) compressed into low/unknown float — amplifies momentum on institutional buying pressure",
+            "6-day lag between catalyst and peak allows time for thesis to build and tape to warm — not a violent premarket spike"
+          ],
+          "bearFactors": [
+            "Float unknown — cannot confirm <10M preference; if high float, momentum compression risk is acute",
+            "Blank check sector inherently dilution-prone — post-merger shareholder equity dilution is structural risk",
+            "No market cap and zero current revenue visibility — valuation foundation unclear, post-announcement fade common in SPACs",
+            "47% intraday fade suggests profit-taking into close — tape cooled from HOD, risk of continued selling into next session"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "YJ",
+          "hod": 244,
+          "hodExact": 244.82,
+          "news": [
+            "Yunji Announces First Half 2026 Unaudited Financial Results",
+            "Yunji to Report First Half 2026 Financial Results on August 20, 2026"
+          ],
+          "tag": "EARNINGS",
+          "name": "Yunji Inc. American Depository Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 1.07,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$21M",
+          "riskBadges": [
+            "Float 1.07M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.07M + RelVol 45.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.07M + RelVol 45.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.74,
+          "open": 5.87,
+          "gapPct": 237.36,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 5.9999,
+          "hodTimeExact": "09:24 AM ET",
+          "close": 4.25,
+          "fade": 29,
+          "fadeExact": 29.17,
+          "vwap": 4.0514,
+          "vsVwap": "above",
+          "pmHigh": 6.5,
+          "volRaw": "129.4M",
+          "volDollar": 524167742,
+          "relVol": 45.5,
+          "avgVolM": 2.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Yunji Announces First Half 2026 Unaudited Financial Results",
+            "Yunji to Report First Half 2026 Financial Results on August 20, 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "Yunji Announces First Half 2026 Unaudited Financial Results",
+              "url": "https://www.stocktitan.net/news/YJ/yunji-announces-first-half-2026-unaudited-financial-26p690jag0fj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-20T11:20:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Yunji to Report First Half 2026 Financial Results on August 20, 2026",
+              "url": "https://www.stocktitan.net/news/YJ/yunji-to-report-first-half-2026-financial-results-on-august-20-9l39zht5sapw.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-13T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:YJ",
+          "newsSummary": "YJ announced H1 2026 financial results on August 20, after the session high was already established. The earnings release followed the move rather than catalyzing it, indicating the intraday spike was driven by anticipation or institutional accumulation ahead of results. Real earnings data provides some fundamental backing, though the timing (post-HOD) suggests the market had already priced in the move.",
+          "bullFactors": [
+            "Micro float (1.07M shares) with extreme relative volume (45.5x) — severe liquidity constraints favor continued squeeze",
+            "Session HOD of +244.82% with only 29.17% fade indicates strong afternoon continuation and short-covering pressure, classic China rig structural strength",
+            "Earnings catalyst (real financial results) provides legitimate fundamental anchor vs. sympathy/fluff themes",
+            "Gap up of +237.36% into session high suggests institutional positioning and sustained buying throughout the day"
+          ],
+          "bearFactors": [
+            "Earnings announced after the high was set — news was reactive, not causal; risk of post-announcement selloff if results underwhelm",
+            "244%+ intraday move on micro float raises liquidity black swan risk; tight float can trap retail longs on reversal",
+            "Consumer Cyclical Chinese micro-cap with $21.2M market cap carries elevated delisting/regulatory risk and low institutional staying power",
+            "Tight float + extreme HOD may indicate exhaustion rather than fresh accumulation; verify afternoon volume distribution and HOD retest strength"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "TNON",
+          "hod": 227,
+          "hodExact": 227.34,
+          "news": [
+            "S-3/A",
+            "Tenon Medical Reports Second Quarter 2026 Financial Results",
+            "Form 10-Q",
+            "Form 8-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "Tenon Medical, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.62,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 0.62M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.62M + RelVol 78.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.62M + RelVol 78.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.45,
+          "open": 11.67,
+          "gapPct": 114.13,
+          "time": "regular session",
+          "session": "morning",
+          "high": 17.84,
+          "hodTimeExact": "10:47 AM ET",
+          "close": 11.41,
+          "fade": 36,
+          "fadeExact": 36.04,
+          "vwap": 12.7756,
+          "vsVwap": "below",
+          "pmHigh": 12.75,
+          "volRaw": "49.5M",
+          "volDollar": 632306092,
+          "relVol": 78.0,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": "35:1",
+          "newsHeadlines": [
+            "S-3/A",
+            "Tenon Medical Reports Second Quarter 2026 Financial Results",
+            "Form 10-Q",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "S-3/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1560293/000121390026090384/ea0302281-s3a1_tenon.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3/A",
+              "rel": "before"
+            },
+            {
+              "title": "Tenon Medical Reports Second Quarter 2026 Financial Results",
+              "url": "https://www.stocktitan.net/news/TNON/tenon-medical-reports-second-quarter-2026-financial-xrptwmjnxt2k.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-13T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1560293/000121390026089258/ea0300745-10q_tenon.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-13T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1560293/000121390026089138/ea0301935-8k_tenon.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-13T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TNON",
+          "newsSummary": "TNON reported Q2 2026 earnings on 2026-08-13, followed by an S-3/A filing on 2026-08-17—both occurred before today's 227% HOD move. The earnings and 10-Q/8-K cluster suggests institutional digestion of results, but the massive intraday continuation (78x relative volume, 36% fade from HOD) indicates real buying pressure post-announcement rather than a pure premarket spike fade.",
+          "bullFactors": [
+            "Nano float (0.62M shares) with extreme relative volume (78x) — tight liquidity amplifies intraday moves",
+            "Session HOD of 227% with sustained high volume and only 36% fade — classic afternoon continuation strength suggesting shorts covering and retail chasing institutional accumulation",
+            "Multiple session HODs late in day pattern — not a premarket spike collapse, indicating genuine intraday tape heat",
+            "News (earnings + filings) published 2–6 days before move, giving time for institutional positioning before retail phase"
+          ],
+          "bearFactors": [
+            "S-3/A filing (2026-08-17) is a registered direct offering structure—potential dilution flag depending on size/terms; must verify no massive secondary offering announced",
+            "227% HOD is an extreme move; liquidity likely thin at these levels with flash-crash risk on any profit-taking",
+            "Earnings were reported 2026-08-13 but no details on revenue/EPS quality provided; cannot confirm 'real cash value' vs. cosmetic beat",
+            "Healthcare sector with nano market cap ($7.7M) carries inherent volatility and lower institutional credibility"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "BTCT",
+          "hod": 183,
+          "hodExact": 183.93,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "BTC Digital Ltd. Ordinary Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 9.63,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$20M",
+          "riskBadges": [
+            "Float 9.63M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.63M + RelVol 612.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.63M + RelVol 612.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4649,
+          "open": 0.48,
+          "gapPct": 3.25,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 1.32,
+          "hodTimeExact": "06:24 PM ET",
+          "close": 0.8367,
+          "fade": 36,
+          "fadeExact": 36.61,
+          "vwap": 1.2093,
+          "vsVwap": "below",
+          "pmHigh": 0.48,
+          "volRaw": "147.6M",
+          "volDollar": 178439930,
+          "relVol": 612.1,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BTCT",
+          "newsSummary": "BTCT ran 183.93% on the session with no disclosed catalyst or news event. This is a pure structural move driven by low float (9.63M), elevated relative volume (612.1x), and intraday momentum continuation — consistent with China rig pattern: sustained high volume throughout the day, multiple session HODs, afternoon strength, and late-session trend persistence rather than premarket spike-and-fade.",
+          "bullFactors": [
+            "Float tier 9.63M sits at the sweet spot for Jack's preference — low enough for velocity, high enough for liquidity",
+            "Relative volume 612.1x indicates aggressive institutional accumulation and retail participation all session, not a flash spike",
+            "HOD percentage 183.93% with controlled fade (36.61%) shows sustained trend and afternoon continuation — hallmark of rig strength, not pump/dump",
+            "Singapore tech micro-cap with greater_china exposure in low-float tier: structural setup for multi-hour institutional rig"
+          ],
+          "bearFactors": [
+            "No cash catalyst, real partnership, or earnings catalyst — move is purely technicals and tape-driven momentum",
+            "NO-NEWS status means retail entry on trend following, not early institutional accumulation play — higher fade risk on halt or circuit breaker",
+            "Gap up 3.25% pre-market sets soft ceiling for new money if intraday vol collapses; no fundamental anchor if liquidity dries late session",
+            "Foreign listing (SG) introduces overnight risk and lower post-market volume for exit if news breaks after close"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CDTG",
+          "hod": 153,
+          "hodExact": 153.19,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "CDT Environmental Technology Investment Holdings Limited ordinary shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 2.81,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 2.81M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.29,
+          "open": 2.92,
+          "gapPct": -11.25,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 8.33,
+          "hodTimeExact": "02:32 PM ET",
+          "close": 3.01,
+          "fade": 63,
+          "fadeExact": 63.87,
+          "vwap": 5.7925,
+          "vsVwap": "below",
+          "pmHigh": 3.3,
+          "volRaw": "37.5M",
+          "volDollar": 217130455,
+          "relVol": 14.6,
+          "avgVolM": 2.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CDTG",
+          "newsSummary": "CDTG ran 153% intraday with no announced catalyst — a classic China Rig pattern. The stock gapped down 11.25% at open but then sustained aggressive buying pressure throughout the session with 14.6x relative volume, printing multiple session HODs late in the day rather than fading from a premarket spike.",
+          "bullFactors": [
+            "Ultra-tight 2.81M float — micro-cap liquidity explosion with sustained intraday volume, not a flash spike",
+            "Afternoon HOD dominance — session highs printed late, indicating institutional accumulation and short squeeze, not premarket pump exhaustion",
+            "High relative volume (14.6x) all day — structural buying pressure, not retail fomo dump",
+            "Closed well off lows after gap-down open — dip/soak read with recovery into close suggests institutional absorption"
+          ],
+          "bearFactors": [
+            "No catalyst announced — move is purely structural/rig-based, vulnerable to news vacuum reversal",
+            "Chinese micro-cap with zero transparency — China Rig names can reverse hard on regulatory surprise or liquidity drain",
+            "153% intraday move on no news creates fade/short-squeeze risk into next session — sustainability requires continued buying or new catalyst",
+            "Gap-down open (-11.25%) shows early rejection; recovery into close may not hold overnight"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SKK",
+          "hod": 109,
+          "hodExact": 109.76,
+          "news": [
+            "Form 6-K",
+            "SKK Holdings Awarded Six New Horizontal Directional Drilling and Utility Works Contracts in Singapore Valued at Up to US$26.6 Million (S$34.1 Million)",
+            "424B5 offering"
+          ],
+          "tag": "CONTRACT",
+          "name": "SKK Holdings Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "SG",
+          "floatM": 2.92,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [
+            "Float 2.92M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.2,
+          "open": 4.82,
+          "gapPct": 14.76,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.81,
+          "hodTimeExact": "10:29 AM ET",
+          "close": 5.73,
+          "fade": 34,
+          "fadeExact": 34.96,
+          "vwap": 6.2448,
+          "vsVwap": "below",
+          "pmHigh": 7.44,
+          "volRaw": "7.8M",
+          "volDollar": 48733963,
+          "relVol": 1729.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "SKK Holdings Awarded Six New Horizontal Directional Drilling and Utility Works Contracts in Singapore Valued at Up to US$26.6 Million (S$34.1 Million)",
+            "424B5 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1991261/000149315226039241/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "SKK Holdings Awarded Six New Horizontal Directional Drilling and Utility Works Contracts in Singapore Valued at Up to US$26.6 Million (S$34.1 Million)",
+              "url": "https://www.stocktitan.net/news/SKK/skk-holdings-awarded-six-new-horizontal-directional-drilling-and-35lmkngbx4jc.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-19T12:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1991261/000149315226038282/form424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SKK",
+          "newsSummary": "SKK Holdings announced six new horizontal directional drilling and utility works contracts in Singapore valued at US$26.6M (S$34.1M), awarded before the session high. This is real cash-generating business activity with tangible contract value, not sympathy or fluff. The move appears driven by institutional accumulation on contract news, with sustained intraday momentum carrying into afternoon HODs.",
+          "bullFactors": [
+            "Micro float (2.92M shares) with exceptional relative volume (1729x) — strong retail/institutional participation on real news",
+            "Contract catalyst is real cash value: US$26.6M in awarded work provides concrete revenue visibility, not dilutive or speculative",
+            "Session HOD at +109.76% with only 34.96% fade suggests strong institutional accumulation and short covering; afternoon continuation strength is a hot tape signal",
+            "Daily chart setup intact: micro float, real catalyst pre-HOD, sustained volume throughout session"
+          ],
+          "bearFactors": [
+            "424B5 offering filed 2026-08-14 introduces dilution risk and potential overhead supply if equity raise proceeds",
+            "Singapore-listed micro-cap: liquidity outside US markets, lower intraday liquidity tail risk on exits",
+            "Form 6-K filing after the high is reactive, not causal; suggests institutional filing compliance rather than fresh momentum"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "MSS",
+          "hod": 98,
+          "hodExact": 98.73,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Maison Solutions Inc. Class A Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 0.48,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.48M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.48M + RelVol 18.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.48M + RelVol 18.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.57,
+          "open": 2.025,
+          "gapPct": 28.98,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.12,
+          "hodTimeExact": "09:44 AM ET",
+          "close": 1.86,
+          "fade": 40,
+          "fadeExact": 40.38,
+          "vwap": 2.3532,
+          "vsVwap": "below",
+          "pmHigh": 2.88,
+          "volRaw": "56.9M",
+          "volDollar": 133945375,
+          "relVol": 18.3,
+          "avgVolM": 3.1,
+          "ssr": false,
+          "reverseSplit": "5:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MSS",
+          "newsSummary": "MSS ran 98.73% to new HOD with zero identifiable news catalyst — this is pure structural momentum on a nano-float (0.48M shares) with 18.3x relative volume. The move appears driven by intraday institutional accumulation and retail follow-through rather than any company announcement or external event.",
+          "bullFactors": [
+            "Extreme nano-float (0.48M) — tightest constraint for explosive leverage; minimal shares to absorb institutional buying pressure",
+            "Session HOD dominance at 98.73% — classic hot tape signature indicating sustained afternoon buying continuation and short squeeze dynamics",
+            "High relative volume (18.3x) sustained throughout session — rules out premarket spike + fade pattern; this is real institutional rig structure",
+            "No overhead supply risk — no warrants, convertibles, ATM noted; clean daily chart structure for further upside extension"
+          ],
+          "bearFactors": [
+            "Zero news catalyst — momentum is purely structural; vulnerable to sudden reversal if retail enthusiasm flips or shorts cover completely",
+            "40.38% fade from intraday highs — significant intraday pullback signals profit-taking and potential loss of continuation momentum into close",
+            "NO-NEWS + 28.98% gap + extreme move = black swan tail risk — any adverse after-hours or overnight news could gap down hard on minimal float liquidity",
+            "Consumer Defensive sector — typically lower volatility; this move is anomalous for the sector and may attract reversal traders or short pressure tomorrow"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AZI",
+          "hod": 82,
+          "hodExact": 82.61,
+          "news": [
+            "Autozi in Discussions with Multiple Investors for Approximately US$55 Million Follow-On Financing After Completing US$30 Million Investment to Accelerate Core Business Expansion",
+            "Autozi Internet Technology (Global) Ltd. (Nasdaq: AZI) Announces Receipt of US$30 Million Investment to Accelerate Strategic Growth"
+          ],
+          "tag": "OFFERING",
+          "name": "Autozi Internet Technology (Global) Ltd. Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 3.49,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$92M",
+          "riskBadges": [
+            "Float 3.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.15,
+          "open": 1.23,
+          "gapPct": 6.96,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.1,
+          "hodTimeExact": "11:59 AM ET",
+          "close": 1.66,
+          "fade": 20,
+          "fadeExact": 20.95,
+          "vwap": 1.6263,
+          "vsVwap": "above",
+          "pmHigh": 1.55,
+          "volRaw": "61.8M",
+          "volDollar": 100424256,
+          "relVol": 14.1,
+          "avgVolM": 4.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Autozi in Discussions with Multiple Investors for Approximately US$55 Million Follow-On Financing After Completing US$30 Million Investment to Accelerate Core Business Expansion",
+            "Autozi Internet Technology (Global) Ltd. (Nasdaq: AZI) Announces Receipt of US$30 Million Investment to Accelerate Strategic Growth"
+          ],
+          "newsItems": [
+            {
+              "title": "Autozi in Discussions with Multiple Investors for Approximately US$55 Million Follow-On Financing After Completing US$30 Million Investment to Accelerate Core Business Expansion",
+              "url": "https://www.stocktitan.net/news/AZI/autozi-in-discussions-with-multiple-investors-for-approximately-us-0pv5kw4hidxj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-20T11:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Autozi Internet Technology (Global) Ltd. (Nasdaq: AZI) Announces Receipt of US$30 Million Investment to Accelerate Strategic Growth",
+              "url": "https://www.stocktitan.net/news/AZI/autozi-internet-technology-global-ltd-nasdaq-azi-announces-receipt-jnzjjyljbd37.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-19T11:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AZI",
+          "newsSummary": "AZI announced completion of a US$30M investment and is in discussions for an additional US$55M follow-on financing. The second news item (follow-on discussions) came AFTER the HOD was already set, indicating it was reactive to price action rather than the catalyst. While real cash funding is positive, the announcement of future dilution and multiple capital raises can pressure momentum runners as it signals potential share issuance ahead.",
+          "bullFactors": [
+            "Micro-float (3.49M) with strong relative volume (14.1x) — ideal for momentum acceleration",
+            "Real cash catalyst: US$30M completed investment is tangible, not fluff",
+            "High HOD percentage (82.61%) suggests institutional accumulation and sustained buying pressure through the session",
+            "Chinese micro-cap structure with sustained intraday volume pattern (not a premarket spike fade)"
+          ],
+          "bearFactors": [
+            "Follow-on financing announcement (US$55M discussed) came after the move — signals future dilution and share issuance risk",
+            "Second tranche of capital raises indicates the company may need to dilute shareholders; this pressures multi-day holds",
+            "Fade percentage (20.95%) shows intraday pullback from HOD — retail exhaustion after initial push",
+            "Consumer Cyclical sector with Chinese micro-cap is structurally volatile; sustainability beyond today uncertain"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 573,
+      "fade": 42,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "ZSTK led +573.88% (60% fade). 0/10 held <20% fade. news: ZSTK — \"Form 8-K\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS runners (RDAC, BTCT, CDTG, MSS) and earnings plays (YJ, TNON), with heavy concentration in China and Singapore names pulling 70%+ of volume dollar flow, creating a structural mismatch against the playbook's US small-cap bias and real-catalyst preference. Float profile is ideal (sub-3M dominates: TNON 0.62M, MSS 0.48M, YJ 1.07M), but the session pattern screams COLD cycle—premarket spikes on YJ and AACBR with 244% and 248% HODs followed by hard 29% and 47% fades, morning/afternoon continuation in RDAC and CDTG showing 60%+ fades despite late-day HODs, signaling classic pop-and-drop institutional distribution rather than sustained accumulation breaks. The only legitimate setup is TNON (earnings catalyst, 0.62M float, 227% HOD in morning session with only 36% fade and monster $632M volume), but the broader tape composition—China rigs on no news, offering dilution in ZSTK, premarket exhaustion across the board—indicates this framework should be sitting in cash and watching for washout setups rather than chasing hot action that isn't materializing on real fundamentals."
+    },
     {
       "date": "2026-08-18",
       "runners": [
