@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-08-24T11:08:43.304937Z",
-  "count": 9692,
+  "count": 9694,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -12,6 +12,117 @@
     {
       "date": "2026-08-21",
       "runners": [
+        {
+          "sym": "RFAI",
+          "hod": 473,
+          "hodExact": 473.45,
+          "news": [
+            "Merger comms",
+            "Form 8-K"
+          ],
+          "tag": "MERGER",
+          "name": "RF Acquisition Corp II Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "SG",
+          "floatM": 0.04,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$441M",
+          "riskBadges": [
+            "Float 0.04M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 12.73,
+          "open": 40,
+          "gapPct": 214.22,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 73,
+          "hodTimeExact": "04:01 AM ET",
+          "close": 58,
+          "fade": 20,
+          "fadeExact": 20.55,
+          "vwap": 50.7767,
+          "vsVwap": "above",
+          "pmHigh": 111.39,
+          "volRaw": "3.2M",
+          "volDollar": 159986668,
+          "relVol": 59.6,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Merger comms",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012807/000182912626009169/rfacquisition2_425.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012807/000182912626009168/rfacquisition2_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.6,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.5,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RFAI",
+          "newsSummary": "RFAI announced merger communications via SEC Form 8-K filing on 2026-08-20, prior to today's move. The catalyst appears to be real M&A activity with substantive deal comms, which qualifies as genuine cash value news. The 473% HOD move with 20.55% fade and sustained 59.6x relative volume suggests institutional accumulation and retail continuation rather than a pure pump.",
+          "bullFactors": [
+            "Nano float (0.04M shares) with massive relative volume (59.6x) — extreme scarcity and sustained buying pressure",
+            "Real cash merger catalyst (SEC Form 8-K) released before the move — not reactive fluff",
+            "473% HOD with only 20.55% fade indicates structural strength and shorts covering; afternoon HODs likely printed",
+            "Merger comms suggest institutional rig pattern with legitimate deal activity backing intraday continuation"
+          ],
+          "bearFactors": [
+            "Extreme cycle risk: 473% move in single session approaches black swan territory; liquidity spillover and flash crash danger",
+            "Gap-based setup (214% gap) — most upside may have already been captured at open; tail risk for late entry",
+            "Singapore-listed micro-cap with limited US market depth — execution and exit liquidity concerns on fade",
+            "Merger announcement timing (pre-market news) risks morning spike dominance over afternoon continuation; fade structure suggests retail exhaustion possible"
+          ],
+          "setupGrade": "B+"
+        },
         {
           "sym": "HOWL",
           "hod": 143,
@@ -473,6 +584,110 @@
             "Dilutive capital raise announced after HOD—classic signal that insiders priced shares at peak momentum, locking in dilution for existing holders",
             "44% fade from HOD is material and suggests retail exhaustion into the offering announcement",
             "Market cap of $6.8M with $2M offering represents ~29% dilution; no indication offering proceeds fund real clinical or revenue catalyst"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RFAIR",
+          "hod": 96,
+          "hodExact": 96.26,
+          "news": [
+            "Merger comms",
+            "Form 8-K"
+          ],
+          "tag": "MERGER",
+          "name": "RF Acquisition Corp II Right",
+          "sector": "BLANK CHECKS",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.11,
+          "open": 0.17,
+          "gapPct": 54.55,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.2159,
+          "hodTimeExact": "04:02 AM ET",
+          "close": 0.1801,
+          "fade": 16,
+          "fadeExact": 16.58,
+          "vwap": 0.1869,
+          "vsVwap": "below",
+          "pmHigh": 0.28,
+          "volRaw": "1.6M",
+          "volDollar": 307804,
+          "relVol": 32.8,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Merger comms",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012807/000182912626009169/rfacquisition2_425.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012807/000182912626009168/rfacquisition2_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RFAIR",
+          "newsSummary": "RFAIR announced merger communications and filed Form 8-K on 2026-08-20, before today's 54.55% gap and 96.26% HOD push. The catalyst is real (M&A activity in blank-check space) with documented SEC filings, suggesting institutional accumulation ahead of the announcement. Blank-check mergers can drive sustained intraday momentum if the target has perceived value.",
+          "bullFactors": [
+            "96.26% HOD achievement with 32.8x relative volume — strong institutional follow-through, not a one-minute spike fade",
+            "Merger catalyst is documented (SEC filings before the move) — real deal flow, not sympathy or fluff",
+            "54.55% gap-up entry gave time to set up; sustained HOD printing indicates tape heat and short-squeeze potential",
+            "BLANK CHECKS sector typically see multi-day runs on M&A clarity; margin for continuation if float is tight"
+          ],
+          "bearFactors": [
+            "Float size unknown (null) — cannot confirm low-float criteria; if float is >10M, setup loses edge",
+            "16.58% fade suggests some profit-taking or distribution; need to confirm premarket spike didn't dominate retail entry",
+            "SPAC/blank-check mergers carry dilution risk post-close; no market cap or target visibility limits valuation anchor",
+            "News came before the move but merger comms are often vague; actual deal terms and target quality unknown"
           ],
           "setupGrade": "B"
         },
