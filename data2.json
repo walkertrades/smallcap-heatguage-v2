@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-24T11:08:43.304937Z",
-  "count": 9692,
+  "exportedAt": "2026-08-25T10:50:06.040527Z",
+  "count": 9702,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1086 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-24",
+      "runners": [
+        {
+          "sym": "DAIC",
+          "hod": 634,
+          "hodExact": 634.74,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "CID HoldCo, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.9,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 0.9M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.9M + RelVol 153.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.9M + RelVol 153.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.426,
+          "open": 1.0803,
+          "gapPct": 153.59,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 3.13,
+          "hodTimeExact": "05:19 PM ET",
+          "close": 1.73,
+          "fade": 44,
+          "fadeExact": 44.73,
+          "vwap": 2.5638,
+          "vsVwap": "below",
+          "pmHigh": 1.16,
+          "volRaw": "102.2M",
+          "volDollar": 262091534,
+          "relVol": 153.3,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2033770/000121390026091288/ea0302597-8k_cidhold.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DAIC",
+          "newsSummary": "Form 8-K filed on 2026-08-18, six days before the massive intraday move. The filing preceded the move and is reactive disclosure rather than a forward catalyst. Without details on the 8-K content, the catalyst merit is unclear, but the timing suggests institutional accumulation may have been triggered by the filing.",
+          "bullFactors": [
+            "Ultra-nano float at 0.9M shares — extreme liquidity constraint favors runners",
+            "Intraday HOD domination: 635% HOD vs 45% fade signals sustained institutional buying pressure and short squeeze continuation",
+            "High relative volume (153.3x) throughout the session indicates real participation, not thin-tape noise",
+            "US technology sector with real filing (8-K) provides legitimacy vs. pure sympathy plays"
+          ],
+          "bearFactors": [
+            "Extreme spike velocity (153.6% gap) in first minutes — typical of pump structures that face heavy afternoon profit-taking",
+            "Form 8-K lacked substantive detail in available data; without knowing contents, catalyst quality is ambiguous",
+            "44.7% fade off HOD is significant and suggests retail exhaustion despite high volume — institutional may have exited into strength",
+            "No identifiable big-name partnership, revenue contract, or earnings beat — catalyst is procedural filing, not cash-backed event"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GIPR",
+          "hod": 188,
+          "hodExact": 188.21,
+          "news": [
+            "Form 8-K",
+            "Form 10-Q",
+            "Generation Income Properties Announces Second Quarter 2026 Financial Results and Provides Shareholder Update"
+          ],
+          "tag": "EARNINGS",
+          "name": "Generation Income Properties Inc. Common Stock",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 2.8,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 2.8M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.8M + RelVol 137.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.8M + RelVol 137.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3002,
+          "open": 0.3017,
+          "gapPct": 0.5,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 0.8652,
+          "hodTimeExact": "04:07 PM ET",
+          "close": 0.7525,
+          "fade": 13,
+          "fadeExact": 13.03,
+          "vwap": 0.6189,
+          "vsVwap": "above",
+          "pmHigh": 0.311,
+          "volRaw": "285.8M",
+          "volDollar": 176857062,
+          "relVol": 137.9,
+          "avgVolM": 2.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Form 10-Q",
+            "Generation Income Properties Announces Second Quarter 2026 Financial Results and Provides Shareholder Update"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1651721/000119312526353639/gipr-20260817.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1651721/000119312526352781/gipr-20260630.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "Generation Income Properties Announces Second Quarter 2026 Financial Results and Provides Shareholder Update",
+              "url": "https://www.stocktitan.net/news/GIPR/generation-income-properties-announces-second-quarter-2026-financial-cv2b70bojf9i.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-17T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GIPR",
+          "newsSummary": "GIPR announced Q2 2026 financial results on 2026-08-17, well before the 188% HOD move, indicating the catalyst preceded the price action. The earnings announcement itself (real cash-generating real estate income properties) provided fundamental justification, but the delayed intraday response and strong sustained volume suggest institutional accumulation built momentum throughout the session rather than a direct news spike.",
+          "bullFactors": [
+            "Micro-float (2.8M shares) provides genuine liquidity constraint and acceleration potential on sustained buying",
+            "Hot tape signature: 188% HOD with only 13% fade indicates session HODs dominated and shorts were forced out — strong continuation bias",
+            "Real catalyst quality: Q2 earnings + shareholder update from an actual cash-flowing business (real estate income), not sympathy or fluff",
+            "High relative volume (137.9x) on a micro-float sustains intraday momentum — institutional buying pressure visible all session"
+          ],
+          "bearFactors": [
+            "Catalyst was 7 days old at time of move (announced 2026-08-17, moved 2026-08-24) — delayed response raises questions about what triggered intraday accumulation",
+            "Real Estate sector lacks the momentum narrative pull of hot themes (AI, Biotech, EV, Crypto) — depends entirely on tape dynamics and accumulation, not sector rotation",
+            "No visible news catalyst on the actual move date — if this was a delayed earnings discovery play, confirmation of what specifically sparked Friday's buying is unclear"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "XPON",
+          "hod": 169,
+          "hodExact": 169.58,
+          "news": [
+            "Form 8-K",
+            "Expion Announces $9.0 Million Initial Closing of Private Placement",
+            "Expion Acquires Assets Establishing an Oil and Gas Exploration Platform"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Expion360 Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.66,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 0.66M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.66M + RelVol 118.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.66M + RelVol 118.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.435,
+          "open": 7.77,
+          "gapPct": 126.2,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 9.26,
+          "hodTimeExact": "09:09 AM ET",
+          "close": 6.2,
+          "fade": 33,
+          "fadeExact": 33.05,
+          "vwap": 7.4803,
+          "vsVwap": "below",
+          "pmHigh": 9.99,
+          "volRaw": "86.2M",
+          "volDollar": 644676228,
+          "relVol": 118.5,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Expion Announces $9.0 Million Initial Closing of Private Placement",
+            "Expion Acquires Assets Establishing an Oil and Gas Exploration Platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1894954/000190359626000317/xpon_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Expion Announces $9.0 Million Initial Closing of Private Placement",
+              "url": "https://www.stocktitan.net/news/XPON/expion-announces-9-0-million-initial-closing-of-private-ydhefkn39lw3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Expion Acquires Assets Establishing an Oil and Gas Exploration Platform",
+              "url": "https://www.stocktitan.net/news/XPON/expion-acquires-assets-establishing-an-oil-and-gas-exploration-e7mobv73x3tv.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T12:25:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XPON",
+          "newsSummary": "Expion announced acquisition of oil & gas exploration assets and a $9.0M private placement at 12:25–12:30 PM, both before the session high. The move is real cash M&A establishing a new platform, not dilutive fluff. Strong intraday follow-through (169% HOD, 118.5% relative volume) shows sustained institutional buying after the news set, with only 33% fade — classic hot tape continuation.",
+          "bullFactors": [
+            "Ultra-tight float (0.66M shares) — nano-cap with extreme leverage for intraday moves",
+            "Real catalyst: M&A + capital raise = concrete business expansion, not sympathy or no-news",
+            "Hot tape: 169% HOD with 118.5% relative volume and only 33% fade shows afternoon continuation strength, shorts covering",
+            "News broke mid-morning before high, giving time for accumulation and retail push; sustained volume all day is institutional support"
+          ],
+          "bearFactors": [
+            "$9.0M private placement is dilutive; at 0.66M float and $6M market cap, placement size is material and creates overhang",
+            "Massive gap (126%) + HOD spike of 169% in single session — potential for sharp reversal and liquidity trap if retail chases late",
+            "Oil & Gas as primary catalyst is cyclical and sentiment-dependent; no blue-chip partnership or macro tailwind mentioned",
+            "Form 8-K filed after close (20:00 UTC) — reactive, not forward guidance; may contain dilution details or lockup info"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BTCT",
+          "hod": 141,
+          "hodExact": 141.23,
+          "news": [
+            "BTC Digital Ltd. Announces Georgia 10MW Cryptocurrency Computing Infrastructure Approaching Deployment Readiness"
+          ],
+          "tag": "CONTRACT",
+          "name": "BTC Digital Ltd. Ordinary Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 9.63,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$34M",
+          "riskBadges": [
+            "Float 9.63M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.14,
+          "open": 1.63,
+          "gapPct": 42.98,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.75,
+          "hodTimeExact": "10:27 AM ET",
+          "close": 1.74,
+          "fade": 36,
+          "fadeExact": 36.73,
+          "vwap": 2.0338,
+          "vsVwap": "below",
+          "pmHigh": 1.82,
+          "volRaw": "185.8M",
+          "volDollar": 377839392,
+          "relVol": 11.6,
+          "avgVolM": 16.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "BTC Digital Ltd. Announces Georgia 10MW Cryptocurrency Computing Infrastructure Approaching Deployment Readiness"
+          ],
+          "newsItems": [
+            {
+              "title": "BTC Digital Ltd. Announces Georgia 10MW Cryptocurrency Computing Infrastructure Approaching Deployment Readiness",
+              "url": "https://www.stocktitan.net/news/BTCT/btc-digital-ltd-announces-georgia-10mw-cryptocurrency-computing-8wf4rz9p8y6t.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BTCT",
+          "newsSummary": "BTCT announced a 10MW cryptocurrency computing infrastructure facility in Georgia approaching deployment readiness. This is a real cash infrastructure play with tangible capex, not a sympathy or no-news pump. The news dropped at 11:30 ET, well before the session high, providing legitimate catalyst coverage for the intraday move.",
+          "bullFactors": [
+            "Float 9.63M — tight, meets sub-10M preference; relVol 11.6x indicates sustained intraday volume conviction, not premarket spike dominated",
+            "HOD 141% with only 36.7% fade — session HODs dominating, shorts blowing out, afternoon continuation strength signature",
+            "Real infrastructure catalyst with cash deployment (Georgia 10MW deployment) — not sympathy, dilutive, or warrant noise; hard asset value",
+            "News released before HOD (11:30 ET) — gave time to set up and read intraday momentum; not a reactive after-the-fact headline"
+          ],
+          "bearFactors": [
+            "Singapore-listed crypto micro-cap with greater_china tier exposure — inherent liquidity and regulatory tail risk",
+            "42.98% gap up into news suggests some premarket enthusiasm; watch for afternoon fade or EOD reversion on lower vol",
+            "Crypto infrastructure theme cyclical and sentiment-driven — facility 'approaching' deployment (not live) leaves execution risk",
+            "No disclosed partnership with major cloud/mining operator — solo-run infrastructure plays carry higher abandonment/pivot risk"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "SDOT",
+          "hod": 139,
+          "hodExact": 139.76,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Sadot Group Inc. Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 1.18,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$31M",
+          "riskBadges": [
+            "Float 1.18M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.18M + RelVol 26.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.18M + RelVol 26.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 13.18,
+          "open": 21.52,
+          "gapPct": 63.28,
+          "time": "regular session",
+          "session": "morning",
+          "high": 31.5999,
+          "hodTimeExact": "10:20 AM ET",
+          "close": 23.16,
+          "fade": 26,
+          "fadeExact": 26.71,
+          "vwap": 24.5643,
+          "vsVwap": "below",
+          "pmHigh": 25.49,
+          "volRaw": "30.3M",
+          "volDollar": 743179583,
+          "relVol": 26.0,
+          "avgVolM": 1.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1701756/000173112226001123/e7883_8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SDOT",
+          "newsSummary": "SDOT filed a Form 8-K on 2026-08-21, three days before this 139.76% HOD move, making it a trailing catalyst rather than the driver of today's action. The 8-K itself carries no disclosed merger, acquisition, or major corporate event detail in the data. The move appears driven by intraday institutional accumulation and momentum in a micro-float name (1.18M shares) rather than a catalyst with real cash value.",
+          "bullFactors": [
+            "Ultra-micro float (1.18M) — severe supply scarcity enables rapid repricing on any institutional bid",
+            "Sustained intraday momentum: 139.76% HOD vs. 26.71% fade ratio signals afternoon continuation and short squeezes, not premarket spike-and-dump pattern",
+            "Relative volume 26.0x — exceptional intraday participation suggests institutional accumulation phase rather than retail FOMO alone",
+            "Daily chart had room to run — Consumer Defensive micro-cap with no disclosed warrants/convertibles/ATM overhead supply in data"
+          ],
+          "bearFactors": [
+            "Form 8-K filed before the move (relative_to_high='before') — no catalytic detail disclosed that explains a 140% gap; suggests the move is structural/sympathy, not fundamental",
+            "No named catalyst tied to real cash value — 8-K alone is procedural; without specific M&A, earnings, or partnership detail, momentum is vulnerable to reversal",
+            "Micro-float extreme liquidity risk — sharp intraday moves in names under 2M float often attract late retail entries prone to violent afternoon/EOD reversals",
+            "Market cap only $31M — size alone introduces black-swan risk and potential halts if momentum accelerates further"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "LUCY",
+          "hod": 90,
+          "hodExact": 90.09,
+          "news": [
+            "Innovative Eyewear, Inc. Announces Strategic Alliance with HTC Corporation",
+            "Innovative Eyewear Announces Expansion Into More than 150 Stores of One of the Largest Big Box Retailers in the United States",
+            "Innovative Eyewear, Inc. Announces Major New AI and News Features for Lucyd App"
+          ],
+          "tag": "CONTRACT",
+          "name": "Innovative Eyewear, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 7.45,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 7.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.45M + RelVol 1042.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.45M + RelVol 1042.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6839,
+          "open": 0.993,
+          "gapPct": 45.2,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.3,
+          "hodTimeExact": "11:36 AM ET",
+          "close": 1.12,
+          "fade": 13,
+          "fadeExact": 13.85,
+          "vwap": 1.0239,
+          "vsVwap": "above",
+          "pmHigh": 1.05,
+          "volRaw": "195.4M",
+          "volDollar": 200043393,
+          "relVol": 1042.0,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Innovative Eyewear, Inc. Announces Strategic Alliance with HTC Corporation",
+            "Innovative Eyewear Announces Expansion Into More than 150 Stores of One of the Largest Big Box Retailers in the United States",
+            "Innovative Eyewear, Inc. Announces Major New AI and News Features for Lucyd App"
+          ],
+          "newsItems": [
+            {
+              "title": "Innovative Eyewear, Inc. Announces Strategic Alliance with HTC Corporation",
+              "url": "https://www.stocktitan.net/news/LUCY/innovative-eyewear-inc-announces-strategic-alliance-with-htc-6b2o1v5flvl8.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Innovative Eyewear Announces Expansion Into More than 150 Stores of One of the Largest Big Box Retailers in the United States",
+              "url": "https://www.stocktitan.net/news/LUCY/innovative-eyewear-announces-expansion-into-more-than-150-stores-of-6m04s88rfhzp.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Innovative Eyewear, Inc. Announces Major New AI and News Features for Lucyd App",
+              "url": "https://www.stocktitan.net/news/LUCY/innovative-eyewear-inc-announces-major-new-ai-and-news-features-for-1p2be97wl3rl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-20T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LUCY",
+          "newsSummary": "LUCY announced a strategic alliance with HTC Corporation and major retail expansion into 150+ Big Box stores, paired with new AI/NLP features for its Lucyd smart eyewear app. These are real distribution + partnership catalysts with tangible cash/revenue implications, not sympathy or fluff—the moves came before the session high, indicating the market was pricing in genuine business expansion.",
+          "bullFactors": [
+            "Float 7.45M (under 10M sweet spot) with RelVol 1042x—intraday liquidity crush enabled sustained buying",
+            "HOD 90.09% with only 13.85% fade suggests tape staying hot afternoon into close; session HODs dominating over premarket spike",
+            "Real catalysts: HTC partnership (big-name tech OEM) + major retail expansion (150+ doors) + product feature update (AI); all announce before HOD, showing institutional accumulation into retail push",
+            "Daily chart likely has room to upside: low float, under $10M market cap, no mention of warrants/convertibles/ATM"
+          ],
+          "bearFactors": [
+            "45.2% gap on open is sizable—already deep into move by open; risk of gap-fade or overextension into close",
+            "Healthcare sector can be volatile; eyewear/AR play is niche (not mega-cap partnership halo like Apple/Meta would carry)",
+            "Three news releases in 4 days may front-load retail awareness; if afternoon buying dries up, could face EOD unwind"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "PMI",
+          "hod": 66,
+          "hodExact": 66.67,
+          "news": [
+            "Form 8-K",
+            "Picard Medical Reports Second Quarter 2026 Financial Results",
+            "Form 10-Q"
+          ],
+          "tag": "EARNINGS",
+          "name": "Picard Medical, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.57,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [
+            "Float 1.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.57M + RelVol 30.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.57M + RelVol 30.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.21,
+          "open": 4.53,
+          "gapPct": 41.12,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.35,
+          "hodTimeExact": "10:43 AM ET",
+          "close": 5.13,
+          "fade": 4,
+          "fadeExact": 4.11,
+          "vwap": 4.9076,
+          "vsVwap": "above",
+          "pmHigh": 5.11,
+          "volRaw": "25.2M",
+          "volDollar": 123680417,
+          "relVol": 30.7,
+          "avgVolM": 0.8,
+          "ssr": true,
+          "reverseSplit": "50:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "Picard Medical Reports Second Quarter 2026 Financial Results",
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030617/000143774926028585/pmi20260814_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Picard Medical Reports Second Quarter 2026 Financial Results",
+              "url": "https://www.stocktitan.net/news/PMI/picard-medical-reports-second-quarter-2026-financial-0qsdi7hu3tup.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-19T21:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030617/000143774926028565/pmi20260630_10q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:PMI",
+          "newsSummary": "PMI reported Q2 2026 financial results on 2026-08-19, followed by a Form 8-K on 2026-08-20. Both catalysts preceded today's move, indicating the market is responding to disclosed financial performance and material event details. The earnings appear to have real operational merit—no dilutive announcements detected.",
+          "bullFactors": [
+            "Micro-cap float (1.57M) under 10M threshold with exceptional 30.7x relative volume—sustained intraday buying pressure, not a premarket-only spike",
+            "66.67% HOD dominance signals afternoon continuation and short covering; fade only 4.11% indicates institutional accumulation holding",
+            "41.12% gap fill with real earnings catalyst (not sympathy/no-news)—tangible cash-value event driving retail+institutional overlap",
+            "Daily chart has room to run: no warrants, convertibles, or ATM offerings noted; micro-cap with hot tape behavior fits Jack's ideal setup"
+          ],
+          "bearFactors": [
+            "Gap fill of 41% already captured on open—remaining upside dependent on sustained afternoon HOD printing; risk of late-session fade if retail momentum exhausts",
+            "Earnings released pre-market (2026-08-19 21:30), giving overnight digestion; early movers already positioned, reduced fresh institutional accumulation window",
+            "Healthcare sector micro-caps can exhibit volatile swings; no indication of big-name partnerships or transformational data, limiting multi-day extension potential",
+            "Market cap ($12.2M) near penny-stock territory; liquidity thins rapidly on position sizing, increasing slippage and exit risk for day-trade exits"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "VBIO",
+          "hod": 53,
+          "hodExact": 53.1,
+          "news": [
+            "Form 8-K/A"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Valion Bio, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 22.34,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1226,
+          "open": 0.12,
+          "gapPct": -2.12,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.1877,
+          "hodTimeExact": "12:03 PM ET",
+          "close": 0.166,
+          "fade": 11,
+          "fadeExact": 11.56,
+          "vwap": 0.1545,
+          "vsVwap": "above",
+          "pmHigh": 0.1578,
+          "volRaw": "109.8M",
+          "volDollar": 16957047,
+          "relVol": 5.5,
+          "avgVolM": 20.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K/A"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1787740/000168316826006632/valion_8ka1.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K/A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VBIO",
+          "newsSummary": "VBIO filed a Form 8-K/A (amended 8-K) on 2026-08-20, which preceded today's move, indicating a material event disclosure correction or late filing. This is a compliance/disclosure event with unclear substantive business impact—typical of administrative filings that rarely drive sustained momentum.",
+          "bullFactors": [
+            "Strong intraday performance: 53.1% HOD achieved with only 11.56% fade, indicating sustained institutional buying pressure through the session",
+            "Solid relative volume (5.5x) maintained throughout—not a premarket spike that collapsed, suggesting real accumulation",
+            "Float of 22.34M is manageable for a small-cap; larger than Jack's preferred <10M but acceptable given the volume and tape strength"
+          ],
+          "bearFactors": [
+            "Catalyst is a Form 8-K/A filing—administrative compliance disclosure, not a fundamental business catalyst (no ER, FDA approval, partnership, or cash value event)",
+            "Gap down -2.12% at open suggests weak overnight sentiment; move built intraday rather than from genuine news-driven conviction",
+            "Healthcare sector and biotech-clinical tape can be volatile and prone to quick reversals; without a real catalyst anchor, momentum is vulnerable to profit-taking"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RITR",
+          "hod": 50,
+          "hodExact": 50.24,
+          "news": [
+            "Reitar and Smart Pointer Logistics Form Joint Venture",
+            "Form 6-K",
+            "Reitar Logtech Holdings Limited Announces US$3 Million Share Repurchase Program",
+            "Form 20-F"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "Reitar Logtech Holdings Limited Ordinary shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 17.52,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0832,
+          "open": 0.11,
+          "gapPct": 32.21,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.125,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 0.115,
+          "fade": 8,
+          "fadeExact": 8.0,
+          "vwap": 0.1168,
+          "vsVwap": "below",
+          "pmHigh": 0.1395,
+          "volRaw": "349.4M",
+          "volDollar": 40806047,
+          "relVol": 2.3,
+          "avgVolM": 153.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Reitar and Smart Pointer Logistics Form Joint Venture",
+            "Form 6-K",
+            "Reitar Logtech Holdings Limited Announces US$3 Million Share Repurchase Program",
+            "Form 20-F"
+          ],
+          "newsItems": [
+            {
+              "title": "Reitar and Smart Pointer Logistics Form Joint Venture",
+              "url": "https://www.stocktitan.net/news/RITR/reitar-and-smart-pointer-logistics-form-joint-ptvr0fkfsrs3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T14:38:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1951229/000121390026092345/ea0302855-6k_reitar.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Reitar Logtech Holdings Limited Announces US$3 Million Share Repurchase Program",
+              "url": "https://www.stocktitan.net/news/RITR/reitar-logtech-holdings-limited-announces-us-3-million-share-z7hrbflpsnry.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-21T13:02:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 20-F",
+              "url": "https://www.sec.gov/Archives/edgar/data/1951229/000121390026090802/ea0301276-20f_reitar.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "20-F",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RITR",
+          "newsSummary": "RITR gapped 32% on a $3M share repurchase program announced pre-market (Aug 21), combined with a same-day Form 6-K filing and a joint venture announcement with Smart Pointer Logistics on Aug 24 after the high was already set. The buyback signals management confidence and cash on hand, but the joint venture came too late to drive the initial move and appears reactive.",
+          "bullFactors": [
+            "50% HOD sustained with only 8% fade — strong session control and short cover avoidance; tape temperature is HOT",
+            "Real cash catalyst: $3M buyback + JV partnership demonstrate operational activity and shareholder-friendly capital allocation",
+            "2.3x relative volume on a mid-float (17.5M) Hong Kong industrial play shows institutional accumulation and retail follow-through",
+            "Daily chart has room to run — no mention of warrants, convertibles, or ATM offering overhead"
+          ],
+          "bearFactors": [
+            "Float 17.5M exceeds Jack's <10M preference; mid-tier float limits explosive intraday continuation potential",
+            "32% gap entry is dangerous for day traders — most of the move occurred premarket, leaving limited upside capture for intraday entries",
+            "JV announcement posted *after* HOD (14:38 UTC vs. earlier session high) — reactive news, not a catalyst driver; JV details lack cash valuation or revenue impact clarity",
+            "Hong Kong micro-cap with light SEC scrutiny; repurchase programs in this float tier can signal support for a weak underlying business rather than strength"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GGR",
+          "hod": 49,
+          "hodExact": 49.05,
+          "news": [
+            "Form 6-K",
+            "Gogoro Inc. Announces Retirement of Chief Financial Officer and Appointment of Principal Financial Officer",
+            "Gogoro Releases Second Quarter Financial Results, Gogoro Continues to Focus on Sustainable Growth"
+          ],
+          "tag": "EARNINGS",
+          "name": "Gogoro Inc. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "TW",
+          "floatM": 9.82,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$61M",
+          "riskBadges": [
+            "Float 9.82M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.82M + RelVol 83.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.82M + RelVol 83.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.27,
+          "open": 2.14,
+          "gapPct": -5.73,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.3835,
+          "hodTimeExact": "03:31 PM ET",
+          "close": 2.93,
+          "fade": 13,
+          "fadeExact": 13.4,
+          "vwap": 2.7072,
+          "vsVwap": "above",
+          "pmHigh": 2.88,
+          "volRaw": "1.5M",
+          "volDollar": 4004127,
+          "relVol": 83.0,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Gogoro Inc. Announces Retirement of Chief Financial Officer and Appointment of Principal Financial Officer",
+            "Gogoro Releases Second Quarter Financial Results, Gogoro Continues to Focus on Sustainable Growth"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1886190/000188619026000027/a6-kerq22026.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Gogoro Inc. Announces Retirement of Chief Financial Officer and Appointment of Principal Financial Officer",
+              "url": "https://www.stocktitan.net/news/GGR/gogoro-inc-announces-retirement-of-chief-financial-officer-and-xyusx7v19s1j.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T11:04:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Gogoro Releases Second Quarter Financial Results, Gogoro Continues to Focus on Sustainable Growth",
+              "url": "https://www.stocktitan.net/news/GGR/gogoro-releases-second-quarter-financial-results-gogoro-continues-to-rq13tlhslzyj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T10:51:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "EV",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GGR",
+          "newsSummary": "Gogoro released Q2 2026 financial results on 2026-08-24 at 10:51 AM, followed by a CFO retirement/replacement announcement at 11:04 AM. Both news items came AFTER the session high, indicating the 49% intraday gain was driven by price action and tape momentum rather than these announcements. The earnings release itself qualifies as a real catalyst (not fluff), though management transition adds minor headline risk.",
+          "bullFactors": [
+            "Low float (9.82M) under Jack's preferred <10M threshold — tight supply structure supports momentum",
+            "High relative volume (83.0) with sustained intraday strength — 49% HOD print with only 13.4% fade suggests institutional accumulation and afternoon continuation, not premarket spike-and-fade pattern",
+            "Real cash catalyst: Q2 earnings release is substantive, not sympathy or dilutive news — provides fundamental anchor for the move",
+            "Taiwan-based EV/battery play (Gogoro scooter platform) fits small-cap growth narrative; greater_china exposure adds regional buying interest"
+          ],
+          "bearFactors": [
+            "CFO retirement mid-session introduces governance uncertainty and potential insider concern — even if timing is coincidental, it creates headline risk for shorts covering or longs holding overnight",
+            "News items published AFTER the high: earnings at 10:51 AM and CFO announcement at 11:04 AM suggests the move may have front-run the releases, reducing follow-through conviction",
+            "Negative gap (-5.73%) into the session indicates premarket weakness — had to battle through morning resistance, leaving less room for afternoon follow-through without exhaustion",
+            "Taiwan-listed consumer cyclical name faces currency and geopolitical headwinds; smaller market cap ($61M) limits institutional depth"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 634,
+      "fade": 20,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "DAIC led +634.74% (44% fade). 6/10 held <20% fade. news: DAIC — \"Form 8-K\".",
+      "aiSummary": "Today's tape is dominated by real catalysts—COMPLIANCE, EARNINGS, and ACQUISITION tags account for 6 of top 10—with strong US concentration (7 names) but critically, the HOD distribution is fragmented: DAIC and GIPR printed after-hours (dead zone for day traders), XPON spiked premarket (classic fade setup), while only SDOT, LUCY, PMI, and BTCT produced morning/session HODs with sustained volume, signaling a **COLD-TO-NEUTRAL cycle**. Float tier is mixed but favorable: sub-2M floats (DAIC 0.9M, XPON 0.66M, SDOT 1.18M, PMI 1.57M) dominate dollar volume, yet the premarket spike in XPON (+169% premarket fade) and after-hours dominance of the two largest movers (DAIC, GIPR) suggest retail-driven pops without institutional follow-through—the playbook avoids both. SDOT is the sole candidate meeting core criteria (0.9M float equivalent, morning session HOD, 743M dollar vol, sympathy tag carries risk), but today's tape lacks the afternoon continuation strength and session-long HOD stacking that signals true hot cycles; this is a day to wait for a cleaner setup."
+    },
     {
       "date": "2026-08-21",
       "runners": [
