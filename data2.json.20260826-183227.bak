@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-08-26T22:30:54.010112Z",
-  "count": 9720,
+  "count": 9721,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -12,6 +12,82 @@
     {
       "date": "2026-08-26",
       "runners": [
+        {
+          "sym": "KLXER",
+          "hod": 798,
+          "hodExact": 798.9,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "KLX Energy Services Holdings, Inc. Rights",
+          "sector": "OIL & GAS FIELD SERVICES, NEC",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0365,
+          "open": 0.0341,
+          "gapPct": -6.58,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.3281,
+          "hodTimeExact": "12:25 PM ET",
+          "close": 0.1348,
+          "fade": 58,
+          "fadeExact": 58.91,
+          "vwap": 0.1342,
+          "vsVwap": "above",
+          "pmHigh": 0.0866,
+          "volRaw": "536K",
+          "volDollar": 71986,
+          "relVol": 5.1,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:KLXER",
+          "newsSummary": "KLXER ran 799% with no identifiable news catalyst—a pure sympathy or sector-driven move in oil & gas field services. The 58.91% fade and negative gap suggest premarket spike dominance, typical of momentum fades without fundamental support.",
+          "bullFactors": [
+            "5.1x relative volume sustained the move—suggests retail/institutional participation beyond pure pump",
+            "Oil & Gas sector theme provides thematic bucket for sympathy plays if energy rallied broadly",
+            "No dilutive news (offering, warrants, convertibles) taints the chart"
+          ],
+          "bearFactors": [
+            "799% HOD with 58.91% fade is extreme volatility and reversal risk—classic premarket spike signature",
+            "NO-NEWS catalyst means move is sympathy/thematic only—fragile and prone to black swan reversals",
+            "Negative gap (-6.58%) into massive intraday rally suggests weak opening followed by retail frenzy, not institutional accumulation",
+            "Float unknown and market cap = 0 signal low liquidity and potential squeeze trap"
+          ],
+          "setupGrade": "C+"
+        },
         {
           "sym": "CRE",
           "hod": 234,
