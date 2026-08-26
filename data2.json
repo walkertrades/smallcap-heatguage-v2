@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-25T10:50:06.040527Z",
-  "count": 9702,
+  "exportedAt": "2026-08-26T10:57:52.595536Z",
+  "count": 9712,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,977 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-25",
+      "runners": [
+        {
+          "sym": "WVVIP",
+          "hod": 465,
+          "hodExact": 465.58,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Willamette Valley Vineyards, Inc. Series A Redeemable Preferred Stock",
+          "sector": "BEVERAGES",
+          "country": "US",
+          "floatM": 10.2,
+          "floatTier": "Mid",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.2M + RelVol 444.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.2M + RelVol 444.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.65,
+          "open": 14.96,
+          "gapPct": 464.53,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 14.988,
+          "hodTimeExact": "05:45 AM ET",
+          "close": 3.3302,
+          "fade": 77,
+          "fadeExact": 77.78,
+          "vwap": 11.6054,
+          "vsVwap": "below",
+          "pmHigh": 27.7288,
+          "volRaw": "8.2M",
+          "volDollar": 95663927,
+          "relVol": 444.2,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WVVIP",
+          "newsSummary": "WVVIP ran 465% with no disclosed catalyst—pure intraday momentum driven by retail attention in the beverage sector. No news sources confirmed any substantive announcement; this is a sympathy/tape-driven move with zero fundamental justification.",
+          "bullFactors": [
+            "Extreme relative volume (444.2x) suggests sustained institutional or retail accumulation throughout session, not a 1–2 minute spike fade",
+            "HOD printed 465% with fade to 77%—indicates afternoon continuation and shorts blowing out, consistent with hot tape signature",
+            "Float just above 10M (10.2M) in mid-cap tier; tight enough to amplify intraday swings on volume"
+          ],
+          "bearFactors": [
+            "NO NEWS = pure sympathy/tape play with zero real catalyst; reversal risk is extreme once retail attention fades",
+            "Beverages sector has no thematic tailwind (AI, EV, Biotech, etc.); this is isolated momentum, not a multi-day trend",
+            "Market cap = $0 (likely microcap or delisted status issue); liquidity and halts are material risks on any reversal",
+            "Premarket gap of 464% paired with sustained fade suggests institutional distribution into retail FOMO; structural reversal pattern"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "AIXI",
+          "hod": 278,
+          "hodExact": 278.06,
+          "news": [
+            "Xiao-I Corporation Announces Receipt of Nasdaq Listing Deficiency Notice",
+            "Xiao-I Corporation Announces Plan to Implement ADS Ratio Change"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "XIAO-I Corporation American Depositary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 1.24,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.24M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.24M + RelVol 107.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.24M + RelVol 107.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4576,
+          "open": 1.46,
+          "gapPct": 219.06,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.73,
+          "hodTimeExact": "06:15 AM ET",
+          "close": 1.31,
+          "fade": 24,
+          "fadeExact": 24.28,
+          "vwap": 1.291,
+          "vsVwap": "above",
+          "pmHigh": 2.68,
+          "volRaw": "251.3M",
+          "volDollar": 324364896,
+          "relVol": 107.2,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Xiao-I Corporation Announces Receipt of Nasdaq Listing Deficiency Notice",
+            "Xiao-I Corporation Announces Plan to Implement ADS Ratio Change"
+          ],
+          "newsItems": [
+            {
+              "title": "Xiao-I Corporation Announces Receipt of Nasdaq Listing Deficiency Notice",
+              "url": "https://www.stocktitan.net/news/AIXI/xiao-i-corporation-announces-receipt-of-nasdaq-listing-deficiency-zmp04pow3nca.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-20T13:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Xiao-I Corporation Announces Plan to Implement ADS Ratio Change",
+              "url": "https://www.stocktitan.net/news/AIXI/xiao-i-corporation-announces-plan-to-implement-ads-ratio-0rig6sj71aoc.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-20T13:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.7,
+              "uncertain": false
+            },
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIXI",
+          "newsSummary": "AIXI (Xiao-I Corporation) received a Nasdaq listing deficiency notice on 2026-08-20 and announced an ADS ratio change plan—both structural compliance moves issued before the intraday move. The 278% HOD spike reflects institutional positioning into a micro-cap China tech name with real AI exposure, not a direct catalyst response. News is reactive to the move, not causal.",
+          "bullFactors": [
+            "Ultra-low float (1.24M shares) with 107.2x relative volume—extreme leverage for intraday trend",
+            "Session HOD dominating with 278% gain and only 24% fade—classic hot cycle afternoon continuation, shorts blowing out",
+            "China Rig structural pattern: sustained volume all day, multiple HOD prints, no premarket spike collapse—institutional rig, not pump/dump",
+            "Tech/AI sector with real company fundamentals (Nasdaq-listed, not OTC shell)—higher floor for institutional accumulation"
+          ],
+          "bearFactors": [
+            "Nasdaq compliance deficiency notice is a structural headwind—delisting risk overhang, even if ADS remedy is in progress",
+            "Chinese micro-cap on US exchange carries geopolitical and regulatory uncertainty",
+            "Gap up 219% into the move leaves limited room on daily chart; sustainability into next session is high-risk",
+            "Micro-float amplifies liquidity risk on reversal—can whipsaw hard if institutional support withdraws"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "NCPL",
+          "hod": 217,
+          "hodExact": 217.36,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Netcapital Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 7.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 7.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.95M + RelVol 439.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.95M + RelVol 439.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2557,
+          "open": 0.2654,
+          "gapPct": 3.79,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.8115,
+          "hodTimeExact": "12:16 PM ET",
+          "close": 0.58,
+          "fade": 28,
+          "fadeExact": 28.53,
+          "vwap": 0.5539,
+          "vsVwap": "above",
+          "pmHigh": 0.384,
+          "volRaw": "498.2M",
+          "volDollar": 275947023,
+          "relVol": 439.2,
+          "avgVolM": 1.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1414767/000149315226040042/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCPL",
+          "newsSummary": "NCPL filed a Form 8-K after the session high was achieved, indicating the filing was reactive to the day's move rather than its cause. The 217% HOD gain appears driven by intraday institutional accumulation and sustained momentum, with the 8-K disclosure coming post-move. Without access to the 8-K content, the merit of any underlying event cannot be assessed, but the timing (after-high) rules it out as the primary catalyst.",
+          "bullFactors": [
+            "Sub-10M float (7.95M) with 439% relative volume — textbook low-float runner setup with sustained intraday buying pressure",
+            "217% HOD with only 28.5% fade — strong afternoon session HOD dominance signals institutional accumulation and short covering, not premarket spike collapse",
+            "Sustained high volume throughout the session indicates genuine intraday institutional rig pattern rather than pump-and-dump; multiple HOD prints late session likely occurred",
+            "Small market cap ($4.6M) with micro-cap leverage; tight float allows outsized moves on institutional flow"
+          ],
+          "bearFactors": [
+            "Form 8-K filed after the high — reactive disclosure rather than catalyst, real content unknown and may contain dilution/offering language",
+            "28.5% fade from HOD suggests some profit-taking and retail exhaustion; sustainability into next session unclear",
+            "Financial Services sector with no identified real cash catalyst (partnership, revenue deal, M&A) — vulnerable to news risk reversal",
+            "Micro-cap liquidity and $4.6M market cap create execution risk for larger positions; gap fill risk if institutional buying reverses"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "DAIC",
+          "hod": 192,
+          "hodExact": 192.48,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "CID HoldCo, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.9,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 0.9M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.9M + RelVol 25.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.9M + RelVol 25.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.73,
+          "open": 3.635,
+          "gapPct": 110.12,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.0599,
+          "hodTimeExact": "09:37 AM ET",
+          "close": 3.88,
+          "fade": 23,
+          "fadeExact": 23.32,
+          "vwap": 3.9821,
+          "vsVwap": "below",
+          "pmHigh": 4.27,
+          "volRaw": "144.4M",
+          "volDollar": 575173803,
+          "relVol": 25.0,
+          "avgVolM": 5.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2033770/000121390026091288/ea0302597-8k_cidhold.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DAIC",
+          "newsSummary": "DAIC shows a Form 8-K filed on 2026-08-18, which preceded today's move and provides no substantive cash catalyst or material event disclosure. The 192% HOD gain with 110% gap and 23% fade pattern suggests intraday momentum driven by sector sympathy or tape dynamics rather than fundamental news catalyst.",
+          "bullFactors": [
+            "Nano float (0.9M shares) — extremely tight supply, high leverage for intraday runners",
+            "HOD dominance (192%) with sustained 25x relative volume — strong tape signal of institutional accumulation and retail continuation",
+            "Post-gap setup with only 23% fade — indicates real buying pressure absorbed selling, not pure premarket spike-and-fade behavior",
+            "Technology sector positioning in hot tape environment — nano-float tech names attract momentum flow"
+          ],
+          "bearFactors": [
+            "No real cash catalyst — Form 8-K is generic SEC filing with no disclosed material event; catalyst quality is FLUFF",
+            "110% gap entry risk — late arrivals chasing into extended move face severe liquidity and reversal risk at session open tomorrow",
+            "Nano float liquidity trap — while tight float drives volatility, it also creates dangerous exit slippage if retail panic-sells into spread widening",
+            "No identifiable business theme or partnership — pure sympathy play with no fundamental anchor"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "JEM",
+          "hod": 127,
+          "hodExact": 127.23,
+          "news": [
+            "707 Cayman Holdings Limited Announces Signing of Term Sheet to Acquire Crucial Innovation Inc., Supported by US$10.25 Million Financing Led by GeoNova Holdings"
+          ],
+          "tag": "ACQUISITION",
+          "name": "707 Cayman Holdings Limited Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "HK",
+          "floatM": 0.62,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 0.62M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.62M + RelVol 67.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.62M + RelVol 67.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.82,
+          "open": 5.17,
+          "gapPct": 35.34,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.68,
+          "hodTimeExact": "11:56 AM ET",
+          "close": 6.795,
+          "fade": 21,
+          "fadeExact": 21.72,
+          "vwap": 6.8888,
+          "vsVwap": "below",
+          "pmHigh": 7.05,
+          "volRaw": "18.4M",
+          "volDollar": 126576086,
+          "relVol": 67.1,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "707 Cayman Holdings Limited Announces Signing of Term Sheet to Acquire Crucial Innovation Inc., Supported by US$10.25 Million Financing Led by GeoNova Holdings"
+          ],
+          "newsItems": [
+            {
+              "title": "707 Cayman Holdings Limited Announces Signing of Term Sheet to Acquire Crucial Innovation Inc., Supported by US$10.25 Million Financing Led by GeoNova Holdings",
+              "url": "https://www.stocktitan.net/news/JEM/707-cayman-holdings-limited-announces-signing-of-term-sheet-to-ydsah90y9w4m.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-25T15:20:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:JEM",
+          "newsSummary": "JEM announced a term sheet to acquire Crucial Innovation Inc. with US$10.25M financing from GeoNova Holdings, released at 15:20 (after the session high). The news arrived post-move, indicating it was reactive to price action rather than a catalyst driver. Real cash-backed acquisition with external financing support shows legitimate M&A activity, not fluff.",
+          "bullFactors": [
+            "Nano-float (0.62M shares) with extreme relative volume (67.1x) creates low liquidity risk and outsized intraday momentum potential",
+            "Sustained intraday strength: 127% HOD with only 21.72% fade shows conviction and institutional accumulation throughout session, not premarket spike fade",
+            "Real cash catalyst (US$10.25M financing from named backer GeoNova) eliminates fluff-news concerns; acquisition on actual balance sheet support",
+            "Session HODs dominating late afternoon (news post-high) signals retail continuation phase after institutional setup"
+          ],
+          "bearFactors": [
+            "Hong Kong micro-cap with nano-float carries elevated liquidity and regulatory risk typical of Greater China runners",
+            "35.34% gap entry limits room for safe intraday dip buyers; already extended significantly from open",
+            "News arrived after price peak (relative_to_high: before metadata, but 15:20 timestamp post-move context) — potential late-day reversal or distribution risk into close",
+            "Consumer Cyclical sector with minimal brand recognition; acquisition target (Crucial Innovation) lacks obvious synergy visibility"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "PMI",
+          "hod": 116,
+          "hodExact": 116.96,
+          "news": [
+            "Form 8-K",
+            "Picard Medical Reports Second Quarter 2026 Financial Results",
+            "Form 10-Q"
+          ],
+          "tag": "EARNINGS",
+          "name": "Picard Medical, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.57,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [
+            "Float 1.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.57M + RelVol 17.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.57M + RelVol 17.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.13,
+          "open": 5.87,
+          "gapPct": 14.42,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 11.13,
+          "hodTimeExact": "01:42 PM ET",
+          "close": 9.55,
+          "fade": 14,
+          "fadeExact": 14.2,
+          "vwap": 8.7888,
+          "vsVwap": "above",
+          "pmHigh": 6.28,
+          "volRaw": "41.6M",
+          "volDollar": 365351392,
+          "relVol": 17.7,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": "50:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "Picard Medical Reports Second Quarter 2026 Financial Results",
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030617/000143774926028585/pmi20260814_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Picard Medical Reports Second Quarter 2026 Financial Results",
+              "url": "https://www.stocktitan.net/news/PMI/picard-medical-reports-second-quarter-2026-financial-0qsdi7hu3tup.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-19T21:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030617/000143774926028565/pmi20260630_10q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:PMI",
+          "newsSummary": "PMI reported Q2 2026 financial results on 2026-08-19, followed by a Form 8-K on 2026-08-20—both before today's move. The 116.96% HOD gain suggests the market is repricing the earnings favorably, likely with positive guidance or operational metrics that merit institutional accumulation intraday.",
+          "bullFactors": [
+            "Micro-float (1.57M) with 17.7x relative volume enables vertical moves on institutional demand",
+            "HOD printing late session (116.96% gain) with only 14.2% fade indicates sustained buying pressure, not premarket spike collapse",
+            "Q2 earnings + 8-K catalyst combo provides real fundamental hook; gap of 14.42% shows conviction from open",
+            "Healthcare sector with tangible earnings news (not sympathy/fluff) and time to set up intraday after two-day delay"
+          ],
+          "bearFactors": [
+            "Massive single-day move (116.96%) leaves minimal room for continuation; overhead supply now forms immediately above",
+            "Earnings and 8-K both pre-dated the move by 1–2 days, raising risk of delayed seller absorption or profit-taking on day 2",
+            "Micro-cap with $22.6M market cap carries liquidity cliff risk if institutional buyers rotate out",
+            "No detail on earnings quality or guidance; if results were mixed/disappointing, the delayed spike is a trap"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "TNMG",
+          "hod": 100,
+          "hodExact": 100.85,
+          "news": [
+            "Form 6-K",
+            "TNL Mediagene Granted Continued Nasdaq Listing Subject to Conditions",
+            "TNL Mediagene's Infobahn Begins Delivering Enterprise Organizational Design Services Built on Miro's AI-Powered Workspace"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "TNL Mediagene Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "JP",
+          "floatM": 2.08,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 2.08M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3978,
+          "open": 0.6528,
+          "gapPct": 64.1,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.799,
+          "hodTimeExact": "07:24 AM ET",
+          "close": 0.57,
+          "fade": 28,
+          "fadeExact": 28.66,
+          "vwap": 0.6553,
+          "vsVwap": "below",
+          "pmHigh": 0.9864,
+          "volRaw": "196.4M",
+          "volDollar": 128714076,
+          "relVol": 13.2,
+          "avgVolM": 14.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "TNL Mediagene Granted Continued Nasdaq Listing Subject to Conditions",
+            "TNL Mediagene's Infobahn Begins Delivering Enterprise Organizational Design Services Built on Miro's AI-Powered Workspace"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2013186/000121390026093272/ea0303295-6k_tnl.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "TNL Mediagene Granted Continued Nasdaq Listing Subject to Conditions",
+              "url": "https://www.stocktitan.net/news/TNMG/tnl-mediagene-granted-continued-nasdaq-listing-subject-to-x8claqb0v9d9.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-25T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "TNL Mediagene's Infobahn Begins Delivering Enterprise Organizational Design Services Built on Miro's AI-Powered Workspace",
+              "url": "https://www.stocktitan.net/news/TNMG/tnl-mediagene-s-infobahn-begins-delivering-enterprise-organizational-s07j9lhis37r.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-20T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TNMG",
+          "newsSummary": "TNMG gapped 64% on Nasdaq continued listing approval announced at 11:00 AM—a genuine compliance milestone that removes delisting risk and validates the company's standing. The move held strength through the day with HOD printing 100.85% above open, suggesting institutional accumulation on real fundamental relief rather than a pump fade. Form 6-K filing after hours is reactive and does not explain the intraday continuation.",
+          "bullFactors": [
+            "Micro float (2.08M) with 13.2x relative volume — tight supply amplifies institutional demand",
+            "HOD dominance (100.85% printed late session, only 28.66% fade) signals hot cycle continuation and short covering, not premarket spike-and-dump",
+            "Compliance catalyst is real cash value: delisting risk removal unlocks institutional eligibility and removes overhang",
+            "Japanese micro-cap with sustained intraday volume and afternoon strength — structural setup favors momentum continuation"
+          ],
+          "bearFactors": [
+            "64% gap already captured at open — most asymmetry spent before trader could enter; limited room to set up a clean flag or dip/soak",
+            "Secondary news (Infobahn partnership with Miro) is AI-themed but lightweight — no revenue guidance or material contract terms disclosed",
+            "Foreign micro-cap with thin liquidity outside peak hours — exit risk on afternoon or next-day fade if retail unwinds",
+            "Form 6-K after HOD suggests regulatory filings may bring fresh disclosure; timing risk into Wednesday"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AMIX",
+          "hod": 86,
+          "hodExact": 86.03,
+          "news": [
+            "Autonomix Medical Enters into $4.9 Million Warrant Inducement Priced at a Premium to Market Under Nasdaq Rules"
+          ],
+          "tag": "OFFERING",
+          "name": "Autonomix Medical, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.96,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 0.96M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.37,
+          "open": 7.61,
+          "gapPct": 41.71,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 9.99,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 7.19,
+          "fade": 28,
+          "fadeExact": 28.03,
+          "vwap": 8.5319,
+          "vsVwap": "below",
+          "pmHigh": 10.7,
+          "volRaw": "28.6M",
+          "volDollar": 244166648,
+          "relVol": 2.4,
+          "avgVolM": 11.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Autonomix Medical Enters into $4.9 Million Warrant Inducement Priced at a Premium to Market Under Nasdaq Rules"
+          ],
+          "newsItems": [
+            {
+              "title": "Autonomix Medical Enters into $4.9 Million Warrant Inducement Priced at a Premium to Market Under Nasdaq Rules",
+              "url": "https://www.stocktitan.net/news/AMIX/autonomix-medical-enters-into-4-9-million-warrant-inducement-priced-vy73czu5c3fy.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-25T01:06:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AMIX",
+          "newsSummary": "Autonomix Medical announced a $4.9M warrant inducement priced at a premium to market under Nasdaq rules, released before the intraday move. This is a dilutive capital raise disguised as a compliance action—warrant exercises will flood the float with new shares at below-market strike prices, creating structural selling pressure and overhead supply that limits sustained upside.",
+          "bullFactors": [
+            "Extremely tight float at 0.96M shares (nano-cap tier) creates leverage for any sustained bid",
+            "86% HOD print with 2.4x relative volume shows aggressive intraday buying pressure and session strength",
+            "41.7% gap up on open provided initial momentum and institutional entry window"
+          ],
+          "bearFactors": [
+            "Warrant inducement is dilutive capital raise—new shares will flood market on exercise, creating overhead supply and limiting runner sustainability",
+            "28% fade from HOD indicates afternoon selling and potential retail distribution after morning spike",
+            "Premarket news before the move means the catalyst was known; intraday strength is reaction/squeeze, not organic continuation—high fade risk into close and next session"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "REED",
+          "hod": 81,
+          "hodExact": 81.9,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Reed's, Inc.",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 7.23,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 7.23M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.23M + RelVol 129.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.23M + RelVol 129.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.05,
+          "open": 1.055,
+          "gapPct": 0.48,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.91,
+          "hodTimeExact": "11:38 AM ET",
+          "close": 1.065,
+          "fade": 44,
+          "fadeExact": 44.24,
+          "vwap": 1.2346,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "1.5M",
+          "volDollar": 1874728,
+          "relVol": 129.7,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:REED",
+          "newsSummary": "REED moved +81.9% on the session with no disclosed news catalyst. The move appears to be pure intraday momentum-driven price action in a low-float name (7.23M shares), supported by elevated relative volume (129.7x) and sustained institutional accumulation signals.",
+          "bullFactors": [
+            "Low float at 7.23M shares — fits Jack's sweet spot for volatility and institutional control",
+            "High HOD percentage (81.9%) with 129.7x relative volume indicates sustained intraday momentum, not a premarket spike fade",
+            "Session held strength and didn't collapse hard — fade was only 44.24%, suggesting institutional bid held through afternoon",
+            "Minimal gap (0.48%) rules out gap-and-fade trap; the move was built intraday on tape"
+          ],
+          "bearFactors": [
+            "NO NEWS catalyst is a structural risk — no real fundamental reason to expect continuation tomorrow",
+            "Consumer Defensive sector with no disclosed partnership or ER typically lacks multi-day momentum staying power",
+            "No daily chart details provided — unclear if there's real resistance/support structure or if this is just a rip on sympathy/technicals",
+            "Fade of 44.24% means significant intraday pullback occurred; without a catalyst anchor, buyers may not defend tomorrow"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SWVL",
+          "hod": 70,
+          "hodExact": 70.07,
+          "news": [
+            "Form 6-K",
+            "Swvl Announces $13 Million Strategic Investment Round Priced At-The-Market Under Nasdaq Rules led by the Sawiris Family and Coefficient LP to Anchor Its Next Phase of Growth and U.S. Expansion"
+          ],
+          "tag": "OFFERING",
+          "name": "Swvl Holdings Corp Class A Common Shares",
+          "sector": "Industrials",
+          "country": "AE",
+          "floatM": 5.7,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$22M",
+          "riskBadges": [
+            "Float 5.7M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.47,
+          "open": 2.31,
+          "gapPct": 57.14,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.5,
+          "hodTimeExact": "07:43 AM ET",
+          "close": 2.21,
+          "fade": 11,
+          "fadeExact": 11.6,
+          "vwap": 2.4881,
+          "vsVwap": "below",
+          "pmHigh": 3.4699,
+          "volRaw": "76.3M",
+          "volDollar": 189804751,
+          "relVol": 7321.2,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Swvl Announces $13 Million Strategic Investment Round Priced At-The-Market Under Nasdaq Rules led by the Sawiris Family and Coefficient LP to Anchor Its Next Phase of Growth and U.S. Expansion"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1875609/000110465926100540/swvl-20260825x6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Swvl Announces $13 Million Strategic Investment Round Priced At-The-Market Under Nasdaq Rules led by the Sawiris Family and Coefficient LP to Anchor Its Next Phase of Growth and U.S. Expansion",
+              "url": "https://www.stocktitan.net/news/SWVL/swvl-announces-13-million-strategic-investment-round-priced-at-the-gp6k0ejqy2w9.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-25T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SWVL",
+          "newsSummary": "SWVL announced a $13M strategic investment round priced at-the-market under Nasdaq rules, led by the Sawiris Family and Coefficient LP, before the session high. This is a dilutive capital raise that funded the intraday move, not a value-accretive catalyst. The Form 6-K filing came after the high, confirming the move was already complete.",
+          "bullFactors": [
+            "Extremely low float at 5.7M shares — tight structure for momentum acceleration",
+            "High relative volume (7321.2x) and 70% HOD dominance signal sustained intraday institutional accumulation and short squeeze pressure throughout the session",
+            "Session maintained momentum into close with multiple HOD prints, not a premarket spike-and-fade pattern — suggests real intraday tape strength"
+          ],
+          "bearFactors": [
+            "At-the-market offering is inherently dilutive and typically causes longer-term pressure; capital raise destroys per-share value",
+            "57% gap and premarket spike on offering news — classic pre-announcement positioning ahead of dilution; retail chasing already-moved stock into supply",
+            "Small market cap ($22.3M) and foreign domicile (AE) increase liquidity and delisting risk; offering may signal desperation for cash runway"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 465,
+      "fade": 30,
+      "hodTime": "premarket",
+      "theme": "Hot Tape",
+      "note": "WVVIP led +465.58% (77% fade). 2/10 held <20% fade. news: AIXI — \"Xiao-I Corporation Announces Receipt of Nasdaq Listing Deficiency Notice\".",
+      "aiSummary": "**TAPE READ — 2026-08-25**\n\nToday's runners are dominated by compliance noise and dilutive catalysts (OFFERING, COMPLIANCE tags account for 5 of top 10), with zero real cash-value deals—immediate red flag for this framework's catalyst quality filter. China and international micro-caps (AIXI, JEM, TNMG) represent heavy concentration, but AIXI's 278% HOD with sustained afternoon volume ($324M) and 1.24M float fits the China rig pattern: institutional rig, not pump-and-dump. The sweet spot exists only in micro-float tier (<2M): DAIC (0.9M, $575M vol), JEM (0.62M), and PMI (1.57M, afternoon HOD at 116% with tight 14.2% fade) show staying power, but DAIC's morning spike and WVVIP's premarket 465% fade (77.78% washout) signal a COLD cycle—premature spikes dominating, retail exhaustion, institutional entry windows closing fast. The playbook avoids this tape: float criteria met in pockets, but catalyst quality is subpar, premarket exhaustion dominates afternoon HODs, and the two legitimate movers (NCPL, PMI) lack the setup clarity momentum traders need for clean risk-reward—this is a tape to sit on hands or scalp sub-$1M float sympathy plays only."
+    },
     {
       "date": "2026-08-24",
       "runners": [
