@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-08-26T10:57:52.595536Z",
-  "count": 9711,
+  "count": 9712,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -12,6 +12,78 @@
     {
       "date": "2026-08-25",
       "runners": [
+        {
+          "sym": "WVVIP",
+          "hod": 465,
+          "hodExact": 465.58,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Willamette Valley Vineyards, Inc. Series A Redeemable Preferred Stock",
+          "sector": "BEVERAGES",
+          "country": "US",
+          "floatM": 10.2,
+          "floatTier": "Mid",
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.2M + RelVol 444.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.2M + RelVol 444.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.65,
+          "open": 14.96,
+          "gapPct": 464.53,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 14.988,
+          "hodTimeExact": "05:45 AM ET",
+          "close": 3.3302,
+          "fade": 77,
+          "fadeExact": 77.78,
+          "vwap": 11.6054,
+          "vsVwap": "below",
+          "pmHigh": 27.7288,
+          "volRaw": "8.2M",
+          "volDollar": 95663927,
+          "relVol": 444.2,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WVVIP",
+          "newsSummary": "WVVIP ran 465% with no disclosed catalyst—pure intraday momentum driven by retail attention in the beverage sector. No news sources confirmed any substantive announcement; this is a sympathy/tape-driven move with zero fundamental justification.",
+          "bullFactors": [
+            "Extreme relative volume (444.2x) suggests sustained institutional or retail accumulation throughout session, not a 1–2 minute spike fade",
+            "HOD printed 465% with fade to 77%—indicates afternoon continuation and shorts blowing out, consistent with hot tape signature",
+            "Float just above 10M (10.2M) in mid-cap tier; tight enough to amplify intraday swings on volume"
+          ],
+          "bearFactors": [
+            "NO NEWS = pure sympathy/tape play with zero real catalyst; reversal risk is extreme once retail attention fades",
+            "Beverages sector has no thematic tailwind (AI, EV, Biotech, etc.); this is isolated momentum, not a multi-day trend",
+            "Market cap = $0 (likely microcap or delisted status issue); liquidity and halts are material risks on any reversal",
+            "Premarket gap of 464% paired with sustained fade suggests institutional distribution into retail FOMO; structural reversal pattern"
+          ],
+          "setupGrade": "C"
+        },
         {
           "sym": "AIXI",
           "hod": 278,
