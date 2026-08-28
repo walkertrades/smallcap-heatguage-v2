@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-26T22:30:54.010112Z",
-  "count": 9720,
+  "exportedAt": "2026-08-28T10:43:11.916184Z",
+  "count": 9730,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1033 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-27",
+      "runners": [
+        {
+          "sym": "PPCB",
+          "hod": 285,
+          "hodExact": 285.98,
+          "news": [
+            "Propanc Biopharma Announces Compelling New Preclinical Pancreatic Cancer Data for PRP Showing >90% Tumor Growth Inhibition and >2.5-Fold Survival Benefit"
+          ],
+          "tag": "PHASE-2",
+          "name": "Propanc Biopharma, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "AU",
+          "floatM": 1.98,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.98M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.07,
+          "open": 3.51,
+          "gapPct": 228.04,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 4.13,
+          "hodTimeExact": "08:59 AM ET",
+          "close": 2.23,
+          "fade": 46,
+          "fadeExact": 46.0,
+          "vwap": 3.1973,
+          "vsVwap": "below",
+          "pmHigh": 4.44,
+          "volRaw": "97.3M",
+          "volDollar": 311150202,
+          "relVol": 724.8,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Propanc Biopharma Announces Compelling New Preclinical Pancreatic Cancer Data for PRP Showing >90% Tumor Growth Inhibition and >2.5-Fold Survival Benefit"
+          ],
+          "newsItems": [
+            {
+              "title": "Propanc Biopharma Announces Compelling New Preclinical Pancreatic Cancer Data for PRP Showing >90% Tumor Growth Inhibition and >2.5-Fold Survival Benefit",
+              "url": "https://www.stocktitan.net/news/PPCB/propanc-biopharma-announces-compelling-new-preclinical-pancreatic-ik4qhutpn4ob.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-27T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PPCB",
+          "newsSummary": "Propanc Biopharma released preclinical pancreatic cancer data (>90% tumor growth inhibition, >2.5x survival benefit) at 12:30 UTC, after the stock had already spiked 228% at open and reached a 286% HOD. The news announced during the run suggests real biotech merit, but the timing—released well into an already-hot session—raises questions about whether this catalyzed the move or simply rode existing retail/institutional momentum.",
+          "bullFactors": [
+            "Micro-float (1.98M) with 724.8x relative volume—extreme intraday liquidity concentration favors continuation",
+            "HOD up 286% with only 46% fade suggests institutional accumulation and short squeeze pressure, not pure premarket spike-and-dump",
+            "Preclinical efficacy data (>90% TGI, 2.5x survival) has legitimate biotech credibility—not pure sympathy or fluff",
+            "Australian healthcare/biotech play with real science narrative, no dilutive offerings mentioned"
+          ],
+          "bearFactors": [
+            "Massive 228% gap at open is a red flag for premarket-dominated move; news timing (12:30 UTC, after initial spike) suggests it followed rather than led the run",
+            "Preclinical-stage data is early-stage; no Phase 1/2/3 human trials yet—binary risk remains very high",
+            "286% HOD with only 46% fade in a single session raises liquidity exhaustion and squeeze-pop risk into close",
+            "Market cap just $4.5M with 1.98M float—extreme micro-cap volatility; any halt, dilution, or morning reversal vaporizes gains"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CELU",
+          "hod": 189,
+          "hodExact": 189.64,
+          "news": [
+            "Celularity and MuseCell Innovations® Announce U.S. Manufacturing Collaboration for the Dezawa MuseCell® Platform",
+            "Celularity Provides Update Regarding Nasdaq Listing Compliance"
+          ],
+          "tag": "CONTRACT",
+          "name": "Celularity Inc. Class A Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 8.99,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$62M",
+          "riskBadges": [
+            "Float 8.99M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.99M + RelVol 2247.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.99M + RelVol 2247.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8804,
+          "open": 1.11,
+          "gapPct": 26.08,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.55,
+          "hodTimeExact": "11:04 AM ET",
+          "close": 2.1,
+          "fade": 17,
+          "fadeExact": 17.65,
+          "vwap": 1.912,
+          "vsVwap": "above",
+          "pmHigh": 1.4,
+          "volRaw": "221.1M",
+          "volDollar": 422652963,
+          "relVol": 2247.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Celularity and MuseCell Innovations® Announce U.S. Manufacturing Collaboration for the Dezawa MuseCell® Platform",
+            "Celularity Provides Update Regarding Nasdaq Listing Compliance"
+          ],
+          "newsItems": [
+            {
+              "title": "Celularity and MuseCell Innovations® Announce U.S. Manufacturing Collaboration for the Dezawa MuseCell® Platform",
+              "url": "https://www.stocktitan.net/news/CELU/celularity-and-muse-cell-innovations-announce-u-s-manufacturing-vhf5tu61ycx7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-27T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Celularity Provides Update Regarding Nasdaq Listing Compliance",
+              "url": "https://www.stocktitan.net/news/CELU/celularity-provides-update-regarding-nasdaq-listing-osepyvf7a796.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-25T23:59:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CELU",
+          "newsSummary": "Celularity announced a U.S. manufacturing collaboration with MuseCell Innovations for the Dezawa MuseCell platform on 2026-08-27 at 13:00 UTC, which came BEFORE the session high. This is a real cash partnership for cell therapy manufacturing—tangible value, not dilutive. The prior Nasdaq compliance update (2026-08-25) was housekeeping and unrelated to today's move.",
+          "bullFactors": [
+            "Float 8.99M—well under 10M preference; tight float amplifies intraday swings",
+            "HOD 189.64% with only 17.65% fade = sustained strength into close, not a premarket spike fade pattern",
+            "Relative volume 2247.5x = massive intraday demand, institutional accumulation signature",
+            "Real catalyst: manufacturing partnership with cash deal structure, not sympathy or dilutive news"
+          ],
+          "bearFactors": [
+            "Gap 26.08% at open—already priced in enthusiasm before 13:00 news drop; limited runway confirmation",
+            "High fade % (17.65%) suggests some profit-taking into close despite strong HOD, reducing follow-through odds",
+            "Catalyst announced BEFORE HOD—retail may have already positioned; retest and reversal risk on lower volume next session",
+            "Biotech small-cap with Nasdaq compliance history = delisting risk backdrop; news may mask structural fragility"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CHOW",
+          "hod": 137,
+          "hodExact": 137.71,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "ChowChow Cloud International Holdings Limited",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 11.18,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$24M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.38,
+          "open": 0.3792,
+          "gapPct": -0.21,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.9033,
+          "hodTimeExact": "01:34 PM ET",
+          "close": 0.64,
+          "fade": 29,
+          "fadeExact": 29.15,
+          "vwap": 0.6436,
+          "vsVwap": "below",
+          "pmHigh": 0.38,
+          "volRaw": "144.7M",
+          "volDollar": 93121498,
+          "relVol": 11.6,
+          "avgVolM": 12.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2041829/000149315226040258/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:CHOW",
+          "newsSummary": "CHOW filed a routine Form 6-K (Hong Kong listing compliance) on 2026-08-26 before the move, making it a reactive disclosure rather than a catalyst. The 137.71% HOD move appears driven by sustained intraday institutional accumulation with 11.6x relative volume, classic China rig structural pattern with afternoon continuation and multiple session HODs, not a news-driven event.",
+          "bullFactors": [
+            "Sustained high relative volume (11.6x) all day with multiple session HODs printing late — institutional accumulation signature, not premarket pump fade",
+            "137.71% HOD move with only 29.15% fade shows strong afternoon continuation and shorts being forced out, typical China rig strength",
+            "Hong Kong tech micro-cap (11.18M float, mid-tier) with aggressive intraday trend and real volume structure — fits Jack's China rig recognition pattern",
+            "Form 6-K filing timing before the move eliminates surprise element; price action is structural, not reactive hype"
+          ],
+          "bearFactors": [
+            "Float just above 10M threshold (11.18M) — outside Jack's strict sub-10M preference, though acceptable if intraday vol/min > premarket vol/min (met)",
+            "No visible real cash catalyst or partnership — move is pure structural/institutional flow, carries higher black swan risk on cycle shift or spillover unwinding",
+            "Hong Kong jurisdiction and Greater China exposure add regulatory/liquidity tail risks for retail day traders",
+            "Already up 137% on the day — excessive amplitude suggests potential for violent liquidation if institutional buying dries up"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "VNRX",
+          "hod": 112,
+          "hodExact": 112.26,
+          "news": [
+            "VolitionRx Highlights Commercial Momentum and Multi-Pillar Execution Across $27+ Billion Total Addressable Markets",
+            "Volition Announces Landmark Clinical Validation of Nu.Q® NETs Biomarker in Sepsis",
+            "Form 8-K"
+          ],
+          "tag": "PHASE-3",
+          "name": "VolitionRx Limited",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 13.5,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3392,
+          "open": 0.6477,
+          "gapPct": 90.95,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.72,
+          "hodTimeExact": "05:29 AM ET",
+          "close": 0.501,
+          "fade": 30,
+          "fadeExact": 30.42,
+          "vwap": 0.6479,
+          "vsVwap": "below",
+          "pmHigh": 1.07,
+          "volRaw": "354.0M",
+          "volDollar": 229384917,
+          "relVol": 83.7,
+          "avgVolM": 4.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "VolitionRx Highlights Commercial Momentum and Multi-Pillar Execution Across $27+ Billion Total Addressable Markets",
+            "Volition Announces Landmark Clinical Validation of Nu.Q® NETs Biomarker in Sepsis",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "VolitionRx Highlights Commercial Momentum and Multi-Pillar Execution Across $27+ Billion Total Addressable Markets",
+              "url": "https://www.stocktitan.net/news/VNRX/volition-rx-highlights-commercial-momentum-and-multi-pillar-xkqs7xncxzr5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-26T13:17:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Volition Announces Landmark Clinical Validation of Nu.Q® NETs Biomarker in Sepsis",
+              "url": "https://www.stocktitan.net/news/VNRX/volition-announces-landmark-clinical-validation-of-nu-q-ne-ts-92zuhfwf87ot.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-26T12:17:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/93314/000147793226005251/vnrx_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:VNRX",
+          "newsSummary": "VNRX ran +112% on landmark clinical validation of its Nu.Q® NETs biomarker in sepsis, paired with commercial momentum messaging across $27B TAM. The clinical data represents real Phase 3-equivalent validation (not just preclinical), establishing genuine catalyst merit beyond sympathy or fluff. News broke pre-market (Aug 26, 12:17-13:17 UTC) before the spike, making it the likely driver.",
+          "bullFactors": [
+            "Real clinical validation (Nu.Q NETs sepsis landmark) — cash value catalyst, not sympathy or no-cash news",
+            "Hot tape signature: 112% HOD with only 30% fade and 84x relative volume indicates sustained intraday strength and institutional accumulation, not premarket spike-and-dump",
+            "Float tier (13.5M, mid-range) acceptable given exceptional intraday vol/min ratio; room to run on daily chart with TAM messaging and biotech momentum tailwinds",
+            "Multiple pillar execution narrative ($27B TAM) and 8-K filing suggest institutional-grade news flow, not dilutive or warrant-related"
+          ],
+          "bearFactors": [
+            "Float slightly above preferred <10M threshold — increases share supply risk if momentum breaks",
+            "90%+ gap overnight creates significant overhead supply; fade of 30% suggests some profit-taking already in progress, could accelerate on volume drop",
+            "Biotech clinical validation is binary-outcome asset class — reversal risk if follow-up data disappoints or regulatory path stalls",
+            "Small market cap (~$7.5M) and healthcare sector volatility may amplify whipsaw risk on afternoon tape deterioration"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "LGPS",
+          "hod": 84,
+          "hodExact": 84.06,
+          "news": [
+            "Form 6-K",
+            "LogProstyle Inc. Enters into Agreement to Acquire 100% of I-FLATZ Corporation",
+            "LogProstyle Inc. to Present at the Moody Capital Solutions 2026 Disruptive Growth & Life Sciences Conference"
+          ],
+          "tag": "ACQUISITION",
+          "name": "LogProstyle Inc.",
+          "sector": "Real Estate",
+          "country": "JP",
+          "floatM": 6.44,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$36M",
+          "riskBadges": [
+            "Float 6.44M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 6.44M + RelVol 1204.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 6.44M + RelVol 1204.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8693,
+          "open": 0.8723,
+          "gapPct": 0.35,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.6,
+          "hodTimeExact": "03:46 PM ET",
+          "close": 1.52,
+          "fade": 5,
+          "fadeExact": 5.0,
+          "vwap": 1.2475,
+          "vsVwap": "above",
+          "pmHigh": 1.54,
+          "volRaw": "46.2M",
+          "volDollar": 57684491,
+          "relVol": 1204.4,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "LogProstyle Inc. Enters into Agreement to Acquire 100% of I-FLATZ Corporation",
+            "LogProstyle Inc. to Present at the Moody Capital Solutions 2026 Disruptive Growth & Life Sciences Conference"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2040290/000149315226040327/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "LogProstyle Inc. Enters into Agreement to Acquire 100% of I-FLATZ Corporation",
+              "url": "https://www.stocktitan.net/news/LGPS/log-prostyle-inc-enters-into-agreement-to-acquire-100-of-i-flatz-hov5v8mnvnl5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-27T12:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "LogProstyle Inc. to Present at the Moody Capital Solutions 2026 Disruptive Growth & Life Sciences Conference",
+              "url": "https://www.stocktitan.net/news/LGPS/log-prostyle-inc-to-present-at-the-moody-capital-solutions-2026-djdrl9vu2blt.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-25T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:LGPS",
+          "newsSummary": "LogProstyle announced acquisition of 100% of I-FLATZ Corporation at 12:00 PM, well after the session high was set. The move (84% HOD, 5% fade) indicates institutional accumulation and sustained intraday strength drove the rally before the news broke, suggesting the market was pricing in positive developments. Real asset acquisition is concrete catalyst merit, though timing relative to high indicates news followed rather than initiated the move.",
+          "bullFactors": [
+            "Ultra-tight float (6.44M shares) with 1204% relative volume — extreme liquidity concentration",
+            "84% HOD on 5% fade shows sustained institutional buying throughout session with minimal distribution",
+            "Real cash acquisition of subsidiary (100% stake in I-FLATZ) is tangible M&A catalyst, not dilutive",
+            "Session HODs dominating (intraday strength pattern) suggests continuation potential, not premarket spike fade"
+          ],
+          "bearFactors": [
+            "News came after HOD — rally was not catalyst-driven intraday, raising risk of gap-down reversal at open",
+            "Japanese micro-cap with potential liquidity/ADR arbitrage risks and lower institutional oversight",
+            "Acquisition details sparse (price, financing, strategic rationale unclear from headline alone) — execution risk",
+            "No indication of organic revenue synergy or cash flow accretion; restructuring/integration risk present"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MIMI",
+          "hod": 82,
+          "hodExact": 82.78,
+          "news": [
+            "Mint Incorporation Limited Announces Pricing of $2.5 Million Registered Direct Offering",
+            "Form 6-K",
+            "Mint Accelerates Robotics Expansion with Yunji Technology for Strategic Development of Next Generation Commercial Grade Service Robot"
+          ],
+          "tag": "OFFERING",
+          "name": "Mint Incorporation Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 1.38,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 1.38M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.38M + RelVol 163.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.38M + RelVol 163.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.8,
+          "open": 2.3,
+          "gapPct": 27.78,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.29,
+          "hodTimeExact": "10:02 AM ET",
+          "close": 1.29,
+          "fade": 60,
+          "fadeExact": 60.79,
+          "vwap": 2.6303,
+          "vsVwap": "below",
+          "pmHigh": 2.85,
+          "volRaw": "50.6M",
+          "volDollar": 133150692,
+          "relVol": 163.8,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Mint Incorporation Limited Announces Pricing of $2.5 Million Registered Direct Offering",
+            "Form 6-K",
+            "Mint Accelerates Robotics Expansion with Yunji Technology for Strategic Development of Next Generation Commercial Grade Service Robot"
+          ],
+          "newsItems": [
+            {
+              "title": "Mint Incorporation Limited Announces Pricing of $2.5 Million Registered Direct Offering",
+              "url": "https://www.stocktitan.net/news/MIMI/mint-incorporation-limited-announces-pricing-of-2-5-million-4kmsyxje4bo4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-27T18:08:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026093750/ea0303455-6k_mint.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Mint Accelerates Robotics Expansion with Yunji Technology for Strategic Development of Next Generation Commercial Grade Service Robot",
+              "url": "https://www.stocktitan.net/news/MIMI/mint-accelerates-robotics-expansion-with-yunji-technology-for-i26zr2x0q2sa.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-26T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MIMI",
+          "newsSummary": "MIMI spiked 27.78% in premarket on a robotics partnership announcement with Yunji Technology (Aug 26), then faded 60.79% through the session. The move was catalyzed by the real partnership news, but a $2.5M registered direct offering priced after hours (Aug 27) reveals dilution and explains the afternoon collapse. This is a classic premarket spike into institutional selling, followed by reactive dilutive financing.",
+          "bullFactors": [
+            "Micro-float (1.38M) with 163.8% relative volume — genuine intraday liquidity spike",
+            "Real catalyst: Robotics partnership with Yunji Technology for commercial-grade service robots (legitimate co-dev, not sympathy)",
+            "82.78% HOD percentage suggests session HODs printed, indicating some institutional accumulation momentum"
+          ],
+          "bearFactors": [
+            "Severe 60.79% fade from open — classic premarket spike dump pattern, retail left holding",
+            "$2.5M registered direct offering announced after the high (dilutive, reactive to price action)",
+            "Offering size is 14.3% of market cap — material dilution for a micro-cap, signals insider capitulation",
+            "Hong Kong industrial micro-cap with limited institutional depth; offering likely forces cap raise at lows"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "NMTC",
+          "hod": 74,
+          "hodExact": 74.5,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "NeuroOne Medical Technologies Corporation Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 9.0,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 9.0M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.0M + RelVol 197.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.0M + RelVol 197.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2,
+          "open": 2.16,
+          "gapPct": 8.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.49,
+          "hodTimeExact": "09:44 AM ET",
+          "close": 1.98,
+          "fade": 43,
+          "fadeExact": 43.27,
+          "vwap": 2.5997,
+          "vsVwap": "below",
+          "pmHigh": 2.35,
+          "volRaw": "13.9M",
+          "volDollar": 36197466,
+          "relVol": 197.8,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1500198/000121390026094174/ea0303530-8k_neuroone.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NMTC",
+          "newsSummary": "NMTC filed a Form 8-K after market close, well after the intraday move had concluded. The 8-K is reactive to price action, not a driver of it. Without visibility into the filing content, the real catalyst for the 74.5% HOD push and 43% fade remains unclear—likely intraday accumulation/distribution or sympathy flow rather than the SEC filing.",
+          "bullFactors": [
+            "Low float (9.0M) — classic small-cap momentum structure with potential liquidity squeeze",
+            "High relative volume (197.8x) — sustained institutional accumulation signal, not a one-minute spike",
+            "74.5% HOD achieved intraday — session strength, not premarket fade pattern; suggests real buying pressure",
+            "Healthcare sector with room on daily chart — potential biotech/medical device upside setup"
+          ],
+          "bearFactors": [
+            "43.27% fade from HOD — significant intraday selloff indicates profit-taking or institutional unload after accumulation",
+            "8% gap up suggests premarket momentum that did not hold; suggests early buyers were retail/weak hands",
+            "Form 8-K filed after hours — no visibility into content; if it contains dilutive news (offering, warrant exercise), setup collapses",
+            "No clear real-cash catalyst articulated — tape-driven move without fundamental anchor is higher risk for reversal"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BRNX",
+          "hod": 66,
+          "hodExact": 66.03,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "BrenX Ltd. Ordinary Shares",
+          "sector": "Industrials",
+          "country": "IL",
+          "floatM": 0.73,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.73M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.24,
+          "open": 6.895,
+          "gapPct": 10.5,
+          "time": "regular session",
+          "session": "morning",
+          "high": 10.36,
+          "hodTimeExact": "11:59 AM ET",
+          "close": 3.86,
+          "fade": 62,
+          "fadeExact": 62.74,
+          "vwap": 7.0328,
+          "vsVwap": "below",
+          "pmHigh": 9.7,
+          "volRaw": "10.5M",
+          "volDollar": 73687168,
+          "relVol": 6.8,
+          "avgVolM": 1.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BRNX",
+          "newsSummary": "BRNX ran 66% on the session with no identifiable news catalyst. The move appears purely technical—a nano-float Israeli industrial name with 6.8x relative volume, suggesting institutional accumulation or sympathy spillover rather than company-specific fundamentals.",
+          "bullFactors": [
+            "Extreme float (0.73M shares) — among the smallest eligible floats, high leverage for intraday moves",
+            "6.8x relative volume sustained throughout session — indicates real institutional participation, not retail-only spike",
+            "66% HOD percentage suggests afternoon continuation and shorts covering, typical of hot tape cycles",
+            "Daily chart likely has room to upside given nano-cap status and no dilutive overhead mentioned"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst is a structural red flag — sustainability is questionable without fundamental trigger",
+            "62.74% fade percentage indicates significant profit-taking; heavy resistance likely at session HOD",
+            "Israeli microcap with minimal market cap ($2.8M) — liquidity risk and wide spreads typical of this tier",
+            "Without catalyst clarity, this may be sympathy or technical-only play vulnerable to sharp reversals"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WKSP",
+          "hod": 65,
+          "hodExact": 65.02,
+          "news": [
+            "Form 8-K",
+            "Worksport (NASDAQ: WKSP) Posts Record $2.5M July Orders; Seven-Month Consecutive Sales Climb Continues; $30M ARR"
+          ],
+          "tag": "CONTRACT",
+          "name": "Worksport, Ltd. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 20.96,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.51,
+          "open": 0.6161,
+          "gapPct": 20.8,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.8416,
+          "hodTimeExact": "05:45 AM ET",
+          "close": 0.63,
+          "fade": 25,
+          "fadeExact": 25.14,
+          "vwap": 0.7163,
+          "vsVwap": "below",
+          "pmHigh": 0.8461,
+          "volRaw": "192.7M",
+          "volDollar": 138013336,
+          "relVol": 385.6,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Worksport (NASDAQ: WKSP) Posts Record $2.5M July Orders; Seven-Month Consecutive Sales Climb Continues; $30M ARR"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1096275/000149315226040401/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Worksport (NASDAQ: WKSP) Posts Record $2.5M July Orders; Seven-Month Consecutive Sales Climb Continues; $30M ARR",
+              "url": "https://www.stocktitan.net/news/WKSP/worksport-nasdaq-wksp-posts-record-2-5m-july-orders-seven-month-yy9ejyx8lfsm.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-26T12:17:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WKSP",
+          "newsSummary": "WKSP announced record $2.5M July orders with seven consecutive months of sales growth and $30M ARR—genuine cash metric showing product-market traction in truck bed tonneau covers. The catalyst is real (recurring revenue, consecutive growth cycle), not fluff. The 8-K filed after the move is reactive and confirms follow-on filings, not the driver.",
+          "bullFactors": [
+            "Real cash catalyst: $30M ARR + consecutive monthly sales climbs demonstrate institutional/retail demand, not sympathy or vaporware",
+            "65% HOD dominance with 25% fade = sustained intraday momentum and afternoon strength, shorts covering into news",
+            "385.6x relative volume on 20.96M float (thick but manageable) = high conviction retail + institutional accumulation into announcement",
+            "20.8% gap and no premarket spike domination = retail FOMO entered after open, tape remained hot all session (China rig-style sustained vol, not pump-fade)"
+          ],
+          "bearFactors": [
+            "Float sits at 20.96M—above Jack's <10M preference; reduces explosive velocity and increases overhead supply risk",
+            "Consumer Cyclical sector tied to truck/automotive discretionary spending; macro slowdown or consumer pullback could stall momentum quickly",
+            "25% fade present—short-covering rallies can reverse hard if retail loses conviction or volume drops next session",
+            "No big-name partnership or transformational deal; $2.5M monthly orders is solid but not mega-cap validation (Amazon, Apple, Tesla partnership would elevate significantly)"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MERC",
+          "hod": 57,
+          "hodExact": 57.38,
+          "news": [
+            "Mercer International Inc. Announces C$20 Million (Approximately US$14 Million) in Government of Canada Support for its Peace River Mill",
+            "Form 8-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Mercer International Inc",
+          "sector": "Basic Materials",
+          "country": "CA",
+          "floatM": 42.33,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$26M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.413,
+          "open": 0.65,
+          "gapPct": 57.38,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.65,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 0.39,
+          "fade": 40,
+          "fadeExact": 40.0,
+          "vwap": 0.5746,
+          "vsVwap": "below",
+          "pmHigh": 0.7439,
+          "volRaw": "102.1M",
+          "volDollar": 58691940,
+          "relVol": 31.6,
+          "avgVolM": 3.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Mercer International Inc. Announces C$20 Million (Approximately US$14 Million) in Government of Canada Support for its Peace River Mill",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Mercer International Inc. Announces C$20 Million (Approximately US$14 Million) in Government of Canada Support for its Peace River Mill",
+              "url": "https://www.stocktitan.net/news/MERC/mercer-international-inc-announces-c-20-million-approximately-us-14-8rptxmvay2vl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-26T20:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1333274/000119312526368838/d386051d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MERC",
+          "newsSummary": "Mercer International announced C$20M (~US$14M) in government support from Canada for its Peace River Mill operations, disclosed via 8-K on 2026-08-26 before the intraday move. This is real cash value—direct government funding for mill infrastructure—providing legitimate operational support and de-risking the business. The catalyst has merit as tangible financial backing rather than promotional fluff.",
+          "bullFactors": [
+            "Real cash catalyst: C$20M government support is genuine capital, not sympathy or dilution",
+            "High relative volume (31.6x) sustained intraday with 57% HOD and only 40% fade suggests institutional accumulation and afternoon continuation",
+            "Basic Materials sector + Canadian producer + government subsidy plays well into infrastructure/green industrial narrative with structural tailwinds",
+            "News released before market open gave setup time; move was not a 1-2 minute spike but developed through session with staying power"
+          ],
+          "bearFactors": [
+            "Float of 42.33M is well above Jack's <10M preference and sits in 'Thick' tier, limiting explosive single-session potential",
+            "Market cap only ~$26.5M vs. float size creates cap-to-float compression; liquidity risk on larger position sizes",
+            "57% gap and 40% fade suggests some premarket euphoria bleed; need to confirm afternoon HODs are holding, not rolling over into close",
+            "Basic materials cyclical; government subsidy news does not address underlying commodity price or demand volatility"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 285,
+      "fade": 36,
+      "hodTime": "premarket",
+      "theme": "Active Tape",
+      "note": "PPCB led +285.98% (46% fade). 2/10 held <20% fade. news: PPCB — \"Propanc Biopharma Announces Compelling New Preclinical Pancreatic Cancer Data for PRP Showing >90% Tumor Growth Inhibition and >2.5-Fold Survival Benefit\".",
+      "aiSummary": "**TAPE READ — 2026-08-27**\n\nToday's tape is **COLD with structural warning flags**. Catalyst quality is weak across the board—PPCB and VNRX lead on clinical data (real merit), but CELU and WKSP ride contract noise, while MIMI is outright dilutive (offering tag), and CHOW/BRNX have zero news support; the playbook avoids this mixed signal environment. Float tier is ideal (eight of ten under 15M), but session distribution is heavily skewed premarket (PPCB +286%, VNRX +112%, WKSP +65% all gapped at open), with only CHOW and LGPS printing afternoon HODs—this is textbook fade bias, not institutional continuation. The healthcare sector dominance (five names) coupled with offshore concentration (AU, HK, IL) and heavy premarket vol/$311M+ on PPCB suggests retail anticipation front-running rather than sustained intraday accumulation; momentum traders should expect pop-and-drop volatility with minimal setup time and elevated liquidity risk into close. This tape signals a **cold cycle**—reward premarket spikes are already burned, afternoon HOD attempts (LGPS +84%, only -5% fade) are isolated outliers, and the absence of late-session institutional buying pressure indicates limited follow-through for flag or downtrend-break setups."
+    },
     {
       "date": "2026-08-26",
       "runners": [
