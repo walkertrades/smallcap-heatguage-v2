@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-28T10:43:11.916184Z",
-  "count": 9730,
+  "exportedAt": "2026-08-29T13:01:03.208837Z",
+  "count": 9740,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,992 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-28",
+      "runners": [
+        {
+          "sym": "FNGR",
+          "hod": 309,
+          "hodExact": 309.46,
+          "news": [
+            "Form 8-K",
+            "FingerMotion Sets Out New Management’s Strategic Plan with BlueFlare Energy Solutions for AI Focused Modular Data Center Expansion",
+            "FingerMotion Notes Lyken.AI Non-Binding MOU for 128-Node B300 AI Compute Cluster",
+            "FingerMotion CEO Jolie Kahn Issues Letter to Shareholders"
+          ],
+          "tag": "SYMPATHY",
+          "name": "FingerMotion, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "SG",
+          "floatM": 50.45,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$20M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1734,
+          "open": 0.3022,
+          "gapPct": 74.28,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.71,
+          "hodTimeExact": "10:00 AM ET",
+          "close": 0.398,
+          "fade": 43,
+          "fadeExact": 43.94,
+          "vwap": 0.4491,
+          "vsVwap": "below",
+          "pmHigh": 0.323,
+          "volRaw": "1246.8M",
+          "volDollar": 559947116,
+          "relVol": 111.9,
+          "avgVolM": 11.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "FingerMotion Sets Out New Management’s Strategic Plan with BlueFlare Energy Solutions for AI Focused Modular Data Center Expansion",
+            "FingerMotion Notes Lyken.AI Non-Binding MOU for 128-Node B300 AI Compute Cluster",
+            "FingerMotion CEO Jolie Kahn Issues Letter to Shareholders"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226040492/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "FingerMotion Sets Out New Management’s Strategic Plan with BlueFlare Energy Solutions for AI Focused Modular Data Center Expansion",
+              "url": "https://www.stocktitan.net/news/FNGR/finger-motion-sets-out-new-management-s-strategic-plan-with-blue-2xem9co59ju8.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-27T12:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "FingerMotion Notes Lyken.AI Non-Binding MOU for 128-Node B300 AI Compute Cluster",
+              "url": "https://www.stocktitan.net/news/FNGR/finger-motion-notes-lyken-ai-non-binding-mou-for-128-node-b300-ai-r27ocw56qkxi.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-25T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "FingerMotion CEO Jolie Kahn Issues Letter to Shareholders",
+              "url": "https://www.stocktitan.net/news/FNGR/finger-motion-ceo-jolie-kahn-issues-letter-to-bg5cuay8onfl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T20:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.8,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FNGR",
+          "newsSummary": "FNGR ran 309% on a cluster of AI/Data Center announcements (Lyken.AI MOU, BlueFlare strategic plan, CEO shareholder letter) released Aug 24–27, well before the intraday high. The Form 8-K posted after-hours post-move, confirming it is reactive. News is promotional—MOUs are non-binding, no cash deal or revenue announced; this is a structural sympathy play riding the broader AI data-center narrative rather than a company-specific cash catalyst.",
+          "bullFactors": [
+            "Strong intraday volume sustained (RelVol 111.9) with 309% HOD — indicates retail push on theme momentum, not quick spike-fade.",
+            "AI/Data Center theme is hot narrative; Lyken.AI and BlueFlare partnerships frame FNGR as participant in infrastructure buildout.",
+            "Multiple headline drops over 4 days (Aug 24–27) kept name in feed, suggesting managed promotional cycle."
+          ],
+          "bearFactors": [
+            "Float of 50.45M is mega-thick (well above 10M threshold); liquidity is ample but float size dampens momentum acceleration potential.",
+            "43.94% fade from HOD is substantial and typical of AI sympathy plays; no real cash value or binding deal underpins the move.",
+            "Singapore-domiciled microcap with no substantive US institutional backing; MOUs are non-binding and carry zero revenue impact today.",
+            "Form 8-K filed post-high signals regulatory event was reactive; no forward catalyst confirmed."
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "CYAB",
+          "hod": 104,
+          "hodExact": 104.69,
+          "news": [
+            "Cyabra Secures Contracts with Two European National Security Government Agencies, with Total Annual Revenues of more than $500,000"
+          ],
+          "tag": "CONTRACT",
+          "name": "Cyabra, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 11.27,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3073,
+          "open": 0.3739,
+          "gapPct": 21.67,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.629,
+          "hodTimeExact": "10:09 AM ET",
+          "close": 0.4467,
+          "fade": 28,
+          "fadeExact": 28.98,
+          "vwap": 0.462,
+          "vsVwap": "below",
+          "pmHigh": 0.468,
+          "volRaw": "214.6M",
+          "volDollar": 99165071,
+          "relVol": 65.8,
+          "avgVolM": 3.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Cyabra Secures Contracts with Two European National Security Government Agencies, with Total Annual Revenues of more than $500,000"
+          ],
+          "newsItems": [
+            {
+              "title": "Cyabra Secures Contracts with Two European National Security Government Agencies, with Total Annual Revenues of more than $500,000",
+              "url": "https://www.stocktitan.net/news/CYAB/cyabra-secures-contracts-with-two-european-national-security-q2ibxqsrk8r2.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-24T13:20:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Cybersecurity",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Defense",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CYAB",
+          "newsSummary": "Cyabra secured government contracts with two European national security agencies worth $500k+ in annual revenues, announced 2026-08-24 before the move. This is a real, cash-backed catalyst with defensible revenue. The company pivoted from reputational monitoring into defense/security space, which validates the AI/cybersecurity positioning and provides a concrete business win.",
+          "bullFactors": [
+            "Real cash catalyst: $500k+ annual government contracts with named agencies (not vague LOI or sympathy news)",
+            "HOD +104.69% with fade only 28.98% — strong afternoon continuation and institutional holding, not a premarket spike-and-dump",
+            "65.8x relative volume — sustained buying pressure all day, consistent with institutional accumulation on news",
+            "Defense/Cybersecurity theme aligns with geopolitical and NATO modernization tailwinds; European gov't validation de-risks product-market fit"
+          ],
+          "bearFactors": [
+            "Float 11.27M is slightly above preferred <10M threshold, reduces scarcity and intraday velocity ceiling",
+            "News released 4 days before HOD — delayed reaction suggests market initially underweighted the contract, reduces continuation reliability if profit-taking hits",
+            "Israeli micro-cap with limited institutional analyst coverage; liquidity may dry up on any intraday spike into supply",
+            "Revenue $500k annually is small absolute scale; needs multi-contract ramp to move needle on 11.8M market cap"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CHAI",
+          "hod": 104,
+          "hodExact": 104.24,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Core AI Holdings, Inc. Common Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 17.15,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 17.15M + RelVol 442.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 17.15M + RelVol 442.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2546,
+          "open": 0.237,
+          "gapPct": -6.91,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.52,
+          "hodTimeExact": "12:37 PM ET",
+          "close": 0.4,
+          "fade": 23,
+          "fadeExact": 23.08,
+          "vwap": 0.3956,
+          "vsVwap": "above",
+          "pmHigh": 0.3279,
+          "volRaw": "303.4M",
+          "volDollar": 120006001,
+          "relVol": 442.4,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1649009/000149315226040508/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CHAI",
+          "newsSummary": "CHAI gapped down -6.91% at open but ripped 104.24% intraday on sustained institutional accumulation and high relative volume (442.4x). The Form 6-K filing posted after the HOD, making it reactive noise rather than a catalyst. The move appears driven by pure intraday momentum and tape strength, not news-triggered.",
+          "bullFactors": [
+            "Massive intraday HOD of +104.24% with fade only 23.08% — strong afternoon continuation and short squeeze signature",
+            "Exceptional relative volume (442.4x) sustained throughout session indicates institutional buying pressure, not retail pump",
+            "Mid-float (17.15M) allowed explosive move without liquidity breakdown; tape held strength into close",
+            "Negative open gap (-6.91%) created dip/soak setup that Jack targets — institutional accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Float sits at 17.15M — above Jack's 10M preference, reduces micro-cap volatility edge",
+            "Form 6-K (SEC filing) is routine disclosure, not a catalyst; posted after move, indicating news followed price action",
+            "No substantive fundamental catalyst disclosed — move is structural/tape-driven, vulnerable to mean reversion",
+            "Tech sector with vague AI tag and no real partnership, deal, or ER data backing the move"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NCPL",
+          "hod": 93,
+          "hodExact": 93.09,
+          "news": [
+            "Form 8-K",
+            "Netcapital Inc. Announces Receipt of Nasdaq Notification Regarding Delayed Annual Report on Form 10-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Netcapital Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 7.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 7.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5386,
+          "open": 0.5919,
+          "gapPct": 9.9,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.04,
+          "hodTimeExact": "10:30 AM ET",
+          "close": 0.6916,
+          "fade": 33,
+          "fadeExact": 33.5,
+          "vwap": 0.7702,
+          "vsVwap": "below",
+          "pmHigh": 0.6347,
+          "volRaw": "107.2M",
+          "volDollar": 82550581,
+          "relVol": 3.3,
+          "avgVolM": 32.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Netcapital Inc. Announces Receipt of Nasdaq Notification Regarding Delayed Annual Report on Form 10-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1414767/000149315226040478/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Netcapital Inc. Announces Receipt of Nasdaq Notification Regarding Delayed Annual Report on Form 10-K",
+              "url": "https://www.stocktitan.net/news/NCPL/netcapital-inc-announces-receipt-of-nasdaq-notification-regarding-n0z4hxj66lic.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-28T10:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCPL",
+          "newsSummary": "NCPL announced a Nasdaq notification regarding a delayed Form 10-K filing at 10:05 AM, well before today's intraday high. This is a regulatory compliance issue, not a positive catalyst. The subsequent Form 8-K filing after-hours was reactive to the day's price action and provides no forward-looking merit.",
+          "bullFactors": [
+            "Very tight float at 7.95M shares — well within Jack's sub-10M preference for explosive intraday moves",
+            "Strong relative volume at 3.3x — indicates institutional accumulation or forced short covering despite negative news",
+            "93% HOD percentage and 33.5% fade suggests afternoon session HOD dominance with late-day continuation — institutional buyers stepping in, not premarket dump"
+          ],
+          "bearFactors": [
+            "Nasdaq compliance notification is a red flag for exchange delisting risk — regulatory overhang will suppress sustained buying",
+            "Gap up 9.9% into a compliance warning is counterintuitive; this suggests gap was driven by sentiment/sympathy, not fundamental catalyst",
+            "Delayed 10-K filing indicates accounting or reporting delays — undermines confidence in company fundamentals and raises dilution/bad news risk on eventual filing",
+            "Market cap only $5.5M with compliance issues creates binary risk — not a scalable all-day runner"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "CHGA",
+          "hod": 80,
+          "hodExact": 80.49,
+          "news": [
+            "Change Agents Announces 1-for-20 Reverse Stock Split",
+            "S-1/A",
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Change Agents Corporation Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 20.69,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1307,
+          "open": 0.1368,
+          "gapPct": 4.67,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.2359,
+          "hodTimeExact": "10:45 AM ET",
+          "close": 0.1426,
+          "fade": 39,
+          "fadeExact": 39.55,
+          "vwap": 0.1767,
+          "vsVwap": "below",
+          "pmHigh": 0.1773,
+          "volRaw": "150.1M",
+          "volDollar": 26517593,
+          "relVol": 318.8,
+          "avgVolM": 0.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Change Agents Announces 1-for-20 Reverse Stock Split",
+            "S-1/A",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Change Agents Announces 1-for-20 Reverse Stock Split",
+              "url": "https://www.stocktitan.net/news/CHGA/change-agents-announces-1-for-20-reverse-stock-dl5l9mv4j5if.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-27T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "S-1/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026093149/ea0302304-s1a1_change.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-1/A",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026093113/ea0303230-8k_change.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CHGA",
+          "newsSummary": "Change Agents announced a 1-for-20 reverse stock split on 2026-08-27, preceding today's 80% intraday move. The reverse split combined with S-1/A and 8-K filings suggest corporate restructuring and potential compliance/uplisting efforts. While reverse splits can signal distress, the sustained 318.8x relative volume and 80% HOD retention indicate real institutional accumulation rather than a classic pump fade.",
+          "bullFactors": [
+            "Strong intraday tape: 80% HOD with only 40% fade shows afternoon/late-session continuation and shorts covering, not premarket spike exhaustion",
+            "Exceptional relative volume (318.8x) maintained throughout session suggests institutional buying pressure behind the move, not retail-only euphoria",
+            "Reverse split + SEC filings (S-1/A, 8-K) hint at potential compliance uplisting or corporate action that could unlock real value and attract larger institutional players"
+          ],
+          "bearFactors": [
+            "Float at 20.69M is THICK for Jack's preference (wants <10M); liquidity is wide and position sizing difficult for small-cap tape reader",
+            "Reverse split historically a distress signal; company may be fighting Nasdaq compliance issues or managing shareholder dilution from prior offerings",
+            "Catalyst timing: reverse split announced pre-high, filed/regulatory moves already in market before today's run — risk of announcement fatigue and gap-fill on next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WCT",
+          "hod": 80,
+          "hodExact": 80.24,
+          "news": [
+            "424B4 offering",
+            "Form 6-K"
+          ],
+          "tag": "OFFERING",
+          "name": "Wellchange Holdings Company Limited Class A Ordinary shares",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 2.75,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 2.75M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.749,
+          "open": 0.3962,
+          "gapPct": -47.1,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.35,
+          "hodTimeExact": "03:41 PM ET",
+          "close": 1.09,
+          "fade": 19,
+          "fadeExact": 19.26,
+          "vwap": 0.9369,
+          "vsVwap": "above",
+          "pmHigh": 0.7652,
+          "volRaw": "20.7M",
+          "volDollar": 19376216,
+          "relVol": 11.7,
+          "avgVolM": 1.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "424B4 offering",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "424B4 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1990251/000121390026094944/ea0303809-424b4_wellchange.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B4",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1990251/000121390026092629/ea0302982-6k_wellchange.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WCT",
+          "newsSummary": "WCT filed a 424B4 offering on 2026-08-28 after the intraday high, meaning the move preceded the dilutive announcement. The stock gapped down -47.1% at open and recovered 80.24% intraday on high relative volume (11.7x), but the offering filing is reactive to price action, not the driver. This is a dilutive overhang that will pressure future liquidity and is a classic F-grade catalyst structure.",
+          "bullFactors": [
+            "Micro-float at 2.75M shares creates intraday volatility and potential squeeze mechanics",
+            "Strong intraday recovery (80.24% HOD) and sustained relative volume (11.7x) suggest institutional accumulation on the dip despite gap-down open",
+            "High tape temperature: 80% session HODs indicate afternoon continuation and short covering, not premarket fade pattern"
+          ],
+          "bearFactors": [
+            "424B4 offering filed after HOD is a red flag for dilution and future supply overhang; this kills momentum runners for swing hold",
+            "Massive gap-down of -47.1% at open signals overnight negative catalyst or liquidation; recovery doesn't erase damage",
+            "Hong Kong micro-cap with dilutive offering + Form 6-K before the move = low-quality catalyst stack; no real business catalyst evident",
+            "Day trader should exit before offering closes; overnight gap risk and dilution pressure will collapse liquidity on next session open"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "DUO",
+          "hod": 64,
+          "hodExact": 64.76,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Fangdd Network Group Ltd. Class A Ordinary Shares",
+          "sector": "Real Estate",
+          "country": "CN",
+          "floatM": 5.65,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$34M",
+          "riskBadges": [
+            "Float 5.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.65M + RelVol 2313.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.65M + RelVol 2313.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.698,
+          "open": 0.676,
+          "gapPct": -3.15,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.15,
+          "hodTimeExact": "02:44 PM ET",
+          "close": 0.9602,
+          "fade": 16,
+          "fadeExact": 16.5,
+          "vwap": 0.9275,
+          "vsVwap": "above",
+          "pmHigh": 0.9755,
+          "volRaw": "64.1M",
+          "volDollar": 59491758,
+          "relVol": 2313.8,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1750593/000121390026094695/ea0303294-6k_fangdd.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DUO",
+          "newsSummary": "DUO printed a 64.76% intraday HOD with a Form 6-K filing arriving after the peak, confirming the news was reactive, not causal. The move is structural: low float (5.65M), sustained high relative volume (2313.8x), and afternoon strength characteristic of China rig patterns—institutional accumulation and real buying pressure throughout the session, not a premarket spike-and-fade.",
+          "bullFactors": [
+            "Extremely low float (5.65M) with 2,313.8x relative volume — exceptional liquidity compression",
+            "64.76% HOD achieved with fade only 16.5%, showing sustained institutional demand and short covering strength",
+            "Multiple session HODs printed intraday (China rig structure), not a one-candle spike — indicates real accumulation, not pump mechanics",
+            "Negative gap (-3.15%) followed by strong recovery and new highs — classic dip-and-accumulate before retail push"
+          ],
+          "bearFactors": [
+            "Chinese micro-cap real estate sector — elevated regulatory and delisting risk regardless of daily action",
+            "Form 6-K filing is purely administrative and provides no substantive cash catalyst; move is momentum-driven",
+            "No identifiable business catalyst or earnings/partnership news — entirely sympathy/China rig structure",
+            "Market cap only $33.98M with 5.65M float creates illiquidity risk on reversal; overnight gaps and halts are structural hazards"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "QNRX",
+          "hod": 60,
+          "hodExact": 60.04,
+          "news": [
+            "Form 8-K",
+            "Quoin Pharmaceuticals Reports Positive Interim Data from Ongoing Phase 2/3 Study of QRX003 in Netherton Syndrome"
+          ],
+          "tag": "PHASE-2",
+          "name": "Quoin Pharmaceuticals, Ltd. American Depositary Shares",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 2.56,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$55M",
+          "riskBadges": [
+            "Float 2.56M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.155,
+          "open": 7.22,
+          "gapPct": 40.06,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 8.25,
+          "hodTimeExact": "06:13 AM ET",
+          "close": 6.12,
+          "fade": 25,
+          "fadeExact": 25.82,
+          "vwap": 7.3673,
+          "vsVwap": "below",
+          "pmHigh": 10.8,
+          "volRaw": "31.0M",
+          "volDollar": 228507750,
+          "relVol": 1281.6,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Quoin Pharmaceuticals Reports Positive Interim Data from Ongoing Phase 2/3 Study of QRX003 in Netherton Syndrome"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1671502/000110465926102917/tm2624258d1_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Quoin Pharmaceuticals Reports Positive Interim Data from Ongoing Phase 2/3 Study of QRX003 in Netherton Syndrome",
+              "url": "https://www.stocktitan.net/news/QNRX/quoin-pharmaceuticals-reports-positive-interim-data-from-ongoing-orvb9kqu4wxy.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-28T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:QNRX",
+          "newsSummary": "Quoin Pharmaceuticals announced positive interim Phase 2/3 data for QRX003 in Netherton Syndrome at 10:00 AM, well before the session high. This is genuine clinical validation in a rare disease with clear unmet need—real cash-value catalyst with merit. The Form 8-K filing came after the move, confirming it was reactive documentation.",
+          "bullFactors": [
+            "Ultra-tight float at 2.56M shares—classic micro-cap momentum vehicle with low supply ceiling",
+            "Sustained intraday momentum: 60% HOD dominance vs 26% fade indicates afternoon continuation strength and short covering",
+            "Real Phase 2/3 clinical data in rare disease (Netherton Syndrome) represents concrete value, not sympathy or fluff",
+            "Exceptional relative volume (1281.6x) on legitimate catalyst with time to set up—not a 100%+ spike-in-seconds pattern"
+          ],
+          "bearFactors": [
+            "40% premarket gap suggests retail anticipation may have already priced early enthusiasm; room to fade on subsequent days",
+            "Rare disease indication has smaller TAM than common conditions; Phase 2/3 interim data still carries regulatory execution risk",
+            "8-K filed after HOD—watch for unexpected content or guidance changes that could trigger late-session reversal",
+            "No partner/Big Pharma backing mentioned; development risk remains entirely on small-cap shoulders"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "RDIB",
+          "hod": 55,
+          "hodExact": 55.84,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Reading International, Inc (Class B",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 19.23,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$450M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 15.4,
+          "open": 15.13,
+          "gapPct": -1.75,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 24,
+          "hodTimeExact": "03:07 PM ET",
+          "close": 18.31,
+          "fade": 23,
+          "fadeExact": 23.71,
+          "vwap": 20.1988,
+          "vsVwap": "below",
+          "pmHigh": 16,
+          "volRaw": "653K",
+          "volDollar": 13193291,
+          "relVol": 1.0,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RDIB",
+          "newsSummary": "RDIB ran 55.84% intraday with no substantive news catalyst identified. The move appears to be pure momentum/sympathy-driven with a negative gap (-1.75%) that was overcome by sustained intraday buying, suggesting tape-driven accumulation rather than event-based catalyst.",
+          "bullFactors": [
+            "Strong HOD dominance (55.84% HOD vs 23.71% fade) indicates afternoon continuation strength and short covering pressure",
+            "Negative open gap overcome with sustained volume suggests institutional accumulation into weakness rather than premarket spike fade",
+            "Mid-float (19.23M) sits within trader's flexible range given intraday volume sustained above premarket levels",
+            "Session structure (dip then sustained push) fits Jack's preferred flag/downtrend break setup pattern"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst is high risk — momentum without fundamentals can reverse sharply on profit-taking or negative spillover",
+            "19.23M float is above preferred <10M sweet spot, reducing intraday volatility predictability",
+            "Relative volume at 1.0x is neutral, not elevated — lacking the aggressive vol/min spike that would validate institutional thesis",
+            "Communication Services sector offers no thematic tailwind; sympathy play is vulnerable to sector rotation"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AEMD",
+          "hod": 51,
+          "hodExact": 51.61,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "AETHLON MEDICAL INC",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.61,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.61M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.61M + RelVol 50.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.61M + RelVol 50.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.17,
+          "open": 2.92,
+          "gapPct": 34.56,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.29,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 2.49,
+          "fade": 24,
+          "fadeExact": 24.32,
+          "vwap": 3.0099,
+          "vsVwap": "below",
+          "pmHigh": 3.82,
+          "volRaw": "45.1M",
+          "volDollar": 135821376,
+          "relVol": 50.5,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": "5:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AEMD",
+          "newsSummary": "AEMD ran 51.61% today with no identifiable news catalyst — pure intraday momentum on a micro-float name (1.61M shares). The move was driven by tape action: strong HOD printing, sustained relative volume of 50.5x, and a 34.56% gap up that held through the session with only 24.32% fade, suggesting institutional accumulation rather than retail panic exit.",
+          "bullFactors": [
+            "Ultra-tight float at 1.61M shares — extremely low supply ceiling for intraday continuation",
+            "Afternoon HOD dominance (51.61% gain with only 24.32% fade) — classic hot cycle signature, no premarket spike collapse",
+            "Relative volume 50.5x baseline — sustained buying pressure all session, not a one-minute spike-and-fade",
+            "Gap held strong (34.56% at open, faded to net +51.61% close) — intraday accumulation pattern, not distribution"
+          ],
+          "bearFactors": [
+            "No news catalyst — entire move is sentiment/tape-driven, vulnerable to reversal on volume drop or negative headline",
+            "Micro-cap with 4M market cap — high liquidity risk and susceptibility to sharp pullbacks",
+            "Already up 51% on single session — momentum runners at this level often see profit-taking into next session",
+            "Unknown daily chart structure — no data on previous HOD/support, overhead resistance, or VWAP anchors"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 309,
+      "fade": 27,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "FNGR led +309.46% (43% fade). 2/10 held <20% fade. news: FNGR — \"Form 8-K\".",
+      "aiSummary": "Today's tape is dominated by compliance noise and sympathy flows rather than real catalysts—CYAB's contract win is the sole legitimate driver, while FNGR, CHAI, and DUO ride coattails with zero fundamental support. Float distribution favors this framework with seven names under 20M shares, but concentration skews heavily toward Asia (SG, IL, CN, HK) and tech, raising liquidity concerns and reducing domestic institutional accumulation signals. HODs printed across mixed sessions (morning/afternoon split, heavy premarket bleeding with QNRX and AEMD), indicating a **COLD to NEUTRAL cycle**—premarket spikes dominating the tape with substantial fades (23–44% typical), exactly the fade pattern this playbook avoids. WCT's offering tag and QNRX's >60% premarket spike-into-fade are immediate rejection signals; the playbook has zero margin for error here, as real intraday room-to-run setups are absent and sustained institutional HOD printing (afternoon continuation strength) failed to materialize across the board."
+    },
     {
       "date": "2026-08-27",
       "runners": [
