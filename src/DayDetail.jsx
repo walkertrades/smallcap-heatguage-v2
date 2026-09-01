@@ -9,12 +9,7 @@ function DayDetailInline({ entry, thresholds, onClose, onDeleteRunner, filterPre
 
   // Reasoning bullets — three factor calls with pos/mid/neg signals
   const factors = [];
-  // A single 500%+ runner promotes the day to HOT, so the AVG HOD line has to
-  // say so — otherwise the tile reads COLD while the day is tagged HOT.
-  if (entry.isBlackSwan) {
-    factors.push({ kind: "pos", label: "AVG HOD", tag: "HOT",
-      detail: `+${entry.hod}% avg, but a runner printed +${Math.round(entry.topRunnerHod || 0)}%` });
-  } else if (entry.hod >= thresholds.hodHot) {
+  if (entry.hod >= thresholds.hodHot) {
     factors.push({ kind: "pos", label: "AVG HOD", detail: `+${entry.hod}% ≥ ${thresholds.hodHot}%`, tag: "HOT" });
   } else if (entry.hod >= thresholds.hodNeutralLo) {
     factors.push({ kind: "mid", label: "AVG HOD", detail: `+${entry.hod}% (${thresholds.hodNeutralLo}–${thresholds.hodHot}%)`, tag: "NEUTRAL" });
