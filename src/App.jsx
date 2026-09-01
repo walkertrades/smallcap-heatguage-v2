@@ -372,7 +372,7 @@ function App({ tweaks, user, profile }) {
     const r = window.computeHeat(e, thresholds);
     const runners = window.ovrMergeRunner
       ? (e.runners || []).map(window.ovrMergeRunner) : e.runners;
-    return { ...e, runners, score: r.score, state: r.state, isBlackSwan: r.isBlackSwan || false };
+    return { ...e, runners, score: r.score, state: r.state, isBlackSwan: r.isBlackSwan || false, topRunnerHod: r.topRunnerHod || 0 };
   }), [entries, thresholds, ovrVer]);
 
   // The folder editor is reachable from places that don't hold `entries` (the

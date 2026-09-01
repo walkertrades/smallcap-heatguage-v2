@@ -2,8 +2,8 @@
 // Exported to window so other Babel scripts can use it.
 
 const DEFAULT_THRESHOLDS = {
-  hodHot: 300,        // avg HOD >= 300 counts toward HOT
-  hodNeutralLo: 150,  // 150-300 is NEUTRAL territory; below 150 is COLD
+  hodHot: 250,        // avg HOD >= 250 counts toward HOT
+  hodNeutralLo: 125,  // 125-250 is NEUTRAL territory; below 125 is COLD
   fadeHot: 25,        // fade < 25 counts toward HOT
   fadeCold: 40,       // fade > 40 counts toward COLD
 };
@@ -45,16 +45,27 @@ function computeHeat(entry, thresholds = DEFAULT_THRESHOLDS) {
   let score = Math.round((hodScore * 0.50 + fadeScore * 0.25 + timeScore * 0.25));
   score = Math.max(0, Math.min(100, score));
 
-  // Black swan override: avg HOD >= 300% with high fades = still HOT tape,
-  // but flag it as a potential trap day. Extreme moves dominate regardless of fade.
-  const BLACK_SWAN_HOD = 300;
-  const isBlackSwan = hod >= BLACK_SWAN_HOD && fade > t.fadeCold;
+  // Black swan override: ONE runner going parabolic makes the tape hot even when
+  // the day's AVERAGE is unremarkable — nine quiet names and a single +600%
+  // mover is a day worth trading, and averaging hides that entirely.
+  //
+  // Triggered off the single best runner, not the average, and deliberately not
+  // gated on fade: a monster that fades hard is still a monster that printed.
+  // entry.runners is absent when EntryForm previews a hand-typed hod/fade, so
+  // this has to degrade to "no black swan" rather than throw.
+  const BLACK_SWAN_RUNNER_HOD = 500;
+  const _runners = Array.isArray(entry.runners) ? entry.runners : [];
+  const topRunnerHod = _runners.reduce((mx, r) => {
+    const v = Number(r && (r.hodExact != null ? r.hodExact : r.hod));
+    return Number.isFinite(v) && v > mx ? v : mx;
+  }, 0);
+  const isBlackSwan = topRunnerHod >= BLACK_SWAN_RUNNER_HOD;
 
   // State logic — premarket is a RISK FLAG, not an auto-downgrade.
   // Category is chosen from HOD + fade; premarket just adds a warning badge.
   let state;
   if (isBlackSwan) {
-    // Extreme tape — classify HOT regardless of fades
+    // A single parabolic runner outranks the averages
     state = "HOT";
   } else if (hod >= t.hodHot && fade <= t.fadeHot && entry.hodTime === "session") {
     state = "HOT";
@@ -75,6 +86,7 @@ function computeHeat(entry, thresholds = DEFAULT_THRESHOLDS) {
     score,
     state,
     isBlackSwan,
+    topRunnerHod,
     sub: { hodScore: Math.round(hodScore), fadeScore: Math.round(fadeScore), timeScore },
   };
 }
@@ -181,14 +193,10 @@ function heatColor(score) {
 // and the trend chart's gridlines, so the chart's bands line up with the dial's.
 const HEAT_ZONE_EDGE = { coldTop: 45, hotBottom: 62 };
 
-// Trend-chart y-axis. RE-DERIVED 2026-08-26, when the HOD thresholds moved to
-// 300/150. The previous 30-95 axis was measured against the OLD distribution,
-// which no longer exists - keeping it would have clipped real days.
-//   under 300/150 across 1,010 days:
-//   min 22 | p1 30 | p5 42 | p25 53 | median 56 | p75 59 | p95 67 | p99 80 | max 96
-// The whole distribution shifted DOWN about 7 points. 20-90 clips 4 days in four
-// years (0.4%) and none in a current 30-day window.
-// Values outside the range are CLAMPED to the edge, never dropped.
+// Trend-chart y-axis. RE-DERIVED 2026-09-01 for the 250/125 thresholds.
+//   across 1,010 days: min 25 | p1 33 | median 58 | p95 71 | p99 85 | max 96
+// 20-90 still holds: it clips nothing in a current 30-day window and only a
+// handful of days in four years. Values outside are CLAMPED, never dropped.
 const HEAT_AXIS = { min: 20, max: 90 };
 
 Object.assign(window, {

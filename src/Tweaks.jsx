@@ -2,8 +2,8 @@
 const { useState: useState_Tw, useEffect: useEffect_Tw } = React;
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-  "hodHot": 300,
-  "hodNeutralLo": 150,
+  "hodHot": 250,
+  "hodNeutralLo": 125,
   "fadeHot": 25,
   "fadeCold": 40
 }/*EDITMODE-END*/;
