@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-08-29T13:01:03.208837Z",
-  "count": 9740,
+  "exportedAt": "2026-09-01T11:05:34.637492Z",
+  "count": 9750,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,939 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-08-31",
+      "runners": [
+        {
+          "sym": "CLGN",
+          "hod": 168,
+          "hodExact": 168.16,
+          "news": [
+            "Form 6-K",
+            "COLLPLANT IS ACQUIRING LIGHTSOLVER- ENTERS SUPERCOMPUTING AND PHOTONIC COMPUTING MARKETS"
+          ],
+          "tag": "ACQUISITION",
+          "name": "CollPlant Biotechnologies Ltd Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 22.51,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.358,
+          "open": 0.38,
+          "gapPct": 6.15,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.96,
+          "hodTimeExact": "10:19 AM ET",
+          "close": 0.3879,
+          "fade": 59,
+          "fadeExact": 59.59,
+          "vwap": 0.6873,
+          "vsVwap": "below",
+          "pmHigh": 0.418,
+          "volRaw": "182.7M",
+          "volDollar": 125595133,
+          "relVol": 343.9,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "COLLPLANT IS ACQUIRING LIGHTSOLVER- ENTERS SUPERCOMPUTING AND PHOTONIC COMPUTING MARKETS"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1631487/000121390026095458/ea0303994-6k_collplant.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-31T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "COLLPLANT IS ACQUIRING LIGHTSOLVER- ENTERS SUPERCOMPUTING AND PHOTONIC COMPUTING MARKETS",
+              "url": "https://www.stocktitan.net/news/CLGN/collplant-is-acquiring-lightsolver-enters-supercomputing-and-8js16qfdztgm.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-31T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Quantum",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Semiconductor",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CLGN",
+          "newsSummary": "CLGN announced acquisition of LightSolver at 12:00 ET, entering supercomputing and photonic computing markets—a real M&A catalyst with strategic value. The stock ran 168% intraday with sustained volume (343.9x relVol), suggesting institutional accumulation ahead of and throughout the move, not a pre-spike fade.",
+          "bullFactors": [
+            "Real cash M&A catalyst—entry into high-growth supercomputing/photonic computing markets, not dilutive fluff",
+            "Strong sustained intraday volume (343.9x relVol) with afternoon HOD prints—tape shows continuation strength, not premarket spike collapse",
+            "168% HOD move with only 59.6% fade—suggests institutional accumulation held, shorts struggled; typical of hot momentum cycles",
+            "Float at 22.51M is manageable for day trader with proper position sizing; relVol validates intraday liquidity"
+          ],
+          "bearFactors": [
+            "Float above Jack's preferred 10M threshold (22.51M)—increases supply risk and reduces explosive potential",
+            "Catalyst timing marginal—acquisition announced mid-session (12:00 ET), leaving less time for setup and HOD formation; Form 6-K filed after the move suggests potential compliance complexity",
+            "Israeli micro-cap healthcare ($8.9M market cap) with thin daily liquidity baseline—acquisition into unfamiliar sector (supercomputing/photonics) adds execution risk and potential reverse investor interest",
+            "Market cap vs. relVol disconnect—$8.9M cap on 343x volume is extreme tightness; liquidity could evaporate on any reversal or profit-taking"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "WETO",
+          "hod": 144,
+          "hodExact": 144.76,
+          "news": [
+            "Form 6-K",
+            "424B5 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Wetour Robotics Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.67,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$22M",
+          "riskBadges": [
+            "Float 0.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.72,
+          "open": 7.21,
+          "gapPct": 26.05,
+          "time": "regular session",
+          "session": "morning",
+          "high": 14,
+          "hodTimeExact": "10:58 AM ET",
+          "close": 5.48,
+          "fade": 60,
+          "fadeExact": 60.86,
+          "vwap": 10.2359,
+          "vsVwap": "below",
+          "pmHigh": 8.74,
+          "volRaw": "42.2M",
+          "volDollar": 432002393,
+          "relVol": 7.1,
+          "avgVolM": 5.9,
+          "ssr": true,
+          "reverseSplit": "100:1",
+          "newsHeadlines": [
+            "Form 6-K",
+            "424B5 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026093731/ea0303201-6k_wetour.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026093723/ea0303200-424b5_wetour.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WETO",
+          "newsSummary": "WETO filed a 424B5 prospectus supplement on 2026-08-26, ahead of today's 144.76% HOD move. The offering announcement preceded the intraday surge, making it a dilutive catalyst rather than a cause of strength. This is a red flag: offerings typically cap upside and signal insider/underwriter distribution into retail buying.",
+          "bullFactors": [
+            "Extreme nano-float (0.67M shares) — very tight supply structure for potential squeezes",
+            "Massive intraday relative volume (7.1x) sustained throughout session — not a 2-minute spike",
+            "Session HOD up 144.76% with fade to only 60.86% — tape held strength afternoon, shorts covered into close",
+            "Gapped 26.05% at open, holding above gap through day — institutional accumulation into offering?"
+          ],
+          "bearFactors": [
+            "424B5 offering is dilutive and precedes the move — classic setup for underwriter dump into retail FOMO",
+            "Form 6-K filed same day (2026-08-26) alongside offering — no operational catalyst, pure financing event",
+            "Market cap only $22.1M on 0.67M float — micro-cap liquidity trap; hard to exit on fills",
+            "Premarket gap (26.05%) dominant early move — pattern suggests fade risk; need to see if afternoon HOD is institutional or trap"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "RDHL",
+          "hod": 142,
+          "hodExact": 142.06,
+          "news": [
+            "RedHill Announces Transformational Acquisition of Commercialization Rights to Ferring’s Rebyota® and Clenpiq®",
+            "Form 6-K",
+            "RedHill Divests Talicia® to Apotex for $18 Million Cash Upfront Plus Milestones to Fuel Strategic Growth Opportunities"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Redhill Biopharma Ltd.",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 13.77,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.661,
+          "open": 1.36,
+          "gapPct": 105.75,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.6,
+          "hodTimeExact": "07:39 AM ET",
+          "close": 0.9,
+          "fade": 43,
+          "fadeExact": 43.75,
+          "vwap": 1.3598,
+          "vsVwap": "below",
+          "pmHigh": 2.16,
+          "volRaw": "103.9M",
+          "volDollar": 141266602,
+          "relVol": 3874.5,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "RedHill Announces Transformational Acquisition of Commercialization Rights to Ferring’s Rebyota® and Clenpiq®",
+            "Form 6-K",
+            "RedHill Divests Talicia® to Apotex for $18 Million Cash Upfront Plus Milestones to Fuel Strategic Growth Opportunities"
+          ],
+          "newsItems": [
+            {
+              "title": "RedHill Announces Transformational Acquisition of Commercialization Rights to Ferring’s Rebyota® and Clenpiq®",
+              "url": "https://www.stocktitan.net/news/RDHL/red-hill-announces-transformational-acquisition-of-commercialization-ukh8mpwaup1i.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T11:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1553846/000117891326004329/zk2636045.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-31T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "RedHill Divests Talicia® to Apotex for $18 Million Cash Upfront Plus Milestones to Fuel Strategic Growth Opportunities",
+              "url": "https://www.stocktitan.net/news/RDHL/red-hill-divests-talicia-to-apotex-for-18-million-cash-upfront-plus-uutqkqz2a2rj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-31T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RDHL",
+          "newsSummary": "RedHill announced a transformational acquisition of commercialization rights to Ferring's Rebyota® and Clenpiq® on 2026-09-01, following a massive 142% intraday run and 105.75% gap. The company also divested Talicia® to Apotex for $18M cash upfront plus milestones on 2026-08-31, both before the session high. These are real cash transactions with strategic portfolio repositioning—genuine M&A activity, not fluff.",
+          "bullFactors": [
+            "Real cash catalyst: $18M upfront divestiture + transformational acquisition of two FDA-cleared GI products signals strategic refocus and revenue diversification",
+            "Massive intraday HOD dominance (142% run) with 43.75% fade suggests institutional accumulation before retail push, not a pure premarket spike—tape shows sustained conviction",
+            "High relative volume (3874.5x) throughout session and afternoon HOD printing—China-rig-style sustained buying, not a one-minute spike",
+            "Small-mid float (13.77M) at upper boundary of Jack's preference; intraday vol/min clearly exceeded premarket vol/min, justifying the higher float acceptance"
+          ],
+          "bearFactors": [
+            "Float at 13.77M exceeds Jack's <10M sweet spot; potential overhead supply at session HODs after massive run",
+            "Gap of 105.75% into open leaves minimal room for additional intraday upside—most of the daily move already captured before most retail can enter",
+            "43.75% fade from HOD indicates profit-taking pressure; sustainability into next session unclear without follow-on volume confirmation",
+            "Israeli micro-cap healthcare with limited ADV baseline—liquidity spillover risk and black swan conditions if momentum reverses"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AEHL",
+          "hod": 139,
+          "hodExact": 139.55,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Antelope Enterprise Holdings Limited Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 0.41,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 0.41M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.41M + RelVol 88.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.41M + RelVol 88.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.54,
+          "open": 6.76,
+          "gapPct": 90.96,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 8.4799,
+          "hodTimeExact": "12:21 PM ET",
+          "close": 6.49,
+          "fade": 23,
+          "fadeExact": 23.47,
+          "vwap": 6.6934,
+          "vsVwap": "below",
+          "pmHigh": 7.7,
+          "volRaw": "47.3M",
+          "volDollar": 316445813,
+          "relVol": 88.6,
+          "avgVolM": 0.5,
+          "ssr": true,
+          "reverseSplit": "16:1",
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1470683/000149315226040506/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AEHL",
+          "newsSummary": "AEHL gapped 90.96% on a Form 6-K filing dated 2026-08-28, which preceded the intraday move and carries minimal fundamental weight as a structural disclosure rather than a catalyst. The move is consistent with a China Rig pattern: sustained intraday continuation (139.55% HOD vs. 23.47% fade), nano-float (0.41M shares), high relative volume (88.6x), and afternoon session strength — classic institutional accumulation and squeeze mechanics in a greater China micro-cap, not a news-driven catalyst.",
+          "bullFactors": [
+            "Nano float (0.41M) with 88.6x relative volume creates structural short-squeeze and retail FOMO pressure",
+            "HOD 139.55% with only 23.47% fade indicates strong intraday tape — afternoon session HODs and sustained momentum, not premarket spike-and-dump",
+            "China Rig structural pattern: sustained volume all day with late-session continuation suggests institutional rig, not pump; fits Jack's framework for real buying pressure",
+            "Zero dilution signals (no offering, warrant, or ATM announced); Form 6-K is routine and non-dilutive"
+          ],
+          "bearFactors": [
+            "90.96% gap-up creates extreme overnight supply and overhead; any continuation faces gravity from early buyers",
+            "Form 6-K has zero catalyst merit — routine regulatory filing, not earnings, data, partnership, or M&A; move is pure technicals/structure",
+            "Nano-cap China Basic Materials with no identified real cash catalyst or partnership; susceptible to liquidity collapse or regulatory scrutiny",
+            "High fade (23.47%) despite strong HOD suggests retail exhaustion by late session; risk of next-session washout if momentum breaks"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "VVOS",
+          "hod": 102,
+          "hodExact": 102.71,
+          "news": [
+            "Vivos Therapeutics and South Palm Cardiovascular Associates Sign Definitive Agreements to Launch Regional Sleep Testing and Treatment Center",
+            "Vivos Therapeutics Reports Record New Patient Referrals at its Nevada Sleep & Airway Medicine Centers"
+          ],
+          "tag": "CONTRACT",
+          "name": "Vivos Therapeutics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 17.49,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 17.49M + RelVol 130.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 17.49M + RelVol 130.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2249,
+          "open": 0.395,
+          "gapPct": 75.63,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.4559,
+          "hodTimeExact": "09:10 AM ET",
+          "close": 0.196,
+          "fade": 57,
+          "fadeExact": 57.01,
+          "vwap": 0.3554,
+          "vsVwap": "below",
+          "pmHigh": 0.4777,
+          "volRaw": "532.2M",
+          "volDollar": 189137716,
+          "relVol": 130.2,
+          "avgVolM": 4.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Vivos Therapeutics and South Palm Cardiovascular Associates Sign Definitive Agreements to Launch Regional Sleep Testing and Treatment Center",
+            "Vivos Therapeutics Reports Record New Patient Referrals at its Nevada Sleep & Airway Medicine Centers"
+          ],
+          "newsItems": [
+            {
+              "title": "Vivos Therapeutics and South Palm Cardiovascular Associates Sign Definitive Agreements to Launch Regional Sleep Testing and Treatment Center",
+              "url": "https://www.stocktitan.net/news/VVOS/vivos-therapeutics-and-south-palm-cardiovascular-associates-sign-dbb6usbr9jr8.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-28T12:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Vivos Therapeutics Reports Record New Patient Referrals at its Nevada Sleep & Airway Medicine Centers",
+              "url": "https://www.stocktitan.net/news/VVOS/vivos-therapeutics-reports-record-new-patient-referrals-at-its-oq2t7cpqj4u8.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-25T12:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VVOS",
+          "newsSummary": "Vivos signed a definitive agreement with South Palm Cardiovascular Associates to launch a regional sleep testing and treatment center, following earlier news of record patient referrals at Nevada locations. The catalyst is real cash-based expansion of service delivery infrastructure, not dilutive or speculative.",
+          "bullFactors": [
+            "Real catalyst with tangible business expansion (new regional center partnership) — not sympathy or fluff",
+            "Strong intraday continuation (102.71% HOD vs 57.01% fade) suggests institutional accumulation and retail follow-through, not premarket pump-fade pattern",
+            "High relative volume (130.2%) with sustained afternoon strength indicates tape heat and short covering pressure",
+            "Float at 17.49M is manageable; tape action shows room to run intraday despite mid-float tier"
+          ],
+          "bearFactors": [
+            "Gap up 75.63% suggests heavy premarket momentum — risk of afternoon fade and liquidity pullback if retail exhausts",
+            "Mid-float (17.49M) is above Jack's sub-10M preference; liquidity may constrain rapid continuation",
+            "News released 2026-08-28, three days before move — delayed catalyst reaction is atypical and raises concern about retail FOMO vs. institutional strength",
+            "Healthcare/medical device sector prone to profit-taking; no earnings or FDA catalyst to anchor continued momentum"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NCRA",
+          "hod": 86,
+          "hodExact": 86.24,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Nocera, Inc. Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "TW",
+          "floatM": 1.93,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 1.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.93M + RelVol 70.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.93M + RelVol 70.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.89,
+          "open": 2.39,
+          "gapPct": 26.46,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.52,
+          "hodTimeExact": "11:25 AM ET",
+          "close": 2.83,
+          "fade": 19,
+          "fadeExact": 19.6,
+          "vwap": 2.7551,
+          "vsVwap": "above",
+          "pmHigh": 2.98,
+          "volRaw": "63.4M",
+          "volDollar": 174660424,
+          "relVol": 70.4,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCRA",
+          "newsSummary": "NCRA moved +86.24% with no substantive news catalyst identified. The move appears driven by structural intraday momentum on micro-float (1.93M shares) with sustained relative volume of 70.4x, consistent with China Rig pattern: afternoon HOD dominance (86% HOD retention), no premarket spike fade, and persistent institutional buying pressure throughout session rather than pump-and-dump premarket exhaustion.",
+          "bullFactors": [
+            "Micro-float at 1.93M shares — extreme leverage for intraday momentum runners",
+            "86.24% HOD retention with 70.4x relative volume signals sustained institutional accumulation, not retail pop-and-drop",
+            "Taiwan consumer defensive name with China Rig structural pattern: afternoon session HODs, high all-day volume consistency, no dilutive news overhead",
+            "Afternoon continuation strength typical of institutional rig setups — shorts likely covered into strength"
+          ],
+          "bearFactors": [
+            "No identifiable cash catalyst or real news — move is purely technical/structural, vulnerable to mean reversion",
+            "26.46% gap at open reduces intraday entry quality for fresh entries; early buyers hold all liquidity advantage",
+            "19.6% fade pct indicates material profit-taking occurred — sustainability into next session uncertain without fresh catalyst",
+            "Consumer Defensive sector and Taiwan micro-cap lack typical momentum narrative (AI, EV, Semiconductor) — theme-driven sympathy risk limited"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PASW",
+          "hod": 83,
+          "hodExact": 83.63,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Ping An Biomedical Co., Ltd. Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 11.08,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.08M + RelVol 1299.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.08M + RelVol 1299.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1307,
+          "open": 0.14,
+          "gapPct": 7.12,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.24,
+          "hodTimeExact": "11:16 AM ET",
+          "close": 0.1516,
+          "fade": 36,
+          "fadeExact": 36.83,
+          "vwap": 0.1847,
+          "vsVwap": "below",
+          "pmHigh": 0.2144,
+          "volRaw": "347.5M",
+          "volDollar": 64188136,
+          "relVol": 1299.4,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PASW",
+          "newsSummary": "PASW ran 83.63% today with no substantive news catalyst detected. This is a structural China Rig pattern—a Hong Kong-listed industrial micro-cap with sustained intraday volume (RelVol 1299.4%) and multiple session HODs printing throughout the day, indicating aggressive institutional accumulation rather than a pump-and-dump premarket spike.",
+          "bullFactors": [
+            "HOD domination at 83.63% with only 36.83% fade—strong afternoon continuation signal typical of China Rig institutional flows",
+            "Extreme relative volume (1299.4%) sustained across the session, not concentrated in premarket—confirms real money participation",
+            "Float just above preferred threshold (11.08M) with Hong Kong listing provides structural tightness for intraday runners",
+            "No dilutive news or offering risk—clean tape driven by pure buying pressure"
+          ],
+          "bearFactors": [
+            "Float slightly above Jack's <10M sweet spot, reducing scarcity advantage",
+            "No identifiable real catalyst (ER, partnership, M&A)—entire move is momentum-driven and sentiment-dependent",
+            "Hong Kong industrial sector lacks typical momentum catalysts; sustainability of this run unclear into next session",
+            "Large single-day moves (80%+) carry elevated black swan and liquidity risk on reversal or halt"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "WFF",
+          "hod": 60,
+          "hodExact": 60.46,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "WF Holding Limited Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 3.61,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$93M",
+          "riskBadges": [
+            "Float 3.61M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.72,
+          "open": 1.88,
+          "gapPct": 9.3,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.7599,
+          "hodTimeExact": "09:44 AM ET",
+          "close": 2.02,
+          "fade": 26,
+          "fadeExact": 26.81,
+          "vwap": 2.1873,
+          "vsVwap": "below",
+          "pmHigh": 1.96,
+          "volRaw": "5.8M",
+          "volDollar": 12735353,
+          "relVol": 0.8,
+          "avgVolM": 7.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WFF",
+          "newsSummary": "WFF moved +60.46% today with no substantive news catalyst identified. The move appears driven by intraday institutional accumulation and tape dynamics rather than external catalysts, with sustained HOD printing throughout the session (60% HOD vs 27% fade ratio suggests afternoon continuation strength).",
+          "bullFactors": [
+            "Micro-float at 3.61M shares — tight supply, high squeeze potential",
+            "Strong HOD dominance (60.46%) with only 26.81% fade indicates afternoon continuation and shorts blowing out",
+            "Malaysia-listed industrials micro-cap with greater_china proximity — classic structural setup for sustained intraday institutional accumulation",
+            "Relative volume at 0.8 shows consistent participation throughout session, not premarket spike fade pattern"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — move is purely structural/sympathy-driven with no real cash value or business event to anchor the advance",
+            "Gap up 9.3% suggests overnight accumulation may front-run retail, risk of early fade into close",
+            "Micro-cap industrials sector with no identifiable theme or partnership — lacks conviction-grade catalyst for sustained multi-day run",
+            "Low relative volume (0.8) despite 60% move raises liquidity concerns; thin tape could reverse violently on profit-taking"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "COOT",
+          "hod": 60,
+          "hodExact": 60.41,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Australian Oilseeds Holdings Limited Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "AU",
+          "floatM": 6.17,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$28M",
+          "riskBadges": [
+            "Float 6.17M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 6.17M + RelVol 55.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 6.17M + RelVol 55.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.46,
+          "open": 0.5801,
+          "gapPct": 26.11,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.7379,
+          "hodTimeExact": "04:01 AM ET",
+          "close": 0.5928,
+          "fade": 19,
+          "fadeExact": 19.66,
+          "vwap": 0.6227,
+          "vsVwap": "below",
+          "pmHigh": 0.7949,
+          "volRaw": "77.6M",
+          "volDollar": 48341451,
+          "relVol": 55.1,
+          "avgVolM": 1.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1959994/000121390026095086/ea0303788-6k_australian.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:COOT",
+          "newsSummary": "COOT gapped +26.11% on a Form 6-K filing dated 2026-08-28, which preceded the intraday move. The 6-K is a routine SEC disclosure for foreign private issuers and does not constitute a material cash catalyst or operational catalyst. The move appears driven by technical/momentum factors (low float, high relative volume) rather than substantive news.",
+          "bullFactors": [
+            "Extremely low float at 6.17M shares — tight supply for retail momentum push",
+            "Session HOD dominance at 60.41% with only 19.66% fade — sustained intraday strength, not premarket-spike-fade pattern",
+            "High relative volume (55.1x) indicates institutional participation and retail interest throughout session",
+            "Small market cap ($27.9M) allows meaningful move on volume accumulation"
+          ],
+          "bearFactors": [
+            "Form 6-K is a routine compliance filing, not a real cash/operational catalyst — fluff trigger",
+            "Australian stock (AU country code) — potential liquidity and regulatory friction for US day traders",
+            "Gap already executed (+26.11%) before session — limited room to fade hard but also limited upside confirmation if afternoon sellers appear",
+            "No-news/compliance-only setup increases risk of afternoon profit-taking or narrative collapse"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "YDDL",
+          "hod": 59,
+          "hodExact": 59.39,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "One and One Green Technologies. Inc Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "PH",
+          "floatM": 22.31,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$129M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.65,
+          "open": 2.375,
+          "gapPct": 43.94,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.63,
+          "hodTimeExact": "05:23 AM ET",
+          "close": 2.28,
+          "fade": 13,
+          "fadeExact": 13.31,
+          "vwap": 2.6927,
+          "vsVwap": "below",
+          "pmHigh": 4.19,
+          "volRaw": "32.7M",
+          "volDollar": 88181638,
+          "relVol": 228.2,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:YDDL",
+          "newsSummary": "YDDL is a Philippine-listed industrial microcap with no identifiable news catalyst driving today's move. The 59% HOD with 228% relative volume and 44% gap suggests structural intraday buying pressure rather than a fundamental event. This appears to be a sympathy or technical breakout pattern without substantive news support.",
+          "bullFactors": [
+            "Strong HOD dominance (59%) with afternoon continuation suggests hot tape and institutional accumulation, not premarket fade",
+            "Exceptional relative volume (228%) indicates genuine intraday interest and liquidity expansion beyond premarket noise",
+            "Gap up (44%) + sustained HOD action points to breakout setup with follow-through rather than quick exhaustion"
+          ],
+          "bearFactors": [
+            "Float tier is 'Thick' (22.3M shares) — exceeds Jack's preferred <10M and limits squeeze potential",
+            "Zero news catalyst creates vulnerability to narrative-dependent fade; move may not hold without follow-up story",
+            "Philippine listing introduces FX and liquidity risk; smaller retail following may lead to rapid unwind on profit-taking"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 168,
+      "fade": 36,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "CLGN led +168.16% (59% fade). 3/10 held <20% fade. news: CLGN — \"Form 6-K\".",
+      "aiSummary": "**TAPE SUMMARY - 2026-08-31**\n\nToday's tape is dominated by NO-NEWS names (5 of top 10) with heavy Asian/offshore concentration (CN, TW, HK, PH, MY, AU = 60% of runners), signaling a sympathy/institutional rig cycle rather than fundamental catalyst-driven action. Float structure skews micro (median 6.17M), but three names exceed the 10M threshold—notably CLGN (22.51M) and YDDL (22.31M)—which dilutes ideal setup conditions for tight-float momentum. HODs printed predominantly in morning/afternoon sessions (AEHL, NCRA, PASW, WFF, COOT all sustained intraday), indicating sustained institutional buying pressure rather than premarket spike-and-fade patterns, though RDHL, VVOS, and YDDL faded from premarket highs (43–60% drawdowns). This framework reads as HOT cycle for small-cap momentum—afternoon HOD printing, high relative volume across the board ($432M in WETO alone), and minimal gap-down reopenings suggest strong directional conviction—but the absence of real cash-value catalysts and prevalence of NO-NEWS tags means risk is elevated for trap reversal, and the playbook avoids leverage on sympathy-only setups despite tape temperature."
+    },
     {
       "date": "2026-08-28",
       "runners": [
