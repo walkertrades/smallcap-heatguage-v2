@@ -23,29 +23,41 @@ function computeHeat(entry, thresholds = DEFAULT_THRESHOLDS) {
   const hod = Number(entry.hod);
   const fade = Number(entry.fade);
 
-  // HOD subscore: piecewise — cap raised to hodHot+500 so extreme days get full credit
+  // Subscores are ANCHORED so the MIDDLE of each NEUTRAL band scores 50:
+  //   hodNeutralLo -> 25, hodHot -> 75   (band midpoint = 50)
+  //   fadeCold     -> 25, fadeHot -> 75  (band midpoint = 50, inverted)
+  // That anchoring is what makes a middle-of-the-road NEUTRAL day land on 50.
+  // The old 40/75 and 40/90 anchors put that same day at 72.
+
+  // HOD subscore: piecewise -- cap at hodHot+500 so extreme days get full credit
   let hodScore;
   if (hod >= t.hodHot + 500) hodScore = 100;
-  else if (hod >= t.hodHot + 100) hodScore = 85 + ((hod - (t.hodHot + 100)) / 400) * 15;
-  else if (hod >= t.hodHot) hodScore = 75 + ((hod - t.hodHot) / 100) * 10;
-  else if (hod >= t.hodNeutralLo) hodScore = 40 + ((hod - t.hodNeutralLo) / (t.hodHot - t.hodNeutralLo)) * 35;
-  else hodScore = Math.max(0, (hod / t.hodNeutralLo) * 40);
+  else if (hod >= t.hodHot) hodScore = 75 + ((hod - t.hodHot) / 500) * 25;
+  else if (hod >= t.hodNeutralLo) hodScore = 25 + ((hod - t.hodNeutralLo) / (t.hodHot - t.hodNeutralLo)) * 50;
+  else hodScore = Math.max(0, (hod / t.hodNeutralLo) * 25);
 
-  // Fade subscore (inverse — lower fade = hotter)
-  // Weight reduced to 25% — fade matters but shouldn't override extreme HOD tape
+  // Fade subscore (inverse -- lower fade = hotter)
   let fadeScore;
-  if (fade <= t.fadeHot) fadeScore = 90 + Math.max(0, ((t.fadeHot - fade) / t.fadeHot) * 10);
-  else if (fade <= t.fadeCold) fadeScore = 40 + ((t.fadeCold - fade) / (t.fadeCold - t.fadeHot)) * 50;
-  else fadeScore = Math.max(0, 40 - ((fade - t.fadeCold) / 40) * 40);
+  if (fade <= t.fadeHot) fadeScore = 75 + ((t.fadeHot - fade) / t.fadeHot) * 25;
+  else if (fade <= t.fadeCold) fadeScore = 25 + ((t.fadeCold - fade) / (t.fadeCold - t.fadeHot)) * 50;
+  else fadeScore = Math.max(0, 25 - ((fade - t.fadeCold) / 40) * 25);
 
-  // Timing subscore
-  let timeScore;
-  if (entry.hodTime === "session") timeScore = 90;
-  else if (entry.hodTime === "mixed") timeScore = 50;
-  else timeScore = 15; // premarket
+  // Timing is a MULTIPLIER, not a third additive subscore. 92% of days are
+  // session-led, so as an additive term it was a near-constant +22.5 that put a
+  // hard floor under every score -- the old scale bottomed out at 29, and a 50
+  // was unreachable for any session day. As a multiplier it can only ever COST
+  // a day points, which is what a premarket-led HOD actually means.
+  //
+  // NOTE "regular session" is a real value in data2.json (65 days) sitting
+  // alongside "session". The old `=== "session"` test missed it and scored
+  // those days as if they were premarket-led. "mixed" appears in no entry but
+  // is kept for hand-entered EntryForm previews.
+  const TIME_FACTOR = { "session": 1.0, "regular session": 1.0, "mixed": 0.85, "premarket": 0.6 };
+  const timeFactor = TIME_FACTOR[entry.hodTime] != null ? TIME_FACTOR[entry.hodTime] : 1.0;
 
-  // Weights: HOD 50%, fade 25%, time 25%
-  let score = Math.round((hodScore * 0.50 + fadeScore * 0.25 + timeScore * 0.25));
+  // HOD 2/3, fade 1/3 -- the same 50:25 ratio the additive version used, with
+  // the timing term lifted out into the multiplier above.
+  let score = Math.round((hodScore * (2 / 3) + fadeScore * (1 / 3)) * timeFactor);
   score = Math.max(0, Math.min(100, score));
 
   // Black swan override: HOD >= 300% with high fades = still HOT tape,
@@ -69,16 +81,12 @@ function computeHeat(entry, thresholds = DEFAULT_THRESHOLDS) {
     state = "NEUTRAL";
   }
 
-  // Premarket applies a small score penalty but doesn't force COLD
-  if (entry.hodTime === "premarket") {
-    score = Math.max(0, score - 10);
-  }
 
   return {
     score,
     state,
     isBlackSwan,
-    sub: { hodScore: Math.round(hodScore), fadeScore: Math.round(fadeScore), timeScore },
+    sub: { hodScore: Math.round(hodScore), fadeScore: Math.round(fadeScore), timeFactor },
   };
 }
 
@@ -182,14 +190,14 @@ function heatColor(score) {
 
 // Visual zone boundaries in score. Shared by the radial gauge's arc highlight
 // and the trend chart's gridlines, so the chart's bands line up with the dial's.
-const HEAT_ZONE_EDGE = { coldTop: 45, hotBottom: 62 };
+const HEAT_ZONE_EDGE = { coldTop: 45, hotBottom: 69 };
 
-// Trend-chart y-axis. RE-DERIVED 2026-09-01 for the 200/125 thresholds.
-//   across 1,039 days: min 29 | p1 48 | median 83 | p95 96 | p99 96 | max 97
-// The distribution is TOP-HEAVY (26% of days score above 90), so a 95 ceiling
-// would clamp 115 days (11.1%) flat against the top edge. 30-97 clips nothing
-// above and one day below. Values outside are CLAMPED, never dropped.
-const HEAT_AXIS = { min: 30, max: 97 };
+// Trend-chart y-axis. RE-DERIVED 2026-09-01 for the 50-anchored scale.
+//   across 1,039 days: min 22 | p1 33 | p25 49 | median 76 | p95 95 | max 98
+// Re-anchoring stretched the scale back out (it used to bottom out at 29),
+// so the axis has to widen with it. 20-98 clips nothing at either end.
+// Values outside the range are CLAMPED, never dropped.
+const HEAT_AXIS = { min: 20, max: 98 };
 
 Object.assign(window, {
   computeHeat, computeStreak, RULES, DEFAULT_THRESHOLDS,

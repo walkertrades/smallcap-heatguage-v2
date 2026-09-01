@@ -624,7 +624,7 @@ function HodTimeDistribution({ entries, predicate, selected, onSelect, range: ra
 function HeatTrend({ series }) {
   const data = window.heatCalendar(series, 30);
   const AX = window.HEAT_AXIS || { min: 30, max: 95 };
-  const ZONE = window.HEAT_ZONE_EDGE || { coldTop: 45, hotBottom: 62 };
+  const ZONE = window.HEAT_ZONE_EDGE || { coldTop: 45, hotBottom: 69 };
   const W = 320, H = 70, pad = 6;
   const n = data.length;
   const x = (i) => pad + (n <= 1 ? 0 : (i / (n - 1)) * (W - 2 * pad));

@@ -30,7 +30,7 @@ function useSpring(target, { stiffness = 0.12, damping = 0.78 } = {}) {
 // Visual zone boundaries (in score): COLD 0–45 · NEUTRAL 45–62 · HOT 62–100.
 // Sourced from scoring.jsx so the trend chart's gridlines land on the same
 // boundaries as this dial's zones.
-const ZONE_EDGE = window.HEAT_ZONE_EDGE || { coldTop: 45, hotBottom: 62 };
+const ZONE_EDGE = window.HEAT_ZONE_EDGE || { coldTop: 45, hotBottom: 69 };
 function scoreToDeg(score) { return clampS(score, 0, 100) / 100 * 180; }
 function clampS(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
 function gaugeZone(score) {
