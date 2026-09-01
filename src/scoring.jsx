@@ -2,8 +2,8 @@
 // Exported to window so other Babel scripts can use it.
 
 const DEFAULT_THRESHOLDS = {
-  hodHot: 150,        // avg HOD > 150 counts toward HOT
-  hodNeutralLo: 100,  // 100-150 is NEUTRAL territory
+  hodHot: 300,        // avg HOD >= 300 counts toward HOT
+  hodNeutralLo: 150,  // 150-300 is NEUTRAL territory; below 150 is COLD
   fadeHot: 25,        // fade < 25 counts toward HOT
   fadeCold: 40,       // fade > 40 counts toward COLD
 };
@@ -181,14 +181,15 @@ function heatColor(score) {
 // and the trend chart's gridlines, so the chart's bands line up with the dial's.
 const HEAT_ZONE_EDGE = { coldTop: 45, hotBottom: 62 };
 
-// Trend-chart y-axis. Measured over all 1,028 days in data2.json on 2026-08-15:
-//   min 32 · p1 42 · p25 57 · median 61 · p75 68 · p99 88 · max 96
-//   0.00% of days below 30, 0.68% above 90.
-// A 0–100 axis therefore spent a third of its height on empty space. 30–95 is
-// the tightest range that clips nothing in a current 30-day window (2 days in
-// four years touch the ceiling) while cutting wasted height by 35%.
+// Trend-chart y-axis. RE-DERIVED 2026-08-26, when the HOD thresholds moved to
+// 300/150. The previous 30-95 axis was measured against the OLD distribution,
+// which no longer exists - keeping it would have clipped real days.
+//   under 300/150 across 1,010 days:
+//   min 22 | p1 30 | p5 42 | p25 53 | median 56 | p75 59 | p95 67 | p99 80 | max 96
+// The whole distribution shifted DOWN about 7 points. 20-90 clips 4 days in four
+// years (0.4%) and none in a current 30-day window.
 // Values outside the range are CLAMPED to the edge, never dropped.
-const HEAT_AXIS = { min: 30, max: 95 };
+const HEAT_AXIS = { min: 20, max: 90 };
 
 Object.assign(window, {
   computeHeat, computeStreak, RULES, DEFAULT_THRESHOLDS,

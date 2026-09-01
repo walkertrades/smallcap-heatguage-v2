@@ -2,8 +2,8 @@
 const { useState: useState_Tw, useEffect: useEffect_Tw } = React;
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-  "hodHot": 150,
-  "hodNeutralLo": 100,
+  "hodHot": 300,
+  "hodNeutralLo": 150,
   "fadeHot": 25,
   "fadeCold": 40
 }/*EDITMODE-END*/;
@@ -41,13 +41,13 @@ function TweaksPanel({ visible, tweaks, setTweaks, onClose }) {
 
       <div className="tweaks-field">
         <label><span>HOT HOD ≥</span><span>{tweaks.hodHot}%</span></label>
-        <input type="range" min="80" max="300" step="5" value={tweaks.hodHot}
+        <input type="range" min="100" max="600" step="10" value={tweaks.hodHot}
           onChange={(e) => update("hodHot", e.target.value)} />
       </div>
 
       <div className="tweaks-field">
         <label><span>NEUTRAL HOD ≥</span><span>{tweaks.hodNeutralLo}%</span></label>
-        <input type="range" min="40" max="200" step="5" value={tweaks.hodNeutralLo}
+        <input type="range" min="50" max="400" step="10" value={tweaks.hodNeutralLo}
           onChange={(e) => update("hodNeutralLo", e.target.value)} />
       </div>
 
