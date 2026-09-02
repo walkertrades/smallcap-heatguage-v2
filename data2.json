@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-01T11:05:34.637492Z",
-  "count": 9750,
+  "exportedAt": "2026-09-02T10:53:47.778389Z",
+  "count": 9760,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1042 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-01",
+      "runners": [
+        {
+          "sym": "FLYE",
+          "hod": 105,
+          "hodExact": 105.15,
+          "news": [
+            "Fly-E Group, Inc. Announces First Quarter of Fiscal Year 2027 Financial Results",
+            "Form 10-Q"
+          ],
+          "tag": "EARNINGS",
+          "name": "Fly-E Group, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 1.58,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.58M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.58M + RelVol 8625.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.58M + RelVol 8625.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.36,
+          "open": 1.8,
+          "gapPct": 32.35,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.79,
+          "hodTimeExact": "05:38 AM ET",
+          "close": 2.2,
+          "fade": 21,
+          "fadeExact": 21.15,
+          "vwap": 2.237,
+          "vsVwap": "below",
+          "pmHigh": 3.97,
+          "volRaw": "82.4M",
+          "volDollar": 184232150,
+          "relVol": 8625.9,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Fly-E Group, Inc. Announces First Quarter of Fiscal Year 2027 Financial Results",
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "Fly-E Group, Inc. Announces First Quarter of Fiscal Year 2027 Financial Results",
+              "url": "https://www.stocktitan.net/news/FLYE/fly-e-group-inc-announces-first-quarter-of-fiscal-year-2027-9qoi5xbtaoez.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T21:38:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1975940/000121390026096305/ea0304051-10q_flyegroup.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FLYE",
+          "newsSummary": "FLYE reported Q1 FY2027 earnings and filed 10-Q after the session high was already set, meaning the news followed the move rather than caused it. The 105% HOD gain and 32% gap suggest intraday institutional accumulation and retail continuation, not an earnings-driven spike.",
+          "bullFactors": [
+            "Extremely tight float at 1.58M shares — classic micro-cap runner conditions with high leverage",
+            "Massive relative volume (8625.9x) and 105% HOD on sustained intraday action, not a premarket fade — suggests real institutional buying throughout the session",
+            "Gap up 32% into the open with continued strength to HOD indicates conviction and room to run; no evidence of heavy overhead resistance",
+            "News came after the high, meaning tape and technicals drove the move first — institutional positioning likely ahead of earnings release"
+          ],
+          "bearFactors": [
+            "Fade of 21% from HOD shows sell pressure and profit-taking; need to monitor if support holds or if afternoon push resumes",
+            "Earnings released after market high — if results disappoint or guidance is weak, post-market or next session could see sharp reversal",
+            "No detail provided on earnings quality (revenue growth, profitability, forward guidance) — cannot confirm if cash catalyst is real or just a pop-and-drop on typical small-cap volatility",
+            "Consumer Cyclical sector with micro-cap valuation ($3.6M market cap) carries elevated execution risk and liquidity concerns on reversals"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BIAF",
+          "hod": 88,
+          "hodExact": 88.6,
+          "news": [
+            "Form 8-K",
+            "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors",
+            "S-3 shelf"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "bioAffinity Technologies, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.59,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 0.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.59M + RelVol 73.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.59M + RelVol 73.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.56,
+          "open": 7.72,
+          "gapPct": 69.3,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.6,
+          "hodTimeExact": "09:38 AM ET",
+          "close": 6.59,
+          "fade": 23,
+          "fadeExact": 23.37,
+          "vwap": 7.1544,
+          "vsVwap": "below",
+          "pmHigh": 8.43,
+          "volRaw": "46.4M",
+          "volDollar": 331917463,
+          "relVol": 73.5,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors",
+            "S-3 shelf"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226041020/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors",
+              "url": "https://www.stocktitan.net/news/BIAF/bio-affinity-technologies-advances-cy-path-lung-for-surveillance-of-p5vwu0whag0s.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "S-3 shelf",
+              "url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226040412/forms-3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BIAF",
+          "newsSummary": "BIAF gapped 69.3% on a daytime PR announcing advancement of its CyPath® Lung surveillance diagnostic, paired with an S-3 shelf filing dated 2 days prior. The Form 8-K filed after the session HOD is reactive, not causal. The real catalyst is the clinical/commercial update on a FDA-track biotech product, but the S-3 shelf raises dilution concerns that typically cap upside in micro-caps.",
+          "bullFactors": [
+            "Nano float (0.59M) — extreme leverage if institutional demand holds",
+            "88.6% HOD print rate signals sustained session strength and short covering, not premarket-only fade",
+            "73.5x relative volume shows real intraday accumulation, not flash spike",
+            "Product advancement (CyPath Lung) is tangible and on-label — real cash catalyst, not sympathy"
+          ],
+          "bearFactors": [
+            "S-3 shelf filed 2 days ago signals equity raise risk — dilution overhang suppresses ceiling",
+            "69.3% gap open leaves limited room to run before profit-taking and resistance overhead",
+            "Nano-cap biotech with micro float is volatile and illiquid on down days — exit liquidity is critical risk",
+            "Form 8-K after HOD suggests institutional insiders may have been selling into strength"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "RDAC",
+          "hod": 88,
+          "hodExact": 88.16,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Rising Dragon Acquisition Corp. Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 1.93,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$22M",
+          "riskBadges": [
+            "Float 1.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.93M + RelVol 26.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.93M + RelVol 26.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.56,
+          "open": 4.9,
+          "gapPct": 7.46,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.58,
+          "hodTimeExact": "11:11 AM ET",
+          "close": 6.45,
+          "fade": 24,
+          "fadeExact": 24.83,
+          "vwap": 7.0298,
+          "vsVwap": "below",
+          "pmHigh": 7.8841,
+          "volRaw": "24.4M",
+          "volDollar": 171495275,
+          "relVol": 26.8,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RDAC",
+          "newsSummary": "RDAC ran 88% HOD with zero reported catalysts, suggesting purely structural momentum on a micro-cap Chinese name with 1.93M float. The 26.8x relative volume and sustained session HODs indicate intraday institutional accumulation rather than a premarket spike fade, consistent with China rig pattern behavior.",
+          "bullFactors": [
+            "Ultra-tight float at 1.93M — textbook micro-cap float tier for explosive intraday runs",
+            "88% HOD achievement with 26.8x relative volume signals sustained institutional buying pressure throughout session, not a one-minute spike",
+            "Tape temperature is HOT: session HODs dominating, typical of China rig continuation plays with afternoon strength",
+            "Only 7.46% gap at open gave room for intraday expansion and dip/soak accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Zero catalyst — pure structural/sympathy run with no fundamental anchor; vulnerable to sudden liquidity drain",
+            "Chinese micro-cap with no news carries elevated black swan risk and regulatory uncertainty",
+            "24.83% fade suggests intraday sellers present; needs sustained afternoon volume to avoid late-session collapse",
+            "No daily chart overhead analysis available, but overnight gap and high HOD suggest limited room on further upside without resistance test"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SSM",
+          "hod": 86,
+          "hodExact": 86.19,
+          "news": [
+            "Sono Group N.V. and Sports One Sign Letter of Intent to Combine and Expand into Professional Sports Franchise Ownership",
+            "Merger comms",
+            "Form 8-K"
+          ],
+          "tag": "MERGER",
+          "name": "Sono Group N.V. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "DE",
+          "floatM": 1.03,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 1.03M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.68,
+          "open": 3.75,
+          "gapPct": 39.93,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 4.99,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 4.755,
+          "fade": 4,
+          "fadeExact": 4.71,
+          "vwap": 4.2277,
+          "vsVwap": "above",
+          "pmHigh": 4.77,
+          "volRaw": "34.4M",
+          "volDollar": 145494812,
+          "relVol": 67.3,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Sono Group N.V. and Sports One Sign Letter of Intent to Combine and Expand into Professional Sports Franchise Ownership",
+            "Merger comms",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Sono Group N.V. and Sports One Sign Letter of Intent to Combine and Expand into Professional Sports Franchise Ownership",
+              "url": "https://www.stocktitan.net/news/SSM/sono-group-n-v-and-sports-one-sign-letter-of-intent-to-combine-and-k7l48015g7k6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-31T21:21:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/1840416/000117184326005809/f425_083126.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-31T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1840416/000117184326005808/f8k_083126.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-31T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SSM",
+          "newsSummary": "SSM announced a Letter of Intent to combine with Sports One and expand into professional sports franchise ownership. The catalyst dropped before market open (2026-08-31 21:21 UTC), making it a pre-market news event. The merger itself represents a material corporate action, but lacks detail on valuation, deal structure, or cash consideration — typical of LOI stage announcements that carry execution risk.",
+          "bullFactors": [
+            "Micro float (1.03M shares) — extremely tight supply, high leverage for intraday moves",
+            "HOD dominance at 86.19% with 67.3x relative volume — sustained buying pressure throughout session, not a premarket fade pattern",
+            "39.93% gap + 4.71% fade suggests strong institutional accumulation overnight; tape holding firm intraday",
+            "Merger/expansion into sports franchise ownership is a tangible (non-dilutive) corporate action with real asset intent"
+          ],
+          "bearFactors": [
+            "LOI stage only — no binding agreement, financing terms, or deal certainty; material execution risk",
+            "Consumer Cyclical sector + German domicile (DE) — lower institutional follow-through typical for retail-driven small-caps",
+            "News arrived before market open; intraday continuation driven by momentum/tape strength, not fresh catalyst depth",
+            "No financials, cash position, or Sports One credibility disclosed — LOI lacks the specificity of a real cash deal"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "PETZ",
+          "hod": 56,
+          "hodExact": 56.52,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "TDH Holdings, Inc. Common Shares",
+          "sector": "Real Estate",
+          "country": "CN",
+          "floatM": 3.46,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 3.46M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.46M + RelVol 20.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.46M + RelVol 20.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.15,
+          "open": 1.35,
+          "gapPct": 17.39,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.8,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 1.48,
+          "fade": 17,
+          "fadeExact": 17.78,
+          "vwap": 1.4848,
+          "vsVwap": "below",
+          "pmHigh": 1.63,
+          "volRaw": "11.6M",
+          "volDollar": 17280484,
+          "relVol": 20.6,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PETZ",
+          "newsSummary": "PETZ ran 56.52% today with no substantive news catalyst identified. The move appears driven by pure intraday institutional accumulation and momentum in a micro-float Chinese name, consistent with the 'China Rig' structural pattern: sustained high relative volume (20.6x), afternoon HOD dominance, and controlled fade (17.78%) rather than premarket spike collapse.",
+          "bullFactors": [
+            "Micro float (3.46M shares) with 20.6x relative volume — tight structure amplifies institutional buying pressure",
+            "Strong HOD dominance (56.52% of move in HOD) with controlled fade (17.78%) — tape shows continuation strength, not premarket exhaustion",
+            "China Rig structural setup: sustained intraday accumulation across multiple session HODs, afternoon strength signature, zero dilution signals",
+            "Real Estate sector micro-cap with low overhead and no warrant/convertible/ATM complications on daily chart"
+          ],
+          "bearFactors": [
+            "No news catalyst or fundamental trigger — move is entirely momentum/structural, increasing black swan risk and liquidity spillover concern",
+            "China-listed micro-cap with regulatory/delisting tail risk inherent to OTC Chinese small-caps",
+            "Gap up (17.39%) consumed significant fuel before HOD; follow-through continuation into next session is unproven",
+            "No-news momentum runners can reverse hard on profit-taking or rotation; entry timing is critical to avoid fade participation"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "WETO",
+          "hod": 54,
+          "hodExact": 54.01,
+          "news": [
+            "Wetour Robotics Demonstrates sEMG-Vision System Targeting Force and Occlusion Blind Spots in Physical AI Training",
+            "Form 6-K",
+            "424B5 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Wetour Robotics Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.67,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 0.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.48,
+          "open": 7.685,
+          "gapPct": 40.24,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.44,
+          "hodTimeExact": "09:34 AM ET",
+          "close": 5.94,
+          "fade": 29,
+          "fadeExact": 29.62,
+          "vwap": 6.9363,
+          "vsVwap": "below",
+          "pmHigh": 8.2,
+          "volRaw": "14.6M",
+          "volDollar": 101027577,
+          "relVol": 1.8,
+          "avgVolM": 8.0,
+          "ssr": false,
+          "reverseSplit": "100:1",
+          "newsHeadlines": [
+            "Wetour Robotics Demonstrates sEMG-Vision System Targeting Force and Occlusion Blind Spots in Physical AI Training",
+            "Form 6-K",
+            "424B5 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Wetour Robotics Demonstrates sEMG-Vision System Targeting Force and Occlusion Blind Spots in Physical AI Training",
+              "url": "https://www.stocktitan.net/news/WETO/wetour-robotics-demonstrates-s-emg-vision-system-targeting-force-and-y6j28wdt1zsu.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026093731/ea0303201-6k_wetour.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026093723/ea0303200-424b5_wetour.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.8,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WETO",
+          "newsSummary": "WETO spiked 40% on gap with a PR about sEMG-Vision AI robotics demo, but a 424B5 offering filed on 2026-08-26 preceded the move. The offering is dilutive and undermines the setup quality—this is a classic offering overhang that explains the 29.62% fade and high session volatility despite intraday HOD strength.",
+          "bullFactors": [
+            "Nano float (0.67M) provides mechanical leverage for sustained intraday moves",
+            "Session HOD 54% above open suggests afternoon institutional accumulation before retail push",
+            "AI/Robotics theme has structural appeal; sEMG-Vision for physical AI is differentiated IP"
+          ],
+          "bearFactors": [
+            "424B5 offering creates dilution risk and is a red flag for real cash strength—classic pump before dilution",
+            "29.62% fade despite 54% HOD indicates heavy distribution and weak close relative to intraday move",
+            "Premarket gap 40% + PR at noon = retail fomo chase, not institutional setup; timing is unfavorable"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "OLOX",
+          "hod": 47,
+          "hodExact": 47.09,
+          "news": [
+            "Olenox Begins Natural Gas-Powered Digital Infrastructure Field Execution Phase",
+            "Olenox Industries Highlights Transformational Year and Expanding Energy-to-Compute Platform"
+          ],
+          "tag": "CONTRACT",
+          "name": "Olenox Industries Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 1.65,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9926,
+          "open": 1.02,
+          "gapPct": 2.76,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.46,
+          "hodTimeExact": "01:21 PM ET",
+          "close": 1.1,
+          "fade": 24,
+          "fadeExact": 24.66,
+          "vwap": 1.2655,
+          "vsVwap": "below",
+          "pmHigh": 1.04,
+          "volRaw": "24.2M",
+          "volDollar": 30625532,
+          "relVol": 13.3,
+          "avgVolM": 1.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Olenox Begins Natural Gas-Powered Digital Infrastructure Field Execution Phase",
+            "Olenox Industries Highlights Transformational Year and Expanding Energy-to-Compute Platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Olenox Begins Natural Gas-Powered Digital Infrastructure Field Execution Phase",
+              "url": "https://www.stocktitan.net/news/OLOX/olenox-begins-natural-gas-powered-digital-infrastructure-field-9aayi6fpapqq.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T12:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Olenox Industries Highlights Transformational Year and Expanding Energy-to-Compute Platform",
+              "url": "https://www.stocktitan.net/news/OLOX/olenox-industries-highlights-transformational-year-and-expanding-bmilm5vnuxv7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-26T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OLOX",
+          "newsSummary": "Olenox announced field execution phase for its natural gas-powered digital infrastructure platform after the session's high was already set, making the news reactive rather than causal. The catalyst is real—a tangible transition from concept to deployment—but it followed the move, suggesting institutional positioning and tape strength preceded the announcement.",
+          "bullFactors": [
+            "Ultra-micro float at 1.65M shares creates velocity and squeeze potential on sustained volume",
+            "47% session HOD with 13.3x relative volume indicates genuine institutional accumulation, not premarket spike-fade pattern",
+            "Real execution catalyst (field deployment phase) adds credibility to the energy-to-compute thesis, not dilutive fluff",
+            "Only 24.66% fade after HOD suggests afternoon tape remained hot and shorts were pressured late"
+          ],
+          "bearFactors": [
+            "News arrived after the high (relative_to_high='after'), confirming the move was driven by tape/positioning, not disclosure—reduces forward catalyst momentum",
+            "Small market cap ($1.85M) and micro-float create liquidity risk on any gap-down or sector rotation",
+            "Energy-to-compute narrative is nascent and unproven at scale; execution risk on field deployment remains high"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "ZEO",
+          "hod": 46,
+          "hodExact": 46.82,
+          "news": [
+            "Zeo Energy Corp. To Present at The Moody Capital Disruptive Growth & Life Sciences Conference on September 10, 2026"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Zeo Energy Corporation Class A Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 42.05,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2377,
+          "open": 0.2424,
+          "gapPct": 1.98,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.349,
+          "hodTimeExact": "10:08 AM ET",
+          "close": 0.2106,
+          "fade": 39,
+          "fadeExact": 39.66,
+          "vwap": 0.2479,
+          "vsVwap": "below",
+          "pmHigh": 0.257,
+          "volRaw": "25.2M",
+          "volDollar": 6235417,
+          "relVol": 71.0,
+          "avgVolM": 0.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Zeo Energy Corp. To Present at The Moody Capital Disruptive Growth & Life Sciences Conference on September 10, 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "Zeo Energy Corp. To Present at The Moody Capital Disruptive Growth & Life Sciences Conference on September 10, 2026",
+              "url": "https://www.stocktitan.net/news/ZEO/zeo-energy-corp-to-present-at-the-moody-capital-disruptive-growth-zth5dkpvzyc9.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T13:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZEO",
+          "newsSummary": "ZEO announced a September 10 conference presentation—a minor corporate event with no material catalyst. The 46.82% HOD and sustained 71x relative volume suggest intraday institutional accumulation and continuation strength rather than news-driven spike. This is a structural tape play, not a catalyst-driven move.",
+          "bullFactors": [
+            "Strong HOD dominance (46.82%) with afternoon continuation — tape is hot, shorts likely squeezed",
+            "High relative volume (71x) sustained throughout session — institutional buying pressure, not premarket pop-and-fade",
+            "Low gap (1.98%) + minimal fade (39.66%) — price held intraday, institutional buyers holding through retail selling",
+            "Energy sector momentum backdrop; small market cap ($12.5M) provides acceleration potential on thin float (42M)"
+          ],
+          "bearFactors": [
+            "Float of 42M shares is above Jack's preferred <10M threshold — liquidity thinner but not ideal for tight stops",
+            "Catalyst is pure fluff (conference presentation in 9 days) — no earnings, deal, or real cash event",
+            "No substantive business narrative in theme — relies entirely on sector sympathy or tape momentum",
+            "Late-session HOD print relative to news timing (news 'before' high) suggests move may have been internal tape-driven; risk of overnight fade or morning pullback"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MIRA",
+          "hod": 42,
+          "hodExact": 42.82,
+          "news": [
+            "Form 8-K",
+            "MIRA Pharmaceuticals Advances Non-Opioid Oral MIRA-55 for Inflammatory Pain Toward IND"
+          ],
+          "tag": "FDA",
+          "name": "MIRA Pharmaceuticals, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 32.93,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$37M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7702,
+          "open": 0.74,
+          "gapPct": -3.92,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.1,
+          "hodTimeExact": "11:32 AM ET",
+          "close": 0.86,
+          "fade": 21,
+          "fadeExact": 21.82,
+          "vwap": 0.9587,
+          "vsVwap": "below",
+          "pmHigh": 0.8199,
+          "volRaw": "29.3M",
+          "volDollar": 28071787,
+          "relVol": 385.9,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "MIRA Pharmaceuticals Advances Non-Opioid Oral MIRA-55 for Inflammatory Pain Toward IND"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1904286/000149315226040930/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "MIRA Pharmaceuticals Advances Non-Opioid Oral MIRA-55 for Inflammatory Pain Toward IND",
+              "url": "https://www.stocktitan.net/news/MIRA/mira-pharmaceuticals-advances-non-opioid-oral-mira-55-for-jx60i6hmo73z.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MIRA",
+          "newsSummary": "MIRA announced advancement of non-opioid oral MIRA-55 toward IND filing for inflammatory pain, a real clinical-stage catalyst with genuine cash-value potential. The 42.82% HOD gain with 21.82% fade and strong 385.9x relative volume suggests institutional accumulation into the news followed by retail profit-taking, but the Form 8-K filing after the move indicates reactive disclosure rather than news-driven spike.",
+          "bullFactors": [
+            "Real clinical-stage catalyst: IND pathway for non-opioid pain asset has genuine pharmaceutical value and addresses large market",
+            "Strong intraday relative volume (385.9x) with HOD printing before fade — institutional accumulation signature, not pump",
+            "Fade to 21.82% suggests dip-soak setup for next leg; EOD VWAP hold would signal institutional buyers defending",
+            "Non-opioid pain space has strong investor sentiment; clinical advancement de-risks pipeline uncertainty vs sympathy plays"
+          ],
+          "bearFactors": [
+            "Float of 32.93M is WELL above Jack's <10M preference — thick float limits intraday velocity and HOD extension",
+            "Negative gap (-3.92%) into the move reduces setup quality; ideal setup would be flat/positive gap into news",
+            "42.82% HOD pct with 21.82% fade = 21pt swing window already captured; limited room for additional continuation without new catalyst",
+            "Form 8-K filed AFTER the high suggests news may have leaked or been telegraphed; reduced surprise factor limits follow-through"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "LIDR",
+          "hod": 42,
+          "hodExact": 42.61,
+          "news": [
+            "Form 8-K",
+            "AEye’s Apollo™ Lidar Selected by Lunar Outpost for Pegasus Lunar Terrain Vehicle, Opening a New Market Category in Space Mobility"
+          ],
+          "tag": "CONTRACT",
+          "name": "AEye, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 46.34,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$69M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.15,
+          "open": 1.575,
+          "gapPct": 36.96,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.64,
+          "hodTimeExact": "08:39 AM ET",
+          "close": 1.47,
+          "fade": 10,
+          "fadeExact": 10.37,
+          "vwap": 1.5343,
+          "vsVwap": "below",
+          "pmHigh": 1.81,
+          "volRaw": "130.0M",
+          "volDollar": 199444294,
+          "relVol": 150.7,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "AEye’s Apollo™ Lidar Selected by Lunar Outpost for Pegasus Lunar Terrain Vehicle, Opening a New Market Category in Space Mobility"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818644/000121390026095950/ea0304151-8k_aeye.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "AEye’s Apollo™ Lidar Selected by Lunar Outpost for Pegasus Lunar Terrain Vehicle, Opening a New Market Category in Space Mobility",
+              "url": "https://www.stocktitan.net/news/LIDR/a-eye-s-apollo-tm-lidar-selected-by-lunar-outpost-for-pegasus-lunar-vi9jjjt1c5no.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Space",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.72,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LIDR",
+          "newsSummary": "AEye announced its Apollo™ Lidar was selected by Lunar Outpost for the Pegasus Lunar Terrain Vehicle, opening a new market category in space mobility. This is a real, named contract with credible aerospace/space partner (Lunar Outpost), not sympathy or fluff. The 8-K filed after the move confirms regulatory acknowledgment of the deal.",
+          "bullFactors": [
+            "Real contract catalyst with named partner (Lunar Outpost) entering new market category (lunar vehicles) — substantive business win, not sympathy",
+            "HOD dominated with 42.61% gain and only 10.37% fade, showing sustained institutional conviction and late-session continuation strength",
+            "150.7% relative volume indicates explosive intraday momentum with retail participation following institutional setup",
+            "Space/AI/Defense theme alignment (Lidar + aerospace) appeals to both thematic flows and defense/space subsector rotation"
+          ],
+          "bearFactors": [
+            "Float of 46.34M is well above Jack's <10M preference and into 'Thick' territory — liquidity is less constrained, reduces scarcity premium and follow-through potential",
+            "Gap of 36.96% suggests heavy premarket spike; if most of move occurred in early minutes, intraday continuation room is already consumed",
+            "Single contract win, however real, does not guarantee revenue near-term or material margin impact — execution risk remains",
+            "No earnings, no major partnership with Tier-1 name (Tesla, SpaceX, Nvidia) — Lunar Outpost is credible but not a household name that drives retail FOMO"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 105,
+      "fade": 21,
+      "hodTime": "premarket",
+      "theme": "Choppy Mixed",
+      "note": "FLYE led +105.15% (21% fade). 3/10 held <20% fade. news: FLYE — \"Fly-E Group, Inc. Announces First Quarter of Fiscal Year 2027 Financial Results\".",
+      "aiSummary": "Earnings and compliance catalysts dominate today's tape, with heavy US representation (7/10) concentrated in Consumer Cyclical and Healthcare sectors, but the float tier is severely compromised—only three names under 5M shares (BIAF 0.59M, SSM 1.03M, WETO 0.67M) while ZEO and MIRA bloat the list at 42M and 33M respectively, disqualifying them from the core playbook. Session HODs split unfavorably: premarket spikes control four names (FLYE 105%, LIDR, SSM, PETZ), while only BIAF, RDAC, and WETO posted morning/afternoon HODs with sustained volume, signaling a COLD cycle tape with heavy fade risk. BIAF stands as the rare A-grade setup—0.59M float, compliance catalyst bounce (real cash event), morning HOD, $331M vol dollar—but momentum traders should flag FLYE and WETO as dangerous premarket-dominated runners likely to compress hard into noon, and note RDAC as a potential China rig pattern (NO-NEWS tag, morning sustain, 1.93M float) worth monitoring for afternoon institutional continuation before committing capital."
+    },
     {
       "date": "2026-08-31",
       "runners": [
