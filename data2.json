@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-02T10:53:47.778389Z",
-  "count": 9760,
+  "exportedAt": "2026-09-03T11:36:25.021502Z",
+  "count": 9770,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1007 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-02",
+      "runners": [
+        {
+          "sym": "FAMI",
+          "hod": 321,
+          "hodExact": 321.23,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Farmmi, Inc. Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 43.82,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1187,
+          "open": 0.118,
+          "gapPct": -0.59,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.5,
+          "hodTimeExact": "10:48 AM ET",
+          "close": 0.1501,
+          "fade": 69,
+          "fadeExact": 69.98,
+          "vwap": 0.2463,
+          "vsVwap": "below",
+          "pmHigh": 0.12,
+          "volRaw": "872.7M",
+          "volDollar": 214939421,
+          "relVol": 74.7,
+          "avgVolM": 11.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1701261/000147793226005284/fami_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FAMI",
+          "newsSummary": "FAMI filed a routine Form 6-K with the SEC on 2026-08-27, five days before this 321% move, making it a reactive disclosure rather than a catalyst. The gap is negative (-0.59%), indicating the move was purely intraday momentum-driven with no fresh substantive news triggering the session.",
+          "bullFactors": [
+            "Sustained intraday HOD dominance: 321% gain with only 70% fade suggests strong afternoon continuation and shorts covering — classic hot cycle signature",
+            "High relative volume (74.7x) maintained throughout session, consistent with institutional accumulation pattern rather than pump spike",
+            "China-domiciled micro-cap (float 43.82M, market cap $7.2M) with structural rig characteristics — matches Jack's framework for aggressive intraday institutional buying"
+          ],
+          "bearFactors": [
+            "No real cash catalyst — Form 6-K is routine regulatory filing, not earnings, partnership, or M&A; move is purely technical/sympathy-driven",
+            "Float tier is 'Thick' (43.82M shares), above Jack's preferred <10M threshold, reducing scarcity pressure and increasing fade risk on next session",
+            "Negative gap suggests premarket was weak; intraday reversal into HOD run creates potential morning fade trap for retail chasing into close"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SGLD",
+          "hod": 178,
+          "hodExact": 178.54,
+          "news": [
+            "Form 6-K",
+            "Scorpio Gold Clarifies Trading Halt",
+            "Scorpio Gold Drills 3.02 g/t Gold over 48.92 Metres from 118.87 Metres and 1.19 g/t Gold over 99.94 Metres from 98.61 Metres at the Goldwedge Target at Manhattan",
+            "Scorpio Gold Commences Trading of Its American Depositary Shares on the NASDAQ Capital Market Under Ticker Symbol \"SGLD\""
+          ],
+          "tag": "HALT-RESUME",
+          "name": "Scorpio Gold Corporation American Depositary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 14.12,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$116M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.08,
+          "open": 14.01,
+          "gapPct": 175.79,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 14.15,
+          "hodTimeExact": "04:03 AM ET",
+          "close": 7.23,
+          "fade": 48,
+          "fadeExact": 48.9,
+          "vwap": 13.6962,
+          "vsVwap": "below",
+          "pmHigh": 31.78,
+          "volRaw": "9.9M",
+          "volDollar": 135059009,
+          "relVol": 6.4,
+          "avgVolM": 1.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Scorpio Gold Clarifies Trading Halt",
+            "Scorpio Gold Drills 3.02 g/t Gold over 48.92 Metres from 118.87 Metres and 1.19 g/t Gold over 99.94 Metres from 98.61 Metres at the Goldwedge Target at Manhattan",
+            "Scorpio Gold Commences Trading of Its American Depositary Shares on the NASDAQ Capital Market Under Ticker Symbol \"SGLD\""
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1467093/000175392626001694/g085928_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Scorpio Gold Clarifies Trading Halt",
+              "url": "https://www.stocktitan.net/news/SGLD/scorpio-gold-clarifies-trading-fjd8yf6x1xh0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-02T18:11:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Scorpio Gold Drills 3.02 g/t Gold over 48.92 Metres from 118.87 Metres and 1.19 g/t Gold over 99.94 Metres from 98.61 Metres at the Goldwedge Target at Manhattan",
+              "url": "https://www.stocktitan.net/news/SGLD/scorpio-gold-drills-3-02-g-t-gold-over-48-92-metres-from-118-87-76z6w5zb1y9l.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-02T10:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Scorpio Gold Commences Trading of Its American Depositary Shares on the NASDAQ Capital Market Under Ticker Symbol \"SGLD\"",
+              "url": "https://www.stocktitan.net/news/SGLD/scorpio-gold-commences-trading-of-its-american-depositary-shares-on-66t11urcdubx.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T20:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Gold/Silver",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SGLD",
+          "newsSummary": "SGLD commenced NASDAQ trading on 2026-09-01 after a trading halt clarification, then ran 178.54% intraday on 2026-09-02 with a 175.79% gap. Drilling results (3.02 g/t gold over 48.92m) released pre-market provided a real catalyst, but the halt-resume and listing transition appear to be the structural driver of the move. The news has legitimate merit—assay results from the Goldwedge target are substantive—but timing relative to the gap and halt suggests the market was repricing the stock on new exchange access and liquidity.",
+          "bullFactors": [
+            "Real cash catalyst: drilling assay results (3.02 g/t Au) released pre-market, showing actual gold grades at depth",
+            "Halt-resume + NASDAQ listing transition likely triggered institutional repositioning and retail discovery on new venue",
+            "Session HOD 178.54% with 6.4x relative volume suggests sustained intraday demand, not a one-minute spike fade",
+            "Float 14.12M is within acceptable range for Jack's momentum thesis; room exists if consolidation holds"
+          ],
+          "bearFactors": [
+            "175.79% gap and immediate move near HOD suggest premarket spike dominance; afternoon continuation is critical to confirm hotness",
+            "News items (drilling, 6-K, halt clarification) all timestamped AFTER the session high, meaning they followed rather than led the move—tape action was likely front-running",
+            "Halt-resume cycles can be volatile but lack sustained demand if float reopens to heavy seller accumulation; watch for fade into close",
+            "Unknown sector classification and Form 6-K filing post-move raises transparency concerns; micro-cap gold explorers often subject to dilution or financing risk"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "VIOT",
+          "hod": 92,
+          "hodExact": 92.92,
+          "news": [
+            "Form 6-K",
+            "Viomi Technology Co., Ltd Reports First Half 2026 Unaudited Financial Results"
+          ],
+          "tag": "EARNINGS",
+          "name": "Viomi Technology Co., Ltd American Depositary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 33.48,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$121M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9693,
+          "open": 1.18,
+          "gapPct": 21.74,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 1.87,
+          "hodTimeExact": "04:03 PM ET",
+          "close": 1.78,
+          "fade": 4,
+          "fadeExact": 4.81,
+          "vwap": 1.4797,
+          "vsVwap": "above",
+          "pmHigh": 1.5399,
+          "volRaw": "53.7M",
+          "volDollar": 79419579,
+          "relVol": 276.8,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Viomi Technology Co., Ltd Reports First Half 2026 Unaudited Financial Results"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1742770/000149315226040317/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Viomi Technology Co., Ltd Reports First Half 2026 Unaudited Financial Results",
+              "url": "https://www.stocktitan.net/news/VIOT/viomi-technology-co-ltd-reports-first-half-2026-unaudited-financial-uxqyhlaavol3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-27T10:40:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VIOT",
+          "newsSummary": "VIOT released H1 2026 unaudited financial results on 2026-08-27, which preceded today's 21.74% gap up and 92.92% HOD dominance. The earnings announcement is a real catalyst with substantive cash value (quarterly financials), and the sustained intraday continuation with 276.8x relative volume suggests institutional accumulation rather than a premarket-fade pattern.",
+          "bullFactors": [
+            "Earnings catalyst with real financial data (H1 2026 unaudited results) — not fluff or sympathy",
+            "92.92% HOD dominance with 276.8x relative volume indicates afternoon continuation strength and shorts blowing out, not premarket spike fade",
+            "21.74% gap + sustained tape suggests institutional buying pressure throughout session, classic accumulation before retail push",
+            "Chinese micro-cap with $121M market cap shows structural China Rig characteristics: high relative volume all day, multiple session HODs, no immediate collapse"
+          ],
+          "bearFactors": [
+            "33.48M float is ABOVE Jack's <10M preference — higher dilution risk and potential for heavy overhead supply",
+            "News arrived 6 calendar days before the move (2026-08-27 → 2026-09-02), creating ambiguity on what actually triggered today's gap; delayed catalyst reaction suggests potential momentum fatigue",
+            "Chinese consumer cyclical sector and ADR structure carry regulatory/geopolitical tail risk",
+            "No daily chart provided to assess room to upside, previous HOD resistance, or VWAP pivots — cannot confirm setup has clean runway"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MGN",
+          "hod": 81,
+          "hodExact": 81.61,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Megan Holdings Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 22.29,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1196,
+          "open": 0.1196,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.2172,
+          "hodTimeExact": "10:50 AM ET",
+          "close": 0.13,
+          "fade": 40,
+          "fadeExact": 40.15,
+          "vwap": 0.1583,
+          "vsVwap": "below",
+          "pmHigh": 0.1241,
+          "volRaw": "127.2M",
+          "volDollar": 20128133,
+          "relVol": 12.9,
+          "avgVolM": 9.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MGN",
+          "newsSummary": "MGN moved 81.61% with no identifiable news catalyst, suggesting pure momentum-driven intraday action. The 40.15% fade and no-gap open indicate premarket spike dominance characteristic of cold tape behavior.",
+          "bullFactors": [
+            "High relative volume (12.9x) sustained intraday move despite lack of catalyst",
+            "81.61% HOD % suggests strong intraday momentum and session strength"
+          ],
+          "bearFactors": [
+            "22.29M float is well above 10M preference — thick float limits explosive potential and sustains fades",
+            "40.15% fade indicates heavy profit-taking and weak conviction hold; premarket spike without news is classic cold tape signature",
+            "No catalyst, no news, no real value driver — pure sympathy or China rig pattern without fundamental support",
+            "Gap is 0% (no gap) with no news; this is a technical pop into overhead, not a breakout setup"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "BIAF",
+          "hod": 78,
+          "hodExact": 78.3,
+          "news": [
+            "Form 8-K",
+            "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors",
+            "S-3 shelf"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "bioAffinity Technologies, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.59,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 0.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.59M + RelVol 15.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.59M + RelVol 15.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.59,
+          "open": 7.61,
+          "gapPct": 15.48,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 11.75,
+          "hodTimeExact": "12:51 PM ET",
+          "close": 9.75,
+          "fade": 17,
+          "fadeExact": 17.02,
+          "vwap": 10.1092,
+          "vsVwap": "below",
+          "pmHigh": 7.85,
+          "volRaw": "46.0M",
+          "volDollar": 465523979,
+          "relVol": 15.6,
+          "avgVolM": 2.9,
+          "ssr": false,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors",
+            "S-3 shelf"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226041020/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors",
+              "url": "https://www.stocktitan.net/news/BIAF/bio-affinity-technologies-advances-cy-path-lung-for-surveillance-of-p5vwu0whag0s.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "S-3 shelf",
+              "url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226040412/forms-3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BIAF",
+          "newsSummary": "BIAF filed an S-3 shelf registration on 2026-08-27 and followed with a Form 8-K on 2026-09-01, alongside a clinical advancement PR on CyPath® Lung for lung cancer survivor surveillance. The S-3 shelf is a dilutive overhang that signals potential future equity offerings; this is a structural red flag for momentum plays. The clinical news itself (advancement, not FDA approval) is incremental and lacks cash validation.",
+          "bullFactors": [
+            "Nano float (0.59M) provides extreme leverage on any sustained volume",
+            "HOD dominance (78.3%) with only 17% fade suggests intraday strength and short covering potential",
+            "Relative volume 15.6x indicates institutional participation during the move",
+            "CyPath® Lung surveillance advancement is a real product milestone (not pure hype)"
+          ],
+          "bearFactors": [
+            "S-3 shelf filed 2026-08-27 is a dilutive overhang — capital raise likely pending and signals management intent to issue equity",
+            "Form 8-K on 2026-09-01 came AFTER the move peaked — reactive, not causative; suggests no material catalyst triggered the run",
+            "Clinical advancement alone (not FDA approval, not data, not partnership) carries low commercial near-term impact",
+            "Nano float and 15.48% gap expose extreme premarket volatility risk; setup could be retail-driven pop with institutional exit on strength"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PPBT",
+          "hod": 56,
+          "hodExact": 56.02,
+          "news": [
+            "Form 6-K",
+            "New U.S. Patent Allowance Strengthens Protection for CAPTN-3 Modular Platform for Next-Generation Multispecific Antibodies"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Purple Biotech Ltd. American Depositary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 1.19,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.19M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.19M + RelVol 962.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.19M + RelVol 962.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.66,
+          "open": 2.39,
+          "gapPct": 43.98,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.59,
+          "hodTimeExact": "08:50 AM ET",
+          "close": 1.98,
+          "fade": 23,
+          "fadeExact": 23.55,
+          "vwap": 2.3245,
+          "vsVwap": "below",
+          "pmHigh": 3,
+          "volRaw": "76.8M",
+          "volDollar": 178457923,
+          "relVol": 962.7,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "New U.S. Patent Allowance Strengthens Protection for CAPTN-3 Modular Platform for Next-Generation Multispecific Antibodies"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1614744/000121390026096443/ea0304192-6k_purple.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "New U.S. Patent Allowance Strengthens Protection for CAPTN-3 Modular Platform for Next-Generation Multispecific Antibodies",
+              "url": "https://www.stocktitan.net/news/PPBT/new-u-s-patent-allowance-strengthens-protection-for-captn-3-modular-ovkebk0dx1ot.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-02T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PPBT",
+          "newsSummary": "PPBT gapped 44% on a U.S. patent allowance for its CAPTN-3 multispecific antibody platform announced at 11:30 AM, well before the session high. The move shows sustained intraday strength with 56% of the day's range occurring above the open and a 962.7x relative volume print, indicating real institutional accumulation rather than a quick spike fade. A Form 6-K filing arrived post-HOD, confirming the regulatory backdrop but arriving after price discovery was complete.",
+          "bullFactors": [
+            "Micro float (1.19M) with 962.7x relative volume — extreme liquidity concentration supports sustained momentum",
+            "56% HOD dominance with only 23.5% fade — classic hot cycle structure, not a premarket spike collapse",
+            "Real biotech IP catalyst (U.S. patent allowance on clinical-stage platform) has tangible asset value for antibody therapeutics",
+            "Gave time to set up (11:30 AM news) and built intraday trend — not a 100%+ spike in 1-2 minutes"
+          ],
+          "bearFactors": [
+            "Israeli micro-cap with limited public float and potential liquidity clustering — execution risk on size",
+            "Patent allowance alone does not de-risk clinical development; CAPTN-3 is still platform-stage, not approved",
+            "43.98% gap already absorbed most of the move before day traders could enter — limited room left on first touch",
+            "Form 6-K post-HOD may signal regulatory overhead or rebalancing; watch for dilutive disclosures in the filing"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "LHAI",
+          "hod": 55,
+          "hodExact": 55.93,
+          "news": [
+            "Form 8-K",
+            "Linkhome Establishes AI Computing Subsidiary Linkhome Technologies and Begins Preliminary Evaluation of a Proposed European AI Computing Project That Could Involve Up to 144 NVIDIA GB300 GPUs"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Linkhome Holdings Inc. Common stock",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 11.61,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.61M + RelVol 800.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.61M + RelVol 800.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8208,
+          "open": 1.225,
+          "gapPct": 49.24,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.2799,
+          "hodTimeExact": "09:08 AM ET",
+          "close": 1.1,
+          "fade": 14,
+          "fadeExact": 14.06,
+          "vwap": 1.1302,
+          "vsVwap": "below",
+          "pmHigh": 1.3,
+          "volRaw": "92.9M",
+          "volDollar": 104980627,
+          "relVol": 800.6,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Linkhome Establishes AI Computing Subsidiary Linkhome Technologies and Begins Preliminary Evaluation of a Proposed European AI Computing Project That Could Involve Up to 144 NVIDIA GB300 GPUs"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2017758/000121390026096701/ea0304410-8k_linkhome.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Linkhome Establishes AI Computing Subsidiary Linkhome Technologies and Begins Preliminary Evaluation of a Proposed European AI Computing Project That Could Involve Up to 144 NVIDIA GB300 GPUs",
+              "url": "https://www.stocktitan.net/news/LHAI/linkhome-establishes-ai-computing-subsidiary-linkhome-technologies-skmz52crjvuk.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-02T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Nvidia",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LHAI",
+          "newsSummary": "LHAI announced establishment of an AI Computing subsidiary and preliminary evaluation of a European AI data center project involving up to 144 NVIDIA GB300 GPUs. The announcement came before the session high, but the move appears driven primarily by AI/NVIDIA sympathy rather than by cash-backed execution — the project is still in 'preliminary evaluation' stage with no committed capex, customer offtake, or revenue timeline. The real estate micro-cap is riding the broader AI/GPU theme momentum rather than demonstrating independent catalyst quality.",
+          "bullFactors": [
+            "55.93% HOD printing suggests sustained intraday strength and session HOD dominance over premarket spike (14.06% fade)",
+            "Exceptional relative volume (800.6x) indicates institutional participation and retail awareness",
+            "Float just above 10M threshold (11.61M) with small market cap ($18.4M) provides leverage for continued runs if tape remains hot",
+            "AI/NVIDIA theme resonance in current market cycle — sympathy momentum can sustain multiple sessions"
+          ],
+          "bearFactors": [
+            "Catalyst is purely preliminary with zero committed funding, customer contracts, or execution timeline — 'proposed' and 'evaluation' language is classic fluff",
+            "Real estate sector combined with micro-cap typically lacks institutional conviction; AI pivot feels opportunistic rather than core business",
+            "Form 8-K filed AFTER the high — reactive SEC filing, not a fresh catalyst; suggests move was already exhausted before formal disclosure",
+            "Sympathy plays are vulnerable to theme rotation and lack independent support; when AI/GPU sympathy fades, LHAI likely reverts hard"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GELS",
+          "hod": 55,
+          "hodExact": 55.26,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Gelteq Limited Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "AU",
+          "floatM": 5.69,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [
+            "Float 5.69M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.69M + RelVol 3095.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.69M + RelVol 3095.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.532,
+          "open": 0.5689,
+          "gapPct": 6.94,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.826,
+          "hodTimeExact": "01:03 PM ET",
+          "close": 0.7,
+          "fade": 15,
+          "fadeExact": 15.25,
+          "vwap": 0.73,
+          "vsVwap": "below",
+          "pmHigh": 0.8,
+          "volRaw": "71.6M",
+          "volDollar": 52295462,
+          "relVol": 3095.5,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GELS",
+          "newsSummary": "GELS moved 55% on the day with no identifiable catalyst in news sources. The runner shows strong intraday continuation (HOD 55.26% vs fade 15.25%) and sustained relative volume (3095.5x), suggesting institutional accumulation and retail follow-through rather than news-driven spike. No dilutive announcements, offerings, or warrant exercises detected.",
+          "bullFactors": [
+            "Ultra-low float (5.69M) amplifies move on sustained volume; relative vol 3095.5x is exceptional",
+            "HOD dominance (55% vs 15% fade) signals afternoon continuation and short squeeze pressure, not premarket fade pattern",
+            "No news spike means setup had time to develop; move built intraday on momentum, not 100%+ news shock",
+            "Healthcare sector with small-cap Australian listing may attract retail flow spillover from tech themes"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst is inherently risky — sustainability unknown; could reverse sharply on profit-taking or bad news drop",
+            "Australian micro-cap with limited institutional depth; liquidity may evaporate on size",
+            "No clear fundamental or technical anchor; move appears purely momentum-driven with elevated black swan risk",
+            "High fade risk into close if retail capitulates or short covering exhausts"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "VIVK",
+          "hod": 45,
+          "hodExact": 45.43,
+          "news": [
+            "VIVAKOR PROVIDES Q3 2026 REVENUE GUIDANCE OF APPROXIMATELY $270 MILLION"
+          ],
+          "tag": "EARNINGS",
+          "name": "Vivakor, Inc. Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 8.27,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 8.27M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.27M + RelVol 24.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.27M + RelVol 24.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7839,
+          "open": 1.05,
+          "gapPct": 33.95,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.14,
+          "hodTimeExact": "09:30 AM ET",
+          "close": 0.9011,
+          "fade": 20,
+          "fadeExact": 20.96,
+          "vwap": 0.9779,
+          "vsVwap": "below",
+          "pmHigh": 1.11,
+          "volRaw": "79.6M",
+          "volDollar": 77886500,
+          "relVol": 24.8,
+          "avgVolM": 3.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "VIVAKOR PROVIDES Q3 2026 REVENUE GUIDANCE OF APPROXIMATELY $270 MILLION"
+          ],
+          "newsItems": [
+            {
+              "title": "VIVAKOR PROVIDES Q3 2026 REVENUE GUIDANCE OF APPROXIMATELY $270 MILLION",
+              "url": "https://www.stocktitan.net/news/VIVK/vivakor-provides-q3-2026-revenue-guidance-of-approximately-270-b3a0qxhturoz.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-02T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VIVK",
+          "newsSummary": "VIVK issued Q3 2026 revenue guidance of ~$270M at 13:00 ET on 2026-09-02, released BEFORE the session high. This is a forward-looking earnings catalyst with real cash revenue projection, not a dilutive or sympathy announcement. The 45.43% HOD retention and 24.8x relative volume suggest institutional accumulation and sustained intraday momentum following the guidance.",
+          "bullFactors": [
+            "Low float (8.27M shares) in Energy sector with real revenue guidance catalyst—no warrant/convertible overhead concerns",
+            "Strong HOD retention (45.43%) with only 20.96% fade indicates sustained institutional buying pressure and short-covering resistance",
+            "Elevated relative volume (24.8x) distributed across the session, not concentrated in premarket spike—suggests genuine intraday accumulation pattern",
+            "News released before the high (not reactive), giving time for flag/consolidation setup and retail entry after institutional absorption"
+          ],
+          "bearFactors": [
+            "Market cap only $7.46M with 8.27M float creates liquidity risk on any profit-taking or halt scenario",
+            "33.95% gap-up entry suggests premarket enthusiasm; validate that intraday continuation is driven by the guidance itself and not just gap-hold momentum",
+            "Energy sector subject to commodity price swings and geopolitical shocks; $270M guidance credibility depends on balance sheet health and order book visibility"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "NCPL",
+          "hod": 45,
+          "hodExact": 45.2,
+          "news": [
+            "Form 8-K",
+            "Netcapital Inc. Announces Receipt of Nasdaq Notification Regarding Delayed Annual Report on Form 10-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Netcapital Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 7.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 7.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.792,
+          "open": 0.9086,
+          "gapPct": 14.72,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.15,
+          "hodTimeExact": "10:31 AM ET",
+          "close": 1.03,
+          "fade": 10,
+          "fadeExact": 10.43,
+          "vwap": 1.0097,
+          "vsVwap": "above",
+          "pmHigh": 0.97,
+          "volRaw": "37.0M",
+          "volDollar": 37393414,
+          "relVol": 0.9,
+          "avgVolM": 40.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Netcapital Inc. Announces Receipt of Nasdaq Notification Regarding Delayed Annual Report on Form 10-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1414767/000149315226040478/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Netcapital Inc. Announces Receipt of Nasdaq Notification Regarding Delayed Annual Report on Form 10-K",
+              "url": "https://www.stocktitan.net/news/NCPL/netcapital-inc-announces-receipt-of-nasdaq-notification-regarding-n0z4hxj66lic.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-28T10:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCPL",
+          "newsSummary": "NCPL received a Nasdaq notification on 2026-08-28 regarding a delayed annual report filing (Form 10-K), followed by a Form 8-K. These compliance notices preceded the intraday move and represent structural regulatory risk rather than a positive catalyst. The 45% HOD with only 10% fade suggests institutional accumulation despite headline risk, but compliance delays are yellow flags for micro-caps.",
+          "bullFactors": [
+            "Sub-8M float (7.95M) — tight supply structure ideal for momentum",
+            "45.2% HOD achievement with sustained hold (only 10.43% fade) — institutional strength, not premarket spike-and-dump",
+            "Gap up 14.72% into session — strong overnight conviction before retail volume arrived",
+            "Relative volume 0.9x near parity — intraday accumulation phase without exhaustion"
+          ],
+          "bearFactors": [
+            "Nasdaq compliance delay is structural risk — filing delinquencies often precede delisting or offerings to raise cash",
+            "News is pre-high, not catalyst-driven — move happened on low volume setup, not on bullish announcement",
+            "Financial Services sector with micro-cap market cap ($8.35M) — highly susceptible to dilution and reverse splits",
+            "No real cash catalyst visible — compliance notices and Form 8-K are reactive filings, not growth drivers"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 321,
+      "fade": 26,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "FAMI led +321.23% (69% fade). 5/10 held <20% fade. news: FAMI — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ - September 2, 2026**\n\nToday's tape is dominated by compliance resumes and no-news sympathy plays across micro-caps, with heavy Chinese micro-cap concentration (FAMI, VIOT, MGN) that suggests institutional rig activity rather than retail pump structures—FAMI's 321% HOD with sustained afternoon volume and minimal fade fits the China rig pattern perfectly. Float tier is split dangerously: sub-1M tier (BIAF 0.59M, PPBT 1.19M) showing afternoon/premarket spikes with explosive dollar volume, while the preferred <10M tier is represented by quality names like VIVK (8.27M, earnings) and GELS (5.69M, afternoon HOD), but LHAI at 11.61M and SGLD at 14.12M breach the comfort zone. HODs printed across all sessions—premarket dominance (SGLD, PPBT, LHAI) signals morning fade vulnerability, though afternoon prints (BIAF, GELS) and morning holds (FAMI, VIOT) show mixed tape temperature. This is a **COLD-TO-NEUTRAL cycle**: compliance resume plays are tactical but lack real catalysts, float skew toward ultra-micro creates liquidity traps, and the premarket HOD concentration suggests retail-led opens with afternoon distribution—the playbook avoids this tape structure due to fade risk and absence of institutional accumulation setups with room to run."
+    },
     {
       "date": "2026-09-01",
       "runners": [
