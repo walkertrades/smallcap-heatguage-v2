@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-03T11:36:25.021502Z",
-  "count": 9770,
+  "exportedAt": "2026-09-04T11:34:30.559228Z",
+  "count": 9780,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,977 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-03",
+      "runners": [
+        {
+          "sym": "DSS",
+          "hod": 113,
+          "hodExact": 113.77,
+          "news": [
+            "DSS, Inc. Announces Launch of Proposed Public Offering"
+          ],
+          "tag": "OFFERING",
+          "name": "DSS, Inc.",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 3.94,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 3.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.94M + RelVol 4467.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.94M + RelVol 4467.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.552,
+          "open": 0.6,
+          "gapPct": 8.7,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.18,
+          "hodTimeExact": "10:10 AM ET",
+          "close": 0.85,
+          "fade": 27,
+          "fadeExact": 27.97,
+          "vwap": 0.9162,
+          "vsVwap": "below",
+          "pmHigh": 0.6572,
+          "volRaw": "110.5M",
+          "volDollar": 101265307,
+          "relVol": 4467.7,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "DSS, Inc. Announces Launch of Proposed Public Offering"
+          ],
+          "newsItems": [
+            {
+              "title": "DSS, Inc. Announces Launch of Proposed Public Offering",
+              "url": "https://www.stocktitan.net/news/DSS/dss-inc-announces-launch-of-proposed-public-l3bk89fsm7ja.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-04T00:17:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:DSS",
+          "newsSummary": "DSS announced a proposed public offering after the stock had already run 113.77% on the day and faded 27.97% from session highs. The offering news came post-move (after relative_to_high), making it reactive rather than causal. This is a classic dilutive catalyst that kills momentum and signals insider/underwriter positioning ahead of capital raise.",
+          "bullFactors": [
+            "Ultra-low float of 3.94M shares — theoretically explosive on sustained buying",
+            "Intraday relative volume of 4467.7x — exceptional tape liquidity for a micro-cap",
+            "Session HOD of +113.77% demonstrates real intraday momentum and institutional interest before the offering news"
+          ],
+          "bearFactors": [
+            "OFFERING news is explicitly dilutive — incoming secondary shares destroy long thesis and trigger distribution",
+            "27.97% fade from HOD in same session shows weak follow-through and likely short-covering reversal",
+            "Offering announced after hours (2026-09-04 00:17 UTC) following the session, indicating the move was likely frontrun by insiders/underwriters — high-risk entry at this point",
+            "Micro-cap with $8.6M market cap and Consumer Cyclical sector with no identified real catalyst — vulnerable to sharp reversals"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "MIMI",
+          "hod": 85,
+          "hodExact": 85.68,
+          "news": [
+            "Form 6-K",
+            "CURRENC Capital and Mint Incorporation Limited (NASDAQ: MIMI) Announce Collaboration to Bring Mint’s Nasdaq-Listed Shares Onchain",
+            "Mint Announces Issuer-Sponsored Tokenization of Its Nasdaq-Listed Class A Ordinary Shares on Ethereum and Solana",
+            "Mint Incorporation Limited Announces Closing of $2.5 Million Registered Direct Offering",
+            "424B5 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Mint Incorporation Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 3.91,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 3.91M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.91M + RelVol 46.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.91M + RelVol 46.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6409,
+          "open": 1.155,
+          "gapPct": 80.22,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.19,
+          "hodTimeExact": "09:30 AM ET",
+          "close": 0.9567,
+          "fade": 19,
+          "fadeExact": 19.61,
+          "vwap": 0.9551,
+          "vsVwap": "above",
+          "pmHigh": 1.17,
+          "volRaw": "147.5M",
+          "volDollar": 140891522,
+          "relVol": 46.6,
+          "avgVolM": 3.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "CURRENC Capital and Mint Incorporation Limited (NASDAQ: MIMI) Announce Collaboration to Bring Mint’s Nasdaq-Listed Shares Onchain",
+            "Mint Announces Issuer-Sponsored Tokenization of Its Nasdaq-Listed Class A Ordinary Shares on Ethereum and Solana",
+            "Mint Incorporation Limited Announces Closing of $2.5 Million Registered Direct Offering",
+            "424B5 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026096936/ea0304533-6k_mint.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "CURRENC Capital and Mint Incorporation Limited (NASDAQ: MIMI) Announce Collaboration to Bring Mint’s Nasdaq-Listed Shares Onchain",
+              "url": "https://www.stocktitan.net/news/MIMI/currenc-capital-and-mint-incorporation-limited-nasdaq-mimi-announce-o1f2mua7vrp7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-03T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Mint Announces Issuer-Sponsored Tokenization of Its Nasdaq-Listed Class A Ordinary Shares on Ethereum and Solana",
+              "url": "https://www.stocktitan.net/news/MIMI/mint-announces-issuer-sponsored-tokenization-of-its-nasdaq-listed-2ly5pu08fpn1.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-03T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Mint Incorporation Limited Announces Closing of $2.5 Million Registered Direct Offering",
+              "url": "https://www.stocktitan.net/news/MIMI/mint-incorporation-limited-announces-closing-of-2-5-million-zf6aasfb94hf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-28T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1998560/000121390026094900/ea0303716-424b5_mint.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MIMI",
+          "newsSummary": "MIMI ran 80%+ on a gap with 85.68% HOD dominance and 46.6x relative volume, following tokenization announcements and a $2.5M registered direct offering closed Aug 28. The move is primarily driven by a crypto/blockchain narrative (Ethereum and Solana integration) rather than fundamental cash-generating value. The recent dilutive offering and Form 6-K filing (post-HOD) are structural red flags that undermine sustainability.",
+          "bullFactors": [
+            "Ultra-micro float (3.91M shares) creates mechanical leverage for intraday vol",
+            "85.68% HOD dominance and sustained 46.6x relative volume suggest afternoon continuation and institutional accumulation rather than premarket fade",
+            "Tokenization narrative offers speculative appeal to retail in crypto-adjacent micro-caps"
+          ],
+          "bearFactors": [
+            "Recent $2.5M registered direct offering (Aug 28) is dilutive; no real cash catalyst or revenue-generating partnership",
+            "Crypto/blockchain tokenization is thematic sympathy play, not substantive business improvement",
+            "Form 6-K filing post-HOD is reactive; typical pattern before fade or compliance headwind",
+            "HK-listed industrial micro-cap with no meaningful revenue or earnings catalyst — high black swan risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "TANH",
+          "hod": 82,
+          "hodExact": 82.56,
+          "news": [
+            "Tantech Holdings Ltd. Announces Reverse Split Record Date",
+            "Form 6-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Tantech Holdings Ltd. Class A Common Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 0.59,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 0.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.59M + RelVol 4984.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.59M + RelVol 4984.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2299,
+          "open": 0.23,
+          "gapPct": 0.04,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.4197,
+          "hodTimeExact": "11:19 AM ET",
+          "close": 0.3838,
+          "fade": 8,
+          "fadeExact": 8.55,
+          "vwap": 0.3342,
+          "vsVwap": "above",
+          "pmHigh": 12.5745,
+          "volRaw": "108.2M",
+          "volDollar": 36152253,
+          "relVol": 4984.8,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Tantech Holdings Ltd. Announces Reverse Split Record Date",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Tantech Holdings Ltd. Announces Reverse Split Record Date",
+              "url": "https://www.stocktitan.net/news/TANH/tantech-holdings-ltd-announces-reverse-split-record-x234kbemt85o.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1588084/000147793226005346/tanh_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TANH",
+          "newsSummary": "Tantech announced a reverse split record date on 2026-09-01, followed by a Form 6-K SEC filing. Both events preceded the intraday move, meaning they were catalysts rather than reactions. Reverse splits are structural corporate actions—neither bullish cash catalysts nor outright dilutive in isolation, but they signal potential compliance or liquidity management issues that can trigger institutional repositioning.",
+          "bullFactors": [
+            "Extreme nano-float (0.59M shares) — highest leverage for any sustained momentum; relVol 4984.8x is exceptional institutional activity signal",
+            "82.56% HOD print dominates tape; sustained afternoon continuation and multiple session HODs rule out premarket pump-fade pattern — consistent with China rig structural buying",
+            "Greater China micro-cap with nano-float running on sustained intraday volume, not a 1–2 minute spike-out; day-trader sweet spot for low-float runners"
+          ],
+          "bearFactors": [
+            "Reverse split is a red flag for compliance or shareholder dilution risk; often precedes further corporate actions or secondary offerings",
+            "Consumer Defensive sector with no newsworthy catalyst beyond administrative action — lacks the real cash-value or partnership-level event that Jack favors",
+            "Form 6-K (Chinese company reporting) + reverse split combo may indicate regulatory pressure or restructuring; limited upside runway if institutional positioning is hedged"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CHPT",
+          "hod": 80,
+          "hodExact": 80.15,
+          "news": [
+            "ChargePoint Reports Second Quarter Fiscal Year 2027 Financial Results",
+            "Form 8-K",
+            "ChargePoint Accelerates European Growth Strategy with Appointment of John Saffrett as EVP and Managing Director, Europe"
+          ],
+          "tag": "EARNINGS",
+          "name": "ChargePoint Holdings, Inc.",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 25.41,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$249M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.19,
+          "open": 6.9,
+          "gapPct": 32.95,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 9.35,
+          "hodTimeExact": "02:30 PM ET",
+          "close": 9.08,
+          "fade": 2,
+          "fadeExact": 2.89,
+          "vwap": 8.3324,
+          "vsVwap": "above",
+          "pmHigh": 6.9,
+          "volRaw": "44.1M",
+          "volDollar": 367588042,
+          "relVol": 104.3,
+          "avgVolM": 0.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "ChargePoint Reports Second Quarter Fiscal Year 2027 Financial Results",
+            "Form 8-K",
+            "ChargePoint Accelerates European Growth Strategy with Appointment of John Saffrett as EVP and Managing Director, Europe"
+          ],
+          "newsItems": [
+            {
+              "title": "ChargePoint Reports Second Quarter Fiscal Year 2027 Financial Results",
+              "url": "https://www.stocktitan.net/news/CHPT/charge-point-reports-second-quarter-fiscal-year-2027-financial-6acpwrr021ix.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-02T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1777393/000177739326000061/chpt-20260902.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "ChargePoint Accelerates European Growth Strategy with Appointment of John Saffrett as EVP and Managing Director, Europe",
+              "url": "https://www.stocktitan.net/news/CHPT/charge-point-accelerates-european-growth-strategy-with-appointment-9spisvm541p4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T09:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "EV",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Logistics",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNYS",
+          "tvSymbol": "NYSE:CHPT",
+          "newsSummary": "ChargePoint reported Q2 FY2027 earnings on 2026-09-02 after hours, followed by an 8-K filing and a European leadership appointment announcement. The 80%+ HOD retention and 33% gap up suggest the market rewarded the earnings results and growth narrative, with real operational catalyst (EVP Europe hire) adding substance to the EV charging infrastructure expansion story.",
+          "bullFactors": [
+            "80.15% HOD retention is exceptionally strong — institutional accumulation holding through session, not a premarket pop-fade pattern",
+            "Earnings catalyst with real operational follow-up (European EVP appointment) shows management execution, not just financial results",
+            "104.3% relative volume and sustained intraday strength indicate retail buying following institutional setup, classic continuation tape",
+            "EV/charging infrastructure aligns with secular tailwind; ChargePoint is a pure-play operator with real revenue, not a speculative play"
+          ],
+          "bearFactors": [
+            "Float of 25.41M is well above Jack's <10M preference — reduces intraday volatility per minute and liquidity runway",
+            "Form 8-K filed same day as earnings; if it contains dilutive terms (secondary offering, warrant exercise, ATM facility), the move could reverse",
+            "Gap of 32.95% is large but not extreme; risk of early sellers taking profits into strength if tape cools afternoon session",
+            "Consumer Cyclical sector in potential macro slowdown environment; EV adoption sensitive to interest rates and consumer spending"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "TLYS",
+          "hod": 64,
+          "hodExact": 64.04,
+          "news": [
+            "Form 10-Q",
+            "Tilly's, Inc. Beats Outlook, Reports Third Consecutive Quarter of Double-Digit Percentage Comp Sales Increases",
+            "Form 8-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "Tilly's Inc.",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 9.53,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$131M",
+          "riskBadges": [
+            "Float 9.53M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.81,
+          "open": 5.55,
+          "gapPct": 45.67,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.25,
+          "hodTimeExact": "09:32 AM ET",
+          "close": 4.4,
+          "fade": 29,
+          "fadeExact": 29.6,
+          "vwap": 4.692,
+          "vsVwap": "below",
+          "pmHigh": 5.57,
+          "volRaw": "13.5M",
+          "volDollar": 63448156,
+          "relVol": 39.8,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-Q",
+            "Tilly's, Inc. Beats Outlook, Reports Third Consecutive Quarter of Double-Digit Percentage Comp Sales Increases",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1524025/000162828026060403/tlys-20260801.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "after"
+            },
+            {
+              "title": "Tilly's, Inc. Beats Outlook, Reports Third Consecutive Quarter of Double-Digit Percentage Comp Sales Increases",
+              "url": "https://www.stocktitan.net/news/TLYS/tilly-s-inc-beats-outlook-reports-third-consecutive-quarter-of-ulmwto8svg6n.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-02T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1524025/000162828026060088/tlys-20260902.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNYS",
+          "tvSymbol": "NYSE:TLYS",
+          "newsSummary": "TLYS reported third consecutive quarter of double-digit comp sales increases, beating outlook on 2026-09-02 before the session high. This is a real earnings beat with sustained operational momentum, not fluff. The catalyst had merit and drove institutional accumulation throughout the session.",
+          "bullFactors": [
+            "Float 9.53M — in sweet spot for Jack's preferred range; intraday vol/min sustained high relative volume (39.8x) suggesting strong institutional participation",
+            "64% HOD dominance with only 29.6% fade — classic hot cycle signature with afternoon continuation strength; shorts likely blowing out",
+            "Real catalyst: three consecutive quarters of double-digit comp sales growth demonstrates operational traction, not sympathy or fluff",
+            "45.67% gap + session HODs printing = strong setup gave time to enter and scale; not a 100%+ spike that vaporizes in 2 minutes"
+          ],
+          "bearFactors": [
+            "Form 10-Q filed after the move (20:00 on 2026-09-03) — reactive data, watch for any hidden dilution or guidance issues in the actual filing",
+            "Consumer Cyclical sector vulnerable to macro slowdown; comp sales beats can reverse if demand deteriorates",
+            "29.6% fade still present — profit-taking was real; need to confirm sustained HOD printing into close to validate hot cycle"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "GELS",
+          "hod": 60,
+          "hodExact": 60.0,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Gelteq Limited Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "AU",
+          "floatM": 5.69,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 5.69M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.69M + RelVol 19.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.69M + RelVol 19.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7,
+          "open": 0.9911,
+          "gapPct": 41.59,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.12,
+          "hodTimeExact": "07:13 AM ET",
+          "close": 0.8932,
+          "fade": 20,
+          "fadeExact": 20.25,
+          "vwap": 0.9662,
+          "vsVwap": "below",
+          "pmHigh": 1.12,
+          "volRaw": "70.1M",
+          "volDollar": 67725528,
+          "relVol": 19.5,
+          "avgVolM": 3.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GELS",
+          "newsSummary": "GELS ran 41.59% on gap with no identifiable news catalyst — pure intraday momentum play. The move appears driven by technical setup and retail/institutional accumulation on a low-float Australian healthcare name with strong tape action (60% HOD, 19.5x relative volume), but lacks fundamental justification.",
+          "bullFactors": [
+            "Ultra-low float at 5.69M shares — high velocity potential on retail entry",
+            "Session HOD dominating tape (60% HOD ratio) signals continuation strength and potential afternoon squeeze",
+            "Relative volume 19.5x with sustained intraday activity — not a premarket spike fade pattern",
+            "Daily chart room exists (no warrant/ATM overhead noted) — structural setup clean for momentum traders"
+          ],
+          "bearFactors": [
+            "No news catalyst — gap and move are purely technical/structural; vulnerable to sudden reversal without fundamental support",
+            "Australian micro-cap with small market cap ($9.7M) creates liquidity and custody/settlement risks for US day traders",
+            "41.59% gap entry is aggressive; late-session fades are common when no real event underpins the move",
+            "Healthcare sector nano-cap with zero announced catalyst — sentiment-driven only, high whipsaw risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GIPR",
+          "hod": 58,
+          "hodExact": 58.89,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Generation Income Properties Inc. Common Stock",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 2.8,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 2.8M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3943,
+          "open": 0.5826,
+          "gapPct": 47.74,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.6265,
+          "hodTimeExact": "07:46 AM ET",
+          "close": 0.523,
+          "fade": 16,
+          "fadeExact": 16.52,
+          "vwap": 0.5852,
+          "vsVwap": "below",
+          "pmHigh": 0.69,
+          "volRaw": "124.3M",
+          "volDollar": 72725183,
+          "relVol": 7.1,
+          "avgVolM": 17.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GIPR",
+          "newsSummary": "GIPR ran 58.89% on the session with no identifiable catalyst or news release. The move appears entirely intraday-driven by momentum, with a 47.74% gap suggesting strong premarket accumulation that carried through the day. Without substantive news, this is a pure tape-and-float play.",
+          "bullFactors": [
+            "Micro-float (2.8M) provides tight liquidity for intraday runners — ideal for momentum continuation",
+            "High relative volume (7.1x) sustained throughout session, not a premarket spike fade — shows retail/institutional interest held",
+            "Session HOD at 58.89% suggests afternoon strength and shorts covering, typical of hot small-cap cycles",
+            "Daily chart room to upside in real estate sector with no obvious warrant/convertible overhead mentioned"
+          ],
+          "bearFactors": [
+            "NO news catalyst — move is purely momentum/sentiment-driven with elevated black swan risk and rapid reversal potential",
+            "Fade percentage (16.52%) shows intraday pullback occurred; unclear if support holds into next session",
+            "Micro-cap real estate with $1.7M market cap carries extreme liquidity and volatility risk beyond typical day-trader exposure",
+            "Gap-up opening (47.74%) may have left early buyers stranded; re-entry momentum traders face heavy resistance if premarket strength doesn't extend"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AEHL",
+          "hod": 52,
+          "hodExact": 52.85,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Antelope Enterprise Holdings Limited Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 0.41,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 0.41M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.43,
+          "open": 8.05,
+          "gapPct": 48.25,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 8.3,
+          "hodTimeExact": "09:17 AM ET",
+          "close": 7.45,
+          "fade": 10,
+          "fadeExact": 10.24,
+          "vwap": 7.4337,
+          "vsVwap": "above",
+          "pmHigh": 8.69,
+          "volRaw": "21.9M",
+          "volDollar": 162666327,
+          "relVol": 7.4,
+          "avgVolM": 2.9,
+          "ssr": false,
+          "reverseSplit": "16:1",
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1470683/000149315226040506/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AEHL",
+          "newsSummary": "AEHL filed a Form 6-K (routine SEC disclosure for foreign private issuers) on 2026-08-28, five days before this 52.85% HOD move. The filing preceded the price action and carries no substantive catalyst value. This is a nano-float Chinese micro-cap with sustained intraday volume (relVol 7.4) and strong HOD dominance (52.85% HOD vs 10.24% fade), characteristic of a China Rig structural pattern rather than news-driven momentum.",
+          "bullFactors": [
+            "Nano float (0.41M shares) — extreme liquidity concentration and leverage for intraday moves",
+            "Strong HOD dominance (52.85% HOD, only 10.24% fade) — session HODs printing late, shorts blowing out, typical China Rig afternoon continuation",
+            "Sustained relative volume (7.4x) all session — institutional accumulation pattern, not premarket spike fade",
+            "Daily chart room to upside — no warrants, convertibles, or ATM overhead mentioned; Basic Materials sector offers thematic breadth"
+          ],
+          "bearFactors": [
+            "No real cash catalyst — Form 6-K is routine compliance filing, not a business driver",
+            "China Rig structural pattern — liquidity can evaporate on any news reversal or policy shift; black swan risk on nano-float names",
+            "Gap entry (48.25%) already substantial — late entry risk if premarket was the institutional accumulation phase",
+            "Tape temperature: HOD dominance is hot NOW, but sustain-ability on nano-float names is historically poor into next session"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "GSUN",
+          "hod": 51,
+          "hodExact": 51.78,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Golden Sun Technology Group Limited Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 9.43,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 9.43M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.225,
+          "open": 0.2324,
+          "gapPct": 3.29,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.3415,
+          "hodTimeExact": "02:05 PM ET",
+          "close": 0.2544,
+          "fade": 25,
+          "fadeExact": 25.51,
+          "vwap": 0.2864,
+          "vsVwap": "below",
+          "pmHigh": 0.2391,
+          "volRaw": "18.4M",
+          "volDollar": 5257308,
+          "relVol": 3.4,
+          "avgVolM": 5.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GSUN",
+          "newsSummary": "GSUN moved 51.78% intraday with no substantive news catalyst—pure price action driven by institutional accumulation and tape dynamics. The move was sustained throughout the session with high relative volume (3.4x), indicating organized buying pressure rather than retail panic or premarket spike fade.",
+          "bullFactors": [
+            "Low float (9.43M) with 3.4x relative volume creates tight supply for institutional accumulation",
+            "51.78% HOD% dominates fade (25.51%), signaling afternoon continuation and short covering strength—classic hot tape",
+            "Sustained intraday trend with multiple session HODs printed late session, not a premarket spike-and-fade pattern",
+            "Chinese micro-cap structure with organized buying pressure throughout session, consistent with China rig institutional activity"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst is structural risk—tape-driven moves can reverse violently on profit-taking or liquidity drain",
+            "3.29% gap suggests no overnight catalyst; move built entirely on intraday sentiment and short squeeze",
+            "Consumer Defensive sector offers no fundamental tailwind; susceptible to broader momentum fade",
+            "Chinese micro-cap regulatory and delisting risk inherent to greater_china tier-two listings"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "TWG",
+          "hod": 47,
+          "hodExact": 47.49,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Top Wealth Group Holding Limited Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "HK",
+          "floatM": 11.89,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$34M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.89M + RelVol 21.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.89M + RelVol 21.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.41,
+          "open": 0.4122,
+          "gapPct": 0.54,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.6047,
+          "hodTimeExact": "11:49 AM ET",
+          "close": 0.5,
+          "fade": 17,
+          "fadeExact": 17.31,
+          "vwap": 0.5259,
+          "vsVwap": "below",
+          "pmHigh": 0.421,
+          "volRaw": "13.3M",
+          "volDollar": 6977181,
+          "relVol": 21.3,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TWG",
+          "newsSummary": "TWG ran 47.49% on the session with sustained intraday momentum and no identifiable catalyst news. The price action shows classic China rig structural pattern: late-session HOD printing, strong relative volume (21.3x), and persistent buying throughout the day rather than premarket spike-and-fade. Move appears driven by institutional accumulation in a mid-float HK name with genuine intraday continuation.",
+          "bullFactors": [
+            "Strong session HOD dominance (47.49% gain) with only 17.31% fade — suggests institutional buying persisting into close, not early profit-taking",
+            "Relative volume 21.3x indicates conviction; sustained volume all-session typical of China rig institutional accumulation pattern",
+            "Mid-float (11.89M) sits near upper edge of Jack's sweet spot; given intraday vol/min sustained above premarket, this meets the 'will go higher if conditions met' clause",
+            "Consumer Defensive sector HK domicile fits China rig tape temperature — afternoon continuation strength, multiple HOD prints typical of this rig structure"
+          ],
+          "bearFactors": [
+            "No identifiable real catalyst — move is pure tape/structural play with no earnings, partnership, or cash-value news to support hold into next session",
+            "Float of 11.89M slightly above the <10M preference; any pullback to support will test ability to hold overnight without fresh catalyst",
+            "Zero news means vulnerable to gap-down fade or sympathy reversal if broader market or HK equity themes roll over",
+            "Premarket gap only 0.54% — strength built entirely intraday, meaning afternoon dip could compress range quickly if retail participation drops"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 113,
+      "fade": 17,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "DSS led +113.77% (27% fade). 6/10 held <20% fade. news: DSS — \"DSS, Inc. Announces Launch of Proposed Public Offering\".",
+      "aiSummary": "**TAPE READ — 2026-09-03**\n\nToday's tape is dominated by dilutive catalysts (DSS, MIMI both offering) and no-news sympathy runs (AEHL, GELS, GIPR, GSUN, TWG), with only two legitimate earners (CHPT, TLYS) anchoring real value—a structural red flag for this framework's quality filter. Float tier is ideal (majority sub-10M, micro-cap concentration in TANH at 0.59M and AEHL at 0.41M), but geography skews heavy to China/HK micro-caps (TANH, AEHL, MIMI, GSUN, TWG), a regime where China rig patterns mask institutional accumulation but also invite black swan liquidity wicks. HODs printed predominantly premarket and morning session across the board, with only CHPT and GSUN holding afternoon strength—classic cold-tape signature of early spike exhaustion and retail fade dominance. This is a COLD cycle: premarket dominance, offerings bleeding sentiment, no-news tags throughout, and minimal sustained intraday consolidation—the playbook avoids this entirely and waits for afternoon HOD reprints or dip-soak setups on real catalysts with institutional conviction."
+    },
     {
       "date": "2026-09-02",
       "runners": [
