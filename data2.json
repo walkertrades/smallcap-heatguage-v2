@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-04T11:34:30.559228Z",
-  "count": 9780,
+  "exportedAt": "2026-09-07T12:37:38.256838Z",
+  "count": 9790,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,991 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-04",
+      "runners": [
+        {
+          "sym": "IMRN",
+          "hod": 79,
+          "hodExact": 79.28,
+          "news": [
+            "Form 6-K",
+            "Immuron to launch PROIBS® in the United States",
+            "Immuron Reports FY26 Preliminary Results"
+          ],
+          "tag": "EARNINGS",
+          "name": "Immuron Limited American Depositary Shares",
+          "sector": "Healthcare",
+          "country": "AU",
+          "floatM": 8.09,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 8.09M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.09M + RelVol 8328.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.09M + RelVol 8328.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.11,
+          "open": 1.81,
+          "gapPct": 63.06,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.99,
+          "hodTimeExact": "09:45 AM ET",
+          "close": 1.8,
+          "fade": 9,
+          "fadeExact": 9.55,
+          "vwap": 1.7658,
+          "vsVwap": "above",
+          "pmHigh": 1.98,
+          "volRaw": "123.1M",
+          "volDollar": 217431942,
+          "relVol": 8328.5,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Immuron to launch PROIBS® in the United States",
+            "Immuron Reports FY26 Preliminary Results"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1660046/000121390026097357/ea0304669-6k_immuron.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-04T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Immuron to launch PROIBS® in the United States",
+              "url": "https://www.stocktitan.net/news/IMRN/immuron-to-launch-proibs-in-the-united-pa332nevjk73.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-04T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Immuron Reports FY26 Preliminary Results",
+              "url": "https://www.stocktitan.net/news/IMRN/immuron-reports-fy26-preliminary-vemuamke8xnw.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-08-28T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IMRN",
+          "newsSummary": "IMRN gapped 63% on FY26 preliminary results (Aug 28) and US launch announcement for PROIBS® (Sep 4 10:00 AM), both before the session high. The 79% HOD shows sustained institutional buying throughout the day on real revenue-generating product launch, not a premarket fade pattern. Form 6-K filed after close is reactive noise.",
+          "bullFactors": [
+            "Low float (8.09M) with 8,328% relative volume — extreme intraday engagement with room to run",
+            "79% HOD dominance vs 9.5% fade = sustained hot tape, afternoon continuation strength typical of institutional accumulation cycles",
+            "Real cash catalyst: US commercial launch of approved medical device (PROIBS®) backed by FY26 preliminary results — not sympathy or fluff",
+            "Daily chart setup respected: gap-and-go on earnings + product launch news, no indication of warrant/ATM overhang blocking upside"
+          ],
+          "bearFactors": [
+            "Australian micro-cap with 14.7M market cap — liquidity and institutional coverage lower than US peers; real risk of retail-driven fade tomorrow",
+            "Premarket gap of 63% leaves minimal room for traditional flag breakout re-entry; HOD already captured most structural demand",
+            "Healthcare/Biotech subject to overnight news risk and FDA/compliance scrutiny; single-product commercialization concentration",
+            "Form 6-K after close may reveal dilutive details (share issuance, debt, guidance miss) that reverse sentiment in premarket"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "CDTG",
+          "hod": 77,
+          "hodExact": 77.84,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "CDT Environmental Technology Investment Holdings Limited ordinary shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 2.81,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 2.81M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8997,
+          "open": 0.9139,
+          "gapPct": 1.58,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.6,
+          "hodTimeExact": "10:54 AM ET",
+          "close": 1.32,
+          "fade": 17,
+          "fadeExact": 17.5,
+          "vwap": 1.349,
+          "vsVwap": "below",
+          "pmHigh": 0.9305,
+          "volRaw": "87.1M",
+          "volDollar": 117528953,
+          "relVol": 11.4,
+          "avgVolM": 7.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CDTG",
+          "newsSummary": "CDTG ran 77.84% on the session with minimal fade (17.5%), indicating sustained institutional buying pressure throughout the day rather than a premarket spike collapse. No substantive news catalyst was found; this is a structural China micro-cap rig pattern with strong afternoon HOD continuation and 11.4x relative volume.",
+          "bullFactors": [
+            "Micro float (2.81M) with sustained intraday volume — high relative vol (11.4x) printing all session, not a flash spike",
+            "HOD-dominated tape (77.84% HOD, only 17.5% fade) signals afternoon continuation and short covering, classic China rig structural strength",
+            "Session held bid with multiple HOD prints late day — institutional accumulation pattern, not premarket pop/drop volatility",
+            "Industrials sector with real market cap (4.04M) and no dilutive news overhead — clean daily chart setup for follow-through"
+          ],
+          "bearFactors": [
+            "No real cash catalyst or partnership — move is purely structural/liquidity-driven China rig pattern, vulnerable to reversal if retail exhaustion hits",
+            "Chinese micro-cap with inherent black swan risk and potential liquidity spillover if intraday momentum breaks",
+            "While sustained, China rigs can reverse sharply on profit-taking or sector rotation without fundamental support"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "BIAF",
+          "hod": 59,
+          "hodExact": 59.23,
+          "news": [
+            "bioAffinity Technologies to Participate in the H.C. Wainwright 28th Annual Global Investment Conference",
+            "Form 8-K",
+            "S-3/A",
+            "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "bioAffinity Technologies, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.59,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 0.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 12.78,
+          "open": 11.12,
+          "gapPct": -12.99,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 20.3499,
+          "hodTimeExact": "12:09 PM ET",
+          "close": 15.27,
+          "fade": 24,
+          "fadeExact": 24.96,
+          "vwap": 16.7822,
+          "vsVwap": "below",
+          "pmHigh": 12.5,
+          "volRaw": "20.1M",
+          "volDollar": 337073004,
+          "relVol": 3.2,
+          "avgVolM": 6.2,
+          "ssr": true,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [
+            "bioAffinity Technologies to Participate in the H.C. Wainwright 28th Annual Global Investment Conference",
+            "Form 8-K",
+            "S-3/A",
+            "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors"
+          ],
+          "newsItems": [
+            {
+              "title": "bioAffinity Technologies to Participate in the H.C. Wainwright 28th Annual Global Investment Conference",
+              "url": "https://www.stocktitan.net/news/BIAF/bio-affinity-technologies-to-participate-in-the-h-c-wainwright-28th-q1zrk8r2tuf8.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-03T20:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226041387/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "S-3/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226041354/forms-3a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3/A",
+              "rel": "before"
+            },
+            {
+              "title": "bioAffinity Technologies Advances CyPath® Lung for Surveillance of Lung Cancer Survivors",
+              "url": "https://www.stocktitan.net/news/BIAF/bio-affinity-technologies-advances-cy-path-lung-for-surveillance-of-p5vwu0whag0s.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BIAF",
+          "newsSummary": "bioAffinity filed an S-3/A registration statement (amended shelf filing) on 2026-09-03, signaling potential future capital raise capacity. The company also announced participation in H.C. Wainwright's investment conference and progress on its CyPath® Lung surveillance product. The S-3/A is a dilution risk signal and likely weighed on sentiment; the 59% HOD with 25% fade and -13% gap suggests retail bought the morning dip/conference news but institutional pressure or offering concerns reversed the move.",
+          "bullFactors": [
+            "Nano float (0.59M) — extreme liquidity constraint, can amplify intraday moves if sustained buying materializes",
+            "Real clinical catalyst (CyPath® Lung advancement for surveillance) — medical device with FDA pathway merit, not fluff",
+            "59% HOD print with 3.2x relative volume — shows genuine intraday institutional accumulation and retail interest, not a 1-minute spike",
+            "H.C. Wainwright conference participation — credible investor platform, attracts institutional healthcare conferences"
+          ],
+          "bearFactors": [
+            "S-3/A shelf registration filed same day as news — classic dilution setup, telegraphs future secondary offering risk and typically pressures price",
+            "Large fade (25% from HOD) into close — suggests institutional distribution into retail FOMO or short covering failure; HOD did not hold",
+            "Negative gap (-12.99%) — premarket weakness into opening, structural headwind that limited upside follow-through",
+            "8-K + S-3/A dual filings on 2026-09-03 (before the move) — regulatory overhead and capital-raise signals typically cap momentum runners"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ATER",
+          "hod": 54,
+          "hodExact": 54.6,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Aterian, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 10.04,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.04M + RelVol 151.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.04M + RelVol 151.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.618,
+          "open": 0.6719,
+          "gapPct": 8.72,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.9554,
+          "hodTimeExact": "10:12 AM ET",
+          "close": 0.6259,
+          "fade": 34,
+          "fadeExact": 34.49,
+          "vwap": 0.7995,
+          "vsVwap": "below",
+          "pmHigh": 0.7353,
+          "volRaw": "48.5M",
+          "volDollar": 38774342,
+          "relVol": 151.1,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ATER",
+          "newsSummary": "ATER ran 54.6% on the session with no identifiable news catalyst — this is pure intraday momentum with no fundamental driver. The move appears structural: sustained high relative volume (151.1x) throughout the day, suggesting institutional accumulation or sympathy buying rather than reactive headline trading.",
+          "bullFactors": [
+            "Float at 10.04M (micro-cap tier) — tight supply for institutional accumulation",
+            "High session HOD dominance (54.6% of move in afternoon/HOD) — tape shows sustained continuation, not premarket spike fade",
+            "Relative volume 151.1x normal — institutional-grade buying pressure throughout the session, not retail flash",
+            "No dilutive news (offering/warrant/ATM) — clean daily chart structure for continuation"
+          ],
+          "bearFactors": [
+            "Zero news catalyst — move is pure momentum with no fundamental anchor; vulnerable to reversal on profit-taking",
+            "Float just above preferred threshold (10.04M vs. <10M ideal) — reduces micro-cap acceleration potential",
+            "No-news tape reads carry higher fade risk into next session without fresh buying pressure",
+            "Consumer Cyclical sector with no theme alignment — no sector tailwind to sustain momentum"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ZTG",
+          "hod": 53,
+          "hodExact": 53.01,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Zenta Group Company Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MO",
+          "floatM": 3.5,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 3.5M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.5M + RelVol 25.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.5M + RelVol 25.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6797,
+          "open": 0.729,
+          "gapPct": 7.25,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.04,
+          "hodTimeExact": "01:28 PM ET",
+          "close": 0.7602,
+          "fade": 26,
+          "fadeExact": 26.9,
+          "vwap": 0.8881,
+          "vsVwap": "below",
+          "pmHigh": 0.99,
+          "volRaw": "29.0M",
+          "volDollar": 25797247,
+          "relVol": 25.0,
+          "avgVolM": 1.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZTG",
+          "newsSummary": "ZTG ran 53% intraday with no identifiable news catalyst, driven entirely by price action and tape strength. This is a pure momentum/structural play with no fundamental catalyst to validate the move—typical of low-float runners relying on retail/institutional accumulation signals rather than event-driven triggers.",
+          "bullFactors": [
+            "Ultra-tight float (3.5M shares) creates volatility amplification and low resistance to intraday runs",
+            "53% HOD domination with 26.9% fade suggests afternoon session held strength—not a premarket spike-and-dump pattern",
+            "25.0x relative volume indicates sustained institutional or retail accumulation throughout the session, not a flash wick",
+            "Industrials sector micro-cap with minimal market cap ($8.9M) allows for aggressive single-session moves on low absolute dollar volume"
+          ],
+          "bearFactors": [
+            "NO news catalyst means this is pure sentiment/technicals play with zero fundamental anchor—high risk of sudden reversal",
+            "7.25% gap opening suggests premarket momentum may have already captured early institutional entries, leaving limited room before fade",
+            "No visible catalyst means position is vulnerable to profit-taking, margin calls, or short-squeeze unwinding at any point",
+            "Macao domicile (MO) introduces regulatory/liquidity risk; verify tradability and short-locate availability before entry"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NIKI",
+          "hod": 48,
+          "hodExact": 48.69,
+          "news": [
+            "Form 8-K",
+            "S-3 shelf"
+          ],
+          "tag": "OFFERING",
+          "name": "Niki BioSolutions, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.19,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 1.19M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.19M + RelVol 95.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.19M + RelVol 95.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.51,
+          "open": 7.15,
+          "gapPct": 9.83,
+          "time": "regular session",
+          "session": "morning",
+          "high": 9.68,
+          "hodTimeExact": "10:24 AM ET",
+          "close": 6.2,
+          "fade": 35,
+          "fadeExact": 35.95,
+          "vwap": 8.3907,
+          "vsVwap": "below",
+          "pmHigh": 8.77,
+          "volRaw": "4.1M",
+          "volDollar": 34696728,
+          "relVol": 95.5,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "S-3 shelf"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1734005/000121390026097705/ea0304290-8k_nikibio.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-04T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "S-3 shelf",
+              "url": "https://www.sec.gov/Archives/edgar/data/1734005/000121390026094595/ea0302239-s3_niki.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NIKI",
+          "newsSummary": "NIKI gapped 9.83% on 95.5x relative volume with a 48.69% HOD and only 35.95% fade, signaling institutional accumulation. An S-3 shelf was filed on 2026-08-28 (before the move), creating dilution overhang; today's Form 8-K came after the high, making it reactive rather than causal. The shelf registration is a material bearish signal for a micro-cap.",
+          "bullFactors": [
+            "Extreme micro-float at 1.19M shares creates explosive leverage on any sustained buying",
+            "Session HOD (48.69%) significantly outpaced fade (35.95%), indicating afternoon strength and short covering",
+            "94.5x relative volume on a sub-2M float demonstrates institutional accumulation, not retail noise"
+          ],
+          "bearFactors": [
+            "S-3 shelf filed pre-move creates perpetual dilution overhang; equity raises are guaranteed with micro-caps",
+            "Gap-up entry (9.83%) on news reduces room to run and increases fade risk on profit-taking",
+            "Form 8-K filed after the high is reactive; no clear forward catalyst to sustain continuation",
+            "Healthcare sector with no biotech catalyst (no FDA, trial data, or partnership) — sympathy or dilution-driven only"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GRI",
+          "hod": 46,
+          "hodExact": 46.72,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "GRI Bio, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 2.22,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 2.22M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.29,
+          "open": 2.34,
+          "gapPct": 2.18,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.36,
+          "hodTimeExact": "02:34 PM ET",
+          "close": 2.88,
+          "fade": 14,
+          "fadeExact": 14.29,
+          "vwap": 3.024,
+          "vsVwap": "below",
+          "pmHigh": 2.4,
+          "volRaw": "7.5M",
+          "volDollar": 22573492,
+          "relVol": 14.7,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GRI",
+          "newsSummary": "GRI moved +46.72% intraday with no identifiable news catalyst or press releases. The move appears to be pure price action-driven, possibly reflecting intraday accumulation or sympathy to sector themes. Without a substantive catalyst, this is a structural momentum play on float and tape strength alone.",
+          "bullFactors": [
+            "Micro-cap float (2.22M) — extremely tight float favors explosive intraday moves with modest volume",
+            "Strong relative volume (14.7x) — sustained buying pressure throughout session, not a premarket spike fade",
+            "Session HOD dominance (46.72% gain vs 14.29% fade) — indicates afternoon continuation and short covering, classic hot tape signal",
+            "No dilutive news — clean chart with no warrant/convertible/ATM overhang to cap upside"
+          ],
+          "bearFactors": [
+            "NO catalyst provided — entire move is newsless momentum, increases tail risk of sharp reversal",
+            "Micro-cap liquidity risk — 2.22M float can gap or lock if sellers panic or buying dries up EOD",
+            "Late-session HOD print with no follow-up news — potential premarket fade if momentum doesn't sustain overnight",
+            "Healthcare sector — often prone to sudden selling if perceived as speculative rather than fundamental"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AOUT",
+          "hod": 46,
+          "hodExact": 46.35,
+          "news": [
+            "American Outdoor Brands, Inc. Reports First Quarter Fiscal 2027 Financial Results",
+            "Form 10-Q",
+            "Form 8-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "American Outdoor Brands, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 11.73,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$185M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.73M + RelVol 78.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.73M + RelVol 78.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.01,
+          "open": 12.76,
+          "gapPct": 27.47,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 14.65,
+          "hodTimeExact": "01:19 PM ET",
+          "close": 14.48,
+          "fade": 1,
+          "fadeExact": 1.16,
+          "vwap": 13.9907,
+          "vsVwap": "above",
+          "pmHigh": 12.9975,
+          "volRaw": "4.4M",
+          "volDollar": 61999171,
+          "relVol": 78.0,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "American Outdoor Brands, Inc. Reports First Quarter Fiscal 2027 Financial Results",
+            "Form 10-Q",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "American Outdoor Brands, Inc. Reports First Quarter Fiscal 2027 Financial Results",
+              "url": "https://www.stocktitan.net/news/AOUT/american-outdoor-brands-inc-reports-first-quarter-fiscal-2027-pgi3vh4fx08x.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-03T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1808997/000180899726000046/aout-20260731.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1808997/000180899726000045/aout-20260903.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AOUT",
+          "newsSummary": "AOUT reported Q1 FY2027 earnings after market close on 2026-09-03, triggering a 27.47% gap and 46.35% HOD move today. The earnings and 10-Q/8-K filings came before the price run, making them the catalyst. Outdoor brands are benefiting from seasonal strength and consumer spending, though the real merit depends on guidance and margin performance in the filings.",
+          "bullFactors": [
+            "Strong intraday momentum — 46.35% HOD with only 1.16% fade shows sustained institutional buying throughout session, not a premarket spike collapse",
+            "High relative volume (78.0x) indicates real participation and conviction, not vapor",
+            "Float at 11.73M is just above Jack's preferred <10M but acceptable given the intraday vol/min exceeded premarket vol/min threshold",
+            "Daily chart has clear room to upside post-earnings; no mention of warrants, convertibles, or ATM offering overheads"
+          ],
+          "bearFactors": [
+            "Float creep — 11.73M is slightly above Jack's sweet spot and mid-float tier reduces explosive potential",
+            "Earnings catalyst is now in the rear-view; any afternoon fade or EOD stall suggests retail is hitting ask into institutional unload",
+            "Consumer Cyclical sector is economically sensitive; if guidance is conservative or forward-looking demand softens, reversal risk is real",
+            "Gap and HOD both printed premarket/overnight — need to confirm afternoon session HOD holds and volume doesn't roll over into close"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "OFAL",
+          "hod": 43,
+          "hodExact": 43.8,
+          "news": [
+            "QikBIM Goes Viral: OFA Group’s AI-Powered BIM Platform Surges Past 281,000 Views and Adds Thousands of New Followers in 90 Days, Converts First Paying Subscribers and Targets Over $1 Million in Savings Per Project"
+          ],
+          "tag": "CONTRACT",
+          "name": "OFA Group Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 3.42,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 3.42M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6787,
+          "open": 0.9153,
+          "gapPct": 34.86,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.976,
+          "hodTimeExact": "08:16 AM ET",
+          "close": 0.78,
+          "fade": 20,
+          "fadeExact": 20.08,
+          "vwap": 0.8662,
+          "vsVwap": "below",
+          "pmHigh": 0.99,
+          "volRaw": "99.7M",
+          "volDollar": 86340189,
+          "relVol": 6.8,
+          "avgVolM": 14.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "QikBIM Goes Viral: OFA Group’s AI-Powered BIM Platform Surges Past 281,000 Views and Adds Thousands of New Followers in 90 Days, Converts First Paying Subscribers and Targets Over $1 Million in Savings Per Project"
+          ],
+          "newsItems": [
+            {
+              "title": "QikBIM Goes Viral: OFA Group’s AI-Powered BIM Platform Surges Past 281,000 Views and Adds Thousands of New Followers in 90 Days, Converts First Paying Subscribers and Targets Over $1 Million in Savings Per Project",
+              "url": "https://www.stocktitan.net/news/OFAL/qik-bim-goes-viral-ofa-group-s-ai-powered-bim-platform-surges-past-wf43erp2ooqp.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-04T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OFAL",
+          "newsSummary": "OFA Group's AI-powered BIM platform (QikBIM) announced viral traction with 281k+ views, new followers, and first paying subscribers in 90 days, plus targeting $1M+ savings per project. The news preceded the high, suggesting real product-market validation and early revenue conversion rather than fluff—a meaningful catalyst for a micro-cap industrial play with legitimate cash value generation potential.",
+          "bullFactors": [
+            "Micro float (3.42M) with 6.8x relative volume—tight float with sustained intraday buying pressure",
+            "HOD dominance at 43.8% vs fade at 20.08%—strong afternoon continuation pattern, shorts being squeezed out",
+            "Real catalyst: paying subscribers + quantified project savings ($1M+/project)—not sympathy or no-news fluff",
+            "34.86% gap + news timed before HOD—setup allowed time for institutional accumulation before retail push"
+          ],
+          "bearFactors": [
+            "PR-sourced news (self-reported metrics like '281k views' and 'thousands of followers')—unaudited, requires skepticism on true commercial traction",
+            "Early-stage revenue conversion claim lacks third-party verification or partnership confirmation",
+            "No mention of actual customer names, project pipeline, or binding contracts—'targets' and 'converts' are forward-looking, not booked revenue",
+            "Industrials sector with micro-cap market cap ($3M)—liquidity risk if institutional support fades into close"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "ONCO",
+          "hod": 42,
+          "hodExact": 42.08,
+          "news": [
+            "Merger comms",
+            "Onconetix Acquisition Target Realbotix Launches Pilot with Leading European Telecommunications Company to Deploy Humanoid Robots in Live Presentations and Events",
+            "S-1/A"
+          ],
+          "tag": "MERGER",
+          "name": "Onconetix, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 4.44,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 4.44M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.739,
+          "open": 0.7385,
+          "gapPct": -0.07,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.05,
+          "hodTimeExact": "03:59 PM ET",
+          "close": 1.02,
+          "fade": 2,
+          "fadeExact": 2.86,
+          "vwap": 0.9313,
+          "vsVwap": "above",
+          "pmHigh": 0.73,
+          "volRaw": "6.7M",
+          "volDollar": 6205514,
+          "relVol": 34.5,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Merger comms",
+            "Onconetix Acquisition Target Realbotix Launches Pilot with Leading European Telecommunications Company to Deploy Humanoid Robots in Live Presentations and Events",
+            "S-1/A"
+          ],
+          "newsItems": [
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/1782107/000121390026096951/ea0304438-425_onconetix.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "before"
+            },
+            {
+              "title": "Onconetix Acquisition Target Realbotix Launches Pilot with Leading European Telecommunications Company to Deploy Humanoid Robots in Live Presentations and Events",
+              "url": "https://www.stocktitan.net/news/ONCO/onconetix-acquisition-target-realbotix-launches-pilot-with-leading-zj3l3cfqh7ha.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-03T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "S-1/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1782107/000121390026095703/ea0303846-s1a1_onconetix.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-08-31T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-1/A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ONCO",
+          "newsSummary": "ONCO announced merger communications (SEC filing 09-03 evening) and a PR highlighting Realbotix (acquisition target) launching a humanoid robot pilot with a major European telecom for live events. The catalyst is real M&A activity with a named partner deployment, suggesting institutional confidence in the deal closing and Realbotix's commercial traction. This is cash-backed M&A with a concrete use case, not fluff.",
+          "bullFactors": [
+            "Micro-float at 4.44M shares — classic momentum micro-cap with room to run on institutional accumulation.",
+            "42.08% HOD dominance with only 2.86% fade suggests sustained intraday buying pressure and shorts caught off-guard; afternoon continuation likely.",
+            "Real M&A catalyst with revenue-generating pilot (European telecom partnership) — Realbotix has commercial validation, not vaporware.",
+            "Relative volume 34.5x — heavy institutional participation throughout session, not a 2-minute news spike fade."
+          ],
+          "bearFactors": [
+            "S-1/A filing (08-31) signals upcoming capital raise — potential dilution ahead; watch for offering announcement.",
+            "Merger comms came before the high (09-03 evening, HOD 09-04 intraday) — news was known but price action lagged; retail fomo may dominate now.",
+            "Healthcare/Robotics crossover is niche; Realbotix is acquisition target (not organic growth), which reduces organic runway post-close.",
+            "Fade into close (2.86%) despite 42% HOD suggests profit-taking by early longs; watch for institutional accumulation reversal."
+          ],
+          "setupGrade": "A"
+        }
+      ],
+      "hod": 79,
+      "fade": 18,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "IMRN led +79.28% (9% fade). 5/10 held <20% fade. news: IMRN — \"Form 6-K\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS sympathy runners (CDTG, ATER, ZTG, GRI) alongside legitimate catalysts (IMRN earnings, AOUT earnings, ONCO merger), with healthcare and industrials overrepresented—a mixed-quality session that favors patient entry work over pure momentum chase. Float distribution heavily skews micro-cap (<5M in BIAF 0.59M, CDTG 2.81M, GRI 2.22M, NIKI 1.19M), which aligns with the playbook's core, though ATER and AOUT breach the 10M+ threshold and signal lower conviction. Critical distinction: afternoon HOD printing (BIAF, ZTG, GRI, AOUT, ONCO) outweighs morning dominance, indicating intraday institutional accumulation and late-session strength rather than premarket fade patterns—a HOT cycle signal. However, the tape carries execution risk: NIKI tagged as OFFERING (automatic F-grade), and NO-NEWS names like CDTG and ATER showing 17.5–34% fades suggest afternoon runners may be trap bounces into resistance; momentum traders should treat afternoon HOD setups with caution until sustained volume and multiple higher lows confirm institutional continuation."
+    },
     {
       "date": "2026-09-03",
       "runners": [
