@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-07T12:37:38.256838Z",
-  "count": 9790,
+  "exportedAt": "2026-09-08T23:26:26.859272Z",
+  "count": 9799,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,926 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-08",
+      "runners": [
+        {
+          "sym": "NUR",
+          "hod": 336,
+          "hodExact": 336.16,
+          "news": [
+            "Form 6-K",
+            "NuRAN Wireless Announces Creation of NuEnergy, a Solar, Storage and Hybrid Power Subsidiary",
+            "NuRAN Wireless Announces Plans to Voluntarily Delist from the Canadian Securities Exchange",
+            "NuRAN Wireless Advances Edge AI Infrastructure Strategy for Rural Connectivity Sites in Africa"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Nuran Wireless Inc. Common Shares",
+          "sector": "Technology",
+          "country": "CA",
+          "floatM": 5.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$30M",
+          "riskBadges": [
+            "Float 5.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.95M + RelVol 1037.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.95M + RelVol 1037.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.77,
+          "open": 2.02,
+          "gapPct": 14.12,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.72,
+          "hodTimeExact": "10:30 AM ET",
+          "close": 2.46,
+          "fade": 68,
+          "fadeExact": 68.13,
+          "vwap": 4.3467,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "48.1M",
+          "volDollar": 208879091,
+          "relVol": 1037.3,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "NuRAN Wireless Announces Creation of NuEnergy, a Solar, Storage and Hybrid Power Subsidiary",
+            "NuRAN Wireless Announces Plans to Voluntarily Delist from the Canadian Securities Exchange",
+            "NuRAN Wireless Advances Edge AI Infrastructure Strategy for Rural Connectivity Sites in Africa"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1680637/000175392626001710/g085913_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "NuRAN Wireless Announces Creation of NuEnergy, a Solar, Storage and Hybrid Power Subsidiary",
+              "url": "https://www.stocktitan.net/news/NUR/nu-ran-wireless-announces-creation-of-nu-energy-a-solar-storage-and-xacuz8tmoxc1.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-03T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "NuRAN Wireless Announces Plans to Voluntarily Delist from the Canadian Securities Exchange",
+              "url": "https://www.stocktitan.net/news/NUR/nu-ran-wireless-announces-plans-to-voluntarily-delist-from-the-auj2zimphghj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T20:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "NuRAN Wireless Advances Edge AI Infrastructure Strategy for Rural Connectivity Sites in Africa",
+              "url": "https://www.stocktitan.net/news/NUR/nu-ran-wireless-advances-edge-ai-infrastructure-strategy-for-rural-open8ki0iebn.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-01T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.65,
+              "uncertain": false
+            },
+            {
+              "theme": "Solar",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NUR",
+          "newsSummary": "NUR gapped 14% on a cluster of pre-market announcements: voluntary delisting from CSE, new solar/storage subsidiary (NuEnergy), and Edge AI infrastructure expansion in Africa. The news bundle is thematic (AI + Solar) but lacks real cash catalysts—delisting is structural/negative signal, subsidiary creation is dilutive, and African rural connectivity is long-cycle speculative. The 336% HOD with only 68% fade and 1037x relVol suggests institutional or retail sympathy flow into a micro-cap tech story rather than fundamental conviction.",
+          "bullFactors": [
+            "Ultra-low float at 5.95M shares—potential for sustained intraday momentum if volume stays hot",
+            "Massive relative volume (1037x) and only 68% fade indicate buyers holding through the session, not immediate panic selling",
+            "Multiple session HODs and 336% peak-to-current suggests intraday trend continuation bias, not premarket spike-and-dump",
+            "AI + Solar dual-theme resonance with retail/institutional flow; Africa connectivity angle offers long-tail narrative fuel"
+          ],
+          "bearFactors": [
+            "Voluntary delisting is a red flag for balance sheet stress or governance issues—negative context for the move",
+            "News cluster is pre-HOD (before high), meaning catalysts did not drive the spike; likely sympathy or tape-driven continuation",
+            "NuEnergy subsidiary creation and African expansion are dilutive to near-term shareholder value; no revenue guidance or partnerships named",
+            "68% fade from HOD is material; late-day liquidity risk and potential trap for retail chasing into close"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GCDT",
+          "hod": 212,
+          "hodExact": 212.75,
+          "news": [
+            "Form 6-K",
+            "Green Circle Decarbonize Technology Limited Entering into Strategic Partnership Agreement for Mass Production of BocaPCM-TES Panels in the People's Republic of China"
+          ],
+          "tag": "CONTRACT",
+          "name": "Green Circle Decarbonize Technology Limited",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 3.96,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 3.96M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3741,
+          "open": 0.363,
+          "gapPct": -2.97,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.17,
+          "hodTimeExact": "03:35 PM ET",
+          "close": 0.91,
+          "fade": 22,
+          "fadeExact": 22.22,
+          "vwap": 0.7181,
+          "vsVwap": "above",
+          "pmHigh": 0.3601,
+          "volRaw": "408.7M",
+          "volDollar": 293484277,
+          "relVol": 478.9,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Green Circle Decarbonize Technology Limited Entering into Strategic Partnership Agreement for Mass Production of BocaPCM-TES Panels in the People's Republic of China"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226041728/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Green Circle Decarbonize Technology Limited Entering into Strategic Partnership Agreement for Mass Production of BocaPCM-TES Panels in the People's Republic of China",
+              "url": "https://www.stocktitan.net/news/GCDT/green-circle-decarbonize-technology-limited-entering-into-strategic-613z36r799qx.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T14:15:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "Solar",
+              "confidence": 0.68,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:GCDT",
+          "newsSummary": "GCDT announced a strategic partnership agreement for mass production of BocaPCM-TES thermal energy storage panels in China at 14:15 UTC, but this news came AFTER the session high. The 212.75% move was driven by intraday institutional accumulation and sustained volume (478.9x relVol), not by the partnership announcement. The partnership itself has real cash-value merit—mass production agreements with tangible product placement—but did not trigger today's move.",
+          "bullFactors": [
+            "Ultra-tight float (3.96M) with 478.9x relative volume = extreme liquidity compression and institutional accumulation pressure",
+            "Session HOD dominating pattern (212.75% gain, only 22.22% fade) indicates hot cycle continuation and short-squeeze strength, not premarket spike fade",
+            "Real catalyst—mass production partnership for thermal energy storage (BocaPCM-TES) in China has cash value, not fluff sympathy",
+            "China-domiciled micro-cap with sustained intraday volume and multiple HOD prints = China rig structural pattern, favors continuation"
+          ],
+          "bearFactors": [
+            "212% single-day move is extreme volatility risk; liquidity can evaporate on reversal or black-swan event",
+            "News came AFTER the high; partnership is reactive justification, not the move catalyst—price action led, news followed",
+            "Hong Kong industrial micro-cap with limited US institutional recognition; reliance on Greater China retail flow and short-squeeze dynamics",
+            "Form 6-K filing post-high suggests regulatory disclosure may contain dilution, secondary offering, or warrant exercise details—must verify before holding overnight"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "PDSB",
+          "hod": 195,
+          "hodExact": 195.91,
+          "news": [
+            "Form 8-K",
+            "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks"
+          ],
+          "tag": "OFFERING",
+          "name": "PDS Biotechnology Corporation Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 55.86,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$31M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.22,
+          "open": 0.488,
+          "gapPct": 121.82,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.651,
+          "hodTimeExact": "09:33 AM ET",
+          "close": 0.3,
+          "fade": 53,
+          "fadeExact": 53.92,
+          "vwap": 0.4273,
+          "vsVwap": "below",
+          "pmHigh": 0.54,
+          "volRaw": "489.8M",
+          "volDollar": 209294142,
+          "relVol": 155.3,
+          "avgVolM": 3.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1472091/000114036126035853/ef20081705_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks",
+              "url": "https://www.stocktitan.net/news/PDSB/pds-biotech-announces-up-to-22-55-million-financing-led-by-dr-oopapv3d55j5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PDSB",
+          "newsSummary": "PDSB announced a $22.55M financing round led by Dr. Patrick Soon-Shiong (NantWorks founder) at 12:30 PM, well before the session high. The stock ran 195.91% on the day with a 121.82% gap open, but the financing is dilutive capital raise — not a real cash value catalyst. The 8-K filed after-hours confirms this was reactive, not causal.",
+          "bullFactors": [
+            "Sustained intraday momentum with 195.91% HOD gain and only 53.92% fade suggests institutional accumulation rather than pure pump",
+            "High relative volume (155.3x) indicates real participation, not thin liquidity",
+            "Reputable anchor investor (Dr. Soon-Shiong) adds credibility to the financing, reducing black swan risk"
+          ],
+          "bearFactors": [
+            "Mega-thick float (55.86M) conflicts with Jack's <10M preference — limits upside runway on continuation",
+            "Financing is dilutive capital raise, not real business catalyst; no FDA approval, revenue milestone, or partnership upside",
+            "121.82% gap open + 195.91% HOD suggests premarket spike dominance; fade risk is elevated despite afternoon hold",
+            "Offering will likely include below-market pricing or warrant coverage, adding overhang to next sessions"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "ATER",
+          "hod": 62,
+          "hodExact": 62.97,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Aterian, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 10.04,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.04M + RelVol 15.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.04M + RelVol 15.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6259,
+          "open": 0.6642,
+          "gapPct": 6.12,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.02,
+          "hodTimeExact": "09:49 AM ET",
+          "close": 0.7285,
+          "fade": 28,
+          "fadeExact": 28.58,
+          "vwap": 0.8402,
+          "vsVwap": "below",
+          "pmHigh": 0.6778,
+          "volRaw": "43.4M",
+          "volDollar": 36475272,
+          "relVol": 15.9,
+          "avgVolM": 2.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1757715/000143774926029837/ater20260902_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ATER",
+          "newsSummary": "ATER moved 63% intraday with the Form 8-K filing arriving after the high, confirming it was reactive not causal. The 8-K itself provides no detail in the data provided—the driver was intraday price action and institutional accumulation, not a disclosed catalyst.",
+          "bullFactors": [
+            "Float at 10.04M (borderline tight for small-cap momentum) with 15.9x relative volume—sustained institutional buying pressure all session",
+            "62.97% HOD dominance with only 28.58% fade—heavy afternoon continuation, shorts likely covering, not a premarket spike collapse",
+            "Daily chart room to upside assumed (no overhead supply flagged); price action held into close with late session HOD printing",
+            "Setup gave time to establish before retail pushed—dip/soak accumulation pattern consistent with Jack's playbook"
+          ],
+          "bearFactors": [
+            "Float just above 10M threshold (10.04M)—not the tight micro-cap Jack prefers; moves into mid-tier territory",
+            "Form 8-K after the high is always a red flag—no known catalyst drove the move, making it vulnerable to reversal or halt if filing contains dilution/offering",
+            "Market cap only $13.8M on $14.1B daily intraday volume potential—liquidity spike could reverse violently if retail exits or lock-up news breaks",
+            "No real cash catalyst identified (news_status='ok' but no substantive deal/partnership/earnings)—pure tape-driven, high black swan risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BNC",
+          "hod": 59,
+          "hodExact": 59.88,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "CEA Industries Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 33.91,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$216M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.49,
+          "open": 5.37,
+          "gapPct": 53.87,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 5.5799,
+          "hodTimeExact": "04:21 AM ET",
+          "close": 5.25,
+          "fade": 5,
+          "fadeExact": 5.91,
+          "vwap": 5.3927,
+          "vsVwap": "below",
+          "pmHigh": 6.73,
+          "volRaw": "69.9M",
+          "volDollar": 377079538,
+          "relVol": 236.3,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1482541/000148254126000045/bnc-20260904.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-04T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BNC",
+          "newsSummary": "BNC filed a routine Form 8-K on Sept 4, which preceded the move and therefore cannot be the catalyst. The 8-K is a structural filing with no disclosed material event; the real driver remains unidentified. This is a price-action run absent a clear fundamental trigger.",
+          "bullFactors": [
+            "Strong session HOD dominance: 59.88% of candles printed at or near HOD, signaling sustained institutional accumulation and short-covering pressure throughout the day",
+            "Exceptional relative volume of 236.3x indicates genuine intraday participation and liquidity depth rare for a 33.91M float name",
+            "Minimal fade (5.91%) despite a 53.87% gap shows conviction and no early seller exhaustion—retail did not dump into strength"
+          ],
+          "bearFactors": [
+            "Float of 33.91M is well above Jack's <10M preference and does not meet the intraday vol/min override threshold—this is a thick-float runner, limiting explosive continuation potential",
+            "No identifiable catalyst: Form 8-K is routine and preceded the move, leaving fundamentals opaque; pure price-action setups carry higher whipsaw and reversal risk",
+            "Gap-heavy move (53.87%) with no real news creates vulnerability to gap fills and mean reversion, especially if afternoon momentum stalls"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MOBX",
+          "hod": 59,
+          "hodExact": 59.11,
+          "news": [
+            "Mobix Labs Secures Initial F-16 Component Order",
+            "Mobix Labs Secures Initial F-16 Component Order, Expanding U.S. Fighter Aircraft Footprint",
+            "Mobix Labs Lands 1,500-Component Gulfstream Order",
+            "Mobix Labs Secures 1,500-Component Gulfstream Production Order"
+          ],
+          "tag": "CONTRACT",
+          "name": "Mobix Labs, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 16.01,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$21M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 16.01M + RelVol 70.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 16.01M + RelVol 70.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9301,
+          "open": 1.185,
+          "gapPct": 27.41,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.4799,
+          "hodTimeExact": "09:58 AM ET",
+          "close": 1.27,
+          "fade": 14,
+          "fadeExact": 14.18,
+          "vwap": 1.2994,
+          "vsVwap": "below",
+          "pmHigh": 1.4,
+          "volRaw": "133.3M",
+          "volDollar": 173232854,
+          "relVol": 70.4,
+          "avgVolM": 1.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Mobix Labs Secures Initial F-16 Component Order",
+            "Mobix Labs Secures Initial F-16 Component Order, Expanding U.S. Fighter Aircraft Footprint",
+            "Mobix Labs Lands 1,500-Component Gulfstream Order",
+            "Mobix Labs Secures 1,500-Component Gulfstream Production Order"
+          ],
+          "newsItems": [
+            {
+              "title": "Mobix Labs Secures Initial F-16 Component Order",
+              "url": "https://www.stocktitan.net/news/MOBX/mobix-labs-secures-initial-f-16-component-v437xzyk2ynm.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T13:40:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Mobix Labs Secures Initial F-16 Component Order, Expanding U.S. Fighter Aircraft Footprint",
+              "url": "https://www.stocktitan.net/news/MOBX/mobix-labs-secures-initial-f-16-component-order-expanding-u-s-5d6gc0wh5thn.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T12:10:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Mobix Labs Lands 1,500-Component Gulfstream Order",
+              "url": "https://www.stocktitan.net/news/MOBX/mobix-labs-lands-1-500-component-gulfstream-ndn0mooaq0pr.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-03T13:40:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Mobix Labs Secures 1,500-Component Gulfstream Production Order",
+              "url": "https://www.stocktitan.net/news/MOBX/mobix-labs-secures-1-500-component-gulfstream-production-you0ztfzejfs.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-03T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Defense",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MOBX",
+          "newsSummary": "Mobix Labs secured two real defense/aerospace contracts: a 1,500-component Gulfstream production order (Sept 3) and an initial F-16 component order (Sept 8). Both are substantive, cash-value deals with major defense primes—not sympathy or fluff. The F-16 news came before today's session HOD, suggesting it acted as the intraday catalyst for sustained momentum.",
+          "bullFactors": [
+            "Real cash contracts with blue-chip defense primes (Gulfstream/F-16 platforms)—high-quality catalyst, not pump fluff",
+            "Strong session HOD dominance (59.11% of range) with afternoon continuation—tape is HOT, not premarket spike fade",
+            "High relative volume (70.4x) sustained throughout session, indicating institutional participation and shorts blowing out",
+            "News released before the move (relative_to_high='before'), allowing organic setup time for accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Float above preferred tier (16.01M vs <10M target), reducing scarcity cushion and increasing fade risk on profit-taking",
+            "Only 14.18% fade into close—tight range between HOD and close suggests potential resistance overhead if trend reverses",
+            "Gulfstream order (Sept 3) did not sustain a multi-day run, raising questions about order size/cadence vs. market enthusiasm",
+            "No daily chart data provided—cannot assess previous HOD levels, supply overhead, or room-to-run on the chart"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "INDP",
+          "hod": 59,
+          "hodExact": 59.02,
+          "news": [
+            "Form 8-K/A",
+            "424B5 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Indaptus Therapeutics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 39.1,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$239M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.22,
+          "open": 1.285,
+          "gapPct": 5.33,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.94,
+          "hodTimeExact": "03:32 PM ET",
+          "close": 1.85,
+          "fade": 4,
+          "fadeExact": 4.64,
+          "vwap": 1.7057,
+          "vsVwap": "above",
+          "pmHigh": 1.43,
+          "volRaw": "8.4M",
+          "volDollar": 14348683,
+          "relVol": 9.6,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K/A",
+            "424B5 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1857044/000149315226041636/form8-ka.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K/A",
+              "rel": "after"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1857044/000149315226041526/form424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-04T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:INDP",
+          "newsSummary": "INDP ran 59% intraday with a 5.33% gap, but the move was preceded by a 424B5 offering announcement on 2026-09-04. The Form 8-K/A filed after the session high confirms reactive disclosure, not causation. Offering announcements are dilutive capital raises and typically act as overhead supply, not bullish catalysts.",
+          "bullFactors": [
+            "59% HOD with sustained intraday momentum suggests retail/institutional participation despite offering news",
+            "9.6x relative volume indicates genuine tape interest and not a one-minute spike fade",
+            "Session HOD dominance (not premarket spike dominance) shows afternoon continuation strength"
+          ],
+          "bearFactors": [
+            "424B5 offering is inherently dilutive and creates overhead supply — classic setup killer for Jack's criteria",
+            "4.64% fade into close suggests profit-taking and possible distribution into strength",
+            "39.1M float is well above Jack's 10M preference, reducing scarcity and intraday volatility per minute",
+            "Healthcare sector with no clinical/FDA/real cash catalyst — offering is pure capital raise, not value creation"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "WYHG",
+          "hod": 52,
+          "hodExact": 52.46,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Wing Yip Food Holdings Group Limited American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 0.6,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$71M",
+          "riskBadges": [
+            "Float 0.6M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.06,
+          "open": 5.52,
+          "gapPct": 35.96,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 6.1899,
+          "hodTimeExact": "05:03 AM ET",
+          "close": 5.88,
+          "fade": 5,
+          "fadeExact": 5.01,
+          "vwap": 5.4804,
+          "vsVwap": "above",
+          "pmHigh": 6.36,
+          "volRaw": "20.6M",
+          "volDollar": 112790781,
+          "relVol": 13.8,
+          "avgVolM": 1.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1999860/000121390026098122/ea0304907-6k_wingyip.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WYHG",
+          "newsSummary": "WYHG ran 52.46% intraday with a 35.96% gap open, driven by sustained institutional accumulation rather than a specific catalyst. The Form 6-K filing came AFTER the move peaked, making it reactive and not causal. This is a classic China rig pattern: nano float (0.6M), high relative volume (13.8x), and afternoon HOD dominance indicating structural buying pressure throughout the session.",
+          "bullFactors": [
+            "Nano float (0.6M shares) — extreme leverage for institutional positioning",
+            "High relative volume (13.8x) sustained all day, not premarket spike fade — marks genuine institutional accumulation",
+            "Session HOD 52.46% with only 5.01% fade — hot tape continuation strength, shorts underwater",
+            "China rig structural pattern: sustained intraday trend with multiple HODs printed, typical of aggressive institutional rigs in low-float Greater China names"
+          ],
+          "bearFactors": [
+            "Chinese micro-cap with Nasdaq compliance risk and potential liquidity spillover in nano-float — black swan conditions possible",
+            "No substantive cash catalyst or partnership — move is purely structural/momentum driven",
+            "Form 6-K (regulatory filing) has no disclosed material content in real-time — opaque catalyst for retail follow-through",
+            "Nano float creates wide spreads and execution risk on larger position sizes"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "ETS",
+          "hod": 51,
+          "hodExact": 51.81,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Elite Express Holding Inc. Class A Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 4.96,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$55M",
+          "riskBadges": [
+            "Float 4.96M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.96M + RelVol 198.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.96M + RelVol 198.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.83,
+          "open": 0.8664,
+          "gapPct": 4.39,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.26,
+          "hodTimeExact": "01:14 PM ET",
+          "close": 1.12,
+          "fade": 11,
+          "fadeExact": 11.11,
+          "vwap": 1.0007,
+          "vsVwap": "above",
+          "pmHigh": 0.8,
+          "volRaw": "6.1M",
+          "volDollar": 6143076,
+          "relVol": 198.1,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2053641/000110465926105925/tm2624935d1_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ETS",
+          "newsSummary": "ETS ran 51.81% with a 198% relative volume surge, posting HODs throughout the session and only fading 11.11% — a strong intraday continuation pattern typical of sector-wide or market-driven momentum. The Form 8-K filed after the move is reactive and does not explain the intraday strength; the catalyst appears structural rather than news-driven.",
+          "bullFactors": [
+            "Micro-cap float (4.96M) with 198% relative volume — excellent liquidity conditions for sustained momentum",
+            "Session HODs dominating (51.81% gain) with only 11.11% fade — tape shows continuation strength and shorts being pressured, not exhaustion",
+            "Hot cycle intraday pattern: multiple HODs printing late session rather than premarket spike + immediate dump, signaling institutional accumulation pressure",
+            "Daily chart has room to upside with no mentioned warrant/convertible/ATM overhead concerns"
+          ],
+          "bearFactors": [
+            "No substantive cash catalyst identified — move appears sympathy-driven or sector-related, not fundamental",
+            "Form 8-K filed after the high suggests reactive disclosure, not planned catalyst",
+            "Gap up 4.39% at open may have consumed early retail FOMO; afternoon continuation is stronger than open move but sustainability depends on flow",
+            "Industrials sector is broad; without company-specific catalyst, reversal risk on follow-through days is material"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 336,
+      "fade": 23,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "RIVr led +17692.0% (95% fade). 5/10 held <20% fade. news: NUR — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ — 2026-09-08**\n\nToday's tape is dominated by sympathy and no-news runners with heavy international skew (4 China/Hong Kong names), creating structural headwinds for the playbook: real catalysts are absent, and the float profile is bifurcated—ultra-tight floats (WYHG 0.6M, GCDT 3.96M, NUR 5.95M) sit alongside bloated names (PDSB 55.86M, INDP 39.1M), reducing setups with sustainable continuation potential. Critically, HODs printed predominantly in premarket and morning windows with the tape already fading hard into afternoon (RIVr fade 95.5%, NUR fade 68.1%, PDSB fade 53.9%), which is a textbook cold-cycle signal—early spikes exhausting retail without institutional follow-through—and the afternoon runners (GCDT, INDP, ETS) show minimal fade but negligible volume conviction and no fresh news to drive afternoon HOD holds. This framework reads the session as **COLD**: premarket dominance, sympathy noise masking weak fundamentals, and offerings/contract tags littering the tape signal a day to stay sidelined and preserve capital for hotter setups with real catalyst stays and sustained intraday volume pressure."
+    },
     {
       "date": "2026-09-04",
       "runners": [
