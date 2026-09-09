@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-08T23:26:26.859272Z",
-  "count": 9799,
+  "exportedAt": "2026-09-09T20:54:30.520106Z",
+  "count": 9809,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,965 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-09",
+      "runners": [
+        {
+          "sym": "FTFT",
+          "hod": 170,
+          "hodExact": 170.99,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Future FinTech Group Inc.",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 0.43,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 0.43M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.43M + RelVol 71.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.43M + RelVol 71.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.31,
+          "open": 1.27,
+          "gapPct": -3.05,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.55,
+          "hodTimeExact": "11:15 AM ET",
+          "close": 2.09,
+          "fade": 41,
+          "fadeExact": 41.13,
+          "vwap": 2.6777,
+          "vsVwap": "below",
+          "pmHigh": 1.3261,
+          "volRaw": "70.8M",
+          "volDollar": 189593914,
+          "relVol": 71.6,
+          "avgVolM": 1.0,
+          "ssr": true,
+          "reverseSplit": "4:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.9,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FTFT",
+          "newsSummary": "FTFT ran 171% intraday with no disclosed catalyst or news events. The move appears driven by structural factors: ultra-nano float (0.43M), extreme relative volume (71.6x), and Greater China domicile. Price action shows sustained HOD printing (170.99% gain) with a 41% fade, consistent with institutional accumulation rig rather than pump-and-dump.",
+          "bullFactors": [
+            "Extreme float scarcity (0.43M shares) — nano-tier liquidity compression creates outsized vol/min swings",
+            "Sustained intraday continuation with 171% HOD — multiple session highs printed, not a single spike fade",
+            "71.6x relative volume all session — institutional participation throughout, not premarket-only retail spike",
+            "HK-listed tech with Greater China backstop — structural rig pattern typical of organized accumulation cycles"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst disclosed — move is purely structural/liquidity-driven with execution risk on reversal",
+            "41% fade from HOD signals profit-taking resistance — entry timing and hold duration critical",
+            "Nano float creates black swan liquidity risk — exit liquidity may vanish on reversal or news shock",
+            "Negative gap (-3.05%) into rip suggests overnight weakness reversed intraday — morning support may not hold"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SUNE",
+          "hod": 105,
+          "hodExact": 105.49,
+          "news": [
+            "Suniva Completes $835 Million Capital Raise to Build Second Major U.S. Solar Cell Manufacturing Facility and More Than Quadruple Capacity to 5.5 GW",
+            "Merger comms",
+            "Form 8-K"
+          ],
+          "tag": "MERGER",
+          "name": "SUNation Energy, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 4.17,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$29M",
+          "riskBadges": [
+            "Float 4.17M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.37,
+          "open": 3.01,
+          "gapPct": 27.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.87,
+          "hodTimeExact": "10:41 AM ET",
+          "close": 4.51,
+          "fade": 7,
+          "fadeExact": 7.39,
+          "vwap": 3.7512,
+          "vsVwap": "above",
+          "pmHigh": 3.31,
+          "volRaw": "116.3M",
+          "volDollar": 436122855,
+          "relVol": 139.7,
+          "avgVolM": 0.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Suniva Completes $835 Million Capital Raise to Build Second Major U.S. Solar Cell Manufacturing Facility and More Than Quadruple Capacity to 5.5 GW",
+            "Merger comms",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Suniva Completes $835 Million Capital Raise to Build Second Major U.S. Solar Cell Manufacturing Facility and More Than Quadruple Capacity to 5.5 GW",
+              "url": "https://www.stocktitan.net/news/SUNE/suniva-completes-835-million-capital-raise-to-build-second-major-u-s-rqaovcorzcfk.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/22701/000121390026098110/ea030487602-8k425_sunation.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/22701/000121390026098107/ea030487602-8k425_sunation.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Solar",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SUNE",
+          "newsSummary": "Suniva announced completion of an $835M capital raise to fund a second major U.S. solar manufacturing facility, quadrupling capacity to 5.5 GW. This is a real cash capital event (not dilutive equity raise for survival) tied to merger communications and SEC filing. The catalyst has genuine operational merit—doubling manufacturing footprint is material for a solar manufacturer.",
+          "bullFactors": [
+            "Ultra-tight float (4.17M shares) creates low-float acceleration potential on sustained intraday volume",
+            "Real cash catalyst: $835M raise tied to production capacity expansion, not a sympathy or no-cash announcement",
+            "107% session HOD achieved with 139.7% relative volume suggests institutional accumulation and retail continuation into afternoon; tape remained hot",
+            "Daily chart room: 27% gap and sustained momentum into close signals no immediate overhead ceiling"
+          ],
+          "bearFactors": [
+            "27% premarket gap and 7.39% intraday fade suggest significant premarket front-running; retail may have entered early",
+            "Capital raise completion could indicate dilution has already occurred or will follow; need to verify share count impact on outstanding",
+            "News released 2026-09-08 evening (before market open); all upside was intraday reaction, not a fresh catalyst at open—risk of stale news fade tomorrow"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "AGRZ",
+          "hod": 94,
+          "hodExact": 94.26,
+          "news": [
+            "AGROZ INC. ENTERS INTO STRATEGIC SUPPLY AGREEMENT WITH HARVEST HIVE",
+            "Agroz Strengthens Global Position with Series of Prestigious International Awards and Industry Recognitions",
+            "Form 6-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Agroz Inc. Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "MY",
+          "floatM": 12.04,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2265,
+          "open": 0.4275,
+          "gapPct": 88.74,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.44,
+          "hodTimeExact": "09:29 AM ET",
+          "close": 0.2507,
+          "fade": 43,
+          "fadeExact": 43.02,
+          "vwap": 0.3443,
+          "vsVwap": "below",
+          "pmHigh": 0.44,
+          "volRaw": "178.1M",
+          "volDollar": 61306387,
+          "relVol": 27.4,
+          "avgVolM": 6.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "AGROZ INC. ENTERS INTO STRATEGIC SUPPLY AGREEMENT WITH HARVEST HIVE",
+            "Agroz Strengthens Global Position with Series of Prestigious International Awards and Industry Recognitions",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "AGROZ INC. ENTERS INTO STRATEGIC SUPPLY AGREEMENT WITH HARVEST HIVE",
+              "url": "https://www.stocktitan.net/news/AGRZ/agroz-inc-enters-into-strategic-supply-agreement-with-harvest-0x94df788m7d.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T12:52:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Agroz Strengthens Global Position with Series of Prestigious International Awards and Industry Recognitions",
+              "url": "https://www.stocktitan.net/news/AGRZ/agroz-strengthens-global-position-with-series-of-prestigious-tyyeuz5j37c7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-04T15:37:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2009233/000121390026097279/ea0304588-6k_agroz.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-03T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Agriculture",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AGRZ",
+          "newsSummary": "AGRZ announced a strategic supply agreement with Harvest Hive on 2026-09-09 at 12:52 UTC, before the session high. This is a real cash-value partnership (not sympathy or fluff) that provides concrete revenue visibility. The catalyst has merit as a tangible B2B deal, though the timing suggests it may have been released into an already-hot intraday move rather than catalyzing it from cold.",
+          "bullFactors": [
+            "Real cash catalyst: supply agreement with named partner Harvest Hive is concrete, not dilutive or promotional fluff",
+            "Float 12.04M is acceptable under Jack's criteria (will trade higher float if intraday vol/min > premarket vol/min, and relVol 27.4x suggests this threshold met)",
+            "High HOD %: 94.26% of day spent at or near session high signals sustained institutional accumulation and short-squeeze continuation, not premarket-fade pattern",
+            "Sector is Consumer Defensive with Agriculture angle — defensible theme with real unit economics, not speculative biotech or crypto"
+          ],
+          "bearFactors": [
+            "Gap up 88.74% into news release created immediate overhead supply; room to upside is constrained by the magnitude of the open",
+            "Fade % at 43.02% is material — nearly half the session has seen pullback from HOD, indicating some profit-taking or institutional profit-lock before close",
+            "Float tier is Mid (12M), not Nano/Micro, so liquidity is tighter than Jack's preferred <10M; vol/min must stay elevated to sustain the move",
+            "News released at 12:52 UTC (after market open by several hours) suggests it was not the initial shock catalyst — move may have had premarket momentum that news justified, risk of fade into close"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RIVr",
+          "hod": 82,
+          "hodExact": 82.5,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "RiverNorth Opportunities Fund, Inc. Rights (expiring September 23, 2026)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.02,
+          "open": 0.0365,
+          "gapPct": 82.5,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.0365,
+          "hodTimeExact": "04:31 AM ET",
+          "close": 0.027,
+          "fade": 26,
+          "fadeExact": 26.03,
+          "vwap": 0.0604,
+          "vsVwap": "below",
+          "pmHigh": 0.425,
+          "volRaw": "2.4M",
+          "volDollar": 142595,
+          "relVol": 0.1,
+          "avgVolM": 17.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNYS",
+          "tvSymbol": null,
+          "newsSummary": "RIVr gapped and ran 82.5% with no identifiable news catalyst — pure intraday momentum play with no substantive fundamental driver. The move appears driven by tape action and retail attention rather than real business developments.",
+          "bullFactors": [
+            "Session HOD at 82.5% with 82.5% gap suggests strong intraday conviction and potential institutional accumulation into the move",
+            "High fade pct (26.03%) indicates traders are taking profits but not capitulating — suggests support building and potential for afternoon continuation",
+            "No dilutive news on record (offering, warrant, ATM) keeps daily chart clean for potential continuation plays"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst is a major red flag — pure speculation and sentiment-driven, high whipsaw and fade risk into close",
+            "Float unknown and market cap $0 suggests micro/nano-cap illiquidity; without float data cannot confirm Jack's <10M preference",
+            "Relative volume 0.1 is extremely weak and concerning — suggests retail enthusiasm but NOT institutional participation; tape is thin",
+            "82.5% gap opening often prints quick stops on retail fomo rather than sustainable institutional rigs; high probability of hard fade EOD"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "YMAT",
+          "hod": 73,
+          "hodExact": 73.58,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "J-Star Holding Co., Ltd. Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "TW",
+          "floatM": 2.21,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 2.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.21M + RelVol 1493.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.21M + RelVol 1493.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.325,
+          "open": 1.88,
+          "gapPct": 41.89,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.3,
+          "hodTimeExact": "04:01 AM ET",
+          "close": 2.27,
+          "fade": 1,
+          "fadeExact": 1.3,
+          "vwap": 2.0929,
+          "vsVwap": "above",
+          "pmHigh": 3.28,
+          "volRaw": "35.2M",
+          "volDollar": 73679599,
+          "relVol": 1493.7,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:YMAT",
+          "newsSummary": "YMAT ran 73.58% with minimal fade (1.3%), gapped 41.89% on open, and sustained intraday momentum on 1493.7x relative volume. No news catalyst identified — this is a structural China Rig pattern: micro-cap Taiwan name with sustained session HODs, high relative volume throughout, and continuation strength typical of institutional accumulation in the Greater China micro-cap space.",
+          "bullFactors": [
+            "Ultra-micro float (2.21M) with extreme relative volume (1493.7x) creates explosive intraday liquidity conditions",
+            "HOD-dominated session (73.58% gain) with minimal fade (1.3%) signals sustained institutional buying pressure and short-covering throughout day",
+            "No dilutive news, offerings, or warrant exercises — clean tape structure typical of China Rig consolidation-break patterns",
+            "Taiwan micro-cap in Basic Materials — fits historical China Rig archetype with afternoon continuation strength"
+          ],
+          "bearFactors": [
+            "NO substantive cash catalyst — pure structural/momentum play with black swan liquidity risk in micro floats",
+            "41.89% premarket gap sets high bar for intraday follow-through; late-session HODs could face profit-taking into close and next-session fade",
+            "Micro float + no news = headline-driven whipsaw risk if broader market sentiment shifts or retail attention fades",
+            "Taiwan-listed micro-cap with potential ADR/OTC liquidity constraints and lower institutional coverage than US names"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "UFG",
+          "hod": 63,
+          "hodExact": 63.6,
+          "news": [
+            "Form 6-K",
+            "Uni-Fuels Reports Record First-Half 2026 Financial Results and Raises Full-Year Revenue Guidance to US$340M-US$360M"
+          ],
+          "tag": "EARNINGS",
+          "name": "Uni-Fuels Holdings Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "SG",
+          "floatM": 9.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$28M",
+          "riskBadges": [
+            "Float 9.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.95M + RelVol 78.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.95M + RelVol 78.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5758,
+          "open": 0.6135,
+          "gapPct": 6.55,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.942,
+          "hodTimeExact": "10:33 AM ET",
+          "close": 0.7196,
+          "fade": 23,
+          "fadeExact": 23.61,
+          "vwap": 0.7878,
+          "vsVwap": "below",
+          "pmHigh": 0.7605,
+          "volRaw": "78.2M",
+          "volDollar": 61587356,
+          "relVol": 78.3,
+          "avgVolM": 1.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Uni-Fuels Reports Record First-Half 2026 Financial Results and Raises Full-Year Revenue Guidance to US$340M-US$360M"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2021688/000149315226041902/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Uni-Fuels Reports Record First-Half 2026 Financial Results and Raises Full-Year Revenue Guidance to US$340M-US$360M",
+              "url": "https://www.stocktitan.net/news/UFG/uni-fuels-reports-record-first-half-2026-financial-results-and-bhy3uwxfmaam.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T12:56:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:UFG",
+          "newsSummary": "Uni-Fuels reported record H1 2026 results and raised full-year revenue guidance to US$340M–US$360M, announced at 12:56 UTC before the session high. This is real cash value catalyst—concrete earnings beat with uplifted FY guidance. The subsequent Form 6-K filing after-hours is reactive regulatory disclosure, not the driver.",
+          "bullFactors": [
+            "Float 9.95M—exactly at Jack's sweet spot, room to run with low supply friction",
+            "Real catalyst: record earnings + raised FY guidance (US$340M–US$360M) = tangible cash value, not fluff",
+            "Strong tape structure: 63.6% HOD, 78.3% relative volume—afternoon continuation and sustained institutional buying pressure",
+            "Setup timing: catalyst dropped pre-market/morning (12:56 UTC), gave time for dip/soak and accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Singapore-listed industrial (not US primary)—liquidity and after-hours support may be weaker than Nasdaq runners",
+            "23.61% fade suggests some profit-taking or shorts covering into close; not pure continuation overnight",
+            "6.55% gap suggests overnight move was already partially realized; room to upside is conditional on sustained volume"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "IRD",
+          "hod": 62,
+          "hodExact": 62.9,
+          "news": [
+            "Form 8-K",
+            "Opus Genetics Announces Positive Low Dose Cohort 1 Data from Phase 1/2 Clinical Trial of OPGx-BEST1 and Successful FDA Type C Meeting with Potential Phase 3 Dosing in 2027",
+            "Opus Genetics to Present OPGx-BEST1 Cohort 1 Clinical Data in Investor Webcast and at Upcoming Leading Ophthalmology Conferences"
+          ],
+          "tag": "PHASE-2",
+          "name": "Opus Genetics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 81.47,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$496M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.34,
+          "open": 5.31,
+          "gapPct": 22.35,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.07,
+          "hodTimeExact": "09:48 AM ET",
+          "close": 5.73,
+          "fade": 18,
+          "fadeExact": 18.95,
+          "vwap": 6.1072,
+          "vsVwap": "below",
+          "pmHigh": 5.52,
+          "volRaw": "53.7M",
+          "volDollar": 327718716,
+          "relVol": 40.5,
+          "avgVolM": 1.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Opus Genetics Announces Positive Low Dose Cohort 1 Data from Phase 1/2 Clinical Trial of OPGx-BEST1 and Successful FDA Type C Meeting with Potential Phase 3 Dosing in 2027",
+            "Opus Genetics to Present OPGx-BEST1 Cohort 1 Clinical Data in Investor Webcast and at Upcoming Leading Ophthalmology Conferences"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1228627/000114036126035979/ef20081753_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Opus Genetics Announces Positive Low Dose Cohort 1 Data from Phase 1/2 Clinical Trial of OPGx-BEST1 and Successful FDA Type C Meeting with Potential Phase 3 Dosing in 2027",
+              "url": "https://www.stocktitan.net/news/IRD/opus-genetics-announces-positive-low-dose-cohort-1-data-from-phase-1-dedwgaosiaaf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Opus Genetics to Present OPGx-BEST1 Cohort 1 Clinical Data in Investor Webcast and at Upcoming Leading Ophthalmology Conferences",
+              "url": "https://www.stocktitan.net/news/IRD/opus-genetics-to-present-op-gx-best1-cohort-1-clinical-data-in-tzpo5flko1bc.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-02T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IRD",
+          "newsSummary": "Opus Genetics announced positive Phase 1/2 low-dose cohort data for OPGx-BEST1 plus successful FDA Type C meeting with Phase 3 potential in 2027—real clinical progress with regulatory validation. The catalyst has genuine merit (FDA alignment + advancement to Phase 3), though the Form 8-K filed after the move suggests the market may have front-run the news or the filing contains secondary details.",
+          "bullFactors": [
+            "Real clinical catalyst: positive Phase 1/2 data + FDA Type C meeting success = regulatory de-risking, not sympathy",
+            "Strong tape: 62.9% HOD vs 18.95% fade indicates sustained intraday buying and afternoon strength, not premarket spike collapse",
+            "High relative volume (40.5x) on real news creates intraday liquidity for entry/exit, reducing slippage risk",
+            "Clear milestone path: Phase 3 dosing in 2027 gives next inflection point for follow-on interest"
+          ],
+          "bearFactors": [
+            "Mega-thick float (81.47M) is well above Jack's <10M preference—limits volatility and per-share move potential",
+            "Biotech Phase 1/2 data is inherently binary risk; single adverse data release or FDA feedback shift can reverse gains sharply",
+            "News preceded HOD, reducing entry window; tape already dominated by early buyers—late retail entries face resistance and fade risk",
+            "8-K filed after high suggests late-session filing may contain dilution, guidance revisions, or insider selling that hasn't fully priced in"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ZTG",
+          "hod": 57,
+          "hodExact": 57.35,
+          "news": [
+            "Form 6-K",
+            "Zenta Group Company Limited Announces Agreement to Acquire ZentoAI Intelligent Technology Company Limited"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Zenta Group Company Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MO",
+          "floatM": 3.5,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 3.5M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.68,
+          "open": 0.6596,
+          "gapPct": -3.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.07,
+          "hodTimeExact": "11:47 AM ET",
+          "close": 0.766,
+          "fade": 28,
+          "fadeExact": 28.41,
+          "vwap": 0.8408,
+          "vsVwap": "below",
+          "pmHigh": 0.7,
+          "volRaw": "30.3M",
+          "volDollar": 25485995,
+          "relVol": 12.2,
+          "avgVolM": 2.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Zenta Group Company Limited Announces Agreement to Acquire ZentoAI Intelligent Technology Company Limited"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2011458/000149315226041956/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Zenta Group Company Limited Announces Agreement to Acquire ZentoAI Intelligent Technology Company Limited",
+              "url": "https://www.stocktitan.net/news/ZTG/zenta-group-company-limited-announces-agreement-to-acquire-zento-ai-5emxacxq88fr.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T15:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZTG",
+          "newsSummary": "ZTG announced an agreement to acquire ZentoAI Intelligent Technology Company Limited at 15:30 UTC, before the session high printed. This is a real M&A deal with cash consideration and strategic consolidation in the industrials/AI space. Form 6-K filed after-hours confirms regulatory disclosure.",
+          "bullFactors": [
+            "Micro-cap float (3.5M) with sustained 12.2x relative volume all session — strong institutional absorption",
+            "57.35% HOD dominance over 28.41% fade shows afternoon continuation strength, not premarket spike collapse",
+            "Real cash acquisition catalyst (not dilutive offering or warrant exercise) with AI/automation angle in Industrials sector",
+            "Timing gave retail setup window: news at 15:30 before HOD, allowing dip/soak into close rather than instant spike-out"
+          ],
+          "bearFactors": [
+            "Slight premarket gap down (-3.0%) creates overhead resistance from overnight weak open",
+            "Form 6-K (regulatory filing) filed after-hours post-HOD — reactive filing, not catalyst driver; any deal details may reveal dilution or unfavorable terms on open",
+            "Micro-cap runners post-acquisition often face dilution in integration phase; lack of deal value/share exchange details in available data"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "OLB",
+          "hod": 53,
+          "hodExact": 53.73,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "The OLB Group, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 18.98,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 18.98M + RelVol 100.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 18.98M + RelVol 100.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2732,
+          "open": 0.3945,
+          "gapPct": 44.4,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.42,
+          "hodTimeExact": "07:54 AM ET",
+          "close": 0.335,
+          "fade": 20,
+          "fadeExact": 20.24,
+          "vwap": 0.3899,
+          "vsVwap": "below",
+          "pmHigh": 0.49,
+          "volRaw": "305.1M",
+          "volDollar": 118973790,
+          "relVol": 100.2,
+          "avgVolM": 3.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OLB",
+          "newsSummary": "OLB moved 53.73% intraday with no identifiable news catalyst. The move appears driven by pure intraday momentum and institutional accumulation, with sustained high relative volume (100.2%) throughout the session rather than a premarket spike-and-fade pattern.",
+          "bullFactors": [
+            "HOD dominance at 53.73% with only 20.24% fade — strong afternoon continuation typical of hot institutional cycles",
+            "Float tier at 18.98M is manageable; relative volume at 100.2% shows sustained intraday participation, not a 2-minute news spike",
+            "Gap of 44.4% indicates overnight accumulation; combined with intraday HOD printing, suggests institutional buyers holding through session",
+            "No dilutive news (offering, warrant, ATM) — clean chart risk"
+          ],
+          "bearFactors": [
+            "Float above preferred <10M threshold (18.98M) — reduces volatility intensity and liquidity depth for day trader scalping",
+            "No identifiable catalyst creates tail risk of sudden momentum evaporation if retail demand dries up",
+            "Gap-and-run structure (44.4% gap + 53.73% HOD) has already consumed much of the intraday move — limited remaining room to upside without overhead supply test",
+            "Technology sector with no named partnership or real cash event — momentum is structural, not fundamental"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "HPAI",
+          "hod": 46,
+          "hodExact": 46.24,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Helport AI Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 20.45,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$21M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3966,
+          "open": 0.415,
+          "gapPct": 4.65,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.58,
+          "hodTimeExact": "11:29 AM ET",
+          "close": 0.2992,
+          "fade": 48,
+          "fadeExact": 48.41,
+          "vwap": 0.4596,
+          "vsVwap": "below",
+          "pmHigh": 0.4126,
+          "volRaw": "27.3M",
+          "volDollar": 12541424,
+          "relVol": 89.0,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.45,
+              "uncertain": true
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:HPAI",
+          "newsSummary": "HPAI moved +46.24% on the session with no identifiable news catalyst, driven purely by intraday momentum and relative volume spike (89x). The fade component (48.41%) and gap structure (4.65%) suggest this was a tape-driven move rather than a fundamental event.",
+          "bullFactors": [
+            "Sustained intraday HOD printing (46.24% HOD pct indicates afternoon/late session strength, not premarket fade)",
+            "Exceptional relative volume (89x) shows real institutional participation, not retail-only retail pump",
+            "Singapore-listed tech with Greater China exposure fits the institutional rig pattern — potential multi-session continuation candidate"
+          ],
+          "bearFactors": [
+            "Float at 20.45M is well above Jack's <10M preferred threshold — liquidity thinner, wider spreads on exit",
+            "No catalyst identified — pure momentum/sympathy move is structurally fragile and prone to sharp reversals",
+            "Nearly 48% fade pct suggests significant intraday profit-taking and distribution, not clean accumulation",
+            "Micro-cap market cap ($21.4M) with this float creates crowded short-squeeze risk and black-swan volatility"
+          ],
+          "setupGrade": "C+"
+        }
+      ],
+      "hod": 170,
+      "fade": 26,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "FTFT led +170.99% (41% fade). 3/10 held <20% fade. news: SUNE — \"Suniva Completes $835 Million Capital Raise to Build Second Major U.S. Solar Cell Manufacturing Facility and More Than Quadruple Capacity to 5.5 GW\".",
+      "aiSummary": "**TAPE READ — 2026-09-09**\n\nToday's tape is fragmented and cold: catalyst mix is diffuse (NO-NEWS dominates 4/10, real catalysts scattered across MERGER/EARNINGS/ACQUISITION/PHASE-2), with heavy concentration in Asian micro-caps (HK, TW, MY, SG, MO—6/10 names) that run structural China rig patterns rather than momentum setups momentum traders can scalp. Float tier is ideal on paper (median 4.17M, four sub-3M names), but the session print tells the story—HOD concentration in premarket (AGRZ, YMAT, OLB, RIVr) signals institutional overnight positioning and retail fade risk, with only morning HODs on FTFT (ultra-thin 0.43M but NO-NEWS spike), SUNE (real merger but faded 7.39%), and UFG showing intraday continuation. FTFT's 171% HOD on zero news, $189M vol, and Asian micro-cap structure screams China rig rather than playable momentum setup; SUNE (MERGER, $436M vol, +105% but minimal fade) is the only real institutional print, but the 41% fade on FTFT and premarket dominance across the board signal a *cold cycle*—this framework's playbook targets sustained afternoon HODs and institutional accumulation dips, not premarket spikes into fade sequences. Pass the tape and wait for a session with morning/afternoon HOD confirmation, daily chart room, and real catalyst + float alignment."
+    },
     {
       "date": "2026-09-08",
       "runners": [
