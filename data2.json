@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-09T20:54:30.520106Z",
-  "count": 9809,
+  "exportedAt": "2026-09-11T12:01:18.585796Z",
+  "count": 9819,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,882 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-10",
+      "runners": [
+        {
+          "sym": "TNON",
+          "hod": 144,
+          "hodExact": 144.26,
+          "news": [
+            "Form 8-K",
+            "Tenon Medical Announces Early Repayment of Its Convertible Notes",
+            "424B3 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Tenon Medical, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.23,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 1.23M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.23M + RelVol 29.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.23M + RelVol 29.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.44,
+          "open": 4.2,
+          "gapPct": 72.13,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.9599,
+          "hodTimeExact": "09:48 AM ET",
+          "close": 5.3,
+          "fade": 11,
+          "fadeExact": 11.07,
+          "vwap": 4.591,
+          "vsVwap": "above",
+          "pmHigh": 4.3999,
+          "volRaw": "127.1M",
+          "volDollar": 583724949,
+          "relVol": 29.6,
+          "avgVolM": 4.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Tenon Medical Announces Early Repayment of Its Convertible Notes",
+            "424B3 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1560293/000121390026098232/ea0304884-8k_tenon.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Tenon Medical Announces Early Repayment of Its Convertible Notes",
+              "url": "https://www.stocktitan.net/news/TNON/tenon-medical-announces-early-repayment-of-its-convertible-ektu82lau3mq.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1560293/000121390026097777/ea0304650-424b3_tenon.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TNON",
+          "newsSummary": "TNON spiked 72% on a gap, but the catalyst is a 424B3 offering filed Sept 8 (before the move) combined with an early convertible note repayment announcement Sept 9. The repayment itself is debt reduction and technically positive, but it arrives alongside an active offering—classic dilution risk masking as operational news. The 11% fade and heavy relVol (29.6x) suggest retail enthusiasm colliding with institutional supply.",
+          "bullFactors": [
+            "Micro-float (1.23M) provides velocity and intraday volatility potential for momentum plays",
+            "Early repayment of convertibles removes dilution overhang going forward—genuine balance sheet improvement",
+            "144% HOD vs 11% fade ratio indicates some intraday strength and institutional accumulation windows during dips",
+            "High relative volume (29.6x) shows real participation, not a thin-tape spike"
+          ],
+          "bearFactors": [
+            "Active 424B3 offering creates immediate secondary dilution risk—capital raise underway",
+            "72% gap combined with offering news is a premarket-dominated spike pattern; fade began intraday and will likely continue",
+            "Healthcare micro-cap with no FDA, clinical trial, or partnership catalyst—repayment is operational, not growth-driving",
+            "Offering + convertible announcement combo is classic 'hide dilution in good news' structure; real cash catalysts are absent"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "DBGI",
+          "hod": 99,
+          "hodExact": 99.47,
+          "news": [
+            "Digital Brands Group Investor Update: U.S. Program & Go-Private Process and Timeline"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Digital Brands Group, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 0.94,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 0.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.94M + RelVol 97.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.94M + RelVol 97.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.75,
+          "open": 3.76,
+          "gapPct": 0.27,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 7.48,
+          "hodTimeExact": "04:43 PM ET",
+          "close": 6.79,
+          "fade": 9,
+          "fadeExact": 9.22,
+          "vwap": 6.3458,
+          "vsVwap": "above",
+          "pmHigh": 3.8389,
+          "volRaw": "28.3M",
+          "volDollar": 179694812,
+          "relVol": 97.4,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Digital Brands Group Investor Update: U.S. Program & Go-Private Process and Timeline"
+          ],
+          "newsItems": [
+            {
+              "title": "Digital Brands Group Investor Update: U.S. Program & Go-Private Process and Timeline",
+              "url": "https://www.stocktitan.net/news/DBGI/digital-brands-group-investor-update-u-s-program-go-private-process-5lnz9k9fjn1c.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-10T13:12:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.72,
+              "uncertain": false
+            },
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DBGI",
+          "newsSummary": "DBGI announced a go-private process and U.S. program update at 13:12 (after the high), making this a reactive headline to an already-hot intraday move. The news has real M&A merit—go-private typically signals cash-backed intent and reduces dilution risk—but the timing (post-HOD) confirms price action drove the day, not the announcement.",
+          "bullFactors": [
+            "Nano float (0.94M) with 97.4% relative volume = extreme retail/institutional traction and low supply",
+            "HOD printed 99.47% of the session with only 9.22% fade = sustained intraday strength, no premarket spike collapse",
+            "Go-private catalyst carries real M&A credibility; eliminates warrant/convertible/ATM dilution concerns for the upside",
+            "Gap was minimal (0.27%) so setup was technical/organic, not gap-and-dump; room for continuation exists"
+          ],
+          "bearFactors": [
+            "Nano-cap illiquidity risk; 0.94M float can reverse violently on profit-taking or negative update",
+            "News came after the move (relative_to_high='after'), so retail enthusiasm may fade if follow-up is light",
+            "Consumer Cyclical sector with micro market cap ($6.4M) suggests speculative/distressed origin; go-private may indicate shareholder pressure rather than genuine buyer",
+            "No detail on go-private terms, valuation, or timeline in headline; vagueness invites overnight or next-day reversals"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "IPDN",
+          "hod": 75,
+          "hodExact": 75.86,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Professional Diversity Network, Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 20.18,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1251,
+          "open": 0.1805,
+          "gapPct": 44.28,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.22,
+          "hodTimeExact": "10:19 AM ET",
+          "close": 0.1404,
+          "fade": 36,
+          "fadeExact": 36.18,
+          "vwap": 0.1737,
+          "vsVwap": "below",
+          "pmHigh": 0.203,
+          "volRaw": "502.3M",
+          "volDollar": 87254079,
+          "relVol": 154.4,
+          "avgVolM": 3.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IPDN",
+          "newsSummary": "IPDN ran 75.86% on the day with no identifiable news catalyst—pure price action driven by intraday momentum and relative volume spike (154.4x). This is a symptomatic NO-NEWS runner with structural tape strength but no fundamental trigger.",
+          "bullFactors": [
+            "Strong intraday HOD dominance (75.86% HOD%) suggests sustained institutional buying pressure and short covering into afternoon",
+            "High relative volume (154.4x) confirms retail/institutional participation beyond typical float-constrained flow",
+            "Session structure shows tape resilience—fade only 36.18%, meaning buyers stepped in on dips rather than complete premarket dump"
+          ],
+          "bearFactors": [
+            "Float of 20.18M exceeds Jack's 10M preference significantly—reduces scarcity premium and increases risk of casual retail distribution",
+            "NO-NEWS catalyst is a red flag: no real cash event, ER, deal, or catalyst to support sustainability; vulnerable to sharp reversal on next session open",
+            "High fade percentage (36.18%) still present—suggests some profit-taking into close; premarket gap 44.28% may not hold",
+            "Industrials sector with no thematic alignment to current tape momentum themes (AI, EV, Crypto, Defense, etc.)"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AHMA",
+          "hod": 64,
+          "hodExact": 64.06,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Ambitions Enterprise Management Co. L.L.C Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "AE",
+          "floatM": 4.25,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$53M",
+          "riskBadges": [
+            "Float 4.25M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.25M + RelVol 840.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.25M + RelVol 840.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.28,
+          "open": 1.34,
+          "gapPct": 4.69,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.1,
+          "hodTimeExact": "09:37 AM ET",
+          "close": 1.77,
+          "fade": 15,
+          "fadeExact": 15.71,
+          "vwap": 1.7538,
+          "vsVwap": "above",
+          "pmHigh": 1.78,
+          "volRaw": "27.2M",
+          "volDollar": 47648271,
+          "relVol": 840.5,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AHMA",
+          "newsSummary": "AHMA ran 64% intraday with no substantive catalyst or news flow—pure price action driven by float scarcity and relative volume spike (840x). The move appears structurally driven rather than fundamentally justified, with a 15.71% fade suggesting profit-taking into strength.",
+          "bullFactors": [
+            "Micro-float (4.25M shares) creates extreme leverage on retail volume",
+            "Sustained intraday HOD performance (64% gain) indicates institutional accumulation rather than premarket flash",
+            "Relative volume of 840x far exceeds typical premarket spike ratio—suggests afternoon continuation strength",
+            "UAE-listed micro-cap with minimal US float available creates supply scarcity"
+          ],
+          "bearFactors": [
+            "No catalyst or news—move is purely technical/structural, vulnerable to sudden reversal",
+            "15.71% fade into close signals profit-taking and potential liquidity trap for late entries",
+            "Consumer Cyclical micro-cap with no disclosed partnerships or earnings catalyst—speculative risk",
+            "No daily chart context provided; impossible to assess overhead supply or prior resistance"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "AEON",
+          "hod": 53,
+          "hodExact": 53.42,
+          "news": [
+            "AEON Announces Positive Pilot Forced Degradation Results Supporting Analytical Comparability of ABP-450 to BOTOX®"
+          ],
+          "tag": "PHASE-3",
+          "name": "AEON Biopharma, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 68.88,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$27M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.231,
+          "open": 0.296,
+          "gapPct": 28.14,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.3544,
+          "hodTimeExact": "06:06 AM ET",
+          "close": 0.29,
+          "fade": 18,
+          "fadeExact": 18.17,
+          "vwap": 0.3178,
+          "vsVwap": "below",
+          "pmHigh": 0.3649,
+          "volRaw": "203.6M",
+          "volDollar": 64711208,
+          "relVol": 48.3,
+          "avgVolM": 4.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "AEON Announces Positive Pilot Forced Degradation Results Supporting Analytical Comparability of ABP-450 to BOTOX®"
+          ],
+          "newsItems": [
+            {
+              "title": "AEON Announces Positive Pilot Forced Degradation Results Supporting Analytical Comparability of ABP-450 to BOTOX®",
+              "url": "https://www.stocktitan.net/news/AEON/aeon-announces-positive-pilot-forced-degradation-results-supporting-uzlav8voy03r.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:AEON",
+          "newsSummary": "AEON announced positive pilot forced degradation results for ABP-450 supporting analytical comparability to BOTOX®. The news came pre-market (relative_to_high='before'), establishing a real clinical/regulatory merit catalyst rather than fluff. This is a legitimate biotech development milestone in a competitive biosimilar program.",
+          "bullFactors": [
+            "Real cash-value catalyst: positive analytical comparability data for ABP-450 (BOTOX® biosimilar) has regulatory pathway merit",
+            "Sustained intraday strength: 53% HOD vs only 18% fade indicates afternoon/session continuation, not premarket spike-and-dump",
+            "High relative volume (48.3x) throughout session despite mega-float (68.88M) shows broad institutional participation",
+            "News came before the move, allowing institutional accumulation time before retail push"
+          ],
+          "bearFactors": [
+            "Mega-float (68.88M shares) is well above Jack's <10M preference and limits explosive upside velocity",
+            "Float tier 'Mega Thick' creates structural overhead; even with good news, liquidity constraints on large position exits",
+            "Biosimilar comparability data is incremental, not a binary approval event; price action may struggle to sustain if broader biotech sentiment turns",
+            "Market cap $26.9M is micro despite large float, creating potential liquidity/slippage risk on reversals"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SNYR",
+          "hod": 53,
+          "hodExact": 53.33,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Synergy CHC Corp. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 8.62,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 8.62M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.62M + RelVol 17.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.62M + RelVol 17.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0827,
+          "open": 0.1227,
+          "gapPct": 48.37,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.1268,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 0.108,
+          "fade": 14,
+          "fadeExact": 14.83,
+          "vwap": 0.1263,
+          "vsVwap": "below",
+          "pmHigh": 0.17,
+          "volRaw": "335.0M",
+          "volDollar": 42315310,
+          "relVol": 17.1,
+          "avgVolM": 19.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1562733/000121390026097802/ea0304695-8k_synergy.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SNYR",
+          "newsSummary": "Form 8-K filed on 2026-09-08 before the move, suggesting a material corporate event (officer change, bankruptcy notice, debt restructuring, or acquisition intent). The 53% HOD achievement with 17.1x relative volume and sustained afternoon continuation indicates institutional accumulation around the filing, with real buying pressure rather than a fade pattern.",
+          "bullFactors": [
+            "Low float (8.62M) under 10M threshold — high sensitivity to volume",
+            "Form 8-K filed pre-move, suggesting material catalyst with time to digest and set up",
+            "Strong tape: 53% HOD dominance with 14.8% fade — afternoon continuation holding, not premarket spike collapse",
+            "17.1x relative volume sustained all day — institutional volume signature, not retail pump"
+          ],
+          "bearFactors": [
+            "Form 8-K nature unknown from data — could be negative (bankruptcy, officer exit, dilution) masquerading as buying",
+            "Healthcare sector microcap — higher dilution and compliance risk profile",
+            "48% premarket gap already filled much of the move — limited room left if announcement was the sole driver",
+            "No news detail available — cannot confirm whether catalyst is real cash value or fluff restructuring"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "PCLA",
+          "hod": 44,
+          "hodExact": 44.74,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "PicoCELA Inc. American Depositary Shares",
+          "sector": "Communication Services",
+          "country": "JP",
+          "floatM": 2.45,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$118M",
+          "riskBadges": [
+            "Float 2.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.45M + RelVol 18.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.45M + RelVol 18.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 7.42,
+          "open": 9.15,
+          "gapPct": 23.32,
+          "time": "regular session",
+          "session": "morning",
+          "high": 10.74,
+          "hodTimeExact": "10:12 AM ET",
+          "close": 9.72,
+          "fade": 9,
+          "fadeExact": 9.5,
+          "vwap": 9.5883,
+          "vsVwap": "above",
+          "pmHigh": 10.38,
+          "volRaw": "6.2M",
+          "volDollar": 59821941,
+          "relVol": 18.2,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PCLA",
+          "newsSummary": "PCLA moved +44.74% with no identified news catalyst, suggesting pure intraday price action driven by technical setup or sympathy momentum. The 9.5% fade and 23.32% gap indicate morning strength that partially corrected but held gains—typical of a China Rig institutional accumulation pattern on a micro-cap Japanese name.",
+          "bullFactors": [
+            "Extreme micro-float (2.45M shares) creates high leverage on volume; 18.2x relative volume sustains intraday momentum",
+            "44.74% HOD dominance with only 9.5% fade shows institutional conviction and short squeeze dynamics—not a premarket spike-and-dump",
+            "No dilutive news, warrants, or offerings visible; clean daily chart foundation for follow-through",
+            "Sustained high relative volume all day signals real buying pressure, consistent with China Rig institutional rig pattern"
+          ],
+          "bearFactors": [
+            "No identifiable catalyst—pure technicals mean momentum is vulnerable to reversal on lower volume or macro shift",
+            "23.32% gap already filled much of intraday move; limited room to upside without breaking into uncharted territory",
+            "Japanese micro-cap with communication services sector label—liquidity outside US hours may be thin; execution risk on exits",
+            "NO-NEWS setup relies entirely on tape continuation; if afternoon volume dries up, reversal risk is high"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SKYQ",
+          "hod": 42,
+          "hodExact": 42.32,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Sky Quarry Inc. Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 8.48,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$29M",
+          "riskBadges": [
+            "Float 8.48M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.48M + RelVol 31.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.48M + RelVol 31.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.67,
+          "open": 3.19,
+          "gapPct": 19.48,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.8,
+          "hodTimeExact": "09:53 AM ET",
+          "close": 3.19,
+          "fade": 16,
+          "fadeExact": 16.05,
+          "vwap": 3.3932,
+          "vsVwap": "below",
+          "pmHigh": 3.2,
+          "volRaw": "29.0M",
+          "volDollar": 98372407,
+          "relVol": 31.1,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SKYQ",
+          "newsSummary": "SKYQ moved +42.32% on no disclosed catalyst — pure intraday momentum in an Energy sector micro-cap with 8.48M float. The tape shows strong afternoon HOD dominance (42.32% HOD vs 16.05% fade) and 31.1x relative volume, suggesting institutional accumulation rather than a premarket spike-and-dump pattern. Without substantive news, this is a structural momentum setup driven by tape mechanics.",
+          "bullFactors": [
+            "Float under 10M (8.48M) with 31.1x relative volume — liquidity-constrained runner with fuel for continuation",
+            "HOD-dominant tape (42.32% HOD vs 16.05% fade) with sustained high volume — afternoon strength and short covering, not premarket fade",
+            "19.48% gap up suggests overnight accumulation; no immediate overhead from same-day spikes",
+            "Energy sector positioning in a potentially favorable macro window (Oil & Gas theme candidate)"
+          ],
+          "bearFactors": [
+            "NO catalyst — moves on pure momentum/sympathy are prone to violent reversals; retail-driven washouts likely intraday",
+            "No news means no institutional anchor; volume could evaporate on any EOD distribution",
+            "Micro-cap with no disclosed trigger — liquidity risk if shorts stop covering or retail momentum stalls",
+            "Unclear if this is genuine accumulation or sympathy bleed from sector — sustainability questionable"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PSIG",
+          "hod": 40,
+          "hodExact": 40.06,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "PS International Group Ltd. Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 13.11,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$36M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.785,
+          "open": 1.73,
+          "gapPct": -3.08,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.5,
+          "hodTimeExact": "03:08 PM ET",
+          "close": 2.29,
+          "fade": 8,
+          "fadeExact": 8.4,
+          "vwap": 2.0445,
+          "vsVwap": "above",
+          "pmHigh": 1.76,
+          "volRaw": "4.1M",
+          "volDollar": 8370655,
+          "relVol": 7.4,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PSIG",
+          "newsSummary": "PSIG moved +40% intraday with no substantive news catalyst identified. The gap was actually negative (-3.08%), meaning premarket was weak and the stock built momentum throughout the session. This is a pure intraday tape-driven move with sustained volume (relVol 7.4x), characteristic of a China-listed small-cap accumulation pattern rather than a news-driven spike.",
+          "bullFactors": [
+            "Strong session HOD dominance: 40% gain with only 8.4% fade indicates continuation strength and short-covering pressure, not a premarket spike collapse",
+            "Sustained intraday volume (7.4x relative) all day long, not a 1-2 minute spike — shows institutional accumulation building throughout session",
+            "Negative gap into positive close: stock had to work for gains intraday, suggesting genuine buying absorption rather than frothy opening excitement",
+            "HK-listed small-cap structure (13.11M float, mid-tier) fits 'China Rig' institutional accumulation pattern with afternoon HOD strength"
+          ],
+          "bearFactors": [
+            "No news catalyst: 40% move on NO-NEWS is speculative and vulnerable to reversal or secondary offering announcement",
+            "Float at 13.11M sits just above Jack's preferred <10M threshold — adds overhead supply risk if retail chases at HOD",
+            "Greater China sourcing with no visible business catalyst — theme-less runner is higher tail-risk for gap-and-fade into next session",
+            "Intraday momentum without confirmed institutional follow-through into next day is typical setup for premarket fade on day 2"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SLXN",
+          "hod": 39,
+          "hodExact": 39.37,
+          "news": [
+            "Silexion Therapeutics to Participate in September 2026 Industry and Investor Conferences"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Silexion Therapeutics Corp Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 5.8,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 5.8M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.8M + RelVol 231.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.8M + RelVol 231.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3495,
+          "open": 0.4152,
+          "gapPct": 18.8,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.4871,
+          "hodTimeExact": "04:49 AM ET",
+          "close": 0.4225,
+          "fade": 13,
+          "fadeExact": 13.26,
+          "vwap": 0.4389,
+          "vsVwap": "below",
+          "pmHigh": 0.5243,
+          "volRaw": "118.9M",
+          "volDollar": 52205256,
+          "relVol": 231.6,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Silexion Therapeutics to Participate in September 2026 Industry and Investor Conferences"
+          ],
+          "newsItems": [
+            {
+              "title": "Silexion Therapeutics to Participate in September 2026 Industry and Investor Conferences",
+              "url": "https://www.stocktitan.net/news/SLXN/silexion-therapeutics-to-participate-in-september-2026-industry-and-izi02kpmn03o.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SLXN",
+          "newsSummary": "Silexion announced conference participation on Sept 9, pre-dating today's 39.37% HOD move, so the news was not the primary driver. The move appears to be sympathy-driven or tied to broader biotech sentiment, with the announcement serving as a minor catalyst hook rather than fundamental fuel. Conference participation alone has minimal real cash value and is typically fluff for single-day runners.",
+          "bullFactors": [
+            "Ultra-low float (5.8M) with 231.6x relative volume creates tight supply for intraday squeezes",
+            "39.37% HOD with only 13.26% fade suggests sustained institutional accumulation and short-covering throughout session, not premarket spike collapse",
+            "18.8% gap up into strength indicates overnight conviction; HOD printed in live session (catalyst relative_to_high='before' but news was minor, so tape strength matters more)",
+            "Healthcare sector provides thematic relevance for biotech sympathy flows"
+          ],
+          "bearFactors": [
+            "Catalyst is low-merit fluff (conference participation = no cash value, no data, no partnership)",
+            "Gap of 18.8% at open reduces room-to-run upside on daily chart; limited ammunition for continuation",
+            "Fade of 13.26% after HOD suggests profit-taking or institutional distribution into strength, not accumulation dip",
+            "Israeli micro-cap with low institutional liquidity; vulnerable to afternoon washout if retail momentum stalls"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 144,
+      "fade": 15,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "TNON led +144.26% (11% fade). 9/10 held <20% fade. news: TNON — \"Form 8-K\".",
+      "aiSummary": "**TAPE READ – 2026-09-10**\n\nToday's tape is dominated by dilutive and event-driven catalysts (TNON offering, DBGI acquisition, compliance noise on SNYR) concentrated in Healthcare and Consumer Cyclical sectors with heavy US/developed-market skew—precisely the category this framework flags as avoid. Float tier is mixed but lean (median ~5.8M), however HODs printed almost exclusively in premarket and morning sessions with significant afternoon fades (TNON -11%, IPDN -36%, AEON -18%), signaling a **COLD cycle** where early spikes are losing steam into lunch and afternoon. The playbook's worst-case scenario is present: TNON spiked 144% in morning session on a dilutive offering announcement—instant fade signal, zero institutional accumulation setup—while NO-NEWS tags on mid-to-high float names (IPDN 20M, AEON 69M) suggest sympathy spillover without conviction. This is a tape to monitor for late-day reversals or skip entirely; momentum traders should wait for the next session where afternoon HODs and sustained volume emerge."
+    },
     {
       "date": "2026-09-09",
       "runners": [
