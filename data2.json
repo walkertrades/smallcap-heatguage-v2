@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-11T12:01:18.585796Z",
-  "count": 9819,
+  "exportedAt": "2026-09-11T20:39:56.946194Z",
+  "count": 9829,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,961 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-11",
+      "runners": [
+        {
+          "sym": "BDRX",
+          "hod": 134,
+          "hodExact": 134.8,
+          "news": [
+            "Interim results for the six months ended June 30, 2026"
+          ],
+          "tag": "EARNINGS",
+          "name": "Biodexa Pharmaceuticals plc American Depositary Shs",
+          "sector": "Healthcare",
+          "country": "GB",
+          "floatM": 1.66,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.66M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.66M + RelVol 136.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.66M + RelVol 136.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6601,
+          "open": 0.88,
+          "gapPct": 33.31,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.5499,
+          "hodTimeExact": "11:06 AM ET",
+          "close": 1.3,
+          "fade": 16,
+          "fadeExact": 16.12,
+          "vwap": 1.2241,
+          "vsVwap": "above",
+          "pmHigh": 1.16,
+          "volRaw": "139.5M",
+          "volDollar": 170734973,
+          "relVol": 136.6,
+          "avgVolM": 1.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Interim results for the six months ended June 30, 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "Interim results for the six months ended June 30, 2026",
+              "url": "https://www.stocktitan.net/news/BDRX/interim-results-for-the-six-months-ended-june-30-m9qrjpr3d60e.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-11T20:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BDRX",
+          "newsSummary": "BDRX released interim H1 2026 results after the close following a 134.8% intraday rally. The earnings came AFTER the move, making them reactive rather than causative—the market had already priced in positive expectations during the session. Real cash-generating biotech results merit attention, but the timing suggests the move was driven by intraday accumulation and momentum rather than news revelation.",
+          "bullFactors": [
+            "Ultra-micro float (1.66M shares) — severe supply constraint enabling explosive intraday runs",
+            "Sustained high relative volume (136.6x) with HOD printing 134.8% — strong institutional accumulation signature, not premarket spike fade",
+            "Real catalyst: actual earnings release (not sympathy or hype) from healthcare sector with measurable financials",
+            "Session HOD dominance pattern — tape shows afternoon continuation strength typical of hot cycles, not cold premarket pop-and-drop"
+          ],
+          "bearFactors": [
+            "UK-listed micro-cap with potential liquidity and regulatory friction — not US-domiciled, adds execution risk for US retail",
+            "Fade of 16.12% from HOD — while not catastrophic, signals some profit-taking and potential overhead resistance on next run",
+            "Gap up 33.31% into open — reduces room to run on follow-through if intraday momentum exhausts; limited lower-float runway left",
+            "Earnings published after close — no live catalyst momentum to carry into next session; tomorrow depends entirely on digestion and follow-through appetite"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "BENF",
+          "hod": 128,
+          "hodExact": 128.6,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Beneficient Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 2.36,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$24M",
+          "riskBadges": [
+            "Float 2.36M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.36M + RelVol 723.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.36M + RelVol 723.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.2117,
+          "open": 1.3,
+          "gapPct": 7.29,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.77,
+          "hodTimeExact": "10:18 AM ET",
+          "close": 1.06,
+          "fade": 61,
+          "fadeExact": 61.73,
+          "vwap": 1.6082,
+          "vsVwap": "below",
+          "pmHigh": 1.53,
+          "volRaw": "14.0M",
+          "volDollar": 22495165,
+          "relVol": 723.7,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BENF",
+          "newsSummary": "BENF ran 128.6% intraday with no identifiable news catalyst — the move is driven purely by technical setup and tape action. With a 723.7x relative volume print and sustained HOD printing, this appears to be a China Rig structural pattern: micro-float (2.36M) name showing afternoon continuation and multiple session highs rather than premarket spike-and-fade.",
+          "bullFactors": [
+            "Extreme micro-float (2.36M) with 723.7x relative volume — high fuel for explosive moves",
+            "128.6% intraday HOD with 61.73% fade suggests institutional accumulation and retail push phases, not instant exhaustion",
+            "Sustained afternoon continuation tape (HOD dominating) fits China Rig pattern — institutional buying pressure all day, not pump-dump",
+            "Financial Services sector micro-cap with clean price action and no dilutive news overhead"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst is structurally weak — move is purely technicals + liquidity, vulnerable to sudden reversal",
+            "61.73% fade within session shows real profit-taking; if premarket spikes dominate tomorrow, cycle likely rolls over",
+            "Micro-float names can gap down hard on liquidity dry-up or sector rotation — exit discipline critical",
+            "24M market cap with 2.36M float creates black-swan risk if institutional buyers step away"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "TNON",
+          "hod": 104,
+          "hodExact": 104.53,
+          "news": [
+            "WallachBeth Capital Announces Tenon Medical Warrant Inducement for Gross Proceeds of Approximately $2,872,338",
+            "Form 8-K",
+            "Tenon Medical Announces Early Repayment of Its Convertible Notes",
+            "424B3 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Tenon Medical, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.23,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 1.23M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.3,
+          "open": 8.14,
+          "gapPct": 53.58,
+          "time": "regular session",
+          "session": "morning",
+          "high": 10.84,
+          "hodTimeExact": "10:52 AM ET",
+          "close": 5.93,
+          "fade": 45,
+          "fadeExact": 45.3,
+          "vwap": 7.9661,
+          "vsVwap": "below",
+          "pmHigh": 9.35,
+          "volRaw": "107.2M",
+          "volDollar": 854125505,
+          "relVol": 10.1,
+          "avgVolM": 10.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "WallachBeth Capital Announces Tenon Medical Warrant Inducement for Gross Proceeds of Approximately $2,872,338",
+            "Form 8-K",
+            "Tenon Medical Announces Early Repayment of Its Convertible Notes",
+            "424B3 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "WallachBeth Capital Announces Tenon Medical Warrant Inducement for Gross Proceeds of Approximately $2,872,338",
+              "url": "https://www.stocktitan.net/news/TNON/wallach-beth-capital-announces-tenon-medical-warrant-inducement-for-q513ghxminl2.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-11T18:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1560293/000121390026098232/ea0304884-8k_tenon.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Tenon Medical Announces Early Repayment of Its Convertible Notes",
+              "url": "https://www.stocktitan.net/news/TNON/tenon-medical-announces-early-repayment-of-its-convertible-ektu82lau3mq.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1560293/000121390026097777/ea0304650-424b3_tenon.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TNON",
+          "newsSummary": "TNON spiked 104% intraday on the back of early convertible note repayment and a 424B3 offering filed 2026-09-08. However, the real dilution bomb landed after-hours: WallachBeth Capital announced a warrant inducement for ~$2.87M gross proceeds, which is a classic secondary dilution signal that follows the move. The early note repayment is debt cleanup (positive), but the warrant exercise and 424B3 offering are structurally dilutive and undermine any real catalyst value.",
+          "bullFactors": [
+            "Ultra-tight float at 1.23M shares — very low float microstructure supports outsized intraday moves",
+            "Strong relative volume (10.1x) and session HOD at +104.53% suggests institutional accumulation and retail participation, not immediate fade",
+            "Early convertible note repayment reduces future dilution pressure and shows deleveraging intent"
+          ],
+          "bearFactors": [
+            "Warrant inducement AFTER the move is the classic dilution red flag — reactive secondary offering designed to capitalize on pump, not a catalyst driving it",
+            "424B3 offering filed pre-move signals equity dilution already in the pipeline; combined with warrant exercise this is heavy overhang",
+            "Healthcare micro-cap with no clinical, FDA, or real revenue catalyst — debt cleanup alone is not Jack's threshold for real cash value",
+            "Fade of 45.3% intraday is sharp and suggests retail pop followed by smart money exit; sustainability is low"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "TRUG",
+          "hod": 103,
+          "hodExact": 103.29,
+          "news": [
+            "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities",
+            "Form 8-K",
+            "TruGolf Announces Binding Distribution MOU with TruGolf Canada Inc. Covering Defined Canadian and Indigenous Market Opportunities"
+          ],
+          "tag": "CONTRACT",
+          "name": "TruGolf Holdings, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 4.6,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 4.6M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.6M + RelVol 39.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.6M + RelVol 39.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3709,
+          "open": 0.5,
+          "gapPct": 34.81,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.754,
+          "hodTimeExact": "12:07 PM ET",
+          "close": 0.6533,
+          "fade": 13,
+          "fadeExact": 13.36,
+          "vwap": 0.5794,
+          "vsVwap": "above",
+          "pmHigh": 0.61,
+          "volRaw": "419.8M",
+          "volDollar": 243230538,
+          "relVol": 39.8,
+          "avgVolM": 10.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities",
+            "Form 8-K",
+            "TruGolf Announces Binding Distribution MOU with TruGolf Canada Inc. Covering Defined Canadian and Indigenous Market Opportunities"
+          ],
+          "newsItems": [
+            {
+              "title": "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities",
+              "url": "https://www.stocktitan.net/news/TRUG/polymath-and-high-ridge-trust-partner-to-advance-institutional-nzrn8428sd3s.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-11T11:07:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1857086/000149315226041991/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "TruGolf Announces Binding Distribution MOU with TruGolf Canada Inc. Covering Defined Canadian and Indigenous Market Opportunities",
+              "url": "https://www.stocktitan.net/news/TRUG/tru-golf-announces-binding-distribution-mou-with-tru-golf-canada-inc-34hg2s8jkp2f.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.7,
+              "uncertain": false
+            },
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.5,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TRUG",
+          "newsSummary": "TRUG announced a binding distribution MOU with TruGolf Canada covering Canadian and Indigenous market opportunities (Sept 8), followed by a Polymath partnership for tokenized securities infrastructure (Sept 11). Both catalysts predate the HOD, suggesting institutional accumulation into real business expansion rather than reactive news. The Canadian distribution deal has tangible cash-value merit for a micro-cap golf/sports tech play.",
+          "bullFactors": [
+            "Ultra-tight float at 4.6M shares — strong leverage for sustained intraday momentum",
+            "HOD printed 103% intraday with only 13% fade, indicating institutional buying sustained through session and shorts trapped",
+            "Binding distribution MOU is real cash-generating catalyst, not sympathy or fluff",
+            "39.8x relative volume on micro-float creates ideal tape conditions for continuation if daily chart has room to upside"
+          ],
+          "bearFactors": [
+            "34.81% gap in — risk of premarket spike dominance leading to afternoon fade (setup timing critical)",
+            "Polymath partnership (tokenized securities) is infrastructure-focused, not immediate revenue; may appeal to retail hype over fundamentals",
+            "No clarity on daily chart overhead supply or previous resistance levels to assess true room to upside",
+            "Catalyst stacking (Canada MOU + Polymath) could trigger quick profit-taking if tape flips cold in afternoon"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "MKDW",
+          "hod": 68,
+          "hodExact": 68.29,
+          "news": [
+            "Form 6-K",
+            "424B3 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "MKDWELL Tech Inc. Ordinary Share",
+          "sector": "Consumer Cyclical",
+          "country": "TW",
+          "floatM": 7.76,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$241M",
+          "riskBadges": [
+            "Float 7.76M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.76M + RelVol 52.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.76M + RelVol 52.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.1,
+          "open": 5.31,
+          "gapPct": 4.12,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 8.5826,
+          "hodTimeExact": "03:11 PM ET",
+          "close": 7.75,
+          "fade": 9,
+          "fadeExact": 9.7,
+          "vwap": 7.2806,
+          "vsVwap": "above",
+          "pmHigh": 5.84,
+          "volRaw": "1.4M",
+          "volDollar": 10120573,
+          "relVol": 52.7,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "424B3 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1991332/000149315226041679/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1991332/000149315226041676/form424b3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.5,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MKDW",
+          "newsSummary": "MKDW filed a 424B3 offering prospectus on 2026-09-08, before today's move. This is a dilutive capital raise announcement that typically pressures momentum and should have been a headwind, yet the stock ran +68% with strong HOD dominance (68.29% of gains at session high). The catalyst has negative merit—offerings are dilutive—making this a structural China rig pattern rather than a fundamental driver.",
+          "bullFactors": [
+            "Extremely low float (7.76M shares) creates high gamma and liquidity constraints favoring large intraday moves",
+            "HOD-dominant session (68.29% of gain at highs) with sustained 52.7x relative volume indicates institutional accumulation and afternoon continuation, not premarket fade",
+            "Taiwan consumer cyclical micro-cap with no big-name partnership or earnings anchor—classic China rig structural setup with aggressive intraday buying pressure throughout session",
+            "Minimal gap (4.12%) and small fade (9.7%) suggest controlled entry and holding, not panic or dump behavior"
+          ],
+          "bearFactors": [
+            "424B3 offering filed 2026-09-08 is inherently dilutive and signals capital pressure; no mention of deal terms, use of proceeds, or cash runway mitigation",
+            "No real cash-backed catalyst (no ER, no partnership, no data release)—move is purely structural/sympathy, which makes fade risk high on next session or into any profit-taking",
+            "Taiwan domicile + low float + no-news driver = elevated black swan/liquidity spillover risk if institutions unwind",
+            "Consumer Cyclical sector offers no defensive moat; offering removes upside optionality and increases dilution risk for bag holders"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "FTFT",
+          "hod": 65,
+          "hodExact": 65.85,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Future FinTech Group Inc.",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 0.43,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [
+            "Float 0.43M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.05,
+          "open": 2.82,
+          "gapPct": 37.56,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.3999,
+          "hodTimeExact": "09:38 AM ET",
+          "close": 2.88,
+          "fade": 15,
+          "fadeExact": 15.29,
+          "vwap": 2.9316,
+          "vsVwap": "below",
+          "pmHigh": 2.97,
+          "volRaw": "52.3M",
+          "volDollar": 153262060,
+          "relVol": 9.2,
+          "avgVolM": 5.7,
+          "ssr": true,
+          "reverseSplit": "4:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FTFT",
+          "newsSummary": "FTFT moved 65.85% intraday with no identified news catalyst—a pure structural run typical of Hong Kong nano-cap names. The move was driven by sustained intraday volume (relVol 9.2x) and afternoon session HODs, consistent with institutional accumulation patterns rather than external catalyst.",
+          "bullFactors": [
+            "Extremely tight float (0.43M shares) — nano-cap tier creates outsized leverage for institutional accumulation",
+            "65.85% HOD percentage with only 15.29% fade indicates sustained afternoon strength and continued short pressure",
+            "Relative volume 9.2x with multiple session HODs late in day — classic institutional rig signature, not premarket spike collapse",
+            "High-volume structure throughout session without news suggests deliberate buying program, not retail pump"
+          ],
+          "bearFactors": [
+            "37.56% gap open — large premarket move reduces fresh intraday breakout room and increases fade risk on next session",
+            "NO-NEWS catalyst on a Greater China nano-cap is structurally fragile; liquidity can evaporate if institutional unwind triggers retail capitulation",
+            "Market cap only $23.2M with 0.43M float creates black swan risk if short squeeze exhausts and reverses hard",
+            "Nano-float names often experience 50%+ reversals when institutional accumulation phase completes — next session entry risk is high"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "FGL",
+          "hod": 61,
+          "hodExact": 61.37,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Founder Group Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 0.07,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 0.07M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.1,
+          "open": 4.45,
+          "gapPct": -12.75,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.23,
+          "hodTimeExact": "11:43 AM ET",
+          "close": 5.45,
+          "fade": 33,
+          "fadeExact": 33.78,
+          "vwap": 5.9268,
+          "vsVwap": "below",
+          "pmHigh": 5,
+          "volRaw": "1.5M",
+          "volDollar": 8802993,
+          "relVol": 4.9,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": "100:1",
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1989930/000121390026097414/ea0304688-6k_founder.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-04T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FGL",
+          "newsSummary": "Form 6-K filing (Malaysian regulatory disclosure) was published on 2026-09-04, well before today's price action. The 61% HOD with only 33% fade and -12.75% gap-down entry suggests institutional accumulation and short covering rather than news-driven spike. The filing itself appears routine compliance rather than a substantive catalyst.",
+          "bullFactors": [
+            "Extreme nano-float (0.07M shares) with 4.9x relative volume — tight float dynamics favor momentum runners",
+            "61% HOD with only 33% fade indicates sustained institutional buying and short squeeze pressure through session, not premarket pump fade",
+            "Afternoon HODs dominating the tape suggests 'hot cycle' continuation strength and shorts blowing out into close",
+            "Malaysian industrial name fits China Rig structural pattern (greater_china=true, nano-float, sustained intraday trend)"
+          ],
+          "bearFactors": [
+            "Form 6-K is reactive regulatory filing, not a cash catalyst — no real earnings, partnership, or deal announcement",
+            "Gap-down open (-12.75%) despite strong intraday reversal signals previous resistance overhead or profit-taking risk",
+            "Micro-cap international name (Malaysia) carries liquidity and execution risk on fills, especially on reversals",
+            "No identified theme catalyst tied to growth verticals (AI, semiconductors, biotech, etc.) — pure structural momentum play"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PCLA",
+          "hod": 58,
+          "hodExact": 58.95,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "PicoCELA Inc. American Depositary Shares",
+          "sector": "Communication Services",
+          "country": "JP",
+          "floatM": 2.45,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$121M",
+          "riskBadges": [
+            "Float 2.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 9.72,
+          "open": 12.58,
+          "gapPct": 29.42,
+          "time": "regular session",
+          "session": "morning",
+          "high": 15.45,
+          "hodTimeExact": "10:09 AM ET",
+          "close": 10.11,
+          "fade": 34,
+          "fadeExact": 34.56,
+          "vwap": 12.6679,
+          "vsVwap": "below",
+          "pmHigh": 13.75,
+          "volRaw": "5.9M",
+          "volDollar": 75171192,
+          "relVol": 9.1,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PCLA",
+          "newsSummary": "PCLA moved +58.95% HOD with zero news catalyst — pure intraday momentum on a 2.45M float micro-cap. The 9.1x relative volume and sustained afternoon HOD dominance suggest institutional accumulation or sympathy flow rather than a premarket spike fade, but without news or thematic anchor, this is a structural micro-cap runner with unknown fundamental triggers.",
+          "bullFactors": [
+            "Extremely tight float (2.45M) — classic micro-cap momentum compression with high multiplier potential",
+            "Strong HOD dominance (58.95% HOD vs 34.56% fade) — afternoon session printing higher, not a premarket spike collapse",
+            "9.1x relative volume sustains intraday momentum — suggests accumulation rhythm, not flash pump",
+            "Japanese Communication Services sector — potential sympathy or thematic cross-border flow"
+          ],
+          "bearFactors": [
+            "Zero news catalyst — move is entirely speculative and momentum-driven with no fundamental anchor",
+            "No thematic bucket identified — cannot assess if this is structural rig, sympathy play, or random flow",
+            "Gap up 29.42% into session — may have consumed initial institutional entry, risk of afternoon fatigue",
+            "Micro-cap liquidity — exit risk high if retail momentum falters or cross-border selling emerges"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "UZX",
+          "hod": 57,
+          "hodExact": 57.3,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Linkage Global Inc Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "JP",
+          "floatM": 58.82,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.089,
+          "open": 0.087,
+          "gapPct": -2.25,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.14,
+          "hodTimeExact": "01:28 PM ET",
+          "close": 0.0912,
+          "fade": 34,
+          "fadeExact": 34.86,
+          "vwap": 0.1072,
+          "vsVwap": "below",
+          "pmHigh": 0.0923,
+          "volRaw": "44.8M",
+          "volDollar": 4807034,
+          "relVol": 11.6,
+          "avgVolM": 3.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1969401/000121390026098141/ea0304856-6k_linkage.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:UZX",
+          "newsSummary": "UZX filed a Form 6-K (foreign private issuer periodic report) on 2026-09-09, before today's move. The filing itself is routine regulatory disclosure with no announced catalyst—earnings, partnerships, or operational news. The 57.3% HOD retention with only 34.86% fade suggests institutional accumulation through the session rather than a reaction to the filing.",
+          "bullFactors": [
+            "Strong HOD retention (57.3%) with afternoon continuation—classic institutional accumulation pattern, not premarket spike fade",
+            "High relative volume (11.6x) sustained intraday, indicating real participation beyond retail sympathy",
+            "Mega-float disadvantage offset by tape strength—multiple session HODs printing late, suggesting conviction buying pressure",
+            "Form 6-K filed before move (not reactive)—allows fresh institutional entry without announcement whipsaw"
+          ],
+          "bearFactors": [
+            "58.82M float is well above Jack's <10M preference and outside the 'will go higher if' intraday vol/min threshold validation",
+            "Form 6-K is administrative compliance filing—zero operational or financial catalyst. Sustained move likely sympathy-driven or structural rig",
+            "Negative gap (-2.25%) suggests overnight weakness ahead of intraday reversal; potential late-session reversal trap into close",
+            "No substantive news tie to Technology sector specifics—theme attribution difficult, raises liquidity and exit risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SXTC",
+          "hod": 55,
+          "hodExact": 55.44,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "China SXT Pharmaceuticals, Inc. Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 1.34,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.34M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.93,
+          "open": 2.24,
+          "gapPct": 16.06,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3,
+          "hodTimeExact": "10:21 AM ET",
+          "close": 2.56,
+          "fade": 14,
+          "fadeExact": 14.67,
+          "vwap": 2.5965,
+          "vsVwap": "below",
+          "pmHigh": 2.7399,
+          "volRaw": "13.8M",
+          "volDollar": 35762851,
+          "relVol": 7.8,
+          "avgVolM": 1.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SXTC",
+          "newsSummary": "SXTC moved 55.44% on the session high with no substantive news catalyst identified. This is a no-news intraday runner characteristic of a China Rig pattern — sustained institutional accumulation throughout the day with afternoon continuation rather than a premarket spike fade.",
+          "bullFactors": [
+            "Micro float (1.34M shares) — extremely tight supply structure, high acceleration potential on institutional demand",
+            "Strong relative volume (7.8x) sustained across the session — indicates genuine institutional buying pressure, not retail noise",
+            "Session HOD dominance (55.44% gain on HOD, only 14.67% fade) — classic China Rig continuation strength with afternoon printing, shorts likely blown out",
+            "No dilutive news or overhead supply issues — clean technical structure on daily chart, room to run"
+          ],
+          "bearFactors": [
+            "No real catalyst — move is entirely structural/rig-driven, leaving it vulnerable to sentiment shifts or liquidity drain",
+            "China Rig pattern carries execution risk — these can reverse violently if institutional buying exhausts or retail momentum reverses",
+            "Healthcare sector micro-cap with no business catalyst — higher black swan risk if broader market or China-sector headwinds emerge",
+            "Premarket gap (16.06%) already consumed part of move — less room for premarket runners to establish fresh entries tomorrow"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 134,
+      "fade": 27,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "BDRX led +134.8% (16% fade). 5/10 held <20% fade. news: BDRX — \"Interim results for the six months ended June 30, 2026\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS and dilutive catalyst (OFFERING/COMPLIANCE tags account for 40% of runners), with outsized concentration in Asia-Pacific micro-caps (HK, JP, CN, MY, TW) that skew sub-5M float—a structural mismatch for this playbook's preference for US-listed real catalyst runners. HODs printed heavily in the morning session across the top movers (BDRX, BENF, FTFT, PCLA, SXTC), with afternoon continuations in smaller positions (TRUG, MKDW), signaling a COLD cycle: premarket dominance, heavy fades (BENF -61.7%, PCLA -34.5%), and sustained high dollar volume into low-float names without catalyst conviction. BDRX stands as the lone A-tier candidate (real earnings, <2M float, -16% fade vs +135% HOD suggesting institutional absorption), but the broader tape—thick with compliance issues, offerings, and sympathy rigs on foreign exchanges—presents minimal edge for institutional accumulation plays; this framework would flatten exposure and wait for US-centric, real-cash catalyst setups with room to run."
+    },
     {
       "date": "2026-09-10",
       "runners": [
