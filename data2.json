@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-11T20:39:56.946194Z",
-  "count": 9829,
+  "exportedAt": "2026-09-14T21:13:16.341006Z",
+  "count": 9837,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,841 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-14",
+      "runners": [
+        {
+          "sym": "FTFT",
+          "hod": 229,
+          "hodExact": 229.17,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Future FinTech Group Inc.",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 0.43,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$52M",
+          "riskBadges": [
+            "Float 0.43M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.88,
+          "open": 3.3,
+          "gapPct": 14.58,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 9.48,
+          "hodTimeExact": "01:54 PM ET",
+          "close": 8.04,
+          "fade": 15,
+          "fadeExact": 15.19,
+          "vwap": 5.636,
+          "vsVwap": "above",
+          "pmHigh": 3.42,
+          "volRaw": "123.6M",
+          "volDollar": 696781971,
+          "relVol": 14.1,
+          "avgVolM": 8.8,
+          "ssr": false,
+          "reverseSplit": "4:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FTFT",
+          "newsSummary": "FTFT moved 229% on the session with no substantive news catalyst — sources checked and returned empty. This is a nano-float China-domiciled name (0.43M shares) exhibiting sustained intraday accumulation pattern with 14.1x relative volume and late-session HOD printing, consistent with institutional rig structure rather than retail pump-and-dump.",
+          "bullFactors": [
+            "Extreme nano float (0.43M) — lowest friction for institutional accumulation and squeezes",
+            "Sustained high relative volume all day (14.1x) with session HOD dominating (229% gain), not premarket spike fade — indicates real buying pressure throughout, not quick spike-dump",
+            "China-domiciled tech name with structural liquidity conditions favoring momentum continuation",
+            "15% fade from HOD shows some profit-taking but price held far above gap, suggesting institutional support"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — move is pure structural/sympathy-driven with zero fundamental support; vulnerable to hard reversal if broader China sentiment cools",
+            "HK-listed micro-cap with regulatory/delisting risk and lower institutional credibility than US names",
+            "Starting from a gap (14.58%), so entry today comes after significant intraday move — late-stage entry risk for a no-catalyst runner",
+            "Nano float creates extreme volatility and gap-risk; liquidity can evaporate quickly if retail exits"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NCT",
+          "hod": 83,
+          "hodExact": 83.35,
+          "news": [
+            "Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Splitto Regain NASDAQ Compliance",
+            "Form 6-K",
+            "NCT Issues Official Statement to Shareholders Reinforcing Long-Term Commitment, Compliance and Transparency"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Intercont (Cayman) Limited Class A Ordinary shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 25.77,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2997,
+          "open": 0.5062,
+          "gapPct": 68.9,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.5495,
+          "hodTimeExact": "07:54 AM ET",
+          "close": 0.5,
+          "fade": 9,
+          "fadeExact": 9.01,
+          "vwap": 0.4864,
+          "vsVwap": "above",
+          "pmHigh": 0.5682,
+          "volRaw": "214.3M",
+          "volDollar": 104221020,
+          "relVol": 40.4,
+          "avgVolM": 5.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Splitto Regain NASDAQ Compliance",
+            "Form 6-K",
+            "NCT Issues Official Statement to Shareholders Reinforcing Long-Term Commitment, Compliance and Transparency"
+          ],
+          "newsItems": [
+            {
+              "title": "Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Splitto Regain NASDAQ Compliance",
+              "url": "https://www.stocktitan.net/news/NCT/intercont-cayman-limited-announces-effective-time-of-share-8qky0dvy41ah.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T21:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2018529/000121390026099320/ea0305176-6k_intercont.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-11T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "NCT Issues Official Statement to Shareholders Reinforcing Long-Term Commitment, Compliance and Transparency",
+              "url": "https://www.stocktitan.net/news/NCT/nct-issues-official-statement-to-shareholders-reinforcing-long-term-f6h29jwcyefo.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-10T15:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCT",
+          "newsSummary": "NCT announced a share consolidation/reverse split effective today to regain NASDAQ compliance—a defensive move to avoid delisting. The news came after the intraday high, confirming it was reactive to the move, not the catalyst. Reverse splits are typically dilutive and carry negative sentiment, but the stock still closed +83% on elevated volume, suggesting institutional accumulation and a 'China Rig' structural pattern rather than a clean fundamental catalyst.",
+          "bullFactors": [
+            "HOD dominance at 83.35% with sustained high relative volume (40.4x), indicating afternoon continuation strength typical of institutional accumulation cycles",
+            "Gap of 68.9% plus intraday rally shows retail FOMO building into a lower-float Hong Kong micro-cap with no premarket fade—tape is hot, not cold",
+            "Float at 25.77M is manageable for a HK industrial name; compliance news removes delisting overhang, clearing a technical roadblock",
+            "Multiple session HODs printing late intraday (not premarket-dominated fade) fits 'China Rig' pattern—sustained buying pressure all day, not pump-and-dump"
+          ],
+          "bearFactors": [
+            "Reverse split is inherently dilutive and signals prior NASDAQ non-compliance distress—this is a red flag for fundamental health regardless of tape strength",
+            "Float above Jack's 10M preference; at 25.77M, this name relies on relative volume to justify entry (relVol 40.4x is solid but not exceptional for a micro-cap runner)",
+            "News came after the high, so no time to set up on genuine catalyst; any continuation tomorrow risks being a secondary fade or sympathy unwind",
+            "No real cash catalyst—compliance plays are regulatory cleanup, not growth. Sustainability depends entirely on whether institutional accumulation holds or rolls over at next resistance"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AGMH",
+          "hod": 63,
+          "hodExact": 63.17,
+          "news": [
+            "AGM Group and HashBeaver Jointly Develop Desktop DePIN Node for Bitcoin Mining"
+          ],
+          "tag": "SYMPATHY",
+          "name": "AGM Group Holdings Inc. Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 3.65,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 3.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.65M + RelVol 276.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.65M + RelVol 276.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.858,
+          "open": 0.92,
+          "gapPct": 7.23,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.4,
+          "hodTimeExact": "10:12 AM ET",
+          "close": 0.8214,
+          "fade": 41,
+          "fadeExact": 41.33,
+          "vwap": 1.0286,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "10.3M",
+          "volDollar": 10551832,
+          "relVol": 276.6,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "AGM Group and HashBeaver Jointly Develop Desktop DePIN Node for Bitcoin Mining"
+          ],
+          "newsItems": [
+            {
+              "title": "AGM Group and HashBeaver Jointly Develop Desktop DePIN Node for Bitcoin Mining",
+              "url": "https://www.stocktitan.net/news/AGMH/agm-group-and-hash-beaver-jointly-develop-desktop-de-pin-node-for-2rzkihcuf0y5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T11:50:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AGMH",
+          "newsSummary": "AGMH announced a joint development deal with HashBeaver for a desktop DePIN node for Bitcoin mining on 2026-09-08, six days before today's move. The news preceded the high by a significant margin, indicating it was not the immediate catalyst—rather, this appears to be a sympathy play riding broader crypto/Bitcoin sector momentum. The deal itself has modest real-value substance (partnership framework) but lacks concrete revenue or major institutional backing.",
+          "bullFactors": [
+            "Micro-float at 3.65M shares—tight float structure supports velocity and volatility",
+            "Relative volume of 276.6x is exceptional, indicating strong retail/institutional participation throughout session",
+            "HOD at 63.17% with fade at 41.33% shows afternoon continuation strength and institutional accumulation holding into close—classic China rig pattern",
+            "Hong Kong tech micro-cap with Crypto/Bitcoin theme riding sector tailwinds; sustained intraday trend with multiple HOD prints late session"
+          ],
+          "bearFactors": [
+            "News arrived 6 days prior to move—catalyst is stale and not the driving force; sympathy plays are prone to reversals",
+            "Market cap of $5.16M is extremely small with micro-cap liquidity risk; sudden news-driven reversals can lock out exits",
+            "DePIN node partnership is real but not revenue-generating yet; no cash inflow or major strategic partner (e.g., no Nvidia, Microsoft, tier-1 names)",
+            "Hong Kong-listed micro-cap with greater-China regulatory/delisting risk overhang; sector rotation away from Crypto/Bitcoin could trigger rapid fade"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SCNI",
+          "hod": 60,
+          "hodExact": 60.84,
+          "news": [
+            "Form 6-K",
+            "Scinai Concludes PC111 Arrangements and Refocuses Capital on NanoAb Platform and Growing CDMO Business"
+          ],
+          "tag": "CONTRACT",
+          "name": "Scinai Immunotherapeutics Ltd. American Depositary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 0.69,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.69M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.69M + RelVol 110.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.69M + RelVol 110.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.66,
+          "open": 2.33,
+          "gapPct": 40.36,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.67,
+          "hodTimeExact": "04:50 AM ET",
+          "close": 2.44,
+          "fade": 8,
+          "fadeExact": 8.61,
+          "vwap": 2.5866,
+          "vsVwap": "below",
+          "pmHigh": 3.33,
+          "volRaw": "40.6M",
+          "volDollar": 104977658,
+          "relVol": 110.0,
+          "avgVolM": 0.4,
+          "ssr": false,
+          "reverseSplit": "10:1",
+          "newsHeadlines": [
+            "Form 6-K",
+            "Scinai Concludes PC111 Arrangements and Refocuses Capital on NanoAb Platform and Growing CDMO Business"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1611747/000121390026097891/ea0304833-6k_scinai.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Scinai Concludes PC111 Arrangements and Refocuses Capital on NanoAb Platform and Growing CDMO Business",
+              "url": "https://www.stocktitan.net/news/SCNI/scinai-concludes-pc111-arrangements-and-refocuses-capital-on-nano-ab-4awf1ws357ev.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T13:18:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SCNI",
+          "newsSummary": "SCNI announced conclusion of PC111 arrangements and refocus of capital toward its NanoAb platform and growing CDMO business—a real strategic pivot with cash redeployment, not dilutive. The 6-K filing followed; both items predate the session high, indicating they set the stage for intraday accumulation and momentum rather than causing the spike directly.",
+          "bullFactors": [
+            "Nano float (0.69M) with 110% relative volume—extreme leverage and institutional accumulation signatures",
+            "60.84% HOD dominance with only 8.61% fade—strong afternoon session HODs indicating sustained buying pressure and short squeeze, not premarket spike collapse",
+            "40.36% gap + real catalyst (capital refocus on higher-margin CDMO/NanoAb platform)—meaningful strategic news with cash value, not sympathy fluff",
+            "News released before high—gave setup time for dip/soak accumulation before retail retail push; catalyst merit is genuine biotech/CDMO positioning"
+          ],
+          "bearFactors": [
+            "Israeli micro-cap with limited institutional infrastructure and liquidity—tail risk on sudden bid withdrawal or news reversal",
+            "Healthcare sector subject to regulatory/clinical risk; PC111 conclusion could signal prior setback or pivot away from that program",
+            "Gap-and-go structure with 40% gap—early entries already deep ITM; latecomers face reversal or consolidation risk into close"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "ELMT",
+          "hod": 54,
+          "hodExact": 54.6,
+          "news": [
+            "Form 8-K",
+            "Blue Moon, The Elmet Group, and EQ Resources Announce a US$150-$175 Million Investment into the Springer Tungsten Complex, Nevada, to Strengthen the U.S. Tungsten Supply Chain",
+            "The Elmet Group to Deploy Strategic Capital to Strengthen U.S. and Allied Tungsten Supply Chain",
+            "Department of War Makes Landmark $450 Million Committed Investment in The Elmet Group to Secure America’s Tungsten Supply Chain",
+            "The Elmet Group Co. Signs Agreement to Acquire ams OSRAM Schwabmünchen Metal Production Operations, Establishing European Manufacturing Footprint for Tungsten and Molybdenum Components"
+          ],
+          "tag": "CONTRACT",
+          "name": "The Elmet Group Co. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 9.64,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$656M",
+          "riskBadges": [
+            "Float 9.64M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.64M + RelVol 41.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.64M + RelVol 41.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 16.19,
+          "open": 22.47,
+          "gapPct": 38.79,
+          "time": "regular session",
+          "session": "morning",
+          "high": 25.03,
+          "hodTimeExact": "10:39 AM ET",
+          "close": 21.5,
+          "fade": 14,
+          "fadeExact": 14.1,
+          "vwap": 22.4986,
+          "vsVwap": "below",
+          "pmHigh": 24.66,
+          "volRaw": "13.9M",
+          "volDollar": 312463572,
+          "relVol": 41.8,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Blue Moon, The Elmet Group, and EQ Resources Announce a US$150-$175 Million Investment into the Springer Tungsten Complex, Nevada, to Strengthen the U.S. Tungsten Supply Chain",
+            "The Elmet Group to Deploy Strategic Capital to Strengthen U.S. and Allied Tungsten Supply Chain",
+            "Department of War Makes Landmark $450 Million Committed Investment in The Elmet Group to Secure America’s Tungsten Supply Chain",
+            "The Elmet Group Co. Signs Agreement to Acquire ams OSRAM Schwabmünchen Metal Production Operations, Establishing European Manufacturing Footprint for Tungsten and Molybdenum Components"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026099734/ea0304682-8k_elmet.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Blue Moon, The Elmet Group, and EQ Resources Announce a US$150-$175 Million Investment into the Springer Tungsten Complex, Nevada, to Strengthen the U.S. Tungsten Supply Chain",
+              "url": "https://www.stocktitan.net/news/ELMT/blue-moon-the-elmet-group-and-eq-resources-announce-a-us-150-175-zf6gn6hbkyzb.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T09:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "The Elmet Group to Deploy Strategic Capital to Strengthen U.S. and Allied Tungsten Supply Chain",
+              "url": "https://www.stocktitan.net/news/ELMT/the-elmet-group-to-deploy-strategic-capital-to-strengthen-u-s-and-pw8zqv6xui59.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T09:16:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Department of War Makes Landmark $450 Million Committed Investment in The Elmet Group to Secure America’s Tungsten Supply Chain",
+              "url": "https://www.stocktitan.net/news/ELMT/department-of-war-makes-landmark-450-million-committed-investment-in-ixfzzk9ek3sc.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T09:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "The Elmet Group Co. Signs Agreement to Acquire ams OSRAM Schwabmünchen Metal Production Operations, Establishing European Manufacturing Footprint for Tungsten and Molybdenum Components",
+              "url": "https://www.stocktitan.net/news/ELMT/the-elmet-group-co-signs-agreement-to-acquire-ams-osram-jbdgw000pgk7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Defense",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Rare Earth",
+              "confidence": 0.9,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ELMT",
+          "newsSummary": "ELMT announced a landmark $450M Department of War committed investment in its tungsten supply chain, paired with $150–175M co-investment from Blue Moon and EQ Resources into the Springer complex, plus a European manufacturing footprint acquisition (ams OSRAM). This is real cash, strategic infrastructure, and domestic supply-chain policy tailwind—not dilutive fluff. The catalyst has genuine merit and explains the 54.6% HOD print.",
+          "bullFactors": [
+            "Low float (9.64M) with 41.8x relative volume—tight float amplifies institutional accumulation into real cash catalyst",
+            "Multiple high-confidence news beats (DoW $450M commitment, $150–175M co-investment, European acquisition) all premarket, giving tape time to digest and build conviction before retail push",
+            "Sustained intraday trend (54.6% HOD vs 14.1% fade) suggests institutional follow-through and afternoon continuation—not a one-pop premarket spike fade",
+            "Strategic defense/supply-chain catalyst (tungsten, rare materials, U.S. policy) attracts sector rotation and thematic momentum money; real business value, not sympathy"
+          ],
+          "bearFactors": [
+            "Gap up 38.79% at open leaves limited room on daily chart if shorts/bears defend—early entry risk if overhead resistance forms quickly",
+            "Form 8-K filed after HOD (20:00 ET) suggests potential dilutive follow-up detail; requires post-market review before next session",
+            "Fade % (14.1%) is modest but not negligible—if institutional accumulation stalls intraday, retail could chase into a loss"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "PDSB",
+          "hod": 52,
+          "hodExact": 52.59,
+          "news": [
+            "Form 8-K",
+            "PDS Biotech Announces Initial Closing of up to $22.3 Million PIPE Financing and the Appointment of Dr. Patrick Soon-Shiong to Its Board of Directors",
+            "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks"
+          ],
+          "tag": "OFFERING",
+          "name": "PDS Biotechnology Corporation Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 55.86,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$42M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2949,
+          "open": 0.2776,
+          "gapPct": -5.87,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.45,
+          "hodTimeExact": "02:38 PM ET",
+          "close": 0.3991,
+          "fade": 11,
+          "fadeExact": 11.31,
+          "vwap": 0.3966,
+          "vsVwap": "above",
+          "pmHigh": 0.2948,
+          "volRaw": "74.6M",
+          "volDollar": 29576189,
+          "relVol": 2.6,
+          "avgVolM": 29.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "PDS Biotech Announces Initial Closing of up to $22.3 Million PIPE Financing and the Appointment of Dr. Patrick Soon-Shiong to Its Board of Directors",
+            "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1472091/000114036126036489/ef20081956_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "PDS Biotech Announces Initial Closing of up to $22.3 Million PIPE Financing and the Appointment of Dr. Patrick Soon-Shiong to Its Board of Directors",
+              "url": "https://www.stocktitan.net/news/PDSB/pds-biotech-announces-initial-closing-of-up-to-22-3-million-pipe-wpaxf7e67ajt.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T14:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks",
+              "url": "https://www.stocktitan.net/news/PDSB/pds-biotech-announces-up-to-22-55-million-financing-led-by-dr-oopapv3d55j5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PDSB",
+          "newsSummary": "PDSB announced a $22.3M PIPE financing with Dr. Patrick Soon-Shiong joining the board—real cash, institutional backing, and a marquee name addition. However, both the initial financing news (Sept 8) and closing announcement (Sept 14 at 14:30) came AFTER the intraday high, indicating the move was driven by something else and the news is reactive. The financing itself is legitimate capital raise, not dilutive common stock dump, but timing and float size blunt the setup.",
+          "bullFactors": [
+            "Real cash PIPE financing ($22.3M closing) with institutional-grade anchor investor (Soon-Shiong/NantWorks) — actual balance sheet benefit, not dilutive fluff",
+            "Board appointment of marquee healthcare/biotech figure adds credibility and potential strategic value",
+            "52.59% HOD dominance vs 11.31% fade suggests intraday buying pressure and institutional accumulation through afternoon",
+            "Relative volume 2.6x normal indicates real participation, not thin tape chop"
+          ],
+          "bearFactors": [
+            "Float 55.86M is MEGA THICK — far outside Jack's <10M preference; kills momentum runway and reduces pop magnitude",
+            "Both material news items published AFTER the session high (one at 14:30, one at 20:00 post-market) — catalyst was reactive, not the driver; move already happened",
+            "Gap down -5.87% into the session established heavy overhead supply and reduced upside room",
+            "PIPE financing, while real cash, still signals dilution path and can suppress stock as lockup/conversion looms"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "VEEA",
+          "hod": 51,
+          "hodExact": 51.28,
+          "news": [
+            "Veea Inc. and NovaGen announce potential merger to launch an Edge AI-Powered Global Health Platform"
+          ],
+          "tag": "MERGER",
+          "name": "Veea Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.86,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 1.86M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.56,
+          "open": 1.6,
+          "gapPct": 2.56,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 2.36,
+          "hodTimeExact": "04:52 PM ET",
+          "close": 2.29,
+          "fade": 2,
+          "fadeExact": 2.97,
+          "vwap": 2.2353,
+          "vsVwap": "above",
+          "pmHigh": 1.5599,
+          "volRaw": "7.3M",
+          "volDollar": 16290976,
+          "relVol": 44.6,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": "20:1",
+          "newsHeadlines": [
+            "Veea Inc. and NovaGen announce potential merger to launch an Edge AI-Powered Global Health Platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Veea Inc. and NovaGen announce potential merger to launch an Edge AI-Powered Global Health Platform",
+              "url": "https://www.stocktitan.net/news/VEEA/veea-inc-and-nova-gen-announce-potential-merger-to-launch-an-edge-ai-0r455fmvmuy6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T20:42:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VEEA",
+          "newsSummary": "Veea announced a potential merger with NovaGen to create an Edge AI-powered global health platform, but this news dropped AFTER the 51% intraday high was already printed, making it reactive rather than causal. The merger itself is real M&A activity with defined strategic intent, but the timing suggests the move was driven by intraday momentum and accumulation before the announcement, not the announcement itself.",
+          "bullFactors": [
+            "Micro-float (1.86M shares) with 44.6x relative volume — extremely tight float creating velocity",
+            "51.28% HOD with only 2.97% fade suggests sustained institutional buying pressure and short squeezes, not a premarket spike-and-dump pattern",
+            "Real M&A catalyst (merger announcement) provides post-market narrative support and reduces pure speculation risk",
+            "Gap up 2.56% + session continuation indicates overnight accumulation into intraday push — classic dip/soak institutional setup"
+          ],
+          "bearFactors": [
+            "News arrived AFTER the high — no catalyst-driven confirmation, increases risk of fade into close and next session",
+            "Merger is 'potential' not definitive; execution risk and deal structure unknown, typical of SPAC-era dilution patterns",
+            "Micro-cap market cap ($8.85M) with micro-float creates extreme liquidity cliff risk if retail momentum stalls",
+            "Edge AI + health platform is popular theme bucket; no disclosure of cash, partnership terms, or revenue — could be vapor catalyst"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "LHSW",
+          "hod": 49,
+          "hodExact": 49.45,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Lianhe Sowell International Group Ltd Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 10.33,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.33M + RelVol 55.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.33M + RelVol 55.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4821,
+          "open": 0.5547,
+          "gapPct": 15.06,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.7205,
+          "hodTimeExact": "11:34 AM ET",
+          "close": 0.6228,
+          "fade": 13,
+          "fadeExact": 13.56,
+          "vwap": 0.6259,
+          "vsVwap": "below",
+          "pmHigh": 0.6648,
+          "volRaw": "118.4M",
+          "volDollar": 74109049,
+          "relVol": 55.4,
+          "avgVolM": 2.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LHSW",
+          "newsSummary": "LHSW ran 49.45% on the session with no identifiable news catalyst — pure intraday institutional accumulation pattern. Chinese micro-cap displaying sustained volume (RelVol 55.4x) with HOD printing late session, characteristic of a China Rig structural move rather than a news-driven or pump-dump event.",
+          "bullFactors": [
+            "Sustained intraday trend with afternoon HOD strength (49.45% HOD % dominates vs. 13.56% fade), indicating institutional continuation not premarket spike collapse",
+            "China Rig structural pattern confirmed: mid-float CN name with high relative volume all day, multiple session HODs, no news catalyst — textbook rig buying pressure",
+            "Relative volume 55.4x is aggressive institutional accumulation signal; float just above 10M (10.33M) remains manageable for sustained momentum"
+          ],
+          "bearFactors": [
+            "No news catalyst means move is purely momentum/structural — vulnerable to sudden reversal if institutional bid lifts",
+            "Float at 10.33M sits just above preferred <10M threshold; at this size, liquidity can thin rapidly on profit-taking",
+            "Micro-cap market cap ($7.3M) creates black-swan risk if volume dries or short squeeze unwinds; Chinese regulatory/delisting risk always present"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 229,
+      "fade": 14,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "OPENL led +303.76% (67% fade). 7/10 held <20% fade. news: NCT — \"Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Splitto Regain NASDAQ Compliance\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS and sympathy/compliance tags across thin Hong Kong and micro-cap US floats (0.43M–3.65M sweet spot), signaling a classic cycle-shift warning with multiple names up 50%+ on non-catalyst backdrop. HOD prints split between morning sessions (OPENL, OPENZ, AGMH, ELMT, LHSW) and a critical afternoon continuation in FTFT (229% HOD, 0.43M float, $697M vol dollar) suggesting institutional accumulation into close rather than premarket fade dominance. The playbook should flag the concentration risk: FTFT and SCNI show textbook low-fade profiles (15%, 8.6%) typical of China rig sustained buying, but OPENL and OPENZ's massive morning spikes with 67–49% fades read as premarket-dominated cold tape despite dollar volume. This is a COLD/NEUTRAL hybrid session—excellent liquidity and float sizing for runners, but the lack of real catalysts and prevalence of NO-NEWS tags mean momentum traders should treat intraday HODs as fade opportunities rather than continuation plays, with FTFT as the lone exception if afternoon momentum sustains into tomorrow's open."
+    },
     {
       "date": "2026-09-11",
       "runners": [
