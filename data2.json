@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-14T21:13:16.341006Z",
-  "count": 9837,
+  "exportedAt": "2026-09-16T00:21:24.068151Z",
+  "count": 9847,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1007 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-15",
+      "runners": [
+        {
+          "sym": "RETO",
+          "hod": 1136,
+          "hodExact": 1136.48,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ReTo Eco-Solutions, Inc. Class A Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 33.31,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$150M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3607,
+          "open": 0.35,
+          "gapPct": -2.97,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 4.46,
+          "hodTimeExact": "04:05 PM ET",
+          "close": 2.8,
+          "fade": 37,
+          "fadeExact": 37.22,
+          "vwap": 1.9352,
+          "vsVwap": "above",
+          "pmHigh": 0.3777,
+          "volRaw": "232.8M",
+          "volDollar": 450486329,
+          "relVol": 238.2,
+          "avgVolM": 1.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RETO",
+          "newsSummary": "RETO ran 1136% today with zero substantive news catalyst—a classic China rig pattern on a thick-float Chinese micro-cap. The sustained intraday volume (rel vol 238x), afternoon HOD dominance, and lack of any real cash event or partnership indicate aggressive institutional accumulation rather than news-driven momentum.",
+          "bullFactors": [
+            "Extreme intraday relative volume (238x) with sustained buying pressure throughout session—not a premarket spike fade",
+            "HOD-printing late session behavior characteristic of China rig institutional rigs, indicating continued accumulation rather than exhaustion",
+            "Basic Materials sector in CN with low/no overhead supply and room to run on daily chart if this is genuine institutional positioning"
+          ],
+          "bearFactors": [
+            "Thick float at 33.31M—well above Jack's preferred <10M threshold and above his higher-vol tolerance breakpoint",
+            "Zero catalyst: no real news, no earnings, no partnerships—entirely sympathy/structural rig with binary black-swan risk if liquidity dries up",
+            "Already up 1136% today—extreme cycle shift risk (>500%) with potential for liquidity spillover and violent reversal if retail momentum exhausts"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "MEDS",
+          "hod": 344,
+          "hodExact": 344.93,
+          "news": [
+            "DataMEDS, AI. Acquires Helomics AI Cancer Diagnostics Lab and Precision Oncology CRO Businesses from Axe Compute",
+            "Axe Compute Sells Helomics AI Cancer Diagnostics Lab Business to DataMEDS AI, Completing Transition to Neocloud GPU-as-a-Service platform",
+            "Datameds, AI., and Tollo Health Partner with the NFL Alumni Association for Health Lives Here National Campaign Rollout"
+          ],
+          "tag": "ACQUISITION",
+          "name": "DataMeds AI, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 2.06,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 2.06M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.06M + RelVol 97.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.06M + RelVol 97.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8653,
+          "open": 0.8949,
+          "gapPct": 3.42,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.85,
+          "hodTimeExact": "01:32 PM ET",
+          "close": 1.62,
+          "fade": 57,
+          "fadeExact": 57.92,
+          "vwap": 2.4918,
+          "vsVwap": "below",
+          "pmHigh": 0.9397,
+          "volRaw": "65.1M",
+          "volDollar": 162119555,
+          "relVol": 97.5,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "DataMEDS, AI. Acquires Helomics AI Cancer Diagnostics Lab and Precision Oncology CRO Businesses from Axe Compute",
+            "Axe Compute Sells Helomics AI Cancer Diagnostics Lab Business to DataMEDS AI, Completing Transition to Neocloud GPU-as-a-Service platform",
+            "Datameds, AI., and Tollo Health Partner with the NFL Alumni Association for Health Lives Here National Campaign Rollout"
+          ],
+          "newsItems": [
+            {
+              "title": "DataMEDS, AI. Acquires Helomics AI Cancer Diagnostics Lab and Precision Oncology CRO Businesses from Axe Compute",
+              "url": "https://www.stocktitan.net/news/MEDS/data-meds-ai-acquires-helomics-ai-cancer-diagnostics-lab-and-0f4m0ziqvx35.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T20:05:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Axe Compute Sells Helomics AI Cancer Diagnostics Lab Business to DataMEDS AI, Completing Transition to Neocloud GPU-as-a-Service platform",
+              "url": "https://www.stocktitan.net/news/MEDS/axe-compute-sells-helomics-ai-cancer-diagnostics-lab-business-to-msykjn2u82lj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T12:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Datameds, AI., and Tollo Health Partner with the NFL Alumni Association for Health Lives Here National Campaign Rollout",
+              "url": "https://www.stocktitan.net/news/MEDS/datameds-ai-and-tollo-health-partner-with-the-nfl-alumni-association-a34rg8jtpvu0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MEDS",
+          "newsSummary": "DataMEDS acquired Helomics AI Cancer Diagnostics Lab and Precision Oncology CRO from Axe Compute, adding real revenue-generating businesses and AI oncology capabilities. The acquisition was announced midday (12:30 ET) well after the HOD printed (344.93% gain), so it followed rather than caused the move—suggesting strong institutional accumulation preceded the news release.",
+          "bullFactors": [
+            "Micro float (2.06M shares) with 97.5% relative volume—tight float supports sustained momentum",
+            "Real acquisition adds cash-generating oncology CRO and AI diagnostics; not fluff or sympathy",
+            "Session HOD dominated (printed after midday news, suggesting continued buying into afternoon)—classic hot cycle structure, not premarket spike fade",
+            "Daily chart room: No mention of warrants, convertibles, or heavy overhead; acquisition should unlock optionality"
+          ],
+          "bearFactors": [
+            "344.93% gain is extreme—liquidity spillover risk and potential black swan conditions if size dries up",
+            "57.92% fade from HOD is significant; retail entry near highs may face profit-taking resistance",
+            "Acquisition details (price, dilution, earn-out terms) not disclosed in provided data; potential hidden dilution risk",
+            "NFL partnership news (pre-HOD) suggests layering of hype; verify acquisition is accretive and not drowning in deal terms"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "VEEA",
+          "hod": 227,
+          "hodExact": 227.07,
+          "news": [
+            "Veea Inc. and NovaGen announce potential merger to launch an Edge AI-Powered Global Health Platform"
+          ],
+          "tag": "MERGER",
+          "name": "Veea Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.86,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 1.86M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.29,
+          "open": 4.33,
+          "gapPct": 89.08,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.49,
+          "hodTimeExact": "10:05 AM ET",
+          "close": 5.71,
+          "fade": 23,
+          "fadeExact": 23.77,
+          "vwap": 5.4093,
+          "vsVwap": "above",
+          "pmHigh": 4.53,
+          "volRaw": "202.2M",
+          "volDollar": 1093652068,
+          "relVol": 126.6,
+          "avgVolM": 1.6,
+          "ssr": false,
+          "reverseSplit": "20:1",
+          "newsHeadlines": [
+            "Veea Inc. and NovaGen announce potential merger to launch an Edge AI-Powered Global Health Platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Veea Inc. and NovaGen announce potential merger to launch an Edge AI-Powered Global Health Platform",
+              "url": "https://www.stocktitan.net/news/VEEA/veea-inc-and-nova-gen-announce-potential-merger-to-launch-an-edge-ai-0r455fmvmuy6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T20:42:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VEEA",
+          "newsSummary": "Veea announced a potential merger with NovaGen to create an Edge AI-powered global health platform—a real cash/strategic deal combining two entities with stated synergies. The merger was announced before market close on 9/14, giving the market time to digest it overnight and price it in during today's intraday session. This is substantive M&A, not fluff, and represents a legitimate catalyst for institutional accumulation.",
+          "bullFactors": [
+            "Ultra-low float (1.86M) with 126.6% relative volume—exceptional liquidity compression for explosive intraday moves",
+            "227% HOD print with only 23.77% fade indicates strong institutional demand and afternoon session continuation strength, not a premarket spike-and-dump pattern",
+            "Real merger catalyst with two named parties (Veea + NovaGen) and specific strategic purpose (Edge AI health platform)—cash/equity deal structure, not dilutive announcement",
+            "News dropped pre-market/overnight (9/14 20:42), giving the move time to compound through the session—typical setup for sustained intraday runner with multiple HOD prints"
+          ],
+          "bearFactors": [
+            "89.08% gap on news raises execution risk—stock already priced in a large move before retail participation; sustainability of afternoon continuation is key to session hold",
+            "Merger terms and deal structure not disclosed in headline—typical SPAC/reverse merger risk; dilution and warrant overhang are real until definitive agreement filed",
+            "Market cap only ~$18.5M on 1.86M float suggests extreme micro-cap volatility; black swan liquidity risk if institutional buyers exhaust dry powder",
+            "High HOD percentage (227%) on day-one news can signal euphoric retail peak; risk of hard fade on Day 2 when momentum traders exit"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "IPW",
+          "hod": 116,
+          "hodExact": 116.58,
+          "news": [
+            "Form 8-K",
+            "S-1/A",
+            "Proxy"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "iPower, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 0.9,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.9M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.9M + RelVol 260.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.9M + RelVol 260.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.93,
+          "open": 1.96,
+          "gapPct": 1.55,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.18,
+          "hodTimeExact": "03:06 PM ET",
+          "close": 2.63,
+          "fade": 37,
+          "fadeExact": 37.08,
+          "vwap": 3.1918,
+          "vsVwap": "below",
+          "pmHigh": 2.09,
+          "volRaw": "38.9M",
+          "volDollar": 124299570,
+          "relVol": 260.6,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "S-1/A",
+            "Proxy"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1830072/000168316826007176/ipower_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "S-1/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1830072/000168316826007035/ipower_s1a2.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-1/A",
+              "rel": "before"
+            },
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1830072/000168316826007015/ipower_def14a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IPW",
+          "newsSummary": "IPW gapped +1.55% and ran 116.58% intraday with a 37% fade, driven by Form 8-K filed after the high. The 8-K is reactive to the move, not causal. Prior S-1/A (Sept 9) and Proxy (Sept 8) filings suggest ongoing corporate compliance activity, but no substantive cash catalyst is evident from the news set.",
+          "bullFactors": [
+            "Extreme float tier (0.9M shares) — nano float provides structural volatility and potential for sustained squeeze",
+            "Massive intraday HOD print (116.58%) with high relative volume (260.6x) — suggests institutional accumulation and retail continuation strength",
+            "Session fade of only 37% despite extreme move — suggests some base-building vs. pure pump-and-dump pattern",
+            "Hot tape signature (session HODs dominating) — shorts likely blowing out on sustained buying pressure"
+          ],
+          "bearFactors": [
+            "No real cash catalyst identified — S-1/A and Proxy are compliance noise, not growth drivers; 8-K is post-move and reactive",
+            "Spike magnitude (116%+) approached danger zone for liquidity and black swan risk on nano float",
+            "Form 8-K filed after high suggests reactive announcement rather than pre-planned catalyst; vague merit",
+            "Consumer Cyclical sector with $2.5M market cap and no clear business tailwind — lacks fundamental support"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "FBDT",
+          "hod": 94,
+          "hodExact": 94.98,
+          "news": [
+            "First Breach Secures Federal Explosives License for Attritible Drone Manufacturing",
+            "424B5 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "First Breach Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 23.48,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$47M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6411,
+          "open": 0.669,
+          "gapPct": 4.35,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.25,
+          "hodTimeExact": "01:55 PM ET",
+          "close": 1,
+          "fade": 20,
+          "fadeExact": 20.0,
+          "vwap": 0.9889,
+          "vsVwap": "above",
+          "pmHigh": 0.68,
+          "volRaw": "76.0M",
+          "volDollar": 75169420,
+          "relVol": 55.5,
+          "avgVolM": 1.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "First Breach Secures Federal Explosives License for Attritible Drone Manufacturing",
+            "424B5 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "First Breach Secures Federal Explosives License for Attritible Drone Manufacturing",
+              "url": "https://www.stocktitan.net/news/FBDT/first-breach-secures-federal-explosives-license-for-attritible-drone-509sd6a5vgcd.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T12:31:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1892704/000149315226042405/form424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-11T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Drone/UAV",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "Defense",
+              "confidence": 0.88,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FBDT",
+          "newsSummary": "FBDT gapped +4.35% and ran hard intraday (+94.98% HOD), but the 424B5 offering filed 2026-09-11 is a major structural headwind. The federal explosives license news (2026-09-15 12:31 PM) came AFTER the move, making it reactive/promotional rather than the driver. Real catalyst merit is present (Defense/Drone license), but dilution overhang crushes risk/reward.",
+          "bullFactors": [
+            "Federal explosives license for attritible drone manufacturing is genuine Defense/Industrial catalyst with regulatory moat",
+            "Intraday sustained volume (relVol 55.5x) and afternoon HODs suggest some institutional accumulation despite offering",
+            "Drone/UAV theme has structural tailwinds; real cash value use case (not sympathy or fluff)"
+          ],
+          "bearFactors": [
+            "424B5 offering (2026-09-11) creates near-term dilution overhang and cap on upside — classic offering fade risk",
+            "Float of 23.48M is 2.3x+ Jack's preferred <10M threshold; thicker float = harder to sustain momentum",
+            "License news arrived after HOD, suggesting the move was speculative intraday push likely to fade into offering supply"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PDSB",
+          "hod": 89,
+          "hodExact": 89.25,
+          "news": [
+            "Form 8-K",
+            "PDS Biotech Announces Initial Closing of up to $22.3 Million PIPE Financing and the Appointment of Dr. Patrick Soon-Shiong to Its Board of Directors",
+            "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks"
+          ],
+          "tag": "ACQUISITION",
+          "name": "PDS Biotechnology Corporation Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 55.86,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$63M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3991,
+          "open": 0.4916,
+          "gapPct": 23.18,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.7553,
+          "hodTimeExact": "12:21 PM ET",
+          "close": 0.5853,
+          "fade": 22,
+          "fadeExact": 22.51,
+          "vwap": 0.6052,
+          "vsVwap": "below",
+          "pmHigh": 0.509,
+          "volRaw": "372.2M",
+          "volDollar": 225240335,
+          "relVol": 11.8,
+          "avgVolM": 31.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "PDS Biotech Announces Initial Closing of up to $22.3 Million PIPE Financing and the Appointment of Dr. Patrick Soon-Shiong to Its Board of Directors",
+            "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1472091/000114036126036489/ef20081956_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "PDS Biotech Announces Initial Closing of up to $22.3 Million PIPE Financing and the Appointment of Dr. Patrick Soon-Shiong to Its Board of Directors",
+              "url": "https://www.stocktitan.net/news/PDSB/pds-biotech-announces-initial-closing-of-up-to-22-3-million-pipe-wpaxf7e67ajt.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T14:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "PDS Biotech Announces up to $22.55 Million Financing Led by Dr. Patrick Soon-Shiong, Founder of NantWorks",
+              "url": "https://www.stocktitan.net/news/PDSB/pds-biotech-announces-up-to-22-55-million-financing-led-by-dr-oopapv3d55j5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-08T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PDSB",
+          "newsSummary": "PDS Biotech announced a $22.3M PIPE financing with Dr. Patrick Soon-Shiong (NantWorks founder) joining the board, signaling institutional confidence and real capital inflow. This is a genuine cash catalyst with a credible strategic backer, not dilutive fluff — Soon-Shiong's involvement adds legitimacy and suggests active involvement beyond passive funding.",
+          "bullFactors": [
+            "Real cash financing ($22.3M PIPE) from a high-profile biotech investor (Dr. Soon-Shiong) — legitimate capital, not equity dump",
+            "HOD dominance at 89.25% with 11.8x relative volume — sustained intraday strength, not premarket spike fade pattern",
+            "Board appointment signals active strategic involvement, not passive capital; de-risks execution narrative",
+            "Gap up 23.18% on institutional buying pressure; setup had time to develop before retail push"
+          ],
+          "bearFactors": [
+            "Float is 55.86M (mega thick) — well above Jack's <10M preference; reduces volatility and momentum sustainability",
+            "PIPE financing can be dilutive to existing shareholders; pricing and terms matter; watch for secondary offering overhang",
+            "News was released 2026-09-14 before the move (relative_to_high='before') — catalyst already digested; late entry risk",
+            "Healthcare/biotech sector: execution risk on clinical/regulatory milestones; Soon-Shiong backing reduces but doesn't eliminate that risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RIVr",
+          "hod": 83,
+          "hodExact": 83.72,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "RiverNorth Opportunities Fund, Inc. Rights (expiring September 23, 2026)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0043,
+          "open": 0.0037,
+          "gapPct": -13.95,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.0079,
+          "hodTimeExact": "04:37 AM ET",
+          "close": 0.005,
+          "fade": 36,
+          "fadeExact": 36.71,
+          "vwap": 0.0033,
+          "vsVwap": "above",
+          "pmHigh": 0.008,
+          "volRaw": "1.7M",
+          "volDollar": 5640,
+          "relVol": 0.3,
+          "avgVolM": 6.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNYS",
+          "tvSymbol": null,
+          "newsSummary": "RIVr moved with no identifiable news catalyst or announcement. The 83.72% HOD achievement against a -13.95% gap and 36.71% fade suggests intraday institutional accumulation after an overnight washout, but without confirmed news or structural catalyst, this is a pure price-action setup.",
+          "bullFactors": [
+            "Strong HOD percentage (83.72%) indicates sustained buying pressure and session strength despite gap-down open",
+            "Significant gap-down (-13.95%) followed by recovery and HOD suggests institutional accumulation on weakness — classic dip/soak setup",
+            "Afternoon HOD achievement (vs. premarket fade) aligns with Jack's preference for session HODs dominating, signaling shorts blowing out"
+          ],
+          "bearFactors": [
+            "No news catalyst identified — move is purely technical/tape-driven with unknown fundamental trigger, increasing whipsaw risk",
+            "Float unknown and market cap at 0 suggest illiquid, potentially delisted or shell status — critical information missing",
+            "Relative volume only 0.3 is weak for a momentum runner; sustained volume typically required to hold intraday gains into close"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SUGP",
+          "hod": 71,
+          "hodExact": 71.49,
+          "news": [
+            "Form 6-K",
+            "SU Group Secures Exclusive Distribution Rights for Portable X-Ray System in Hong Kong and Macau",
+            "SU Group Holdings Limited Announces Proposed Acquisition of KM Safety Solution Company Limited"
+          ],
+          "tag": "ACQUISITION",
+          "name": "SU Group Holdings Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 1.25,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 1.25M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7114,
+          "open": 1.05,
+          "gapPct": 47.6,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.22,
+          "hodTimeExact": "09:44 AM ET",
+          "close": 0.6565,
+          "fade": 46,
+          "fadeExact": 46.19,
+          "vwap": 1.0041,
+          "vsVwap": "below",
+          "pmHigh": 1.2,
+          "volRaw": "149.3M",
+          "volDollar": 149909060,
+          "relVol": 35.5,
+          "avgVolM": 4.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "SU Group Secures Exclusive Distribution Rights for Portable X-Ray System in Hong Kong and Macau",
+            "SU Group Holdings Limited Announces Proposed Acquisition of KM Safety Solution Company Limited"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1969863/000175392626001777/g085949_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "SU Group Secures Exclusive Distribution Rights for Portable X-Ray System in Hong Kong and Macau",
+              "url": "https://www.stocktitan.net/news/SUGP/su-group-secures-exclusive-distribution-rights-for-portable-x-ray-5i305dsm2fa0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T12:01:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "SU Group Holdings Limited Announces Proposed Acquisition of KM Safety Solution Company Limited",
+              "url": "https://www.stocktitan.net/news/SUGP/su-group-holdings-limited-announces-proposed-acquisition-of-km-otocbf7o5u43.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SUGP",
+          "newsSummary": "SU Group announced a proposed acquisition of KM Safety Solution Company Limited and secured exclusive distribution rights for a portable X-ray system in Hong Kong and Macau, both released at 12:00-12:01 before the high. The company showed real cash-backed M&A activity and commercial expansion, which are legitimate catalysts. Form 6-K filed after the move is reactive, not causative.",
+          "bullFactors": [
+            "Micro-float (1.25M shares) with 35.5x relative volume — tight supply fueling moves",
+            "HOD printed 71.49% with only 46.19% fade, indicating afternoon continuation strength and sustained institutional interest",
+            "Real M&A catalyst (acquisition) paired with concrete distribution deal — not sympathy or fluff",
+            "Gapped 47.6% with catalysts timed before peak, allowing time for institutional accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Hong Kong-listed micro-cap with greater-China structure — liquidity and disclosure risks typical of this tier",
+            "Proposed acquisition (not closed) carries execution risk; deal may face regulatory hurdles or fail to materialize",
+            "Form 6-K filed after high suggests late-session filings; watch for dilutive details in future disclosures",
+            "Extreme intraday move (71% HOD, 47% gap) may have exhausted near-term fuel despite sustained volume"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BNGO",
+          "hod": 67,
+          "hodExact": 67.67,
+          "news": [
+            "Form 8-K",
+            "Bionano Announces Three New Peer-Reviewed Studies Demonstrate Clinical Value of Bionano's Optical Genome Mapping Across Myelodysplastic Syndromes and Acute Myeloid Leukemia"
+          ],
+          "tag": "PHASE-3",
+          "name": "Bionano Genomics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 11.93,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$20M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.33,
+          "open": 1.31,
+          "gapPct": -1.5,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.23,
+          "hodTimeExact": "10:41 AM ET",
+          "close": 1.56,
+          "fade": 30,
+          "fadeExact": 30.04,
+          "vwap": 1.8285,
+          "vsVwap": "below",
+          "pmHigh": 1.3459,
+          "volRaw": "39.8M",
+          "volDollar": 72735285,
+          "relVol": 222.2,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Bionano Announces Three New Peer-Reviewed Studies Demonstrate Clinical Value of Bionano's Optical Genome Mapping Across Myelodysplastic Syndromes and Acute Myeloid Leukemia"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1411690/000141169026000046/bngo-20260914.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Bionano Announces Three New Peer-Reviewed Studies Demonstrate Clinical Value of Bionano's Optical Genome Mapping Across Myelodysplastic Syndromes and Acute Myeloid Leukemia",
+              "url": "https://www.stocktitan.net/news/BNGO/bionano-announces-three-new-peer-reviewed-studies-demonstrate-14ly03h9otg7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BNGO",
+          "newsSummary": "Bionano announced three new peer-reviewed studies demonstrating clinical value of its Optical Genome Mapping (OGM) technology across myelodysplastic syndromes and acute myeloid leukemia—real clinical validation with peer-reviewed backing, not fluff. The Form 8-K filed before the move suggests substantive corporate action; combined with clinical publication, this represents legitimate biotech catalyst with cash-value implications for FDA/reimbursement pathway.",
+          "bullFactors": [
+            "Real clinical catalyst: peer-reviewed studies on OGM efficacy in hematologic malignancies carry genuine reimbursement and adoption merit",
+            "Sustained intraday strength: 67.67% HOD dominance with only 30.04% fade and 222% relative volume indicates institutional accumulation and retail follow-through, not premarket pump collapse",
+            "Float at 11.93M (just above 10M threshold) with strong intraday vol/min sustain—fits Jack's criteria for elevated float if session heat proves genuine",
+            "News released before market open (13:00 PT Sept 14) with Form 8-K same day, giving setup time; move appears to have unfolded intraday rather than gapped open and faded"
+          ],
+          "bearFactors": [
+            "Float slightly above preferred 10M ceiling at 11.93M—requires higher intraday volatility to justify; any fade into close risks trapped retail",
+            "Small market cap ($20.4M) creates liquidity risk on any reversal; biotech volatility can whipsaw intraday traders",
+            "Clinical announcements are incremental validation, not FDA approval or transformative deal—rerates company but does not guarantee follow-through session days",
+            "Negative gap open (-1.5%) suggests some overnight profit-taking; need to confirm daily chart has no overhead resistance from prior failed breakouts"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "NMCOr",
+          "hod": 66,
+          "hodExact": 66.67,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Nuveen Municipal Credit Opportunities Fund Rights (expiring October 7, 2026)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.006,
+          "open": 0.01,
+          "gapPct": 66.67,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.01,
+          "hodTimeExact": "09:28 AM ET",
+          "close": 0.009,
+          "fade": 10,
+          "fadeExact": 10.0,
+          "vwap": 0.008,
+          "vsVwap": "above",
+          "pmHigh": 0.0179,
+          "volRaw": "904K",
+          "volDollar": 7236,
+          "relVol": 0.7,
+          "avgVolM": 1.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNYS",
+          "tvSymbol": null,
+          "newsSummary": "NMCOr moved up 66.67% intraday with a matching gap, but news_status is 'none' — sources were checked and returned empty. The move appears entirely driven by intraday tape action rather than any announced catalyst.",
+          "bullFactors": [
+            "66.67% HOD percentage suggests sustained session strength, not a premarket spike fade",
+            "Gap and HOD aligned (both 66.67%) indicates conviction rather than gap-fill reversal",
+            "Relative volume at 0.7 is moderate but consistent with institutional accumulation patterns"
+          ],
+          "bearFactors": [
+            "Unknown sector, zero market cap, and missing float data make it impossible to apply core float/overhead criteria",
+            "Lack of any news catalyst raises red flag for pump structure or data quality issues",
+            "10% fade percentage suggests afternoon profit-taking, weakening the 'hot tape' narrative"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 1136,
+      "fade": 32,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "RETO led +1136.48% (37% fade). 1/10 held <20% fade. news: MEDS — \"DataMEDS, AI. Acquires Helomics AI Cancer Diagnostics Lab and Precision Oncology CRO Businesses from Axe Compute\".",
+      "aiSummary": "**TAPE READ — 2026-09-15**\n\nToday's tape is dominated by M&A catalysts (MEDS, VEEA, PDSB, SUGP) and sympathy runs (RETO, RIVr, NMCOr), with heavy concentration in Healthcare and cross-border plays (CN, HK, US mix). Float tier is ideal for this framework—sub-2M names (VEEA, IPW, SUGP) anchoring vol, though RETO's 33M float and premarket spike (+1136% fade to 37%) signals classic China rig territory rather than pump-dump, while higher floats (PDSB 55M, FBDT 23M) dilute edge. **HOD prints decisively shifted intraday: VEEA (morning), MEDS/IPW/FBDT/PDSB/SUGP (afternoon)—zero premarket dominance, zero fade-heavy setups—signaling hot afternoon continuation tape with institutional accumulation holding through retail push.** This is a HOT CYCLE favoring momentum traders: sustained vol dollar across the board ($450M RETO, $1.09B VEEA), real catalysts on flagship names, afternoon session ownership, and minimal overnight spike-fade noise. **Grade distribution: A-range candidates in VEEA (merger + sub-2M + afternoon HOD + $1B vol + low fade 23%) and MEDS (acquisition + 2M float + afternoon dominance), B+ for IPW (ultra-tight float 0.9M but compliance tag lacks M&A muscle), and F for FBDT (offering = automatic dilution signal).**"
+    },
     {
       "date": "2026-09-14",
       "runners": [
