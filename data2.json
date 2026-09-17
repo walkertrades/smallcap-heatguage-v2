@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-16T00:21:24.068151Z",
-  "count": 9847,
+  "exportedAt": "2026-09-17T12:24:25.190141Z",
+  "count": 9857,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,978 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-16",
+      "runners": [
+        {
+          "sym": "DLXY",
+          "hod": 972,
+          "hodExact": 972.29,
+          "news": [
+            "Delixy Holdings Limited Signs Non-Binding Letter of Intent for Strategic Transaction Involving Up to 48% Interest in East Kazakhstan Sarybulak Oil Field"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Delixy Holdings Limited Class A Ordinary Shares",
+          "sector": "Energy",
+          "country": "SG",
+          "floatM": 4.77,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$38M",
+          "riskBadges": [
+            "Float 4.77M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.77M + RelVol 854.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.77M + RelVol 854.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.415,
+          "open": 1.02,
+          "gapPct": 145.78,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.45,
+          "hodTimeExact": "12:40 PM ET",
+          "close": 2.29,
+          "fade": 48,
+          "fadeExact": 48.54,
+          "vwap": 1.1236,
+          "vsVwap": "above",
+          "pmHigh": 1.31,
+          "volRaw": "246.5M",
+          "volDollar": 277004244,
+          "relVol": 854.9,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Delixy Holdings Limited Signs Non-Binding Letter of Intent for Strategic Transaction Involving Up to 48% Interest in East Kazakhstan Sarybulak Oil Field"
+          ],
+          "newsItems": [
+            {
+              "title": "Delixy Holdings Limited Signs Non-Binding Letter of Intent for Strategic Transaction Involving Up to 48% Interest in East Kazakhstan Sarybulak Oil Field",
+              "url": "https://www.stocktitan.net/news/DLXY/delixy-holdings-limited-signs-non-binding-letter-of-intent-for-kwzvlv14eeg1.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-16T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DLXY",
+          "newsSummary": "DLXY announced a non-binding LOI for up to 48% interest in Kazakhstan's Sarybulak Oil Field—a real cash-generating asset with material upside if closed. The news broke at market open (12:00 UTC, premarket US time) and was followed by a 972% HOD move with 48% fade, indicating strong initial institutional interest but retail capitulation into close. The catalyst has real merit (oil & gas production asset, not dilutive), but execution risk remains since LOI is non-binding.",
+          "bullFactors": [
+            "Micro-float (4.77M) with 854.9x relative volume—tight float amplifies intraday swings and sustains momentum",
+            "Real cash-value catalyst: 48% stake in producing oil field is tangible asset, not fluff or sympathy play",
+            "HOD printing at 972% suggests institutional accumulation occurred intraday; tape showed afternoon continuation before retail fade",
+            "Gap + HOD combo (146% gap, 972% HOD) on oil & gas theme taps macro energy sentiment—not isolated move"
+          ],
+          "bearFactors": [
+            "48.54% fade from HOD indicates significant retail distribution and lack of sustained institutional demand at extreme levels",
+            "Non-binding LOI carries execution risk; deal could fall apart, leaving bag holders exposed",
+            "Singapore-listed micro-cap with Kazakhstan asset adds geopolitical and regulatory uncertainty vs. US-domiciled peers",
+            "Premarket spike + massive intraday fade pattern suggests classic 'hot open into selling' rather than sustained runner—risk of gap fill or lower close next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SNYR",
+          "hod": 677,
+          "hodExact": 677.64,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Synergy CHC Corp. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 8.62,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 8.62M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.62M + RelVol 38.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.62M + RelVol 38.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0823,
+          "open": 0.142,
+          "gapPct": 72.54,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.64,
+          "hodTimeExact": "04:59 AM ET",
+          "close": 0.2744,
+          "fade": 57,
+          "fadeExact": 57.12,
+          "vwap": 0.2831,
+          "vsVwap": "below",
+          "pmHigh": 0.3023,
+          "volRaw": "1083.1M",
+          "volDollar": 306615276,
+          "relVol": 38.5,
+          "avgVolM": 28.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1562733/000121390026100556/ea0305682-8k_synergy.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SNYR",
+          "newsSummary": "SNYR filed a Form 8-K after market close, well after the intraday move peaked. The 677% HOD gain and 72% overnight gap were driven by intraday institutional accumulation and momentum, not by the 8-K filing itself—the filing is reactive disclosure, not the catalyst. Without visibility into 8-K details, merit is unclear; form filings alone carry no inherent bullish weight.",
+          "bullFactors": [
+            "Ultra-low float (8.62M) with 38.5x relative volume—structural setup for sustained momentum",
+            "677% HOD with 72% gap suggests strong overnight accumulation and institutional interest",
+            "Session HOD printed intraday with no indication of premarket spike dominance—price action favors continuation conditions",
+            "Healthcare sector with no dilutive news (offering, warrant, ATM) visible in headline data"
+          ],
+          "bearFactors": [
+            "57% fade from HOD indicates significant intraday profit-taking and retail exit pressure",
+            "Form 8-K filed after the move—no forward catalyst visibility; risk of post-hype liquidation",
+            "Tiny market cap ($4.08M) with micro-cap liquidity risk; wide bid-ask and liquidity collapse possible on reversal",
+            "No identifiable real cash catalyst (ER, partnership, FDA data) in available headlines—momentum purely structural"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MEDS",
+          "hod": 659,
+          "hodExact": 659.88,
+          "news": [
+            "Form 8-K",
+            "DataMEDS, AI. Acquires Helomics AI Cancer Diagnostics Lab and Precision Oncology CRO Businesses from Axe Compute",
+            "Axe Compute Sells Helomics AI Cancer Diagnostics Lab Business to DataMEDS AI, Completing Transition to Neocloud GPU-as-a-Service platform"
+          ],
+          "tag": "ACQUISITION",
+          "name": "DataMeds AI, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 2.06,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$24M",
+          "riskBadges": [
+            "Float 2.06M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.06M + RelVol 48.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.06M + RelVol 48.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.62,
+          "open": 4.035,
+          "gapPct": 149.07,
+          "time": "regular session",
+          "session": "morning",
+          "high": 12.31,
+          "hodTimeExact": "10:58 AM ET",
+          "close": 6.07,
+          "fade": 50,
+          "fadeExact": 50.69,
+          "vwap": 5.7971,
+          "vsVwap": "above",
+          "pmHigh": 4.79,
+          "volRaw": "188.8M",
+          "volDollar": 1094374724,
+          "relVol": 48.4,
+          "avgVolM": 3.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "DataMEDS, AI. Acquires Helomics AI Cancer Diagnostics Lab and Precision Oncology CRO Businesses from Axe Compute",
+            "Axe Compute Sells Helomics AI Cancer Diagnostics Lab Business to DataMEDS AI, Completing Transition to Neocloud GPU-as-a-Service platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030763/000149315226042951/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "DataMEDS, AI. Acquires Helomics AI Cancer Diagnostics Lab and Precision Oncology CRO Businesses from Axe Compute",
+              "url": "https://www.stocktitan.net/news/MEDS/data-meds-ai-acquires-helomics-ai-cancer-diagnostics-lab-and-0f4m0ziqvx35.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Axe Compute Sells Helomics AI Cancer Diagnostics Lab Business to DataMEDS AI, Completing Transition to Neocloud GPU-as-a-Service platform",
+              "url": "https://www.stocktitan.net/news/MEDS/axe-compute-sells-helomics-ai-cancer-diagnostics-lab-business-to-msykjn2u82lj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MEDS",
+          "newsSummary": "DataMEDS AI acquired Helomics' cancer diagnostics and precision oncology CRO businesses from Axe Compute on 2026-09-15, announced premarket. This is a real cash deal adding revenue-generating diagnostic and CRO assets in high-margin oncology, representing meaningful portfolio expansion. The 8-K filing came after the move, confirming the acquisition was the genuine catalyst.",
+          "bullFactors": [
+            "Micro-float (2.06M shares) with ultra-low liquidity = extreme leverage for intraday moves on institutional accumulation",
+            "Real cash acquisition of revenue-generating assets (cancer diagnostics lab + CRO) — not dilutive or speculative",
+            "Intraday continuation strength: 659.88% HOD gain with 50.69% fade suggests sustained institutional buying pressure throughout session, not premarket spike collapse",
+            "High relative volume (48.4x) and afternoon HOD printing indicate retail entered after setup window, typical China rig pattern for small-cap runners"
+          ],
+          "bearFactors": [
+            "Massive single-day move (659%+ HOD) creates extreme volatility and liquidity risk; difficult to size or exit cleanly at market impact prices",
+            "Gap-up entry (149% premarket) compressed the dip/soak setup window — retail was late to accumulation phase",
+            "Form 8-K filed after the high — regulatory filing may contain material disclosures that could reverse sentiment or trigger SEC scrutiny on micro-cap M&A timing",
+            "Healthcare M&A on micro-cap with $23.8M market cap carries integration risk and dilution potential if deal is equity-heavy or overpriced"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "RETO",
+          "hod": 644,
+          "hodExact": 644.64,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ReTo Eco-Solutions, Inc. Class A Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 33.31,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$82M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.8,
+          "open": 4.52,
+          "gapPct": 61.43,
+          "time": "regular session",
+          "session": "morning",
+          "high": 20.85,
+          "hodTimeExact": "11:16 AM ET",
+          "close": 1.84,
+          "fade": 91,
+          "fadeExact": 91.18,
+          "vwap": 7.6908,
+          "vsVwap": "below",
+          "pmHigh": 5.52,
+          "volRaw": "149.5M",
+          "volDollar": 1150115510,
+          "relVol": 12.5,
+          "avgVolM": 12.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RETO",
+          "newsSummary": "RETO ran 644% on the session with no disclosed catalyst or news. The move is structural—a Chinese micro-cap with 33.31M float showing sustained intraday volume (12.5x relative vol) and multiple session HODs, consistent with China rig institutional accumulation patterns rather than a premarket spike-and-fade.",
+          "bullFactors": [
+            "Sustained high relative volume (12.5x) throughout session, not concentrated in premarket",
+            "Multiple session HODs printed intraday—afternoon continuation strength typical of institutional rigs",
+            "644% HOD gain with 91% fade still leaves massive intraday range; price held above key levels late",
+            "Chinese micro-cap sector structure supports sustained institutional buying pressure"
+          ],
+          "bearFactors": [
+            "No real cash catalyst disclosed—move is momentum/structural, not fundamentally anchored",
+            "91% fade from HOD indicates significant retail exit pressure; sustainability questionable at open next session",
+            "Float at 33.31M is above preferred <10M threshold; reduces explosive potential vs. true nano-float runners",
+            "644% single-session move creates black swan liquidity risk and positions for mean reversion"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "QCLS",
+          "hod": 389,
+          "hodExact": 389.46,
+          "news": [
+            "Q/C Technologies Names Yossef Ehrlichman Chief Technology Officer to Lead Optical Processor Development",
+            "Form 8-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Q/C Technologies, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 8.28,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 8.28M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.28M + RelVol 259.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.28M + RelVol 259.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4413,
+          "open": 0.4596,
+          "gapPct": 4.15,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.16,
+          "hodTimeExact": "12:37 PM ET",
+          "close": 0.964,
+          "fade": 55,
+          "fadeExact": 55.37,
+          "vwap": 0.9804,
+          "vsVwap": "below",
+          "pmHigh": 0.4899,
+          "volRaw": "237.7M",
+          "volDollar": 233040406,
+          "relVol": 259.6,
+          "avgVolM": 0.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Q/C Technologies Names Yossef Ehrlichman Chief Technology Officer to Lead Optical Processor Development",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Q/C Technologies Names Yossef Ehrlichman Chief Technology Officer to Lead Optical Processor Development",
+              "url": "https://www.stocktitan.net/news/QCLS/q-c-technologies-names-yossef-ehrlichman-chief-technology-officer-to-flzznp8zwy6s.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321834/000149315226042394/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-11T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Quantum",
+              "confidence": 0.65,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.6,
+              "uncertain": false
+            },
+            {
+              "theme": "Semiconductor",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:QCLS",
+          "newsSummary": "Q/C Technologies announced the appointment of Yossef Ehrlichman as Chief Technology Officer to lead optical processor development on 2026-09-15, which came BEFORE the session high. The news is substantive—a real executive hire for a defined technical initiative—but the extreme 389% HOD gain suggests the market is pricing in significant AI/optical computing upside beyond just the CTO announcement.",
+          "bullFactors": [
+            "Float under 10M (8.28M) with exceptional intraday relative volume of 259.6x—strong institutional participation signal",
+            "Real catalyst: CTO appointment with stated mandate for optical processor development (AI/optical compute is hot sector theme)",
+            "Session HOD printed at 389% gain with 55% fade, indicating afternoon continuation strength rather than pure premarket collapse—typical hot cycle signature",
+            "Daily chart has room to upside given low float and no mention of warrants, convertibles, or dilutive offerings"
+          ],
+          "bearFactors": [
+            "389% HOD gain in single session raises black swan/liquidity spillover risk—difficult to enter cleanly and hold intraday",
+            "CTO hire alone may not justify 4x move; market may be running on optical processor hype or sympathy to AI/quantum compute sector rather than concrete revenue catalyst",
+            "55% fade from HOD is material; if news was pre-market-released, retail may have already front-run institutional entry",
+            "Form 8-K on 2026-09-11 (before the move) context unclear—could mask dilutive terms, warrant exercises, or other structural concerns"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ZTG",
+          "hod": 249,
+          "hodExact": 249.18,
+          "news": [
+            "Form 6-K",
+            "Zenta Group Company Limited Announces Agreement to Acquire ZentoAI Intelligent Technology Company Limited"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Zenta Group Company Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MO",
+          "floatM": 16.17,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$34M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 16.17M + RelVol 29.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 16.17M + RelVol 29.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.673,
+          "open": 2.31,
+          "gapPct": 243.24,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.35,
+          "hodTimeExact": "07:25 AM ET",
+          "close": 1.18,
+          "fade": 49,
+          "fadeExact": 49.79,
+          "vwap": 2.1975,
+          "vsVwap": "below",
+          "pmHigh": 3.62,
+          "volRaw": "107.6M",
+          "volDollar": 236378817,
+          "relVol": 29.7,
+          "avgVolM": 3.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Zenta Group Company Limited Announces Agreement to Acquire ZentoAI Intelligent Technology Company Limited"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2011458/000149315226042820/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Zenta Group Company Limited Announces Agreement to Acquire ZentoAI Intelligent Technology Company Limited",
+              "url": "https://www.stocktitan.net/news/ZTG/zenta-group-company-limited-announces-agreement-to-acquire-zento-ai-5emxacxq88fr.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-09T15:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZTG",
+          "newsSummary": "ZTG announced an agreement to acquire ZentoAI Intelligent Technology Company Limited on 2026-09-09, positioning itself as an AI-enabled industrial play. The acquisition news preceded today's move, and while it provides a real business catalyst (M&A activity with cash implications), the 249% HOD and 49.79% fade suggest the market is pricing in both opportunity and execution risk. Form 6-K filing post-move is reactive disclosure, not a driver.",
+          "bullFactors": [
+            "Real cash M&A catalyst — acquisition of ZentoAI adds AI/tech asset to industrial base, not fluff",
+            "Sustained intraday volume (29.7x relVol) held through afternoon session with HOD printing at 249%, indicating institutional accumulation alongside retail retail push",
+            "Float of 16.17M is manageable for day trader; not micro-cap but still in target range if intraday vol/min sustained above premarket",
+            "Industrials sector with legitimate product integration story (AI into industrial operations) has structural appeal"
+          ],
+          "bearFactors": [
+            "Severe 49.79% fade from HOD suggests exhaustion and profit-taking; tape likely turned cold late session",
+            "Gap up 243% into the move consumed a massive chunk of the day's range, leaving limited room for second-day follow-through without a new catalyst",
+            "China-domiciled (MO) with modest market cap ($33.9M) — integration execution risk and potential dilution concerns on deal financing not yet disclosed",
+            "Acquisition announced 2026-09-09 already had a week to settle; today's spike may be late retail FOMO rather than institutional re-entry signal"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "KLXER",
+          "hod": 217,
+          "hodExact": 217.46,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "KLX Energy Services Holdings, Inc. Rights",
+          "sector": "OIL & GAS FIELD SERVICES, NEC",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0189,
+          "open": 0.0114,
+          "gapPct": -39.68,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.06,
+          "hodTimeExact": "10:41 AM ET",
+          "close": 0.0165,
+          "fade": 72,
+          "fadeExact": 72.5,
+          "vwap": 0.0205,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "900K",
+          "volDollar": 18445,
+          "relVol": 2.0,
+          "avgVolM": 0.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:KLXER",
+          "newsSummary": "KLXER ran 217% from open to HOD with zero news catalyst, moving on Oil & Gas sector sympathy or intraday institutional accumulation. The move is pure price action—no earnings, no real catalysts, no announcements.",
+          "bullFactors": [
+            "Sustained intraday strength: 217% HOD vs only 72.5% fade suggests afternoon continuation and shorts covering rather than premarket spike collapse",
+            "2.0x relative volume indicates institutional accumulation pressure throughout session, not flash spike then dump",
+            "Oil & Gas sector theme provides macro sympathy tailwind if energy complex is rallying"
+          ],
+          "bearFactors": [
+            "No news and no float data—cannot confirm low-float runner status; high float would invalidate setup entirely",
+            "Fade of 72.5% from HOD is significant and typical of no-catalyst runners; sustainability highly suspect into next session",
+            "Gapped down -39.68% into the move, suggesting gap fill rather than fundamental catalyst; risk of reversion",
+            "Zero named catalyst leaves name vulnerable to pump-and-dump classification if premarket was the spark"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "BENF",
+          "hod": 119,
+          "hodExact": 119.23,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Beneficient Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 2.36,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 2.36M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.36M + RelVol 199.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.36M + RelVol 199.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6021,
+          "open": 0.8249,
+          "gapPct": 37.0,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.32,
+          "hodTimeExact": "12:44 PM ET",
+          "close": 0.8192,
+          "fade": 37,
+          "fadeExact": 37.94,
+          "vwap": 0.9527,
+          "vsVwap": "below",
+          "pmHigh": 1.21,
+          "volRaw": "163.6M",
+          "volDollar": 155899612,
+          "relVol": 199.2,
+          "avgVolM": 0.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1775734/000149315226042821/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BENF",
+          "newsSummary": "BENF printed a 119% intraday gain with 199% relative volume and a 37% gap, followed by a Form 8-K filing after the move. The 8-K is reactive to the price action, not the catalyst. With no pre-market news or real earnings/contract catalyst identified, the sustained run and micro-float suggest institutional accumulation or sector-wide sympathy momentum driving the move.",
+          "bullFactors": [
+            "Micro-float (2.36M shares) with 199% relative volume — tight structure supports momentum continuation",
+            "119% HOD gain with 37% fade only — strong afternoon HOD retention suggests institutional holding, not pump-and-dump premarket spike",
+            "Session showed sustained buying pressure (not a 1-2 minute spike) — consistent with Jack's 'China rig' pattern of all-day intraday accumulation on real volume",
+            "Market cap under $13M with no dilutive news in headline — clean capital structure for a micro-cap runner"
+          ],
+          "bearFactors": [
+            "Form 8-K filed after the move — no pre-move catalyst clarity, suggests event-driven uncertainty or correction risk if filing content disappoints",
+            "37% fade from HOD — over one-third of gains already surrendered, potential overhead supply as retail sellers exit",
+            "Financial Services sector with no identified real catalyst (ER, contract, partnership) — sympathy/theme-driven momentum is fragile and subject to sudden reversal",
+            "No clear name-brand partnership or cash-backed catalyst — lacks the 'real value' criteria Jack prioritizes"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AEHL",
+          "hod": 111,
+          "hodExact": 111.04,
+          "news": [
+            "Antelope Enterprise Holdings Limited Announces Closing of $6.0 Million Convertible Promissory Notes Offering",
+            "424B5 offering",
+            "Antelope Enterprise Holdings Limited Announces Pricing of $6.0 Million Convertible Promissory Note"
+          ],
+          "tag": "OFFERING",
+          "name": "Antelope Enterprise Holdings Limited Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 0.41,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 0.41M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.16,
+          "open": 5.09,
+          "gapPct": -1.36,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 10.8899,
+          "hodTimeExact": "04:42 PM ET",
+          "close": 9.22,
+          "fade": 15,
+          "fadeExact": 15.33,
+          "vwap": 9.4185,
+          "vsVwap": "below",
+          "pmHigh": 5.09,
+          "volRaw": "5.6M",
+          "volDollar": 52890001,
+          "relVol": 1.4,
+          "avgVolM": 4.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Antelope Enterprise Holdings Limited Announces Closing of $6.0 Million Convertible Promissory Notes Offering",
+            "424B5 offering",
+            "Antelope Enterprise Holdings Limited Announces Pricing of $6.0 Million Convertible Promissory Note"
+          ],
+          "newsItems": [
+            {
+              "title": "Antelope Enterprise Holdings Limited Announces Closing of $6.0 Million Convertible Promissory Notes Offering",
+              "url": "https://www.stocktitan.net/news/AEHL/antelope-enterprise-holdings-limited-announces-closing-of-6-0-3rf7f1v70ht0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-16T12:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1470683/000149315226042761/form424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            },
+            {
+              "title": "Antelope Enterprise Holdings Limited Announces Pricing of $6.0 Million Convertible Promissory Note",
+              "url": "https://www.stocktitan.net/news/AEHL/antelope-enterprise-holdings-limited-announces-pricing-of-6-0-2hcel6xrv2zh.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-11T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AEHL",
+          "newsSummary": "AEHL closed a $6M convertible promissory note offering announced on 9/16 after the move had already accelerated—this is a dilutive financing, not a catalyst that drove the spike. The 424B5 filing preceded price action on 9/15, but convertible debt into a 0.41M float nano-cap is classic dilution risk dressed as capital raise. The move appears driven by China rig structure (nano float, sustained intraday volume, afternoon HODs) rather than the financing merit.",
+          "bullFactors": [
+            "Ultra-tight float (0.41M shares) — structural setup for velocity if retail and institutional overlap",
+            "Afternoon HOD (111% gain) after fade (15% retracement) suggests institutional accumulation dip-soak into retail push — classic China rig pattern",
+            "1.4x relative volume sustained intraday — not a 2-minute spike; tape temperature shows HOD dominance (hot cycle indicator)",
+            "Basic Materials nano-cap with greater_china exposure — fits structural rig playbook"
+          ],
+          "bearFactors": [
+            "Convertible promissory note offering is dilutive and introduces warrant/conversion overhang — violates daily chart room-to-run criteria",
+            "News came AFTER the move peaked, meaning no real catalyst merit — price action is pure tape/structure, not fundamental",
+            "424B5 filing on 9/15 set up dilution risk before 9/16 run — sophisticated traders likely faded into close",
+            "Nano-cap Chinese micro with no real business catalyst (only financing announcement) — high black swan and liquidity spillover risk on any reversal"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "GSUN",
+          "hod": 107,
+          "hodExact": 107.79,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Golden Sun Technology Group Limited Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 9.43,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 9.43M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.231,
+          "open": 0.2296,
+          "gapPct": -0.61,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.48,
+          "hodTimeExact": "01:06 PM ET",
+          "close": 0.3003,
+          "fade": 37,
+          "fadeExact": 37.44,
+          "vwap": 0.3506,
+          "vsVwap": "below",
+          "pmHigh": 0.24,
+          "volRaw": "88.9M",
+          "volDollar": 31156141,
+          "relVol": 15.0,
+          "avgVolM": 5.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GSUN",
+          "newsSummary": "GSUN ran 107.79% on the day with no announced catalyst or news. This is a classic China Rig pattern: low float (9.43M), sustained high relative volume (15.0x), and significant intraday continuation rather than premarket spike-and-fade. The -0.61% gap and 37.44% fade suggest institutional accumulation and retail chasing throughout the session.",
+          "bullFactors": [
+            "Float under 10M with 15x relative volume — structural tight float with genuine institutional buying pressure",
+            "Session HOD printed late (107.79% gain), not a premarket spike fade — indicates sustained afternoon continuation and short covering",
+            "China Rig structural setup: no dilutive news, no pump-and-dump signals, organic intraday trend with high relative volume all day",
+            "Clean gap-down open (-0.61%) recovered and ran — institutional dip-buy and breakout pattern"
+          ],
+          "bearFactors": [
+            "NO NEWS means no fundamental catalyst — entire move is momentum-driven structural play, high reversion risk",
+            "37.44% fade from HOD suggests profit-taking and potential overnight gap down; momentum exhaustion on high intraday vol",
+            "Chinese micro-cap with limited liquidity depth — risk of sudden halt, delisting, or reverse split",
+            "Session ran 107%+ in a single day — cycle shift warning territory; liquidity spillover risk and black swan conditions possible"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 972,
+      "fade": 51,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "DLXY led +972.29% (48% fade). 1/10 held <20% fade. news: DLXY — \"Delixy Holdings Limited Signs Non-Binding Letter of Intent for Strategic Transaction Involving Up to 48% Interest in East Kazakhstan Sarybulak Oil Field\".",
+      "aiSummary": "Acquisitions dominated the session (DLXY, MEDS, ZTG) with real cash-value catalysts driving sustained volume, though two premarket-spike fades (SNYR, ZTG) signal retail distribution pressure. Float tier skewed favorable—five sub-10M runners (DLXY, SNYR, MEDS, BENF, AEHL) anchored the list, but RETO's massive 33M float with 91% fade and no-news tag is a classic momentum trap that this framework immediately rejects. Critically, afternoon session HODs (DLXY, BENF, QCLS, GSUN) printed continuation strength while premarket dominance (SNYR, ZTG) faded hard, signaling a HOT intraday cycle where institutional accumulation held floor support through retail morning weakness. The tape temperature reads HOT for afternoon breakout traders, with DLXY (sub-5M float, acquisition catalyst, afternoon HOD, $277M volume) as the cleanest A-tier setup—though MEDS requires daily chart scrutiny on overhead supply given the acquisition tag and 2M float concentration."
+    },
     {
       "date": "2026-09-15",
       "runners": [
