@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-17T12:24:25.190141Z",
-  "count": 9857,
+  "exportedAt": "2026-09-18T00:07:54.075773Z",
+  "count": 9867,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1067 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-17",
+      "runners": [
+        {
+          "sym": "AEMD",
+          "hod": 564,
+          "hodExact": 564.34,
+          "news": [
+            "Merger comms",
+            "Form 8-K",
+            "Aethlon Medical & North Immunology Announce Merger to Advance Novel IL-13 x IL-18 Bispecific Antibody for Atopic Dermatitis"
+          ],
+          "tag": "MERGER",
+          "name": "AETHLON MEDICAL INC",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.61,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 1.61M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.43,
+          "open": 8.48,
+          "gapPct": 493.01,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 9.5,
+          "hodTimeExact": "06:43 AM ET",
+          "close": 6.78,
+          "fade": 28,
+          "fadeExact": 28.63,
+          "vwap": 7.1421,
+          "vsVwap": "below",
+          "pmHigh": 14,
+          "volRaw": "92.6M",
+          "volDollar": 661082618,
+          "relVol": 28.6,
+          "avgVolM": 3.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Merger comms",
+            "Form 8-K",
+            "Aethlon Medical & North Immunology Announce Merger to Advance Novel IL-13 x IL-18 Bispecific Antibody for Atopic Dermatitis"
+          ],
+          "newsItems": [
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/882291/000168316826007208/aethlon_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/882291/000168316826007206/aethlon_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Aethlon Medical & North Immunology Announce Merger to Advance Novel IL-13 x IL-18 Bispecific Antibody for Atopic Dermatitis",
+              "url": "https://www.stocktitan.net/news/AEMD/aethlon-medical-north-immunology-announce-merger-to-advance-novel-il-085v46hpy5fo.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-17T10:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AEMD",
+          "newsSummary": "AEMD announced a merger with North Immunology to advance an IL-13 x IL-18 bispecific antibody for atopic dermatitis, released premarket at 10:30 AM. The catalyst is real cash-value biotech IP (clinical-stage bispecific for a large dermatology market), but the stock gapped 493% and ran 564% to HOD—classic premarket spike pattern. Merger comms and 8-K followed the move, confirming the news did not drive the intraday surge.",
+          "bullFactors": [
+            "Genuine biotech catalyst: bispecific antibody for atopic dermatitis is a real clinical asset, not fluff",
+            "Micro-float (1.61M shares) provides structural amplification for intraday momentum",
+            "Relative volume 28.6x suggests institutional participation and retail follow-through sustained into close",
+            "Merger structure (cash deal framework) avoids dilution risk common in SPAC/reverse merger plays"
+          ],
+          "bearFactors": [
+            "Premarket spike dominance (493% gap, HOD 564% printed early in session)—classic fade setup risk",
+            "Fade of 28.63% from HOD indicates retail exhaustion and shorts defending; afternoon continuation weak",
+            "Merger announced premarket, not intraday—tape had limited time to build institutional accumulation read before retail capitulation",
+            "Market cap $10.4M with 1.61M float creates severe liquidity constraints; any position unwinding will face slippage"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "DTSS",
+          "hod": 287,
+          "hodExact": 287.35,
+          "news": [
+            "Datasea's AI Agent Digital Marketing Services Enter Scaled Commercial Deployment, with Five Agreements Representing Potential Annualized Service Volume of Up to Approximately US$89.4 Million (RMB600 Million)",
+            "Datasea Expands into China's Trillion-RMB Silver Economy Through Strategic Cooperation in AI Elderly Care Robots"
+          ],
+          "tag": "CONTRACT",
+          "name": "Datasea Intelligent Technology Ltd. Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 7.84,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [
+            "Float 7.84M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.84M + RelVol 91.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.84M + RelVol 91.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5912,
+          "open": 0.9698,
+          "gapPct": 64.04,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.29,
+          "hodTimeExact": "11:25 AM ET",
+          "close": 1.22,
+          "fade": 46,
+          "fadeExact": 46.72,
+          "vwap": 1.2475,
+          "vsVwap": "below",
+          "pmHigh": 1.18,
+          "volRaw": "150.1M",
+          "volDollar": 187199982,
+          "relVol": 91.1,
+          "avgVolM": 1.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Datasea's AI Agent Digital Marketing Services Enter Scaled Commercial Deployment, with Five Agreements Representing Potential Annualized Service Volume of Up to Approximately US$89.4 Million (RMB600 Million)",
+            "Datasea Expands into China's Trillion-RMB Silver Economy Through Strategic Cooperation in AI Elderly Care Robots"
+          ],
+          "newsItems": [
+            {
+              "title": "Datasea's AI Agent Digital Marketing Services Enter Scaled Commercial Deployment, with Five Agreements Representing Potential Annualized Service Volume of Up to Approximately US$89.4 Million (RMB600 Million)",
+              "url": "https://www.stocktitan.net/news/DTSS/datasea-s-ai-agent-digital-marketing-services-enter-scaled-q31wgiz6b41l.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-17T13:10:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Datasea Expands into China's Trillion-RMB Silver Economy Through Strategic Cooperation in AI Elderly Care Robots",
+              "url": "https://www.stocktitan.net/news/DTSS/datasea-expands-into-china-s-trillion-rmb-silver-economy-through-7ewkh2dfmoq1.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-16T13:28:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DTSS",
+          "newsSummary": "Datasea announced scaled commercial deployment of AI Agent Digital Marketing Services with five agreements representing up to $89.4M annualized service volume, plus expansion into China's elderly care robotics sector. The catalyst has real merit—concrete multi-million dollar service agreements and entry into a trillion-RMB market segment—but both news items preceded the high, suggesting they were already priced in or the move was driven by accumulation ahead of disclosure.",
+          "bullFactors": [
+            "Low float (7.84M) with 91.1x relative volume — fuel for sustained intraday momentum if institutional buying continues",
+            "Real cash catalyst: $89.4M potential annualized revenue from five signed service agreements is substantive, not fluff",
+            "287% HOD with only 46.7% fade — strong tape signature suggesting afternoon continuation and short covering rather than premarket spike collapse",
+            "China-based tech/AI play in high-conviction themes (AI, robotics, elderly care) with expanding TAM"
+          ],
+          "bearFactors": [
+            "Chinese micro-cap with inherent regulatory/delisting risk and limited institutional access",
+            "287% move in one session is extreme; liquidity may thin on any reversal or profit-taking",
+            "News released before the high — suggests catalyst was already known; move may have been structural/rig-driven rather than news-driven, raising sustainability questions",
+            "Small market cap ($12M) limits institutional accumulation runway and increases volatility/black swan risk"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "PAAI",
+          "hod": 285,
+          "hodExact": 285.6,
+          "news": [
+            "Paradium.AI Signs 10-Year Strategic Platform Agreement with Roundtable (Nasdaq: RTB)",
+            "Roundtable Secures 10-Year, $1 Billion Agreement, Bringing its AI/DeFi Media Operating System to Global Scale and Profitability",
+            "Form 8-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Paradium.AI, Inc.",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 11.64,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$161M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.64M + RelVol 102.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.64M + RelVol 102.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8999,
+          "open": 0.9395,
+          "gapPct": 4.39,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.47,
+          "hodTimeExact": "11:47 AM ET",
+          "close": 3.34,
+          "fade": 3,
+          "fadeExact": 3.75,
+          "vwap": 2.3944,
+          "vsVwap": "above",
+          "pmHigh": 0.979,
+          "volRaw": "31.8M",
+          "volDollar": 76039990,
+          "relVol": 102.2,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Paradium.AI Signs 10-Year Strategic Platform Agreement with Roundtable (Nasdaq: RTB)",
+            "Roundtable Secures 10-Year, $1 Billion Agreement, Bringing its AI/DeFi Media Operating System to Global Scale and Profitability",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Paradium.AI Signs 10-Year Strategic Platform Agreement with Roundtable (Nasdaq: RTB)",
+              "url": "https://www.stocktitan.net/news/PAAI/paradium-ai-signs-10-year-strategic-platform-agreement-with-rwfihm44uyem.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-17T21:45:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Roundtable Secures 10-Year, $1 Billion Agreement, Bringing its AI/DeFi Media Operating System to Global Scale and Profitability",
+              "url": "https://www.stocktitan.net/news/PAAI/roundtable-secures-10-year-1-billion-agreement-bringing-its-ai-de-fi-s445te9pi676.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-17T15:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/894871/000149315226042207/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-10T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:PAAI",
+          "newsSummary": "Paradium.AI signed a 10-year strategic platform agreement with Roundtable (RTB), announced after the session high. Roundtable itself announced a $1B, 10-year AI/DeFi media OS deal earlier in the day before the high. The contract represents real cash-backed institutional partnership with a Nasdaq-listed counterparty, lending credibility to the move.",
+          "bullFactors": [
+            "Real cash-value contract: $1B strategic agreement with Nasdaq-listed partner (RTB) provides concrete partnership substance, not fluff news",
+            "Sustained intraday continuation: 285.6% HOD with only 3.75% fade indicates strong institutional accumulation and retail follow-through throughout session, not a premarket spike-and-dump pattern",
+            "Afternoon news catalyst: RTB announcement at 15:00 before session high enabled proper setup time and visible institutional buying into strength, classic flag-and-breakout structure",
+            "High relative volume: 102.2% relVol on a mid-float name (11.64M) confirms institutional participation, not retail momo alone"
+          ],
+          "bearFactors": [
+            "Float slightly above preferred tier: 11.64M exceeds Jack's <10M sweet spot, reducing explosive potential and increasing overhead supply risk on any pullback",
+            "News lag structure: PAAI announcement came after the high—it was reactive, not the primary catalyst. RTB news drove the move; PAAI is beneficiary/sympathy",
+            "Extreme intraday volatility: 285% HOD in single session creates massive reversion risk and potential liquidity evaporation on any fade below key support",
+            "Late-session reactive headline: PAAI's 21:45 press release after-hours reduces confirmation of institutional strength vs. retail chase into close"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "DAIC",
+          "hod": 255,
+          "hodExact": 255.7,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "CID HoldCo, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.9,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 0.9M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.01,
+          "open": 4.12,
+          "gapPct": 104.98,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.1495,
+          "hodTimeExact": "09:51 AM ET",
+          "close": 5.3,
+          "fade": 25,
+          "fadeExact": 25.87,
+          "vwap": 5.0082,
+          "vsVwap": "above",
+          "pmHigh": 5.03,
+          "volRaw": "112.0M",
+          "volDollar": 561136397,
+          "relVol": 6.3,
+          "avgVolM": 17.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2033770/000121390026100595/ea0305699-8k_cidhold.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DAIC",
+          "newsSummary": "DAIC filed a Form 8-K on 2026-09-16 after market close, which came before today's 255.7% HOD move—meaning the filing was not the direct catalyst for the intraday surge. The move appears driven by sector sympathy or intraday institutional accumulation rather than a substantive catalyst announcement. With a 0.9M float nano-cap and 6.3x relative volume, this is a structural momentum runner in a vacuum of concrete news.",
+          "bullFactors": [
+            "Extreme nano-float (0.9M shares) creates ideal squeeze mechanics for intraday runners",
+            "Session HOD of 255.7% with only 25.87% fade indicates sustained afternoon continuation and short covering, not premarket-spike-and-dump",
+            "6.3x relative volume all session signals institutional accumulation pressure throughout the day, not just retail chasing",
+            "104.98% gap + tech sector positioning suggests sympathy play with room to run on continued tape heat"
+          ],
+          "bearFactors": [
+            "Form 8-K catalyst is opaque—no detail on content; post-close filing means it did not drive the move, raising questions about what sustained intraday demand",
+            "No identified real cash catalyst (partnership, contract, earnings beat, M&A) increases risk of liquidity mirage or coordinated accumulation trap",
+            "Extreme HOD% (255.7%) on nano-float carries black swan liquidity risk if institutional buyers step back or shorts cover explosively into resistance",
+            "Tech sector sympathy is theme-agnostic and subject to sector rotation; overnight gap + fade pattern tomorrow is high probability"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "KXIN",
+          "hod": 148,
+          "hodExact": 148.67,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Kaixin Holdings Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 22.31,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$42M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.13,
+          "open": 1.69,
+          "gapPct": 49.56,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.81,
+          "hodTimeExact": "10:34 AM ET",
+          "close": 1.75,
+          "fade": 37,
+          "fadeExact": 37.72,
+          "vwap": 2.1075,
+          "vsVwap": "below",
+          "pmHigh": 2.61,
+          "volRaw": "75.1M",
+          "volDollar": 158283775,
+          "relVol": 42.4,
+          "avgVolM": 1.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1713539/000110465926108260/tm2625541d1_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:KXIN",
+          "newsSummary": "KXIN filed a Form 6-K (standard SEC filing for foreign private issuers) on 2026-09-16 before the move, making it a reactive disclosure rather than a catalyst. The +148% HOD with 37.72% fade and 49.56% gap suggests intraday institutional accumulation and retail continuation, consistent with a China Rig structural pattern rather than news-driven momentum.",
+          "bullFactors": [
+            "China Rig structural pattern: sustained 42.4x relative volume all day with late-session HOD printing (148.67% gain), not a premarket spike-and-fade — indicates real intraday buying pressure",
+            "22.31M float in thick tier but strong relative volume ratio elevates volatility profile; afternoon continuation HOD signals shorts covering and retail FOMO fuel",
+            "High daily room to upside: Consumer Cyclical sector with no warrant/convertible/ATM overhead indicated; 49.56% gap and 148% HOD show liquidity available"
+          ],
+          "bearFactors": [
+            "Float at 22.31M exceeds Jack's <10M preference; thick float reduces explosive potential on typical small-cap momentum setups",
+            "37.72% fade from HOD is material — suggests late-day profit-taking and potential weak close, risk of gap-down continuation",
+            "Form 6-K is administrative disclosure, not a substantive catalyst (earnings, partnership, cash event); move is structural/sympathy-driven rather than fundamental"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "TURB",
+          "hod": 130,
+          "hodExact": 130.55,
+          "news": [
+            "Form 6-K",
+            "TURBO ENERGY EXPANDS ITS C&I FOOTPRINT WITH A $3.5 MILLION PORTFOLIO OF 15 INTELLIGENT ENERGY STORAGE PROJECTS"
+          ],
+          "tag": "CONTRACT",
+          "name": "Turbo Energy, S.A. American Depositary Shares",
+          "sector": "Energy",
+          "country": "ES",
+          "floatM": 4.15,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 4.15M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.15M + RelVol 677.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.15M + RelVol 677.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8935,
+          "open": 1.55,
+          "gapPct": 73.48,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.06,
+          "hodTimeExact": "08:33 AM ET",
+          "close": 1.34,
+          "fade": 34,
+          "fadeExact": 34.95,
+          "vwap": 1.6288,
+          "vsVwap": "below",
+          "pmHigh": 3.96,
+          "volRaw": "84.7M",
+          "volDollar": 138009154,
+          "relVol": 677.9,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "TURBO ENERGY EXPANDS ITS C&I FOOTPRINT WITH A $3.5 MILLION PORTFOLIO OF 15 INTELLIGENT ENERGY STORAGE PROJECTS"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1963439/000121390026100758/ea0305817-6k_turbo.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "TURBO ENERGY EXPANDS ITS C&I FOOTPRINT WITH A $3.5 MILLION PORTFOLIO OF 15 INTELLIGENT ENERGY STORAGE PROJECTS",
+              "url": "https://www.stocktitan.net/news/TURB/turbo-energy-expands-its-c-i-footprint-with-a-3-5-million-portfolio-3si0pfas84ee.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-17T12:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Data Center",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TURB",
+          "newsSummary": "TURB announced a $3.5M portfolio of 15 intelligent energy storage projects in the C&I (commercial & industrial) segment at 12:15 UTC, well before the session high. This is real cash-value deal flow in the energy storage space—genuine revenue-generating contracts, not sympathy or fluff. The move likely reflects institutional accumulation on a concrete business expansion catalyst.",
+          "bullFactors": [
+            "Micro-cap float (4.15M) with 677.9x relative volume—extreme liquidity compression creates explosive intraday momentum",
+            "Real cash catalyst: $3.5M contract portfolio with 15 live projects is tangible business expansion, not dilutive or promotional",
+            "HOD +130.55% with only 34.95% fade—strong sustained conviction, afternoon tape remained hot, shorts under pressure",
+            "Gap of 73.48% suggests pre-market accumulation before retail push; high volume all day indicates institutional participation"
+          ],
+          "bearFactors": [
+            "Form 6-K filed after the high (20:00 UTC)—reactive disclosure, not the driver; watch for any dilutive surprises in filings",
+            "130%+ single-session move on micro-float creates liquidity tail risk and black swan reversal potential overnight or next session",
+            "Spanish domicile (ES) adds regulatory/disclosure uncertainty; Form 6-K suggests foreign issuer complexity",
+            "Energy storage is crowded theme; need to confirm whether $3.5M contract is material relative to market cap ($19.1M) or just tactical"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "SDST",
+          "hod": 122,
+          "hodExact": 122.74,
+          "news": [
+            "Form 8-K",
+            "Stardust Power Secures Long-Lead Electrical Infrastructure for Muskogee Lithium Refinery"
+          ],
+          "tag": "CONTRACT",
+          "name": "Stardust Power Inc. Common Stock",
+          "sector": "Basic Materials",
+          "country": "US",
+          "floatM": 11.64,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.64M + RelVol 130.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.64M + RelVol 130.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1596,
+          "open": 0.26,
+          "gapPct": 62.91,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.3555,
+          "hodTimeExact": "08:04 AM ET",
+          "close": 0.2516,
+          "fade": 29,
+          "fadeExact": 29.23,
+          "vwap": 0.3011,
+          "vsVwap": "below",
+          "pmHigh": 0.4331,
+          "volRaw": "676.7M",
+          "volDollar": 203757557,
+          "relVol": 130.2,
+          "avgVolM": 5.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Stardust Power Secures Long-Lead Electrical Infrastructure for Muskogee Lithium Refinery"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1831979/000149315226043157/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Stardust Power Secures Long-Lead Electrical Infrastructure for Muskogee Lithium Refinery",
+              "url": "https://www.stocktitan.net/news/SDST/stardust-power-secures-long-lead-electrical-infrastructure-for-ni7uciuidsia.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Lithium/Battery",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SDST",
+          "newsSummary": "Stardust Power announced on Sept 15 that it secured long-lead electrical infrastructure for its Muskogee lithium refinery—a real, cash-backed capital project milestone indicating execution progress on operational buildout. The Form 8-K filed after hours on Sept 17 was reactive to the move, not causal. The contract news provided genuine fundamental support for a small-cap materials play with tangible production ambitions.",
+          "bullFactors": [
+            "Real cash catalyst: infrastructure procurement for operational lithium refinery is substantive, not sympathy or fluff",
+            "HOD printed at +122.74% with strong 130.2x relative volume—sustained intraday momentum, not premarket fade pattern",
+            "Float just above preferred threshold (11.64M) with no warrants/convertibles noted; intraday vol justified expansion",
+            "Gap +62.91% + afternoon HOD dominance suggests institutional accumulation before retail push, aligned with Jack's dip/soak setup style"
+          ],
+          "bearFactors": [
+            "Float slightly above Jack's <10M sweet spot (11.64M) and mid-tier liquidity may cap speed of institutional squeeze",
+            "News came pre-HOD on Sept 15; fade risk is material if retail couldn't sustain through afternoon without fresh catalysts",
+            "Small market cap ($3.68M) and thin equity base introduce execution risk on $M-scale lithium refinery capex—technical delays or funding gaps could reverse narrative quickly",
+            "No partnership or big-name anchor disclosed; company credibility and timeline visibility are unproven"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BIAF",
+          "hod": 105,
+          "hodExact": 105.61,
+          "news": [
+            "Form 8-K",
+            "bioAffinity Technologies Announces Grant of Hong Kong Patent for Company's CyPath® Lung Noninvasive Lung Cancer Diagnostic"
+          ],
+          "tag": "CONTRACT",
+          "name": "bioAffinity Technologies, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.17,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 1.17M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.35,
+          "open": 7,
+          "gapPct": 30.84,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 11,
+          "hodTimeExact": "12:32 PM ET",
+          "close": 8.75,
+          "fade": 20,
+          "fadeExact": 20.45,
+          "vwap": 8.3828,
+          "vsVwap": "above",
+          "pmHigh": 9,
+          "volRaw": "25.4M",
+          "volDollar": 212839074,
+          "relVol": 3.4,
+          "avgVolM": 7.4,
+          "ssr": true,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "bioAffinity Technologies Announces Grant of Hong Kong Patent for Company's CyPath® Lung Noninvasive Lung Cancer Diagnostic"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226043052/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "bioAffinity Technologies Announces Grant of Hong Kong Patent for Company's CyPath® Lung Noninvasive Lung Cancer Diagnostic",
+              "url": "https://www.stocktitan.net/news/BIAF/bio-affinity-technologies-announces-grant-of-hong-kong-patent-for-xckghlll49u7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-17T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BIAF",
+          "newsSummary": "bioAffinity announced Hong Kong patent grant for its CyPath® lung cancer diagnostic platform at 12:00 PM, well before the session high at +105% gain. This is a real IP milestone for a clinical-stage biotech, validating the diagnostic's international protection. The Form 8-K filing post-high is reactive and does not drive the move—the patent news and intraday institutional accumulation in a 1.17M float micro-cap are the catalysts.",
+          "bullFactors": [
+            "Ultra-tight float (1.17M shares) with 3.4x relative volume—extreme leverage on buying pressure",
+            "Real catalyst: Patent grant for FDA-regulated diagnostic is substantive IP validation, not fluff",
+            "HOD printed late session (+105.61%) with sustained intraday momentum and 20% fade—classic institutional accumulation into afternoon continuation, not a premarket spike-and-dump",
+            "No dilution, offering, or warrant exercise announced; news_status='ok' confirms clean structure"
+          ],
+          "bearFactors": [
+            "Micro-cap biotech with clinical-stage asset—regulatory and execution risk inherent; patent ≠ revenue or FDA clearance",
+            "20.45% fade from HOD suggests some profit-taking and potential overhead supply forming",
+            "Hong Kong patent has limited US enforcement; pathway to US commercialization and reimbursement remains unproven"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "CTNT",
+          "hod": 105,
+          "hodExact": 105.28,
+          "news": [
+            "Form 8-K",
+            "Cheetah Net Supply Chain Service Inc. Enters into Agreement to Acquire JoyPak Supply LLC"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Cheetah Net Supply Chain Service Inc. Class A Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 2.83,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 2.83M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.83M + RelVol 41.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.83M + RelVol 41.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0417,
+          "open": 0.0818,
+          "gapPct": 96.16,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.0856,
+          "hodTimeExact": "05:51 AM ET",
+          "close": 0.045,
+          "fade": 47,
+          "fadeExact": 47.43,
+          "vwap": 0.0774,
+          "vsVwap": "below",
+          "pmHigh": 0.1279,
+          "volRaw": "1268.2M",
+          "volDollar": 98156485,
+          "relVol": 41.8,
+          "avgVolM": 30.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Cheetah Net Supply Chain Service Inc. Enters into Agreement to Acquire JoyPak Supply LLC"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1951667/000110465926107715/tm2624728d1_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Cheetah Net Supply Chain Service Inc. Enters into Agreement to Acquire JoyPak Supply LLC",
+              "url": "https://www.stocktitan.net/news/CTNT/cheetah-net-supply-chain-service-inc-enters-into-agreement-to-ff2lax9mey5f.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T11:55:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CTNT",
+          "newsSummary": "Cheetah Net announced the acquisition of JoyPak Supply LLC on 2026-09-15 before the move, positioning itself as a supply chain consolidator. The acquisition is a real cash deal (not dilutive news or sympathy play) in the logistics/supply chain space, providing a legitimate catalyst for institutional accumulation.",
+          "bullFactors": [
+            "Micro-cap float (2.83M) with extreme relative volume (41.8x) — tight float amplifies institutional demand",
+            "Real acquisition catalyst (not fluff) — consolidation play in Logistics has cash value merit",
+            "HOD 105% with only 47% fade shows sustained afternoon strength and shorts being forced out — tape is HOT",
+            "Gap 96% + intraday continuation suggests setup had time to build before retail retail push"
+          ],
+          "bearFactors": [
+            "Catalyst news came BEFORE the move — no fresh catalyst today, relying on yesterday's momentum carry",
+            "47% fade from HOD is material — suggests profit-taking and potential overhead supply forming",
+            "Micro-cap acquisition without details on funding source or JoyPak financials — execution risk unclear",
+            "Form 8-K filed same day as acquisition PR — may contain dilutive details or warrant/convertible issuance"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AEHL",
+          "hod": 82,
+          "hodExact": 82.1,
+          "news": [
+            "Antelope Enterprise Holdings Limited Announces Closing of $6.0 Million Convertible Promissory Notes Offering",
+            "424B5 offering",
+            "Antelope Enterprise Holdings Limited Announces Pricing of $6.0 Million Convertible Promissory Note"
+          ],
+          "tag": "OFFERING",
+          "name": "Antelope Enterprise Holdings Limited Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 0.41,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 0.41M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 9.22,
+          "open": 12.22,
+          "gapPct": 32.54,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 16.79,
+          "hodTimeExact": "02:20 PM ET",
+          "close": 12.29,
+          "fade": 26,
+          "fadeExact": 26.8,
+          "vwap": 13.3698,
+          "vsVwap": "below",
+          "pmHigh": 13.35,
+          "volRaw": "5.6M",
+          "volDollar": 75168612,
+          "relVol": 1.3,
+          "avgVolM": 4.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Antelope Enterprise Holdings Limited Announces Closing of $6.0 Million Convertible Promissory Notes Offering",
+            "424B5 offering",
+            "Antelope Enterprise Holdings Limited Announces Pricing of $6.0 Million Convertible Promissory Note"
+          ],
+          "newsItems": [
+            {
+              "title": "Antelope Enterprise Holdings Limited Announces Closing of $6.0 Million Convertible Promissory Notes Offering",
+              "url": "https://www.stocktitan.net/news/AEHL/antelope-enterprise-holdings-limited-announces-closing-of-6-0-3rf7f1v70ht0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-16T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1470683/000149315226042761/form424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            },
+            {
+              "title": "Antelope Enterprise Holdings Limited Announces Pricing of $6.0 Million Convertible Promissory Note",
+              "url": "https://www.stocktitan.net/news/AEHL/antelope-enterprise-holdings-limited-announces-pricing-of-6-0-2hcel6xrv2zh.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-11T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AEHL",
+          "newsSummary": "AEHL announced closing of a $6.0M convertible promissory notes offering on 2026-09-16, with pricing announced 2026-09-11 and SEC 424B5 filing on 2026-09-15. All news items predate the move, making them reactive rather than causative. Convertible offerings are dilutive and typically viewed as negatives by momentum traders.",
+          "bullFactors": [
+            "Ultra-tight float at 0.41M shares — nano-tier liquidity can amplify intraday moves",
+            "82.1% HOD hit rate with sustained afternoon strength suggests institutional accumulation pattern rather than premarket pop-and-fade",
+            "26.8% fade pct indicates some profit-taking but holds above key levels — tape structure consistent with China rig consolidation rather than pure pump"
+          ],
+          "bearFactors": [
+            "Convertible debt offering is structurally dilutive and typically kills momentum; no real cash catalyst, just financing",
+            "32.54% gap up on weak catalyst — premarket spike risk on dilutive news rather than fundamental strength",
+            "1.3x relative volume is modest for a runner; below the hot-tape threshold for sustained continuation; risk of afternoon fade into close"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 564,
+      "fade": 30,
+      "hodTime": "premarket",
+      "theme": "Hot Tape",
+      "note": "AEMD led +564.34% (28% fade). 1/10 held <20% fade. news: AEMD — \"Merger comms\".",
+      "aiSummary": "Today's tape is dominated by real catalysts—merger, contract wins, and acquisitions—with 564% AEMD leading on a legitimate merger play, but the session structure screams COLD CYCLE: six of ten HODs printed in premarket, with heavy afternoon fades across the board (AEMD -28.63%, DTSS -46.72%, KXIN -37.72%), indicating retail exhaustion rather than institutional accumulation. Float profile is ideal for this framework (seven names under 10M, including DAIC at 0.9M and AEHL at 0.41M), yet the premarket dominance and sustained fade pattern—particularly AEMD's 564% spike collapsing 28% same-session—signals overextension before momentum traders could build a proper dip/soak setup. BIAF and AEHL posted afternoon HODs with tighter fades (20-26%), but AEHL carries an OFFERING tag (immediate F-grade flag), and most names lack the sustained intraday trend required for conviction plays; this tape favors sidelined watching over entry, with only PAAI (3.75% fade, morning HOD, real contract) and possibly BIAF (afternoon strength, tight hold) presenting marginal B-tier setups at best."
+    },
     {
       "date": "2026-09-16",
       "runners": [
