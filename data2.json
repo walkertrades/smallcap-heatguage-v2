@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-18T00:07:54.075773Z",
-  "count": 9867,
+  "exportedAt": "2026-09-19T14:14:46.708410Z",
+  "count": 9877,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,878 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-18",
+      "runners": [
+        {
+          "sym": "IMCC",
+          "hod": 397,
+          "hodExact": 397.13,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "IM Cannabis Corp. Common Shares",
+          "sector": "Healthcare",
+          "country": "CA",
+          "floatM": 0.59,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.59M + RelVol 1176.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.59M + RelVol 1176.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.74,
+          "open": 3.24,
+          "gapPct": 86.21,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.65,
+          "hodTimeExact": "10:10 AM ET",
+          "close": 4.23,
+          "fade": 51,
+          "fadeExact": 51.1,
+          "vwap": 5.3643,
+          "vsVwap": "below",
+          "pmHigh": 5.06,
+          "volRaw": "105.0M",
+          "volDollar": 563148607,
+          "relVol": 1176.2,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": "30:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IMCC",
+          "newsSummary": "IMCC ran 397% on the day with no identified catalyst or news — a pure technical/structural move in a nano-float healthcare name. The 86% gap and sustained 1176% relative volume suggest either delayed news pickup, sympathy theme, or institutional accumulation in a China rig pattern typical of sub-1M float tickers.",
+          "bullFactors": [
+            "Ultra-nano float (0.59M) creates extreme leverage for institutional accumulation",
+            "Sustained session HOD printing (+397% with only 51% fade) indicates hot cycle and afternoon continuation strength, not premarket spike collapse",
+            "Massive relative volume (1176%) all session rules out low-liquidity noise; real accumulation pressure",
+            "Healthcare sector + Canadian listing + no dilutive news = clean capital structure for institutional rigs"
+          ],
+          "bearFactors": [
+            "No identified catalyst is a red flag — move may reverse violently if macro or sector sympathy reverts",
+            "Nano float creates black-swan liquidity risk; late-session entrants face severe exit difficulty at held prices",
+            "51% fade from HOD suggests institutional distribution into retail buying; pattern mirrors premarket spike exhaustion",
+            "Unknown Canadian healthcare ticker with zero news coverage — execution risk and information asymmetry extremely high"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GIPR",
+          "hod": 293,
+          "hodExact": 293.63,
+          "news": [
+            "Generation Income Properties Enters Into Warrant Exercise Transaction for $4.3 Million in Gross Proceeds",
+            "Form 8-K"
+          ],
+          "tag": "OFFERING",
+          "name": "Generation Income Properties Inc. Common Stock",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 2.8,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 2.8M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4395,
+          "open": 1.49,
+          "gapPct": 239.02,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.73,
+          "hodTimeExact": "09:40 AM ET",
+          "close": 0.7183,
+          "fade": 58,
+          "fadeExact": 58.48,
+          "vwap": 1.0948,
+          "vsVwap": "below",
+          "pmHigh": 1.5,
+          "volRaw": "299.4M",
+          "volDollar": 327787929,
+          "relVol": 11.0,
+          "avgVolM": 27.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Generation Income Properties Enters Into Warrant Exercise Transaction for $4.3 Million in Gross Proceeds",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Generation Income Properties Enters Into Warrant Exercise Transaction for $4.3 Million in Gross Proceeds",
+              "url": "https://www.stocktitan.net/news/GIPR/generation-income-properties-enters-into-warrant-exercise-m6uvmmvnfoct.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T18:15:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1651721/000119312526393084/gipr-20260916.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GIPR",
+          "newsSummary": "GIPR spiked 293% intraday on a warrant exercise transaction announced after the high was printed, generating $4.3M in gross proceeds. The warrant exercise is dilutive capital formation with no underlying operational catalyst—the move was driven by intraday momentum and retail chasing, not fundamental strength. The post-HOD announcement is purely reactive, confirming this was a tape-driven runner, not a catalyst-led breakout.",
+          "bullFactors": [
+            "Ultra-tight float at 2.8M shares creates mechanical squeeze potential on intraday volume spikes",
+            "Sustained 11.0x relative volume across the session, not a 1-2 minute spike—shows continued retail/institutional interest throughout the day",
+            "Session HOD printing late (293% intraday gain) indicates afternoon continuation and shorts covering, not a premarket fade pattern"
+          ],
+          "bearFactors": [
+            "Warrant exercise is dilutive and signals capital desperation—$4.3M proceeds are modest and provide no operational runway or M&A catalyst",
+            "58% intraday fade from HOD suggests momentum exhaustion and potential high-volume distribution into the close",
+            "News released AFTER the high means the move was speculation/sympathy-driven, not catalyst-driven; institutional lock-in was likely the real buyer early, leaving retail holding bags at extremes",
+            "Real estate sector with $2.17M market cap is inherently speculative and illiquid for position holding overnight"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "QNME",
+          "hod": 254,
+          "hodExact": 254.68,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Quanome Technologies, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 14.0,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 14.0M + RelVol 382.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 14.0M + RelVol 382.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2904,
+          "open": 0.29,
+          "gapPct": -0.14,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.03,
+          "hodTimeExact": "11:32 AM ET",
+          "close": 0.5583,
+          "fade": 45,
+          "fadeExact": 45.8,
+          "vwap": 0.7078,
+          "vsVwap": "below",
+          "pmHigh": 0.32,
+          "volRaw": "327.9M",
+          "volDollar": 232070700,
+          "relVol": 382.5,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:QNME",
+          "newsSummary": "QNME ran 254.68% with no identifiable news catalyst, suggesting pure intraday momentum and institutional accumulation. The move appears to be a structural tape phenomenon rather than event-driven, with sustained high relative volume (382.5x) throughout the session indicating organized buying pressure.",
+          "bullFactors": [
+            "Massive HOD move (254.68%) with only 45.8% fade — indicates sustained institutional demand and short-squeeze pressure into close",
+            "Exceptional relative volume (382.5x) maintained throughout session, not just premarket spike — classic China rig or organized accumulation pattern",
+            "Mid-float (14M shares) at the upper end of Jack's acceptable range but manageable given intraday vol/min likely exceeded premarket vol/min significantly",
+            "Session HODs dominating (tape temperature = HOT) — continuation strength suggests afternoon buying wave, not exhaustion"
+          ],
+          "bearFactors": [
+            "Float at 14M is above Jack's 10M preference and enters higher-risk territory for sudden liquidity evaporation",
+            "NO NEWS catalyst is a structural red flag — move is purely momentum/sympathy-based with no real cash value or partnership to sustain it",
+            "254% move in single session raises black swan / cycle shift warning — liquidity spillover risk and potential for violent reversal on any negative tape read",
+            "Daily chart room to upside unknown — heavy overhead supply likely established at new highs, limiting next-day follow-through"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "REFR",
+          "hod": 143,
+          "hodExact": 143.15,
+          "news": [
+            "Research Frontiers Welcomes Gauzy’s Court-Approved Restructuring and the Restart of SPD-Smart Light Control Film Production"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Research Frontiers Inc",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 32.68,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3866,
+          "open": 0.387,
+          "gapPct": 0.12,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.9399,
+          "hodTimeExact": "02:53 PM ET",
+          "close": 0.6513,
+          "fade": 30,
+          "fadeExact": 30.71,
+          "vwap": 0.7631,
+          "vsVwap": "below",
+          "pmHigh": 0.387,
+          "volRaw": "92.0M",
+          "volDollar": 70202052,
+          "relVol": 603.2,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Research Frontiers Welcomes Gauzy’s Court-Approved Restructuring and the Restart of SPD-Smart Light Control Film Production"
+          ],
+          "newsItems": [
+            {
+              "title": "Research Frontiers Welcomes Gauzy’s Court-Approved Restructuring and the Restart of SPD-Smart Light Control Film Production",
+              "url": "https://www.stocktitan.net/news/REFR/research-frontiers-welcomes-gauzy-s-court-approved-restructuring-and-1ct0gsktk795.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T18:25:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:REFR",
+          "newsSummary": "Research Frontiers announced Gauzy's court-approved restructuring and restart of SPD-Smart Light Control Film production. This is a real operational catalyst—not dilutive—showing material progress on a key product line that had stalled. The news arrived AFTER the 143% HOD move, confirming institutional accumulation preceded the public announcement.",
+          "bullFactors": [
+            "Real cash-value catalyst: court-approved restructuring + production restart of established smart film technology",
+            "143% HOD with 603% relative volume shows sustained institutional buying pressure throughout session, not premarket spike fade",
+            "News released post-HOD indicates accumulation phase before announcement—classic setup for continued momentum",
+            "Gauzy is a named entity with real operational significance; this is material progress, not sympathy or fluff"
+          ],
+          "bearFactors": [
+            "32.68M float is thick—well above Jack's <10M preference and above his intraday vol/min threshold to justify high float",
+            "30.71% fade from HOD suggests profit-taking or resistance; need to watch for continuation vs. reversal tomorrow",
+            "Small market cap ($23M) and thick float create liquidity and squeeze-out risk if retail sells into strength",
+            "Gauzy restructuring news is positive but execution risk remains on restart timeline and ramp profitability"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MRNO",
+          "hod": 122,
+          "hodExact": 122.83,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Murano Global Investments PLC Ordinary Shares",
+          "sector": "Real Estate",
+          "country": "GB",
+          "floatM": 3.93,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$26M",
+          "riskBadges": [
+            "Float 3.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.93M + RelVol 1366.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.93M + RelVol 1366.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2199,
+          "open": 0.2261,
+          "gapPct": 2.8,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.49,
+          "hodTimeExact": "12:03 PM ET",
+          "close": 0.3447,
+          "fade": 29,
+          "fadeExact": 29.65,
+          "vwap": 0.3891,
+          "vsVwap": "below",
+          "pmHigh": 0.2396,
+          "volRaw": "330.3M",
+          "volDollar": 128530793,
+          "relVol": 1366.8,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MRNO",
+          "newsSummary": "MRNO ran 122.83% intraday with zero news catalyst identified — this is a pure NO-NEWS momentum move. The 29.65% fade and micro float (3.93M) suggest retail-driven volatility rather than institutional accumulation on real fundamentals.",
+          "bullFactors": [
+            "Ultra-micro float (3.93M) creates structural squeeze potential on intraday volume spikes",
+            "Relative volume of 1366.8x is extreme — indicates genuine session participation, not just premarket flash",
+            "Session HOD at +122.83% printed late enough to avoid immediate fade classification, suggesting some intraday continuation strength"
+          ],
+          "bearFactors": [
+            "29.65% fade is substantial — signals lack of sustained institutional support and retail exit pressure",
+            "NO-NEWS catalyst means move is purely technical/momentum; high risk of reversal without real catalyst anchor",
+            "GB-listed micro-cap real estate with no identifiable theme or news = low credibility for holding above intraday peaks",
+            "Premarket gap only 2.8% yet intraday HOD 122.83% = extreme volatility concentration in thin session, classic washout setup"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "ZTG",
+          "hod": 99,
+          "hodExact": 99.17,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Zenta Group Company Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MO",
+          "floatM": 16.17,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$44M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.2,
+          "open": 1.4,
+          "gapPct": 16.67,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.39,
+          "hodTimeExact": "12:35 PM ET",
+          "close": 1.81,
+          "fade": 24,
+          "fadeExact": 24.27,
+          "vwap": 1.8828,
+          "vsVwap": "below",
+          "pmHigh": 1.7,
+          "volRaw": "59.3M",
+          "volDollar": 111740702,
+          "relVol": 6.5,
+          "avgVolM": 9.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2011458/000149315226042820/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZTG",
+          "newsSummary": "ZTG filed a Form 6-K (foreign private issuer disclosure) on 2026-09-16, before today's move. The filing itself is administrative and carries no inherent cash catalyst or material business update—it is a regulatory requirement for Macau-listed companies. The 99.17% HOD achievement with a 24.27% fade suggests intraday momentum driven by tape strength rather than substantive news merit.",
+          "bullFactors": [
+            "HOD printed at 99.17% — strong afternoon session HOD dominance, typical of hot cycle continuation",
+            "6.5x relative volume sustains above single-session spike thresholds — indicates institutional participation beyond pure retail pop",
+            "Mid-float (16.17M) allows for room to run if momentum holds; not a micro-nano-cap liquidity trap",
+            "Fade to 24.27% is within healthy consolidation range — not a hard rejection, suggests dip-buyers stepped in"
+          ],
+          "bearFactors": [
+            "Float is above Jack's preferred <10M threshold; mid-tier float reduces tail-move probability",
+            "Form 6-K is regulatory boilerplate, not a real cash catalyst — no partnership, acquisition, or ER substance",
+            "Macau/China industrial name with no clear sector tailwind in theme_vocabulary — idiosyncratic micro-event risk",
+            "Premarket gap (16.67%) could indicate news-driven spike rather than flag breakout — setup timing may lack institutional soak phase"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NCPL",
+          "hod": 98,
+          "hodExact": 98.9,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Netcapital Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 7.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 7.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5631,
+          "open": 0.687,
+          "gapPct": 22.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.12,
+          "hodTimeExact": "11:07 AM ET",
+          "close": 0.7407,
+          "fade": 33,
+          "fadeExact": 33.87,
+          "vwap": 0.8391,
+          "vsVwap": "below",
+          "pmHigh": 0.8461,
+          "volRaw": "127.1M",
+          "volDollar": 106645467,
+          "relVol": 2.8,
+          "avgVolM": 44.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCPL",
+          "newsSummary": "NCPL ran 98.9% to HOD with no identifiable news catalyst, suggesting pure intraday momentum and institutional accumulation. The move appears entirely tape/technicals driven with no fundamental trigger or real cash event behind it.",
+          "bullFactors": [
+            "Extremely tight float at 7.95M shares — classic small-cap runner setup with high leverage to volume",
+            "Session HOD dominance (98.9%) indicates sustained intraday strength and afternoon continuation, not premarket spike fade",
+            "Relative volume of 2.8x shows institutional interest throughout the day, not a thin/illiquid pump",
+            "Only 33.87% fade from HOD suggests conviction and lack of weak early sellers"
+          ],
+          "bearFactors": [
+            "Zero news catalyst means move is purely sympathy/tape-driven with no fundamental anchor — risk of sudden unwind",
+            "22% gap-up entry point leaves limited room to scalp and increases whipsaw risk on pullbacks",
+            "Micro-cap market cap ($6.68M) and no identifiable theme increase black swan liquidity risk and after-hours volatility",
+            "Without real catalyst, overnight or next session fade is elevated risk — no hold-through anchor"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "TRUG",
+          "hod": 96,
+          "hodExact": 96.56,
+          "news": [
+            "TruGolf Links Announces New Initiatives with Polymath to Develop Financing Opportunities for Franchisees",
+            "TruGolf Links Announces New Regional Developer for Greater Las Vegas Area",
+            "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities"
+          ],
+          "tag": "CONTRACT",
+          "name": "TruGolf Holdings, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 4.6,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 4.6M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3838,
+          "open": 0.517,
+          "gapPct": 34.71,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.7544,
+          "hodTimeExact": "10:14 AM ET",
+          "close": 0.498,
+          "fade": 33,
+          "fadeExact": 33.99,
+          "vwap": 0.5861,
+          "vsVwap": "below",
+          "pmHigh": 0.6509,
+          "volRaw": "253.0M",
+          "volDollar": 148296420,
+          "relVol": 7.1,
+          "avgVolM": 35.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "TruGolf Links Announces New Initiatives with Polymath to Develop Financing Opportunities for Franchisees",
+            "TruGolf Links Announces New Regional Developer for Greater Las Vegas Area",
+            "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities"
+          ],
+          "newsItems": [
+            {
+              "title": "TruGolf Links Announces New Initiatives with Polymath to Develop Financing Opportunities for Franchisees",
+              "url": "https://www.stocktitan.net/news/TRUG/tru-golf-links-announces-new-initiatives-with-polymath-to-develop-732f6o9w033o.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T11:04:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "TruGolf Links Announces New Regional Developer for Greater Las Vegas Area",
+              "url": "https://www.stocktitan.net/news/TRUG/tru-golf-links-announces-new-regional-developer-for-greater-las-wq9j795d0px5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T20:24:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Polymath and High Ridge Trust Partner to Advance Institutional Infrastructure for Tokenized Securities",
+              "url": "https://www.stocktitan.net/news/TRUG/polymath-and-high-ridge-trust-partner-to-advance-institutional-nzrn8428sd3s.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-11T11:07:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TRUG",
+          "newsSummary": "TruGolf announced new franchise financing initiatives with Polymath and a regional developer for Las Vegas. The news came before the move (11:04 AM premarket announcement), suggesting the spike was driven by market enthusiasm for the partnership infrastructure angle rather than fundamental surprise. This is partnership-based growth, not a cash-flowing catalyst.",
+          "bullFactors": [
+            "Micro-float at 4.6M shares — tight structure supports momentum if volume sustains",
+            "Relative volume 7.1x indicates genuine intraday accumulation beyond premarket spike",
+            "HOD percentage 96.56% with fade only 33.99% — strong session continuation, not premarket-dominated collapse",
+            "Multiple news items (Polymath partnership, regional expansion, institutional tokenization infrastructure) create layered narrative"
+          ],
+          "bearFactors": [
+            "All news released before the spike — no fresh catalyst to sustain afternoon push if retail fades",
+            "Franchise financing deals are partnership fluff without concrete cash inflow or revenue visibility",
+            "Gap 34.71% suggests premarket enthusiasm; watch for afternoon rejection if tape turns cold",
+            "Tokenized securities / Polymath angle is speculative infrastructure play, not a hard business catalyst"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "TNMG",
+          "hod": 86,
+          "hodExact": 86.99,
+          "news": [
+            "TNL Mediagene's The News Lens Launches TNL Daily, a Subscription Newsletter, with Crowdfunding Campaign Exceeding Its Funding Target",
+            "GIZMART's Co-Development Projects with Keychron Surpass JPY1.1 Billion in Cumulative GMV"
+          ],
+          "tag": "SYMPATHY",
+          "name": "TNL Mediagene Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "JP",
+          "floatM": 0.7,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.7M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.7M + RelVol 27.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.7M + RelVol 27.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.69,
+          "open": 4.34,
+          "gapPct": 61.34,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 5.03,
+          "hodTimeExact": "08:07 AM ET",
+          "close": 3.87,
+          "fade": 23,
+          "fadeExact": 23.06,
+          "vwap": 4.8707,
+          "vsVwap": "below",
+          "pmHigh": 7,
+          "volRaw": "36.5M",
+          "volDollar": 177987594,
+          "relVol": 27.6,
+          "avgVolM": 1.3,
+          "ssr": false,
+          "reverseSplit": "8:1",
+          "newsHeadlines": [
+            "TNL Mediagene's The News Lens Launches TNL Daily, a Subscription Newsletter, with Crowdfunding Campaign Exceeding Its Funding Target",
+            "GIZMART's Co-Development Projects with Keychron Surpass JPY1.1 Billion in Cumulative GMV"
+          ],
+          "newsItems": [
+            {
+              "title": "TNL Mediagene's The News Lens Launches TNL Daily, a Subscription Newsletter, with Crowdfunding Campaign Exceeding Its Funding Target",
+              "url": "https://www.stocktitan.net/news/TNMG/tnl-mediagene-s-the-news-lens-launches-tnl-daily-a-subscription-0cnhuoo89s7e.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "GIZMART's Co-Development Projects with Keychron Surpass JPY1.1 Billion in Cumulative GMV",
+              "url": "https://www.stocktitan.net/news/TNMG/gizmart-s-co-development-projects-with-keychron-surpass-jpy1-1-szmm9zv1lwkk.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-16T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TNMG",
+          "newsSummary": "TNMG ran 87% with a 61% gap on two PR announcements: TNL Mediagene's subscription newsletter crowdfunding (launched intraday, relative_to_high='before') and GIZMART's Keychron co-dev GMV milestone (2 days old). Neither involves real cash deals, M&A, or material business inflection—both are marketing/milestone updates typical of small Japanese microcaps. The move appears driven by sympathy buying and retail interest in the nano-float (0.7M shares) rather than catalyst merit.",
+          "bullFactors": [
+            "Ultra-tight float at 0.7M shares—extreme leverage for any buying pressure",
+            "High relative volume (27.6x) sustained through session with 87% HOD and only 23% fade, suggesting institutional or coordinated accumulation rather than pure pump",
+            "Japanese microcap with communication/media exposure—structural setup for intraday rig patterns if volume holds",
+            "News released before HOD (not after), reducing tail-risk of reactive spike"
+          ],
+          "bearFactors": [
+            "Catalyst is fluff: newsletter crowdfunding and product GMV milestones lack cash/earnings/partnership substance—sympathy-level news quality",
+            "61% gap from open creates massive overhead resistance and reduced room to upside for intraday scalping",
+            "Japanese micro-cap liquidity is thin and fragile—EOD/next session fade risk is high given news quality and gap size",
+            "No daily chart context provided, but 87% single-day rip on promotional news is classic setup for mean reversion"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SSM",
+          "hod": 86,
+          "hodExact": 86.98,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Sono Group N.V. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "DE",
+          "floatM": 1.21,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.46,
+          "open": 2.41,
+          "gapPct": 65.07,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.7299,
+          "hodTimeExact": "04:19 AM ET",
+          "close": 1.51,
+          "fade": 44,
+          "fadeExact": 44.69,
+          "vwap": 2.452,
+          "vsVwap": "below",
+          "pmHigh": 3.19,
+          "volRaw": "37.0M",
+          "volDollar": 90834906,
+          "relVol": 14.6,
+          "avgVolM": 2.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SSM",
+          "newsSummary": "SSM ran 86.98% with a 44.69% fade, indicating a strong intraday move without reported catalysts. The move appears driven by tape momentum and institutional accumulation rather than news-driven events. No substantive cash catalyst or partnership announced.",
+          "bullFactors": [
+            "Micro float at 1.21M shares — extremely tight float for sustained pressure",
+            "Relative volume of 14.6x indicates heavy institutional accumulation throughout session",
+            "86.98% HOD with 44.69% fade shows session HODs dominated — continuation strength characteristic of hot cycle",
+            "German small-cap with low liquidity baseline = outsized intraday moves on modest volume"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — pure momentum/sympathy-driven, higher fade risk on follow days",
+            "44.69% intraday fade suggests retail top-out; need to verify if afternoon HODs held or early-session spike only",
+            "German micro-cap with unknown institutional holders — potential liquidity trap on exits",
+            "Consumer Cyclical sector with no identifiable theme or entity relationship — lacks fundamental anchor"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 397,
+      "fade": 37,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "IMCC led +397.13% (51% fade). 0/10 held <20% fade. news: GIPR — \"Generation Income Properties Enters Into Warrant Exercise Transaction for $4.3 Million in Gross Proceeds\".",
+      "aiSummary": "**TAPE READ — 2026-09-18**\n\nToday's tape is dominated by NO-NEWS fluff (IMCC, QNME, MRNO, NCPL, SSM) and compliance/structural noise (OFFERING, ACQUISITION, COMPLIANCE tags), with zero real catalyst conviction — a red flag for momentum discipline. Float structure is ideal (six names sub-10M, tight clustering around 1-4M), but the catalyst mix violates core playbook rules: IMCC's 397% morning spike with 51% fade and GIPR's offering immediately disqualify both as continuation plays, while the NO-NEWS tags on 50% of runners signal premarket pump dominance rather than intraday institutional accumulation. HOD printing is split between morning (IMCC, GIPR, QNME, NCPL, TRUG) and premarket (TNMG, SSM), with only afternoon prints on REFR, MRNO, and ZTG — a structural warning that yesterday's move exhausted early, and the tape lacked sustained session HOD sequences that define a hot cycle. This is a **COLD cycle**: premarket spike dominance, heavy fades (IMCC -51%, GIPR -58%), no real news scaffolding, and float advantage negated by catalyst weakness. The playbook avoids this tape entirely and waits for a setup with real M&A, ER, or partnership catalyst paired with tight float and afternoon continuation strength."
+    },
     {
       "date": "2026-09-17",
       "runners": [
