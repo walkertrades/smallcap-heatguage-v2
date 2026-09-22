@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-19T14:14:46.708410Z",
-  "count": 9877,
+  "exportedAt": "2026-09-22T11:58:56.247103Z",
+  "count": 9887,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,930 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-21",
+      "runners": [
+        {
+          "sym": "GRML",
+          "hod": 309,
+          "hodExact": 309.82,
+          "news": [
+            "Greenland Mines More Than Doubles Control Position in the Sarfartoq Rare Earth Magnet District in West Greenland",
+            "Greenland Mines Applauds Historic U.S.-Denmark-Greenland Security Agreement, Reinforcing Greenland’s Strategic Importance to the United States",
+            "Greenland Mines Forms Strategic Advisory Board With Three Industry Leaders to Accelerate Project Development and Western Critical-Minerals Strategy"
+          ],
+          "tag": "CONTRACT",
+          "name": "Greenland Mines Ltd. Common Stock",
+          "sector": "Basic Materials",
+          "country": "US",
+          "floatM": 6.1,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$101M",
+          "riskBadges": [
+            "Float 6.1M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 6.1M + RelVol 207.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 6.1M + RelVol 207.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.85,
+          "open": 7.33,
+          "gapPct": 157.19,
+          "time": "regular session",
+          "session": "morning",
+          "high": 11.68,
+          "hodTimeExact": "11:21 AM ET",
+          "close": 9.42,
+          "fade": 19,
+          "fadeExact": 19.35,
+          "vwap": 8.3632,
+          "vsVwap": "above",
+          "pmHigh": 8.2,
+          "volRaw": "218.3M",
+          "volDollar": 1825990228,
+          "relVol": 207.6,
+          "avgVolM": 1.1,
+          "ssr": false,
+          "reverseSplit": "50:1",
+          "newsHeadlines": [
+            "Greenland Mines More Than Doubles Control Position in the Sarfartoq Rare Earth Magnet District in West Greenland",
+            "Greenland Mines Applauds Historic U.S.-Denmark-Greenland Security Agreement, Reinforcing Greenland’s Strategic Importance to the United States",
+            "Greenland Mines Forms Strategic Advisory Board With Three Industry Leaders to Accelerate Project Development and Western Critical-Minerals Strategy"
+          ],
+          "newsItems": [
+            {
+              "title": "Greenland Mines More Than Doubles Control Position in the Sarfartoq Rare Earth Magnet District in West Greenland",
+              "url": "https://www.stocktitan.net/news/GRML/greenland-mines-more-than-doubles-control-position-in-the-sarfartoq-g48o9e0zssed.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-21T13:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Greenland Mines Applauds Historic U.S.-Denmark-Greenland Security Agreement, Reinforcing Greenland’s Strategic Importance to the United States",
+              "url": "https://www.stocktitan.net/news/GRML/greenland-mines-applauds-historic-u-s-denmark-greenland-security-wkmbqgxz3v8i.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T23:03:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Greenland Mines Forms Strategic Advisory Board With Three Industry Leaders to Accelerate Project Development and Western Critical-Minerals Strategy",
+              "url": "https://www.stocktitan.net/news/GRML/greenland-mines-forms-strategic-advisory-board-with-three-industry-7ozze0rgega6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-14T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Rare Earth",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Trump/Policy",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GRML",
+          "newsSummary": "Greenland Mines announced a major expansion of its control position in the Sarfartoq Rare Earth Magnet District on 2026-09-21 at 13:30 UTC, well before the session high. This represents real asset acquisition in critical minerals with geopolitical tailwinds from the recent U.S.-Denmark-Greenland security agreement. The catalyst has genuine merit—rare earth supply chain diversification is a strategic priority for Western governments and defense contractors.",
+          "bullFactors": [
+            "Ultra-tight float at 6.1M shares with 207.6x relative volume—extreme liquidity concentration",
+            "Real catalyst with tangible asset value (rare earth magnet district control expansion), not sympathy or fluff",
+            "Geopolitical timing: U.S.-Denmark-Greenland security accord reinforces strategic importance; advisory board of three industry leaders validates execution credibility",
+            "High session HOD at +309% on sustained intraday volume (not premarket spike fade)—tape shows institutional accumulation and retail continuation"
+          ],
+          "bearFactors": [
+            "Fade of 19.35% from HOD suggests retail exhaustion and potential profit-taking into close",
+            "Gap already +157% at open—significant portion of move came before the 13:30 news, raising questions about advanced knowledge or sympathy positioning",
+            "Basic Materials sector with micro-cap ($100.6M) exposure to geopolitical/regulatory risk; Greenland mining projects face permitting, environmental, and political headwinds",
+            "No revenue catalyst disclosed—expansion of 'control position' is M&A/land acquisition, not cash flow or production milestone"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "GLND",
+          "hod": 182,
+          "hodExact": 182.5,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Greenland Energy Company Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 32.02,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$127M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.2,
+          "open": 3.015,
+          "gapPct": 151.25,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.39,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 2.88,
+          "fade": 15,
+          "fadeExact": 15.04,
+          "vwap": 3.0034,
+          "vsVwap": "below",
+          "pmHigh": 3.72,
+          "volRaw": "185.8M",
+          "volDollar": 558138641,
+          "relVol": 83.5,
+          "avgVolM": 2.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GLND",
+          "newsSummary": "GLND gapped 151% and ran to a 182.5% intraday high with no news catalyst identified. The move appears purely momentum-driven on a thick-float energy name with 83.5x relative volume. Without substantive catalyst, this is a speculative intraday fade setup rather than a structural runner.",
+          "bullFactors": [
+            "Strong intraday relative volume (83.5x) indicates real participation despite no news",
+            "182.5% HOD swing shows continuation strength through the session, not just premarket spike",
+            "Energy sector sensitivity to macro/geopolitical tailwinds could provide latent support"
+          ],
+          "bearFactors": [
+            "Thick float (32M shares) — outside Jack's sub-10M preference, limits sustained momentum",
+            "No news catalyst — pure speculation on a gap/spike move increases fade risk",
+            "15% same-day fade already printed; typical no-news pattern is premarket spike into afternoon collapse",
+            "151% gap with zero fundamental trigger suggests exhaustion, not accumulation"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "BTTC",
+          "hod": 168,
+          "hodExact": 168.49,
+          "news": [
+            "Form 6-K",
+            "DeFi-as-a-Service, Lending-as-a-Service and the Bank-Issued Rails"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Black Titan Corporation Ordinary Shares",
+          "sector": "Technology",
+          "country": "MY",
+          "floatM": 5.91,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 5.91M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.91M + RelVol 150.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.91M + RelVol 150.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.365,
+          "open": 0.644,
+          "gapPct": 76.44,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.98,
+          "hodTimeExact": "10:29 AM ET",
+          "close": 0.7948,
+          "fade": 18,
+          "fadeExact": 18.9,
+          "vwap": 0.7261,
+          "vsVwap": "above",
+          "pmHigh": 0.7498,
+          "volRaw": "423.2M",
+          "volDollar": 307261011,
+          "relVol": 150.2,
+          "avgVolM": 2.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "DeFi-as-a-Service, Lending-as-a-Service and the Bank-Issued Rails"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2034400/000149315226043254/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "DeFi-as-a-Service, Lending-as-a-Service and the Bank-Issued Rails",
+              "url": "https://www.stocktitan.net/news/BTTC/de-fi-as-a-service-lending-as-a-service-and-the-bank-issued-0bum12npp024.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.7,
+              "uncertain": false
+            },
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.65,
+              "uncertain": false
+            },
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BTTC",
+          "newsSummary": "BTTC gapped 76% on a Form 6-K filing and a PR announcement on DeFi/Lending services dated before the move—both pre-high events that did not drive the intraday continuation. The 168% HOD move with only 18.9% fade suggests sustained institutional buying pressure throughout the session rather than a reactive news spike. This is a classic low-float, low-volume Greater China structural pattern with no substantive cash catalyst initiating the move.",
+          "bullFactors": [
+            "Exceptional float (5.91M) — micro-cap liquidity constraints amplify intraday momentum",
+            "Strong relative volume (150.2x) and sustained HOD printing — afternoon continuation dominates, shorts are bleeding out",
+            "Minimal fade (18.9%) after 168% run — tape shows conviction and accumulation, not exhaustion",
+            "Greater China micro-cap with low float and no dilutive news — structural rig pattern with real volume all day"
+          ],
+          "bearFactors": [
+            "Massive gap (76%) into open — most explosive move already happened premarket; intraday scalps fighting reduced fuel",
+            "News (Form 6-K, DeFi PR) occurred before the high — catalyst does not explain the move; purely structural/sympathy driven",
+            "Sympathy/China rig classification — no real cash event, no partnership, no earnings; vulnerability to black swan spillover reversals",
+            "High cycle risk — 168% HOD in one session on a micro-cap with no fundamental anchor creates liquidity trap conditions"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "VEEE",
+          "hod": 166,
+          "hodExact": 166.31,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Twin Vee PowerCats Co. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 0.57,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 0.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.57M + RelVol 802.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.57M + RelVol 802.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 8.58,
+          "open": 14.5,
+          "gapPct": 69.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 22.849,
+          "hodTimeExact": "10:16 AM ET",
+          "close": 17.24,
+          "fade": 24,
+          "fadeExact": 24.55,
+          "vwap": 17.906,
+          "vsVwap": "below",
+          "pmHigh": 15.6297,
+          "volRaw": "29.7M",
+          "volDollar": 531571322,
+          "relVol": 802.3,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VEEE",
+          "newsSummary": "VEEE ran 166% intraday with no identifiable catalyst — pure momentum on a 0.57M float nano-cap. The move was driven by technical setup and retail/institutional volume, not news or earnings.",
+          "bullFactors": [
+            "Extremely low float (0.57M) creates explosive potential on sustained buying pressure",
+            "Relative volume of 802% signals serious institutional accumulation throughout the session",
+            "166% HOD gain with only 24.55% fade suggests strong afternoon continuation and short-squeeze dynamics",
+            "69% gap up into the move gave time for dip/soak institutional setup before retail extension"
+          ],
+          "bearFactors": [
+            "No news catalyst means move is purely technical/sentiment-driven — high risk of reversal or liquidity drain",
+            "Nano-cap with near-zero float is structurally prone to violent reversals and gap-down traps",
+            "166% intraday spike on no news is a classic premarket-dominated pattern; retest/fade risk is extreme",
+            "Consumer Cyclical sector with no real business catalyst is vulnerable to sympathy unwind"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "VRME",
+          "hod": 145,
+          "hodExact": 145.28,
+          "news": [
+            "VerifyMe Declares Special Dividend",
+            "Form 8-K",
+            "Merger comms",
+            "424B3 offering",
+            "VerifyMe Urges Shareholders to Vote “For” Proposal 6 to Advance Proposed Figure OPEN Listing"
+          ],
+          "tag": "MERGER",
+          "name": "VerifyMe, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 12.53,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.795,
+          "open": 0.9424,
+          "gapPct": 18.54,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.95,
+          "hodTimeExact": "12:26 PM ET",
+          "close": 1.38,
+          "fade": 29,
+          "fadeExact": 29.23,
+          "vwap": 1.4642,
+          "vsVwap": "below",
+          "pmHigh": 1.06,
+          "volRaw": "99.8M",
+          "volDollar": 146138718,
+          "relVol": 81.7,
+          "avgVolM": 1.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "VerifyMe Declares Special Dividend",
+            "Form 8-K",
+            "Merger comms",
+            "424B3 offering",
+            "VerifyMe Urges Shareholders to Vote “For” Proposal 6 to Advance Proposed Figure OPEN Listing"
+          ],
+          "newsItems": [
+            {
+              "title": "VerifyMe Declares Special Dividend",
+              "url": "https://www.stocktitan.net/news/VRME/verify-me-declares-special-5sr9cosu4hy5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T20:10:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926011800/p9182618k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926011801/y918261425.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "before"
+            },
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926011766/d917262424b3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            },
+            {
+              "title": "VerifyMe Urges Shareholders to Vote “For” Proposal 6 to Advance Proposed Figure OPEN Listing",
+              "url": "https://www.stocktitan.net/news/VRME/verify-me-urges-shareholders-to-vote-for-proposal-6-to-advance-fehzzc8zlf8f.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-17T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.8,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VRME",
+          "newsSummary": "VerifyMe announced a proposed merger/listing on Figure OPEN (a blockchain-based alternative listing platform) with shareholder vote scheduled. The company also declared a special dividend and filed a 424B3 offering document. The catalyst has structural merit (M&A event) but carries execution risk given the alternative listing venue and concurrent offering dilution.",
+          "bullFactors": [
+            "Sustained intraday momentum with 145% HOD gain and only 29% fade — shows institutional accumulation and retail continuation rather than premarket spike collapse",
+            "High relative volume (81.7x) maintained throughout session, signaling genuine interest vs. pump mechanics",
+            "Float just above 12.5M (slightly over Jack's 10M preference but manageable given intraday vol/min ratio dominance)",
+            "Real M&A event with governance vote creates binary catalyst and potential short squeeze on skeptics"
+          ],
+          "bearFactors": [
+            "424B3 offering filed pre-high — dilution risk already priced in or pending, typical of merger financing",
+            "Figure OPEN is non-traditional venue (blockchain listing platform) — significantly higher execution and liquidity risk vs. Nasdaq/NYSE uplisting",
+            "All news (special dividend, merger comms, shareholder vote, offering) occurred 2–3 days before the move — today's spike is reactive to accumulated catalysts, not fresh catalyst",
+            "Merger votes frequently fail or face shareholder litigation; this is speculative event risk, not cash-backed fundamental"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "LOBO",
+          "hod": 143,
+          "hodExact": 143.4,
+          "news": [
+            "LOBO TECHNOLOGIES LTD. Announces First Half of Fiscal Year 2026 Financial Results",
+            "Form 6-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "LOBO TECHNOLOGIES LTD. Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 12.31,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 12.31M + RelVol 164.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 12.31M + RelVol 164.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.53,
+          "open": 0.709,
+          "gapPct": 33.77,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.29,
+          "hodTimeExact": "10:02 AM ET",
+          "close": 0.7,
+          "fade": 45,
+          "fadeExact": 45.74,
+          "vwap": 0.9037,
+          "vsVwap": "below",
+          "pmHigh": 0.7997,
+          "volRaw": "157.7M",
+          "volDollar": 142522919,
+          "relVol": 164.7,
+          "avgVolM": 1.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "LOBO TECHNOLOGIES LTD. Announces First Half of Fiscal Year 2026 Financial Results",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "LOBO TECHNOLOGIES LTD. Announces First Half of Fiscal Year 2026 Financial Results",
+              "url": "https://www.stocktitan.net/news/LOBO/lobo-technologies-ltd-announces-first-half-of-fiscal-year-2026-joaxzetop6h3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1932072/000149315226043339/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            },
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LOBO",
+          "newsSummary": "LOBO reported H1 FY2026 financial results on 2026-09-18, prior to today's move. The earnings announcement preceded the spike, meaning the market is now pricing in the results. Real cash fundamentals from a consumer cyclical play in a Greater China context—earnings has merit vs. sympathy-only runners.",
+          "bullFactors": [
+            "Real cash catalyst (earnings) released before the move—institutional digestion pattern, not a pump spike",
+            "143.4% HOD move with 45.74% fade ratio indicates sustained strength and shorts covering into afternoon",
+            "164.7% relative volume shows genuine tape participation; float at 12.31M is in sweet spot for intraday volatility",
+            "Consumer Cyclical sector + Greater China + earnings combo attracts institutional accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Float slightly above preferred 10M threshold (12.31M)—reduces scarcity edge but still tradeable",
+            "Gap-driven move (33.77% gap) means much of the move occurred pre-market; intraday room may be compressed",
+            "Chinese micro-cap names carry delisting/compliance risk and lower institutional custody comfort",
+            "No real big-name partnerships or strategic M&A in headlines—earnings alone is solid but not transformational"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AVAT",
+          "hod": 96,
+          "hodExact": 96.3,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Avalanche Treasury Corporation Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 20.71,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$83M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.08,
+          "open": 1.4,
+          "gapPct": 29.63,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.12,
+          "hodTimeExact": "11:42 AM ET",
+          "close": 1.87,
+          "fade": 11,
+          "fadeExact": 11.79,
+          "vwap": 1.7632,
+          "vsVwap": "above",
+          "pmHigh": 1.42,
+          "volRaw": "23.3M",
+          "volDollar": 41112936,
+          "relVol": 26.0,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AVAT",
+          "newsSummary": "AVAT ran 29.63% on gap with no identifiable news catalyst — pure intraday momentum play. The 96.3% HOD dominance and sustained 26.0x relative volume suggest institutional accumulation or sympathy flow rather than company-specific fundamentals.",
+          "bullFactors": [
+            "Session HODs dominating (96.3% HOD pct) — continuation strength signal, shorts covering",
+            "High relative volume (26.0x) sustained intraday — not a premarket flash fade, shows staying power",
+            "Gap + trend break setup — gave time to set up, not a 100%+ 1-2 minute spike"
+          ],
+          "bearFactors": [
+            "No news catalyst — moving on sympathy/theme spillover, structurally fragile if broader theme fades",
+            "Float tier 'Thick' (20.71M) — outside preferred <10M, reduces intraday volatility upside and daily room headroom",
+            "Financial Services sector with no real cash event — sector rotation risk if sentiment shifts"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NCPL",
+          "hod": 71,
+          "hodExact": 71.46,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Netcapital Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 7.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 7.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7407,
+          "open": 1.17,
+          "gapPct": 57.96,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.27,
+          "hodTimeExact": "08:38 AM ET",
+          "close": 1.01,
+          "fade": 20,
+          "fadeExact": 20.47,
+          "vwap": 1.1508,
+          "vsVwap": "below",
+          "pmHigh": 1.41,
+          "volRaw": "98.3M",
+          "volDollar": 113113800,
+          "relVol": 1.8,
+          "avgVolM": 53.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCPL",
+          "newsSummary": "NCPL ran 71.46% today with no identifiable news catalyst or earnings announcement. The move appears to be pure intraday momentum with strong session HODs dominating (71.46% HOD vs. 20.47% fade), suggesting institutional accumulation and retail continuation rather than event-driven buying. Without catalyst merit, this is a structural tape play on low float and relative volume.",
+          "bullFactors": [
+            "Excellent float tier at 7.95M shares — well under 10M preference, creates scarcity for intraday runners",
+            "Strong HOD/fade ratio (71.46% HOD vs. 20.47% fade) — session HODs dominating indicates hot tape and shorts blowing out, not premarket spike fade",
+            "Sustained relative volume at 1.8x — intraday vol/min exceeded premarket, holding liquidity throughout session",
+            "No dilutive news or offerings visible — clean chart action without cap-raising overhead"
+          ],
+          "bearFactors": [
+            "NO CATALYST — running on sympathy/tape alone with no real news, earnings, or partnership. Vulnerable to sudden reversal without fundamental support.",
+            "Gap-driven entry (57.96% gap) — much of move came from open; less time for flag/downtrend break setup to develop intraday",
+            "Extreme single-day move without anchor — 71% HOD on no news creates tail risk for gap-down fade or institutional taking profits at open next session",
+            "Micro-cap market cap ($8M) — tight liquidity beyond intraday; susceptible to black swan or sudden news that reverses the tape"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CPOP",
+          "hod": 63,
+          "hodExact": 63.26,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Pop Culture Group Co., Ltd Class A Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 0.95,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 0.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.11,
+          "open": 4.51,
+          "gapPct": 9.73,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.71,
+          "hodTimeExact": "09:45 AM ET",
+          "close": 4.29,
+          "fade": 36,
+          "fadeExact": 36.07,
+          "vwap": 5.2999,
+          "vsVwap": "below",
+          "pmHigh": 4.7,
+          "volRaw": "1.2M",
+          "volDollar": 6346874,
+          "relVol": 2.3,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CPOP",
+          "newsSummary": "CPOP moved 63% intraday with zero substantive news catalyst — pure structural momentum. The sustained HOD dominance (63% of candles), nano float (0.95M), and 2.3x relative volume suggest institutional accumulation and retail continuation rather than news-driven spike.",
+          "bullFactors": [
+            "Nano float (0.95M) — extreme leverage on institutional buying pressure",
+            "HOD-dominant session (63%) with sustained intraday volume — textbook China rig pattern, not premarket fade",
+            "2.3x relative volume all day indicates real participation, not flash spike",
+            "9.7% gap up provided early entry confirmation before afternoon continuation"
+          ],
+          "bearFactors": [
+            "No catalyst means move is purely technical/structural — vulnerable to reversal on profit-taking or broader market shift",
+            "Chinese micro-cap with zero news — regulatory/delisting risk inherent to sector",
+            "63% gain in one session may attract shorting pressure and late-day distribution",
+            "Nano float can trigger violent reversals if institutional support withdraws"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "ZEO",
+          "hod": 58,
+          "hodExact": 58.54,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Zeo Energy Corporation Class A Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 42.05,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.246,
+          "open": 0.233,
+          "gapPct": -5.28,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.39,
+          "hodTimeExact": "12:36 PM ET",
+          "close": 0.3119,
+          "fade": 20,
+          "fadeExact": 20.03,
+          "vwap": 0.3529,
+          "vsVwap": "below",
+          "pmHigh": 0.2465,
+          "volRaw": "118.3M",
+          "volDollar": 41737347,
+          "relVol": 26.6,
+          "avgVolM": 4.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZEO",
+          "newsSummary": "ZEO ran 58.54% on the session with no identifiable news catalyst — a pure price-action move in an Energy sector name. The HOD-dominated tape (58.54% HOD vs 20.03% fade) and 26.6x relative volume suggest intraday institutional accumulation or sympathy flow, but without confirmed news or a substantive catalyst, this is a momentum-driven runner with structural risk.",
+          "bullFactors": [
+            "Session HODs dominating (58.54% HOD pct) indicates afternoon continuation strength and short covering, consistent with Jack's 'hot cycle' signature",
+            "High relative volume (26.6x) all day supports sustained institutional pressure rather than flash spike-and-dump",
+            "Gapped down 5.28% at open before reversing hard intraday — classic dip/soak setup that Jack targets for accumulation breakouts"
+          ],
+          "bearFactors": [
+            "Thick float (42.05M shares) — well above Jack's <10M preference; reduces leverage and increases fade risk on profit-taking",
+            "No news catalyst means the move is purely momentum/sympathy-driven; vulnerable to sudden narrative loss or sector rotation",
+            "No visible daily chart room confirmation provided — unclear if there is technical resistance overhead or if this is already extended",
+            "Energy sector with no identifiable fundamental driver (ER, partnership, real deal) increases pump-risk profile"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 309,
+      "fade": 24,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "GRML led +309.82% (19% fade). 4/10 held <20% fade. news: GRML — \"Greenland Mines More Than Doubles Control Position in the Sarfartoq Rare Earth Magnet District in West Greenland\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS and sympathy plays (5 of 10 runners), with contract/merger catalysts providing minimal structural support—a red flag that momentum is running on pure technicals and float exhaustion rather than institutional conviction. Float is split between ultra-tight tiers (VEEE at 0.57M, CPOP at 0.95M, BTTC at 5.91M) and higher floats (GLND 32M, ZEO 42M), creating a bifurcated market where micro-floats are running hard while larger-cap runners lack conviction (GLND fading 15% despite 183% HOD). The session split reveals a COLD cycle pattern: premarket spikes dominated (GLND, NCPL printed HODs in premarket, then faded hard), while morning runners (GRML, BTTC, VEEE) held afternoon strength—but GRML's 310% HOD on a contract news tag and VEEE's 166% on no-news suggests these are China rig mechanics (sustained intraday vol, tight floats, afternoon holds) rather than institutional accumulation setups. This framework would flag today as neutral-to-cold: no real catalysts, high fade percentages across the board (15-46%), and premarket-dominated spikes indicate retail exhaustion rather than the afternoon HOD continuation and institutional volume profile needed for A-tier tape quality."
+    },
     {
       "date": "2026-09-18",
       "runners": [
