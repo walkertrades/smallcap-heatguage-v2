@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-22T11:58:56.247103Z",
-  "count": 9887,
+  "exportedAt": "2026-09-23T11:43:51.492903Z",
+  "count": 9897,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,969 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-22",
+      "runners": [
+        {
+          "sym": "JAGX",
+          "hod": 1455,
+          "hodExact": 1455.43,
+          "news": [
+            "Jaguar Health Receives Fee Waivers from FDA",
+            "Form 8-K",
+            "Jaguar Health, Inc. Announces Reverse Stock Split"
+          ],
+          "tag": "FDA",
+          "name": "Jaguar Health, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.52,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [
+            "Float 0.52M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.67,
+          "open": 2.83,
+          "gapPct": 5.99,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 41.53,
+          "hodTimeExact": "04:29 PM ET",
+          "close": 34.46,
+          "fade": 17,
+          "fadeExact": 17.02,
+          "vwap": 23.7769,
+          "vsVwap": "above",
+          "pmHigh": 3.03,
+          "volRaw": "27.9M",
+          "volDollar": 664548163,
+          "relVol": 375.7,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [
+            "Jaguar Health Receives Fee Waivers from FDA",
+            "Form 8-K",
+            "Jaguar Health, Inc. Announces Reverse Stock Split"
+          ],
+          "newsItems": [
+            {
+              "title": "Jaguar Health Receives Fee Waivers from FDA",
+              "url": "https://www.stocktitan.net/news/JAGX/jaguar-health-receives-fee-waivers-from-41gfblyoyz7g.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T13:05:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526396752/d79729d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Jaguar Health, Inc. Announces Reverse Stock Split",
+              "url": "https://www.stocktitan.net/news/JAGX/jaguar-health-inc-announces-reverse-stock-lx7zi3gxwdzx.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-15T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:JAGX",
+          "newsSummary": "Jaguar Health received FDA fee waivers announced at 13:05 on 2026-09-22, AFTER the stock had already achieved its 1455% intraday high. The fee waiver is a cost reduction for regulatory submissions but is not a clinical catalyst—it's an administrative win that follows, not causes, the move. Real merit is limited; this is a reactive headline to justify momentum already in flight.",
+          "bullFactors": [
+            "Exceptional float at 0.52M shares—extreme leverage for institutional accumulation and retail FOMO continuation",
+            "Sustained 1455% HOD with only 17% fade indicates hot tape, afternoon strength, and shorts being blown out throughout session",
+            "High relative volume (375.7x) all day signals genuine intraday institutional buying pressure, not a premarket one-minute spike",
+            "Form 8-K filed before peak suggests positioned insiders; FDA fee waiver removes future cash headwinds on approval path"
+          ],
+          "bearFactors": [
+            "Reverse stock split on 2026-09-15 is a classic dilution/desperation red flag and overhead supply risk for continuation",
+            "News came AFTER the move—reactive headline chasing, not a true catalyst that drove the setup; tail wagging the dog",
+            "1455% run in a single session creates extreme liquidity and black swan risk; retail euphoria often ends in violent fade into close or next day",
+            "Fee waiver is administrative noise, not clinical efficacy data or real cash deal; biotech micro-caps with reverse splits are high-risk structures"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RIVr",
+          "hod": 328,
+          "hodExact": 328.57,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "RiverNorth Opportunities Fund, Inc. Rights (expiring September 23, 2026)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0007,
+          "open": 0.0028,
+          "gapPct": 300.0,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.003,
+          "hodTimeExact": "08:38 AM ET",
+          "close": 0.0001,
+          "fade": 96,
+          "fadeExact": 96.67,
+          "vwap": 0.0015,
+          "vsVwap": "below",
+          "pmHigh": 0.009,
+          "volRaw": "1.0M",
+          "volDollar": 1556,
+          "relVol": 0.2,
+          "avgVolM": 4.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNYS",
+          "tvSymbol": null,
+          "newsSummary": "RIVr gapped 300% and ran 328% from open with zero news catalyst identified across sources. The move is purely technical/sentiment-driven with no substantive announcement, earnings, partnership, or regulatory event to justify the magnitude.",
+          "bullFactors": [
+            "Sustained intraday momentum — HOD printed at 328% suggesting continued buying pressure rather than immediate fade",
+            "High relative volume (0.2x) maintained throughout suggests institutional or coordinated retail accumulation",
+            "Premarket gap + intraday continuation pattern creates two-stage breakout structure that can trap shorts"
+          ],
+          "bearFactors": [
+            "Zero news catalyst — pure speculation with no fundamental trigger; high risk of sudden reversal",
+            "Float data missing (null) — cannot assess true low-float status; liquidity profile unknown",
+            "Gap of 300% on no news is classic pump signature — sustainability highly questionable without follow-on catalyst",
+            "Unknown sector and zero market cap data suggest micro-cap or shell structure with elevated dilution/reverse-merger risk"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "LHSW",
+          "hod": 209,
+          "hodExact": 209.47,
+          "news": [
+            "Lianhe Sowell International Group Ltd. Signs Strategic Cooperation Agreement with Subsidiary of Chery Group Holding Company to Advance Intelligent Equipment in China’s Automotive Aftermarket"
+          ],
+          "tag": "CONTRACT",
+          "name": "Lianhe Sowell International Group Ltd Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 10.33,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.33M + RelVol 42.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.33M + RelVol 42.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.433,
+          "open": 1.27,
+          "gapPct": 193.3,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.34,
+          "hodTimeExact": "09:18 AM ET",
+          "close": 0.8891,
+          "fade": 33,
+          "fadeExact": 33.65,
+          "vwap": 0.922,
+          "vsVwap": "below",
+          "pmHigh": 1.56,
+          "volRaw": "346.0M",
+          "volDollar": 319037151,
+          "relVol": 42.1,
+          "avgVolM": 8.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Lianhe Sowell International Group Ltd. Signs Strategic Cooperation Agreement with Subsidiary of Chery Group Holding Company to Advance Intelligent Equipment in China’s Automotive Aftermarket"
+          ],
+          "newsItems": [
+            {
+              "title": "Lianhe Sowell International Group Ltd. Signs Strategic Cooperation Agreement with Subsidiary of Chery Group Holding Company to Advance Intelligent Equipment in China’s Automotive Aftermarket",
+              "url": "https://www.stocktitan.net/news/LHSW/lianhe-sowell-international-group-ltd-signs-strategic-cooperation-bjco22x868m2.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LHSW",
+          "newsSummary": "LHSW signed a strategic cooperation agreement with a Chery Group subsidiary to develop intelligent equipment for China's automotive aftermarket. The news broke at noon (before the HOD), positioning it as a real catalyst rather than reactive coverage. The deal targets a substantial domestic market segment and adds a blue-chip partner, which qualifies as genuine cash-value activity rather than fluff.",
+          "bullFactors": [
+            "Float 10.33M is at the threshold Jack prefers; intraday vol/min (42.1x relative) is extremely elevated, supporting the float threshold stretch",
+            "Real catalyst: named partnership with Chery subsidiary (major automotive OEM) for intelligent equipment — cash-credible, not sympathy or dilutive",
+            "Session HOD achieved 209% with only 33.65% fade, indicating sustained afternoon strength and short covering pressure consistent with Jack's 'HOT' tape signal",
+            "China-domiciled with substantive domestic market deal suggests institutional accumulation phase before retail expansion"
+          ],
+          "bearFactors": [
+            "Float just above 10M threshold; at mid-cap tier, liquidity can compress on any unexpected supply",
+            "Gap up 193% premarket creates significant overhead supply and early-entry risk; late arrival traders face poor risk/reward",
+            "News broke at noon (before HOD), leaving limited intraday setup time for Jack's preferred dip-and-soak entry pattern",
+            "Chinese micro-cap with structural volatility; black swan liquidity risk if institutional buying reverses or retail fades into close"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "DCOY",
+          "hod": 197,
+          "hodExact": 197.27,
+          "news": [
+            "Decoy Therapeutics, Inc. Issues Correction to Warrant Inducement Transaction Press Release",
+            "Decoy Therapeutics, Inc. Announces a Warrant Inducement Transaction for $3.85 Million in Gross Proceeds Priced At-The-Market under Nasdaq Rules",
+            "Decoy Therapeutics Exploring Pan-Filovirus Program via FDA Animal Rule Pathway and Non-Dilutive Funding",
+            "/C O R R E C T I O N -- Decoy Therapeutics, Inc/",
+            "Form 8-K"
+          ],
+          "tag": "OFFERING",
+          "name": "Decoy Therapeutics Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.13,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 1.13M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.56,
+          "open": 5.15,
+          "gapPct": 101.17,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.61,
+          "hodTimeExact": "09:41 AM ET",
+          "close": 3.1,
+          "fade": 59,
+          "fadeExact": 59.26,
+          "vwap": 5.3088,
+          "vsVwap": "below",
+          "pmHigh": 5.76,
+          "volRaw": "105.3M",
+          "volDollar": 558751805,
+          "relVol": 3113.1,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Decoy Therapeutics, Inc. Issues Correction to Warrant Inducement Transaction Press Release",
+            "Decoy Therapeutics, Inc. Announces a Warrant Inducement Transaction for $3.85 Million in Gross Proceeds Priced At-The-Market under Nasdaq Rules",
+            "Decoy Therapeutics Exploring Pan-Filovirus Program via FDA Animal Rule Pathway and Non-Dilutive Funding",
+            "/C O R R E C T I O N -- Decoy Therapeutics, Inc/",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Decoy Therapeutics, Inc. Issues Correction to Warrant Inducement Transaction Press Release",
+              "url": "https://www.stocktitan.net/news/DCOY/decoy-therapeutics-inc-issues-correction-to-warrant-inducement-siebidpb7c0n.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T22:14:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Decoy Therapeutics, Inc. Announces a Warrant Inducement Transaction for $3.85 Million in Gross Proceeds Priced At-The-Market under Nasdaq Rules",
+              "url": "https://www.stocktitan.net/news/DCOY/decoy-therapeutics-inc-announces-a-warrant-inducement-transaction-wvmkaz3susiy.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T16:50:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Decoy Therapeutics Exploring Pan-Filovirus Program via FDA Animal Rule Pathway and Non-Dilutive Funding",
+              "url": "https://www.stocktitan.net/news/DCOY/decoy-therapeutics-exploring-pan-filovirus-program-via-fda-animal-lhujl09at9da.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "/C O R R E C T I O N -- Decoy Therapeutics, Inc/",
+              "url": "https://www.stocktitan.net/news/DCOY/c-o-r-r-e-c-t-i-o-n-decoy-therapeutics-6i4aqyandicb.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1615219/000161521926000016/dcoy-20260914.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DCOY",
+          "newsSummary": "DCOY spiked 197% intraday on an FDA Animal Rule pathway announcement for a pan-filovirus program (premarket catalyst, real merit), but the move was immediately followed by a warrant inducement transaction for $3.85M at-the-market pricing announced mid-session. The warrant offering is dilutive and undermines the fundamental bullish case; the 59% fade from HOD reflects institutional and retail recognition of dilution.",
+          "bullFactors": [
+            "Ultra-tight float at 1.13M shares — extreme leverage on any intraday volume spike",
+            "Real biotech catalyst (FDA Animal Rule pathway + non-dilutive funding claim) provided initial fuel and time to set up before the spike went parabolic",
+            "Sustained intraday relative volume of 3113x shows aggressive institutional participation throughout the session, not just premarket pump"
+          ],
+          "bearFactors": [
+            "Warrant inducement transaction (dilutive, ATM pricing) announced mid-session after the move — a red flag that undermines credibility and triggered the 59% fade",
+            "Initial gap of 101% and HOD spike of 197% in 1–2 minutes on news is aggressive and leaves heavy overhead supply; fade intensity (59%) signals strong rejection",
+            "Correction press releases suggest administrative/communication chaos; compound dilution risk if more warrants are exercised or announced"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "ZEO",
+          "hod": 133,
+          "hodExact": 133.82,
+          "news": [
+            "Zeo Energy Enters Cooperation Agreement with Ewyze to Develop Integrated Off-Grid Power and Data-Center Infrastructure"
+          ],
+          "tag": "CONTRACT",
+          "name": "Zeo Energy Corporation Class A Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 42.05,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$29M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3119,
+          "open": 0.3478,
+          "gapPct": 11.49,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.7293,
+          "hodTimeExact": "10:16 AM ET",
+          "close": 0.4898,
+          "fade": 32,
+          "fadeExact": 32.84,
+          "vwap": 0.5228,
+          "vsVwap": "below",
+          "pmHigh": 0.3861,
+          "volRaw": "412.0M",
+          "volDollar": 215400668,
+          "relVol": 40.7,
+          "avgVolM": 10.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Zeo Energy Enters Cooperation Agreement with Ewyze to Develop Integrated Off-Grid Power and Data-Center Infrastructure"
+          ],
+          "newsItems": [
+            {
+              "title": "Zeo Energy Enters Cooperation Agreement with Ewyze to Develop Integrated Off-Grid Power and Data-Center Infrastructure",
+              "url": "https://www.stocktitan.net/news/ZEO/zeo-energy-enters-cooperation-agreement-with-ewyze-to-develop-cicsesuyee9c.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Data Center",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZEO",
+          "newsSummary": "ZEO announced a cooperation agreement with Ewyze to develop integrated off-grid power and data-center infrastructure at 12:30 PM, after the stock had already achieved a 133.82% intraday gain. The news came post-HOD, suggesting it was reactive to price action rather than the primary catalyst. The partnership itself is real cash value (infrastructure play), but timing and execution details are unclear.",
+          "bullFactors": [
+            "Sustained intraday momentum with 133.82% HOD — multiple sessions HODs printed, not a premarket spike fade",
+            "High relative volume (40.7x) throughout session indicates institutional accumulation, not retail pump",
+            "Real catalyst: off-grid power + data-center infrastructure is tangible infrastructure play with partnership validation",
+            "News arrived after setup had time to develop — not a 100%+ spike in 1-2 minutes on announcement"
+          ],
+          "bearFactors": [
+            "Float is 42.05M — well above preferred sub-10M threshold and above intraday vol/min threshold justification",
+            "32.84% fade from HOD suggests significant profit-taking and distribution into strength",
+            "Market cap only $29.2M with thick float creates dilution risk and liquidity concerns on reversal",
+            "Partnership announcement lacks specific revenue timeline, funding commitment, or quantified scope — vague cooperation agreements often disappoint"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RAIN",
+          "hod": 132,
+          "hodExact": 132.98,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Rain Enhancement Technologies Holdco, Inc. Class A Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 5.31,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [
+            "Float 5.31M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.31M + RelVol 212.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.31M + RelVol 212.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.661,
+          "open": 0.68,
+          "gapPct": 2.87,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.54,
+          "hodTimeExact": "02:27 PM ET",
+          "close": 1.02,
+          "fade": 33,
+          "fadeExact": 33.77,
+          "vwap": 1.07,
+          "vsVwap": "below",
+          "pmHigh": 0.76,
+          "volRaw": "63.9M",
+          "volDollar": 68423011,
+          "relVol": 212.7,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RAIN",
+          "newsSummary": "RAIN moved 132.98% intraday with no identifiable news catalyst or press releases. The move appears purely technical/momentum-driven on a low-float name, with sustained afternoon strength (HOD printing late session) and 212.7% relative volume indicating institutional accumulation or a structural intraday rig pattern rather than event-driven catalysis.",
+          "bullFactors": [
+            "Extremely low float at 5.31M shares — fits Jack's <10M preference perfectly",
+            "Strong intraday continuation: 132.98% HOD with only 33.77% fade suggests institutional demand held throughout session, not a premarket spike-and-dump",
+            "Relative volume of 212.7% indicates sustained buying pressure all day, consistent with China Rig or aggressive institutional accumulation pattern",
+            "Afternoon HOD domination (implied by high HOD % and low fade %) signals hot tape and potential short squeeze dynamics"
+          ],
+          "bearFactors": [
+            "No catalyst = pure momentum/sympathy play with execution risk and low conviction hold",
+            "Micro-cap with $12.1M market cap and no news carries higher liquidity risk and black swan vulnerability",
+            "33.77% fade from HOD is material; if institutional buying reverses tomorrow or next session, pullback to support could be sharp",
+            "Lack of real cash-value catalyst or earnings/partnership means risk of round-trip or secondary offering dilution unannounced"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "QNME",
+          "hod": 118,
+          "hodExact": 118.89,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Quanome Technologies, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 14.0,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$30M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6396,
+          "open": 1.32,
+          "gapPct": 106.38,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.4,
+          "hodTimeExact": "07:44 AM ET",
+          "close": 0.8509,
+          "fade": 39,
+          "fadeExact": 39.22,
+          "vwap": 1.2002,
+          "vsVwap": "below",
+          "pmHigh": 1.7601,
+          "volRaw": "133.1M",
+          "volDollar": 159693383,
+          "relVol": 6.5,
+          "avgVolM": 20.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1996192/000121390026101830/ea0305363-8k_quanome.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:QNME",
+          "newsSummary": "Form 8-K filed on 2026-09-21 ahead of the move, indicating a material corporate event. The 118.89% HOD gain with a 39.22% fade and 106.38% gap suggests institutional accumulation and intraday momentum following a substantive announcement. The catalyst appears real rather than speculative.",
+          "bullFactors": [
+            "Strong intraday momentum: 118.89% HOD with sustained volume (6.5x relVol) indicates institutional continuation, not a premarket spike fade",
+            "Float tier and liquidity: 14M float at mid-tier is manageable; relVol 6.5x shows high participation throughout the session",
+            "Setup timing: Form 8-K filed before the move provides a real catalyst; tape shows afternoon HOD printing—classic hot cycle continuation",
+            "Daily chart room: No warrants/convertibles/ATM mentioned; Industrials sector with $29.6M market cap provides intraday volatility"
+          ],
+          "bearFactors": [
+            "39.22% fade from HOD is material; post-announcement selling pressure suggests profit-taking after initial run",
+            "Form 8-K title only—actual deal terms unknown; M&A without disclosed valuation/synergy details is incomplete catalyst",
+            "Gap-dependent: 106.38% gap means much of move was premarket-driven; sustainability into next session uncertain",
+            "Mid-tier float (14M) is above Jack's <10M preference; liquidity may thin on reversal or consolidation"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CWD",
+          "hod": 108,
+          "hodExact": 108.07,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "CaliberCos Inc. Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 9.91,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 9.91M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.91M + RelVol 493.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.91M + RelVol 493.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.519,
+          "open": 0.5598,
+          "gapPct": 7.86,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.0799,
+          "hodTimeExact": "10:08 AM ET",
+          "close": 0.7283,
+          "fade": 32,
+          "fadeExact": 32.56,
+          "vwap": 0.7963,
+          "vsVwap": "below",
+          "pmHigh": 0.578,
+          "volRaw": "102.8M",
+          "volDollar": 81895729,
+          "relVol": 493.9,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1627282/000162728226000070/cwd-20260914.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CWD",
+          "newsSummary": "CWD filed a Form 8-K on 2026-09-15, well before today's move, indicating a material event disclosure. The 108% HOD gain with only 32.56% fade and sustained 493.9x relative volume suggests institutional accumulation around the 8-K catalyst rather than a reactive pop. The real merit lies in the 8-K content (undisclosed in this data), but the tape action—afternoon HOD printing with high relative volume—implies institutional conviction, not fluff.",
+          "bullFactors": [
+            "Sub-10M float (9.91M) with 493.9x relative volume = extreme institutional demand relative to share structure",
+            "108% HOD on a prior catalyst (8-K filed Sept 15, before today) + only 32.56% fade = sustained conviction, not pump fade",
+            "Afternoon HOD extension on high volume consistent with institutional accumulation pattern, not premarket spike dominance",
+            "7.86% gap + sustained intraday push suggests fresh institutional entry after digestion of 8-K filing"
+          ],
+          "bearFactors": [
+            "Form 8-K content unknown—could be material positive or neutral disclosure; without detail, cannot confirm catalyst quality",
+            "108% move is extreme; past 100%+ moves on news typically face profit-taking and liquidity challenges on day 2+",
+            "Financial Services sector is lower velocity than biotech/crypto/EV; sustainability of this move uncertain",
+            "No real cash catalyst confirmed (M&A, ER, partnership); 8-K may be routine governance or management change"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "OPENZ",
+          "hod": 100,
+          "hodExact": 100.97,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Opendoor Technologies Inc Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant",
+          "sector": "REAL ESTATE AGENTS & MANAGERS (FOR OTHERS)",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0717,
+          "open": 0.12,
+          "gapPct": 67.48,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.144,
+          "hodTimeExact": "08:51 AM ET",
+          "close": 0.0975,
+          "fade": 32,
+          "fadeExact": 32.29,
+          "vwap": 0.1251,
+          "vsVwap": "below",
+          "pmHigh": 0.18,
+          "volRaw": "13.9M",
+          "volDollar": 1738250,
+          "relVol": 18.4,
+          "avgVolM": 0.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OPENZ",
+          "newsSummary": "OPENZ ran 100.97% HOD with a 67.48% gap and 32.29% fade, posting 18.4x relative volume on no announced catalyst or news. The move appears to be pure intraday momentum with no substantive fundamental driver—classic no-news runner with strong tape participation but high fade risk characteristic of retail-driven spikes.",
+          "bullFactors": [
+            "Sustained HOD printing (100.97% gain) with high relative volume (18.4x) shows intraday institutional or retail accumulation",
+            "Large gap (67.48%) and afternoon continuation suggest momentum buyers entered and held through session",
+            "Real estate sector is not crowded in small-cap runners; less competition for tape attention"
+          ],
+          "bearFactors": [
+            "No news catalyst—move is purely technical/momentum; highly vulnerable to fade and reversal without catalyst follow-through",
+            "32.29% fade from HOD is material and signals profit-taking or institutional exit; limited fuel for sustained multi-day hold",
+            "Float unknown; inability to confirm <10M shares is a critical miss for Jack's setup validation",
+            "Real estate agents sector has no thematic tailwind (no AI, no M&A, no compliance angle); isolated move makes it harder to hold retail attention"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "GRML",
+          "hod": 93,
+          "hodExact": 93.31,
+          "news": [
+            "Greenland Mines Applauds Formal Signing of U.S.-Denmark-Greenland Security Agreement at United Nations",
+            "Greenland Mines More Than Doubles Control Position in the Sarfartoq Rare Earth Magnet District in West Greenland",
+            "Greenland Mines Applauds Historic U.S.-Denmark-Greenland Security Agreement, Reinforcing Greenland’s Strategic Importance to the United States"
+          ],
+          "tag": "CONTRACT",
+          "name": "Greenland Mines Ltd. Common Stock",
+          "sector": "Basic Materials",
+          "country": "US",
+          "floatM": 6.1,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$140M",
+          "riskBadges": [
+            "Float 6.1M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 9.42,
+          "open": 13.7,
+          "gapPct": 45.44,
+          "time": "regular session",
+          "session": "morning",
+          "high": 18.2099,
+          "hodTimeExact": "11:19 AM ET",
+          "close": 14.15,
+          "fade": 22,
+          "fadeExact": 22.3,
+          "vwap": 14.617,
+          "vsVwap": "below",
+          "pmHigh": 14.22,
+          "volRaw": "101.0M",
+          "volDollar": 1476607513,
+          "relVol": 8.5,
+          "avgVolM": 11.9,
+          "ssr": false,
+          "reverseSplit": "50:1",
+          "newsHeadlines": [
+            "Greenland Mines Applauds Formal Signing of U.S.-Denmark-Greenland Security Agreement at United Nations",
+            "Greenland Mines More Than Doubles Control Position in the Sarfartoq Rare Earth Magnet District in West Greenland",
+            "Greenland Mines Applauds Historic U.S.-Denmark-Greenland Security Agreement, Reinforcing Greenland’s Strategic Importance to the United States"
+          ],
+          "newsItems": [
+            {
+              "title": "Greenland Mines Applauds Formal Signing of U.S.-Denmark-Greenland Security Agreement at United Nations",
+              "url": "https://www.stocktitan.net/news/GRML/greenland-mines-applauds-formal-signing-of-u-s-denmark-greenland-qrbsa0af90q9.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T16:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Greenland Mines More Than Doubles Control Position in the Sarfartoq Rare Earth Magnet District in West Greenland",
+              "url": "https://www.stocktitan.net/news/GRML/greenland-mines-more-than-doubles-control-position-in-the-sarfartoq-g48o9e0zssed.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-21T13:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Greenland Mines Applauds Historic U.S.-Denmark-Greenland Security Agreement, Reinforcing Greenland’s Strategic Importance to the United States",
+              "url": "https://www.stocktitan.net/news/GRML/greenland-mines-applauds-historic-u-s-denmark-greenland-security-wkmbqgxz3v8i.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T23:03:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Rare Earth",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Trump/Policy",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GRML",
+          "newsSummary": "GRML moved on a multi-day geopolitical catalyst: formal signing of the U.S.-Denmark-Greenland Security Agreement at the UN (Sept 22, after HOD), coupled with a doubled control position in the Sarfartoq Rare Earth Magnet District (Sept 21, before the move). The U.S.-Greenland strategic pivot is real cash-value news—rare earth supply chain positioning vs. China is a genuine national defense priority, not sympathy or fluff.",
+          "bullFactors": [
+            "Tight 6.1M float + 93.31% HOD printed intraday (sustained, not premarket spike fade)—hot cycle tape signature",
+            "Real catalyst with structural merit: rare earth supply chain de-risking amid U.S.-China tech competition; geopolitical tailwind is durable, not one-day pop",
+            "45.44% gap + 8.5x relative volume confirm institutional accumulation; news hit after HOD (reactive to intraday demand, not the trigger), suggests legs remain",
+            "No dilutive news, warrants, or ATM overhead; clean daily chart setup potential"
+          ],
+          "bearFactors": [
+            "22.3% fade into close signals profit-taking and potential resistance; overnight sustainability risk on a geopolitical story (subject to narrative shift/headlines)",
+            "Rare earth theme is cyclical and macro-dependent; if U.S.-Greenland deal sentiment reverses or China policy changes, retailmay dump fast",
+            "Small-cap rare earth names often trade on sentiment rather than near-term revenue; execution risk on Sarfartoq development is years out"
+          ],
+          "setupGrade": "A"
+        }
+      ],
+      "hod": 1455,
+      "fade": 40,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "JAGX led +1455.43% (17% fade). 1/10 held <20% fade. news: JAGX — \"Jaguar Health Receives Fee Waivers from FDA\".",
+      "aiSummary": "Today's tape is dominated by real catalysts (FDA, CONTRACT, ACQUISITION) with $664M in JAGX alone—but the session distribution is bifurcated and concerning: five names spiked in premarket (RIVr, LHSW, QNME, OPENZ) showing classic fade patterns, while morning/afternoon HODs (DCOY, GRML, RAIN, CWD) kept legs despite 30%+ pullbacks, signaling two separate market behaviors. Float structure is ideal for the playbook (eight sub-15M, four micro-cap under 2M), yet DCOY's dilutive offering tag and RIVr's 96.67% fade into illiquid premarket ($1.5K vol) are automatic red flags; conversely, GRML's $1.47B morning volume on CONTRACT news and JAGX's sustained $664M after-hours print suggest institutional accumulation rather than retail pump. This is a **NEUTRAL-TO-COLD cycle**—too many premarket spikes that didn't hold tape, too few afternoon session HODs printing hard continuation, and zero names matching the A++ profile (real catalyst + float <10M + time to set + sustained volume + intraday HOD dominance). The momentum trader's playbook flags this as a setup day, not a chase day; wait for tomorrow's open to see which names rebuild daily chart structure."
+    },
     {
       "date": "2026-09-21",
       "runners": [
