@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-09-23T11:43:51.492903Z",
-  "count": 9897,
+  "count": 9895,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -126,76 +126,6 @@
             "Fee waiver is administrative noise, not clinical efficacy data or real cash deal; biotech micro-caps with reverse splits are high-risk structures"
           ],
           "setupGrade": "B"
-        },
-        {
-          "sym": "RIVr",
-          "hod": 328,
-          "hodExact": 328.57,
-          "news": [],
-          "tag": "NO-NEWS",
-          "name": "RiverNorth Opportunities Fund, Inc. Rights (expiring September 23, 2026)",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatTier": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0007,
-          "open": 0.0028,
-          "gapPct": 300.0,
-          "time": "premarket",
-          "session": "premarket",
-          "high": 0.003,
-          "hodTimeExact": "08:38 AM ET",
-          "close": 0.0001,
-          "fade": 96,
-          "fadeExact": 96.67,
-          "vwap": 0.0015,
-          "vsVwap": "below",
-          "pmHigh": 0.009,
-          "volRaw": "1.0M",
-          "volDollar": 1556,
-          "relVol": 0.2,
-          "avgVolM": 4.2,
-          "ssr": true,
-          "reverseSplit": null,
-          "newsHeadlines": [],
-          "newsItems": [],
-          "newsStatus": "none",
-          "themes": [],
-          "themeStatus": "nonews",
-          "exchange": "XNYS",
-          "tvSymbol": null,
-          "newsSummary": "RIVr gapped 300% and ran 328% from open with zero news catalyst identified across sources. The move is purely technical/sentiment-driven with no substantive announcement, earnings, partnership, or regulatory event to justify the magnitude.",
-          "bullFactors": [
-            "Sustained intraday momentum — HOD printed at 328% suggesting continued buying pressure rather than immediate fade",
-            "High relative volume (0.2x) maintained throughout suggests institutional or coordinated retail accumulation",
-            "Premarket gap + intraday continuation pattern creates two-stage breakout structure that can trap shorts"
-          ],
-          "bearFactors": [
-            "Zero news catalyst — pure speculation with no fundamental trigger; high risk of sudden reversal",
-            "Float data missing (null) — cannot assess true low-float status; liquidity profile unknown",
-            "Gap of 300% on no news is classic pump signature — sustainability highly questionable without follow-on catalyst",
-            "Unknown sector and zero market cap data suggest micro-cap or shell structure with elevated dilution/reverse-merger risk"
-          ],
-          "setupGrade": "C"
         },
         {
           "sym": "LHSW",
@@ -779,76 +709,6 @@
           "setupGrade": "B+"
         },
         {
-          "sym": "OPENZ",
-          "hod": 100,
-          "hodExact": 100.97,
-          "news": [],
-          "tag": "NO-NEWS",
-          "name": "Opendoor Technologies Inc Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant",
-          "sector": "REAL ESTATE AGENTS & MANAGERS (FOR OTHERS)",
-          "country": "US",
-          "floatM": null,
-          "floatTier": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0717,
-          "open": 0.12,
-          "gapPct": 67.48,
-          "time": "premarket",
-          "session": "premarket",
-          "high": 0.144,
-          "hodTimeExact": "08:51 AM ET",
-          "close": 0.0975,
-          "fade": 32,
-          "fadeExact": 32.29,
-          "vwap": 0.1251,
-          "vsVwap": "below",
-          "pmHigh": 0.18,
-          "volRaw": "13.9M",
-          "volDollar": 1738250,
-          "relVol": 18.4,
-          "avgVolM": 0.8,
-          "ssr": false,
-          "reverseSplit": null,
-          "newsHeadlines": [],
-          "newsItems": [],
-          "newsStatus": "none",
-          "themes": [],
-          "themeStatus": "nonews",
-          "exchange": "XNAS",
-          "tvSymbol": "NASDAQ:OPENZ",
-          "newsSummary": "OPENZ ran 100.97% HOD with a 67.48% gap and 32.29% fade, posting 18.4x relative volume on no announced catalyst or news. The move appears to be pure intraday momentum with no substantive fundamental driver—classic no-news runner with strong tape participation but high fade risk characteristic of retail-driven spikes.",
-          "bullFactors": [
-            "Sustained HOD printing (100.97% gain) with high relative volume (18.4x) shows intraday institutional or retail accumulation",
-            "Large gap (67.48%) and afternoon continuation suggest momentum buyers entered and held through session",
-            "Real estate sector is not crowded in small-cap runners; less competition for tape attention"
-          ],
-          "bearFactors": [
-            "No news catalyst—move is purely technical/momentum; highly vulnerable to fade and reversal without catalyst follow-through",
-            "32.29% fade from HOD is material and signals profit-taking or institutional exit; limited fuel for sustained multi-day hold",
-            "Float unknown; inability to confirm <10M shares is a critical miss for Jack's setup validation",
-            "Real estate agents sector has no thematic tailwind (no AI, no M&A, no compliance angle); isolated move makes it harder to hold retail attention"
-          ],
-          "setupGrade": "C"
-        },
-        {
           "sym": "GRML",
           "hod": 93,
           "hodExact": 93.31,
@@ -966,7 +826,7 @@
         }
       ],
       "hod": 1455,
-      "fade": 40,
+      "fade": 33,
       "hodTime": "regular session",
       "theme": "Hot Tape",
       "note": "JAGX led +1455.43% (17% fade). 1/10 held <20% fade. news: JAGX — \"Jaguar Health Receives Fee Waivers from FDA\".",
