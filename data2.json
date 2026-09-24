@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-23T11:43:51.492903Z",
-  "count": 9895,
+  "exportedAt": "2026-09-24T12:11:13.597709Z",
+  "count": 9905,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1022 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-23",
+      "runners": [
+        {
+          "sym": "BENF",
+          "hod": 485,
+          "hodExact": 485.18,
+          "news": [
+            "Form 8-K",
+            "Beneficient Announces Strategy to Eliminate HCLP Debt and Heppner Equity Interests",
+            "Pulse Fund Closes $63M Inaugural Fund to Back the Next Generation of Climate Companies",
+            "Beneficient Announces Upcoming Launch of AltLens, an Alternative Asset Portfolio Analytics and Risk Platform for Family Offices and Small Institutional Investors"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Beneficient Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 2.36,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$45M",
+          "riskBadges": [
+            "Float 2.36M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.36M + RelVol 23.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.36M + RelVol 23.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5383,
+          "open": 2.92,
+          "gapPct": 442.45,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 3.15,
+          "hodTimeExact": "04:00 PM ET",
+          "close": 2.9,
+          "fade": 7,
+          "fadeExact": 7.94,
+          "vwap": 2.0285,
+          "vsVwap": "above",
+          "pmHigh": 2.95,
+          "volRaw": "295.0M",
+          "volDollar": 598450352,
+          "relVol": 23.3,
+          "avgVolM": 12.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Beneficient Announces Strategy to Eliminate HCLP Debt and Heppner Equity Interests",
+            "Pulse Fund Closes $63M Inaugural Fund to Back the Next Generation of Climate Companies",
+            "Beneficient Announces Upcoming Launch of AltLens, an Alternative Asset Portfolio Analytics and Risk Platform for Family Offices and Small Institutional Investors"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1775734/000149315226043806/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Beneficient Announces Strategy to Eliminate HCLP Debt and Heppner Equity Interests",
+              "url": "https://www.stocktitan.net/news/BENF/beneficient-announces-strategy-to-eliminate-hclp-debt-and-heppner-wu16x0m0xbvl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-23T11:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Pulse Fund Closes $63M Inaugural Fund to Back the Next Generation of Climate Companies",
+              "url": "https://www.stocktitan.net/news/BENF/pulse-fund-closes-63m-inaugural-fund-to-back-the-next-generation-of-wd9q0nlixvuj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Beneficient Announces Upcoming Launch of AltLens, an Alternative Asset Portfolio Analytics and Risk Platform for Family Offices and Small Institutional Investors",
+              "url": "https://www.stocktitan.net/news/BENF/beneficient-announces-upcoming-launch-of-alt-lens-an-alternative-hf655g9rb8ty.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BENF",
+          "newsSummary": "BENF announced a strategic debt elimination and equity restructuring involving HCLP debt and Heppner interests, followed by a Form 8-K filing. The news came after the move had already occurred (relative_to_high='after'), indicating the market was front-running or pricing in the announcement. The catalyst has real corporate restructuring merit but appears to have been priced in intraday rather than driving the initial spike.",
+          "bullFactors": [
+            "Micro-float (2.36M shares) creates explosive leverage on any sustained buying",
+            "Massive intraday volume (relVol 23.3x) with HOD printing at 485% — session HODs dominating, shorts likely blowing out",
+            "Real catalyst: debt elimination and equity restructuring is substantive corporate action, not fluff",
+            "Sustained move with only 7.94% fade suggests institutional accumulation and follow-through rather than classic pump collapse"
+          ],
+          "bearFactors": [
+            "HOD spike of 485% in a single session approaches dangerous territory — liquidity risk and potential black swan reversal on next session open",
+            "News broke AFTER the move, meaning the spike was either leaked/anticipated or driven by external sympathy — reduces confidence in catalyst magnitude",
+            "Financial Services sector with micro-cap status historically prone to dilutive follow-ups; restructuring announcements can signal prior distress",
+            "No daily chart history provided — cannot verify 'room to upside' or overhead supply; cannot confirm this wasn't a flag break into exhaustion"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WHLR",
+          "hod": 365,
+          "hodExact": 365.78,
+          "news": [
+            "424B3 offering",
+            "Form 8-K"
+          ],
+          "tag": "OFFERING",
+          "name": "Wheeler Real Estate Investment Trust, Inc",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 0.58,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.58M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.58M + RelVol 76.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.58M + RelVol 76.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.87,
+          "open": 5.205,
+          "gapPct": 178.34,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.71,
+          "hodTimeExact": "10:14 AM ET",
+          "close": 5.44,
+          "fade": 37,
+          "fadeExact": 37.54,
+          "vwap": 6.5111,
+          "vsVwap": "below",
+          "pmHigh": 8.59,
+          "volRaw": "92.8M",
+          "volDollar": 604397383,
+          "relVol": 76.6,
+          "avgVolM": 1.2,
+          "ssr": true,
+          "reverseSplit": "9:1",
+          "newsHeadlines": [
+            "424B3 offering",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000357/areversestocksplitseptembe.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000349/whlr-20260917.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-17T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WHLR",
+          "newsSummary": "WHLR filed a 424B3 prospectus supplement on 2026-09-17, signaling a secondary offering. This news arrived BEFORE the massive 365% HOD move, making it a dilutive catalyst rather than the driver of strength. The offering is a structural red flag for momentum traders—secondary issuances typically compress upside and create overhead supply, especially in nano-float names.",
+          "bullFactors": [
+            "Extreme nano-float (0.58M shares) — if volume sustains, intraday volatility can amplify moves sharply",
+            "High relative volume (76.6x) suggests institutional or retail accumulation despite offering news",
+            "Gap of 178% before HOD suggests strong premarket conviction, though magnitude raises fade risk"
+          ],
+          "bearFactors": [
+            "424B3 offering is dilutive and creates heavy overhead supply — classic setup for fade and cap gains",
+            "Fade of 37.54% from HOD indicates retail exhaustion; afternoon hold is questionable",
+            "Offering news came 6 days before the spike, so institutional insiders likely knew dilution was coming — this is a setup for coordinated unwind",
+            "Real estate micro-caps with offerings typically face sustained selling pressure; no sustainable catalyst here"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "ARTL",
+          "hod": 279,
+          "hodExact": 279.04,
+          "news": [
+            "Artelo Biosciences Files New Provisional Patent Application Covering ART27.13 for Obesity, Alone and in Combination with GLP-1 Receptor Agonists, Following Unexpected Nonclinical Findings",
+            "Artelo Biosciences Announces ART27.13 Achieved Weight Loss Comparable to Semaglutide as a Monotherapy and Doubled Weight Loss in Combination with Semaglutide in a Nonclinical Model of Obesity"
+          ],
+          "tag": "PHASE-1",
+          "name": "Artelo Biosciences, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.52,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 0.52M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.15,
+          "open": 4.03,
+          "gapPct": -2.89,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 15.73,
+          "hodTimeExact": "01:09 PM ET",
+          "close": 7.31,
+          "fade": 53,
+          "fadeExact": 53.53,
+          "vwap": 10.2475,
+          "vsVwap": "below",
+          "pmHigh": 6.02,
+          "volRaw": "25.1M",
+          "volDollar": 257516263,
+          "relVol": 222.0,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": "9:1",
+          "newsHeadlines": [
+            "Artelo Biosciences Files New Provisional Patent Application Covering ART27.13 for Obesity, Alone and in Combination with GLP-1 Receptor Agonists, Following Unexpected Nonclinical Findings",
+            "Artelo Biosciences Announces ART27.13 Achieved Weight Loss Comparable to Semaglutide as a Monotherapy and Doubled Weight Loss in Combination with Semaglutide in a Nonclinical Model of Obesity"
+          ],
+          "newsItems": [
+            {
+              "title": "Artelo Biosciences Files New Provisional Patent Application Covering ART27.13 for Obesity, Alone and in Combination with GLP-1 Receptor Agonists, Following Unexpected Nonclinical Findings",
+              "url": "https://www.stocktitan.net/news/ARTL/artelo-biosciences-files-new-provisional-patent-application-covering-2yho473ityem.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-23T11:33:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Artelo Biosciences Announces ART27.13 Achieved Weight Loss Comparable to Semaglutide as a Monotherapy and Doubled Weight Loss in Combination with Semaglutide in a Nonclinical Model of Obesity",
+              "url": "https://www.stocktitan.net/news/ARTL/artelo-biosciences-announces-art27-13-achieved-weight-loss-1qkcr4xwr42r.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-16T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Weight Loss/GLP-1",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ARTL",
+          "newsSummary": "ARTL ran 279% on nonclinical obesity data showing ART27.13 achieved weight loss comparable to semaglutide monotherapy and doubled weight loss in combination—filed provisional patent same day. The catalyst is real biotech progress with clinical potential, not fluff, though nonclinical data carries execution risk before human trials.",
+          "bullFactors": [
+            "Exceptional float (0.52M shares) — nano-float provides extreme leverage on institutional accumulation",
+            "Session HOD printing 279% with 222x relative volume shows sustained intraday buying, not premarket spike-and-fade pattern",
+            "Real catalyst: Weight loss data vs. GLP-1 standard-of-care (semaglutide) hits a major theme with institutional attention and retail FOMO potential",
+            "Daily chart has obvious room to upside if institutional rig continues — low market cap ($3.8M) allows size to move price all day"
+          ],
+          "bearFactors": [
+            "Nonclinical data only — no human efficacy/safety data yet; gap between mouse models and clinical success is large",
+            "Fade of 53.5% from HOD signals profit-taking and retail exhaustion by close; volume will need to sustain tomorrow to confirm rig",
+            "Nano-float carries extreme volatility and liquidity risk; wide spreads and sudden halts possible on adverse news or delisting risk",
+            "Patent filing is defensive/follow-up to earlier announcement (Sept 16); today's news is incremental, not a fresh catalyst surprise"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "HCTI",
+          "hod": 264,
+          "hodExact": 264.29,
+          "news": [
+            "Healthcare Triangle Signs Letter of Intent to Pursue the Proposed Acquisition of Roboticom's Cutting-Edge Industrial Precision Robotics Automation Business",
+            "Healthcare Triangle (Nasdaq: HCTI) Joins Kanzun-ARCB Growth Fund to Build Malaysia-to-US Corridor for AI and Healthcare Companies"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Healthcare Triangle, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 2.46,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [
+            "Float 2.46M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8647,
+          "open": 1.11,
+          "gapPct": 28.37,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.15,
+          "hodTimeExact": "10:01 AM ET",
+          "close": 0.9111,
+          "fade": 71,
+          "fadeExact": 71.08,
+          "vwap": 1.4133,
+          "vsVwap": "below",
+          "pmHigh": 1.24,
+          "volRaw": "54.4M",
+          "volDollar": 76905522,
+          "relVol": 220.5,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Healthcare Triangle Signs Letter of Intent to Pursue the Proposed Acquisition of Roboticom's Cutting-Edge Industrial Precision Robotics Automation Business",
+            "Healthcare Triangle (Nasdaq: HCTI) Joins Kanzun-ARCB Growth Fund to Build Malaysia-to-US Corridor for AI and Healthcare Companies"
+          ],
+          "newsItems": [
+            {
+              "title": "Healthcare Triangle Signs Letter of Intent to Pursue the Proposed Acquisition of Roboticom's Cutting-Edge Industrial Precision Robotics Automation Business",
+              "url": "https://www.stocktitan.net/news/HCTI/healthcare-triangle-signs-letter-of-intent-to-pursue-the-proposed-nfrfck8j50hf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-23T13:17:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Healthcare Triangle (Nasdaq: HCTI) Joins Kanzun-ARCB Growth Fund to Build Malaysia-to-US Corridor for AI and Healthcare Companies",
+              "url": "https://www.stocktitan.net/news/HCTI/healthcare-triangle-nasdaq-hcti-joins-kanzun-arcb-growth-fund-to-sz0u49uusb1f.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-17T19:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:HCTI",
+          "newsSummary": "HCTI announced a Letter of Intent to acquire Roboticom's industrial precision robotics automation business, paired with entry into the Kanzun-ARCB Growth Fund for an AI/healthcare corridor between Malaysia and the US. Both catalysts came before the move, indicating the market is pricing in real M&A and strategic growth potential with cash backing.",
+          "bullFactors": [
+            "Micro-cap float (2.46M) — extremely tight, amplifies any sustained buying pressure",
+            "HOD dominance (264% move) with 71% fade suggests institutional accumulation on dips, not a one-minute spike dump",
+            "Real acquisition catalyst with named asset (Roboticom robotics business) — not vaporware, plus growth fund partnership signals capital access",
+            "Sustained high relative volume (220.5x) maintained throughout session, not premarket-only fade pattern"
+          ],
+          "bearFactors": [
+            "Large intraday fade (71%) from HOD suggests retail exhaustion and possible resistance overhead from the move itself",
+            "Letter of Intent is non-binding; actual acquisition risk remains until definitive agreement",
+            "Healthcare micro-cap with thin float historically prone to sharp reversals once momentum cools",
+            "Two news items in 6 days may signal promotional cadence rather than single catalyst; watch for dilution announcements"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "VSA",
+          "hod": 259,
+          "hodExact": 259.6,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "VisionSys AI Inc American Depositary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 1.06,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$189M",
+          "riskBadges": [
+            "Float 1.06M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.06M + RelVol 296.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.06M + RelVol 296.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.98,
+          "open": 2.01,
+          "gapPct": 1.52,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 7.12,
+          "hodTimeExact": "02:41 PM ET",
+          "close": 3.64,
+          "fade": 48,
+          "fadeExact": 48.88,
+          "vwap": 4.4434,
+          "vsVwap": "below",
+          "pmHigh": 2.04,
+          "volRaw": "15.7M",
+          "volDollar": 69830519,
+          "relVol": 296.7,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VSA",
+          "newsSummary": "VSA ran 259.6% intraday with no disclosed news catalyst — pure price action driven by tape momentum. The move shows sustained institutional accumulation throughout the session with high relative volume (296.7x), characteristic of a China Rig pattern rather than a premarket pump.",
+          "bullFactors": [
+            "Micro-float (1.06M shares) with sustained intraday volume dominance — typical of aggressive institutional rig mechanics",
+            "Session HOD printing late in day (259.6% gain) indicates afternoon continuation strength and short pressure, not premarket fade",
+            "Relative volume 296.7x normal suggests genuine institutional accumulation throughout session, not retail-driven fluff",
+            "China Rig structural pattern: no premarket spike dominance, multiple session HODs, sustained high volume all day — NOT pump-and-dump mechanics"
+          ],
+          "bearFactors": [
+            "Zero news catalyst means momentum is purely tape-driven; subject to rapid reversal on tape deterioration or profit-taking",
+            "Fade of 48.88% from HOD shows significant intraday profit-taking already occurred — may limit continuation",
+            "No fundamental anchor (real cash deal, ER, partnership) means sustainability relies entirely on institutional bid holding",
+            "Chinese micro-cap with no disclosed story — regulatory/liquidity risk inherent to structure"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "GCDT",
+          "hod": 149,
+          "hodExact": 149.88,
+          "news": [
+            "Form 6-K",
+            "Green Circle Decarbonize Technology Limited Announces 1-for-6 Share Consolidation to Become Effective on October 7, 2026"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Green Circle Decarbonize Technology Limited",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 4.65,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 4.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3406,
+          "open": 0.3391,
+          "gapPct": -0.44,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.8511,
+          "hodTimeExact": "10:37 AM ET",
+          "close": 0.511,
+          "fade": 39,
+          "fadeExact": 39.96,
+          "vwap": 0.5717,
+          "vsVwap": "below",
+          "pmHigh": 0.36,
+          "volRaw": "193.9M",
+          "volDollar": 110849371,
+          "relVol": 8.9,
+          "avgVolM": 21.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Green Circle Decarbonize Technology Limited Announces 1-for-6 Share Consolidation to Become Effective on October 7, 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1926293/000149315226043831/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Green Circle Decarbonize Technology Limited Announces 1-for-6 Share Consolidation to Become Effective on October 7, 2026",
+              "url": "https://www.stocktitan.net/news/GCDT/green-circle-decarbonize-technology-limited-announces-1-for-6-share-n7ktvr2ouqnl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-23T12:55:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:GCDT",
+          "newsSummary": "GCDT announced a 1-for-6 share consolidation effective October 7, 2026, likely a Nasdaq compliance move to restore minimum bid price. The consolidation was announced pre-HOD at 12:55 PM and is a structural corporate action, not a cash catalyst. The +149.88% HOD with 39.96% fade suggests intraday momentum driven by float compression and relative volume (8.9x), not fundamental strength.",
+          "bullFactors": [
+            "Ultra-tight float at 4.65M shares — highly responsive to volume surges",
+            "Session HOD printed 149.88% with sustained intraday relative volume of 8.9x, indicating institutional accumulation or short squeeze pressure",
+            "Hong Kong micro-cap structure fits China Rig pattern: afternoon continuation possible if tape remains hot",
+            "Consolidation removes compliance overhang and may improve institutional eligibility post-October 7"
+          ],
+          "bearFactors": [
+            "Share consolidation is dilutive in nature — reverse split signals prior weakness and nasdaq non-compliance, not bullish momentum",
+            "Form 6-K filed AFTER the HOD — reactive, not causal; suggests filing followed retail euphoria, not institutional catalyst",
+            "39.96% intraday fade is steep and suggests premarket/early session spike with afternoon gravity; classic pump structure on micro-cap compliance news",
+            "Catalyst is administrative/structural, not real cash value (no revenue catalyst, partnership, or earnings beat)"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SOS",
+          "hod": 123,
+          "hodExact": 123.75,
+          "news": [
+            "Form 6-K",
+            "SOS Limited Announces Framework Memorandum for Planned 500-Megawatt AI Data Center Platform in Indonesia"
+          ],
+          "tag": "SYMPATHY",
+          "name": "SOS Limited",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 14.75,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 14.75M + RelVol 64.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 14.75M + RelVol 64.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3486,
+          "open": 0.355,
+          "gapPct": 1.84,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.78,
+          "hodTimeExact": "03:36 PM ET",
+          "close": 0.3444,
+          "fade": 55,
+          "fadeExact": 55.85,
+          "vwap": 0.5213,
+          "vsVwap": "below",
+          "pmHigh": 0.399,
+          "volRaw": "31.3M",
+          "volDollar": 16338816,
+          "relVol": 64.3,
+          "avgVolM": 0.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "SOS Limited Announces Framework Memorandum for Planned 500-Megawatt AI Data Center Platform in Indonesia"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1346610/000121390026102617/ea0306413-6k_sos.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "SOS Limited Announces Framework Memorandum for Planned 500-Megawatt AI Data Center Platform in Indonesia",
+              "url": "https://www.stocktitan.net/news/SOS/sos-limited-announces-framework-memorandum-for-planned-500-megawatt-anvimxefsgve.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-18T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Data Center",
+              "confidence": 0.88,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNYS",
+          "tvSymbol": "NYSE:SOS",
+          "newsSummary": "SOS announced a framework memorandum for a 500-MW AI data center platform in Indonesia on Sept 18, providing a real infrastructure catalyst with substance. The stock gapped 1.84% and ran 123.75% intraday with a 55.85% fade, printing a session HOD well after the pre-market window. Form 6-K filed post-high confirms this was a reactive disclosure, not the driver.",
+          "bullFactors": [
+            "123.75% HOD printed on strong relative volume (64.3x), with sustained afternoon continuation typical of China rig structures—not a premarket spike-and-fade pattern",
+            "Real catalyst: 500-MW AI data center JV in Indonesia is tangible infrastructure, not dilutive or sympathy-only news",
+            "Float 14.75M is manageable for a small-cap runner with high intraday vol/min; crosses Jack's sub-10M preference but vol justifies it",
+            "Form 6-K post-high suggests institutional accumulation earlier in session before retail push—classic dip/soak pattern"
+          ],
+          "bearFactors": [
+            "55.85% fade from HOD is material; need to confirm whether fade held support or rolled over into close",
+            "Float at 14.75M sits above Jack's 10M sweet spot; liquidity could thin if selling pressure accelerates",
+            "Chinese micro-cap with Financial Services label—regulatory risk and delisting concerns are always present in this sector",
+            "Announcement was Sept 18; today's move (Sept 23) is a 5-day delayed reaction, reducing conviction that this is the primary driver vs. sympathy/tape dynamics"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "VTGN",
+          "hod": 117,
+          "hodExact": 117.82,
+          "news": [
+            "Vistagen Reports Positive Findings Supporting Fasedienol’s Potential in Very Severe Social Anxiety Disorder",
+            "Form 8-K",
+            "Vistagen Announces Preliminary Positive Data from Open-Label Extension Portion of PALISADE-4 Phase 3 Study of Fasedienol for the Acute Treatment of Social Anxiety Disorder"
+          ],
+          "tag": "PHASE-3",
+          "name": "Vistagen Therapeutics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 44.88,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2514,
+          "open": 0.3861,
+          "gapPct": 53.58,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.5476,
+          "hodTimeExact": "10:04 AM ET",
+          "close": 0.3684,
+          "fade": 32,
+          "fadeExact": 32.72,
+          "vwap": 0.4192,
+          "vsVwap": "below",
+          "pmHigh": 0.5082,
+          "volRaw": "575.0M",
+          "volDollar": 241022684,
+          "relVol": 814.3,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Vistagen Reports Positive Findings Supporting Fasedienol’s Potential in Very Severe Social Anxiety Disorder",
+            "Form 8-K",
+            "Vistagen Announces Preliminary Positive Data from Open-Label Extension Portion of PALISADE-4 Phase 3 Study of Fasedienol for the Acute Treatment of Social Anxiety Disorder"
+          ],
+          "newsItems": [
+            {
+              "title": "Vistagen Reports Positive Findings Supporting Fasedienol’s Potential in Very Severe Social Anxiety Disorder",
+              "url": "https://www.stocktitan.net/news/VTGN/vistagen-reports-positive-findings-supporting-fasedienol-s-potential-5fwo813pq73y.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-24T11:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1411685/000162828026063046/vtgn-20260922.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-22T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Vistagen Announces Preliminary Positive Data from Open-Label Extension Portion of PALISADE-4 Phase 3 Study of Fasedienol for the Acute Treatment of Social Anxiety Disorder",
+              "url": "https://www.stocktitan.net/news/VTGN/vistagen-announces-preliminary-positive-data-from-open-label-7eb9yyqy7qto.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VTGN",
+          "newsSummary": "Vistagen announced preliminary positive data from the PALISADE-4 Phase 3 study of Fasedienol for acute social anxiety disorder treatment on 2026-09-22, with a follow-up press release on positive findings for very severe SAD on 2026-09-24. The catalyst has real clinical merit—Phase 3 positive data in psychiatry is substantial and de-risks the development path, though final efficacy/safety readouts and regulatory approval remain ahead.",
+          "bullFactors": [
+            "Real clinical catalyst: Phase 3 positive data is tangible and reduces regulatory risk for Fasedienol",
+            "Exceptional intraday tape: 117.82% HOD gain with only 32.72% fade shows sustained institutional buying and short covering throughout the session",
+            "Massive relative volume (814.3x) indicates retail + institutional accumulation, not a thin premarket spike",
+            "Healthcare/biotech sector bias toward clinical wins in psychiatry/CNS indications"
+          ],
+          "bearFactors": [
+            "High float (44.88M shares) limits explosive upside velocity and extends fade risk over multiple sessions",
+            "Second news item came after the HOD, confirming the move was already in progress—reactive flow, not fresh catalyst anchoring",
+            "Biotech binary risk: Phase 3 positive does not guarantee FDA approval or commercial viability; efficacy bar and safety profile still matter",
+            "Potential institutional lock-up or secondary offering overhang typical in small-cap biotech rallies"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "IPDN",
+          "hod": 97,
+          "hodExact": 97.44,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Professional Diversity Network, Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.67,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 0.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.67M + RelVol 15.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.67M + RelVol 15.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.9,
+          "open": 6.915,
+          "gapPct": 77.31,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 7.7,
+          "hodTimeExact": "04:48 AM ET",
+          "close": 5.42,
+          "fade": 29,
+          "fadeExact": 29.61,
+          "vwap": 7.5032,
+          "vsVwap": "below",
+          "pmHigh": 11.2385,
+          "volRaw": "26.2M",
+          "volDollar": 196842625,
+          "relVol": 15.3,
+          "avgVolM": 1.7,
+          "ssr": false,
+          "reverseSplit": "30:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IPDN",
+          "newsSummary": "IPDN moved 97.44% today with no identifiable news catalyst. The massive gap (77.31%) and HOD dominance (97.44%) combined with extreme relative volume (15.3x) and a nano float (0.67M shares) suggests institutional accumulation or a structural micro-cap rig, but without confirmed news or clear business catalyst, this is a pure momentum play.",
+          "bullFactors": [
+            "Extreme nano float (0.67M) — minimal supply, high velocity potential for sustained intraday momentum",
+            "HOD printing at 97.44% — session HODs dominating, indicating afternoon continuation strength and shorts blowing out",
+            "Massive relative volume (15.3x) all day — suggests institutional accumulation phase rather than premarket-only pump",
+            "Large gap (77.31%) combined with HOD follow-through — shows sustained buying pressure, not a quick spike fade"
+          ],
+          "bearFactors": [
+            "No news catalyst — pure momentum/sympathy play with no fundamental anchor; high risk of reversal without flow continuation",
+            "Nano-cap micro-liquidity — wide spreads, slippage risk, and vulnerability to sudden volume cliff or institutional exit",
+            "Fade percentage (29.61%) shows intraday pullback — some profit-taking despite overall strength; overhead resistance may form",
+            "Risk of black swan liquidity event — names with 0.67M float and 97%+ days are prone to violent reversals if institutional buyers exit"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MSS",
+          "hod": 89,
+          "hodExact": 89.1,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Maison Solutions Inc. Class A Common Stock",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 0.48,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.48M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.48M + RelVol 41.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.48M + RelVol 41.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.56,
+          "open": 2.06,
+          "gapPct": 32.05,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.95,
+          "hodTimeExact": "09:04 AM ET",
+          "close": 2.1,
+          "fade": 28,
+          "fadeExact": 28.81,
+          "vwap": 2.4273,
+          "vsVwap": "below",
+          "pmHigh": 3.17,
+          "volRaw": "95.2M",
+          "volDollar": 231190594,
+          "relVol": 41.6,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MSS",
+          "newsSummary": "MSS moved 89.1% on the session with a 32% gap up and no identifiable news catalyst. The 28.81% fade suggests premarket spike dominance with retail interest fading into close, typical of unsupported momentum plays.",
+          "bullFactors": [
+            "Nano-float (0.48M shares) provides structural volatility and potential for sustained squeeze if institutional accumulation detected",
+            "High relative volume (41.6x) indicates intraday retail engagement and tape liquidity despite lack of fundamental catalyst",
+            "Session HOD hit 89.1% — if intraday HODs printing late session with sustained volume, could signal China rig pattern or institutional positioning"
+          ],
+          "bearFactors": [
+            "No news catalyst — pure technical/sympathy play with elevated black swan risk on nano-float",
+            "28.81% fade into close indicates premarket spike dominance; tape temperature is COLD (early pop, heavy fade)",
+            "Consumer Defensive sector with no identifiable theme tie; unlikely to sustain momentum into next session without catalyst refresh"
+          ],
+          "setupGrade": "C+"
+        }
+      ],
+      "hod": 485,
+      "fade": 40,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "BENF led +485.18% (7% fade). 1/10 held <20% fade. news: BENF — \"Form 8-K\".",
+      "aiSummary": "**TAPE READ — 2026-09-23**\n\nToday's tape is bifurcated and dangerous: acquisition/biotech news (BENF, HCTI, ARTL) dominates the top five by percentage, but three of the four largest dollar-volume runners spiked premarket or morning session, creating a classic fade pattern that this framework flags as COLD. Float is ideal across the board—sub-3M dominates the top tier—yet catalyst quality splits hard: BENF and HCTI carry real M&A value, while ARTL's Phase-1 and VSA's no-news tags signal speculative thin-air buying with 48–71% fade rates already priced in. China/Hong Kong exposure (VSA, SOS, GCDT) accounts for four names in the top ten with mixed session HODs, suggesting spillover sympathy rather than fresh institutional accumulation; the playbook flags VSA and SOS as SYMPATHY rigs rather than clean setups. Critically, WHLR's OFFERING tag on a 0.58M float and 365% HOD is a hard avoid—dilution override—and IPDN/MSS both printed premarket extremes (97% and 89% respectively) with steep fades already, locking in the cold-cycle signature of top-pct names that don't hold into afternoon session HODs. This tape signals a COLD to NEUTRAL cycle for momentum traders: real catalysts exist but are fighting early premarket exhaustion, float quality can't overcome session sequencing weakness, and the most tradeable intraday continuation (afternoon HOD printing) is absent from the tape leaders."
+    },
     {
       "date": "2026-09-22",
       "runners": [
