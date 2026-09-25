@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-24T12:11:13.597709Z",
-  "count": 9905,
+  "exportedAt": "2026-09-25T12:51:25.184164Z",
+  "count": 9915,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,932 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-24",
+      "runners": [
+        {
+          "sym": "APUS",
+          "hod": 281,
+          "hodExact": 281.66,
+          "news": [
+            "MindWave Innovations Signs Agreement to Build and Operate AQUAEChain, a Platform for Insured ALCI Credits",
+            "Form 8-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Apimeds Pharmaceuticals US, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.71,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 0.71M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.71M + RelVol 539.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.71M + RelVol 539.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.29,
+          "open": 6.99,
+          "gapPct": 205.24,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.74,
+          "hodTimeExact": "09:32 AM ET",
+          "close": 4.92,
+          "fade": 43,
+          "fadeExact": 43.71,
+          "vwap": 6.0549,
+          "vsVwap": "below",
+          "pmHigh": 7.3099,
+          "volRaw": "87.9M",
+          "volDollar": 531924140,
+          "relVol": 539.2,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "MindWave Innovations Signs Agreement to Build and Operate AQUAEChain, a Platform for Insured ALCI Credits",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "MindWave Innovations Signs Agreement to Build and Operate AQUAEChain, a Platform for Insured ALCI Credits",
+              "url": "https://www.stocktitan.net/news/APUS/mind-wave-innovations-signs-agreement-to-build-and-operate-aquae-j4ffr0sbxa7y.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-24T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026102321/ea0306326-8k_apimeds.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:APUS",
+          "newsSummary": "MindWave Innovations announced an agreement to build and operate AQUAEChain, a platform for insured ALCI credits, released at 12:30 PM on 2026-09-24 — well before the session high. The news is real cash-generating infrastructure (not speculative), but lacks marquee partnership names or traditional revenue catalysts; it reads as a legitimate business development deal with moderate conviction.",
+          "bullFactors": [
+            "Nano float (0.71M shares) — extreme leverage for intraday moves, well under Jack's 10M preference",
+            "Massive relative volume (539.2x) with sustained HOD continuation throughout session — indicates institutional accumulation and retail follow-through, not premarket pump fade",
+            "Real catalyst with actual business infrastructure (ALCI credit platform) — tangible cash value vs. sympathy or dilutive news",
+            "News released before high, giving time for tape reading and institutional entry — classic setup accumulation pattern"
+          ],
+          "bearFactors": [
+            "281% HOD against 43.7% fade shows sharp intraday volatility and late-session exhaustion risk — typical runner blow-off signature",
+            "Catalyst is infrastructure/B2B niche (ALCI credits) — lacks household name or viral theme, limits retail FOMO sustain",
+            "205% gap already printed — much of move pre-loaded into open; less room for continuation before afternoon reversal",
+            "Healthcare sector classification appears misaligned with AI/blockchain platform narrative — possible ticker misfile or unclear fundamentals"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "PMAX",
+          "hod": 214,
+          "hodExact": 214.17,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Powell Max Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 1.33,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.33M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.33M + RelVol 534.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.33M + RelVol 534.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9135,
+          "open": 1.02,
+          "gapPct": 11.66,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.8699,
+          "hodTimeExact": "10:40 AM ET",
+          "close": 1.65,
+          "fade": 42,
+          "fadeExact": 42.51,
+          "vwap": 2.0444,
+          "vsVwap": "below",
+          "pmHigh": 1.07,
+          "volRaw": "56.9M",
+          "volDollar": 116424734,
+          "relVol": 534.5,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PMAX",
+          "newsSummary": "PMAX ran 214% on the session with no substantive news catalyst—this is a structural China rig pattern. The micro-cap HK industrial with 1.33M float showed sustained intraday volume (534.5x relative) and multiple session HODs, characteristic of aggressive institutional accumulation throughout the day rather than a premarket spike-and-fade pump.",
+          "bullFactors": [
+            "Ultra-tight float (1.33M) with extreme relative volume (534.5x) — genuine scarcity and institutional accumulation pressure",
+            "Session HOD at +214% with only 42.5% fade — strong afternoon continuation and short covering, not early premarket collapse",
+            "China rig structural pattern — sustained intraday trend all day with late-session HOD printing, indicating real buying pressure, not a one-minute spike",
+            "Micro-cap industrial in Greater China region with institutional rig signature — liquidity concentrated in intraday moves"
+          ],
+          "bearFactors": [
+            "No real cash catalyst or partnership — move is purely structural/momentum-driven with execution risk on reversal",
+            "42.5% fade from HOD indicates profit-taking and potential heavy overhead supply forming at cycle highs",
+            "HK-listed micro-cap with potential liquidity and regulatory gaps relative to US-listed peers",
+            "Entry conditions were likely dominated by early tape readers; late entries now face gap-down risk and mean reversion on low volume"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SRZN",
+          "hod": 121,
+          "hodExact": 121.91,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Surrozen, Inc. Common",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 10.64,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$401M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.64M + RelVol 63.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.64M + RelVol 63.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 16.16,
+          "open": 30.56,
+          "gapPct": 89.11,
+          "time": "regular session",
+          "session": "morning",
+          "high": 35.86,
+          "hodTimeExact": "09:54 AM ET",
+          "close": 33.68,
+          "fade": 6,
+          "fadeExact": 6.08,
+          "vwap": 30.9469,
+          "vsVwap": "above",
+          "pmHigh": 31.2,
+          "volRaw": "11.5M",
+          "volDollar": 356724700,
+          "relVol": 63.0,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SRZN",
+          "newsSummary": "SRZN ran 121.91% on the day with no identifiable news catalyst or public announcement. The move appears driven by pure intraday momentum and technical setup rather than fundamental developments. Without disclosed catalyst, this is a tape-driven runner with execution risk.",
+          "bullFactors": [
+            "HOD printing late session (121.91% gain) suggests sustained institutional or retail accumulation rather than premarket spike fade",
+            "Float at 10.64M is borderline acceptable per Jack's criteria—not the sub-10M ideal but manageable on 63x relative volume",
+            "High relative volume (63.0x) indicates genuine tape participation and liquidity for day trading exits",
+            "Daily room may exist if price held gains and closed well off HOD, allowing flag/dip setup for next session"
+          ],
+          "bearFactors": [
+            "No-news catalyst is a structural weakness—momentum alone is fragile and prone to violent reversals when retail exhausts",
+            "89% gap from prior close suggests premarket buildup; if most of 121% gain occurred premarket/early session, intraday continuation risk is high",
+            "Float tier is 'Mid' (10.64M), above Jack's preferred sub-10M sweet spot for predictable momentum",
+            "6% fade (HOD to close) indicates late-session profit-taking; potential for gap-down or further fade at next open"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "IFBD",
+          "hod": 110,
+          "hodExact": 110.05,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Infobird Co., Ltd Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 1.98,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 1.98M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.98M + RelVol 3109.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.98M + RelVol 3109.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9855,
+          "open": 0.9527,
+          "gapPct": -3.32,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.07,
+          "hodTimeExact": "10:54 AM ET",
+          "close": 1.13,
+          "fade": 45,
+          "fadeExact": 45.41,
+          "vwap": 1.4398,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "11.6M",
+          "volDollar": 16661639,
+          "relVol": 3109.7,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1815566/000173112226001284/e7962_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IFBD",
+          "newsSummary": "IFBD filed a Form 6-K after the move had already completed, making it a reactive disclosure rather than a catalyst. The 110% HOD run appears driven by structural China micro-cap momentum dynamics—sustained intraday volume (RelVol 3109.7) with afternoon continuation pattern—rather than substantive news catalyst. Form 6-K filings are typically routine regulatory submissions and carry no earnings, deal, or strategic value.",
+          "bullFactors": [
+            "Ultra-micro float (1.98M) with explosive RelVol (3109.7x) sustained through session, not a premarket-only spike",
+            "Multiple session HODs with afternoon strength—classic China rig institutional accumulation pattern, not pump-and-dump fade",
+            "Negative gap (-3.32%) reversed into 110% HOD, showing strong intraday buying pressure and short covering"
+          ],
+          "bearFactors": [
+            "Chinese micro-cap with zero substantive catalyst—Form 6-K is regulatory boilerplate filed after the move, not a driver",
+            "Extreme 110% HOD carry significant fade/holding risk into next session; cycle shift warning applicable (>500% cumulative context unknown but intraday swing alone is volatile)",
+            "No real cash news, partnerships, or earnings data; structural China rig can reverse violently without retail follow-through"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PFSA",
+          "hod": 103,
+          "hodExact": 103.9,
+          "news": [
+            "Profusa Announces Significant Progress Towards Lumee® Oxygen Platform CE Mark with ISO 13485 Certification Expected in Early October",
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Profusa, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.52,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.52M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.52M + RelVol 129.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.52M + RelVol 129.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.05,
+          "open": 3.51,
+          "gapPct": 71.22,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 4.18,
+          "hodTimeExact": "08:07 AM ET",
+          "close": 3.03,
+          "fade": 27,
+          "fadeExact": 27.51,
+          "vwap": 3.4826,
+          "vsVwap": "below",
+          "pmHigh": 4.55,
+          "volRaw": "79.3M",
+          "volDollar": 276050995,
+          "relVol": 129.6,
+          "avgVolM": 0.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Profusa Announces Significant Progress Towards Lumee® Oxygen Platform CE Mark with ISO 13485 Certification Expected in Early October",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Profusa Announces Significant Progress Towards Lumee® Oxygen Platform CE Mark with ISO 13485 Certification Expected in Early October",
+              "url": "https://www.stocktitan.net/news/PFSA/profusa-announces-significant-progress-towards-lumee-oxygen-platform-ondknru13qtz.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-24T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1859807/000121390026101568/ea0306040-8k_profusa.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PFSA",
+          "newsSummary": "Profusa announced significant progress toward Lumee® Oxygen Platform CE Mark certification with ISO 13485 expected in early October. This is a real regulatory milestone—not dilutive fluff—for a medical device company, though the announcement came before the session high, suggesting the move was broader than just the news.",
+          "bullFactors": [
+            "Nano float (0.52M shares) — extreme liquidity compression, high leverage on any intraday volume surge",
+            "Massive relative volume (129.6x) — institutional accumulation signature, sustained buying pressure all session",
+            "Real catalyst with regulatory merit — ISO 13485 and CE Mark are concrete, non-dilutive milestones for European market entry",
+            "103.9% HOD gain on high volume suggests afternoon continuation and short squeeze, not premarket spike fade"
+          ],
+          "bearFactors": [
+            "News released before the high (11:30 AM vs. session peak) — suggests the spike had momentum legs beyond the announcement alone, raising fade risk into close",
+            "27.51% fade from HOD — significant pullback indicates profit-taking; tape may weaken into final hour",
+            "Massive single-session rip (71% gap + 103% HOD) carries black swan liquidity risk and potential overnight gap-down reversal",
+            "Nano float can flip from hot to cold quickly; sustaining above HOD into tomorrow is not guaranteed"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "GLND",
+          "hod": 93,
+          "hodExact": 93.81,
+          "news": [
+            "Form 8-K",
+            "Greenland Energy Company Announces Extension of Jameson Land Farm-Out Agreement with 80 Mile plc"
+          ],
+          "tag": "CONTRACT",
+          "name": "Greenland Energy Company Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 32.02,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$274M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.91,
+          "open": 3.215,
+          "gapPct": 10.48,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.64,
+          "hodTimeExact": "10:12 AM ET",
+          "close": 5.35,
+          "fade": 5,
+          "fadeExact": 5.14,
+          "vwap": 4.6395,
+          "vsVwap": "above",
+          "pmHigh": 3.23,
+          "volRaw": "166.2M",
+          "volDollar": 771250976,
+          "relVol": 10.1,
+          "avgVolM": 16.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Greenland Energy Company Announces Extension of Jameson Land Farm-Out Agreement with 80 Mile plc"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2093507/000182912626010363/greenlandenergy_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Greenland Energy Company Announces Extension of Jameson Land Farm-Out Agreement with 80 Mile plc",
+              "url": "https://www.stocktitan.net/news/GLND/greenland-energy-company-announces-extension-of-jameson-land-farm-5lxdssff8s7c.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-24T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GLND",
+          "newsSummary": "Greenland Energy announced an extension of its Jameson Land Farm-Out Agreement with 80 Mile plc at 11:30 AM, before the session high. This is a real operational development showing continued partnership and asset development activity. The move is legitimate business news, not dilutive or speculative.",
+          "bullFactors": [
+            "HOD dominance at 93.81% — sustained intraday strength, not premarket spike fade pattern",
+            "Real catalyst: farm-out agreement extension signals active asset monetization and institutional confidence",
+            "Strong relative volume (10.1x) on intraday continuation suggests real buying pressure, not pump",
+            "Gap up 10.48% with conviction hold — retail and institutional participation intact"
+          ],
+          "bearFactors": [
+            "Float is 32M shares — well above Jack's <10M preference, reduces scarcity and momentum sustainability",
+            "Form 8-K filed after the high (20:00 PM) — reactive disclosure, not advance catalyst; suggests limited institutional visibility pre-move",
+            "Thick float tier + Energy sector = structural headwind for tight momentum runs; dilution risk if company pursues further farm-outs",
+            "No big-name partnership or cash influx disclosed — extension alone is maintenance news, not transformational"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "HCWB",
+          "hod": 87,
+          "hodExact": 87.95,
+          "news": [
+            "Form 8-K",
+            "HCW Biologics Announces Pricing of $1.5 Million Private Placement"
+          ],
+          "tag": "OFFERING",
+          "name": "HCW Biologics Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 2.17,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 2.17M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.17M + RelVol 49.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.17M + RelVol 49.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.66,
+          "open": 1.69,
+          "gapPct": 1.81,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.12,
+          "hodTimeExact": "10:29 AM ET",
+          "close": 1.99,
+          "fade": 36,
+          "fadeExact": 36.22,
+          "vwap": 2.3015,
+          "vsVwap": "below",
+          "pmHigh": 1.78,
+          "volRaw": "13.7M",
+          "volDollar": 31452430,
+          "relVol": 49.0,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "HCW Biologics Announces Pricing of $1.5 Million Private Placement"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1828673/000149315226044078/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "HCW Biologics Announces Pricing of $1.5 Million Private Placement",
+              "url": "https://www.stocktitan.net/news/HCWB/hcw-biologics-announces-pricing-of-1-5-million-private-dutz9dosdh0i.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-24T12:25:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:HCWB",
+          "newsSummary": "HCW Biologics announced a $1.5M private placement at 12:25 PM, priced before the HOD was set. The Form 8-K filed after-hours (20:00) is reactive documentation, not a fresh catalyst. The private placement is dilutive capital raise typical of micro-cap biotech, raising concerns about shareholder value and near-term dilution risk despite strong intraday tape action.",
+          "bullFactors": [
+            "Extreme HOD dominance (87.95%) with only 36% fade — sustained afternoon continuation strength suggests institutional accumulation or real intraday buying pressure, not a premarket spike fade pattern",
+            "Ultra-low float (2.17M) with 49x relative volume — high leverage for momentum moves and tight float mechanics favor continuation",
+            "Session-driven HOD printing late suggests shorts covering and retail FOMO into close, typical of high-conviction momentum cycles"
+          ],
+          "bearFactors": [
+            "Dilutive $1.5M private placement announced mid-session — classic red flag for micro-cap biotech, signals desperation for cash and likely shareholder dilution ahead",
+            "Micro-cap healthcare with no disclosed catalyst beyond funding raise — pricing of placement is not a 'real cash value deal,' it's a survival funding round",
+            "Form 8-K after-hours suggests tape-chasing retail bought the move without full disclosure; institutional buyers may take profits on the gap"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "STAK",
+          "hod": 85,
+          "hodExact": 85.1,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "STAK Inc. Class A Ordinary Shares",
+          "sector": "Energy",
+          "country": "CN",
+          "floatM": 10.14,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$28M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.14M + RelVol 119.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.14M + RelVol 119.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.94,
+          "open": 0.95,
+          "gapPct": 1.06,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.7399,
+          "hodTimeExact": "12:25 PM ET",
+          "close": 1.44,
+          "fade": 17,
+          "fadeExact": 17.24,
+          "vwap": 1.4449,
+          "vsVwap": "below",
+          "pmHigh": 0.9887,
+          "volRaw": "45.3M",
+          "volDollar": 65401962,
+          "relVol": 119.7,
+          "avgVolM": 0.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:STAK",
+          "newsSummary": "STAK moved +85.1% intraday with no substantive news catalyst identified. This is a structural China micro-cap pattern: sustained high relative volume (119.7x) throughout the session with HOD printing late, characteristic of aggressive institutional accumulation rather than premarket pump-fade. The move appears driven by intraday tape dynamics and possible sympathy/sector rotation rather than a discrete news event.",
+          "bullFactors": [
+            "HOD dominating at 85.1% — strong afternoon continuation, shorts likely blown out",
+            "Float at 10.14M (just above preferred sub-10M) with sustained high relative volume (119.7x) all day — thin float amplifies institutional buying pressure",
+            "Chinese micro-cap with Energy sector exposure — fits China rig structural pattern, not one-minute spike (gap only 1.06%) — gives time to read and position",
+            "Small market cap ($28M) with relVol confirmation — retail attention possible if intraday strength holds through close"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — move is purely structural/sympathy-driven with no real cash value deal or hard fundamental trigger",
+            "Chinese micro-cap on no news carries black swan risk and potential liquidity traps at euphoric highs",
+            "Float just above 10M threshold and already up 85% intraday — limited dry powder for continuation, fade risk into EOD/next session",
+            "Fade percentage (17.24%) shows intraday pullback; if premarket spike dominated or close near lows, setup weakens significantly"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PARA",
+          "hod": 80,
+          "hodExact": 80.73,
+          "news": [
+            "Form 8-K/A"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Banzai International, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 3.49,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 3.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.49M + RelVol 82.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.49M + RelVol 82.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8853,
+          "open": 0.9,
+          "gapPct": 1.66,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.6,
+          "hodTimeExact": "10:29 AM ET",
+          "close": 0.8191,
+          "fade": 48,
+          "fadeExact": 48.81,
+          "vwap": 1.0427,
+          "vsVwap": "below",
+          "pmHigh": 1.05,
+          "volRaw": "10.8M",
+          "volDollar": 11258669,
+          "relVol": 82.3,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K/A"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1826011/000149315226044168/form8-ka.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K/A",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PARA",
+          "newsSummary": "Form 8-K/A (amended current report) filed after-hours following the session's move, indicating a reactive disclosure rather than a catalyst driver. The amendment suggests a prior filing needed correction, but without knowing the substance, merit cannot be assessed. This is a lagging event, not a cause.",
+          "bullFactors": [
+            "Micro-cap float (3.49M) well under 10M preference — tight liquidity for sustained momentum",
+            "Strong intraday HOD dominance (80.73%) with moderate fade (48.81%) — suggests institutional accumulation and afternoon continuation strength, not premarket dump",
+            "Elevated relative volume (82.3) sustained through the session — consistent buying pressure typical of institutional positioning"
+          ],
+          "bearFactors": [
+            "Form 8-K/A is reactive (after high), not a bullish catalyst — suggests the move already priced in before disclosure",
+            "No identifiable forward-looking catalyst or real cash event — move appears structural or sympathy-driven rather than fundamental",
+            "Gap was minimal (1.66%) — limited fuel already in the tank at open, reliant on intraday momentum alone"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "YDES",
+          "hod": 67,
+          "hodExact": 67.49,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "YD Bio Limited Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "TW",
+          "floatM": 1.43,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$342M",
+          "riskBadges": [
+            "Float 1.43M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.23,
+          "open": 3.26,
+          "gapPct": 0.93,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 5.41,
+          "hodTimeExact": "02:59 PM ET",
+          "close": 4.77,
+          "fade": 11,
+          "fadeExact": 11.83,
+          "vwap": 4.709,
+          "vsVwap": "above",
+          "pmHigh": 3.24,
+          "volRaw": "3.2M",
+          "volDollar": 14937127,
+          "relVol": 6.3,
+          "avgVolM": 0.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:YDES",
+          "newsSummary": "YDES moved 67.49% to session HOD with no material news catalyst identified. The move appears driven by pure intraday institutional accumulation and retail follow-through, characteristic of a structural China Rig pattern typical for micro-cap Greater China healthcare names with tight float.",
+          "bullFactors": [
+            "Micro float of 1.43M shares — extreme scarcity, low resistance to move higher",
+            "67.49% HOD dominance with only 11.83% fade — strong afternoon continuation, shorts covering",
+            "6.3x relative volume all day — sustained institutional buying pressure, not a premarket spike fade",
+            "Taiwan healthcare sector with no dilutive news overhead — clean daily chart, room to run"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — move is structural rig, not tied to real cash event or catalyst; vulnerable to momentum reversal",
+            "Greater China micro-cap with no identified theme — liquidity can evaporate fast on EOD exit",
+            "0.93% gap suggests overnight accumulation already priced in; less room for surprise gap-up follow-through tomorrow"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 281,
+      "fade": 28,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "APUS led +281.66% (43% fade). 4/10 held <20% fade. news: APUS — \"MindWave Innovations Signs Agreement to Build and Operate AQUAEChain, a Platform for Insured ALCI Credits\".",
+      "aiSummary": "**TAPE READ – 2026-09-24**\n\nToday's tape is dominated by NO-NEWS and CONTRACT runners (6 of 10 names), with heavy concentration in Healthcare and a notable China micro-cap cluster (PMAX, IFBD, STAK, YDES) showing sustained afternoon HODs—classic institutional rig pattern, not pump-dump. Float tier is ideal for this framework: sub-10M dominates the top movers (APUS 0.71M, PFSA 0.52M, YDES 1.43M), though SRZN and GLND both cracked >10M float with strong volume staying power and minimal fade (6% and 5% respectively), signaling real institutional accumulation rather than retail fluff. Session HODs printed **afternoon** on STAK and YDES (strength signal), but APUS and PFSA spiked in premarket/morning then faded hard (43-48% fade), creating a mixed tape temperature. This is a **NEUTRAL-to-CAUTIOUS** cycle: real volume and low float quality are present, but NO-NEWS catalyst tags and heavy premarket dominance on the biggest gainers (APUS 281%, PFSA 103%) flag potential liquidity traps—momentum traders should key on afternoon HOD sustainers (SRZN, GLND, STAK) and avoid chasing the morning fade-prone spikes."
+    },
     {
       "date": "2026-09-23",
       "runners": [
