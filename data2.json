@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-25T12:51:25.184164Z",
-  "count": 9915,
+  "exportedAt": "2026-09-26T14:22:08.280162Z",
+  "count": 9925,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,992 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-25",
+      "runners": [
+        {
+          "sym": "MSGY",
+          "hod": 479,
+          "hodExact": 479.7,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Masonglory Limited Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 2.21,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$21M",
+          "riskBadges": [
+            "Float 2.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.21M + RelVol 1414.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.21M + RelVol 1414.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.97,
+          "open": 2.13,
+          "gapPct": 8.12,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 11.42,
+          "hodTimeExact": "05:04 PM ET",
+          "close": 8.07,
+          "fade": 29,
+          "fadeExact": 29.33,
+          "vwap": 6.2682,
+          "vsVwap": "above",
+          "pmHigh": 2.19,
+          "volRaw": "56.1M",
+          "volDollar": 351860336,
+          "relVol": 1414.9,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2020228/000121390026102846/ea0299000-6k_masonglory.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MSGY",
+          "newsSummary": "MSGY filed a Form 6-K (routine SEC disclosure for foreign private issuers) before the move occurred, making it reactive and not the catalyst. The 480% HOD move appears to be driven by structural momentum in a micro-float Hong Kong industrial name with extreme relative volume (1414.9x), consistent with China rig institutional accumulation pattern rather than a news event.",
+          "bullFactors": [
+            "Ultra-tight micro float (2.21M shares) with extreme relative volume (1414.9x) — high leverage for sustained intraday momentum",
+            "HOD dominance (479.7% with only 29.33% fade) indicates afternoon continuation and institutional buying strength, not premarket spike collapse",
+            "Session structure consistent with China rig pattern: sustained high volume throughout day, multiple HOD prints, absence of liquidity collapse — genuine institutional accumulation, not pump-and-dump",
+            "Daily chart room: no warrants, convertibles, or ATM offerings mentioned; Hong Kong industrial sector less flooded with dilutive supply than US micro-caps"
+          ],
+          "bearFactors": [
+            "Hong Kong-listed name carries FX and regulatory risk; Greater China exposure introduces black swan volatility and potential spillover liquidity events at extreme move size",
+            "Extreme HOD move (480%+) creates severe overhead supply and retail chase risk; sustainability beyond intraday highly suspect despite strong tape",
+            "Form 6-K is routine filing with no disclosed catalyst details — lack of specific positive fundamental news weakens conviction for swing hold",
+            "Micro float creates execution risk on exit; extreme relative volume may not repeat on follow-up session, risking gap-down open and trapped longs"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "INLF",
+          "hod": 132,
+          "hodExact": 132.88,
+          "news": [
+            "Form 6-K",
+            "INLIF LIMITED Reports First Half of Fiscal Year 2026 Financial Results"
+          ],
+          "tag": "EARNINGS",
+          "name": "INLIF LIMITED Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 0.95,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 0.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.95M + RelVol 95.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.95M + RelVol 95.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.95,
+          "open": 6.25,
+          "gapPct": 111.86,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 6.87,
+          "hodTimeExact": "08:16 AM ET",
+          "close": 5.1,
+          "fade": 25,
+          "fadeExact": 25.76,
+          "vwap": 5.7896,
+          "vsVwap": "below",
+          "pmHigh": 7.04,
+          "volRaw": "49.4M",
+          "volDollar": 286073272,
+          "relVol": 95.2,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "INLIF LIMITED Reports First Half of Fiscal Year 2026 Financial Results"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1991592/000121390026103139/ea0306361-6k_inlif.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "INLIF LIMITED Reports First Half of Fiscal Year 2026 Financial Results",
+              "url": "https://www.stocktitan.net/news/INLF/inlif-limited-reports-first-half-of-fiscal-year-2026-financial-wfdj5ny68qku.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-24T20:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:INLF",
+          "newsSummary": "INLF reported H1 FY2026 financial results on 2026-09-24, which preceded today's 132.88% HOD move. The earnings announcement appears to have provided real cash-value data that seeded institutional accumulation. A Form 6-K filing followed after the high, confirming regulatory status but arriving reactively post-move.",
+          "bullFactors": [
+            "Nano float (0.95M shares) with 95.2x relative volume — extreme leverage for intraday runners",
+            "Session HOD of +132.88% with only 25.76% fade suggests sustained institutional buying pressure throughout the day, not a premarket spike-fade pattern",
+            "Real earnings catalyst (H1 FY2026 results) released before market open, giving time for accumulation before retail participation",
+            "Multiple session HODs printing into afternoon — consistent with China rig structural pattern, indicating continuation strength and short-squeeze dynamics"
+          ],
+          "bearFactors": [
+            "China-listed micro-cap with minimal market cap (~$5M) — liquidity and black swan risk are material",
+            "Extreme intraday move (+132%) creates severe overhead supply and reversal risk on next session; fade behavior typical for nano floats",
+            "Form 6-K filing arriving after the high is reactive, not catalytic — regulatory filings do not drive 130%+ moves",
+            "Nano float tier historically prone to liquidity collapses and wide bid-ask spreads; exit liquidity at HOD levels may be poor"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CNET",
+          "hod": 109,
+          "hodExact": 109.49,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ZW Data Action Technologies Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "HK",
+          "floatM": 2.0,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 2.0M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.0M + RelVol 5942.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.0M + RelVol 5942.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.37,
+          "open": 1.74,
+          "gapPct": 27.01,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.87,
+          "hodTimeExact": "09:46 AM ET",
+          "close": 1.85,
+          "fade": 35,
+          "fadeExact": 35.54,
+          "vwap": 2.1761,
+          "vsVwap": "below",
+          "pmHigh": 2.62,
+          "volRaw": "26.6M",
+          "volDollar": 57944037,
+          "relVol": 5942.7,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CNET",
+          "newsSummary": "CNET ran 109% HOD with zero news catalyst — pure intraday institutional accumulation and retail follow-through on a micro-float Hong Kong name. No earnings, contracts, or corporate events triggered the move; this is structural buying pressure on a 2M share float.",
+          "bullFactors": [
+            "Micro float (2.0M shares) with extreme relative volume (5,942.7x) — tight supply structure ideal for momentum",
+            "HOD 109.49% on sustained intraday volume, not a premarket spike-and-fade — indicates afternoon continuation and short covering",
+            "Session HODs dominating tape temperature signal — continuation strength, structural short squeeze on low float",
+            "Hong Kong micro-cap with zero overhead supply prior to move — daily chart has clean room to upside"
+          ],
+          "bearFactors": [
+            "35.54% intraday fade from HOD — significant pullback raises question of whether institutional accumulation continues or reverses",
+            "NO catalyst substance — china rig structural pattern only, no real cash news or earnings to support valuation at elevated levels",
+            "Micro-cap liquidity risk — 2M float can reverse quickly on profit-taking; exit discipline critical",
+            "Greater China micro-name tape can be volatile and subject to black swan reversals — relative volume spike may not be repeatable EOD"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "TDIC",
+          "hod": 103,
+          "hodExact": 103.05,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Dreamland Limited Class A Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "HK",
+          "floatM": 2.45,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 2.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.45M + RelVol 1556.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.45M + RelVol 1556.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.97,
+          "open": 1.99,
+          "gapPct": 1.02,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4,
+          "hodTimeExact": "12:22 PM ET",
+          "close": 3.16,
+          "fade": 21,
+          "fadeExact": 21.0,
+          "vwap": 3.0839,
+          "vsVwap": "above",
+          "pmHigh": 2.0594,
+          "volRaw": "42.8M",
+          "volDollar": 131951653,
+          "relVol": 1556.4,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TDIC",
+          "newsSummary": "TDIC moved 103% intraday with no substantive news catalyst—a classic China rig pattern. Micro-cap HK name with 2.45M float printed session HOD late in the day, sustained 1556x relative volume throughout, and faded only 21% into close, indicating institutional accumulation and continued buying pressure rather than a premarket pump-fade.",
+          "bullFactors": [
+            "Extreme micro-float (2.45M) with 1556x relative volume — structural liquidity compression favoring explosive intraday moves",
+            "Session HOD printed at +103% with only 21% fade into close — hallmark of sustained institutional rig, not pump-and-dump; afternoon continuation strength",
+            "Minimal gap (+1.02%) means move built intraday on tape, not premarket hype — sets up for potential multi-day runner if momentum holds",
+            "HK microcap structure with no dilutive news eliminates offering/warrant risk; daily chart clean for continuation plays"
+          ],
+          "bearFactors": [
+            "No catalyst identified — move is purely structural/sympathy-driven, making continuation dependent on macro/sector spillover or continued accumulation",
+            "103% single-session move invites profit-taking and short-seller rotation; pullback/consolidation very likely before next leg",
+            "Unknown business fundamentals and China regulatory environment add black swan risk; liquidity can evaporate fast on micro-floats"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MGLD",
+          "hod": 96,
+          "hodExact": 96.02,
+          "news": [
+            "Madison Dearborn Partners Announces Definitive Agreement to Acquire The Marygold Companies",
+            "Form 8-K",
+            "Proxy",
+            "Form 10-K"
+          ],
+          "tag": "ACQUISITION",
+          "name": "The Marygold Companies, Inc.",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 19.39,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$84M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 19.39M + RelVol 1147.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 19.39M + RelVol 1147.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9999,
+          "open": 1.95,
+          "gapPct": 95.02,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.96,
+          "hodTimeExact": "07:01 AM ET",
+          "close": 1.93,
+          "fade": 1,
+          "fadeExact": 1.53,
+          "vwap": 1.9338,
+          "vsVwap": "below",
+          "pmHigh": 2.2,
+          "volRaw": "15.6M",
+          "volDollar": 30132818,
+          "relVol": 1147.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Madison Dearborn Partners Announces Definitive Agreement to Acquire The Marygold Companies",
+            "Form 8-K",
+            "Proxy",
+            "Form 10-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Madison Dearborn Partners Announces Definitive Agreement to Acquire The Marygold Companies",
+              "url": "https://www.stocktitan.net/news/MGLD/madison-dearborn-partners-announces-definitive-agreement-to-acquire-mm7b8s6u1rtx.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-25T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1005101/000149315226044118/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1005101/000149315226043868/formdef14a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1005101/000149315226043341/form10-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-18T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:MGLD",
+          "newsSummary": "Madison Dearborn Partners announced a definitive agreement to acquire Marygold Companies on 2026-09-25 at 11:00 AM, well before the session high. This is a real cash M&A event with institutional backing—genuine catalyst with positive merit. The 96% HOD achievement and 1.53% fade suggest strong sustained buying pressure post-announcement.",
+          "bullFactors": [
+            "Real cash acquisition by major PE firm (Madison Dearborn Partners)—not fluff or sympathy",
+            "Catalyst released BEFORE the move (11:00 AM, before session HOD)—gave market time to digest and accumulate",
+            "Exceptional tape: 96% HOD, only 1.53% fade, 1147x relative volume—sustained institutional accumulation all day",
+            "95% gap up into high volume continuation—clean break structure with no immediate reversal"
+          ],
+          "bearFactors": [
+            "Float at 19.39M is above Jack's <10M preference—larger share count limits upside per-share momentum",
+            "Mid-float tier reduces typical micro-cap volatility and squeeze potential",
+            "EOD tape reading needed to confirm if HOD holds into close or late-session rollover begins—acquisition news can fade into EOD profit-taking"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "APUS",
+          "hod": 85,
+          "hodExact": 85.77,
+          "news": [
+            "MindWave Innovations Signs Agreement to Build and Operate AQUAEChain, a Platform for Insured ALCI Credits",
+            "Form 8-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Apimeds Pharmaceuticals US, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.71,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 0.71M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.92,
+          "open": 8.32,
+          "gapPct": 69.11,
+          "time": "regular session",
+          "session": "morning",
+          "high": 9.14,
+          "hodTimeExact": "09:34 AM ET",
+          "close": 7.25,
+          "fade": 20,
+          "fadeExact": 20.68,
+          "vwap": 7.3348,
+          "vsVwap": "below",
+          "pmHigh": 8.46,
+          "volRaw": "37.1M",
+          "volDollar": 272225542,
+          "relVol": 8.2,
+          "avgVolM": 4.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "MindWave Innovations Signs Agreement to Build and Operate AQUAEChain, a Platform for Insured ALCI Credits",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "MindWave Innovations Signs Agreement to Build and Operate AQUAEChain, a Platform for Insured ALCI Credits",
+              "url": "https://www.stocktitan.net/news/APUS/mind-wave-innovations-signs-agreement-to-build-and-operate-aquae-j4ffr0sbxa7y.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-24T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026102321/ea0306326-8k_apimeds.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:APUS",
+          "newsSummary": "MindWave Innovations announced an agreement to build and operate AQUAEChain, a platform for insured ALCI credits, released pre-market on 2026-09-24. The news provides a real business development catalyst with partnership/platform expansion, though the specifics of revenue impact and cash value are unclear from the headline alone.",
+          "bullFactors": [
+            "Ultra-low float of 0.71M shares — extreme leverage for intraday moves",
+            "85.77% HOD print with sustained momentum suggests afternoon session continuation and short squeeze potential",
+            "High relative volume (8.2x) indicates retail and institutional participation, not a fast premarket spike fade",
+            "Real contract/platform agreement provides substantive catalyst vs. sympathy or fluff news"
+          ],
+          "bearFactors": [
+            "69.11% gap up into open risks fade into lunch and afternoon selling if initial euphoria fades",
+            "News released pre-market (before HOD) — reduces surprise element for afternoon push and may have already priced in much of upside",
+            "ALCI credits platform is niche/unclear revenue driver — not a marquee partnership or FDA/earnings type catalyst",
+            "Nano-cap healthcare with minimal market cap ($11M) carries execution and liquidity risk on multi-day holds"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "ELPW",
+          "hod": 82,
+          "hodExact": 82.09,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Elong Power Holding Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 0.94,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.94M + RelVol 154.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.94M + RelVol 154.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.68,
+          "open": 2.78,
+          "gapPct": 3.73,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.88,
+          "hodTimeExact": "12:21 PM ET",
+          "close": 3.19,
+          "fade": 34,
+          "fadeExact": 34.63,
+          "vwap": 3.6815,
+          "vsVwap": "below",
+          "pmHigh": 2.99,
+          "volRaw": "8.6M",
+          "volDollar": 31509506,
+          "relVol": 154.6,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ELPW",
+          "newsSummary": "ELPW is a Chinese nano-cap industrial name with zero substantive news today. The 82% HOD hit and sustained intraday strength (154.6% relative volume, 34.6% fade) indicates institutional accumulation and continuation buying throughout the session rather than a premarket spike-and-dump pattern. This is a structural China rig: multiple session HODs, afternoon strength, and all-day volume sustenance typical of aggressive institutional positioning in low-float Greater China names.",
+          "bullFactors": [
+            "Extreme low float (0.94M shares) — nano-tier, ideal for momentum acceleration with sustained institutional demand",
+            "China rig pattern confirmed: 82% HOD on high relative volume (154.6%) with only 34.6% fade indicates afternoon continuation and real institutional buying throughout session, not premarket spike collapse",
+            "Session HODs dominating late day signals hot tape and shorts blowing out — tape temperature is HOT, typical of multi-leg runners with room to extend",
+            "All-day relative volume sustenance shows institutional accumulation before retail push; tape health is strong for day trader entries on dips/breaks"
+          ],
+          "bearFactors": [
+            "Zero catalyst — pure structural rig with no news, earnings, or real business event; relies entirely on technical continuation and institutional flow",
+            "Chinese micro-cap with inherent regulatory and liquidity risk; black swan conditions possible in names up this much on no news",
+            "Gap up 3.73% into premarket suggests some overnight positioning; must confirm sustained afternoon HODs and not a fade setup into close",
+            "No daily chart overhead analysis provided — cannot assess supply levels or room to upside; China rigs can also reverse hard on profit-taking"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AIFF",
+          "hod": 78,
+          "hodExact": 78.99,
+          "news": [
+            "Firefly (NASDAQ: AIFF) and NeuroSigma Partner to Expand Access to First FDA-Cleared, Non-Drug Treatment for Pediatric ADHD"
+          ],
+          "tag": "FDA",
+          "name": "Firefly Neuroscience, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 21.22,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$40M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.19,
+          "open": 1.71,
+          "gapPct": 43.7,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 2.13,
+          "hodTimeExact": "04:03 PM ET",
+          "close": 2.01,
+          "fade": 5,
+          "fadeExact": 5.63,
+          "vwap": 1.6811,
+          "vsVwap": "above",
+          "pmHigh": 1.89,
+          "volRaw": "143.7M",
+          "volDollar": 241633739,
+          "relVol": 191.6,
+          "avgVolM": 0.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Firefly (NASDAQ: AIFF) and NeuroSigma Partner to Expand Access to First FDA-Cleared, Non-Drug Treatment for Pediatric ADHD"
+          ],
+          "newsItems": [
+            {
+              "title": "Firefly (NASDAQ: AIFF) and NeuroSigma Partner to Expand Access to First FDA-Cleared, Non-Drug Treatment for Pediatric ADHD",
+              "url": "https://www.stocktitan.net/news/AIFF/firefly-nasdaq-aiff-and-neuro-sigma-partner-to-expand-access-to-0rwvug8n0oga.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-25T11:45:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIFF",
+          "newsSummary": "AIFF announced a partnership with NeuroSigma to expand access to an FDA-cleared, non-drug ADHD treatment for pediatric patients. The news arrived AFTER the intraday high, confirming it was reactive to price action rather than the primary driver of the 43.7% gap and 78.99% HOD move.",
+          "bullFactors": [
+            "Real catalyst: FDA-cleared medical device with legitimate partnership expansion—not fluff",
+            "Strong tape: 78.99% HOD dominance with 191.6% relative volume shows sustained institutional buying throughout session, not premarket spike fade",
+            "Intraday continuation: News came after HOD, suggesting momentum was already established and partnership validates underlying strength",
+            "Medical device theme has recurring institutional interest and partnership with named entity (NeuroSigma) adds credibility"
+          ],
+          "bearFactors": [
+            "Float at 21.22M is above preferred <10M threshold—reduces float squeeze potential and daily volatility sustainability",
+            "43.7% gap opens risk of gap-fill sell-off; tape needs to hold afternoon HODs to confirm cycle strength",
+            "News timing (after HOD) means catalyst lacks surprise value for next session; momentum reversal risk into close/next day",
+            "Market cap $40M is micro but float tier dilutes typical runner mechanics—daily room upside questionable vs. premarket leverage already taken"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "JAGX",
+          "hod": 71,
+          "hodExact": 71.39,
+          "news": [
+            "Form 8-K",
+            "424B5 offering",
+            "Jaguar Health Receives Fee Waivers from FDA"
+          ],
+          "tag": "OFFERING",
+          "name": "Jaguar Health, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.29,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 1.29M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 7.06,
+          "open": 9.09,
+          "gapPct": 28.75,
+          "time": "regular session",
+          "session": "morning",
+          "high": 12.1,
+          "hodTimeExact": "10:04 AM ET",
+          "close": 7.7,
+          "fade": 36,
+          "fadeExact": 36.36,
+          "vwap": 9.5452,
+          "vsVwap": "below",
+          "pmHigh": 10.39,
+          "volRaw": "30.0M",
+          "volDollar": 286524186,
+          "relVol": 13.9,
+          "avgVolM": 2.2,
+          "ssr": true,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "424B5 offering",
+            "Jaguar Health Receives Fee Waivers from FDA"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526401239/d130901d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526400348/d155719d424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "before"
+            },
+            {
+              "title": "Jaguar Health Receives Fee Waivers from FDA",
+              "url": "https://www.stocktitan.net/news/JAGX/jaguar-health-receives-fee-waivers-from-41gfblyoyz7g.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T13:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:JAGX",
+          "newsSummary": "JAGX gapped up 28.75% and ran 71.39% intraday on a micro-float (1.29M shares) with sustained high relative volume (13.9x). The FDA fee waiver news (Sept 22) provided thematic support for a biotech-clinical name, but the move was already underway before the 424B5 offering was filed on Sept 24. The offering itself is dilutive and likely a headwind going forward; the Form 8-K after hours (post-HOD) is reactive. Real catalyst merit is weak—fee waivers are procedural, not commercial validation.",
+          "bullFactors": [
+            "Extreme micro-float (1.29M) creates structural leverage for intraday momentum and low-resistance runs",
+            "Session HOD domination (71.39% HOD pct) with sustained afternoon continuation and high relative volume (13.9x) — tape shows institutional accumulation into retail push, not premarket spike fade",
+            "Daily chart had room to run pre-move; no prior warrants or ATM offering in place before the gap",
+            "FDA fee waiver theme aligns with Biotech-FDA narrative, adding credibility to intraday retail entry"
+          ],
+          "bearFactors": [
+            "424B5 offering filed Sept 24 before the move peaked — classic dilution flag; offering pressure will persist and cap upside",
+            "Gap fill and fade risk is elevated after 28.75% overnight gap and 71% intraday; premarket spike set expectation for retail FOMO",
+            "FDA fee waiver is procedural/fluff, not a clinical trial advancement or approval — shallow catalyst with no revenue/partnership substance",
+            "Form 8-K after hours means any material news was reactive to the move, not causal; real reason for the gap is unclear"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "IFBD",
+          "hod": 70,
+          "hodExact": 70.8,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Infobird Co., Ltd Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 1.98,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 1.98M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.98M + RelVol 22.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.98M + RelVol 22.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.13,
+          "open": 1.3,
+          "gapPct": 15.04,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.93,
+          "hodTimeExact": "10:38 AM ET",
+          "close": 1.34,
+          "fade": 30,
+          "fadeExact": 30.57,
+          "vwap": 1.4797,
+          "vsVwap": "below",
+          "pmHigh": 1.59,
+          "volRaw": "14.0M",
+          "volDollar": 20779476,
+          "relVol": 22.9,
+          "avgVolM": 0.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1815566/000173112226001284/e7962_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IFBD",
+          "newsSummary": "Form 6-K filing arrived pre-market on 2026-09-24, but the move occurred intraday on 2026-09-25. This is a reactive disclosure, not a catalyst driving the run. The 70.8% HOD ratio and 22.9x relative volume signal structural intraday strength typical of micro-cap China names rather than news-driven momentum.",
+          "bullFactors": [
+            "Micro-float (1.98M) with sustained 22.9x relative volume — genuine intraday accumulation, not premarket spike fade",
+            "70.8% HOD dominance indicates afternoon continuation and institutional pressure, classic China rig pattern",
+            "15% gap + intraday extension shows follow-through; tape temperature is HOT with session HODs printing late"
+          ],
+          "bearFactors": [
+            "No substantive cash catalyst — Form 6-K is reactive filing, not cause of move",
+            "China micro-cap with no-news structural theme; susceptible to sudden liquidity withdrawal",
+            "Micro-float liquidity risk on reversal; overhead supply unknown but typical for runners from these floats"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 479,
+      "fade": 24,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "MSGY led +479.7% (29% fade). 2/10 held <20% fade. news: MSGY — \"Form 6-K\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS runners (MSGY, CNET, TDIC, ELPW, IFBD) and China micro-caps, with heavy concentration in Industrials and HK/CN listings—a structural mismatch for this framework which targets US small-caps with real catalysts. Float tier is ideal (majority sub-3M), but HOD distribution is split dangerously: premarket spikes dominate (INLF, MGLD) while afternoon/morning continuation plays (TDIC, CNET, APUS) show weaker follow-through and high fade percentages (25–36%), signaling a COLD CYCLE where retail is leading and institutional buying is absent. MSGY's 480% HOD in after-hours on no news and JAGX's offering tag (F-grade catalyst) represent the exact liquidity traps this playbook avoids; the tape lacks the sustained intraday volume and afternoon HOD re-prints characteristic of institutional accumulation, making this an environment where entries feel fast, exits feel faster, and real setups are buried under pump noise."
+    },
     {
       "date": "2026-09-24",
       "runners": [
