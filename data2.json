@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-26T14:22:08.280162Z",
-  "count": 9925,
+  "exportedAt": "2026-09-28T21:23:18.113057Z",
+  "count": 9935,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1047 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-28",
+      "runners": [
+        {
+          "sym": "KNRX",
+          "hod": 426,
+          "hodExact": 426.32,
+          "news": [
+            "Form 6-K",
+            "KNOREX Ltd. Pursues Strategic Carve-Out of AscendX Publisher Monetization Business with External Growth Capital"
+          ],
+          "tag": "ACQUISITION",
+          "name": "KNOREX LTD.",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 30.33,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$31M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.304,
+          "open": 0.319,
+          "gapPct": 4.93,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.6,
+          "hodTimeExact": "02:01 PM ET",
+          "close": 1.23,
+          "fade": 23,
+          "fadeExact": 23.13,
+          "vwap": 1.0562,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "283.8M",
+          "volDollar": 299761899,
+          "relVol": 8748.8,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "KNOREX Ltd. Pursues Strategic Carve-Out of AscendX Publisher Monetization Business with External Growth Capital"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1982960/000149315226044495/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "KNOREX Ltd. Pursues Strategic Carve-Out of AscendX Publisher Monetization Business with External Growth Capital",
+              "url": "https://www.stocktitan.net/news/KNRX/knorex-ltd-pursues-strategic-carve-out-of-ascend-x-publisher-jwn8tw0sz43w.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T17:54:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:KNRX",
+          "newsSummary": "KNRX announced a strategic carve-out of its AscendX Publisher Monetization Business with external growth capital at 17:54 (after the session high). The move indicates potential monetization or sale of a business unit, but the announcement came after the intraday peak, meaning it was reactive to price action rather than the driver. This is a corporate restructuring play with mixed conviction—carve-outs can signal either strategic focus or distress positioning.",
+          "bullFactors": [
+            "Massive intraday move (426% HOD) with sustained relative volume (8748.8x) shows aggressive institutional accumulation throughout the session, not a premarket spike fade",
+            "Form 6-K filing on same day suggests material corporate event with potential regulatory disclosure, lending legitimacy to the move",
+            "Greater China exposure (Singapore-listed) with thick float (30M+) typically absorbs heavy volume without immediate liquidity crisis, allowing continuation into afternoon"
+          ],
+          "bearFactors": [
+            "Float of 30.33M is well above Jack's preferred <10M threshold and outside his core sweet spot for explosive runners",
+            "Both news items (Form 6-K and carve-out announcement) came AFTER the session high, indicating the catalyst did not drive the move—this is a red flag for sustainability",
+            "Carve-out announcements without explicit cash injection terms or partner names read as corporate restructuring noise rather than a real cash value deal; risk of dilution if external capital involves equity issuance",
+            "23% intraday fade from HOD suggests institutional exit into the news, weakening the bullish case"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "KOD",
+          "hod": 196,
+          "hodExact": 196.04,
+          "news": [
+            "Form 8-K",
+            "Zenkuda and tabirafusp-ted Meet Primary Endpoints in Pivotal DAYBREAK Trial in wAMD, with Zenkuda Demonstrating a Potential New Standard-of-Care Profile with Strong Immediacy and Sustained Clinical Effect with Majority of Patients on 24-week Dosing Interval Using Strict Treat-to-Dryness Real World Retreatment Criteria.",
+            "Kodiak Sciences to Present Topline Results on September 28, 2026 from DAYBREAK Pivotal Phase 3 Study of Zenkuda and KSI-501 in Patients with Wet Age-Related Macular Degeneration"
+          ],
+          "tag": "PHASE-3",
+          "name": "Kodiak Sciences Inc Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 43.65,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$5.6B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 32.35,
+          "open": 61.705,
+          "gapPct": 90.74,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 95.77,
+          "hodTimeExact": "02:06 PM ET",
+          "close": 89.92,
+          "fade": 6,
+          "fadeExact": 6.11,
+          "vwap": 79.4645,
+          "vsVwap": "above",
+          "pmHigh": 66.87,
+          "volRaw": "38.4M",
+          "volDollar": 3052320684,
+          "relVol": 43.7,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Zenkuda and tabirafusp-ted Meet Primary Endpoints in Pivotal DAYBREAK Trial in wAMD, with Zenkuda Demonstrating a Potential New Standard-of-Care Profile with Strong Immediacy and Sustained Clinical Effect with Majority of Patients on 24-week Dosing Interval Using Strict Treat-to-Dryness Real World Retreatment Criteria.",
+            "Kodiak Sciences to Present Topline Results on September 28, 2026 from DAYBREAK Pivotal Phase 3 Study of Zenkuda and KSI-501 in Patients with Wet Age-Related Macular Degeneration"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Zenkuda and tabirafusp-ted Meet Primary Endpoints in Pivotal DAYBREAK Trial in wAMD, with Zenkuda Demonstrating a Potential New Standard-of-Care Profile with Strong Immediacy and Sustained Clinical Effect with Majority of Patients on 24-week Dosing Interval Using Strict Treat-to-Dryness Real World Retreatment Criteria.",
+              "url": "https://www.stocktitan.net/news/KOD/zenkuda-and-tabirafusp-ted-meet-primary-endpoints-in-pivotal-c66jozvn169u.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T10:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Kodiak Sciences to Present Topline Results on September 28, 2026 from DAYBREAK Pivotal Phase 3 Study of Zenkuda and KSI-501 in Patients with Wet Age-Related Macular Degeneration",
+              "url": "https://www.stocktitan.net/news/KOD/kodiak-sciences-to-present-topline-results-on-september-28-2026-from-q6oqqhks0up3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-25T22:01:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:KOD",
+          "newsSummary": "Kodiak Sciences announced positive topline results from the DAYBREAK pivotal Phase 3 trial on wAMD (wet age-related macular degeneration), with Zenkuda and tabirafusp-ted meeting primary endpoints and demonstrating a potential new standard-of-care profile. The catalyst is genuine — successful Phase 3 data with clinical efficacy and a favorable dosing interval (24-week) represents real cash value and a clear path toward commercialization in a large market.",
+          "bullFactors": [
+            "Real Phase 3 clinical win with primary endpoint achievement — not fluff or sympathy; direct catalyst for stock revaluation",
+            "Strong intraday momentum (196% HOD, 43.7x relative volume) with only 6.11% fade suggests institutional accumulation and sustained buying pressure through the session",
+            "Favorable clinical profile (24-week dosing, treat-to-dryness retreatment) addresses a real clinical need in wAMD — competitive advantage narrative intact",
+            "News broke pre-market (10:30 AM relative to high) and HOD printed after (Form 8-K 20:00 UTC), indicating sustained conviction buying and retail follow-through, not a premarket spike dump"
+          ],
+          "bearFactors": [
+            "Float of 43.65M is well above Jack's <10M preference and above the 10-20M discretionary tier — limits intraday volatility compression and explosive upside potential",
+            "Market cap of $5.6B is a large-cap biotech, not a small-cap runner; typical day-trader liquidity and momentum constraints apply differently",
+            "90.74% gap-up from prior close creates overhead supply risk and reduces room-to-run on follow-through days",
+            "Phase 3 success is priced in within hours; post-announcement fades are common in biotech as retail profit-takes and shorts reload; limited multimulti-day runway"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SOAR",
+          "hod": 160,
+          "hodExact": 160.84,
+          "news": [
+            "Form 8-K",
+            "Volato Group’s Alignment Engine Subsidiary Signs $1.2 Billion in AI Infrastructure Orders with Large AI Customer"
+          ],
+          "tag": "CONTRACT",
+          "name": "Volato Group, Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 53.76,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1795,
+          "open": 0.3788,
+          "gapPct": 111.03,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.4682,
+          "hodTimeExact": "10:21 AM ET",
+          "close": 0.3188,
+          "fade": 31,
+          "fadeExact": 31.91,
+          "vwap": 0.3667,
+          "vsVwap": "below",
+          "pmHigh": 0.419,
+          "volRaw": "972.7M",
+          "volDollar": 356699956,
+          "relVol": 45.2,
+          "avgVolM": 21.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Volato Group’s Alignment Engine Subsidiary Signs $1.2 Billion in AI Infrastructure Orders with Large AI Customer"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1853070/000149315226044456/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Volato Group’s Alignment Engine Subsidiary Signs $1.2 Billion in AI Infrastructure Orders with Large AI Customer",
+              "url": "https://www.stocktitan.net/news/SOAR/volato-group-s-alignment-engine-subsidiary-signs-1-2-billion-in-ai-0vn5262hhzjy.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T12:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:SOAR",
+          "newsSummary": "Volato Group's Alignment Engine subsidiary signed $1.2B in AI infrastructure orders with a large unnamed AI customer, announced at 12:05 PM before the session high. This is real cash value—a $1.2B order book represents genuine customer commitment, not speculative hype. The move shows institutional demand for the company's AI infrastructure capabilities.",
+          "bullFactors": [
+            "Real cash catalyst: $1.2B order contract with large AI customer provides concrete revenue visibility and validates business model",
+            "Sustained intraday momentum: 160.84% HOD gain with 45.2x relative volume shows continued institutional accumulation throughout session, not just premarket spike fade",
+            "Catalyst timed before peak: News dropped at 12:05 PM, well before session high, allowing retail follow-through and afternoon continuation strength",
+            "AI infrastructure theme aligns with strong sector tailwind and enterprise-grade customer relationships"
+          ],
+          "bearFactors": [
+            "Mega-thick float (53.76M shares) significantly limits percentage moves and makes sustained momentum harder to maintain—this is not a low-float runner",
+            "Heavy fade already occurred (31.91% from HOD), indicating profit-taking and possible retail exhaustion despite the quality catalyst",
+            "Form 8-K filed after-hours post-move: reactive disclosure, not predictive—suggests potential capital structure or dilutive event that may weigh on follow-through",
+            "Customer unnamed: lack of transparency on customer identity reduces credibility and increases risk of deal complications or re-negotiation"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "EGG",
+          "hod": 122,
+          "hodExact": 122.5,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Enigmatig Limited",
+          "sector": "Industrials",
+          "country": "SG",
+          "floatM": 9.12,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$130M",
+          "riskBadges": [
+            "Float 9.12M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.12M + RelVol 615.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.12M + RelVol 615.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.8,
+          "open": 3,
+          "gapPct": 7.14,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.23,
+          "hodTimeExact": "10:41 AM ET",
+          "close": 4.25,
+          "fade": 31,
+          "fadeExact": 31.78,
+          "vwap": 4.4573,
+          "vsVwap": "below",
+          "pmHigh": 2.8,
+          "volRaw": "4.6M",
+          "volDollar": 20598226,
+          "relVol": 615.3,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:EGG",
+          "newsSummary": "EGG ran 122.5% intraday with no disclosed news catalyst — pure structural momentum on low float (9.12M shares). The 31.78% fade and gap-up open (7.14%) suggest premarket spike followed by intraday continuation, consistent with a China Rig pattern: sustained high relative volume (615.3x) throughout the session with afternoon HOD printing rather than immediate fade.",
+          "bullFactors": [
+            "Ultra-low float (9.12M) — under Jack's 10M preference, high intraday volatility per minute will exceed premarket",
+            "Sustained intraday volume (RelVol 615.3x) — not a 2-minute spike, indicates institutional accumulation pressure all day",
+            "Afternoon HOD dominance — 122.5% gain with 31.78% fade suggests real institutional buying into strength, not early sellers dumping",
+            "China Rig structural pattern — Greater China flag + low float + no news + sustained intraday continuation = aggressive institutional rig with real buy pressure"
+          ],
+          "bearFactors": [
+            "NO catalyst — zero news removes fundamental anchor; pure flow/technical play at risk of reversal without supply agreement or earnings",
+            "31.78% intraday fade — significant pullback from HOD signals heavy profit-taking; late entry risk high",
+            "Gap-up open (7.14%) — premarket spike before intraday run can indicate weak hands bought early; liquidity may deteriorate at open retest",
+            "Singapore micro-cap — lower regulatory oversight and liquidity depth vs. US microcaps; black swan spillover risk if cycle turns"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NAMI",
+          "hod": 78,
+          "hodExact": 78.62,
+          "news": [
+            "Pearson and Namibox Sign Strategic Cooperation Memorandum, Join Forces to Shape a New Global Learning and Education Landscape in the AI Era",
+            "Form 6-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Jinxin Technology Holding Company American Depositary Shares",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 3.44,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 3.44M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.44M + RelVol 19.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.44M + RelVol 19.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.59,
+          "open": 2.45,
+          "gapPct": 54.09,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.84,
+          "hodTimeExact": "09:42 AM ET",
+          "close": 2.24,
+          "fade": 21,
+          "fadeExact": 21.13,
+          "vwap": 2.3335,
+          "vsVwap": "below",
+          "pmHigh": 2.7799,
+          "volRaw": "46.2M",
+          "volDollar": 107869309,
+          "relVol": 19.7,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Pearson and Namibox Sign Strategic Cooperation Memorandum, Join Forces to Shape a New Global Learning and Education Landscape in the AI Era",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Pearson and Namibox Sign Strategic Cooperation Memorandum, Join Forces to Shape a New Global Learning and Education Landscape in the AI Era",
+              "url": "https://www.stocktitan.net/news/NAMI/pearson-and-namibox-sign-strategic-cooperation-memorandum-join-dvqilzakhbww.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1967631/000121390026101993/ea0305948-6k_jinxin.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-22T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Education",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NAMI",
+          "newsSummary": "Namibox signed a strategic cooperation memorandum with Pearson to develop AI-powered education solutions, announced at 13:00 on the day of the move. This is a real partnership with a globally recognized education brand, giving the catalyst legitimate cash-flow and market-expansion potential rather than vaporous sympathy play.",
+          "bullFactors": [
+            "Ultra-tight 3.44M float — classic small-cap runner mechanics with velocity potential",
+            "78.62% HOD dominance with only 21.13% fade — tape shows sustained institutional buying and shorts being pressured throughout session, not premarket spike exhaustion",
+            "Real partnership catalyst with Pearson (Fortune 500 education company) — substantive deal with execution risk but genuine revenue/licensing pathway, not fluff",
+            "19.7x relative volume on micro-cap — intraday vol significantly elevated, showing retail and institutional engagement beyond premarket noise"
+          ],
+          "bearFactors": [
+            "China-domiciled micro-cap with structural liquidity/accounting risk inherent to the jurisdiction",
+            "54.09% gap already filled — much of move already consumed in premarket; dip-and-soak setup was earlier, late entries chasing session HODs face pullback risk",
+            "News released at 13:00 (after-hours relative to Asia trading) — potential for overnight reversal or gap-down on US market open next session if sentiment shifts",
+            "No daily chart overhead supply analysis provided — cannot confirm room to upside without prior resistance levels and order book saturation"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "ARAY",
+          "hod": 77,
+          "hodExact": 77.59,
+          "news": [
+            "Accuray and Samsung NeuroLogica Advance Volumetric Imaging Collaboration for the Accuray CyberKnife® Platform"
+          ],
+          "tag": "CONTRACT",
+          "name": "Accuray Incorporated",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 116.99,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$34M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2151,
+          "open": 0.2877,
+          "gapPct": 33.75,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.382,
+          "hodTimeExact": "04:44 AM ET",
+          "close": 0.2998,
+          "fade": 21,
+          "fadeExact": 21.52,
+          "vwap": 0.3409,
+          "vsVwap": "below",
+          "pmHigh": 0.449,
+          "volRaw": "374.9M",
+          "volDollar": 127806047,
+          "relVol": 778.0,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Accuray and Samsung NeuroLogica Advance Volumetric Imaging Collaboration for the Accuray CyberKnife® Platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Accuray and Samsung NeuroLogica Advance Volumetric Imaging Collaboration for the Accuray CyberKnife® Platform",
+              "url": "https://www.stocktitan.net/news/ARAY/accuray-and-samsung-neuro-logica-advance-volumetric-imaging-dyv2rto1h3s0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-27T15:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ARAY",
+          "newsSummary": "Accuray announced a volumetric imaging collaboration with Samsung NeuroLogica for the CyberKnife platform—a real partnership with a major tech vendor that adds clinical value to their radiation oncology device. The news broke before the session high, providing legitimate institutional buying interest rather than pure speculation.",
+          "bullFactors": [
+            "Real cash partnership with Samsung—major name entity backing, not sympathy or fluff",
+            "RelVol at 778× normal is extreme; sustained intraday HOD dominance (77.59% of day spent at/near highs) signals institutional accumulation into strength, not premarket spike fade",
+            "Gap + HOD pattern (33.75% gap, 77.59% at HOD) shows continuation buying through the session—tape stayed hot afternoon into close"
+          ],
+          "bearFactors": [
+            "Float is 116.99M—mega thick tier, well above Jack's sub-10M preference; limits explosive upside range even with hot tape",
+            "News came before the high (relative_to_high: 'before')—catalyst gave time to set up, but no surprise pop left for next session; risk of fade if retail doesn't follow through tomorrow",
+            "Market cap only $33.9M against $116.99M float creates structural leverage headwind; if shorts cover and retail participation drops, volume cliff likely"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "KNDI",
+          "hod": 75,
+          "hodExact": 75.17,
+          "news": [
+            "Form 6-K",
+            "Kandi Technologies’ China Battery Exchange Secures Follow-On Order for CATL Heavy-Truck Battery Swap Stations",
+            "Kandi Technologies Reports First Half of 2026 Unaudited Financial Results",
+            "Kandi Technologies to Report First Half of 2026 Financial Results on Monday, September 28, 2026"
+          ],
+          "tag": "EARNINGS",
+          "name": "Kandi Technologies Group, Inc. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 71.02,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$73M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.588,
+          "open": 0.62,
+          "gapPct": 5.44,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.03,
+          "hodTimeExact": "11:04 AM ET",
+          "close": 0.82,
+          "fade": 20,
+          "fadeExact": 20.39,
+          "vwap": 0.8386,
+          "vsVwap": "below",
+          "pmHigh": 0.86,
+          "volRaw": "87.1M",
+          "volDollar": 73048125,
+          "relVol": 1107.7,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Kandi Technologies’ China Battery Exchange Secures Follow-On Order for CATL Heavy-Truck Battery Swap Stations",
+            "Kandi Technologies Reports First Half of 2026 Unaudited Financial Results",
+            "Kandi Technologies to Report First Half of 2026 Financial Results on Monday, September 28, 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1720250/000121390026103734/ea0306612-6k_kandi.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Kandi Technologies’ China Battery Exchange Secures Follow-On Order for CATL Heavy-Truck Battery Swap Stations",
+              "url": "https://www.stocktitan.net/news/KNDI/kandi-technologies-china-battery-exchange-secures-follow-on-order-vuoou4vjudcw.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Kandi Technologies Reports First Half of 2026 Unaudited Financial Results",
+              "url": "https://www.stocktitan.net/news/KNDI/kandi-technologies-reports-first-half-of-2026-unaudited-financial-r6f2h2c6ovab.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Kandi Technologies to Report First Half of 2026 Financial Results on Monday, September 28, 2026",
+              "url": "https://www.stocktitan.net/news/KNDI/kandi-technologies-to-report-first-half-of-2026-financial-results-on-q3zgqrmud5ws.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-22T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Lithium/Battery",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "EV",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:KNDI",
+          "newsSummary": "KNDI reported H1 2026 unaudited financial results and announced a follow-on CATL battery swap station order—both released premarket (11:00 AM) before the session high. The earnings and real contract win (not sympathy) provided legitimate fundamental support for a 75% HOD push sustained through the session. Form 6-K filed after the move confirms this was reactive, not causal.",
+          "bullFactors": [
+            "Real cash catalyst: Follow-on order from CATL (tier-1 Chinese battery player) for heavy-truck battery swap stations shows recurring revenue traction in EV infrastructure",
+            "Earnings + contract news combo released premarket but held through HOD—suggests institutional accumulation rather than pump spike; sustained 1107.7x relative volume all session",
+            "75% HOD with only 20% fade = strong session structure; afternoon continuation tape (hot cycle) typical of China-based EV/battery names with steady institutional buying",
+            "Catalyst has real merit (not dilutive, no warrant/ATM overhead visible) and gave price time to build before retail push"
+          ],
+          "bearFactors": [
+            "Float 71M shares—well above Jack's 10M preference and into 'Mega Thick' tier; reduces leverage and intraday volatility efficiency",
+            "Chinese micro-cap on OTC/ADR structure carries geopolitical/regulatory risk; Form 6-K filing suggests potential compliance or disclosure considerations",
+            "News released premarket before HOD; typical setup risk is fade into close if institutions front-ran retail—20% fade already visible intraday",
+            "High absolute move (75%) on a thick-float Chinese name may attract retail FOMO into close; liquidity can evaporate in after-hours or next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CLRO",
+          "hod": 73,
+          "hodExact": 73.91,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ClearOne, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.04,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 1.04M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.04M + RelVol 363.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.04M + RelVol 363.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.45,
+          "open": 5.83,
+          "gapPct": 68.99,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 6,
+          "hodTimeExact": "04:24 AM ET",
+          "close": 5.1,
+          "fade": 15,
+          "fadeExact": 15.0,
+          "vwap": 5.6021,
+          "vsVwap": "below",
+          "pmHigh": 7.2997,
+          "volRaw": "28.1M",
+          "volDollar": 157146216,
+          "relVol": 363.1,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CLRO",
+          "newsSummary": "CLRO ran 73.91% on the day with a 68.99% gap and no identifiable news catalyst. The move appears driven by pure intraday momentum and institutional accumulation signals rather than any substantive announcement or event.",
+          "bullFactors": [
+            "Extreme micro-float (1.04M shares) — highly concentrated float creates velocity potential for sustained runs",
+            "Strong intraday conviction: 73.91% HOD dominance with only 15% fade indicates afternoon continuation and institutional buying pressure, not premarket spike-and-dump",
+            "Exceptional relative volume (363.1x) sustained throughout session suggests coordinated accumulation rather than retail-driven spike"
+          ],
+          "bearFactors": [
+            "No catalyst — purely momentum/rig-based move on NO-NEWS carries black swan risk if institutional buyers step aside",
+            "Micro-cap with $13.3M market cap and no news anchor means liquidity can evaporate on reversal; tight stops essential",
+            "Gap-driven entry (68.99%) leaves limited room for safe dip-buys; most aggressive entry already taken in premarket"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "GYGY",
+          "hod": 71,
+          "hodExact": 71.71,
+          "news": [
+            "424B3 offering",
+            "Form 8-K",
+            "Game Your Game Announces Full Commercial Availability of Next-Generation GameGolf KZN AI™"
+          ],
+          "tag": "OFFERING",
+          "name": "Game Your Game, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 3.88,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [
+            "Float 3.88M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.88M + RelVol 22.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.88M + RelVol 22.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7396,
+          "open": 1.21,
+          "gapPct": 63.6,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.27,
+          "hodTimeExact": "07:34 AM ET",
+          "close": 0.8725,
+          "fade": 31,
+          "fadeExact": 31.3,
+          "vwap": 1.2258,
+          "vsVwap": "below",
+          "pmHigh": 1.72,
+          "volRaw": "112.3M",
+          "volDollar": 137690991,
+          "relVol": 22.1,
+          "avgVolM": 5.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "424B3 offering",
+            "Form 8-K",
+            "Game Your Game Announces Full Commercial Availability of Next-Generation GameGolf KZN AI™"
+          ],
+          "newsItems": [
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/2111846/000121390026102400/ea030633203-424b3_game.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2111846/000121390026102391/ea0306332-8k_game.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Game Your Game Announces Full Commercial Availability of Next-Generation GameGolf KZN AI™",
+              "url": "https://www.stocktitan.net/news/GYGY/game-your-game-announces-full-commercial-availability-of-next-h98gb55bxdvh.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-23T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Gaming/Betting",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GYGY",
+          "newsSummary": "GYGY gapped 63.6% on announcement of GameGolf KZN AI commercial availability, but a 424B3 offering filed on 2026-09-23 before the high signals dilution risk ahead. The AI product announcement has real commercial merit (next-gen gaming tech), but the concurrent offering is a material headwind that typically precedes equity dilution and locks in overhead supply.",
+          "bullFactors": [
+            "Micro-float at 3.88M shares — extremely tight structure for intraday velocity",
+            "Strong intraday tape: 71.71% HOD domination with 31.3% fade suggests institutional accumulation holding through afternoon, not a pure premarket pop-and-drop",
+            "Real product catalyst: GameGolf KZN AI is a tangible commercial release, not sympathy or rumor",
+            "Relative volume 22.1x — sustained buying pressure throughout session, not a 1-2 minute spike"
+          ],
+          "bearFactors": [
+            "424B3 offering filed before the high — classic dilution flag that will create overhead supply and likely cap upside in next sessions",
+            "63.6% gap entry is extreme; momentum runners with gaps this wide often see hard reversals once retail exhaustion sets in",
+            "Form 8-K timing (same date as offering) suggests corporate action complexity; offerings often trigger selling into strength",
+            "Market cap only $14.4M — even at micro-cap, offering dilution can materially impact float and momentum sustainability"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "FUSE",
+          "hod": 61,
+          "hodExact": 61.68,
+          "news": [
+            "Fusemachines Accelerates AI Twin Development Through Access to IBM Fusion Infrastructure Provided by IBM Platinum Partner modulAIre",
+            "Form 8-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Fusemachines Inc. Common stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 14.29,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$22M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 14.29M + RelVol 570.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 14.29M + RelVol 570.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5752,
+          "open": 0.5804,
+          "gapPct": 0.9,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.93,
+          "hodTimeExact": "10:18 AM ET",
+          "close": 0.65,
+          "fade": 30,
+          "fadeExact": 30.11,
+          "vwap": 0.7685,
+          "vsVwap": "below",
+          "pmHigh": 0.63,
+          "volRaw": "52.9M",
+          "volDollar": 40691242,
+          "relVol": 570.9,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Fusemachines Accelerates AI Twin Development Through Access to IBM Fusion Infrastructure Provided by IBM Platinum Partner modulAIre",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Fusemachines Accelerates AI Twin Development Through Access to IBM Fusion Infrastructure Provided by IBM Platinum Partner modulAIre",
+              "url": "https://www.stocktitan.net/news/FUSE/fusemachines-accelerates-ai-twin-development-through-access-to-ibm-t28luw10afb4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2033383/000149315226044394/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FUSE",
+          "newsSummary": "Fusemachines announced access to IBM Fusion Infrastructure through IBM Platinum Partner modulAIre for accelerated AI Twin development. This represents a real partnership with a major tech entity (IBM) providing infrastructure access—a tangible business catalyst rather than promotional fluff. The news arrived before the high, suggesting it drove institutional interest intraday.",
+          "bullFactors": [
+            "Meaningful catalyst: Real partnership with IBM infrastructure access, not sympathy or hype",
+            "Strong relative volume (570.9%) with 61.68% HOD dominance vs 30.11% fade—sustained intraday strength, shorts covering",
+            "Modest float (14.29M) in mid-tier range with room for acceleration if tape stays hot",
+            "News arrived before session HOD, allowing time for institutional setup and retail continuation into close"
+          ],
+          "bearFactors": [
+            "Float slightly above preferred 10M threshold—liquidity tighter than ideal for clean exit on large size",
+            "Gap only 0.9%—limited premarket enthusiasm suggests retail was not front-running; intraday strength is institutional-driven and may face profit-taking into close",
+            "Market cap under $25M with AI theme popular; elevated risk of narrative exhaustion and false-breakout fade into next session"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 426,
+      "fade": 23,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "KNRX led +426.32% (23% fade). 2/10 held <20% fade. news: KNRX — \"Form 6-K\".",
+      "aiSummary": "Today's tape skews heavily toward real catalysts (ACQUISITION, PHASE-3, CONTRACTS accounting for 7 of 10 runners) with afternoon HOD dominance in the two largest movers (KNRX +426%, KOD +196%), signaling sustained institutional accumulation rather than premarket fade structure—a HOT cycle indicator. However, the float profile is problematic for this framework: only 3 names under 10M shares (NAMI 3.44M, CLRO 1.04M, GYGY 3.88M, EGG 9.12M), while the top two runners carry bloated floats (30M+ and 43M+) that typically indicate dilutive situations or secondary offerings masking as news. Country concentration tilts toward China/Singapore micro-caps (KNRX, EGG, NAMI, KNDI, CLRO showing premarket/morning HOD prints), which fit the China rig pattern rather than scalable small-cap momentum setups, creating liquidity spillover risk. The playbook avoids GYGY outright (OFFERING tag = dilution), flags CLRO and GYGY as premarket-dominated fades despite micro floats, and views KOD as oversized for tight-float criteria despite the afternoon strength—leaving only NAMI and FUSE as actionable setups if daily charts show room to upside and sustained intraday accumulation patterns."
+    },
     {
       "date": "2026-09-25",
       "runners": [
