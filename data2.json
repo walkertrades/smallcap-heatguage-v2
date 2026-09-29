@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-28T21:23:18.113057Z",
-  "count": 9935,
+  "exportedAt": "2026-09-29T21:59:13.740315Z",
+  "count": 9945,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1016 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-29",
+      "runners": [
+        {
+          "sym": "DXST",
+          "hod": 192,
+          "hodExact": 192.31,
+          "news": [
+            "Decent Holding’s SunCare Launches AI-Powered In-Home Senior Care Service Through Strategic Collaboration with Ruilan International"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Decent Holding Inc Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 1.64,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 1.64M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.64M + RelVol 1469.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.64M + RelVol 1469.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.95,
+          "open": 2.005,
+          "gapPct": 2.82,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.7,
+          "hodTimeExact": "10:34 AM ET",
+          "close": 3.04,
+          "fade": 46,
+          "fadeExact": 46.67,
+          "vwap": 3.8325,
+          "vsVwap": "below",
+          "pmHigh": 1.92,
+          "volRaw": "42.3M",
+          "volDollar": 162140056,
+          "relVol": 1469.9,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Decent Holding’s SunCare Launches AI-Powered In-Home Senior Care Service Through Strategic Collaboration with Ruilan International"
+          ],
+          "newsItems": [
+            {
+              "title": "Decent Holding’s SunCare Launches AI-Powered In-Home Senior Care Service Through Strategic Collaboration with Ruilan International",
+              "url": "https://www.stocktitan.net/news/DXST/decent-holding-s-sun-care-launches-ai-powered-in-home-senior-care-ramqaqwsb2e6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T13:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DXST",
+          "newsSummary": "DXST launched an AI-powered senior care service via strategic collaboration with Ruilan International, announced at 13:30 ET—after the stock had already achieved a 192% HOD move. The news arrived post-spike and reads as a soft partnership announcement rather than a cash-generative catalyst. This is a Chinese micro-cap structure play riding intraday institutional accumulation, not a fundamental driver.",
+          "bullFactors": [
+            "Extreme micro-float (1.64M shares) with 1470% relative volume—structural fuel for sustained continuation",
+            "HOD printed at 192% with fade holding at 47%—tight spread indicates institutional accumulation and short covering, not panic dump",
+            "China rig pattern: afternoon HOD domination, sustained high volume all session, typical of aggressive institutional rigs rather than pump-fade",
+            "2.82% gap + afternoon session HOD continuation shows controlled buying pressure, not premarket spike-and-fade weakness"
+          ],
+          "bearFactors": [
+            "News (AI + senior care partnership) is soft and arrived post-move—no real cash catalyst, typical sympathy/rig structure",
+            "Chinese micro-cap with no substantive revenue/earnings catalyst—structural float play, not fundamentals-driven",
+            "Micro-cap liquidity risk: 1.64M float can reverse violently on institutional exit; EOD fade potential high",
+            "Theme is boilerplate (AI partnership) with no Big Tech or strategic partnership weight—fluff positioning"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BKYI",
+          "hod": 177,
+          "hodExact": 177.38,
+          "news": [
+            "BIO-key Partners with Al Majlis Group to Expand Identity Security Across Arabian Gulf",
+            "BIO-key Receives FIDO Alliance Full Certification for Passkey:YOU™ Authentication, Unlocking New Markets Including Agentic AI Authenticated Controls"
+          ],
+          "tag": "CONTRACT",
+          "name": "BIO-key International, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.36,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.36M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.36M + RelVol 2507.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.36M + RelVol 2507.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.68,
+          "open": 3.37,
+          "gapPct": 100.6,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.66,
+          "hodTimeExact": "10:04 AM ET",
+          "close": 3.12,
+          "fade": 33,
+          "fadeExact": 33.05,
+          "vwap": 3.2235,
+          "vsVwap": "below",
+          "pmHigh": 3.6,
+          "volRaw": "168.9M",
+          "volDollar": 544528600,
+          "relVol": 2507.9,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "BIO-key Partners with Al Majlis Group to Expand Identity Security Across Arabian Gulf",
+            "BIO-key Receives FIDO Alliance Full Certification for Passkey:YOU™ Authentication, Unlocking New Markets Including Agentic AI Authenticated Controls"
+          ],
+          "newsItems": [
+            {
+              "title": "BIO-key Partners with Al Majlis Group to Expand Identity Security Across Arabian Gulf",
+              "url": "https://www.stocktitan.net/news/BKYI/bio-key-partners-with-al-majlis-group-to-expand-identity-security-g9fa5u5ww7kw.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T07:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "BIO-key Receives FIDO Alliance Full Certification for Passkey:YOU™ Authentication, Unlocking New Markets Including Agentic AI Authenticated Controls",
+              "url": "https://www.stocktitan.net/news/BKYI/bio-key-receives-fido-alliance-full-certification-for-passkey-youtm-rsf11fqf9zuf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-23T11:59:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Cybersecurity",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BKYI",
+          "newsSummary": "BIO-key announced a partnership with Al Majlis Group to expand identity security across the Arabian Gulf, coupled with FIDO Alliance Full Certification for its Passkey:YOU authentication platform targeting agentic AI markets. Both catalysts predate the intraday high, indicating they provided legitimacy to institutional accumulation rather than caused the spike itself.",
+          "bullFactors": [
+            "Micro float (1.36M) with 2507.9x relative volume — extreme liquidity concentration fueling momentum",
+            "Real partnership + compliance certification combo provides dual cash-value catalysts, not fluff dilution",
+            "177% HOD move with only 33% fade suggests strong institutional bid holding support through afternoon — tape is hot",
+            "Daily chart had room to run; gap 100.6% on legitimate news before spike, allowing intraday setup entry"
+          ],
+          "bearFactors": [
+            "100%+ gap at open on news is aggressive entry timing; most of move occurred premarket, limiting intraday setup window",
+            "33% fade off HOD is material — shows profit-taking resistance and potential overhead supply above current levels",
+            "Partner Al Majlis Group and FIDO certification are niche audience catalysts; not mega-name partnership (no Microsoft, Apple, Amazon tier buyer)",
+            "Micro-cap with 1.36M float extremely vulnerable to liquidity collapse if momentum breaks; single seller can halt move"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SDEV",
+          "hod": 150,
+          "hodExact": 150.31,
+          "news": [
+            "Form 8-K",
+            "Proxy"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Stablecoin Development Corporation",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 18.15,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$124M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 18.15M + RelVol 83.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 18.15M + RelVol 83.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.57,
+          "open": 1.64,
+          "gapPct": 4.46,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.9299,
+          "hodTimeExact": "12:47 PM ET",
+          "close": 3.27,
+          "fade": 16,
+          "fadeExact": 16.79,
+          "vwap": 3.0255,
+          "vsVwap": "above",
+          "pmHigh": 1.7,
+          "volRaw": "189.6M",
+          "volDollar": 573603132,
+          "relVol": 83.8,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Proxy"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1389545/000143774926031464/sdev20260929_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1389545/000143774926031344/sdev20260921_def14a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:SDEV",
+          "newsSummary": "SDEV ran +150% intraday on a 4.46% gap and sustained relative volume of 83.8×, but the 8-K filing came AFTER the high, making it reactive rather than causal. The Proxy filing before market close also predates the move. This appears to be sympathy/sector momentum in healthcare or crypto-adjacent biotech space rather than a fundamental catalyst driving the surge.",
+          "bullFactors": [
+            "Sustained high relative volume (83.8×) throughout session — not a 1-2 minute spike; institutional accumulation signature",
+            "Session HOD at +150% with only 16.79% fade — strong afternoon continuation pattern matching Jack's 'hot cycle' tape signature",
+            "Mid-float (18.15M) at upper edge of preference; liquidity present for intraday scalability on momentum",
+            "Healthcare sector with crypto/bitcoin sympathy candidate — thematic tailwind if broader fintech/digital asset sentiment is running"
+          ],
+          "bearFactors": [
+            "No substantive cash catalyst — both SEC filings are administrative (8-K reactive, Proxy routine), not earnings or partnership news",
+            "Gap of 4.46% suggests premarket positioning; without real intraday volume breakout from fresh news, fade risk is elevated into close and next session",
+            "18.15M float is above Jack's strict <10M preference; while relative volume is strong, absolute share count gives room for distribution",
+            "Crypto/Bitcoin theme is a sympathy momentum signal, not a named-entity real business relationship — vulnerable to sector rotation or macro reversal"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BGIN",
+          "hod": 77,
+          "hodExact": 77.78,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Bgin Blockchain Limited Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "SG",
+          "floatM": 43.35,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$279M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.9068,
+          "open": 1.87,
+          "gapPct": -1.93,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.39,
+          "hodTimeExact": "12:36 PM ET",
+          "close": 2.57,
+          "fade": 24,
+          "fadeExact": 24.19,
+          "vwap": 2.5684,
+          "vsVwap": "above",
+          "pmHigh": 1.8252,
+          "volRaw": "12.5M",
+          "volDollar": 32010588,
+          "relVol": 1827.8,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1945565/000121390026103511/ea0305717-6k_bgin.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BGIN",
+          "newsSummary": "BGIN gapped down -1.93% on open but recovered hard, printing 77.78% HOD with only a 24.19% fade—classic intraday institutional accumulation and continuation pattern. The Form 6-K filed 2026-09-25 (4 days prior) is a routine disclosure document and did not trigger today's move; price action shows a structural tape shift from premarket weakness into sustained session strength.",
+          "bullFactors": [
+            "Extreme HOD dominance (77.78%) with controlled fade (24.19%)—textbook hot afternoon continuation, shorts covering into EOD",
+            "Massive relative volume of 1827.8x—sustained institutional buying throughout session, not a flash spike",
+            "Float of 43.35M is thick but relVol compensates; intraday volatility clearly exceeded premarket chop, meeting Jack's float exception rule",
+            "Singapore tech name (greater_china exposure) with no dilutive news—structural China Rig pattern of steady buying pressure all day"
+          ],
+          "bearFactors": [
+            "Float well above 10M preferred—higher share count means wider spread and potential liquidity traps into EOD",
+            "Gapped down on open (-1.93%)—recovery story dependent on sustained buying; any volume cliff into close is catastrophic risk",
+            "Form 6-K is routine SEC filing, not a cash catalyst—no real news to anchor the move means it rides pure tape momentum and can reverse sharply",
+            "No named partnerships, earnings, or real value catalysts mentioned—setup lives and dies on intraday technicals and retail follow-through next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NCPL",
+          "hod": 72,
+          "hodExact": 72.22,
+          "news": [
+            "Netcapital Inc. Receives Nasdaq Notice Related to Delayed Quarterly Report on Form 10-Q",
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Netcapital Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 7.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 7.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.08,
+          "open": 1.34,
+          "gapPct": 24.07,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.86,
+          "hodTimeExact": "09:47 AM ET",
+          "close": 1.22,
+          "fade": 34,
+          "fadeExact": 34.41,
+          "vwap": 1.5221,
+          "vsVwap": "below",
+          "pmHigh": 1.43,
+          "volRaw": "36.3M",
+          "volDollar": 55264570,
+          "relVol": 1.5,
+          "avgVolM": 24.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Netcapital Inc. Receives Nasdaq Notice Related to Delayed Quarterly Report on Form 10-Q",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Netcapital Inc. Receives Nasdaq Notice Related to Delayed Quarterly Report on Form 10-Q",
+              "url": "https://www.stocktitan.net/news/NCPL/netcapital-inc-receives-nasdaq-notice-related-to-delayed-quarterly-78c4xxwg1ptf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-25T21:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1414767/000149315226044363/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCPL",
+          "newsSummary": "Netcapital received a Nasdaq compliance notice on 2026-09-25 regarding a delayed Form 10-Q filing — a regulatory red flag, not a bullish catalyst. The news came BEFORE the session high, meaning it did not drive the move. The 72% HOD print and 24% gap suggest intraday institutional accumulation, but the underlying catalyst is negative compliance risk, not real cash value or operational strength.",
+          "bullFactors": [
+            "Low float (7.95M) with 1.5x relative volume supports intraday momentum potential",
+            "72% HOD dominance in session indicates afternoon strength and institutional continuation, not premarket fade",
+            "Gapped 24% open, giving room to work intraday without immediate resistance overhead"
+          ],
+          "bearFactors": [
+            "Nasdaq compliance notice is a structural red flag — delayed filings create delisting risk and institutional selling pressure",
+            "34% fade from HOD signals profit-taking and retail exhaustion despite strong session high",
+            "No real catalyst (cash deal, strong ER, partnership) — move is pure technicals on a compliance-troubled name; sustainability is questionable"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SLND",
+          "hod": 68,
+          "hodExact": 68.85,
+          "news": [
+            "Southland Awarded $71 Million Water Pipeline Project in the Southwest",
+            "Southland Receives Notice of Noncompliance with NYSE American Continued Listing Standards",
+            "Form 8-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "Southland Holdings, Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 14.84,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$42M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.61,
+          "open": 0.88,
+          "gapPct": 44.26,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.03,
+          "hodTimeExact": "07:50 AM ET",
+          "close": 0.69,
+          "fade": 33,
+          "fadeExact": 33.01,
+          "vwap": 0.8949,
+          "vsVwap": "below",
+          "pmHigh": 1.05,
+          "volRaw": "252.9M",
+          "volDollar": 226298527,
+          "relVol": 2436.4,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Southland Awarded $71 Million Water Pipeline Project in the Southwest",
+            "Southland Receives Notice of Noncompliance with NYSE American Continued Listing Standards",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Southland Awarded $71 Million Water Pipeline Project in the Southwest",
+              "url": "https://www.stocktitan.net/news/SLND/southland-awarded-71-million-water-pipeline-project-in-the-0uf4dc9nwe4c.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Southland Receives Notice of Noncompliance with NYSE American Continued Listing Standards",
+              "url": "https://www.stocktitan.net/news/SLND/southland-receives-notice-of-noncompliance-with-nyse-american-ik2niogfzkft.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-25T21:38:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1883814/000182912626010433/southland_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:SLND",
+          "newsSummary": "Southland awarded a $71M water pipeline project in the Southwest, announced at 11:00 AM on 2026-09-29—after the session high was already established. This is real cash contract value, not fluff, but the news came late relative to the move. The company also faces a NYSE American continued listing standards noncompliance notice from 2026-09-25, which is a structural overhang and serious red flag.",
+          "bullFactors": [
+            "Real cash catalyst: $71M water pipeline contract is substantive revenue, not sympathy or dilutive news",
+            "Strong intraday persistence: 68.85% HOD vs 33.01% fade suggests sustained institutional accumulation and afternoon strength, not a premarket spike-and-dump",
+            "Exceptional relative volume (2436.4x): High-conviction tape temperature indicates genuine buying pressure throughout the session",
+            "Industrial infrastructure theme aligns with real deal flow, not pump territory"
+          ],
+          "bearFactors": [
+            "Float at 14.84M exceeds Jack's sub-10M preference; float tier is 'Mid' rather than 'Micro/Nano'",
+            "NYSE American continued listing standards noncompliance notice (2026-09-25) is a critical structural risk—company faces potential delisting if not cured",
+            "News announced after HOD (11:00 AM relative_to_high='before' but late in session): catalyst timing suggests retail FOMO rather than institutional pre-announcement accumulation",
+            "Market cap of $42.5M is very small; delisting risk + noncompliance can trigger panic liquidation and liquidity collapse"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SLXN",
+          "hod": 61,
+          "hodExact": 61.03,
+          "news": [
+            "424B3 offering",
+            "Form 8-K",
+            "Silexion Therapeutics Announces Exercise of Warrants",
+            "Silexion Therapeutics Reports Positive Preclinical Findings for SIL204, Demonstrating Key Mechanism for Endogenous Systemic Uptake in KRAS-Driven Cancers"
+          ],
+          "tag": "OFFERING",
+          "name": "Silexion Therapeutics Corp Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 11.18,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2484,
+          "open": 0.3187,
+          "gapPct": 28.3,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.4,
+          "hodTimeExact": "07:18 AM ET",
+          "close": 0.3184,
+          "fade": 20,
+          "fadeExact": 20.4,
+          "vwap": 0.3863,
+          "vsVwap": "below",
+          "pmHigh": 0.5099,
+          "volRaw": "254.8M",
+          "volDollar": 98415467,
+          "relVol": 14.9,
+          "avgVolM": 17.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "424B3 offering",
+            "Form 8-K",
+            "Silexion Therapeutics Announces Exercise of Warrants",
+            "Silexion Therapeutics Reports Positive Preclinical Findings for SIL204, Demonstrating Key Mechanism for Endogenous Systemic Uptake in KRAS-Driven Cancers"
+          ],
+          "newsItems": [
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/2022416/000117891326004647/zk2636168.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2022416/000117891326004645/zk2636167.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Silexion Therapeutics Announces Exercise of Warrants",
+              "url": "https://www.stocktitan.net/news/SLXN/silexion-therapeutics-announces-exercise-of-z1wfbmn1ataa.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T12:03:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Silexion Therapeutics Reports Positive Preclinical Findings for SIL204, Demonstrating Key Mechanism for Endogenous Systemic Uptake in KRAS-Driven Cancers",
+              "url": "https://www.stocktitan.net/news/SLXN/silexion-therapeutics-reports-positive-preclinical-findings-for-d8v4uobglr6a.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SLXN",
+          "newsSummary": "SLXN ran 61% intraday on positive preclinical biotech data (SIL204 KRAS mechanism) announced 2026-09-28, followed by warrant exercise on 2026-09-29. However, a 424B3 offering and Form 8-K filing arrived AFTER the high, signaling dilution and likely explaining the 20% fade into close. The preclinical news has real scientific merit for a biotech, but the offering announcement and warrant exercise are dilutive catalysts that undermine holding strength.",
+          "bullFactors": [
+            "Positive preclinical data on SIL204 (endogenous systemic uptake in KRAS-driven cancers) is real biotech substance, not hype",
+            "Float at 11.18M is near Jack's <10M preference and supported strong relative volume (14.9x)",
+            "Intraday continuation to 61% HOD shows sustained institutional accumulation on the science, not a 1-2 min spike"
+          ],
+          "bearFactors": [
+            "424B3 offering AFTER the high signals dilution and explains the 20% fade; this is classic reactive secondary offering that kills momentum",
+            "Warrant exercise announcement occurred post-catalyst on 2026-09-29 (midday), further flagging dilution risk and potential overhang",
+            "28% overnight gap into a biotech run without pre-market dip/soak read reduces setup quality; retail-led gap-and-go is less sustainable than institutional dip accumulation",
+            "Micro-cap biotech on preclinical-only news (no Phase 1/FDA data yet) carries high volatility and reversal risk, especially post-offering"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "XRPN",
+          "hod": 60,
+          "hodExact": 60.76,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Armada Acquisition Corp. II Class A Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 17.91,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$534M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 17.91M + RelVol 15.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 17.91M + RelVol 15.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.575,
+          "open": 12.1,
+          "gapPct": 14.42,
+          "time": "regular session",
+          "session": "morning",
+          "high": 17,
+          "hodTimeExact": "11:59 AM ET",
+          "close": 12.9,
+          "fade": 24,
+          "fadeExact": 24.12,
+          "vwap": 13.8108,
+          "vsVwap": "below",
+          "pmHigh": 13.48,
+          "volRaw": "3.7M",
+          "volDollar": 51772726,
+          "relVol": 15.8,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XRPN",
+          "newsSummary": "XRPN ran 60.76% HOD with no identifiable news catalyst. The move appears driven by intraday institutional accumulation and sustained tape strength rather than external announcement. This is a pure tape/technicals play with no fundamental event to validate continuation.",
+          "bullFactors": [
+            "Strong HOD dominance (60.76%) with only 24.12% fade — indicates afternoon continuation strength and short covering pressure",
+            "Mid-float (17.91M) with exceptional relative volume (15.8x) — suggests institutional accumulation without dilution risk",
+            "No dilutive news or offering — clean daily chart setup for technical traders"
+          ],
+          "bearFactors": [
+            "NO NEWS CATALYST — entire move is tape-driven; without fundamental support, risk of sudden reversal on profit-taking",
+            "Premarket gap component (14.42%) suggests early momentum spike; afternoon HOD strength must sustain into next session or fade risk rises sharply",
+            "Financial Services sector with no identifiable partnership, data release, or M&A announcement — lacks the real catalyst quality Jack requires"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "KMRK",
+          "hod": 54,
+          "hodExact": 54.67,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "K-Tech Solutions Company Limited Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "HK",
+          "floatM": 4.66,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$24M",
+          "riskBadges": [
+            "Float 4.66M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.66M + RelVol 298.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.66M + RelVol 298.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.931,
+          "open": 0.933,
+          "gapPct": 0.21,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.44,
+          "hodTimeExact": "10:28 AM ET",
+          "close": 1.15,
+          "fade": 20,
+          "fadeExact": 20.14,
+          "vwap": 1.1792,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "3.3M",
+          "volDollar": 3906620,
+          "relVol": 298.5,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:KMRK",
+          "newsSummary": "KMRK ran 54.67% intraday with no identified catalyst or news event. The move appears driven by pure technicals: micro-float (4.66M), extremely high relative volume (298.5x), and sustained session HOD dominance with only 20% fade. This is consistent with institutional accumulation and continuation buying throughout the session rather than news-driven momentum.",
+          "bullFactors": [
+            "Ultra-tight float (4.66M) — textbook small-cap squeeze setup with structural scarcity",
+            "Session HODs dominating (54.67% HOD vs 20.14% fade) — afternoon continuation strength typical of China rig institutional rigs, not pump-and-dump premarket spike",
+            "Extreme relative volume (298.5x) — sustained all-day buying pressure, not a flash spike",
+            "No dilution, no offering, no warrant exercise — clean technical setup with room to run"
+          ],
+          "bearFactors": [
+            "Hong Kong listing (KMRK) — potential regulatory/liquidity risk and lower institutional coverage vs US small-caps",
+            "No identifiable catalyst — momentum is purely structural; vulnerable to sharp reversal if retail sentiment shifts",
+            "Small market cap ($23.9M) — liquidity constraints on larger position sizes and exit risk in afternoon fade cycles",
+            "Intraday fade of 20% still occurred — some profit-taking and distribution already evident despite HOD strength"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SSTI",
+          "hod": 54,
+          "hodExact": 54.11,
+          "news": [
+            "Form 8-K",
+            "SoundThinking to be Acquired by Transom Capital Group"
+          ],
+          "tag": "ACQUISITION",
+          "name": "SoundThinking, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 12.4,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$110M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 12.4M + RelVol 62.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 12.4M + RelVol 62.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.47,
+          "open": 8.3,
+          "gapPct": 51.74,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 8.43,
+          "hodTimeExact": "07:35 AM ET",
+          "close": 8.21,
+          "fade": 2,
+          "fadeExact": 2.61,
+          "vwap": 8.2481,
+          "vsVwap": "below",
+          "pmHigh": 8.5,
+          "volRaw": "5.1M",
+          "volDollar": 42325653,
+          "relVol": 62.0,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "SoundThinking to be Acquired by Transom Capital Group"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1351636/000119312526406024/d107296d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "SoundThinking to be Acquired by Transom Capital Group",
+              "url": "https://www.stocktitan.net/news/SSTI/sound-thinking-to-be-acquired-by-transom-capital-y7g3wdqqe7cf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T11:35:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Defense",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SSTI",
+          "newsSummary": "SoundThinking announced acquisition by Transom Capital Group at 11:35 AM, before the stock's high. The move is driven by real M&A cash value—a takeout deal with an identified buyer. Form 8-K filed after-hours confirms the transaction details.",
+          "bullFactors": [
+            "Real cash catalyst: M&A deal with named buyer (Transom Capital Group) provides concrete exit value, not sympathy or fluff.",
+            "Strong intraday tape: 54% HOD dominance vs. only 2.6% fade indicates sustained institutional buying throughout the session, not a premarket pump.",
+            "High relative volume (62x) maintained all day signals genuine accumulation before retail expansion, matching Jack's dip/soak institutional setup pattern.",
+            "Timing gave setup room: Announcement came mid-morning, allowing intraday traders to position and build on the move rather than spike-and-dump."
+          ],
+          "bearFactors": [
+            "Float at 12.4M is slightly above Jack's <10M preference, though still manageable for high intraday vol/min.",
+            "Form 8-K filed after the session high removes potential for post-news follow-through; late confirmation can dampen next-day continuation.",
+            "Acquisition by mid-market firm (not mega-cap) may lack the institutional heavyweight backing typical of A++ setups."
+          ],
+          "setupGrade": "A"
+        }
+      ],
+      "hod": 192,
+      "fade": 25,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "DXST led +192.31% (46% fade). 2/10 held <20% fade. news: DXST — \"Decent Holding’s SunCare Launches AI-Powered In-Home Senior Care Service Through Strategic Collaboration with Ruilan International\".",
+      "aiSummary": "Today's tape is dominated by sympathy and no-news tags (4 of top 10), with real catalysts sparse—only BKYI (contract) and SSTI (acquisition) carry fundamental weight, while SLXN's offering is an immediate F-grade rejection. Float distribution heavily skews micro-cap (<10M: DXST, BKYI, NCPL, KMRK; 10-20M: SLND, SLXN, XRPN, SSTI), favoring this playbook's core range, but afternoon HODs in SDEV and BGIN signal afternoon continuation strength rather than the preferred session HOD + sustained volume pattern—a shift toward fade-prone afternoon spikes. China and international micro-caps (DXST, KMRK, BGIN, SLXN) comprise 40% of runners, introducing liquidity and compliance noise. The tape registers as **neutral-to-cold**: morning spikes in DXST and BKYI lack afternoon follow-through conviction, premarket dominance in SLND and SSTI suggests retail front-running ahead of fades, and the absence of high-volume afternoon continuation on real news means this framework should wait for setup clarity rather than chase fading sympathy plays."
+    },
     {
       "date": "2026-09-28",
       "runners": [
