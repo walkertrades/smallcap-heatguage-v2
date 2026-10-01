@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-09-29T21:59:13.740315Z",
-  "count": 9945,
+  "exportedAt": "2026-10-01T12:59:16.664568Z",
+  "count": 9955,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1028 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-09-30",
+      "runners": [
+        {
+          "sym": "NIVF",
+          "hod": 257,
+          "hodExact": 257.92,
+          "news": [
+            "Form 6-K",
+            "424B4 offering",
+            "NewGen Announces Closing of $1.25 Million Public Offering"
+          ],
+          "tag": "OFFERING",
+          "name": "NewGenIvf Group Limited Class A ordinary shares",
+          "sector": "Healthcare",
+          "country": "TH",
+          "floatM": 19.31,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 19.31M + RelVol 206.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 19.31M + RelVol 206.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.072,
+          "open": 0.167,
+          "gapPct": 131.94,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.2577,
+          "hodTimeExact": "04:37 AM ET",
+          "close": 0.168,
+          "fade": 34,
+          "fadeExact": 34.81,
+          "vwap": 0.1892,
+          "vsVwap": "below",
+          "pmHigh": 0.2805,
+          "volRaw": "859.2M",
+          "volDollar": 162556475,
+          "relVol": 206.3,
+          "avgVolM": 4.2,
+          "ssr": true,
+          "reverseSplit": "3:1",
+          "newsHeadlines": [
+            "Form 6-K",
+            "424B4 offering",
+            "NewGen Announces Closing of $1.25 Million Public Offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1981662/000121390026105211/ea0307155-6k_newgeni.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "424B4 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1981662/000121390026104917/ea0307067-424b4_newgenivf.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B4",
+              "rel": "after"
+            },
+            {
+              "title": "NewGen Announces Closing of $1.25 Million Public Offering",
+              "url": "https://www.stocktitan.net/news/NIVF/new-gen-announces-closing-of-1-25-million-public-87qnyn7i8dhq.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T18:10:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NIVF",
+          "newsSummary": "NIVF gapped 132% and ran 258% intraday on a $1.25M public offering close announced at 18:10 UTC—well after the session high. The offering itself is dilutive and reactive to the move, not the cause. Form 6-K and 424B4 filing followed even later, further confirming these are post-move disclosures. No substantive cash catalyst or operational merit to justify the magnitude.",
+          "bullFactors": [
+            "Sustained intraday momentum: 258% HOD vs. 35% fade suggests institutional accumulation and afternoon continuation rather than premarket spike collapse",
+            "High relative volume (206x) maintained throughout session, indicating broad participation beyond retail pump",
+            "Mid-float (19.3M) with room to run if momentum holds; not a nano-cap liquidity trap"
+          ],
+          "bearFactors": [
+            "Dilutive $1.25M public offering—textbook F-trigger under Jack's framework; equity raises always destroy momentum post-announcement",
+            "Catalyst is reactive (after-hours news), not predictive; move was already complete before filing disclosure",
+            "Thai healthcare micro-cap with minimal market cap ($3.5M)—extreme illiquidity and black swan risk once retail unwinds",
+            "No real operational catalyst (no partnership, FDA, ER, or cash-backed deal); pure sympathy/China rig pattern without structural support"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "TGE",
+          "hod": 128,
+          "hodExact": 128.92,
+          "news": [
+            "Form 6-K",
+            "TGE's profit surged by 9.9 times, with total assets at US$1.8bn and net assets at US$932m"
+          ],
+          "tag": "EARNINGS",
+          "name": "The Generation Essentials Group",
+          "sector": "Communication Services",
+          "country": "FR",
+          "floatM": 13.97,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$86M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 13.97M + RelVol 12532.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 13.97M + RelVol 12532.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.83,
+          "open": 1.045,
+          "gapPct": 25.9,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.9,
+          "hodTimeExact": "09:49 AM ET",
+          "close": 1.55,
+          "fade": 18,
+          "fadeExact": 18.42,
+          "vwap": 1.4689,
+          "vsVwap": "above",
+          "pmHigh": 1.17,
+          "volRaw": "194.2M",
+          "volDollar": 285222240,
+          "relVol": 12532.8,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "TGE's profit surged by 9.9 times, with total assets at US$1.8bn and net assets at US$932m"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2053456/000121390026104923/ea0307190-6k_generation.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "TGE's profit surged by 9.9 times, with total assets at US$1.8bn and net assets at US$932m",
+              "url": "https://www.stocktitan.net/news/TGE/tge-s-profit-surged-by-9-9-times-with-total-assets-at-us-1-8bn-and-n4njad3vbzz1.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T10:27:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNYS",
+          "tvSymbol": "NYSE:TGE",
+          "newsSummary": "TGE reported a 9.9x profit surge with $1.8bn total assets and $932m net assets, announced before the session high. This is real cash value news—not dilutive—demonstrating material earnings growth and balance sheet strength. The move shows sustained intraday momentum (128.92% HOD, only 18.42% fade) with the Form 6-K filing arriving after the peak, confirming the news drove the session rather than followed it.",
+          "bullFactors": [
+            "Real earnings catalyst with 9.9x profit growth and substantial balance sheet ($1.8bn assets, $932m net assets)—meets Jack's 'real cash value' standard",
+            "Extreme intraday HOD dominance (128.92% gain, only 18.42% fade) signals sustained institutional/retail buying pressure and poor short covering—hot cycle signature",
+            "Massive relative volume (12,532.8x) on mid-float name (13.97M shares) suggests heavy accumulation before the announcement and retail continuation after—pattern consistent with A-tier setup",
+            "News released before session high (10:27 AM) gave time for tape to absorb and set up intraday trend, avoiding the 100%+ 1-2 minute spike rejection rule"
+          ],
+          "bearFactors": [
+            "Float of 13.97M is slightly above Jack's <10M preference, though relative volume compensates and tape heat justifies the variance",
+            "French small-cap with limited ADR/US market presence may face liquidity cliff on any reversal or gap-down open tomorrow",
+            "Form 6-K filing after-hours could contain regulatory nuance or filing lag that reduces the news impact retroactively"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "CMCT",
+          "hod": 105,
+          "hodExact": 105.2,
+          "news": [
+            "CMCT Declares Preferred Stock Dividends"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "Creative Media & Community Trust Corporation Common stock",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 2.71,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 2.71M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.71M + RelVol 1295.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.71M + RelVol 1295.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.92,
+          "open": 2.0146,
+          "gapPct": 4.93,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.9399,
+          "hodTimeExact": "10:36 AM ET",
+          "close": 2.93,
+          "fade": 25,
+          "fadeExact": 25.63,
+          "vwap": 2.9863,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "32.5M",
+          "volDollar": 97117889,
+          "relVol": 1295.8,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "CMCT Declares Preferred Stock Dividends"
+          ],
+          "newsItems": [
+            {
+              "title": "CMCT Declares Preferred Stock Dividends",
+              "url": "https://www.stocktitan.net/news/CMCT/cmct-declares-preferred-stock-xfapo3d2ym3f.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CMCT",
+          "newsSummary": "CMCT declared preferred stock dividends on 2026-09-29, ahead of today's 105% intraday move. The dividend declaration signals capital allocation confidence but is a modest catalyst; the real strength comes from sustained intraday institutional buying throughout the session, not the news itself.",
+          "bullFactors": [
+            "Micro-float (2.71M shares) with extreme relative volume (1295.8x) — genuine institutional accumulation possible",
+            "Session HOD up 105.2% with only 25.63% fade — strong afternoon continuation and shorts covering, not premarket spike fade",
+            "Real Estate micro-cap with actual shareholder return (dividend) rather than fluff news — shows management confidence in valuation",
+            "Gap only 4.93% — room to run on daily chart without massive overnight extension"
+          ],
+          "bearFactors": [
+            "Preferred stock dividend is incremental capital allocation, not transformational catalyst — real cash value is modest",
+            "Micro-cap liquidity risk — 105% move on small float can reverse violently; relVol spike may not sustain into next session",
+            "No sector tailwind or macro theme identified — isolated name momentum, vulnerable to sector rotation or profit-taking",
+            "Real estate sector has structural headwinds; single dividend announcement unlikely to drive sustained institutional demand"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "GOW",
+          "hod": 91,
+          "hodExact": 91.72,
+          "news": [
+            "GOWell Energy Technology Commences Trading on Nasdaq Under Ticker Symbol \"GOW”",
+            "Form 6-K",
+            "424B3 offering"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "GOWell Energy Technology Ordinary shares",
+          "sector": "Financial Services",
+          "country": "SG",
+          "floatM": 2.82,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 2.82M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.82M + RelVol 55.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.82M + RelVol 55.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.8099,
+          "open": 1.71,
+          "gapPct": -5.52,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.47,
+          "hodTimeExact": "03:14 PM ET",
+          "close": 3.18,
+          "fade": 8,
+          "fadeExact": 8.36,
+          "vwap": 2.8981,
+          "vsVwap": "above",
+          "pmHigh": 2.35,
+          "volRaw": "21.3M",
+          "volDollar": 61738178,
+          "relVol": 55.5,
+          "avgVolM": 0.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "GOWell Energy Technology Commences Trading on Nasdaq Under Ticker Symbol \"GOW”",
+            "Form 6-K",
+            "424B3 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "GOWell Energy Technology Commences Trading on Nasdaq Under Ticker Symbol \"GOW”",
+              "url": "https://www.stocktitan.net/news/GOW/go-well-energy-technology-commences-trading-on-nasdaq-under-ticker-029g074kwr68.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2097702/000121390026103502/ea0306714-6k_gowell.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/2097702/000121390026103103/ea0268687-11.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-24T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GOW",
+          "newsSummary": "GOW commenced Nasdaq trading on 2026-09-28, a milestone event for a Singapore-based fintech entity transitioning to US public markets. The move predates the high, so the 91.72% HOD retention reflects sustained intraday institutional accumulation rather than a premarket spike fade—classic hot-cycle behavior on a micro-float runner with real listing catalyst.",
+          "bullFactors": [
+            "Micro-float (2.82M shares) with 55.5x relative volume—tight supply + sustained retail/institutional demand",
+            "HOD dominance (91.72% held near high) with minimal fade (8.36%)—textbook hot-cycle intraday strength, not premarket pop-and-drop",
+            "Nasdaq listing is a hard cash catalyst and compliance milestone, not fluff; provides legitimate daily chart room on first full trading day",
+            "Negative gap (-5.52%) suggests overnight pressure was absorbed, setting up dip-soak read before intraday push higher"
+          ],
+          "bearFactors": [
+            "424B3 offering filed 2026-09-24 (before the move)—dilutive capital raise risk; check current share count vs. float assumption",
+            "Singapore domicile + micro-cap + newly listed = lower institutional follow-through and potential liquidity cliff on volume drop",
+            "Form 6-K (regulatory filing) does not confirm earnings or material cash business update—listing itself is the event, not underlying business strength",
+            "Typical first-day Nasdaq listing volatility often fades hard into week 2; need to confirm this is sustained institutional rig vs. one-day retail pop"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CNTB",
+          "hod": 90,
+          "hodExact": 90.52,
+          "news": [
+            "Form 8-K",
+            "Connect Biopharma Announces Positive Preliminary Topline Data from its Global Phase 2 Study of Rademikibart as an Add-on Treatment for Acute Exacerbations in Adults with COPD and Type 2 Inflammation"
+          ],
+          "tag": "PHASE-2",
+          "name": "Connect Biopharma Holdings Limited Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 20.03,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$70M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.992,
+          "open": 1.89,
+          "gapPct": 90.52,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.89,
+          "hodTimeExact": "08:06 AM ET",
+          "close": 1.1,
+          "fade": 41,
+          "fadeExact": 41.8,
+          "vwap": 1.5907,
+          "vsVwap": "below",
+          "pmHigh": 2.08,
+          "volRaw": "165.6M",
+          "volDollar": 263471743,
+          "relVol": 73.4,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Connect Biopharma Announces Positive Preliminary Topline Data from its Global Phase 2 Study of Rademikibart as an Add-on Treatment for Acute Exacerbations in Adults with COPD and Type 2 Inflammation"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1835268/000183526826000038/cntb-20260930.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Connect Biopharma Announces Positive Preliminary Topline Data from its Global Phase 2 Study of Rademikibart as an Add-on Treatment for Acute Exacerbations in Adults with COPD and Type 2 Inflammation",
+              "url": "https://www.stocktitan.net/news/CNTB/connect-biopharma-announces-positive-preliminary-topline-data-from-khmohmwyuxd3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CNTB",
+          "newsSummary": "CNTB announced positive preliminary topline data from a global Phase 2 study of rademikibart for acute COPD exacerbations with Type 2 inflammation at 11:00 AM, well before the session high. This is real clinical validation—a successful Phase 2 readout with measurable efficacy—not fluff. The Form 8-K filed after hours is reactive confirmation, not the catalyst.",
+          "bullFactors": [
+            "Real cash catalyst: Phase 2 clinical success with positive topline data, not sympathy or speculative news",
+            "90.5% gap + 90.5% HOD shows sustained conviction—retail pushed hard into and through the open, institutional accumulation likely present",
+            "73.4x relative volume indicates heavy participation; high volume before and through HOD suggests institutional confirmation, not premarket spike fade",
+            "Biotech-Clinical theme with defined value pathway: positive Phase 2 de-risks path to Phase 3 and potential regulatory approval"
+          ],
+          "bearFactors": [
+            "Float of 20M is above Jack's preferred <10M threshold—thicker float can reduce volatility staying power and make continuation harder",
+            "90.5% single-day move is extreme; high risk of profit-taking and mean-reversion into close or next session",
+            "No overhead supply detail provided, but after a 90%+ gap, daily chart room to upside becomes questionable unless stock was deeply depressed",
+            "Phase 2 is early-stage; clinical risk remains—no guarantee Phase 3 succeeds or regulatory approval follows"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CHGA",
+          "hod": 84,
+          "hodExact": 84.69,
+          "news": [
+            "Proxy",
+            "Change Agents Joins Association of the United States Army, Expanding Engagement Across U.S. Defense Ecosystem"
+          ],
+          "tag": "CONTRACT",
+          "name": "Change Agents Corporation Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.03,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.03M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.03M + RelVol 574.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.03M + RelVol 574.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.96,
+          "open": 2.03,
+          "gapPct": 3.57,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.6199,
+          "hodTimeExact": "12:42 PM ET",
+          "close": 2.4,
+          "fade": 33,
+          "fadeExact": 33.7,
+          "vwap": 2.8358,
+          "vsVwap": "below",
+          "pmHigh": 2.37,
+          "volRaw": "32.6M",
+          "volDollar": 92329230,
+          "relVol": 574.9,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": "20:1",
+          "newsHeadlines": [
+            "Proxy",
+            "Change Agents Joins Association of the United States Army, Expanding Engagement Across U.S. Defense Ecosystem"
+          ],
+          "newsItems": [
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026104329/ea0306442-def14a_change.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            },
+            {
+              "title": "Change Agents Joins Association of the United States Army, Expanding Engagement Across U.S. Defense Ecosystem",
+              "url": "https://www.stocktitan.net/news/CHGA/change-agents-joins-association-of-the-united-states-army-expanding-vw4kygx9mtbn.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-24T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Defense",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CHGA",
+          "newsSummary": "CHGA announced joining the Association of the United States Army on 2026-09-24, signaling defense ecosystem expansion and potential contract pipeline access. The news preceded the move and carries real merit as a tangible relationship-building catalyst in the defense sector, though it is not a signed contract itself. A proxy filing followed on 2026-09-29, reactive to price action.",
+          "bullFactors": [
+            "Micro-float at 1.03M shares — extreme leverage for sustained moves",
+            "Relative volume 574.9x — authentic institutional intraday accumulation, not premarket pump",
+            "84.69% HOD print with only 33.7% fade — strong afternoon hold, shorts squeezed, continuation bias",
+            "Real defense catalyst (AUSA membership) with cash-value implications vs. sympathy/fluff"
+          ],
+          "bearFactors": [
+            "Market cap only $2.58M — liquidity risk and black swan vulnerability at micro-cap tier",
+            "Catalyst (AUSA join) was 6 days old at session start — momentum may be residual rather than fresh",
+            "3.57% gap up modest; limited setup time in premarket to accumulate before retail push",
+            "No new material news on 2026-09-30 itself — riding old catalyst tail into afternoon"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "TNON",
+          "hod": 84,
+          "hodExact": 84.62,
+          "news": [
+            "Tenon(R) Medical Announces Full Commercial Launch of the SImmetry(R)+ SI Joint Fusion 3D Printed Lateral Screw Following Successful Alpha Launch"
+          ],
+          "tag": "CONTRACT",
+          "name": "Tenon Medical, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.8,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 1.8M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.73,
+          "open": 2.8,
+          "gapPct": 2.56,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.04,
+          "hodTimeExact": "11:20 AM ET",
+          "close": 4.09,
+          "fade": 18,
+          "fadeExact": 18.85,
+          "vwap": 4.1871,
+          "vsVwap": "below",
+          "pmHigh": 3,
+          "volRaw": "53.3M",
+          "volDollar": 223085271,
+          "relVol": 3.9,
+          "avgVolM": 13.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Tenon(R) Medical Announces Full Commercial Launch of the SImmetry(R)+ SI Joint Fusion 3D Printed Lateral Screw Following Successful Alpha Launch"
+          ],
+          "newsItems": [
+            {
+              "title": "Tenon(R) Medical Announces Full Commercial Launch of the SImmetry(R)+ SI Joint Fusion 3D Printed Lateral Screw Following Successful Alpha Launch",
+              "url": "https://www.stocktitan.net/news/TNON/tenon-r-medical-announces-full-commercial-launch-of-the-s-immetry-r-4j35e2lfgolx.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TNON",
+          "newsSummary": "Tenon Medical announced full commercial launch of Symmetry+ SI Joint Fusion 3D printed lateral screw following successful alpha phase. This is a real product commercialization milestone—not a clinical trial result or partnership, but actual revenue-generating sales expansion of a cleared medical device. The catalyst has genuine cash value and demonstrates execution on a previously validated product.",
+          "bullFactors": [
+            "Micro-float (1.8M shares) with 3.9x relative volume—tight float amplifies institutional accumulation",
+            "Real cash catalyst: full commercial launch of FDA-cleared device, not sympathy or fluff news",
+            "News timed before HOD (relative_to_high='before'), giving price action room to build on genuine demand",
+            "84.62% HOD dominance with only 18.85% fade—sustained intraday strength, not premarket spike collapse"
+          ],
+          "bearFactors": [
+            "Micro-cap healthcare with micro-float carries liquidity/volatility risk on exit",
+            "Medical device launches typically have measured adoption curves—no guarantee of immediate revenue inflection",
+            "Small market cap ($7.6M) limits institutional buying power and can reverse quickly on profit-taking"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "AEON",
+          "hod": 61,
+          "hodExact": 61.58,
+          "news": [
+            "Form 8-K",
+            "AEON Biopharma FDA Type 2b Meeting Feedback Clarifies Biosimilar Development Plan for ABP-450"
+          ],
+          "tag": "FDA",
+          "name": "AEON Biopharma, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 68.88,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$27M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.259,
+          "open": 0.3206,
+          "gapPct": 23.78,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.4185,
+          "hodTimeExact": "11:27 AM ET",
+          "close": 0.3,
+          "fade": 28,
+          "fadeExact": 28.32,
+          "vwap": 0.3354,
+          "vsVwap": "below",
+          "pmHigh": 0.3542,
+          "volRaw": "116.2M",
+          "volDollar": 38965009,
+          "relVol": 9.1,
+          "avgVolM": 12.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "AEON Biopharma FDA Type 2b Meeting Feedback Clarifies Biosimilar Development Plan for ABP-450"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1837607/000183760726000064/aeon-20260930x8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "AEON Biopharma FDA Type 2b Meeting Feedback Clarifies Biosimilar Development Plan for ABP-450",
+              "url": "https://www.stocktitan.net/news/AEON/aeon-biopharma-fda-type-2b-meeting-feedback-clarifies-biosimilar-ccfwa4cq3epe.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:AEON",
+          "newsSummary": "AEON announced FDA Type 2b Meeting Feedback on its biosimilar development plan for ABP-450 at 12:00 PM, well before the session high. This is a legitimate regulatory milestone—Type 2b meetings with FDA are substantive checkpoints that clarify development pathways and reduce execution risk for biotech programs. The catalyst has real merit; regulatory clarity on a biosimilar candidate is material for a clinical-stage biopharma company.",
+          "bullFactors": [
+            "Real FDA catalyst (Type 2b meeting feedback) with genuine regulatory value—not sympathy or fluff",
+            "HOD dominance at 61.58% with sustained fade resistance (only 28.32% fade) suggests institutional accumulation held through afternoon, classic continuation tape",
+            "Relative volume of 9.1x shows genuine intraday participation; 23.78% gap fill indicates overnight buyers were serious",
+            "Healthcare/Biotech sector benefiting from clinical news; catalyst hit before high, leaving room for continuation trades"
+          ],
+          "bearFactors": [
+            "Float of 68.88M is MEGA THICK—well above Jack's <10M preference and will limit explosive range and velocity on intraday moves",
+            "Form 8-K filed after the high (20:00 PM) is reactive disclosure, not a fresh catalyst—typical for biotech after a run and suggests the move may have already priced in the FDA news",
+            "Large float combined with ~$26.9M market cap creates liquidity drag and dilution risk on any further capital raises; clinical-stage biotech with limited cash runway is a structural concern",
+            "Biotech volatility can reverse sharply on any clinical setback or equity offering announcement; Type 2b clarity helps but does not de-risk the overall development program"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MSGY",
+          "hod": 56,
+          "hodExact": 56.76,
+          "news": [
+            "Form 6-K",
+            "Masonglory Limited Announces US$1.0 Million Private Placement to Fund Continued Acquisition of Equity Interests in Beta Beteiligungs und Besitz GmbH"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Masonglory Limited Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 2.21,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$24M",
+          "riskBadges": [
+            "Float 2.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.44,
+          "open": 4.93,
+          "gapPct": 11.04,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.96,
+          "hodTimeExact": "09:55 AM ET",
+          "close": 5.66,
+          "fade": 18,
+          "fadeExact": 18.68,
+          "vwap": 5.8032,
+          "vsVwap": "below",
+          "pmHigh": 5.11,
+          "volRaw": "11.9M",
+          "volDollar": 69323013,
+          "relVol": 2.5,
+          "avgVolM": 4.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Masonglory Limited Announces US$1.0 Million Private Placement to Fund Continued Acquisition of Equity Interests in Beta Beteiligungs und Besitz GmbH"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2020228/000121390026103905/ea030687201-6k_masonglory.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Masonglory Limited Announces US$1.0 Million Private Placement to Fund Continued Acquisition of Equity Interests in Beta Beteiligungs und Besitz GmbH",
+              "url": "https://www.stocktitan.net/news/MSGY/masonglory-limited-announces-us-1-0-million-private-placement-to-aytg46zlctax.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-28T17:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MSGY",
+          "newsSummary": "MSGY announced a US$1.0M private placement to fund continued acquisition of equity interests in Beta Beteiligungs und Besitz GmbH on 2026-09-28, before the intraday move. The acquisition itself represents real cash-deployed M&A activity, though the modest placement size and lack of major strategic partner involvement limit catalyst strength. News came pre-move, so the 56.76% HOD and sustained intraday volume suggest institutional accumulation and continued buying pressure through the session.",
+          "bullFactors": [
+            "Micro float (2.21M) — ideal for momentum; high relVol 2.5x supports sustained institutional accumulation",
+            "Strong HOD dominance (56.76%) with fade only 18.68% — classic afternoon continuation tape, shorts blowing out",
+            "Real M&A catalyst (equity acquisition with deployed capital), not sympathy or fluff; acquisition thesis has merit",
+            "Hong Kong industrial name with no dilutive offering language — private placement funds actual acquisition, not dilution"
+          ],
+          "bearFactors": [
+            "US$1.0M placement is modest in scale relative to $23.9M market cap — questions depth of strategic intent or runway",
+            "Form 6-K (regulatory filing) released same day; overseas microcap regulatory filings can obscure material risks",
+            "Gap and early premarket spike (11.04% gap) — some retail entry may have front-run institutional; watch for secondary fade into close",
+            "Hong Kong industrial microcap with limited US analyst coverage — liquidity and float tier expose to sudden reversals"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "NCI",
+          "hod": 56,
+          "hodExact": 56.35,
+          "news": [
+            "Neo-Concept International Group Holdings Ltd Announces Pricing of $2.0 Million Registered Direct Offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Neo-Concept International Group Holdings Limited Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "HK",
+          "floatM": 2.49,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 2.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.26,
+          "open": 1.78,
+          "gapPct": 41.27,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.97,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 1.26,
+          "fade": 36,
+          "fadeExact": 36.04,
+          "vwap": 1.7248,
+          "vsVwap": "below",
+          "pmHigh": 2.56,
+          "volRaw": "17.8M",
+          "volDollar": 30767391,
+          "relVol": 12.4,
+          "avgVolM": 1.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Neo-Concept International Group Holdings Ltd Announces Pricing of $2.0 Million Registered Direct Offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Neo-Concept International Group Holdings Ltd Announces Pricing of $2.0 Million Registered Direct Offering",
+              "url": "https://www.stocktitan.net/news/NCI/neo-concept-international-group-holdings-ltd-announces-pricing-of-2-e9r07g5gmqs3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T13:35:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCI",
+          "newsSummary": "NCI announced a $2.0M registered direct offering at 13:35 UTC, AFTER the stock had already rallied 56% with a 41% gap and 36% intraday fade. The offering news is reactive to the move, not its cause. This is a dilutive announcement that arrived post-euphoria and signals potential cap on further upside.",
+          "bullFactors": [
+            "Micro-float (2.49M shares) creates technical leverage on intraday momentum",
+            "HOD printing strength (56% HOD vs 36% fade) shows afternoon session held ground despite offering news",
+            "Relative volume of 12.4x suggests institutional participation, not pure retail retail pump"
+          ],
+          "bearFactors": [
+            "Offering announced after peak momentum — classic dilution flag that caps further enthusiasm and triggers profit-taking",
+            "Gap-driven move (41%) with significant premarket component suggests fuel already burned; intraday follow-through weakening",
+            "HK-listed micro-cap with no substantive business catalyst — offering itself is not a bullish event",
+            "Offering likely means near-term supply overhang and secondary dilution to existing holders"
+          ],
+          "setupGrade": "C+"
+        }
+      ],
+      "hod": 257,
+      "fade": 26,
+      "hodTime": "premarket",
+      "theme": "Active Tape",
+      "note": "NIVF led +257.92% (34% fade). 4/10 held <20% fade. news: NIVF — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ – 2026-09-30**\n\nToday's tape is bifurcated: catalyst-driven healthcare (CNTB offering fade, TNON contract hold) anchors the left side, while micro-cap real estate and fintech (CMCT 2.71M float, GOW 2.82M float) dominate afternoon session HODs with sustained volume—the latter pair signaling institutional accumulation off morning dips rather than premarket pump exhaustion. Float tier is heavily skewed sub-3M (CHGA, TNON, MSGY, GOAT), which favors momentum setups, but four of the ten runners spiked in premarket (NIVF offering rejection, CNTB phase-2 fade, NCI offering rejection, TGE morning hold), suggesting a **neutral-to-cold cycle**—the playbook's sweet spot lives in afternoon HOD breaks and dip-soaks with room to run, not premarket capitulation chases. Catalyst quality is mixed: real earnings (TGE), compliance wins (GOW), and buyback support (CMCT) carry weight, but two offerings (NIVF, NCI, F-grade rejection) and sympathy contract tags (CHGA, TNON) dilute the field; only CMCT (real estate buyback, micro-float, morning morning hold, minimal fade) and GOW (afternoon HOD, compliance tailwind, tight float) grade A- territory for this framework's momentum thesis."
+    },
     {
       "date": "2026-09-29",
       "runners": [
