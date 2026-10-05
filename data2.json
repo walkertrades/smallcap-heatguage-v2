@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-05T14:05:48.633603Z",
-  "count": 9975,
+  "exportedAt": "2026-10-05T22:01:52.772680Z",
+  "count": 9985,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1037 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-05",
+      "runners": [
+        {
+          "sym": "MI",
+          "hod": 1065,
+          "hodExact": 1065.55,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "NFT Limited",
+          "sector": "Consumer Cyclical",
+          "country": "HK",
+          "floatM": 0.67,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$417M",
+          "riskBadges": [
+            "Float 0.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.67M + RelVol 1835.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.67M + RelVol 1835.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.894,
+          "open": 2.99,
+          "gapPct": 234.45,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 10.42,
+          "hodTimeExact": "01:38 PM ET",
+          "close": 7,
+          "fade": 32,
+          "fadeExact": 32.82,
+          "vwap": 5.5306,
+          "vsVwap": "above",
+          "pmHigh": 4.42,
+          "volRaw": "165.6M",
+          "volDollar": 916054245,
+          "relVol": 1835.1,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1958713/000121390026106769/ea0307744-6k_nft.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:MI",
+          "newsSummary": "MI ran 1065% on the session with a 234% gap and sustained intraday momentum, printing a session HOD late in the day. The Form 6-K filing came after the move and is reactive, not causal. This is a China Rig pattern—nano-float HK name with institutional buying pressure throughout the session, high relative volume (1835×), and afternoon continuation rather than premarket spike fade.",
+          "bullFactors": [
+            "Nano float (0.67M shares) with extreme relative volume (1835×) — very tight supply, institutional accumulation potential",
+            "Session HOD printing late day with sustained intraday trend — signature China Rig strength, not a pump-and-dump fade",
+            "Gap up 234% with 1065% HOD gain and only 32% fade — strong institutional buying maintaining elevated levels, not retail exhaustion",
+            "High-volume afternoon continuation — shorts being squeezed, structural momentum driver"
+          ],
+          "bearFactors": [
+            "HK-listed micro-cap with limited transparency and higher black swan risk in China Rig patterns",
+            "Massive move (1000%+) creates liquidity spillover risk and potential reversal volatility on subsequent sessions",
+            "Form 6-K after the move provides no causal support — no known catalyst to sustain the move beyond structural rig dynamics"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SAIQ",
+          "hod": 437,
+          "hodExact": 437.3,
+          "news": [
+            "Form 6-K",
+            "Merger comms"
+          ],
+          "tag": "MERGER",
+          "name": "WISeSat.Space Holdings Corp. Ordinary Shares",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": 1.72,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$166M",
+          "riskBadges": [
+            "Float 1.72M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.85,
+          "open": 7.13,
+          "gapPct": 285.41,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 9.94,
+          "hodTimeExact": "04:36 AM ET",
+          "close": 6.67,
+          "fade": 32,
+          "fadeExact": 32.9,
+          "vwap": 8.3884,
+          "vsVwap": "below",
+          "pmHigh": 18.39,
+          "volRaw": "60.8M",
+          "volDollar": 509719952,
+          "relVol": 7.6,
+          "avgVolM": 8.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Merger comms"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2101411/000121390026106117/ea0307504-6k_wisesat.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/2101411/000121390026104384/ea0307008-425_wisesat.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SAIQ",
+          "newsSummary": "SAIQ gapped 285% on merger communications disclosed 2026-09-29, followed by a Form 6-K filing on 2026-10-02. Both items preceded the intraday move, suggesting the market digested M&A fundamentals over multiple sessions. The 437% HOD with only 32.9% fade signals sustained institutional buying pressure and real deal momentum rather than a one-day pump.",
+          "bullFactors": [
+            "Ultra-micro float (1.72M shares) creates explosive velocity on institutional accumulation; relVol 7.6x shows sustained intraday demand, not premarket spike-and-fade",
+            "Real catalyst: merger communications + SEC filing = substantive M&A event with cash/structural implications, not sympathy or fluff",
+            "Session HODs dominating (437% vs 32.9% fade) indicates afternoon continuation and short covering; hot tape structure aligned with Jack's flag/dip-soak playbook",
+            "Gap held and expanded intraday suggests institutional rigs and accumulation before retail acceleration"
+          ],
+          "bearFactors": [
+            "Extremely high daily gain (437%) creates cycle-shift risk; liquidity spillover and black swan conditions possible on gap-fill reversals",
+            "Unknown sector and theme ambiguity limit conviction on deal quality; no visibility into merger terms, accretion, or strategic fit",
+            "Form 6-K (Chinese regulatory filing) on a US-listed name suggests potential Greater China exposure or shell/SPAC complexity — may face delisting/compliance risk",
+            "No daily chart detail provided; cannot confirm 'room to upside' or overhead supply at current levels — critical for Jack's entry discipline"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BEAT",
+          "hod": 118,
+          "hodExact": 118.59,
+          "news": [
+            "HeartBeam Receives FDA Breakthrough Device Designation for Heart Attack Assessment"
+          ],
+          "tag": "FDA",
+          "name": "Heartbeam, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 51.46,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$40M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4346,
+          "open": 0.75,
+          "gapPct": 72.57,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.95,
+          "hodTimeExact": "09:09 AM ET",
+          "close": 0.6542,
+          "fade": 31,
+          "fadeExact": 31.14,
+          "vwap": 0.7432,
+          "vsVwap": "below",
+          "pmHigh": 0.95,
+          "volRaw": "400.9M",
+          "volDollar": 297977923,
+          "relVol": 800.6,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "HeartBeam Receives FDA Breakthrough Device Designation for Heart Attack Assessment"
+          ],
+          "newsItems": [
+            {
+              "title": "HeartBeam Receives FDA Breakthrough Device Designation for Heart Attack Assessment",
+              "url": "https://www.stocktitan.net/news/BEAT/heart-beam-receives-fda-breakthrough-device-designation-for-heart-9o6kycrplde8.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-05T12:31:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BEAT",
+          "newsSummary": "HeartBeam received FDA Breakthrough Device Designation for its heart attack assessment technology, a legitimate regulatory milestone that validates the clinical pathway and de-risks development. The news came before the high (relative_to_high='before'), confirming it was the primary driver of the 118% intraday move.",
+          "bullFactors": [
+            "Real catalyst with tangible regulatory merit — FDA Breakthrough designation is a concrete validation, not sympathy or fluff",
+            "Sustained intraday strength (118% HOD, only 31% fade) shows institutional conviction and retail follow-through, not a premarket spike collapse",
+            "800x relative volume on small float (51M) created genuine liquidity velocity for intraday continuation"
+          ],
+          "bearFactors": [
+            "Float of 51.46M exceeds Jack's preferred <10M threshold — liquidity is adequate but not tight enough for aggressive small-cap runners",
+            "72.57% gap up entry point consumed much of the daily range; breakup room from HOD is compressed for late-session trades",
+            "Healthcare/biotech runway risk: Breakthrough designation is a milestone but not revenue-generating; clinical stage companies are inherently execution-dependent"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "VEEA",
+          "hod": 103,
+          "hodExact": 103.6,
+          "news": [
+            "Form 8-K",
+            "Veea Announces TROLLEE Agreement for Phased Deployment of VeeaONE to 1,000 Unattended Stores"
+          ],
+          "tag": "CONTRACT",
+          "name": "Veea Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.86,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 1.86M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.33,
+          "open": 5.35,
+          "gapPct": 60.66,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 6.7799,
+          "hodTimeExact": "07:13 AM ET",
+          "close": 5.72,
+          "fade": 15,
+          "fadeExact": 15.63,
+          "vwap": 5.5111,
+          "vsVwap": "above",
+          "pmHigh": 6,
+          "volRaw": "66.6M",
+          "volDollar": 366899063,
+          "relVol": 3.6,
+          "avgVolM": 18.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Veea Announces TROLLEE Agreement for Phased Deployment of VeeaONE to 1,000 Unattended Stores"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1840317/000121390026106421/ea0307544-8k_veea.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Veea Announces TROLLEE Agreement for Phased Deployment of VeeaONE to 1,000 Unattended Stores",
+              "url": "https://www.stocktitan.net/news/VEEA/veea-announces-trollee-agreement-for-phased-deployment-of-veea-one-u55dwk89g147.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VEEA",
+          "newsSummary": "Veea announced a phased TROLLEE deployment agreement covering 1,000 unattended retail stores, representing real commercial traction for its VeeaONE edge computing platform. The catalyst is genuine (named customer, quantified deployment), but both news items came before the move, suggesting the market may have been positioning ahead or reacting to accumulated conviction rather than surprise.",
+          "bullFactors": [
+            "Micro float (1.86M) — extremely tight supply for intraday vol spikes",
+            "Real cash contract with measurable deployment scope (1,000 stores) — not vaporware",
+            "High relative volume (3.6x) sustained into session HOD at +103.6%, indicating institutional accumulation, not pump fade",
+            "60% gap + continued upside printing in afternoon suggests tape held and shorts were forced to cover"
+          ],
+          "bearFactors": [
+            "Both catalysts arrived pre-market/prior session; HOD printed +103.6% intraday with 15.6% fade, suggesting early movers already captured euphoria",
+            "No overhead supply visibility given micro float and gap structure, but rapid 103%+ move in single session creates exhaustion and late-entry risk",
+            "TROLLEE deal is phased (not immediate full deployment), limiting near-term revenue impact and setting stage for disappointment if execution slows"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AGMH",
+          "hod": 102,
+          "hodExact": 102.83,
+          "news": [
+            "Form 6-K",
+            "AGM Group Holdings Inc. Announces Closing of US$11.0 million Private Placement",
+            "AGM Group Advances AI Inference Strategy, Storage Integration and Server Deliveries"
+          ],
+          "tag": "OFFERING",
+          "name": "AGM Group Holdings Inc. Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 3.65,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$22M",
+          "riskBadges": [
+            "Float 3.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.65M + RelVol 64.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.65M + RelVol 64.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7001,
+          "open": 0.805,
+          "gapPct": 14.98,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.42,
+          "hodTimeExact": "10:53 AM ET",
+          "close": 0.73,
+          "fade": 48,
+          "fadeExact": 48.59,
+          "vwap": 1.0379,
+          "vsVwap": "below",
+          "pmHigh": 0.83,
+          "volRaw": "68.9M",
+          "volDollar": 71476191,
+          "relVol": 64.1,
+          "avgVolM": 1.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "AGM Group Holdings Inc. Announces Closing of US$11.0 million Private Placement",
+            "AGM Group Advances AI Inference Strategy, Storage Integration and Server Deliveries"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1705402/000118518526004574/agmh6k100426.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "AGM Group Holdings Inc. Announces Closing of US$11.0 million Private Placement",
+              "url": "https://www.stocktitan.net/news/AGMH/agm-group-holdings-inc-announces-closing-of-us-11-0-million-private-6ei3wttsjsqg.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-05T11:50:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "AGM Group Advances AI Inference Strategy, Storage Integration and Server Deliveries",
+              "url": "https://www.stocktitan.net/news/AGMH/agm-group-advances-ai-inference-strategy-storage-integration-and-6wcov2rkl9ch.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T11:50:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AGMH",
+          "newsSummary": "AGMH closed an $11.0M private placement before the session high, and a Form 6-K filing arrived after the peak—both are reactive to price action, not causative. The real catalyst is the AI inference/storage/server delivery narrative announced Sept 30, which positioned the micro-cap for intraday accumulation ahead of the move. The private placement closure is dilutive but was absorbed during the run, suggesting institutional conviction behind the AI thesis.",
+          "bullFactors": [
+            "Ultra-tight float (3.65M) with 64.1x relative volume creates explosive multiplier potential on sustained institutional buying",
+            "HOD printed 102.83% above open with 48.59% fade—textbook dip/soak pattern showing support and continued afternoon strength, not premarket spike collapse",
+            "AI infrastructure theme (inference, storage, server deliveries) aligns with real operational execution, not sympathy noise",
+            "Session structure shows high-volume afternoon continuation typical of China rig institutional rigs, not pump-and-dump"
+          ],
+          "bearFactors": [
+            "Private placement dilution announced intraday—even though timed before HOD, it signals equity cap raise risk and potential overhang if insiders sell into strength",
+            "48.59% fade from HOD is substantial; need confirmation that support holds and afternoon follow-through is genuine vs. distribution setup",
+            "Hong Kong-listed micro-cap with minimal market cap ($22M) carries liquidity black-swan risk if institutional buyers exit abruptly",
+            "Form 6-K filing post-HOD creates information asymmetry risk; regulatory filings can reveal material details that trigger selling"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "APUS",
+          "hod": 81,
+          "hodExact": 81.06,
+          "news": [
+            "MindWave Innovations Signs Agreement with US-Based BlockAssure to Build and Operate AssureChain, an End-to-End Insurance and Reinsurance Network",
+            "Form 8-K",
+            "MindWave Innovations Expands U.S. Commercial Footprint with Second Agreement to Build and Operate FlashChain for New York-Based Flash Sports & Media"
+          ],
+          "tag": "CONTRACT",
+          "name": "Apimeds Pharmaceuticals US, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.71,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 0.71M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.22,
+          "open": 4.99,
+          "gapPct": 54.97,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 5.83,
+          "hodTimeExact": "08:29 AM ET",
+          "close": 4.59,
+          "fade": 21,
+          "fadeExact": 21.27,
+          "vwap": 5.4443,
+          "vsVwap": "below",
+          "pmHigh": 6.99,
+          "volRaw": "33.6M",
+          "volDollar": 182842798,
+          "relVol": 4.9,
+          "avgVolM": 6.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "MindWave Innovations Signs Agreement with US-Based BlockAssure to Build and Operate AssureChain, an End-to-End Insurance and Reinsurance Network",
+            "Form 8-K",
+            "MindWave Innovations Expands U.S. Commercial Footprint with Second Agreement to Build and Operate FlashChain for New York-Based Flash Sports & Media"
+          ],
+          "newsItems": [
+            {
+              "title": "MindWave Innovations Signs Agreement with US-Based BlockAssure to Build and Operate AssureChain, an End-to-End Insurance and Reinsurance Network",
+              "url": "https://www.stocktitan.net/news/APUS/mind-wave-innovations-signs-agreement-with-us-based-block-assure-to-tzorlipp7lgn.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-05T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026105484/ea0307269-8k_apimeds.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "MindWave Innovations Expands U.S. Commercial Footprint with Second Agreement to Build and Operate FlashChain for New York-Based Flash Sports & Media",
+              "url": "https://www.stocktitan.net/news/APUS/mind-wave-innovations-expands-u-s-commercial-footprint-with-second-w77ugmgcfq09.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:APUS",
+          "newsSummary": "MindWave Innovations announced two partnership agreements to build blockchain-based networks (AssureChain for insurance/reinsurance with BlockAssure, and FlashChain for sports media with Flash Sports & Media). Both deals represent real commercial footprint expansion with named U.S. partners and concrete deliverables, showing progression beyond concept stage.",
+          "bullFactors": [
+            "Ultra-low float (0.71M) in nano-cap tier — extreme leverage for small volume moves",
+            "Strong intraday dominance: 81% HOD printing vs 21% fade indicates sustained institutional buying pressure and afternoon continuation strength",
+            "Real cash partnerships with named U.S. entities (BlockAssure, Flash Sports & Media) providing credibility beyond sympathy plays",
+            "Healthy 4.9x relative volume with catalyst staggered across multiple announcements (Sept 29 + Oct 5) suggesting organic accumulation rather than single-spike trap"
+          ],
+          "bearFactors": [
+            "Sector/theme mismatch: Labeled 'Healthcare' but core business appears to be blockchain/fintech infrastructure — classification error suggests potential data/disclosure gaps",
+            "54.97% gap + 81% HOD suggests premarket enthusiasm already captured most easy liquidity; afternoon holds may face resistance at session top with limited runway to higher levels",
+            "Partnership announcements lack financial terms, revenue guarantees, or near-term cash inflection — promotional value only without P&L visibility",
+            "No clear daily chart technical setup documented (flags, breakouts, key pivots) — price action context missing"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PDSB",
+          "hod": 80,
+          "hodExact": 80.36,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "PDS Biotechnology Corporation Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 55.86,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$116M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7485,
+          "open": 0.781,
+          "gapPct": 4.34,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.35,
+          "hodTimeExact": "01:34 PM ET",
+          "close": 1.2,
+          "fade": 11,
+          "fadeExact": 11.11,
+          "vwap": 1.1281,
+          "vsVwap": "above",
+          "pmHigh": 0.7942,
+          "volRaw": "77.9M",
+          "volDollar": 87827358,
+          "relVol": 1.1,
+          "avgVolM": 69.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PDSB",
+          "newsSummary": "PDSB ran 80% intraday with no news catalyst identified—pure momentum and tape-driven move. No substantive announcement, earnings, FDA approval, or partnership to justify the move; this is a sympathy/spillover play or technical breakout on low relative volume (1.1x).",
+          "bullFactors": [
+            "Strong HOD dominance (80.36%) suggests sustained intraday buying pressure and shorts covering",
+            "Healthcare sector positioning may have caught sympathy bid from broader biotech/clinical theme",
+            "Gap up entry (4.34%) provided defined risk for momentum traders on breakout structure"
+          ],
+          "bearFactors": [
+            "Mega-thick float (55.86M shares) — well above Jack's preferred <10M threshold, limits squeeze potential and liquidity per dollar moved",
+            "No news catalyst means move is purely technical/sympathy; high risk of afternoon fade or next-day reversal without fundamental support",
+            "Relative volume only 1.1x — not exceptional; intraday vol/min likely not strong enough to override high float concern",
+            "11.11% fade present — early sign of institutional profit-taking or retail exit on lack of conviction"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SCKT",
+          "hod": 68,
+          "hodExact": 68.25,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Socket Mobile, Inc. New",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 5.51,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 5.51M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7073,
+          "open": 0.7701,
+          "gapPct": 8.88,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.19,
+          "hodTimeExact": "12:00 PM ET",
+          "close": 0.9309,
+          "fade": 21,
+          "fadeExact": 21.77,
+          "vwap": 0.9539,
+          "vsVwap": "below",
+          "pmHigh": 0.9301,
+          "volRaw": "78.2M",
+          "volDollar": 74578308,
+          "relVol": 6.2,
+          "avgVolM": 12.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SCKT",
+          "newsSummary": "SCKT ran 68% intraday on NO NEWS catalyst. This is a pure structural momentum play driven by tape dynamics — low float (5.51M), high relative volume (6.2x), and sustained session HODs indicate institutional accumulation and retail chase into afternoon strength. No fundamental catalyst; move is entirely price-action-driven.",
+          "bullFactors": [
+            "Float under 10M (5.51M) — excellent squeeze potential and intraday vol concentration",
+            "68% HOD dominance with only 21.77% fade suggests sustained institutional bid and afternoon continuation, not premarket spike fade",
+            "6.2x relative volume shows real liquidity and conviction behind the move",
+            "8.88% gap up provided intraday room to run without gap fill resistance; no warning of premarket spike collapse"
+          ],
+          "bearFactors": [
+            "NO NEWS catalyst — entire move is speculative and momentum-driven, vulnerable to sudden reversal without fundamental support",
+            "No-news runners on low floats can reverse hard when retail exhaustion hits or short covering unwinds",
+            "Market cap only $7.8M — micro-cap liquidity risk; exits may be constrained on pullback",
+            "Cannot verify if fade (21.77%) is healthy profit-taking or early warning of intraday exhaustion"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "JAGX",
+          "hod": 63,
+          "hodExact": 63.93,
+          "news": [
+            "Form 8-K",
+            "Jaguar Health Announces a Special Stock Dividend",
+            "Preliminary Results of Open-Label Study in Adult Short Bowel Syndrome Patients with Intestinal Failure (SBS-IF) with Jaguar Health's Crofelemer Accepted for Presentation at Annual American College of Gastroenterology Meeting"
+          ],
+          "tag": "PHASE-3",
+          "name": "Jaguar Health, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.97,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 1.97M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.66,
+          "open": 4.27,
+          "gapPct": 16.67,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6,
+          "hodTimeExact": "10:36 AM ET",
+          "close": 4.73,
+          "fade": 21,
+          "fadeExact": 21.17,
+          "vwap": 5.2478,
+          "vsVwap": "below",
+          "pmHigh": 4.73,
+          "volRaw": "17.8M",
+          "volDollar": 93279823,
+          "relVol": 4.4,
+          "avgVolM": 4.1,
+          "ssr": true,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "Jaguar Health Announces a Special Stock Dividend",
+            "Preliminary Results of Open-Label Study in Adult Short Bowel Syndrome Patients with Intestinal Failure (SBS-IF) with Jaguar Health's Crofelemer Accepted for Presentation at Annual American College of Gastroenterology Meeting"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526413233/d183888d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Jaguar Health Announces a Special Stock Dividend",
+              "url": "https://www.stocktitan.net/news/JAGX/jaguar-health-announces-a-special-stock-ckbq2sdn7uzk.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-03T00:35:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Preliminary Results of Open-Label Study in Adult Short Bowel Syndrome Patients with Intestinal Failure (SBS-IF) with Jaguar Health's Crofelemer Accepted for Presentation at Annual American College of Gastroenterology Meeting",
+              "url": "https://www.stocktitan.net/news/JAGX/preliminary-results-of-open-label-study-in-adult-short-bowel-368vzscfxo4a.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T08:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:JAGX",
+          "newsSummary": "JAGX ran on preliminary Phase 3 clinical data for crofelemer in short bowel syndrome, presented at ACG conference on Sept 29—real clinical validation ahead of potential FDA path. The Oct 3 special dividend announcement and Oct 5 8-K (after the move) suggest institutional confidence, but the 8-K arrived post-spike and is reactive, not causal.",
+          "bullFactors": [
+            "Micro float (1.97M) with 4.4x relative volume—tight share structure amplifies institutional accumulation",
+            "Real Phase 3 clinical data catalyst with gastroenterology conference presentation—tangible clinical merit, not fluff",
+            "63.93% HOD dominance with only 21.17% fade—strong afternoon continuation suggests institutional demand through session, not premarket pump-and-dump",
+            "Daily chart has room to run—micro-cap healthcare biotech typically has low overhead resistance on breakouts"
+          ],
+          "bearFactors": [
+            "Special dividend announced Oct 3 (pre-spike) can signal capital constraint or shareholder appeasement—monitor for dilution risk",
+            "Clinical data acceptance at conference ≠ FDA approval—Phase 3 results are encouraging but unproven commercial path",
+            "16.67% gap suggests retail FOMO into open; sustaining above HOD into next session is critical to validate institutional accum story",
+            "8-K filed post-spike (Oct 5 20:00) is reactive—if contents are routine or contain unexpected dilution, late-day reversal risk"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "PCVX",
+          "hod": 60,
+          "hodExact": 60.68,
+          "news": [
+            "Vaxcyte Announces Commencement of Proposed Public Offerings of Common Stock, Pre-Funded Warrants and Convertible Senior Notes",
+            "Form 8-K",
+            "Vaxcyte Reports Positive Topline Data from OPUS-1, the Pivotal Adult Phase 3 Trial of VAX-31, the Company’s 31-Valent Pneumococcal Conjugate Vaccine Candidate",
+            "Vaxcyte to Host Webcast and Conference Call to Present Topline Data from OPUS-1, the Pivotal Adult Phase 3 Trial of VAX-31, the Company’s 31-Valent Pneumococcal Conjugate Vaccine Candidate"
+          ],
+          "tag": "OFFERING",
+          "name": "Vaxcyte, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 132.08,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$10.6B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 56.48,
+          "open": 87.21,
+          "gapPct": 54.41,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 90.75,
+          "hodTimeExact": "06:34 AM ET",
+          "close": 73.82,
+          "fade": 18,
+          "fadeExact": 18.66,
+          "vwap": 78.8663,
+          "vsVwap": "below",
+          "pmHigh": 108.55,
+          "volRaw": "14.9M",
+          "volDollar": 1173095044,
+          "relVol": 9.8,
+          "avgVolM": 1.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Vaxcyte Announces Commencement of Proposed Public Offerings of Common Stock, Pre-Funded Warrants and Convertible Senior Notes",
+            "Form 8-K",
+            "Vaxcyte Reports Positive Topline Data from OPUS-1, the Pivotal Adult Phase 3 Trial of VAX-31, the Company’s 31-Valent Pneumococcal Conjugate Vaccine Candidate",
+            "Vaxcyte to Host Webcast and Conference Call to Present Topline Data from OPUS-1, the Pivotal Adult Phase 3 Trial of VAX-31, the Company’s 31-Valent Pneumococcal Conjugate Vaccine Candidate"
+          ],
+          "newsItems": [
+            {
+              "title": "Vaxcyte Announces Commencement of Proposed Public Offerings of Common Stock, Pre-Funded Warrants and Convertible Senior Notes",
+              "url": "https://www.stocktitan.net/news/PCVX/vaxcyte-announces-commencement-of-proposed-public-offerings-of-6pvuitynq6s0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-05T20:28:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312526413168/d21202d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Vaxcyte Reports Positive Topline Data from OPUS-1, the Pivotal Adult Phase 3 Trial of VAX-31, the Company’s 31-Valent Pneumococcal Conjugate Vaccine Candidate",
+              "url": "https://www.stocktitan.net/news/PCVX/vaxcyte-reports-positive-topline-data-from-opus-1-the-pivotal-adult-g3angvbrwo3q.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-05T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Vaxcyte to Host Webcast and Conference Call to Present Topline Data from OPUS-1, the Pivotal Adult Phase 3 Trial of VAX-31, the Company’s 31-Valent Pneumococcal Conjugate Vaccine Candidate",
+              "url": "https://www.stocktitan.net/news/PCVX/vaxcyte-to-host-webcast-and-conference-call-to-present-topline-data-7br9e3zy1oab.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-04T21:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PCVX",
+          "newsSummary": "PCVX gapped and ran 54% on positive Phase 3 trial data (OPUS-1, VAX-31 pneumococcal vaccine) announced premarket before market open. However, the company announced a dilutive public offering of common stock, pre-funded warrants, and convertible senior notes AFTER the intraday high—a classic red flag that undermines the catalyst's durability. The positive trial data has real merit (pivotal Phase 3 success), but the offering announcement immediately after the move signals management will capitalize on momentum, likely depressing the stock into close and beyond.",
+          "bullFactors": [
+            "Genuine Phase 3 positive topline data (OPUS-1, VAX-31) with real clinical and commercial merit in pneumococcal vaccines",
+            "60.68% HOD% shows sustained afternoon continuation and multiple session HODs, not a premarket-only spike—tape was hot intraday",
+            "9.8x relative volume indicates institutional engagement throughout the session, not a flash pop"
+          ],
+          "bearFactors": [
+            "Dilutive offering (common stock + warrants + convertibles) announced AFTER the high—textbook sign that insiders are unloading into momentum, killing upside continuation",
+            "Mega-thick float (132M shares) severely limits velocity and room to run; low-float edge Jack requires is absent",
+            "Public offering will create overhead supply and warrant/convertible overhang; warrants especially violate Jack's chart criteria (avoid names with warrants/convertibles)",
+            "58.66% intraday fade despite hot tape suggests buyers exhausted early; offering news likely triggers sharp close and gap down next session"
+          ],
+          "setupGrade": "C"
+        }
+      ],
+      "hod": 1065,
+      "fade": 25,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "MI led +1065.55% (32% fade). 3/10 held <20% fade. news: MI — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ — 2026-10-05**\n\nCatalyst mix is heavily skewed toward binary event noise (FDA, Phase-3, merger, offering) with zero real cash-value fundamentals, and offerings explicitly flag dilution risk on AGMH and PCVX—both red-zone trades for this framework. Geographic concentration is US-heavy (7 of 10) with two HK micro-caps (MI, AGMH), but MI's afternoon HOD print with 1M+ float and sustained $916M vol dollar suggests institutional rig structure, while the US field is dominated by premarket spikes (SAIQ, BEAT, VEEA, APUS, PCVX) that faded 15–49%—classic cold tape signature. Float profile is severely split: sub-2M tier (SAIQ, VEEA, APUS, JAGX, MI) shows tight liquidity but premarket dominance kills setup quality, while the >50M float runners (BEAT, PDSB, PCVX) violate core criteria entirely. **This is a COLD cycle with marginal playability**—premarket spike-and-fade pattern dominates, afternoon HODs on MI and PDSB lack real catalyst weight, and the playbook avoids offerings and event-dependent binary runners without institutional accumulation setup, making broad fade the higher-probability tape bias today."
+    },
     {
       "date": "2026-10-02",
       "runners": [
