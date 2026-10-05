@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-01T12:59:16.664568Z",
-  "count": 9955,
+  "exportedAt": "2026-10-05T14:05:48.633603Z",
+  "count": 9975,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,2094 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-02",
+      "runners": [
+        {
+          "sym": "AMOD",
+          "hod": 307,
+          "hodExact": 307.69,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Alpha Modus Holdings, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.45,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$253M",
+          "riskBadges": [
+            "Float 1.45M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.45M + RelVol 200.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.45M + RelVol 200.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.17,
+          "open": 3.48,
+          "gapPct": 197.44,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.77,
+          "hodTimeExact": "09:47 AM ET",
+          "close": 3.49,
+          "fade": 26,
+          "fadeExact": 26.83,
+          "vwap": 3.253,
+          "vsVwap": "above",
+          "pmHigh": 3.6,
+          "volRaw": "194.5M",
+          "volDollar": 632569444,
+          "relVol": 200.9,
+          "avgVolM": 1.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1862463/000149315226045442/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AMOD",
+          "newsSummary": "AMOD spiked 197% in premarket gap with no substantive catalyst preceding the move. A Form 8-K was filed after the high, making it reactive and not the cause of the rally. The move is driven by pure momentum/sympathy with no real cash catalyst or institutional event to justify the magnitude.",
+          "bullFactors": [
+            "Micro float (1.45M) with 200.9x relative volume — extreme leverage for intraday moves",
+            "Late-session HOD of 307% suggests some afternoon continuation vs. pure premarket fade, indicating possible retail/institutional chasing",
+            "26.83% fade from HOD is not catastrophic; held above +200% shows some sticky demand"
+          ],
+          "bearFactors": [
+            "Premarket spike dominated the move (197% gap) — classic cold-tape setup, high fade risk into close",
+            "No real catalyst; Form 8-K is post-event filing and tells us nothing about the substance — major red flag for pump structure",
+            "No identifiable theme/catalyst = sympathy/meme-driven only; vulnerable to overnight wash and reverse gap down",
+            "HOD at +307% after +197% gap leaves minimal room to upside before heavy institutional unwind or retail distribution"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "XRPN",
+          "hod": 126,
+          "hodExact": 126.21,
+          "news": [
+            "Merger comms",
+            "Form 8-K",
+            "Shareholders Approve Evernorth Business Combination; Transaction and Related Private Placements Have Raised Over $1 Billion; Nasdaq Trading Under \"XRPN\" Expected to Begin on October 8"
+          ],
+          "tag": "MERGER",
+          "name": "Armada Acquisition Corp. II Class A Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 17.91,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$1.6B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 23.43,
+          "open": 29,
+          "gapPct": 23.77,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 53,
+          "hodTimeExact": "12:45 PM ET",
+          "close": 39.42,
+          "fade": 25,
+          "fadeExact": 25.62,
+          "vwap": 39.5306,
+          "vsVwap": "below",
+          "pmHigh": 29.46,
+          "volRaw": "9.3M",
+          "volDollar": 367831561,
+          "relVol": 14.2,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Merger comms",
+            "Form 8-K",
+            "Shareholders Approve Evernorth Business Combination; Transaction and Related Private Placements Have Raised Over $1 Billion; Nasdaq Trading Under \"XRPN\" Expected to Begin on October 8"
+          ],
+          "newsItems": [
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/2044009/000119312526411024/d110692d425.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2044009/000119312526409850/d32574d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Shareholders Approve Evernorth Business Combination; Transaction and Related Private Placements Have Raised Over $1 Billion; Nasdaq Trading Under \"XRPN\" Expected to Begin on October 8",
+              "url": "https://www.stocktitan.net/news/XRPN/shareholders-approve-evernorth-business-combination-transaction-and-del5mw4sg21j.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XRPN",
+          "newsSummary": "Shareholders approved the Evernorth business combination on Oct 1, with $1B+ raised via transaction and private placements. Nasdaq listing under XRPN expected Oct 8. The merger news preceded the move (Form 8-K Oct 1 before HOD), making it the real catalyst. This is a cash-backed SPAC merger with institutional backing, not fluff.",
+          "bullFactors": [
+            "Real cash catalyst: $1B+ raised in transaction + private placements = genuine institutional support, not sympathy",
+            "HOD sustained at +126% with 14.2x relative volume — afternoon continuation strength typical of hot institutional cycles",
+            "Post-merger Nasdaq listing (Oct 8) upcoming provides near-term catalytic window and legitimacy boost",
+            "Form 8-K + merger comms before the move show catalyst preceded price action (not reactive chasing)"
+          ],
+          "bearFactors": [
+            "Float 17.91M is above Jack's <10M sweet spot; mid-float tier reduces exclusivity and intraday velocity",
+            "Fade of 25.62% from HOD is material — suggests retail chasing into merger pop rather than institutional accumulation dip/soak",
+            "Premarket gap +23.77% consumed much of the move before market open, reducing room for sustained intraday continuation",
+            "Reverse merger/SPAC structure carries dilution risk; private placements may include warrant/convertible overhang not yet visible"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SDEV",
+          "hod": 109,
+          "hodExact": 109.02,
+          "news": [
+            "Form 8-K",
+            "Proxy"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Stablecoin Development Corporation",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 6.49,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$517M",
+          "riskBadges": [
+            "Float 6.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.66,
+          "open": 5.06,
+          "gapPct": 38.25,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.65,
+          "hodTimeExact": "10:32 AM ET",
+          "close": 7.48,
+          "fade": 2,
+          "fadeExact": 2.22,
+          "vwap": 6.4861,
+          "vsVwap": "above",
+          "pmHigh": 5.57,
+          "volRaw": "153.3M",
+          "volDollar": 994214963,
+          "relVol": 8.2,
+          "avgVolM": 18.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Proxy"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1389545/000143774926031464/sdev20260929_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1389545/000143774926031344/sdev20260921_def14a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:SDEV",
+          "newsSummary": "SDEV filed a Form 8-K on Sept 29 and a Proxy filing on Sept 28, both before today's move. These are routine compliance documents that preceded the 109% HOD move, suggesting the price action was driven by intraday institutional accumulation and tape momentum rather than news catalyst. The filings themselves appear procedural with no dilutive or transformative announcements.",
+          "bullFactors": [
+            "Tight float at 6.49M shares creates low-float leverage for sustained intraday momentum",
+            "109% HOD with only 2.22% fade shows strong afternoon continuation and short-squeeze resilience",
+            "8.2x relative volume indicates institutional participation and tape heat throughout session",
+            "38.25% gap + sustained HOD printing late session aligns with Jack's flag/breakout setup preference"
+          ],
+          "bearFactors": [
+            "Compliance filings (8-K, Proxy) are procedural and provide no fundamental catalyst or cash value",
+            "Large premarket gap (38.25%) suggests retail caught momentum early; institutional setup timing unclear",
+            "Healthcare sector with low-float micro-cap structure carries execution and liquidity risk on reversal",
+            "No substantive business catalyst identified — move appears purely technical/tape-driven"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "FLUX",
+          "hod": 101,
+          "hodExact": 101.35,
+          "news": [
+            "Flux Power Rejects Unsolicited Proposal from Solidion Technology, Inc.",
+            "Solidion Technology Chairman and CEO Jaymes Winters Justifies Below Market Acquisition Price for Flux Power, Inc. (Nasdaq: FLUX)",
+            "Solidion Technology Issues Open Letter to Flux Power Inc. (NASDAQ: FLUX) Shareholders"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Flux Power Holdings, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 21.52,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4066,
+          "open": 0.3995,
+          "gapPct": -1.75,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.8187,
+          "hodTimeExact": "01:11 PM ET",
+          "close": 0.64,
+          "fade": 21,
+          "fadeExact": 21.83,
+          "vwap": 0.6396,
+          "vsVwap": "above",
+          "pmHigh": 0.5377,
+          "volRaw": "167.3M",
+          "volDollar": 106992885,
+          "relVol": 960.2,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Flux Power Rejects Unsolicited Proposal from Solidion Technology, Inc.",
+            "Solidion Technology Chairman and CEO Jaymes Winters Justifies Below Market Acquisition Price for Flux Power, Inc. (Nasdaq: FLUX)",
+            "Solidion Technology Issues Open Letter to Flux Power Inc. (NASDAQ: FLUX) Shareholders"
+          ],
+          "newsItems": [
+            {
+              "title": "Flux Power Rejects Unsolicited Proposal from Solidion Technology, Inc.",
+              "url": "https://www.stocktitan.net/news/FLUX/flux-power-rejects-unsolicited-proposal-from-solidion-technology-gwo9ke1inqxw.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-02T12:31:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Solidion Technology Chairman and CEO Jaymes Winters Justifies Below Market Acquisition Price for Flux Power, Inc. (Nasdaq: FLUX)",
+              "url": "https://www.stocktitan.net/news/FLUX/solidion-technology-chairman-and-ceo-jaymes-winters-justifies-below-nwayx56q8aux.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T10:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Solidion Technology Issues Open Letter to Flux Power Inc. (NASDAQ: FLUX) Shareholders",
+              "url": "https://www.stocktitan.net/news/FLUX/solidion-technology-issues-open-letter-to-flux-power-inc-nasdaq-flux-xody7shdqoxp.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FLUX",
+          "newsSummary": "Solidion Technology made an unsolicited acquisition proposal for FLUX at a below-market price, triggering shareholder debate via open letters. FLUX rejected the proposal today (after the HOD was already set), making this a reactive headline rather than the catalyst for the 101% intraday move. The real merit is the contested M&A situation itself — a below-market offer typically signals activist pressure and potential shareholder friction, but no definitive deal catalyzes the move.",
+          "bullFactors": [
+            "Sustained intraday momentum with 960× relative volume — session HODs dominating, not a premarket spike fade",
+            "21.5M float is manageable for a micro-cap; relVol shows institutional participation throughout the day",
+            "Rejection + open letter from acquirer signals continued deal tension — potential for further volatility and shareholder activism plays",
+            "Held 78% of gains intraday (101% HOD, 21.8% fade) — institutional accumulation and short covering, not a flash wick"
+          ],
+          "bearFactors": [
+            "Acquisition context introduces deal uncertainty and overhang risk — if deal dies, retail may unwind; if it succeeds below market, downside risk",
+            "News came after HOD (relative_to_high='after'), meaning the move was not caused by today's rejection — momentum may be front-running or sympathy-driven",
+            "Float tier is 'Thick' (21.5M) — above Jack's preferred <10M; reduces leverage and liquidity advantages",
+            "Industrial sector with no clear momentum theme (no AI, EV, semi, crypto, etc.) — makes this a single-stock event risk, not a sympathy play"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AIXI",
+          "hod": 86,
+          "hodExact": 86.01,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "XIAO-I Corporation American Depositary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 3.22,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 3.22M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.22M + RelVol 103.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.22M + RelVol 103.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.215,
+          "open": 1.7,
+          "gapPct": 39.92,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.26,
+          "hodTimeExact": "09:37 AM ET",
+          "close": 1.81,
+          "fade": 19,
+          "fadeExact": 19.91,
+          "vwap": 1.8073,
+          "vsVwap": "above",
+          "pmHigh": 1.92,
+          "volRaw": "74.0M",
+          "volDollar": 133744725,
+          "relVol": 103.3,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": "7:1",
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1935172/000121390026105823/ea0306791-6k_xiao1.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIXI",
+          "newsSummary": "AIXI filed a Form 6-K regulatory report on 2026-10-01 evening, before today's 86% intraday move. The filing itself is a routine disclosure document and not a substantive cash catalyst. The sustained move, high relative volume (103.3%), afternoon HOD printing, and multiple session highs suggest institutional accumulation throughout the session rather than a premarket spike-and-fade pattern—consistent with China rig structural dynamics on a micro-float name.",
+          "bullFactors": [
+            "Micro float (3.22M shares) with intraday relative volume 103.3% — sustained buying pressure all day, not a 2-minute spike",
+            "86% HOD with 19.91% fade indicates strong afternoon continuation and shorts covering, tape temperature HOT",
+            "No dilutive news — Form 6-K is routine SEC filing, not an offering or warrant exercise",
+            "Multiple session HODs printing late intraday on China Rig pattern; not a premarket fade setup"
+          ],
+          "bearFactors": [
+            "Form 6-K is regulatory boilerplate with no disclosed cash catalyst or business catalyst detail",
+            "China micro-cap names carry structural liquidity and repatriation risk; overnight or EOD reversals common",
+            "Gap up 39.92% into move reduces margin of safety for late entries; previous HOD supply not confirmed",
+            "No named partnership, ER beat, or real-value deal disclosed — sustained move relies entirely on structural China rig demand"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CYCU",
+          "hod": 84,
+          "hodExact": 84.01,
+          "news": [
+            "Form 8-K",
+            "Cycurion Regains Compliance with Nasdaq Bid Price Requirement",
+            "Cycurion Discusses Record Contract Win, Public Safety Expansion and Growth Strategy in New Interview",
+            "Cycurion Resolves John Doe Defamation Action After Defendant Signs Retraction of False Fraud Accusations"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Cycurion, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 3.2,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 3.2M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.69,
+          "open": 2.98,
+          "gapPct": 10.78,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.95,
+          "hodTimeExact": "10:48 AM ET",
+          "close": 3.82,
+          "fade": 22,
+          "fadeExact": 22.83,
+          "vwap": 4.0315,
+          "vsVwap": "below",
+          "pmHigh": 3.39,
+          "volRaw": "49.2M",
+          "volDollar": 198368309,
+          "relVol": 229.8,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Cycurion Regains Compliance with Nasdaq Bid Price Requirement",
+            "Cycurion Discusses Record Contract Win, Public Safety Expansion and Growth Strategy in New Interview",
+            "Cycurion Resolves John Doe Defamation Action After Defendant Signs Retraction of False Fraud Accusations"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1868419/000186841926000048/cycu-20260930.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Cycurion Regains Compliance with Nasdaq Bid Price Requirement",
+              "url": "https://www.stocktitan.net/news/CYCU/cycurion-regains-compliance-with-nasdaq-bid-price-pppj09pqkv5l.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-02T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Cycurion Discusses Record Contract Win, Public Safety Expansion and Growth Strategy in New Interview",
+              "url": "https://www.stocktitan.net/news/CYCU/cycurion-discusses-record-contract-win-public-safety-expansion-and-ypnxju9ctc6y.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Cycurion Resolves John Doe Defamation Action After Defendant Signs Retraction of False Fraud Accusations",
+              "url": "https://www.stocktitan.net/news/CYCU/cycurion-resolves-john-doe-defamation-action-after-defendant-signs-f5gmeq4qvira.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Defense",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CYCU",
+          "newsSummary": "CYCU regained Nasdaq bid price compliance on 10/02 at 12:30pm, clearing a listing threat that had hung over the stock. The move was preceded by a record contract win announcement (9/30) and defamation case resolution (9/29), establishing real operational momentum and removing legal/regulatory overhang. Catalyst has merit—compliance restoration + contract news = genuine institutional re-entry conditions.",
+          "bullFactors": [
+            "Micro float (3.2M) with 229.8% relative volume—tight float amplifies move",
+            "84% HOD capture with only 22.8% fade suggests sustained intraday strength, not premarket spike collapse",
+            "Compliance restoration + record contract win removes dual overhangs; real cash catalyst, not fluff",
+            "10.78% gap + afternoon news timing (12:30pm) allowed intraday accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Form 8-K filed AFTER the high (20:00pm)—reactive disclosure, not the driver; watch for hidden dilution/warrant exercise details",
+            "Small market cap ($12.5M) with micro float carries black swan liquidity risk on reversal",
+            "Defamation settlement + compliance restoration are noise-removal catalysts, not growth drivers; sustainability unclear"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "ZNB",
+          "hod": 83,
+          "hodExact": 83.02,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Zeta Network Group Class A Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 1.46,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 1.46M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.46M + RelVol 890.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.46M + RelVol 890.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.06,
+          "open": 1.11,
+          "gapPct": 4.72,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.94,
+          "hodTimeExact": "11:51 AM ET",
+          "close": 1.54,
+          "fade": 20,
+          "fadeExact": 20.62,
+          "vwap": 1.5456,
+          "vsVwap": "below",
+          "pmHigh": 1.17,
+          "volRaw": "28.2M",
+          "volDollar": 43585991,
+          "relVol": 890.3,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZNB",
+          "newsSummary": "ZNB moved 83% intraday with zero news catalyst on record—pure structural price action. This is a China-listed micro-cap (1.46M float) exhibiting sustained institutional accumulation pattern typical of Chinese market microstructure, not a reactive news-driven move.",
+          "bullFactors": [
+            "Extreme micro-float at 1.46M shares — classic runner fuel for momentum stacks",
+            "83% HOD sustained intraday (not premarket spike fade) with 890x relative volume — textbook China rig institutional rig signature",
+            "No dilution, offering, or warrant overhang disclosed — clean capital structure for continuation",
+            "Afternoon HOD domination pattern suggests hot tape and shorts covering into close"
+          ],
+          "bearFactors": [
+            "Zero news catalyst means move is purely technical/structural — vulnerable to sudden liquidity dry-up or institutional unwind",
+            "Chinese micro-cap with no English disclosure — increased opacity and regulatory risk",
+            "No visibility into daily room to upside or technical resistance without intraday chart; gaps can reverse sharply",
+            "20.62% fade off HOD suggests retail exhaustion into close — profit-taking pressure likely at open next session"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "QTEX",
+          "hod": 65,
+          "hodExact": 65.69,
+          "news": [
+            "Form 6-K",
+            "QTREX Interconnect Independently Tested at 20 mK by a Leading Quantum Computing Company; Over 100 dB Channel Isolation, 60 dB Beyond the Market Leader"
+          ],
+          "tag": "CONTRACT",
+          "name": "QTREX Quantum Ltd. Ordinary Shares",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 63.72,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$92M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7846,
+          "open": 0.9398,
+          "gapPct": 19.78,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.3,
+          "hodTimeExact": "10:07 AM ET",
+          "close": 1.1,
+          "fade": 15,
+          "fadeExact": 15.38,
+          "vwap": 1.0811,
+          "vsVwap": "above",
+          "pmHigh": 0.9793,
+          "volRaw": "127.4M",
+          "volDollar": 137779805,
+          "relVol": 54.7,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "QTREX Interconnect Independently Tested at 20 mK by a Leading Quantum Computing Company; Over 100 dB Channel Isolation, 60 dB Beyond the Market Leader"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1837493/000118518526004479/qtrex6k100126.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "QTREX Interconnect Independently Tested at 20 mK by a Leading Quantum Computing Company; Over 100 dB Channel Isolation, 60 dB Beyond the Market Leader",
+              "url": "https://www.stocktitan.net/news/QTEX/qtrex-interconnect-independently-tested-at-20-m-k-by-a-leading-i9jtavryunx4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T12:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Quantum",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:QTEX",
+          "newsSummary": "QTEX announced independent testing results of its QTREX Interconnect at 20 mK by a leading quantum computing company, demonstrating 100+ dB channel isolation with 60 dB advantage over market leader. This is a real technical validation and potential revenue-generating partnership with a blue-chip quantum player, released before the intraday move (relative_to_high='before').",
+          "bullFactors": [
+            "Real cash catalyst: independent third-party validation + partnership with major quantum computing company signals commercial traction, not hype",
+            "HOD dominance at 65.69% with sustained intraday volume (relVol 54.7x) — tape shows afternoon continuation strength, not premarket spike fade pattern",
+            "Quantum theme is high-conviction tech megatrend with institutional relevance; this is defensible upside story, not sympathy play",
+            "Gap + HOD + fade split (19.78% gap, 15.38% fade) suggests institutional accumulation hold through the session"
+          ],
+          "bearFactors": [
+            "Mega-thick float at 63.72M shares — well above Jack's <10M preference; significantly limits explosive intraday range and staying power",
+            "Form 6-K filing before move (relative_to_high='before') suggests potential regulatory/disclosure overhead that may cap momentum",
+            "At $91.75M market cap with thick float, liquidity is spread; harder to engineer or sustain tight runner conditions vs. lower float names",
+            "No explicit revenue/contract value disclosed — validation test alone does not guarantee near-term monetization or follow-on orders"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "FNGR",
+          "hod": 62,
+          "hodExact": 62.72,
+          "news": [
+            "FingerMotion and BlueFlare Sign Binding Agreement to Acquire 20-Acre Site in Hanna, Alberta, Establishing Hanna Campus #1 for AI Inference Compute",
+            "FingerMotion Enters Definitive Agreement to Acquire 100% of Newbit Technology Inc., Securing the 9.9 MW County of Newell Powered Site",
+            "Form 8-K",
+            "S-3 shelf"
+          ],
+          "tag": "ACQUISITION",
+          "name": "FingerMotion, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "SG",
+          "floatM": 67.71,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$20M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1757,
+          "open": 0.18,
+          "gapPct": 2.45,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.2859,
+          "hodTimeExact": "11:06 AM ET",
+          "close": 0.248,
+          "fade": 13,
+          "fadeExact": 13.26,
+          "vwap": 0.243,
+          "vsVwap": "above",
+          "pmHigh": 0.1779,
+          "volRaw": "253.4M",
+          "volDollar": 61578629,
+          "relVol": 7.9,
+          "avgVolM": 31.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "FingerMotion and BlueFlare Sign Binding Agreement to Acquire 20-Acre Site in Hanna, Alberta, Establishing Hanna Campus #1 for AI Inference Compute",
+            "FingerMotion Enters Definitive Agreement to Acquire 100% of Newbit Technology Inc., Securing the 9.9 MW County of Newell Powered Site",
+            "Form 8-K",
+            "S-3 shelf"
+          ],
+          "newsItems": [
+            {
+              "title": "FingerMotion and BlueFlare Sign Binding Agreement to Acquire 20-Acre Site in Hanna, Alberta, Establishing Hanna Campus #1 for AI Inference Compute",
+              "url": "https://www.stocktitan.net/news/FNGR/finger-motion-and-blue-flare-sign-binding-agreement-to-acquire-20-we9r6e3m47z7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T13:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "FingerMotion Enters Definitive Agreement to Acquire 100% of Newbit Technology Inc., Securing the 9.9 MW County of Newell Powered Site",
+              "url": "https://www.stocktitan.net/news/FNGR/finger-motion-enters-definitive-agreement-to-acquire-100-of-newbit-i0eeo05nnmdv.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226044880/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "S-3 shelf",
+              "url": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226044640/forms-3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FNGR",
+          "newsSummary": "FingerMotion announced two back-to-back infrastructure acquisitions (Newbit Technology's 9.9 MW powered site on Sept 29, and a 20-acre Alberta AI campus with BlueFlare on Oct 1) positioning itself in the AI inference compute space. These are real asset deals with power infrastructure—meaningful cash deployment into productive capacity, not dilutive fluff.",
+          "bullFactors": [
+            "Real catalyst with tangible assets: secured power infrastructure (9.9 MW) and compute campus land—not vaporware or sympathy play",
+            "Session dominated by HODs (62.72% HOD, 13.26% fade) with 7.9x relative volume, showing sustained institutional buying pressure throughout day, not premarket spike dump",
+            "Back-to-back news over 3 days (Sept 29 + Oct 1) with 8-K and S-3 shelf filings—demonstrates execution and capital availability to fund growth",
+            "AI inference compute theme aligns with mega-trend; power-secured sites are scarce and defensible assets in AI infrastructure race"
+          ],
+          "bearFactors": [
+            "Mega-thick float (67.71M shares) severely limits velocity and intraday volatility—poor fit for Jack's <10M float preference; moves will be slower, harder to read",
+            "S-3 shelf filing (Sept 28) creates dilution overhang; future capital raises likely and will suppress momentum on any pullback",
+            "Singapore-listed micro-cap with Communication Services sector tag—liquidity and compliance risks; not a typical NASDAQ small-cap runner",
+            "News predates the move (both catalysts 'before' relative_to_high)—suggests delayed market digestion; tape strength may not sustain if institutional accumulation already complete"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NIVF",
+          "hod": 61,
+          "hodExact": 61.88,
+          "news": [
+            "Form 6-K",
+            "424B4 offering",
+            "NewGen Announces Closing of $1.25 Million Public Offering"
+          ],
+          "tag": "OFFERING",
+          "name": "NewGenIvf Group Limited Class A ordinary shares",
+          "sector": "Healthcare",
+          "country": "TH",
+          "floatM": 19.31,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.101,
+          "open": 0.1625,
+          "gapPct": 60.89,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.1635,
+          "hodTimeExact": "09:07 AM ET",
+          "close": 0.129,
+          "fade": 21,
+          "fadeExact": 21.1,
+          "vwap": 0.1471,
+          "vsVwap": "below",
+          "pmHigh": 0.1887,
+          "volRaw": "303.3M",
+          "volDollar": 44612820,
+          "relVol": 6.1,
+          "avgVolM": 50.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "424B4 offering",
+            "NewGen Announces Closing of $1.25 Million Public Offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1981662/000121390026105211/ea0307155-6k_newgeni.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "424B4 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1981662/000121390026104917/ea0307067-424b4_newgenivf.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B4",
+              "rel": "before"
+            },
+            {
+              "title": "NewGen Announces Closing of $1.25 Million Public Offering",
+              "url": "https://www.stocktitan.net/news/NIVF/new-gen-announces-closing-of-1-25-million-public-87qnyn7i8dhq.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T18:10:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NIVF",
+          "newsSummary": "NIVF closed a $1.25M public offering on 2026-09-30, with concurrent Form 6-K and 424B4 filing. The offering occurred before today's move, making it a dilutive catalyst that preceded the session. The timing and structure suggest equity dilution rather than a value-accretive event.",
+          "bullFactors": [
+            "HOD dominance at 61.88% with sustained afternoon continuation suggests institutional accumulation post-offering",
+            "6.1x relative volume indicates genuine intraday buying pressure, not just premarket pop-and-fade",
+            "Gap of 60.89% with high HOD percentage points to strong conviction despite dilutive news"
+          ],
+          "bearFactors": [
+            "Recent public offering is inherently dilutive and reduces share value; float may expand post-lockup",
+            "19.31M float is above Jack's <10M preference, reducing scarcity and intraday sustainability",
+            "Offering news arrived before the move (relative_to_high='before'), meaning today's strength must overcome dilution overhang",
+            "Thailand-listed micro-cap with limited regulatory transparency and analyst coverage"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 307,
+      "fade": 18,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "AMOD led +307.69% (26% fade). 4/10 held <20% fade. news: AMOD — \"Form 8-K\".",
+      "aiSummary": "Today's tape is dominated by compliance/acquisition catalysts (5 of top 10), with heavy China concentration (3 names) skewing sympathy/no-news—structurally weak for cash-value plays this framework targets. Float profile is split: ultra-tight sub-10M (AMOD, ZNB, CYCU, AIXI) but contaminated by high-float deadweight (QTEX 63.72M, FNGR 67.71M, FLUX 21.52M), reducing pure small-cap runway. HODs printed exclusively in morning/afternoon sessions with only NIVF anchoring premarket, signaling sustained intraday buying pressure rather than spike-and-fade—however, AMOD's 308% HOD paired with 27% fade and NO-NEWS tag screams overextension and immediate exit risk, while SDEV's minimal 2.22% fade on 109% gain suggests institutional accumulation into compliance news, the only name offering real continuation setup. Overall cycle reads COLD-to-NEUTRAL: morning HOD dominance typically precedes afternoon rejection, the catalyst mix favors sympathy rigs over real event plays, and float skew toward 60M+ names means liquidity will evaporate fast on any consolidation—this tape rewards speed scalps over sustained holds."
+    },
+    {
+      "date": "2026-10-01",
+      "runners": [
+        {
+          "sym": "NXL",
+          "hod": 156,
+          "hodExact": 156.54,
+          "news": [
+            "Form 8-K",
+            "Nexalin Technology Signs Definitive Exclusive Distribution and Local Manufacturing Agreement for Brazil and South America, Marking a Major Step in its Transition Toward Commercial Revenue Generation",
+            "Nexalin Technology Taps Neuromodulation Commercial Executive Robert DiTota to Advise on its Global Commercialization Strategy"
+          ],
+          "tag": "CONTRACT",
+          "name": "Nexalin Technology, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.33,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 1.33M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.33M + RelVol 3673.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.33M + RelVol 3673.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.28,
+          "open": 8.8,
+          "gapPct": 105.61,
+          "time": "regular session",
+          "session": "morning",
+          "high": 10.98,
+          "hodTimeExact": "10:06 AM ET",
+          "close": 7.55,
+          "fade": 31,
+          "fadeExact": 31.24,
+          "vwap": 7.599,
+          "vsVwap": "below",
+          "pmHigh": 9.09,
+          "volRaw": "62.3M",
+          "volDollar": 473695717,
+          "relVol": 3673.6,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Nexalin Technology Signs Definitive Exclusive Distribution and Local Manufacturing Agreement for Brazil and South America, Marking a Major Step in its Transition Toward Commercial Revenue Generation",
+            "Nexalin Technology Taps Neuromodulation Commercial Executive Robert DiTota to Advise on its Global Commercialization Strategy"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527352/000182912626010686/nexalintec_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Nexalin Technology Signs Definitive Exclusive Distribution and Local Manufacturing Agreement for Brazil and South America, Marking a Major Step in its Transition Toward Commercial Revenue Generation",
+              "url": "https://www.stocktitan.net/news/NXL/nexalin-technology-signs-definitive-exclusive-distribution-and-local-19oxd3bmycr0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Nexalin Technology Taps Neuromodulation Commercial Executive Robert DiTota to Advise on its Global Commercialization Strategy",
+              "url": "https://www.stocktitan.net/news/NXL/nexalin-technology-taps-neuromodulation-commercial-executive-robert-8fd6ki9iqn2s.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NXL",
+          "newsSummary": "NXL announced a definitive exclusive distribution and local manufacturing agreement for Brazil and South America on 2026-10-01 at 12:30 UTC, well before the session high. This is a real commercial milestone—a cash-generating partnership with a named distributor marking transition toward revenue. The move from a micro-cap neuromodulation play with 1.33M float and real distribution deals is substantive, not fluff.",
+          "bullFactors": [
+            "Ultra-tight float (1.33M shares) with 156.5% HOD gain and 3673.6x relative volume—explosive intraday tape strength",
+            "Real cash catalyst: exclusive distribution agreement + senior commercial hire (Robert DiTota) signal genuine commercialization path, not sympathy",
+            "Afternoon HOD dominance (HOD printed after noon catalyst; fade only 31.24%) shows sustained institutional buying and short squeeze, not premarket spike fade",
+            "Healthcare/neuromodulation sector with tangible product-to-market story and emerging markets expansion = sustainable interest"
+          ],
+          "bearFactors": [
+            "105.61% gap overnight suggests heavy premarket enthusiasm that often precedes afternoon fade or follow-through weakness on day 2",
+            "Form 8-K filed after session high (20:00 UTC) is reactive, not causal—could reveal dilution, insider selling, or other headwinds",
+            "Micro-cap float liquidity risk at 156% move—exit liquidity may evaporate on pullback; watch for hidden supply on any consolidation",
+            "No details on distributor size, revenue timeline, or exclusivity terms in available PR—catalyst may lack depth for sustained hold"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "SSM",
+          "hod": 130,
+          "hodExact": 130.35,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Sono Group N.V. Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "DE",
+          "floatM": 1.21,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 1.21M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.21M + RelVol 20.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.21M + RelVol 20.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.12,
+          "open": 1.12,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 2.5799,
+          "hodTimeExact": "07:59 PM ET",
+          "close": 2.21,
+          "fade": 14,
+          "fadeExact": 14.34,
+          "vwap": 1.9532,
+          "vsVwap": "above",
+          "pmHigh": 1.17,
+          "volRaw": "50.5M",
+          "volDollar": 98600940,
+          "relVol": 20.7,
+          "avgVolM": 2.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SSM",
+          "newsSummary": "SSM ran 130% intraday with no identifiable catalyst or news announcement. The move appears purely momentum-driven on a micro-float (1.21M shares), with strong relative volume (20.7x) sustaining the rally throughout the session rather than a premarket spike-and-fade pattern. Without substantive news, this is a tape-driven runner with elevated black swan risk.",
+          "bullFactors": [
+            "Micro-float (1.21M) provides structural volatility and low liquidity friction for retail/institutional pushes",
+            "High relative volume (20.7x) and sustained HOD printing (130% gain) suggests intraday institutional accumulation rather than pure pump",
+            "German micro-cap (DE) with low market cap ($4.6M) — typically undermonitored by broad retail, potential for discovery plays",
+            "No gap (0% overnight) and 14.34% fade from HOD shows some profit-taking but not violent capitulation — controlled tape"
+          ],
+          "bearFactors": [
+            "NO CATALYST — pure sympathy or tape momentum with zero news backing the move creates black swan and reversal risk",
+            "Unknown sector tailwind or theme — Consumer Cyclical (DE) does not map to obvious momentum buckets; catalyst could dry up instantly",
+            "14.34% fade from HOD is non-trivial and may signal early institutional exit; late-day continuation not confirmed",
+            "Micro-float + no-news = high risk of coordinated unwind or halt if retail FOMO collides with thin ask liquidity"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "VEEA",
+          "hod": 88,
+          "hodExact": 88.02,
+          "news": [
+            "Veea Announces TROLLEE Agreement for Phased Deployment of VeeaONE to 1,000 Unattended Stores"
+          ],
+          "tag": "CONTRACT",
+          "name": "Veea Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.86,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [
+            "Float 1.86M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.17,
+          "open": 2.98,
+          "gapPct": 37.33,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.08,
+          "hodTimeExact": "03:26 PM ET",
+          "close": 3.47,
+          "fade": 14,
+          "fadeExact": 14.95,
+          "vwap": 3.2818,
+          "vsVwap": "above",
+          "pmHigh": 3.51,
+          "volRaw": "80.6M",
+          "volDollar": 264637293,
+          "relVol": 6.0,
+          "avgVolM": 13.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Veea Announces TROLLEE Agreement for Phased Deployment of VeeaONE to 1,000 Unattended Stores"
+          ],
+          "newsItems": [
+            {
+              "title": "Veea Announces TROLLEE Agreement for Phased Deployment of VeeaONE to 1,000 Unattended Stores",
+              "url": "https://www.stocktitan.net/news/VEEA/veea-announces-trollee-agreement-for-phased-deployment-of-veea-one-u55dwk89g147.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.65,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VEEA",
+          "newsSummary": "Veea announced a phased deployment agreement with TROLLEE for 1,000 unattended stores using its VeeaONE platform. This is a real customer contract with concrete deployment scale, demonstrating institutional validation of the product rather than vaporware—solid catalyst for a micro-cap tech runner.",
+          "bullFactors": [
+            "Micro-float (1.86M) with 6.0x relative volume—excellent setup for sustained intraday momentum",
+            "88% HOD achievement indicates strong session HOD dominance (hot cycle), not premarket spike fade",
+            "Real cash contract with named customer and 1,000-unit deployment scope—not dilutive or sympathy-driven",
+            "37% gap at open on contract news shows institutional recognition; room to run if tape stays hot"
+          ],
+          "bearFactors": [
+            "News came AFTER the move (relative_to_high='after'), meaning the spike was likely anticipatory or based on other factors—catalyst may already be priced in",
+            "14.95% fade from HOD suggests intraday profit-taking; need to monitor afternoon tape for sustained HOD prints to confirm continuation",
+            "Market cap only $15.66M on 1.86M float creates extreme sensitivity—any volume cliff or retail rotation could trigger sharp reversals"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SDEV",
+          "hod": 75,
+          "hodExact": 75.29,
+          "news": [
+            "Form 8-K",
+            "Proxy"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Stablecoin Development Corporation",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 6.49,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$517M",
+          "riskBadges": [
+            "Float 6.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.59,
+          "open": 3.595,
+          "gapPct": 38.8,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.54,
+          "hodTimeExact": "10:09 AM ET",
+          "close": 3.66,
+          "fade": 19,
+          "fadeExact": 19.38,
+          "vwap": 3.8398,
+          "vsVwap": "below",
+          "pmHigh": 3.84,
+          "volRaw": "107.8M",
+          "volDollar": 413841149,
+          "relVol": 8.1,
+          "avgVolM": 13.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Proxy"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1389545/000143774926031464/sdev20260929_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-29T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1389545/000143774926031344/sdev20260921_def14a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:SDEV",
+          "newsSummary": "SDEV filed a Form 8-K on Sept 29 and a Proxy statement on Sept 28, both before the intraday move. These are routine SEC filings rather than transformative catalysts. The 38.8% gap and sustained 75% HOD retention suggest institutional accumulation on the compliance news backdrop, but the filings themselves lack concrete cash value or operational catalysts.",
+          "bullFactors": [
+            "Tight float (6.49M) with 8.1x relative volume supports low-float momentum structure",
+            "75% HOD retention shows conviction — not a premarket fade, indicating sustained institutional or retail buying pressure through the session",
+            "Daily chart room to upside (no warrant/convertible/ATM overhead mentioned); healthcare sector can attract clinical/biotech speculative flows",
+            "Gap and high volume ratio (intraday vol vs premarket) suggests legitimate institutional interest rather than retail pump"
+          ],
+          "bearFactors": [
+            "Catalyst is compliance-driven (8-K, proxy), not cash-value or clinical — lower-quality headline for sustained upside",
+            "Form 8-K and Proxy filings are reactive/procedural; no indication of M&A, financing, partnership, or clinical data",
+            "38.8% gap on low-quality news raises tail risk of afternoon/EOD reversal if retail exhausts; watch for tape temperature shift",
+            "Healthcare sector without specific clinical/FDA detail is prone to sympathy whipsaws — verify intraday HOD holding into close"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WFCF",
+          "hod": 70,
+          "hodExact": 70.05,
+          "news": [
+            "S-3/A"
+          ],
+          "tag": "OFFERING",
+          "name": "Where Food Comes From, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 2.31,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$64M",
+          "riskBadges": [
+            "Float 2.31M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.31M + RelVol 145.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.31M + RelVol 145.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 11.05,
+          "open": 11.5,
+          "gapPct": 4.07,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 18.79,
+          "hodTimeExact": "01:53 PM ET",
+          "close": 12.94,
+          "fade": 31,
+          "fadeExact": 31.13,
+          "vwap": 14.3774,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "1.9M",
+          "volDollar": 27572216,
+          "relVol": 145.4,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "S-3/A"
+          ],
+          "newsItems": [
+            {
+              "title": "S-3/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1360565/000149315226044275/forms-3a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-25T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3/A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WFCF",
+          "newsSummary": "S-3/A filing (shelf registration amendment) dated 2026-09-25, six days before the 70% HOD run. This is a dilutive capital-raise mechanism, not a positive catalyst. The move appears to be unrelated to the filing itself; the filing preceded the price action and typical market reaction to S-3/A is negative or neutral.",
+          "bullFactors": [
+            "Ultra-micro float (2.31M) provides extreme leverage for intraday momentum moves",
+            "70% HOD with 145% relative volume shows sustained institutional buying pressure throughout session",
+            "Industrials sector with no overhead supply mentioned; clean daily chart setup room",
+            "31% fade from HOD suggests retail distribution into strength, not catastrophic premarket spike fade"
+          ],
+          "bearFactors": [
+            "S-3/A is a dilutive shelf registration — signals future equity raises and overhang risk",
+            "No real catalyst identified; news preceded the move by 6 days, making it reactive, not causal",
+            "31% fade intraday is material; HOD domination alone without fundamental support is vulnerable to reversal",
+            "Micro-float runners on dilutive news often see sharp reversals next session as institutional demand cools"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RZAI",
+          "hod": 62,
+          "hodExact": 62.48,
+          "news": [
+            "Roze AI Inc. Common Shares Expected to Begin Trading on Nasdaq on September 29, 2026",
+            "424B4 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Roze AI Inc. Common Shares",
+          "sector": "Industrials",
+          "country": "KR",
+          "floatM": 14.06,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$1.1B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 21.88,
+          "open": 32.84,
+          "gapPct": 50.09,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 35.55,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 26.31,
+          "fade": 25,
+          "fadeExact": 25.99,
+          "vwap": 34.0193,
+          "vsVwap": "below",
+          "pmHigh": 53.29,
+          "volRaw": "900K",
+          "volDollar": 30623459,
+          "relVol": 3.0,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Roze AI Inc. Common Shares Expected to Begin Trading on Nasdaq on September 29, 2026",
+            "424B4 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Roze AI Inc. Common Shares Expected to Begin Trading on Nasdaq on September 29, 2026",
+              "url": "https://www.stocktitan.net/news/RZAI/roze-ai-inc-common-shares-expected-to-begin-trading-on-nasdaq-on-57m8dq04og7d.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T10:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "424B4 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/2075335/000121390026104150/ea0306875-424b4_roze.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B4",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RZAI",
+          "newsSummary": "RZAI is a Korean industrial AI company that just launched on Nasdaq on Sept 29, 2026, following a 424B4 offering filed Sept 28. The 62% HOD with only 26% fade and sustained 3.0x relative volume suggests institutional accumulation post-IPO, but the offering timing and recent capital raise create structural dilution risk that weakens the fundamental setup.",
+          "bullFactors": [
+            "HOD dominance (62% of range) with only 26% fade indicates afternoon institutional continuation strength, not premarket fade pattern",
+            "3.0x relative volume on a fresh Nasdaq listing shows sustained intraday buying pressure beyond opening day hype",
+            "14M float is borderline acceptable for this trader; if intraday vol/min exceeded premarket vol/min, could justify entry despite float size",
+            "AI theme + Industrial sector gives thematic tailwind in current market, and Korean industrial plays have institutional credibility"
+          ],
+          "bearFactors": [
+            "424B4 offering completed Sept 28 (day before listing) = fresh dilution and potential secondary overhang; capital raise lowers setup quality",
+            "IPO listings are structurally volatile and prone to multi-day fade cycles; day 2 continuation is not guaranteed and carries high reversal risk",
+            "Float at 14M exceeds stated <10M preference; this trader would only consider if intraday vol/min clearly outpaced premarket vol/min (not confirmed in data)",
+            "Both catalysts (listing + offering) occurred BEFORE the high; no forward-looking catalyst to sustain momentum into next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NAMM",
+          "hod": 61,
+          "hodExact": 61.74,
+          "news": [
+            "Namib Minerals Reports First-Half 2026 Financial Results and Provides Business Update",
+            "Form 6-K",
+            "Namib Minerals Announces Date of First Half 2026 Results and Business Update Call",
+            "Namib Minerals Secures US$6.5 Million Term Loan Facility to Partially Fund Resource Definition and Bankability"
+          ],
+          "tag": "EARNINGS",
+          "name": "Namib Minerals Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "KY",
+          "floatM": 13.89,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$71M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 13.89M + RelVol 51.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 13.89M + RelVol 51.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9583,
+          "open": 1.04,
+          "gapPct": 8.53,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.55,
+          "hodTimeExact": "02:40 PM ET",
+          "close": 1.3,
+          "fade": 16,
+          "fadeExact": 16.13,
+          "vwap": 1.2767,
+          "vsVwap": "above",
+          "pmHigh": 1.25,
+          "volRaw": "27.2M",
+          "volDollar": 34735136,
+          "relVol": 51.4,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Namib Minerals Reports First-Half 2026 Financial Results and Provides Business Update",
+            "Form 6-K",
+            "Namib Minerals Announces Date of First Half 2026 Results and Business Update Call",
+            "Namib Minerals Secures US$6.5 Million Term Loan Facility to Partially Fund Resource Definition and Bankability"
+          ],
+          "newsItems": [
+            {
+              "title": "Namib Minerals Reports First-Half 2026 Financial Results and Provides Business Update",
+              "url": "https://www.stocktitan.net/news/NAMM/namib-minerals-reports-first-half-2026-financial-results-and-n76mal19pf61.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2026514/000121390026105339/ea0307116-6k_namib.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Namib Minerals Announces Date of First Half 2026 Results and Business Update Call",
+              "url": "https://www.stocktitan.net/news/NAMM/namib-minerals-announces-date-of-first-half-2026-results-and-1sszs3ecwh2x.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T09:04:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Namib Minerals Secures US$6.5 Million Term Loan Facility to Partially Fund Resource Definition and Bankability",
+              "url": "https://www.stocktitan.net/news/NAMM/namib-minerals-secures-us-6-5-million-term-loan-facility-to-xqidbcy7q5ud.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-29T23:26:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Gold/Silver",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NAMM",
+          "newsSummary": "Namib Minerals reported H1 2026 financial results on 10/01 at 12:00 UTC, AFTER the session high was already printed. The stock gained 61.74% on the day with a 16.13% fade—suggesting institutional accumulation ahead of the earnings announcement, not a reaction to it. The company also secured a $6.5M term loan facility to fund resource definition work, which is real cash value but was announced 2 days prior (9/29).",
+          "bullFactors": [
+            "Strong intraday continuation: 61.74% HOD dominance with only 16.13% fade shows sustained institutional buying and short squeeze pressure—tape is HOT",
+            "Real catalyst: $6.5M term loan facility (pre-announced) + formal H1 earnings on tape = concrete funding + financial transparency, not fluff",
+            "High relative volume (51.4x) compressed into a mid-float (13.89M) suggests volume concentration and retail FOMO following institutional entry",
+            "Gap + HOD structure: 8.53% gap into 61.74% move indicates setup had room to run and was not a 1-2 minute spike—time was given to build position"
+          ],
+          "bearFactors": [
+            "Float above preferred threshold: 13.89M exceeds Jack's <10M sweet spot; will need intraday vol/min > premarket vol/min to justify (not provided in data)",
+            "Earnings announced AFTER the move: reactive headline, not catalyst. Earnings quality and forward guidance unknown—risk of tomorrow's fade or guided-down response",
+            "Timing risk: Small-cap Basic Materials names rarely hold 60%+ single-day gains into next session without profit-taking or guidance disappointment",
+            "No visibility into order book depth or afternoon volume composition—sustained HOD could mask thin late-session liquidity for size exits"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BTTC",
+          "hod": 60,
+          "hodExact": 60.31,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Black Titan Corporation Ordinary Shares",
+          "sector": "Technology",
+          "country": "MY",
+          "floatM": 5.91,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 5.91M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.52,
+          "open": 0.6196,
+          "gapPct": 19.15,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.8336,
+          "hodTimeExact": "10:34 AM ET",
+          "close": 0.6335,
+          "fade": 24,
+          "fadeExact": 24.0,
+          "vwap": 0.6685,
+          "vsVwap": "below",
+          "pmHigh": 0.64,
+          "volRaw": "94.5M",
+          "volDollar": 63177747,
+          "relVol": 3.4,
+          "avgVolM": 27.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BTTC",
+          "newsSummary": "BTTC ran 60% to session HOD with no disclosed news catalyst — the move is purely intraday momentum-driven. Given the Malaysia-domiciled tech micro-cap structure (5.91M float, greater_china=true), low float tier, sustained 3.4x relative volume throughout the session, and afternoon HOD continuation pattern, this exhibits the hallmark of a China Rig structural play: institutional accumulation with real intraday buying pressure rather than a premarket spike fade.",
+          "bullFactors": [
+            "Ultra-low float (5.91M) with 3.4x relative volume — tight supply, strong institutional absorption",
+            "60% HOD with 24% fade ratio indicates session HODs dominating afternoon, not premarket-driven fizzle — tape shows continuation strength",
+            "Greater_china domicile + low float tier + no news catalyst = classic China Rig pattern, not pump-and-dump; sustained intraday trend with multiple touch-ups to HOD",
+            "19% gap-up foundation provided fuel for daylong runner; room to move in daily chart context"
+          ],
+          "bearFactors": [
+            "No disclosed catalyst creates headline risk and liquidity risk on any reversal",
+            "Malaysia-listed micro-cap with minimal US research coverage — retail unfamiliarity, thin order book vulnerability",
+            "China Rig cycle awareness: any name running all day on no news is vulnerable to black swan reversal or institutional exit flush; 500%+ cycles on this float tier carry structural liquidity spillover risk",
+            "Gap-and-fade pattern possible if institutional demand evaporates into close or overnight"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AISP",
+          "hod": 53,
+          "hodExact": 53.76,
+          "news": [
+            "Airship AI Announces $29.0M of Firm Fixed Price Brand Name Only Awards from Department of Homeland Security"
+          ],
+          "tag": "CONTRACT",
+          "name": "Airship AI Holdings, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 23.27,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$74M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.86,
+          "open": 2,
+          "gapPct": 7.53,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.86,
+          "hodTimeExact": "10:22 AM ET",
+          "close": 2.22,
+          "fade": 22,
+          "fadeExact": 22.38,
+          "vwap": 2.5138,
+          "vsVwap": "below",
+          "pmHigh": 2.1,
+          "volRaw": "41.9M",
+          "volDollar": 105433837,
+          "relVol": 192.1,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Airship AI Announces $29.0M of Firm Fixed Price Brand Name Only Awards from Department of Homeland Security"
+          ],
+          "newsItems": [
+            {
+              "title": "Airship AI Announces $29.0M of Firm Fixed Price Brand Name Only Awards from Department of Homeland Security",
+              "url": "https://www.stocktitan.net/news/AISP/airship-ai-announces-29-0m-of-firm-fixed-price-brand-name-only-t2hsa9r5bayl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Defense",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AISP",
+          "newsSummary": "Airship AI announced a $29M firm fixed-price contract award from the Department of Homeland Security, a real cash value defense/government procurement deal. The news dropped at 13:00 (1 PM) well after the intraday high was already established (relative_to_high='before'), indicating the move was driven by intraday momentum and tape strength rather than news-driven buying.",
+          "bullFactors": [
+            "Real cash contract ($29M firm fixed price) — not dilutive, not a sympathy play; genuine revenue driver for a small-cap",
+            "Sustained intraday HOD dominance (53.76% HOD vs 22.38% fade) — shows afternoon continuation and short-covering pressure, not premarket spike fade",
+            "Relative volume of 192.1x — exceptional intraday participation with institutional accumulation signals before retail push",
+            "Defense/government procurement theme is institutional-grade catalyst with recurring revenue potential, not fluff"
+          ],
+          "bearFactors": [
+            "Float of 23.27M is above Jack's 10M preference and in 'Thick' tier — reduces volatility per share and makes sustained momentum harder to maintain",
+            "News came after the move (relative_to_high='before'), so it may have been known or leaked; watch for fade if retail selling accelerates into close",
+            "Market cap ~$74M on a small float is already elevated; daily room to upside may be constrained if the move has already captured the catalyst"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "EJH",
+          "hod": 52,
+          "hodExact": 52.82,
+          "news": [
+            "E-Home Launches a Dedicated AI Service Robot for China's Household Services Market",
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "E-Home Household Service Holdings Limited Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 2.02,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$122M",
+          "riskBadges": [
+            "Float 2.02M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.02M + RelVol 58.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.02M + RelVol 58.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.42,
+          "open": 1.49,
+          "gapPct": 4.93,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.17,
+          "hodTimeExact": "10:24 AM ET",
+          "close": 1.79,
+          "fade": 17,
+          "fadeExact": 17.51,
+          "vwap": 1.7088,
+          "vsVwap": "above",
+          "pmHigh": 1.8499,
+          "volRaw": "4.2M",
+          "volDollar": 7134529,
+          "relVol": 58.8,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "E-Home Launches a Dedicated AI Service Robot for China's Household Services Market",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "E-Home Launches a Dedicated AI Service Robot for China's Household Services Market",
+              "url": "https://www.stocktitan.net/news/EJH/e-home-launches-a-dedicated-ai-service-robot-for-china-s-household-46ucksh3srwj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T11:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1769768/000121390026105270/ea0307218-6k_ehome.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-09-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.65,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:EJH",
+          "newsSummary": "EJH launched an AI service robot for China's household services market on 2026-10-01 at 11:15 UTC, well before the session high. The news has surface appeal (AI + robotics themes) but lacks depth—no partnership announcements, revenue targets, or concrete deployment timelines. The catalyst appears positioned as narrative support for what is structurally a micro-cap China rig pattern: sustained intraday volume (relVol 58.8), micro-float (2.02M), afternoon HOD dominance (52.82% of gain postmarked), and minimal fade (17.51%), consistent with institutional accumulation and retail continuation rather than news-driven spike.",
+          "bullFactors": [
+            "Micro-float (2.02M) creates legitimate squeeze dynamics and low liquidity premium",
+            "Session HODs dominating (52.82% of gain) with sustained relative volume (58.8x) — classic China rig continuation strength, not premarket spike fade",
+            "Minimal fade (17.51%) and healthy 4.93% gap indicate institutional positioning and follow-through appetite",
+            "Form 6-K (SEC filing) on 2026-09-30 may contain positive operational metrics or guidance that seeded accumulation"
+          ],
+          "bearFactors": [
+            "AI robot news is generic narrative fluff—no cash value, partnership validation, or revenue visibility; typical sympathy/thematic play territory",
+            "Chinese micro-cap consumer cyclical sector carries inherent regulatory and liquidity risk; no real partnership (Amazon, Apple, etc.)",
+            "Catalyst news arrived well before HOD, reducing tail-end momentum; afternoon strength is momentum-driven not news-driven, vulnerable to sell-on-strength",
+            "No daily chart data provided; cannot confirm room to upside, overhead resistance, or warrant/convertible dilution risk"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 156,
+      "fade": 21,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "NXL led +156.54% (31% fade). 5/10 held <20% fade. news: NXL — \"Form 8-K\".",
+      "aiSummary": "Contracts dominate the tape (3 names, $738M vol dollar) with Healthcare and Technology leading sector concentration, but the playbook flags immediate concerns: NXL's 156% HOD spiked in morning session with a brutal 31% fade—classic premarket-dominated exhaustion—while SSM printed afternoon HOD but arrived with zero catalyst, a red flag for China rig conditions without real institutional conviction. Float tier is pristine (1.21M–6.49M for top candidates), yet the session distribution reveals a cold tape: HODs clustered in morning/premarket rather than afternoon continuation, with multiple 25%+ fades signaling retail domination and short-covering rallies rather than sustained institutional accumulation. The absence of real cash-value catalysts (earnings, partnerships, compliance wins tied to revenue) combined with NO-NEWS and OFFERING tags on secondary runners suggests sympathy overflow from unrelated sectors—this is a neutral-to-cold cycle for momentum setups requiring dip/soak institutional accumulation before retail push."
+    },
     {
       "date": "2026-09-30",
       "runners": [
