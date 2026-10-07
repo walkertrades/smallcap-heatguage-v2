@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-05T22:01:52.772680Z",
-  "count": 9985,
+  "exportedAt": "2026-10-07T12:14:16.568406Z",
+  "count": 9993,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,803 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-06",
+      "runners": [
+        {
+          "sym": "FRGT",
+          "hod": 198,
+          "hodExact": 198.37,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Freight Technologies, Inc. Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MX",
+          "floatM": 0.58,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 0.58M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.58M + RelVol 54.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.58M + RelVol 54.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.245,
+          "open": 0.6578,
+          "gapPct": 168.49,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.731,
+          "hodTimeExact": "04:05 AM ET",
+          "close": 0.322,
+          "fade": 55,
+          "fadeExact": 55.95,
+          "vwap": 0.5556,
+          "vsVwap": "below",
+          "pmHigh": 1.32,
+          "volRaw": "332.1M",
+          "volDollar": 184492667,
+          "relVol": 54.5,
+          "avgVolM": 6.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FRGT",
+          "newsSummary": "FRGT moved 198% intraday with no identified news catalyst, driven purely by price action and tape momentum. The move appears to be a structural small-cap runner with nano float (0.58M shares) and extremely high relative volume (54.5x), suggesting institutional accumulation or a China Rig pattern despite being a Mexican industrials name.",
+          "bullFactors": [
+            "Nano float at 0.58M shares — extreme liquidity constraint favors explosive moves",
+            "Session HOD printed at 198% with 55% fade still leaving 142% above entry — tape showed sustained buying pressure intraday",
+            "Exceptional relative volume at 54.5x indicates real institutional flow, not retail noise",
+            "No dilutive news, offering, or warrant exercise — clean chart structure for continuation"
+          ],
+          "bearFactors": [
+            "168% gap from previous close — significant premarket spike before HOD, compressed intraday window for fresh entries",
+            "55% fade from peak suggests profit-taking and resistance consolidation — liquidity risk on follow-through",
+            "NO-NEWS catalyst is a structural red flag — momentum may lack fundamental anchor and could reverse sharply on profit-taking or halt",
+            "Mexican small-cap with limited research depth and potential liquidity constraints in extended hours"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "XHG",
+          "hod": 190,
+          "hodExact": 190.0,
+          "news": [
+            "XChange TEC.INC Announces Proposed U.S. AI Business Expansion and Reduction of Mainland China Operations"
+          ],
+          "tag": "SYMPATHY",
+          "name": "XChange TEC.INC American Depositary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 1.59,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$124M",
+          "riskBadges": [
+            "Float 1.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.59M + RelVol 5756.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.59M + RelVol 5756.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.9,
+          "open": 2.96,
+          "gapPct": 55.79,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.51,
+          "hodTimeExact": "09:45 AM ET",
+          "close": 2.38,
+          "fade": 56,
+          "fadeExact": 56.81,
+          "vwap": 3.3307,
+          "vsVwap": "below",
+          "pmHigh": 4.31,
+          "volRaw": "54.4M",
+          "volDollar": 181035106,
+          "relVol": 5756.2,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "XChange TEC.INC Announces Proposed U.S. AI Business Expansion and Reduction of Mainland China Operations"
+          ],
+          "newsItems": [
+            {
+              "title": "XChange TEC.INC Announces Proposed U.S. AI Business Expansion and Reduction of Mainland China Operations",
+              "url": "https://www.stocktitan.net/news/XHG/x-change-tec-inc-announces-proposed-u-s-ai-business-expansion-and-8owt4wow6bbr.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XHG",
+          "newsSummary": "XHG announced a U.S. AI business expansion and reduction of mainland China operations at 12:30 PM, well after the stock had already rallied 190% to HOD. The news released into strength rather than catalyzing it, suggesting the move was driven by China Rig structural buying (micro-float, sustained intraday volume) with AI as a sympathetic narrative overlay. The expansion story is vague on cash value and lacks specificity typical of real M&A or partnership deals.",
+          "bullFactors": [
+            "Micro-float (1.59M shares) with exceptional relative volume (5756%) — structural setup for sustained institutional accumulation",
+            "Multiple session HODs with 190% range and late-day strength typical of China Rig pattern, not premarket-spike-fade",
+            "AI theme resonates with broader market sympathy, adding retail tailwind to institutional rig",
+            "News timing (released after HOD) suggests controlled narrative management rather than surprise catalyst"
+          ],
+          "bearFactors": [
+            "China Rig cycle: 500%+ move warning zone — high risk of black swan liquidity collapse or regulatory headwind on Chinese operators",
+            "56.81% fade already printed from HOD — significant profit-taking and short-seller re-entry likely at current levels",
+            "News catalyst is structurally weak: 'proposed expansion' with no cash flow, partnership details, or timeline — classic sympathy fluff",
+            "Financial Services + China domicile + micro-cap = regulatory and repatriation risk; no moat protection"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "OLB",
+          "hod": 160,
+          "hodExact": 160.15,
+          "news": [
+            "The OLB Group Launches Share Buyback; Suspends ATM Program"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "The OLB Group, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 18.98,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 18.98M + RelVol 38.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 18.98M + RelVol 38.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1882,
+          "open": 0.194,
+          "gapPct": 3.08,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.4896,
+          "hodTimeExact": "12:31 PM ET",
+          "close": 0.41,
+          "fade": 16,
+          "fadeExact": 16.26,
+          "vwap": 0.3601,
+          "vsVwap": "above",
+          "pmHigh": 0.1987,
+          "volRaw": "765.7M",
+          "volDollar": 275744831,
+          "relVol": 38.2,
+          "avgVolM": 20.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "The OLB Group Launches Share Buyback; Suspends ATM Program"
+          ],
+          "newsItems": [
+            {
+              "title": "The OLB Group Launches Share Buyback; Suspends ATM Program",
+              "url": "https://www.stocktitan.net/news/OLB/the-olb-group-launches-share-buyback-suspends-atm-jfot4wf51dv3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T13:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OLB",
+          "newsSummary": "OLB launched a share buyback program and suspended its ATM (at-the-money) offering on 2026-10-06 at 13:30 UTC, well after the session high was already established. The buyback announcement came as a reactive follow-up to intraday strength, not as the catalyst driving the 160% HOD move. Buyback news is generally neutral-to-bullish but carries limited fundamental weight in day-trading contexts when issued post-spike.",
+          "bullFactors": [
+            "160% HOD with only 16% fade suggests sustained institutional buying pressure and short covering throughout session",
+            "Relative volume 38.2x indicates genuine intraday participation, not a thin premarket spike",
+            "Float 18.98M is manageable mid-tier; combined with high relVol, suggests room for continued momentum on breakout retests",
+            "Buyback suspension of ATM removes dilution overhang and signals capital allocation confidence"
+          ],
+          "bearFactors": [
+            "Gap only 3.08% — most of the move was intraday, leaving limited room for early entries on open",
+            "News arrived at 13:30 (after HOD), indicating it was reactive; no forward-looking catalyst to sustain next-day momentum",
+            "16% fade intraday is material; suggests late-session profit-taking despite sustained volume",
+            "No visible catalyst vocabulary match (AI, partnerships, ER data, M&A) — buyback is financial engineering, not business catalyst"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "IPDN",
+          "hod": 118,
+          "hodExact": 118.71,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Professional Diversity Network, Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 0.67,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.67M + RelVol 21.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.67M + RelVol 21.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.1,
+          "open": 6.28,
+          "gapPct": 102.58,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 6.78,
+          "hodTimeExact": "08:35 AM ET",
+          "close": 4.61,
+          "fade": 32,
+          "fadeExact": 32.01,
+          "vwap": 5.431,
+          "vsVwap": "below",
+          "pmHigh": 7.1,
+          "volRaw": "70.6M",
+          "volDollar": 383424950,
+          "relVol": 21.9,
+          "avgVolM": 3.2,
+          "ssr": false,
+          "reverseSplit": "30:1",
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1546296/000143774926032105/ipdn20261005_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-06T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IPDN",
+          "newsSummary": "IPDN filed a Form 8-K on 2026-10-06 after the session high, making it a reactive disclosure rather than a catalyst driver. The 8-K arrived post-move, indicating the 118% HOD and subsequent 32% fade were driven by intraday momentum, not by the filing itself. Without access to the 8-K content, merit cannot be assessed, but the timing suggests price action preceded any material event.",
+          "bullFactors": [
+            "Nano float (0.67M shares) — extreme liquidity constraint creates potential for sharp intraday runs with minimal volume",
+            "Very high relative volume (21.9x) — sustained institutional or retail accumulation throughout session, not a flash spike",
+            "118% HOD with 32% fade — strong intraday continuation and afternoon strength, typical of momentum setups that held above premarket levels",
+            "Session HODs dominating over premarket (tape temperature = HOT) — institutional buying pressure persisted into close, shorts likely squeezed"
+          ],
+          "bearFactors": [
+            "Form 8-K filed after HOD — unknown content creates tail risk; if it announces dilution, offering, or adverse material fact, gap-down risk on open",
+            "102% gap already in — entry opportunities extremely limited; most of the move already captured, late entry at elevated risk",
+            "No substantive news catalyst identified pre-move — momentum appears tape-driven; vulnerable to reversal if HOD breaks on next session open",
+            "Micro-cap industrials with no clear growth theme — sector lacks strong sympathy tailwinds; isolated risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AIXI",
+          "hod": 115,
+          "hodExact": 115.23,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "XIAO-I Corporation American Depositary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 3.22,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 3.22M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.51,
+          "open": 2.91,
+          "gapPct": 92.72,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.25,
+          "hodTimeExact": "04:27 AM ET",
+          "close": 1.85,
+          "fade": 43,
+          "fadeExact": 43.08,
+          "vwap": 3.0607,
+          "vsVwap": "below",
+          "pmHigh": 4.47,
+          "volRaw": "63.7M",
+          "volDollar": 194923483,
+          "relVol": 14.3,
+          "avgVolM": 4.5,
+          "ssr": true,
+          "reverseSplit": "7:1",
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1935172/000121390026105823/ea0306791-6k_xiao1.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIXI",
+          "newsSummary": "AIXI filed a Form 6-K (routine SEC disclosure for foreign private issuers) on October 1st, well before the intraday move. This is a regulatory filing, not a catalyst. The 115% HOD and 92% gap suggest the move was driven by intraday accumulation and tape momentum, not by the Form 6-K itself.",
+          "bullFactors": [
+            "Micro-cap float (3.22M) with 14.3x relative volume — ideal for sustained intraday momentum",
+            "HOD dominating fade (115% HOD vs 43% fade) signals afternoon continuation and short squeeze potential",
+            "China Rig structural pattern: Greater China + micro-float + no substantive news = institutional accumulation rig with multi-session HOD prints",
+            "Gap up 92% on high relative volume shows conviction into open; tape holding afternoon strength"
+          ],
+          "bearFactors": [
+            "Form 6-K is routine disclosure with no material catalyst — move is purely structural/momentum-driven",
+            "Chinese micro-cap liquidity can evaporate quickly; no real business catalyst to sustain hold past today",
+            "High gap (92%) + high HOD (115%) creates heavy overhead supply and fade risk into close",
+            "Sustained China rig patterns can reverse sharply on tape shift — requires tight stops and disciplined exits"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "OLOX",
+          "hod": 111,
+          "hodExact": 111.35,
+          "news": [
+            "Form 8-K/A"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Olenox Industries Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 1.65,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.65M + RelVol 20.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.65M + RelVol 20.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.88,
+          "open": 1.445,
+          "gapPct": 64.2,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.8599,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 1.25,
+          "fade": 32,
+          "fadeExact": 32.79,
+          "vwap": 1.5837,
+          "vsVwap": "below",
+          "pmHigh": 2.245,
+          "volRaw": "97.4M",
+          "volDollar": 154301603,
+          "relVol": 20.2,
+          "avgVolM": 4.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K/A"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1023994/000121390026105957/ea0307291-8ka2_olenox.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K/A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OLOX",
+          "newsSummary": "Form 8-K/A (amended 8-K) filed on Oct 2, well before today's spike, indicating a prior disclosure correction rather than fresh catalyst. The 111% HOD gain with 20.2x relative volume and 65% gap-up appears driven by intraday institutional accumulation and momentum, not the amended filing itself.",
+          "bullFactors": [
+            "Micro-float (1.65M) with 20.2x relative volume — strong vol/min ratio supports sustained retail/institutional push",
+            "HOD printing at +111% with continued afternoon tape strength — classic hot cycle signature, not premarket fade",
+            "Daily chart has structural room to run from $2.1M market cap; no warrant/convertible/ATM overhead noted",
+            "Setup gave time to develop intraday; not a 100%+ spike in 1-2 minutes — allows entry discipline"
+          ],
+          "bearFactors": [
+            "Form 8-K/A is reactive compliance, filed 4 days before the move — no fresh cash catalyst or material news driving it",
+            "32.8% fade despite HOD strength suggests distribution into close; lacks follow-through conviction",
+            "Industrials sector with no clear thematic anchor (AI, robotics, defense) — momentum is structural only, not catalyzed",
+            "Gap-up entry (64% pre-market) creates risk of liquidity trap and late-session washout on thin float"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "XHLD",
+          "hod": 97,
+          "hodExact": 97.03,
+          "news": [
+            "TEN Holdings Relocates Headquarters to New York City as it Builds Out TEN, its Digital Experience Platform",
+            "Form 8-K",
+            "TEN Holdings Launches TEN, a Digital Experience Platform Designed to Power the Next Generation of Enterprise Digital Engagement"
+          ],
+          "tag": "NO-NEWS",
+          "name": "TEN Holdings, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 10.6,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.6M + RelVol 31.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.6M + RelVol 31.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.411,
+          "open": 0.425,
+          "gapPct": 3.41,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.8098,
+          "hodTimeExact": "10:01 AM ET",
+          "close": 0.623,
+          "fade": 23,
+          "fadeExact": 23.07,
+          "vwap": 0.6122,
+          "vsVwap": "above",
+          "pmHigh": 0.548,
+          "volRaw": "149.6M",
+          "volDollar": 91608123,
+          "relVol": 31.6,
+          "avgVolM": 4.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "TEN Holdings Relocates Headquarters to New York City as it Builds Out TEN, its Digital Experience Platform",
+            "Form 8-K",
+            "TEN Holdings Launches TEN, a Digital Experience Platform Designed to Power the Next Generation of Enterprise Digital Engagement"
+          ],
+          "newsItems": [
+            {
+              "title": "TEN Holdings Relocates Headquarters to New York City as it Builds Out TEN, its Digital Experience Platform",
+              "url": "https://www.stocktitan.net/news/XHLD/ten-holdings-relocates-headquarters-to-new-york-city-as-it-builds-phvuyla5e23w.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T20:05:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030954/000149315226045754/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "TEN Holdings Launches TEN, a Digital Experience Platform Designed to Power the Next Generation of Enterprise Digital Engagement",
+              "url": "https://www.stocktitan.net/news/XHLD/ten-holdings-launches-ten-a-digital-experience-platform-designed-to-q6uysmqd2535.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XHLD",
+          "newsSummary": "XHLD ran 97% on the session with a 23% fade, suggesting strong intraday institutional accumulation and retail follow-through rather than a single catalyst event. The headquarters relocation and platform launch announcements came after the move peaked, indicating they were reactive to price action, not the cause. The Form 8-K filed before the move is the only pre-move filing, but its contents are not disclosed—it appears ceremonial rather than a substantive deal catalyst.",
+          "bullFactors": [
+            "97% HOD on high relative volume (31.6x) with sustained afternoon strength — classic hot cycle signature, not premarket spike and fade",
+            "Float 10.6M just above preference threshold, but intraday vol/min clearly exceeded premarket vol/min, meeting Jack's float tolerance exception",
+            "23% fade is healthy consolidation, not a cliff-off — suggests institutional accumulation held through retail euphoria",
+            "Small micro-cap market cap ($7.5M) with real volume structure compatible with sustained momentum day plays"
+          ],
+          "bearFactors": [
+            "No substantive cash catalyst — platform launch and HQ relocation are operational moves, not revenue-driving deals or earnings surprises",
+            "News came after the move (relative_to_high='after'), proving it did not drive the spike; catalyst weakness increases fade risk into next session",
+            "Float just above 10M preference; if premarket tomorrow spikes and dumps, this becomes a classic sympathy/hype fade",
+            "Communication Services sector with digital platform positioning is crowded; lacks defensible moat like real partnerships or enterprise lock-in deals"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MOBX",
+          "hod": 93,
+          "hodExact": 93.82,
+          "news": [
+            "Mobix Labs to Host Investor Update Call on Critical Minerals Strategy and Business Outlook",
+            "424B3 offering",
+            "Form 8-K",
+            "Mobix Labs (Nasdaq: MOBX) Acquisition Target SPD to Acquire Winner Water, U.S. Rare Earth Company Backed by $53 Million in Federal Awards",
+            "U.S. Based Rare Earth Company Winner Water to Join SPD and Mobix Labs (Nasdaq: MOBX) National Security Matters Initiative"
+          ],
+          "tag": "OFFERING",
+          "name": "Mobix Labs, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 15.78,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6501,
+          "open": 0.655,
+          "gapPct": 0.75,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.26,
+          "hodTimeExact": "02:29 PM ET",
+          "close": 1.12,
+          "fade": 11,
+          "fadeExact": 11.11,
+          "vwap": 1.0079,
+          "vsVwap": "above",
+          "pmHigh": 0.6811,
+          "volRaw": "124.8M",
+          "volDollar": 125804125,
+          "relVol": 15.4,
+          "avgVolM": 8.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Mobix Labs to Host Investor Update Call on Critical Minerals Strategy and Business Outlook",
+            "424B3 offering",
+            "Form 8-K",
+            "Mobix Labs (Nasdaq: MOBX) Acquisition Target SPD to Acquire Winner Water, U.S. Rare Earth Company Backed by $53 Million in Federal Awards",
+            "U.S. Based Rare Earth Company Winner Water to Join SPD and Mobix Labs (Nasdaq: MOBX) National Security Matters Initiative"
+          ],
+          "newsItems": [
+            {
+              "title": "Mobix Labs to Host Investor Update Call on Critical Minerals Strategy and Business Outlook",
+              "url": "https://www.stocktitan.net/news/MOBX/mobix-labs-to-host-investor-update-call-on-critical-minerals-0aemr9z6e2yg.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T22:03:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1855467/000149315226045980/form424b3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-06T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1855467/000149315226045639/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Mobix Labs (Nasdaq: MOBX) Acquisition Target SPD to Acquire Winner Water, U.S. Rare Earth Company Backed by $53 Million in Federal Awards",
+              "url": "https://www.stocktitan.net/news/MOBX/mobix-labs-nasdaq-mobx-acquisition-target-spd-to-acquire-winner-bilqzukmcylf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-05T13:40:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "U.S. Based Rare Earth Company Winner Water to Join SPD and Mobix Labs (Nasdaq: MOBX) National Security Matters Initiative",
+              "url": "https://www.stocktitan.net/news/MOBX/u-s-based-rare-earth-company-winner-water-to-join-spd-and-mobix-labs-ncxfu9vtltfv.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-05T12:40:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Rare Earth",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Defense",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MOBX",
+          "newsSummary": "MOBX spiked 93.82% on real catalyst: acquisition of Winner Water, a U.S. rare earth company backed by $53M in federal awards, positioned as a national security play tied to critical minerals. However, a 424B3 offering was filed same-day after the move, signaling dilution ahead and materially weakening the setup. The investor call scheduled post-market is reactive, not a driver.",
+          "bullFactors": [
+            "Real cash catalyst: $53M federal backing + rare earth/critical minerals positioning aligns with national security tailwinds and real asset value, not sympathy",
+            "Strong intraday tape: 93.82% HOD dominance vs 11.11% fade suggests institutional accumulation and sustained buying pressure through session",
+            "High relative volume (15.4x) indicates retail following institutional flow, not premarket pump collapse"
+          ],
+          "bearFactors": [
+            "424B3 offering filed same-day (after HOD) signals dilution coming — major red flag for continuation, kills overnight hold thesis",
+            "Float 15.78M sits above Jack's preferred <10M sweet spot, reduces volatility leverage for intraday scalps",
+            "Offering timing creates uncertainty on share count and locks in exit liquidity risk; institutional buyers may front-run dilution rather than hold"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 198,
+      "fade": 34,
+      "hodTime": "premarket",
+      "theme": "Hot Tape",
+      "note": "BCATr led +230.0% (25% fade). 3/10 held <20% fade. news: XHG — \"XChange TEC.INC Announces Proposed U.S. AI Business Expansion and Reduction of Mainland China Operations\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS and COMPLIANCE tags with zero real catalysts—a structural red flag for this framework's quality standards. Float tier skew is heavily micro-cap (0.58M–3.22M preferred zone) with two outliers (OLB 18.98M, XHLD 10.6M), but the critical problem is session distribution: premarket spikes dominate the leaderboard (BCAT +230%, FRGT +198%, IPDN +118%, AIXI +115%, OLOX +111%) with severe fades (25–56%), signaling a COLD tape with zero institutional accumulation setup and pure retail momentum exhaustion. Only OLB (afternoon HOD, share buyback, minimal fade) and IPDN (massive $383M vol despite 32% fade) show any intraday conviction, but both carry structural rejection signals for this playbook—OLB's float is too high and buyback is mechanical, IPDN's compliance tag is a hard avoid. The tape reads as a premarket-dominated pump cycle with afternoon gravity, zero room for flag/dip-soak setups, and liquidity that favors early exits; momentum traders operating this framework should treat today as a rotation day and wait for tomorrow's setup quality."
+    },
     {
       "date": "2026-10-05",
       "runners": [
