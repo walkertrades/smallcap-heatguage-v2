@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-08T12:14:27.932946Z",
-  "count": 10003,
+  "exportedAt": "2026-10-08T22:06:09.432961Z",
+  "count": 10013,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,969 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-08",
+      "runners": [
+        {
+          "sym": "FLYE",
+          "hod": 173,
+          "hodExact": 173.23,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Fly-E Group, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 1.58,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.58M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.58M + RelVol 1279.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.58M + RelVol 1279.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.27,
+          "open": 3.175,
+          "gapPct": 150.0,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.47,
+          "hodTimeExact": "08:36 AM ET",
+          "close": 2.32,
+          "fade": 33,
+          "fadeExact": 33.14,
+          "vwap": 2.6404,
+          "vsVwap": "below",
+          "pmHigh": 3.67,
+          "volRaw": "132.3M",
+          "volDollar": 349329913,
+          "relVol": 1279.7,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FLYE",
+          "newsSummary": "FLYE moved 173% intraday with no identifiable news catalyst — pure price action and tape-driven momentum. The move appears to be structural: micro-float (1.58M), extreme relative volume (1279.7x), and sustained session HODs indicate aggressive institutional accumulation rather than retail panic or dilutive event.",
+          "bullFactors": [
+            "Micro-float (1.58M) creates extreme leverage for any institutional buying pressure",
+            "Session HOD of 173% with 33% fade suggests afternoon continuation strength and short covering, not premarket spike-and-dump pattern",
+            "Extraordinary relative volume (1280x) across entire session indicates real institutional participation, not retail sympathy",
+            "No dilutive news (offerings, warrants, compliance issues) — clean tape with room to run higher"
+          ],
+          "bearFactors": [
+            "33% intraday fade is significant — confirms heavy profit-taking and resistance to hold gains",
+            "No identifiable catalyst creates execution risk; move is entirely tape-driven and vulnerable to momentum loss",
+            "150% gap at open limits safe entry points; chasing late session after 173% move carries whipsaw risk",
+            "Micro-cap micro-float with no news = liquidity illusion; can evaporate quickly on profit-taking or halt risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "JZ",
+          "hod": 149,
+          "hodExact": 149.04,
+          "news": [
+            "Jianzhi Education Announces Share Repurchase Program"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "Jianzhi Education Technology Group Company Limited American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 13.01,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 13.01M + RelVol 124.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 13.01M + RelVol 124.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4698,
+          "open": 0.5812,
+          "gapPct": 23.7,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.17,
+          "hodTimeExact": "12:14 PM ET",
+          "close": 0.8336,
+          "fade": 28,
+          "fadeExact": 28.75,
+          "vwap": 0.8467,
+          "vsVwap": "below",
+          "pmHigh": 0.6447,
+          "volRaw": "286.1M",
+          "volDollar": 242270825,
+          "relVol": 124.3,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Jianzhi Education Announces Share Repurchase Program"
+          ],
+          "newsItems": [
+            {
+              "title": "Jianzhi Education Announces Share Repurchase Program",
+              "url": "https://www.stocktitan.net/news/JZ/jianzhi-education-announces-share-repurchase-r5a0zpanjyl2.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-08T14:37:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Education",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:JZ",
+          "newsSummary": "Jianzhi Education announced a share repurchase program on 2026-10-08 at 14:37 UTC, which occurred AFTER the stock had already climbed 149% to session high. The buyback announcement is reactive to the intraday move and does not explain the initial driver. While buybacks can signal management confidence, this one arrived well into the rally and lacks the real cash catalyst weight needed to justify a 149% HOD swing in a Chinese micro-cap.",
+          "bullFactors": [
+            "Sustained intraday momentum with 149% HOD and only 28.75% fade — suggests institutional accumulation and afternoon strength rather than premarket spike collapse",
+            "High relative volume (124.3x) throughout session maintains liquidity for scalping and continuation trades",
+            "China rig structural pattern: mid-float Chinese name with afternoon HOD printing and no dilutive catalyst qualifies as aggressive institutional buying pressure, not pump-and-dump",
+            "Share repurchase signals management confidence and potential EPS accretion, even if announced after the move"
+          ],
+          "bearFactors": [
+            "Float at 13.01M sits just above Jack's preferred <10M threshold — mid-tier float reduces explosive potential relative to true nano-cap runners",
+            "Catalyst is reactive (announced after HOD) — does not explain the 23.7% gap or initial momentum; real driver unknown",
+            "No substantive cash value deal or partnership; buyback alone is defensive shareholder management, not a growth event",
+            "Large fade (28.75%) from HOD indicates profit-taking and potential afternoon exhaustion — setup may have peaked before close"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "INHD",
+          "hod": 103,
+          "hodExact": 103.86,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Inno Holdings Inc. Common Stock",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 2.4,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 2.4M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.4M + RelVol 192.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.4M + RelVol 192.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.37,
+          "open": 3.4,
+          "gapPct": 0.89,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.87,
+          "hodTimeExact": "10:32 AM ET",
+          "close": 3.83,
+          "fade": 44,
+          "fadeExact": 44.25,
+          "vwap": 5.1078,
+          "vsVwap": "below",
+          "pmHigh": 3.64,
+          "volRaw": "13.2M",
+          "volDollar": 67657239,
+          "relVol": 192.2,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:INHD",
+          "newsSummary": "INHD moved 103.86% intraday with no substantive news catalyst detected. This is a structural China rig pattern: sustained intraday volume (relVol 192.2), micro-cap float (2.4M), and Hong Kong domicile with afternoon continuation strength (HOD printed late, only 44.25% fade). The move has real institutional accumulation mechanics, not a pump-and-dump premarket spike.",
+          "bullFactors": [
+            "Micro-float (2.4M) with 192% relative volume — strong fuel for sustained moves",
+            "HOD extended 103.86% with controlled fade (44.25%) — indicates institutional accumulation, not retail panic distribution",
+            "China rig structural pattern: no cash dilution, sustained afternoon continuation, multiple session HODs — classic institutional rig mechanics, not fluff",
+            "Minimal overnight gap (0.89%) into session — clean setup with room to run intraday"
+          ],
+          "bearFactors": [
+            "Zero news catalyst — move is pure momentum/structural; vulnerable to sudden reversal if retail exhausts",
+            "44.25% intraday fade already taken — entry timing is critical; setup may be tightening",
+            "Hong Kong micro-cap with no disclosed fundamentals — liquidity can evaporate quickly on profit-taking",
+            "No real cash value deal, partnership, or earnings to anchor the move — momentum-only continuation is high-risk late-day"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AIXI",
+          "hod": 97,
+          "hodExact": 97.73,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "XIAO-I Corporation American Depositary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 3.22,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 3.22M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.32,
+          "open": 2.11,
+          "gapPct": 59.85,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.61,
+          "hodTimeExact": "04:05 AM ET",
+          "close": 1.93,
+          "fade": 26,
+          "fadeExact": 26.05,
+          "vwap": 2.1885,
+          "vsVwap": "below",
+          "pmHigh": 2.67,
+          "volRaw": "58.4M",
+          "volDollar": 127814922,
+          "relVol": 7.0,
+          "avgVolM": 8.3,
+          "ssr": true,
+          "reverseSplit": "7:1",
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1935172/000121390026105823/ea0306791-6k_xiao1.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIXI",
+          "newsSummary": "AIXI filed a Form 6-K (foreign private issuer disclosure) on 2026-10-01, which preceded today's 97.73% HOD move. The filing itself does not constitute a cash catalyst or material business event — it is a regulatory requirement for Chinese companies trading in the U.S. The move appears driven by structural intraday accumulation rather than substantive news merit.",
+          "bullFactors": [
+            "Micro-cap float (3.22M) with 7.0x relative volume — tight supply, high velocity potential for sustained intraday runs",
+            "Session HOD printing at 97.73% with only 26.05% fade suggests institutional accumulation and short-covering throughout the day, not premarket spike collapse",
+            "China Rig structural pattern: sustained afternoon continuation, multiple HOD prints, high relative volume all session — indicates real buying pressure, not pump-and-dump",
+            "59.85% gap up provided intraday room to trade, and HOD was printed late session (not early premarket), showing momentum persistence"
+          ],
+          "bearFactors": [
+            "Form 6-K is a regulatory filing, not a cash catalyst — no earnings, partnership, or revenue event to support valuation",
+            "Chinese micro-cap with 6.3M market cap carries inherent liquidity and delisting risk; no real-world business fundamentals disclosed in the filing",
+            "Large gap (59.85%) can exhaust retail buying power and set up gap-fill risk on reversal days; sustainability depends entirely on continued volume",
+            "No substantive news on operations, partnerships, or financial results — move is theme-driven (China Rig pattern) rather than catalyst-driven"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "OLB",
+          "hod": 79,
+          "hodExact": 79.64,
+          "news": [
+            "The OLB Group Launches Share Buyback; Suspends ATM Program"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "The OLB Group, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 18.98,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.387,
+          "open": 0.5098,
+          "gapPct": 31.73,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.6952,
+          "hodTimeExact": "09:52 AM ET",
+          "close": 0.549,
+          "fade": 21,
+          "fadeExact": 21.03,
+          "vwap": 0.589,
+          "vsVwap": "below",
+          "pmHigh": 0.605,
+          "volRaw": "396.5M",
+          "volDollar": 233528689,
+          "relVol": 9.0,
+          "avgVolM": 44.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "The OLB Group Launches Share Buyback; Suspends ATM Program"
+          ],
+          "newsItems": [
+            {
+              "title": "The OLB Group Launches Share Buyback; Suspends ATM Program",
+              "url": "https://www.stocktitan.net/news/OLB/the-olb-group-launches-share-buyback-suspends-atm-jfot4wf51dv3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T13:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OLB",
+          "newsSummary": "OLB announced a share buyback program and suspended its ATM offering on 2026-10-06, before the intraday move. The buyback is a legitimate capital allocation signal and removes dilution overhang from the ATM program, which can support price action. However, the announcement preceded the move, so it acted as foundational support rather than the spark for today's 79.64% HOD dominance.",
+          "bullFactors": [
+            "Strong intraday tape: 79.64% HOD printing indicates sustained institutional buying pressure and short covering throughout the session, not a premarket spike fade.",
+            "Buyback removes ATM dilution risk, clearing overhead supply concern and signaling management confidence in valuation.",
+            "High relative volume (9.0x) on intraday strength suggests retail following institutional accumulation, not retail-only pump.",
+            "Mid-float (18.98M) allows meaningful intraday vol/min expansion if momentum sustains through afternoon."
+          ],
+          "bearFactors": [
+            "31.73% gap already consumed much of the move before market open, leaving less room for a second-leg push.",
+            "Buyback news is 2 days old (relative_to_high='before'), so today's spike is a delayed reaction or sympathy-driven, not fresh catalyst momentum.",
+            "21.03% fade percentage indicates meaningful sellers showed up intraday; not a pure 'hot cycle' continuation.",
+            "No substantive operational catalyst, earnings, or partnership to anchor the move beyond capital structure optics."
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GRAN",
+          "hod": 71,
+          "hodExact": 71.52,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Grande Group Limited Class A Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "HK",
+          "floatM": 4.77,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$29M",
+          "riskBadges": [
+            "Float 4.77M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.77M + RelVol 23.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.77M + RelVol 23.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9503,
+          "open": 1,
+          "gapPct": 5.23,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.63,
+          "hodTimeExact": "01:29 PM ET",
+          "close": 1.17,
+          "fade": 28,
+          "fadeExact": 28.22,
+          "vwap": 1.2575,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "5.2M",
+          "volDollar": 6549091,
+          "relVol": 23.9,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GRAN",
+          "newsSummary": "GRAN ran 71.52% with no identifiable catalyst — pure structural move. HK micro-cap with 4.77M float showing sustained intraday continuation (HOD-dominated tape, 23.9x relative volume) characteristic of China rig institutional accumulation pattern rather than premarket pump-fade.",
+          "bullFactors": [
+            "Micro float (4.77M) — tight supply, institutional accumulation can sustain all-day continuation",
+            "HOD-dominated tape (71.52% HOD vs 28.22% fade) — afternoon strength and sustained high relative volume (23.9x) signals hot cycle, not premarket spike exhaustion",
+            "No dilutive news or offerings — clean daily chart structure, room to run if institutional bid holds",
+            "China rig pattern (Greater China, micro float, no-news, sustained volume) — structural institutional play, NOT pump-and-dump"
+          ],
+          "bearFactors": [
+            "No real cash catalyst — move is purely structural/sympathy-driven, vulnerable to sudden liquidity dry-up",
+            "HK-listed micro-cap — regulatory uncertainty, lower US institutional oversight, higher black swan risk",
+            "Fade percentage (28.22%) indicates some profit-taking into strength — need to monitor if afternoon HOD momentum breaks",
+            "No daily chart overhead supply data provided — cannot confirm room to upside or key resistance levels"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "QNME",
+          "hod": 62,
+          "hodExact": 62.24,
+          "news": [
+            "Quanome’s XDT Secures First Enterprise Customer Agreement for Dedicated AI Inference Services",
+            "Form 8-K",
+            "S-3/A",
+            "Quanome CEO to Back Quantum Strategy with Up to $15 Million in Non-Dilutive Growth Capital"
+          ],
+          "tag": "CONTRACT",
+          "name": "Quanome Technologies, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 14.0,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$28M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5786,
+          "open": 0.5932,
+          "gapPct": 2.52,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.9387,
+          "hodTimeExact": "03:07 PM ET",
+          "close": 0.829,
+          "fade": 11,
+          "fadeExact": 11.69,
+          "vwap": 0.8299,
+          "vsVwap": "below",
+          "pmHigh": 0.6124,
+          "volRaw": "65.9M",
+          "volDollar": 54653256,
+          "relVol": 2.2,
+          "avgVolM": 29.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Quanome’s XDT Secures First Enterprise Customer Agreement for Dedicated AI Inference Services",
+            "Form 8-K",
+            "S-3/A",
+            "Quanome CEO to Back Quantum Strategy with Up to $15 Million in Non-Dilutive Growth Capital"
+          ],
+          "newsItems": [
+            {
+              "title": "Quanome’s XDT Secures First Enterprise Customer Agreement for Dedicated AI Inference Services",
+              "url": "https://www.stocktitan.net/news/QNME/quanome-s-xdt-secures-first-enterprise-customer-agreement-for-bday6quv0z0k.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-08T18:40:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1996192/000121390026106621/ea0307673-8k_quanome.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "S-3/A",
+              "url": "https://www.sec.gov/Archives/edgar/data/1996192/000121390026105542/ea0306815-s3a3_quanome.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-01T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3/A",
+              "rel": "before"
+            },
+            {
+              "title": "Quanome CEO to Back Quantum Strategy with Up to $15 Million in Non-Dilutive Growth Capital",
+              "url": "https://www.stocktitan.net/news/QNME/quanome-ceo-to-back-quantum-strategy-with-up-to-15-million-in-non-0sapcnh7byup.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-01T13:25:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Quantum",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:QNME",
+          "newsSummary": "Quanome's XDT secured its first enterprise customer agreement for dedicated AI inference services, announced after-hours following a strong intraday rally. This represents real cash revenue traction on a quantum/AI infrastructure play, though the timing (post-HOD) means it validated rather than triggered the move.",
+          "bullFactors": [
+            "Strong HOD dominance (62.24% of range) — sustained intraday continuation, not premarket spike fade",
+            "Mid-float (14M) with 2.2x relative volume — manageable supply, institutional accumulation signal",
+            "Real cash catalyst: first enterprise customer contract for AI inference is tangible revenue, not sympathy or fluff",
+            "CEO backing quantum strategy with $15M non-dilutive capital (Oct 1) — shows skin in game, pre-positioned before contract news"
+          ],
+          "bearFactors": [
+            "Float above stated preference (14M vs <10M target) — reduces explosive potential",
+            "S-3/A filing (Oct 1) creates overhead supply and dilution risk if shelf offering is deployed",
+            "News came after-hours — retail push already priced in; tomorrow's open may see fade or consolidation",
+            "11.69% fade present — some distribution into strength, not pure accumulation"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BIAF",
+          "hod": 52,
+          "hodExact": 52.27,
+          "news": [
+            "Form 8-K",
+            "WallachBeth Capital Announces bioAffinity Technologies Approximately $4 Million Registered Direct Financing of Common Stock and Concurrent Private Placement Priced At-The-Market Under Nasdaq Rules",
+            "bioAffinity Technologies Announces Notification of Japanese Patent Allowance Covering Noninvasive CyPath® Lung and AI-Built Algorithm",
+            "bioAffinity Technologies Reports Over 100% Growth in CyPath® Lung Sales Through Third Quarter 2026"
+          ],
+          "tag": "OFFERING",
+          "name": "bioAffinity Technologies, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.17,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 1.17M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.17M + RelVol 16.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.17M + RelVol 16.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.16,
+          "open": 6.35,
+          "gapPct": 3.08,
+          "time": "regular session",
+          "session": "morning",
+          "high": 9.38,
+          "hodTimeExact": "10:08 AM ET",
+          "close": 5.64,
+          "fade": 39,
+          "fadeExact": 39.87,
+          "vwap": 7.7161,
+          "vsVwap": "below",
+          "pmHigh": 8.33,
+          "volRaw": "35.2M",
+          "volDollar": 271768936,
+          "relVol": 16.7,
+          "avgVolM": 2.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "WallachBeth Capital Announces bioAffinity Technologies Approximately $4 Million Registered Direct Financing of Common Stock and Concurrent Private Placement Priced At-The-Market Under Nasdaq Rules",
+            "bioAffinity Technologies Announces Notification of Japanese Patent Allowance Covering Noninvasive CyPath® Lung and AI-Built Algorithm",
+            "bioAffinity Technologies Reports Over 100% Growth in CyPath® Lung Sales Through Third Quarter 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226046266/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-08T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "WallachBeth Capital Announces bioAffinity Technologies Approximately $4 Million Registered Direct Financing of Common Stock and Concurrent Private Placement Priced At-The-Market Under Nasdaq Rules",
+              "url": "https://www.stocktitan.net/news/BIAF/wallach-beth-capital-announces-bio-affinity-technologies-5s9ylaiubzca.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-08T17:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "bioAffinity Technologies Announces Notification of Japanese Patent Allowance Covering Noninvasive CyPath® Lung and AI-Built Algorithm",
+              "url": "https://www.stocktitan.net/news/BIAF/bio-affinity-technologies-announces-notification-of-japanese-patent-yy1mhujpwuah.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-08T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "bioAffinity Technologies Reports Over 100% Growth in CyPath® Lung Sales Through Third Quarter 2026",
+              "url": "https://www.stocktitan.net/news/BIAF/bio-affinity-technologies-reports-over-100-growth-in-cy-path-lung-xdk86fn25uu5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T13:19:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BIAF",
+          "newsSummary": "BIAF ran 52% intraday on a combination of real operational catalysts (100%+ Q3 sales growth, Japanese patent allowance for AI-integrated lung diagnostic) followed by a $4M registered direct offering announced at 17:30 post-HOD. The offering itself is dilutive and reactive—it came AFTER the move, not before—but the underlying business metrics (revenue growth, international IP validation, AI algorithm approval) provide legitimate merit to the intraday strength.",
+          "bullFactors": [
+            "Micro-cap float (1.17M) with 16.7x relative volume—tight float amplifies momentum on real catalyst news",
+            "Multiple pre-HOD catalysts with substance: 100%+ Q3 sales growth, Japanese patent allowance for noninvasive diagnostic + AI algorithm—real revenue + IP validation, not fluff",
+            "Strong HOD dominance (52% gain vs 40% fade) suggests institutional accumulation held through afternoon; not a premarket spike fade pattern",
+            "Medical device + AI theme has current market interest; CyPath lung diagnostics address real clinical need"
+          ],
+          "bearFactors": [
+            "Registered direct offering ($4M) announced post-HOD at 17:30—dilutive capital raise will pressure stock and signal insider concern about valuation; typical fade trigger into next session",
+            "Market cap only $9.5M with $4M raise = 42% dilution; micro-cap offerings often trigger extended selling",
+            "High relVol (16.7) + 52% move in one session = volatility peak risk; liquidity may dry up on any pullback",
+            "Form 8-K filed after hours (20:00) following the offering announcement—details may reveal additional terms or concerns that weigh on open tomorrow"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "IPW",
+          "hod": 50,
+          "hodExact": 50.96,
+          "news": [
+            "Form 10-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "iPower, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 1.28,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.28M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.28M + RelVol 16.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.28M + RelVol 16.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.04,
+          "open": 1.305,
+          "gapPct": 25.48,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.57,
+          "hodTimeExact": "04:11 AM ET",
+          "close": 0.9202,
+          "fade": 41,
+          "fadeExact": 41.39,
+          "vwap": 1.3886,
+          "vsVwap": "below",
+          "pmHigh": 2,
+          "volRaw": "43.8M",
+          "volDollar": 60764228,
+          "relVol": 16.3,
+          "avgVolM": 2.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1830072/000168316826007580/ipower_i10k-063026.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "10-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IPW",
+          "newsSummary": "IPW filed its Form 10-K on October 2nd, six days before today's 50.96% HOD move. The 10-K filing itself is a regulatory requirement, not a catalyst — the timing before the move suggests the market is reacting to disclosed content (financials, risk factors, business updates) rather than the filing event itself. This is a reactive disclosure, not a forward-looking catalyst.",
+          "bullFactors": [
+            "Exceptional float at 1.28M shares — extreme leverage for intraday acceleration and low liquidity breakouts",
+            "HOD dominance (50.96%) with meaningful fade (41.39%) suggests institutional accumulation into close, not pure premarket pump",
+            "16.3x relative volume confirms high intraday participation — retail and institutional both engaged throughout session",
+            "Gap up (25.48%) into sustained HOD printing indicates follow-through buying, not one-minute spike rejection"
+          ],
+          "bearFactors": [
+            "Catalyst is a backward-looking compliance filing (10-K), not forward guidance or positive business event — limited fuel for sustained upside",
+            "41.39% fade from HOD indicates significant intraday profit-taking and profit protection, suggesting weak conviction at higher levels",
+            "No real cash value news, partnership, or earnings beat disclosed — move appears driven by disclosure sentiment rather than fundamental upgrade",
+            "Micro-cap float with 50%+ intraday range creates high black swan risk and liquidity discontinuity on reversal"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NCT",
+          "hod": 47,
+          "hodExact": 47.37,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Intercont (Cayman) Limited Class A Ordinary shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 0.33,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.33M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.52,
+          "open": 1.43,
+          "gapPct": -5.92,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.24,
+          "hodTimeExact": "11:51 AM ET",
+          "close": 1.65,
+          "fade": 26,
+          "fadeExact": 26.34,
+          "vwap": 1.8639,
+          "vsVwap": "below",
+          "pmHigh": 1.5,
+          "volRaw": "8.2M",
+          "volDollar": 15307620,
+          "relVol": 6.9,
+          "avgVolM": 1.2,
+          "ssr": true,
+          "reverseSplit": "25:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCT",
+          "newsSummary": "NCT moved +47.37% intraday with no disclosed catalyst or news event. The move appears driven by structural momentum in a nano-float Hong Kong industrial name with 6.9x relative volume and sustained session HODs, consistent with institutional accumulation patterns rather than reactive headline-driven trading.",
+          "bullFactors": [
+            "Extreme nano-float (0.33M shares) creates mechanical scarcity and high relative volume multiplier (6.9x)",
+            "Session HOD dominance (47.37% HOD vs 26.34% fade) signals sustained intraday strength and short covering pressure rather than premarket spike-and-dump",
+            "Afternoon continuation and session HOD printing late in day typical of institutional rig pattern with real buying pressure throughout",
+            "Negative gap (-5.92%) followed by strong intraday recovery suggests dip accumulation before retail push"
+          ],
+          "bearFactors": [
+            "No catalyst or news catalyst reduces conviction — move is purely structural/technical with higher reversal risk on pullback",
+            "HK micro-cap with limited US retail awareness introduces liquidity and information asymmetry risk",
+            "26.34% fade and negative gap suggest institutional distribution risk if momentum breaks; no fundamental anchor to support elevated valuation",
+            "China Rig pattern can sustain but also prone to sudden liquidity collapse if tape rolls over"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 173,
+      "fade": 30,
+      "hodTime": "premarket",
+      "theme": "Choppy Mixed",
+      "note": "FLYE led +173.23% (33% fade). 1/10 held <20% fade. news: JZ — \"Jianzhi Education Announces Share Repurchase Program\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS and compliance/buyback tags with zero real catalyst quality—fluff that this framework explicitly avoids—while Chinese microcaps (JZ, INHD, AIXI, GRAN, NCT) comprise nearly half the list and show afternoon/morning HOD prints consistent with institutional rig patterns rather than pump dumps. Float tier skews dangerously wide (0.33M to 18.98M) with the best risk/reward names (FLYE, BIAF, IPW, NCT under 2M float) all spiking 50–173% in premarket or morning sessions and fading hard (33–44% fade rates), signaling trapped retail and early exit by smart money. This is a COLD cycle: premarket dominance, heavy fades, no institutional accumulation setup, and the playbook's catalyst quality bar is completely unmet—immediate pass on FLYE/BIAF/IPW despite low float, and avoid the China rig sympathy plays without real volume follow-through into afternoon closes."
+    },
     {
       "date": "2026-10-07",
       "runners": [
