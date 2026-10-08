@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-07T12:14:16.568406Z",
-  "count": 9993,
+  "exportedAt": "2026-10-08T12:14:27.932946Z",
+  "count": 10003,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,925 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-07",
+      "runners": [
+        {
+          "sym": "SXTC",
+          "hod": 667,
+          "hodExact": 667.2,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "China SXT Pharmaceuticals, Inc. Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 1.34,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.34M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.34M + RelVol 104.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.34M + RelVol 104.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.25,
+          "open": 3.19,
+          "gapPct": 155.2,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 9.59,
+          "hodTimeExact": "08:16 AM ET",
+          "close": 2.83,
+          "fade": 70,
+          "fadeExact": 70.49,
+          "vwap": 3.9577,
+          "vsVwap": "below",
+          "pmHigh": 7.07,
+          "volRaw": "146.6M",
+          "volDollar": 580068010,
+          "relVol": 104.4,
+          "avgVolM": 1.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SXTC",
+          "newsSummary": "SXTC ran 667% intraday with no substantive news catalyst — a classic China micro-cap structure. The move is driven by institutional accumulation and sustained intraday volume (relVol 104.4), not reactive headlines. This is a structural China rig pattern, not a pump-and-dump spike.",
+          "bullFactors": [
+            "Extreme micro-float (1.34M shares) — severe supply constraint, high elasticity for sustained moves",
+            "HOD printing at 667% suggests afternoon continuation and short blowout pressure, not premarket exhaustion",
+            "Sustained relative volume (104.4) throughout session indicates institutional buying, not retail pump fade",
+            "Multiple session HODs late in day — classic China rig signature with real intraday trend, not one-minute spike exhaustion"
+          ],
+          "bearFactors": [
+            "No news catalyst creates execution risk — move is purely structural/sentiment-driven with no fundamental anchor",
+            "Chinese micro-cap with 70% fade suggests significant profit-taking and intraday volatility exposure",
+            "Low market cap ($3.78M) and micro-float limit liquidity for large position exits at peak prices",
+            "Healthcare sector with no disclosed clinical or partnership catalyst — subject to sympathy unwinds if broader China theme cools"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SBFM",
+          "hod": 292,
+          "hodExact": 292.06,
+          "news": [
+            "Sunshine Biopharma Inc. Announces Pricing of $6.0 Million Public Offering",
+            "S-1 registration"
+          ],
+          "tag": "OFFERING",
+          "name": "Sunshine Biopharma Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 4.37,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 4.37M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.37M + RelVol 385.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.37M + RelVol 385.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3979,
+          "open": 0.4095,
+          "gapPct": 2.92,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.56,
+          "hodTimeExact": "11:30 AM ET",
+          "close": 0.7,
+          "fade": 55,
+          "fadeExact": 55.13,
+          "vwap": 1.0173,
+          "vsVwap": "below",
+          "pmHigh": 0.4319,
+          "volRaw": "178.0M",
+          "volDollar": 181038249,
+          "relVol": 385.5,
+          "avgVolM": 0.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Sunshine Biopharma Inc. Announces Pricing of $6.0 Million Public Offering",
+            "S-1 registration"
+          ],
+          "newsItems": [
+            {
+              "title": "Sunshine Biopharma Inc. Announces Pricing of $6.0 Million Public Offering",
+              "url": "https://www.stocktitan.net/news/SBFM/sunshine-biopharma-inc-announces-pricing-of-6-0-million-public-os9avu5tg3k4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-08T12:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "S-1 registration",
+              "url": "https://www.sec.gov/Archives/edgar/data/1402328/000168316826007581/sunshine_s1.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-1",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SBFM",
+          "newsSummary": "SBFM spiked 292% intraday on what appears to be a $6M public offering announcement, with the pricing news arriving AFTER the high was already set. The offering itself is dilutive and non-catalytic—a micro-cap biotech raising small capital on an S-1 is classic small-float momentum fuel, not fundamental value creation. Real cash in hand is positive operationally, but the structure screams retail FOMO into institutional distribution.",
+          "bullFactors": [
+            "Micro-float (4.37M) with extreme relative volume (385.5x) — textbook low-float runner conditions",
+            "292% HOD with 55% fade suggests genuine intraday institutional participation, not pure premarket spike-and-dump",
+            "S-1 registration + $6M raise = real cash on balance sheet for a biotech; removes immediate bankruptcy risk and funds runway",
+            "2.92% gap up into momentum setup — clean entry structure for tape readers"
+          ],
+          "bearFactors": [
+            "Offering priced AFTER the high — news is reactive, not predictive. Retail likely chased into distribution window",
+            "Public offering = dilution to existing shareholders; classic momo trap when announced post-spike",
+            "Micro-cap biotech with no named catalyst (no FDA, no ER, no partnership) — offering is the only news, and it's non-accretive",
+            "No clear daily chart room to upside defined yet; 292% move leaves overhead supply risk and potential institutional unwind at close"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PFAI",
+          "hod": 200,
+          "hodExact": 200.0,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Pinnacle Food Group Limited Class A Common Shares",
+          "sector": "Industrials",
+          "country": "CA",
+          "floatM": 3.62,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$60M",
+          "riskBadges": [
+            "Float 3.62M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.62M + RelVol 12610.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.62M + RelVol 12610.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.34,
+          "open": 2.34,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 7.02,
+          "hodTimeExact": "12:24 PM ET",
+          "close": 5.07,
+          "fade": 27,
+          "fadeExact": 27.78,
+          "vwap": 4.8649,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "31.1M",
+          "volDollar": 151199063,
+          "relVol": 12610.8,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2032755/000121390026107212/ea0307835-6k_pinnacle.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-06T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PFAI",
+          "newsSummary": "Form 6-K filing (Canadian issuer periodic report) was submitted before the move, making it a pre-event disclosure rather than the catalyst. The 200% HOD with only 27.78% fade suggests sustained institutional accumulation and strong intraday momentum, but the 6-K itself is routine regulatory housekeeping, not a cash-generative or transformational event.",
+          "bullFactors": [
+            "Micro-float (3.62M) with exceptional relative volume (12,610.8x) — structural setup favors volatility and sustained runs",
+            "200% HOD with controlled 27.78% fade indicates hot tape and afternoon continuation strength, not a classic premarket spike-and-dump",
+            "No gap and Form 6-K filed before the move eliminates surprise catalyst risk; price action driven by accumulation, not news shock",
+            "Industrial sector + Canadian domicile with no dilutive announcements visible — clean capital structure for micro-cap runner"
+          ],
+          "bearFactors": [
+            "Form 6-K is a routine compliance filing, not a real catalyst (no earnings, deal, partnership, or cash event disclosed)",
+            "No identifiable theme, partnership, or sector tailwind — move appears momentum/technical-driven rather than fundamentally justified",
+            "27.78% fade from HOD is material; sustained follow-through into close not yet confirmed",
+            "Micro-cap industrials with no named catalyst risk reversion or liquidity trap if retail enthusiasm reverses"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "DKI",
+          "hod": 167,
+          "hodExact": 167.65,
+          "news": [
+            "Form 6-K",
+            "DarkIris Inc. Provides Business Update on Cine3.AI Global Expansion and Entertainment Technology Ecosystem"
+          ],
+          "tag": "SYMPATHY",
+          "name": "DarkIris Inc. Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 1.29,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 1.29M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.29M + RelVol 136.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.29M + RelVol 136.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.36,
+          "open": 1.27,
+          "gapPct": -6.62,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.64,
+          "hodTimeExact": "12:03 PM ET",
+          "close": 1.67,
+          "fade": 54,
+          "fadeExact": 54.12,
+          "vwap": 2.722,
+          "vsVwap": "below",
+          "pmHigh": 1.56,
+          "volRaw": "48.0M",
+          "volDollar": 130634287,
+          "relVol": 136.8,
+          "avgVolM": 0.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "DarkIris Inc. Provides Business Update on Cine3.AI Global Expansion and Entertainment Technology Ecosystem"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2058584/000149315226045828/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-06T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "DarkIris Inc. Provides Business Update on Cine3.AI Global Expansion and Entertainment Technology Ecosystem",
+              "url": "https://www.stocktitan.net/news/DKI/dark-iris-inc-provides-business-update-on-cine3-ai-global-expansion-jsnnjggvql5o.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-09-30T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DKI",
+          "newsSummary": "DKI gapped down -6.62% into open but rallied 167.65% intraday to new HOD, driven by AI/entertainment technology narrative (Cine3.AI ecosystem expansion) and China Rig structural buying pressure. The Form 6-K and business update preceded the move but lack concrete cash catalysts—this is a micro-cap float play with sustained intraday volume and afternoon continuation, not a fundamental event.",
+          "bullFactors": [
+            "Micro-cap float (1.29M shares) creates explosive intraday velocity; relVol 136.8 shows sustained institutional accumulation all session, not premarket pop-and-fade",
+            "Session HOD 167.65% with fade only 54.12% indicates strong continuation into afternoon—classic China Rig pattern with multiple HOD prints, not a single spike collapse",
+            "AI theme + Greater China micro-cap + no dilutive news = structural sympathy setup; overhead supply cleared on gap-down open",
+            "High volume all day supports institutional rig rather than retail pump; tape temperature is HOT (afternoon HODs dominating)"
+          ],
+          "bearFactors": [
+            "No real cash catalyst—business update is generic 'expansion' language, Form 6-K is reactive (filed after move began). Narrative-driven sympathy, not earnings or partnership",
+            "Gapped down -6.62% into open; gap fill risk if afternoon buying dries up or sector sentiment shifts",
+            "China Rig pattern = liquidity spillover risk; micro-float with 167% move carries black swan tail risk if buying exhausts",
+            "Entertainment/gaming AI is crowded theme; lacks differentiation vs. larger-cap AI players"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "TOPP",
+          "hod": 140,
+          "hodExact": 140.14,
+          "news": [
+            "Toppoint Holdings Inc. Comments on Unusual Trading Activity",
+            "Form 8-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Toppoint Holdings Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 21.07,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1116,
+          "open": 0.2402,
+          "gapPct": 115.23,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.268,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 0.172,
+          "fade": 35,
+          "fadeExact": 35.82,
+          "vwap": 0.2311,
+          "vsVwap": "below",
+          "pmHigh": 0.4574,
+          "volRaw": "556.2M",
+          "volDollar": 128535755,
+          "relVol": 197.0,
+          "avgVolM": 2.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Toppoint Holdings Inc. Comments on Unusual Trading Activity",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Toppoint Holdings Inc. Comments on Unusual Trading Activity",
+              "url": "https://www.stocktitan.net/news/TOPP/toppoint-holdings-inc-comments-on-unusual-trading-bq3mf6adutac.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-07T21:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1960847/000121390026107608/ea0307964-8k_toppoint.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-07T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:TOPP",
+          "newsSummary": "TOPP spiked 115% on a gap and ran 140% intraday, but the 8-K and 'Unusual Trading Activity' statement both came AFTER the move topped, making them reactive and not causal. The company issued a vague notice about unusual trading rather than announcing substantive business catalyst, suggesting the move was driven by external momentum or sympathy theme rather than fundamental news.",
+          "bullFactors": [
+            "Strong intraday HOD extension (140% vs 115% gap) — tape showed afternoon continuation, not just premarket fade",
+            "Exceptional relative volume (197x) sustained through session, indicating real retail/institutional participation",
+            "Float at 21M is manageable for a micro-cap runner; not penny-stock thin but lean enough for vol multipliers"
+          ],
+          "bearFactors": [
+            "Massive 115% gap-up is a structural red flag — entry was pre-loaded before retail could participate; no organic setup time",
+            "News came AFTER the high; 'Comments on Unusual Trading' is defensive reactive language, not a real catalyst",
+            "No substantive business catalyst disclosed — catalyst is sympathy/external momentum, not cash deal or real ER/data",
+            "Fade of 35.82% from HOD suggests distribution into strength and profit-taking after initial spike"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "BIYA",
+          "hod": 111,
+          "hodExact": 111.72,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Baiya International Group Inc Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 5.07,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 5.07M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.07M + RelVol 80.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.07M + RelVol 80.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.365,
+          "open": 2.14,
+          "gapPct": 56.78,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.89,
+          "hodTimeExact": "08:21 AM ET",
+          "close": 2.3,
+          "fade": 20,
+          "fadeExact": 20.42,
+          "vwap": 2.6221,
+          "vsVwap": "below",
+          "pmHigh": 37.1,
+          "volRaw": "119.3M",
+          "volDollar": 312873482,
+          "relVol": 80.1,
+          "avgVolM": 1.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.82,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BIYA",
+          "newsSummary": "BIYA ran 111.72% from open with no identified catalyst or news event. This is a pure price-action move on a Chinese micro-cap industrial name with minimal float (5.07M shares). The 56.78% gap and sustained intraday strength (80.1x rel vol) suggest institutional accumulation rather than retail pump, consistent with China rig structural patterns.",
+          "bullFactors": [
+            "Ultra-low float (5.07M) creates tight supply for institutional buyers entering",
+            "No premarket spike dominance — 111.72% HOD with 20.42% fade shows session HOD strength and afternoon continuation, not a hard fade",
+            "Relative volume 80.1x on industrials small-cap = sustained buying pressure all day, not a flush",
+            "Chinese micro-cap industrials with this volume profile and float tier fit China rig pattern: real institutional positioning, not pump-and-dump"
+          ],
+          "bearFactors": [
+            "No catalyst identified — move is entirely structural/technicals-driven, vulnerable to narrative reversal",
+            "20.42% fade from HOD signals profit-taking; unclear if support holds into close",
+            "Chinese micro-cap with no news carries geopolitical/delisting risk and lower institutional conviction on fundamentals",
+            "Cannot confirm if daily chart has real overhead supply or if this is early in a range — need intraday structure detail"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "LGCL",
+          "hod": 100,
+          "hodExact": 100.44,
+          "news": [
+            "Form 6-K",
+            "Lucas GC Limited Announces 1H 2026 Financial Results: Revenue at US$35.74 million with Increases in Gross Margin"
+          ],
+          "tag": "EARNINGS",
+          "name": "Lucas GC Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 1.18,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.18M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.18M + RelVol 328.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.18M + RelVol 328.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.26,
+          "open": 2.49,
+          "gapPct": 10.18,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.53,
+          "hodTimeExact": "09:42 AM ET",
+          "close": 2.82,
+          "fade": 37,
+          "fadeExact": 37.75,
+          "vwap": 3.376,
+          "vsVwap": "below",
+          "pmHigh": 4.5,
+          "volRaw": "45.6M",
+          "volDollar": 154090488,
+          "relVol": 328.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Lucas GC Limited Announces 1H 2026 Financial Results: Revenue at US$35.74 million with Increases in Gross Margin"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1954694/000149315226046090/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-07T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Lucas GC Limited Announces 1H 2026 Financial Results: Revenue at US$35.74 million with Increases in Gross Margin",
+              "url": "https://www.stocktitan.net/news/LGCL/lucas-gc-limited-announces-1h-2026-financial-results-revenue-at-us-fk3xt6z1s2bp.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-07T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LGCL",
+          "newsSummary": "Lucas GC reported 1H 2026 earnings with $35.74M revenue and improved gross margins, announced at 13:00 before the session HOD. This real cash catalyst provided fundamental support for the intraday move, though the 100%+ HOD gain suggests strong institutional accumulation on the micro-float and elevated relative volume.",
+          "bullFactors": [
+            "Micro-float at 1.18M shares—extreme leverage for momentum",
+            "Sustained intraday strength: 100.44% HOD with 328.5x relative volume indicates afternoon/late-session continuation, not premarket fade pattern",
+            "Real earnings catalyst with positive metrics (revenue growth, margin expansion) provides fundamental anchor vs. fluff",
+            "Chinese tech micro-cap structure supports 'China Rig' sustained accumulation pattern throughout session"
+          ],
+          "bearFactors": [
+            "100%+ single-session gain creates severe overhead supply and liquidity risk for follow-through",
+            "37.75% fade from HOD signals profit-taking and potential exhaustion; sustainability questionable at these levels",
+            "Form 6-K filing after the move (20:00) is reactive disclosure, not a fresh catalyst for next session",
+            "Earnings on a Chinese micro-cap with minimal market cap ($4.26M) limits institutional staying power and real buying depth"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CPHI",
+          "hod": 99,
+          "hodExact": 99.66,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "China Pharma Holdings, Inc.",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 30.75,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$37M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6411,
+          "open": 0.68,
+          "gapPct": 6.07,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.28,
+          "hodTimeExact": "02:24 PM ET",
+          "close": 0.85,
+          "fade": 33,
+          "fadeExact": 33.59,
+          "vwap": 0.9618,
+          "vsVwap": "below",
+          "pmHigh": 0.7957,
+          "volRaw": "67.5M",
+          "volDollar": 64931054,
+          "relVol": 289.3,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:CPHI",
+          "newsSummary": "CPHI ran 99.66% intraday on no disclosed catalyst or news events. The move appears driven by China rig structural dynamics — a thick-float Chinese micro-cap executing sustained institutional accumulation with high relative volume (289.3x) throughout the session rather than a premarket spike-and-fade pattern.",
+          "bullFactors": [
+            "Sustained intraday HOD printing (99.66% move) indicates afternoon continuation strength and shorts being squeezed, not premarket exhaustion",
+            "Extremely high relative volume (289.3x normal) across the full session shows institutional participation, not retail pump mechanics",
+            "Healthcare sector + Greater China exposure fits China rig institutional playbook — aggressive but structurally legitimate accumulation pattern"
+          ],
+          "bearFactors": [
+            "Float of 30.75M is well above the preferred <10M threshold, reducing intraday volatility edge and scalability",
+            "No identifiable fundamental catalyst — move is purely structural/sympathy-driven, increasing fade risk on next session",
+            "Chinese micro-cap with no news carries execution and delisting risk; liquidity may evaporate on reversal"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GIPR",
+          "hod": 81,
+          "hodExact": 81.9,
+          "news": [
+            "GIPR Announces Full Retirement of Loci Capital Financing Relationship",
+            "Form 8-K"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Generation Income Properties Inc. Common Stock",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 6.92,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 6.92M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3806,
+          "open": 0.5135,
+          "gapPct": 34.92,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.6923,
+          "hodTimeExact": "09:53 AM ET",
+          "close": 0.494,
+          "fade": 28,
+          "fadeExact": 28.64,
+          "vwap": 0.5436,
+          "vsVwap": "below",
+          "pmHigh": 0.5784,
+          "volRaw": "143.7M",
+          "volDollar": 78111431,
+          "relVol": 4.6,
+          "avgVolM": 31.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "GIPR Announces Full Retirement of Loci Capital Financing Relationship",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "GIPR Announces Full Retirement of Loci Capital Financing Relationship",
+              "url": "https://www.stocktitan.net/news/GIPR/gipr-announces-full-retirement-of-loci-capital-financing-srk767jk2s0z.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T20:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1651721/000119312526414221/gipr-20261002.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GIPR",
+          "newsSummary": "GIPR announced full retirement of its Loci Capital financing relationship on 2026-10-06, a deleveraging move that removes a contingent liability and improves balance sheet flexibility. This is real cash-positive news—eliminating financing obligations typically unlocks upside, especially for micro-caps where balance sheet clarity drives institutional re-rating. The catalyst has merit for a small-cap RE play seeking operational independence.",
+          "bullFactors": [
+            "Float 6.92M sits in Jack's sweet spot (<10M); low float + deleveraging can sustain intraday momentum",
+            "81.9% HOD percentage shows strong afternoon dominance, not premarket fade—signals institutional accumulation through session, not pump rejection",
+            "Relative volume 4.6x is substantial for a micro-cap; sustained high volume intraday indicates real buying pressure, not liquidity trap",
+            "Catalyst is balance-sheet positive (liability removal), not dilutive—avoids warrant/offering red flags; real equity value unlock"
+          ],
+          "bearFactors": [
+            "Gap up 34.92% pre-market before news (news was 2026-10-06 20:30, after gap)—price may have front-run the announcement, reducing fresh upside room",
+            "Fade of 28.64% intraday shows profit-taking after HOD; check for overhead supply at or near current levels preventing further runs",
+            "Real Estate sector lacks trending catalysts (no AI, defense, energy themes); sympathy risk if broader market corrects",
+            "Small market cap $3.6M and micro-cap liquidity mean exit slippage on large positions; tail-risk on black swan reversals"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "NCPL",
+          "hod": 58,
+          "hodExact": 58.72,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Netcapital Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 7.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 7.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.09,
+          "open": 1.36,
+          "gapPct": 24.77,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.73,
+          "hodTimeExact": "04:02 AM ET",
+          "close": 1.59,
+          "fade": 8,
+          "fadeExact": 8.09,
+          "vwap": 1.5451,
+          "vsVwap": "above",
+          "pmHigh": 1.47,
+          "volRaw": "12.3M",
+          "volDollar": 19006261,
+          "relVol": 0.6,
+          "avgVolM": 21.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCPL",
+          "newsSummary": "NCPL ran 58.72% with no identifiable news catalyst — pure intraday momentum driven by tape action. The move appears to be retail-driven off a 24.77% gap, with afternoon HOD strength suggesting institutional follow-through rather than a pre-market spike fade.",
+          "bullFactors": [
+            "Excellent float tier (7.95M) — Jack's preferred sub-10M sweet spot for low-float runners",
+            "Strong intraday tape: 58.72% HOD dominance with only 8.09% fade suggests afternoon continuation and institutional accumulation, not premarket exhaustion",
+            "Session HODs printing late = HOT tape signature; shorts likely underwater and covering into close"
+          ],
+          "bearFactors": [
+            "No catalyst — entirely news-vacuum move, making it vulnerable to gap-down reversal next session or mid-day exhaustion without fresh buying pressure",
+            "Relative volume only 0.6x — below-average participation for a 58%+ runner raises concern about sustainability vs. thin retail-only push",
+            "24.77% gap already captured much of upside; dip/soak setup never formed because stock ran on open — no institutional accumulation phase on tape before retail retail push"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 667,
+      "fade": 37,
+      "hodTime": "premarket",
+      "theme": "Hot Tape",
+      "note": "SXTC led +667.2% (70% fade). 1/10 held <20% fade. news: SBFM — \"Sunshine Biopharma Inc. Announces Pricing of $6.0 Million Public Offering\".",
+      "aiSummary": "Today's tape is heavily weighted toward China microcaps running on no-news/sympathy catalysts (SXTC, BIYA, LGCL, CPHI, DKI)—classic institutional rig pattern with sustained afternoon HODs and high relative volume all session, not premarket fade traps. Float tier is ideal for this framework with six names sub-10M and tight clustering in the 1–6M range, though CPHI's 30.75M float and TOPP's 21M share are structural weaknesses. The critical red flag: 60% of HODs printed premarket (SXTC +667%, BIYA +111%, TOPP +140%, NCPL +58%), signaling a cold cycle with fade risk, while only PFAI and DKI held strength into afternoon—insufficient conviction for sustained runs. The playbook avoids no-news sympathy themes regardless of float, and today's lack of real catalysts (SBFM offering, SXTC/BIYA/LGCL/CPHI empty tags) combined with dominant premarket printing makes this a neutral-to-cold tape; patience for flag setups and dip/soak accumulation levels is the only high-probability edge here."
+    },
     {
       "date": "2026-10-06",
       "runners": [
