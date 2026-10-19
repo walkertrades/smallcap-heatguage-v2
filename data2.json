@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-19T14:22:28.405251Z",
-  "count": 10063,
+  "exportedAt": "2026-10-19T20:34:31.617154Z",
+  "count": 10070,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -10,21 +10,303 @@
   },
   "entries": [
     {
-      "date": "2026-10-16",
+      "date": "2026-10-19",
       "runners": [
         {
-          "sym": "BCATr",
-          "hod": 533,
-          "hodExact": 533.33,
+          "sym": "PLAG",
+          "hod": 308,
+          "hodExact": 308.54,
           "news": [],
           "tag": "NO-NEWS",
-          "name": "BlackRock Capital Allocation Term Trust Rights (expiring October 21, 2026)",
-          "sector": "Unknown",
+          "name": "Planet Green Holdings Corp.",
+          "sector": "Industrials",
           "country": "US",
-          "floatM": null,
-          "floatTier": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
+          "floatM": 11.68,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.68M + RelVol 234.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.68M + RelVol 234.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.656,
+          "open": 0.6892,
+          "gapPct": 5.06,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.68,
+          "hodTimeExact": "01:37 PM ET",
+          "close": 0.5385,
+          "fade": 79,
+          "fadeExact": 79.91,
+          "vwap": 1.0308,
+          "vsVwap": "below",
+          "pmHigh": 0.894,
+          "volRaw": "48.0M",
+          "volDollar": 49476162,
+          "relVol": 234.2,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:PLAG",
+          "newsSummary": "PLAG moved 308% on the session with no identifiable catalyst or news release. The move appears purely technical/momentum-driven with a 79.91% fade from HOD, suggesting early premarket strength that failed to hold into close. Without substantive news, real earnings, or partnership catalyst, this is a structural momentum play with elevated risk of continuation failure.",
+          "bullFactors": [
+            "Relative volume of 234.2x shows strong intraday participation and institutional accumulation patterns",
+            "Small-cap float at 11.68M sits just above Jack's preferred <10M, still tight enough for leverage",
+            "Session HOD of 308% indicates sustained buying pressure through multiple intraday cycles, not a flash spike"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — pure momentum/sympathy play with zero fundamental support, highest risk profile",
+            "Massive 79.91% fade from HOD suggests retail capitulation into close; follow-through is low probability",
+            "Premarket-dominated move with severe intraday reversal is a classic COLD tape signal; setup lacks institutional anchor",
+            "Micro-cap market cap ($12.1M) with no real cash value story creates black swan liquidity risk"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "WORX",
+          "hod": 173,
+          "hodExact": 173.19,
+          "news": [
+            "SCWorx Announces New Agreement with Healthcare System",
+            "S-3 shelf"
+          ],
+          "tag": "CONTRACT",
+          "name": "SCWorx Corp. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.34,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.34M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.34M + RelVol 105.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.34M + RelVol 105.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.38,
+          "open": 1.39,
+          "gapPct": 0.72,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.77,
+          "hodTimeExact": "01:54 PM ET",
+          "close": 2.68,
+          "fade": 28,
+          "fadeExact": 28.91,
+          "vwap": 2.6753,
+          "vsVwap": "above",
+          "pmHigh": 1.49,
+          "volRaw": "110.5M",
+          "volDollar": 295497040,
+          "relVol": 105.9,
+          "avgVolM": 1.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "SCWorx Announces New Agreement with Healthcare System",
+            "S-3 shelf"
+          ],
+          "newsItems": [
+            {
+              "title": "SCWorx Announces New Agreement with Healthcare System",
+              "url": "https://www.stocktitan.net/news/WORX/sc-worx-announces-new-agreement-with-healthcare-3p2znh0b4tme.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T14:10:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "S-3 shelf",
+              "url": "https://www.sec.gov/Archives/edgar/data/1674227/000121390026110177/ea0308692-s3_scworx.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WORX",
+          "newsSummary": "SCWorx announced a new healthcare system agreement on 2026-10-19 at 14:10 UTC, which came AFTER the stock had already rallied 173%+ to session HOD. The agreement itself shows real business traction (cash-generating healthcare contract) but arrived too late to be the move catalyst—this was a reactive headline published into strength. However, the underlying deal is legitimate enterprise revenue, not fluff.",
+          "bullFactors": [
+            "Nano float (0.34M shares) — extreme leverage for institutional accumulation",
+            "Session HOD +173% with sustained high relative volume (105.9x) — hot tape, not premarket spike fade",
+            "Real cash catalyst: enterprise healthcare contract shows revenue-generating business, not sympathy or dilution",
+            "Post-announcement printed after HOD suggests conviction hold and afternoon continuation risk (shorts covering)"
+          ],
+          "bearFactors": [
+            "S-3 shelf filing (2026-10-16) creates dilution overhang — unlimited secondary offering risk going forward",
+            "Gap only +0.72% — near-flat open with massive intraday move suggests retail retail FOMO chase into climax, not institutional setup with time",
+            "News reaction lag: agreement announced 14:10 UTC well after move initiated — confirms headline was reactive, not the cause; late-session volume could be exhaustion",
+            "Fade of 28.91% from HOD is significant — tape may be rolling over into close, signaling short-term exhaustion despite contract news"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CHOW",
+          "hod": 134,
+          "hodExact": 134.56,
+          "news": [
+            "ChowChow Cloud International Holdings Limited Announces 1-for-10 Reverse Share Split and Redesignation of Ordinary Shares Effective October 23, 2026",
+            "Form 6-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "ChowChow Cloud International Holdings Limited",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 11.03,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$23M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 11.03M + RelVol 969.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 11.03M + RelVol 969.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5286,
+          "open": 0.5003,
+          "gapPct": -5.36,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.24,
+          "hodTimeExact": "10:26 AM ET",
+          "close": 0.3317,
+          "fade": 73,
+          "fadeExact": 73.25,
+          "vwap": 0.7817,
+          "vsVwap": "below",
+          "pmHigh": 0.5482,
+          "volRaw": "146.2M",
+          "volDollar": 114297623,
+          "relVol": 969.9,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "ChowChow Cloud International Holdings Limited Announces 1-for-10 Reverse Share Split and Redesignation of Ordinary Shares Effective October 23, 2026",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "ChowChow Cloud International Holdings Limited Announces 1-for-10 Reverse Share Split and Redesignation of Ordinary Shares Effective October 23, 2026",
+              "url": "https://www.stocktitan.net/news/CHOW/chow-chow-cloud-international-holdings-limited-announces-1-for-10-my5vhze87xuw.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-13T20:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2041829/000149315226046859/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-13T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:CHOW",
+          "newsSummary": "CHOW announced a 1-for-10 reverse share split effective October 23, 2026, likely a Nasdaq compliance measure to restore minimum bid price. The news preceded the move (announced Oct 13, high occurred intraday Oct 19), making it a reactive headline rather than a spark. Reverse splits are structural fixes, not cash catalysts, and typically signal distress in micro-cap biotech/tech names.",
+          "bullFactors": [
+            "Sustained intraday volume (RelVol 969.9x) with multiple session HODs (+134.56% on day) suggests institutional accumulation, not a quick pump fade",
+            "Float just above 10M threshold (11.03M) in mid-float tier; if intraday vol/min exceeded premarket vol/min, entry window was valid for this trader's criteria",
+            "Afternoon HOD printing indicates potential institutional continuation and short squeeze pressure rather than premarket-only spike pattern"
+          ],
+          "bearFactors": [
+            "Reverse split is dilutive structural news and a compliance red flag—signals prior bid price failure and stock in distress; Nasdaq rule 5635 context suggests weak fundamentals",
+            "73.25% fade from HOD indicates heavy profit-taking and potential exhaustion; lack of sustained close near highs raises follow-through risk",
+            "Hong Kong micro-cap with limited US institutional depth; liquidity can evaporate fast on reversal; reverse split often precedes further erosion"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SLN",
+          "hod": 125,
+          "hodExact": 125.92,
+          "news": [
+            "Form 8-K",
+            "Silence Therapeutics Enters into Agreement to be Acquired by Merck KGaA, Darmstadt, Germany",
+            "Merck KGaA, Darmstadt, Germany to Acquire Silence Therapeutics, Strengthening Rare Disease Pipeline with Innovative siRNA Asset"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Silence Therapeutics Plc American Depository Share",
+          "sector": "Healthcare",
+          "country": "GB",
+          "floatM": 45.04,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$1.2B",
           "riskBadges": [],
           "sections": [
             {
@@ -42,46 +324,587 @@
           "insights": [],
           "jmtNotes": [],
           "tldr": [],
-          "prevClose": 0.0003,
-          "open": 0.0003,
-          "gapPct": 0.0,
+          "prevClose": 8.68,
+          "open": 19.585,
+          "gapPct": 125.63,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 19.61,
+          "hodTimeExact": "08:46 AM ET",
+          "close": 19.58,
+          "fade": 0,
+          "fadeExact": 0.15,
+          "vwap": 19.5872,
+          "vsVwap": "below",
+          "pmHigh": 19.66,
+          "volRaw": "71.9M",
+          "volDollar": 1409183397,
+          "relVol": 65.9,
+          "avgVolM": 1.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Silence Therapeutics Enters into Agreement to be Acquired by Merck KGaA, Darmstadt, Germany",
+            "Merck KGaA, Darmstadt, Germany to Acquire Silence Therapeutics, Strengthening Rare Disease Pipeline with Innovative siRNA Asset"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1479615/000119312526424695/d172259d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Silence Therapeutics Enters into Agreement to be Acquired by Merck KGaA, Darmstadt, Germany",
+              "url": "https://www.stocktitan.net/news/SLN/silence-therapeutics-enters-into-agreement-to-be-acquired-by-merck-k-ea7k0w1dfyuh.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Merck KGaA, Darmstadt, Germany to Acquire Silence Therapeutics, Strengthening Rare Disease Pipeline with Innovative siRNA Asset",
+              "url": "https://www.stocktitan.net/news/SLN/merck-k-ga-a-darmstadt-germany-to-acquire-silence-therapeutics-3ip4799eflkq.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SLN",
+          "newsSummary": "Silence Therapeutics announced acquisition by Merck KGaA at 12:00 UTC, a major big-pharma deal for a rare disease siRNA asset. The 125.92% HOD move came on real cash M&A catalyst with strong institutional demand, not a premarket spike-and-fade pattern. Form 8-K filed after-hours confirms the deal structure.",
+          "bullFactors": [
+            "Genuine M&A catalyst from blue-chip acquirer (Merck KGaA) — real cash value, not sympathy or fluff",
+            "HOD printed during core session (before 8-K), driven by sustained buying, not premarket spike collapse",
+            "High relative volume (65.9x) on thick float shows institutional accumulation and retail follow-through",
+            "Biotech asset (siRNA, rare disease pipeline) has real clinical/commercial merit — not a dilutive or warrant-laden play"
+          ],
+          "bearFactors": [
+            "45M float is well above Jack's <10M preference — reduces velocity and squeeze potential",
+            "Acquisition announcement typically caps upside; stock will likely converge to deal price rather than break higher",
+            "No dip/soak or flag setup — moved directly on news with minimal pullback for institutional accumulation entry",
+            "UK-listed (GB), non-US domicile adds regulatory/execution risk and may reduce retail liquidity intraday"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "YMAT",
+          "hod": 104,
+          "hodExact": 104.58,
+          "news": [
+            "J-Star Holding Co., Ltd. Advances U.S. Drone Manufacturing Initiative; Negotiates Acquisition of Facility in the Greater Houston Area"
+          ],
+          "tag": "ACQUISITION",
+          "name": "J-Star Holding Co., Ltd. Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "TW",
+          "floatM": 2.56,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 2.56M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.31,
+          "open": 2.55,
+          "gapPct": 94.66,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.68,
+          "hodTimeExact": "08:42 AM ET",
+          "close": 1.83,
+          "fade": 31,
+          "fadeExact": 31.72,
+          "vwap": 2.2547,
+          "vsVwap": "below",
+          "pmHigh": 2.68,
+          "volRaw": "66.1M",
+          "volDollar": 148935016,
+          "relVol": 8.2,
+          "avgVolM": 8.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "J-Star Holding Co., Ltd. Advances U.S. Drone Manufacturing Initiative; Negotiates Acquisition of Facility in the Greater Houston Area"
+          ],
+          "newsItems": [
+            {
+              "title": "J-Star Holding Co., Ltd. Advances U.S. Drone Manufacturing Initiative; Negotiates Acquisition of Facility in the Greater Houston Area",
+              "url": "https://www.stocktitan.net/news/YMAT/j-star-holding-co-ltd-advances-u-s-drone-manufacturing-initiative-2zms65ei0fik.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Drone/UAV",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:YMAT",
+          "newsSummary": "J-Star Holding announced a U.S. drone manufacturing initiative with facility acquisition negotiations in the Greater Houston area, released at 12:30 PM during the session. The news carries real operational substance (actual facility deal, domestic manufacturing footprint) but arrived BEFORE the high, suggesting institutional accumulation was already underway—classic setup for a genuine catalyst rather than a late-day pump.",
+          "bullFactors": [
+            "Micro-cap float (2.56M) with 8.2x relative volume — extremely tight supply meets sustained intraday demand",
+            "94.66% gap + 104.58% HOD shows strong institutional accumulation into news; fade to 31.72% is healthy consolidation, not capitulation",
+            "Real cash-value catalyst: actual U.S. facility acquisition (not sympathy, not vague partnership) in high-thesis Drone/UAV theme with policy/infrastructure tailwinds",
+            "News released BEFORE the high (12:30 PM) — proves tape was running hot independently; institutions had time to position"
+          ],
+          "bearFactors": [
+            "Taiwan-listed micro-cap with basic materials sector label — potential liquidity/ADR complexity and regulatory overhead",
+            "31.72% fade from HOD suggests significant profit-taking; need to confirm afternoon session HOD printing holds or closes near VWAP to confirm continuation",
+            "Drone/UAV is a crowded theme; verify J-Star has differentiated tech or manufacturing edge vs. sympathy runners in same bucket"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "AMRO",
+          "hod": 91,
+          "hodExact": 91.98,
+          "news": [
+            "424B4 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Amaero Inc. Common Stock",
+          "sector": "Basic Materials",
+          "country": "US",
+          "floatM": 20.37,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$170M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.5,
+          "open": 4.6,
+          "gapPct": 2.22,
           "time": "regular session",
           "session": "morning",
-          "high": 0.0019,
-          "hodTimeExact": "09:56 AM ET",
-          "close": 0.0007,
-          "fade": 62,
-          "fadeExact": 62.63,
-          "vwap": 0.0012,
+          "high": 8.639,
+          "hodTimeExact": "11:32 AM ET",
+          "close": 5.61,
+          "fade": 35,
+          "fadeExact": 35.06,
+          "vwap": 6.1901,
           "vsVwap": "below",
-          "pmHigh": 0.0018,
-          "volRaw": "2.0M",
-          "volDollar": 2423,
-          "relVol": 0.8,
-          "avgVolM": 2.4,
+          "pmHigh": 4.52,
+          "volRaw": "3.9M",
+          "volDollar": 24397239,
+          "relVol": 7.0,
+          "avgVolM": 0.6,
           "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "424B4 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "424B4 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/2141616/000119312526422334/project_alchemy_-_424b4.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B4",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AMRO",
+          "newsSummary": "AMRO filed a 424B4 prospectus supplement on Oct 15, ahead of today's move, indicating a registered direct offering or secondary issuance. This is a dilutive announcement that typically pressures momentum plays. The 92% HOD hold despite this news is unusual, suggesting either the market is pricing in the offering already or there is underlying institutional accumulation masking the dilution concern.",
+          "bullFactors": [
+            "92% HOD retention is unusually strong for a day with dilutive news — suggests institutional bid underneath",
+            "7.0x relative volume indicates real participation, not just retail chasing",
+            "Small 2.22% gap and 35% fade pattern suggests disciplined entry setup rather than premarket spike blow-off"
+          ],
+          "bearFactors": [
+            "424B4 offering is dilutive and reduces confidence in sustained upside — classic red flag for momentum traders",
+            "20.37M float is above Jack's preferred <10M sweet spot, reducing volatility efficiency",
+            "Catalyst is a liability (secondary issuance), not a catalyst that drives fundamental value — high risk of institutional unload after offering clears"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SXTC",
+          "hod": 88,
+          "hodExact": 88.77,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "China SXT Pharmaceuticals, Inc. Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 10.31,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.065,
+          "open": 0.0634,
+          "gapPct": -2.46,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.1227,
+          "hodTimeExact": "04:50 AM ET",
+          "close": 0.1112,
+          "fade": 9,
+          "fadeExact": 9.37,
+          "vwap": 0.0814,
+          "vsVwap": "above",
+          "pmHigh": 0.069,
+          "volRaw": "55.9M",
+          "volDollar": 4552412,
+          "relVol": 1.3,
+          "avgVolM": 42.1,
+          "ssr": false,
           "reverseSplit": null,
           "newsHeadlines": [],
           "newsItems": [],
           "newsStatus": "none",
-          "themes": [],
-          "themeStatus": "nonews",
-          "exchange": "XNYS",
-          "tvSymbol": null,
-          "newsSummary": "BCAT ran 533% with no substantive news catalyst identified—pure intraday momentum with a 62.63% fade from HOD. The move appears to be sympathy-driven or a structural micro-cap momentum spike with no real cash catalyst or material announcement to justify the move.",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SXTC",
+          "newsSummary": "SXTC ran 88.77% on the session with no identified news catalyst, suggesting structural intraday accumulation rather than event-driven momentum. The absence of premarket spike dominance (gapPct -2.46%) combined with sustained HOD printing throughout the day indicates this is a China rig pattern — institutional buying pressure persisting across multiple intraday cycles rather than a pump-and-dump or sympathy flush.",
           "bullFactors": [
-            "Sustained intraday volume relative to premarket (relVol 0.8 suggests afternoon push occurred post-spike)",
-            "Session HOD printed late in move (533% gain before fade suggests retail momentum continuation, not pure premarket spike collapse)",
-            "US micro-cap structure allows for rapid institutional or retail accumulation play if float is genuinely sub-10M"
+            "HOD-dominant session (88.77%) with minimal fade (9.37%), signaling afternoon continuation strength and short covering — classic hot tape temperature",
+            "Float at 10.31M sits at the upper edge of preferred range but relative volume of 1.3x sustains intraday participation, meeting Jack's float-swap criteria when intraday vol/min exceeds premarket",
+            "Negative gap (-2.46%) combined with sustained rally indicates accumulation from overnight lows, not premarket exhaustion — institutional entry pattern",
+            "Session HODs late in the day suggest liquidity held through close, reducing fade risk into next session"
           ],
           "bearFactors": [
-            "No news catalyst—move is speculative and lacks fundamental anchor; high fade risk (62.63% pullback from HOD signals late-session exhaustion)",
-            "Float unknown and market cap listed as $0—extreme micro-cap with liquidity/solvency red flags",
-            "Relative volume 0.8 is weak; does not confirm sustained institutional accumulation; spike likely retail-driven with thin support",
-            "No theme identification possible—cannot rule out shell status, reverse merger trap, or dilutive structure"
+            "Float above 10M preference (10.31M) — outside Jack's ideal tier, limits velocity ceiling on continuation",
+            "Chinese micro-cap on no-news backdrop carries structural risk of capital controls, delisting concerns, or sudden liquidity evaporation",
+            "Relative volume 1.3x is elevated but not exceptional; lower than typical A++ runner confirmation of institutional conviction",
+            "No identifiable cash catalyst or real business driver — entire move is structural/rig-based, vulnerable to sentiment reversal or sector spillover"
           ],
-          "setupGrade": "C"
+          "setupGrade": "B"
         },
+        {
+          "sym": "RUBI",
+          "hod": 79,
+          "hodExact": 79.18,
+          "news": [
+            "Form 6-K",
+            "424B5 offering",
+            "Rubico Announces $8.5 Million Registered Direct Offering of Senior Convertible Notes and Warrants",
+            "424B3 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "Rubico Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "GR",
+          "floatM": 2.69,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 2.69M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.391,
+          "open": 0.251,
+          "gapPct": -35.81,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.7006,
+          "hodTimeExact": "02:22 PM ET",
+          "close": 0.2138,
+          "fade": 69,
+          "fadeExact": 69.48,
+          "vwap": 0.4227,
+          "vsVwap": "below",
+          "pmHigh": 0.2708,
+          "volRaw": "67.5M",
+          "volDollar": 28511939,
+          "relVol": 12.5,
+          "avgVolM": 5.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "424B5 offering",
+            "Rubico Announces $8.5 Million Registered Direct Offering of Senior Convertible Notes and Warrants",
+            "424B3 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1943421/000117184326006688/f6k_101826.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1943421/000117184326006687/f424b5_101726.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "after"
+            },
+            {
+              "title": "Rubico Announces $8.5 Million Registered Direct Offering of Senior Convertible Notes and Warrants",
+              "url": "https://www.stocktitan.net/news/RUBI/rubico-announces-8-5-million-registered-direct-offering-of-senior-355ucf1qdcxj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-16T22:51:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1943421/000117184326006671/f424b3_101526.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RUBI",
+          "newsSummary": "Rubico announced an $8.5M registered direct offering of senior convertible notes and warrants on 2026-10-16, followed by 424B3 and 424B5 SEC filings on 2026-10-15 and 2026-10-19. The offering is dilutive and represents equity-linked capital raise, not a catalyst for upside. The move was already complete before the offering was disclosed; subsequent filings came after the session high.",
+          "bullFactors": [
+            "Micro-float at 2.69M shares — extreme leverage on any sustained intraday volume",
+            "HOD dominated 79.18% of session — tape showed afternoon continuation, not premarket fade",
+            "12.5x relative volume indicates institutional accumulation or short squeeze pressure",
+            "Daily chart has runway: negative gap (-35.81%) provides reset on daily technicals"
+          ],
+          "bearFactors": [
+            "Dilutive convertible offering ($8.5M in notes + warrants) — classic warning signal for Jack; conversion overhang will cap upside",
+            "Offering announced pre-move (2026-10-16), meaning catalysts are backward-looking and do not justify sustained rally",
+            "424B5 prospectus supplement filed after HOD — paperwork follows price, not leads it; likely lockup/warrant exercise risk ahead",
+            "Greek micro-cap with thin fundamentals — liquidity risk on any reversal; industrials sector offers no thematic tailwind"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "FUFU",
+          "hod": 74,
+          "hodExact": 74.43,
+          "news": [
+            "Form 6-K",
+            "BitFuFu Launches BTC-Denominated Hashrate Token (HASH) with Finloop",
+            "BitFuFu Announces September 2026 Bitcoin Production and Operational Updates"
+          ],
+          "tag": "SYMPATHY",
+          "name": "BitFuFu Inc. Class A Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "SG",
+          "floatM": 20.69,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$205M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9001,
+          "open": 1.05,
+          "gapPct": 16.65,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.57,
+          "hodTimeExact": "09:54 AM ET",
+          "close": 1.19,
+          "fade": 24,
+          "fadeExact": 24.2,
+          "vwap": 1.3266,
+          "vsVwap": "below",
+          "pmHigh": 1.07,
+          "volRaw": "51.5M",
+          "volDollar": 68312580,
+          "relVol": 451.4,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "BitFuFu Launches BTC-Denominated Hashrate Token (HASH) with Finloop",
+            "BitFuFu Announces September 2026 Bitcoin Production and Operational Updates"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1921158/000121390026109550/ea0308324-6k_bitfufu.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "BitFuFu Launches BTC-Denominated Hashrate Token (HASH) with Finloop",
+              "url": "https://www.stocktitan.net/news/FUFU/bit-fu-fu-launches-btc-denominated-hashrate-token-hash-with-h3oyytohn95q.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-15T10:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "BitFuFu Announces September 2026 Bitcoin Production and Operational Updates",
+              "url": "https://www.stocktitan.net/news/FUFU/bit-fu-fu-announces-september-2026-bitcoin-production-and-y4ukj6mdve6h.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-13T21:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FUFU",
+          "newsSummary": "FUFU gapped +16.65% and printed a 74.43% HOD on strong intraday tape, driven by Crypto/Bitcoin sector sympathy and sustained institutional volume (451.4x relVol). The company released operational updates and a new BTC-denominated hashrate token product on Oct 13–15, but these pre-high announcements show real cash-generating catalysts (Bitcoin production, tokenized hashrate with Finloop partnership), not dilutive fluff. The tape action—74% HOD with only 24% fade—signals sustained buying pressure into close, consistent with a China rig institutional accumulation pattern (Greater China flag, 20.7M float, high afternoon volume).",
+          "bullFactors": [
+            "Strong HOD dominance (74.43%) with contained fade (24.2%) — afternoon tape held, no late-session panic or short squeeze unwind",
+            "Extreme relative volume (451.4x) on a 20.7M float suggests institutional accumulation and real liquidity intraday, not a premarket pop-and-drop",
+            "Real catalyst: Bitcoin production updates + BTC-denominated tokenized hashrate product (Finloop partnership) = genuine cash-value news, not sympathy fluff",
+            "Crypto/Bitcoin tailwind active; daily chart has room to upside if tape continues hot into next session"
+          ],
+          "bearFactors": [
+            "Float is 20.7M (above Jack's <10M preference) — requires intraday vol/min > premarket vol/min to justify, and data confirms this, but reduces pure momentum edge",
+            "Form 6-K filed Oct 15 (after high) — late-stage regulatory disclosure; no guarantee of clean balance sheet or hidden dilution details",
+            "Sector is Singapore Financial Services, not a high-octane US small-cap; regulatory/compliance risk in crypto-adjacent plays",
+            "Gap was 16.65%; if premarket momentum was the driver, afternoon HOD could be exhaustion trap into next session"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 308,
+      "fade": 39,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "PLAG led +308.54% (79% fade). 2/9 held <20% fade. news: WORX — \"SCWorx Announces New Agreement with Healthcare System\".",
+      "aiSummary": "Today's tape is dominated by structural noise—acquisitions and offerings are inflating the HOD column while premarket spikes (YMAT, SXTC, SLN) signal weak retail enthusiasm rather than institutional accumulation, a hallmark cold-cycle tell. Float clustering is split ugly: WORX's 0.34M is textbook small-cap fuel but tagged CONTRACT with a 28.91% fade despite 173% HOD, while mid-float names (PLAG 11.68M, CHOW 11.03M, SXTC 10.31M) are printing fades in the 73–79% range, indicating topside rejection and dilution overhead. The afternoon HOD prints (PLAG, WORX, RUBI) show scattered strength, but three of the top four runners spiked premarket and faded hard, with AMRO and RUBI both tagged OFFERING—immediate exclusions under this framework. This is a neutral-to-cold session tape: real catalyst quality is thin (no blockbuster partnerships or earnings), country concentration skews Asia-heavy with known micro-cap volatility (China rig behavior in SXTC/CHOW masked by NO-NEWS tags), and the absence of sustained afternoon continuation outside WORX suggests momentum traders should wait for cleaner setups with dip-soak structure and HOD dominance later in the cycle."
+    },
+    {
+      "date": "2026-10-16",
+      "runners": [
         {
           "sym": "NWGL",
           "hod": 229,
@@ -921,11 +1744,11 @@
           "setupGrade": "B"
         }
       ],
-      "hod": 533,
-      "fade": 44,
+      "hod": 229,
+      "fade": 41,
       "hodTime": "regular session",
       "theme": "Active Tape",
-      "note": "BCATr led +533.33% (62% fade). 0/10 held <20% fade. news: NWGL — \"Form 6-K\".",
+      "note": "NWGL led +229.37% (67% fade). 0/9 held <20% fade. news: NWGL — \"Form 6-K\".",
       "aiSummary": "Today's tape is dominated by NO-NEWS and sympathy plays (5 of 10 runners), with a concerning geographic tilt toward offshore micro-caps (CN, SG, MO, IE, AU) that inflate dollar volume while lacking institutional catalyst credibility—NWGL's $145M session masks a 67% fade despite 44M float, classic China rig pattern. Float structure is ideal (eight names sub-10M), but the afternoon/premarket HOD split (SGRX, MMA printing late; HODO, ZTG premarket) combined with 62–67% fade rates on the largest names signals a COLD cycle: premarket spikes + heavy afternoon reversals, exact setup the playbook avoids. XLAB stands isolated as the sole compliance-tag real catalyst with tight 2.89M float and only 38% fade, but it's drowning in $428M volume—execution risk is extreme. This tape screams retail churn on offshore sympathy themes with structural liquidity traps; momentum traders should pass the tape entirely or wait for a catalyst-driven, afternoon-HOD-dominant session to resume the setup quality this framework requires."
     },
     {
@@ -1111,76 +1934,6 @@
             "Second news item (fifth site) is pre-market incremental update; first patient dosing (post-HOD) is reactive to the move and may not sustain if short-term retail momentum stalls"
           ],
           "setupGrade": "B+"
-        },
-        {
-          "sym": "BCATr",
-          "hod": 100,
-          "hodExact": 100.0,
-          "news": [],
-          "tag": "NO-NEWS",
-          "name": "BlackRock Capital Allocation Term Trust Rights (expiring October 21, 2026)",
-          "sector": "Unknown",
-          "country": "US",
-          "floatM": null,
-          "floatTier": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.001,
-          "open": 0.0011,
-          "gapPct": 10.0,
-          "time": "premarket",
-          "session": "premarket",
-          "high": 0.002,
-          "hodTimeExact": "07:24 AM ET",
-          "close": 0.0003,
-          "fade": 85,
-          "fadeExact": 85.0,
-          "vwap": 0.0008,
-          "vsVwap": "below",
-          "pmHigh": 0.002,
-          "volRaw": "3.7M",
-          "volDollar": 2986,
-          "relVol": 1.7,
-          "avgVolM": 2.3,
-          "ssr": true,
-          "reverseSplit": null,
-          "newsHeadlines": [],
-          "newsItems": [],
-          "newsStatus": "none",
-          "themes": [],
-          "themeStatus": "nonews",
-          "exchange": "XNYS",
-          "tvSymbol": null,
-          "newsSummary": "BCATr moved with no substantive news catalyst identified — sources checked and returned empty. The 100% HOD achievement coupled with 85% fade and 10% gap suggests a premarket spike structure typical of low-conviction, no-news runners.",
-          "bullFactors": [
-            "100% of session printed at HOD — intraday strength maintained through close",
-            "Relative volume of 1.7x shows above-average participation despite lack of catalyst",
-            "Fade from HOD was 85%, not catastrophic wipeout — some buyers defended"
-          ],
-          "bearFactors": [
-            "No news catalyst — pure sympathy or technical momentum with no fundamental anchor",
-            "Float unknown — cannot assess liquidity or institutional conviction; high float tier would crush setup quality",
-            "Premarket gap of 10% into 100% HOD suggests early spike structure — typical of exhaustion setups; no sustained afternoon continuation data visible",
-            "85% fade from HOD is heavy — indicates weak follow-through and retail-driven reversal"
-          ],
-          "setupGrade": "C"
         },
         {
           "sym": "SDST",
@@ -1830,10 +2583,10 @@
         }
       ],
       "hod": 186,
-      "fade": 36,
+      "fade": 31,
       "hodTime": "regular session",
       "theme": "Choppy Mixed",
-      "note": "BBCI led +186.74% (58% fade). 2/10 held <20% fade. news: ESLA — \"Estrella Immunopharma Treats First Patient with Two EB103 Infusions in STARLIGHT-1 Dose-Expansion Phase\".",
+      "note": "BBCI led +186.74% (58% fade). 2/9 held <20% fade. news: ESLA — \"Estrella Immunopharma Treats First Patient with Two EB103 Infusions in STARLIGHT-1 Dose-Expansion Phase\".",
       "aiSummary": "NO-NEWS and SYMPATHY tags dominate today's tape (5 of top 10), with zero real cash-value catalysts and WETO's offering immediately flagging as F-grade—this is a low-conviction day absent institutional-grade news flow. Float composition is split dangerously: micro-cap runners (WETO 0.66M, RYOJ 2.54M, DRMA 3.49M, XLAB 2.89M) mixed with bloated names (SDST 50.99M, BGL 31.66M, BBCI 13.24M), signaling weak structural setup for sustained runners. HOD prints clustered in morning session (DRMA, WETO, MB, BGL, RYOJ) with only ESLA printing afternoon—a red flag for premarket spike-and-fade dominance rather than institutional afternoon breakout accumulation. This tape reads COLD: no afternoon continuation strength, heavy fade percentages across the board (BBCI down 58%, BCATr down 85%), and the absence of real catalysts combined with offering/sympathy noise means momentum traders should treat this as a low-opportunity cycle best suited for watchlist building rather than aggressive entries."
     },
     {
@@ -7314,7 +8067,7 @@
       "fade": 34,
       "hodTime": "premarket",
       "theme": "Hot Tape",
-      "note": "BCATr led +230.0% (25% fade). 3/10 held <20% fade. news: XHG — \"XChange TEC.INC Announces Proposed U.S. AI Business Expansion and Reduction of Mainland China Operations\".",
+      "note": "FRGT led +198.37% (55% fade). 2/8 held <20% fade. news: XHG — \"XChange TEC.INC Announces Proposed U.S. AI Business Expansion and Reduction of Mainland China Operations\".",
       "aiSummary": "Today's tape is dominated by NO-NEWS and COMPLIANCE tags with zero real catalysts—a structural red flag for this framework's quality standards. Float tier skew is heavily micro-cap (0.58M–3.22M preferred zone) with two outliers (OLB 18.98M, XHLD 10.6M), but the critical problem is session distribution: premarket spikes dominate the leaderboard (BCAT +230%, FRGT +198%, IPDN +118%, AIXI +115%, OLOX +111%) with severe fades (25–56%), signaling a COLD tape with zero institutional accumulation setup and pure retail momentum exhaustion. Only OLB (afternoon HOD, share buyback, minimal fade) and IPDN (massive $383M vol despite 32% fade) show any intraday conviction, but both carry structural rejection signals for this playbook—OLB's float is too high and buyback is mechanical, IPDN's compliance tag is a hard avoid. The tape reads as a premarket-dominated pump cycle with afternoon gravity, zero room for flag/dip-soak setups, and liquidity that favors early exits; momentum traders operating this framework should treat today as a rotation day and wait for tomorrow's setup quality."
     },
     {
