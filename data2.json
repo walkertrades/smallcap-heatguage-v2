@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-19T20:34:31.617154Z",
-  "count": 10070,
+  "exportedAt": "2026-10-19T20:52:02.046980Z",
+  "count": 10080,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -5390,6 +5390,1011 @@
       "theme": "Hot Tape",
       "note": "MNDR led +567.06% (46% fade). 2/10 held <20% fade. news: LNKS — \"Form 20-F\".",
       "aiSummary": "Today's tape is dominated by NO-NEWS runners (4 of top 10) with zero real catalyst support, a concerning red flag for this framework's quality standards; international micro-caps (SG, MY, TW, CN, IL, HK) comprise 80% of volume, skewing heavily toward the sub-3M float tier where institutional rig patterns are harder to distinguish from coordinated dumps. HOD prints split between morning (MNDR, YMAT, NCPL, WBUY) and afternoon (WFF, LNKS, AIXI), but the 567% morning spike in MNDR followed by 46% fade, plus premarket dominance in GIXI and CLWT, signals a COLD tape cycle—pump-and-dump energy with fades outrunning holds. This playbook avoids this environment entirely: the catalyst mix lacks credibility, float concentrations invite liquidity traps, and the absence of afternoon HODs on real news suggests retail-driven premarket spikes rather than institutional accumulation patterns that sustain intraday trend breaks."
+    },
+    {
+      "date": "2026-10-09",
+      "runners": [
+        {
+          "sym": "WFF",
+          "hod": 848,
+          "hodExact": 848.29,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "WF Holding Limited Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 10.55,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.55M + RelVol 375.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.55M + RelVol 375.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.05,
+          "open": 2.08,
+          "gapPct": 1.46,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 19.44,
+          "hodTimeExact": "03:08 PM ET",
+          "close": 12.29,
+          "fade": 36,
+          "fadeExact": 36.78,
+          "vwap": 6.9639,
+          "vsVwap": "above",
+          "pmHigh": 2.2,
+          "volRaw": "146.1M",
+          "volDollar": 1017179707,
+          "relVol": 375.0,
+          "avgVolM": 0.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1980210/000121390026106372/ea0307158-6k_wfholding.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-02T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WFF",
+          "newsSummary": "WFF spiked 848% on a Form 6-K filing dated 2026-10-02, which preceded the move and provides no substantive catalyst. The filing itself appears to be routine regulatory disclosure with no announced cash deal, partnership, or material business development. This is a pure structural move without fundamental merit.",
+          "bullFactors": [
+            "Sustained intraday momentum: 848% HOD with only 36.78% fade suggests afternoon continuation and institutional accumulation rather than early premarket washout",
+            "High relative volume (375x) throughout session indicates real participation, not just retail pump noise",
+            "Float just above 10M (10.55M) in mid-tier range — still tight enough for velocity despite being slightly elevated from Jack's preference"
+          ],
+          "bearFactors": [
+            "No real cash catalyst — Form 6-K is reactive regulatory filing, not a business catalyst; price action ran on timing, not fundamentals",
+            "Malaysia small-cap with minimal market cap ($5.97M) carries illiquidity and black swan risk, especially on parabolic runs",
+            "848% move in single day is extreme and unsustainable; high likelihood of gap-down reentry or sharp reversal on next open",
+            "Structural China rig pattern on no-news suggests institutional liquidity extraction rather than genuine accumulation play"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "ZYBT",
+          "hod": 151,
+          "hodExact": 151.33,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Zhengye Biotechnology Holding Limited Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 5.62,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$66M",
+          "riskBadges": [
+            "Float 5.62M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.62M + RelVol 1302.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.62M + RelVol 1302.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.1499,
+          "open": 1.19,
+          "gapPct": 3.49,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.89,
+          "hodTimeExact": "03:29 PM ET",
+          "close": 1.73,
+          "fade": 40,
+          "fadeExact": 40.14,
+          "vwap": 2.1709,
+          "vsVwap": "below",
+          "pmHigh": 1.19,
+          "volRaw": "30.6M",
+          "volDollar": 66431162,
+          "relVol": 1302.6,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZYBT",
+          "newsSummary": "ZYBT moved +151% intraday with no identified news catalyst. The move is driven by structural China rig mechanics: low float (5.62M), sustained high relative volume (1302.6x), and multiple session HODs indicating institutional accumulation and retail momentum throughout the day rather than premarket spike/fade collapse.",
+          "bullFactors": [
+            "Ultra-low float (5.62M) — textbook small-cap runner profile matching Jack's <10M preference",
+            "Extreme relative volume (1302.6x) sustained intraday, not premarket-heavy — signals institutional buying pressure all session",
+            "Multiple session HODs printed late (HOD pct 151.33 vs fade 40.14 ratio) — classic China rig afternoon continuation strength, shorts blowing out",
+            "No dilutive news, offerings, or warrant exercises — clean capital structure for this move"
+          ],
+          "bearFactors": [
+            "151% intraday move approaches the 'out of play' territory if spike happened in 1-2 minutes; requires tape confirmation it was sustained over hours, not flash spike",
+            "NO-NEWS on a 151% run creates tail risk — catalyst could emerge retroactively explaining the move (dilution, offering, reverse merger) or fail to materialize",
+            "Healthcare sector + Chinese micro-cap + no catalyst = elevated black swan/liquidity spillover risk despite solid China rig structure",
+            "40% fade intraday suggests some profit-taking; reversal risk into close and next session if institutional accumulation story breaks"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "VIVK",
+          "hod": 106,
+          "hodExact": 106.98,
+          "news": [
+            "Form 8-K",
+            "Vivakor Signs LOI for Proposed $40 Million Acquisition of Direct Midstream",
+            "Vivakor Enters into Indication of Interest to Acquire Direct Midstream"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Vivakor, Inc. Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 1.59,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.01,
+          "open": 7.01,
+          "gapPct": 74.81,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.3,
+          "hodTimeExact": "09:30 AM ET",
+          "close": 3.8,
+          "fade": 54,
+          "fadeExact": 54.22,
+          "vwap": 5.7264,
+          "vsVwap": "below",
+          "pmHigh": 7.68,
+          "volRaw": "33.0M",
+          "volDollar": 188823006,
+          "relVol": 204.9,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "Vivakor Signs LOI for Proposed $40 Million Acquisition of Direct Midstream",
+            "Vivakor Enters into Indication of Interest to Acquire Direct Midstream"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1450704/000182912626010995/vivakorinc_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Vivakor Signs LOI for Proposed $40 Million Acquisition of Direct Midstream",
+              "url": "https://www.stocktitan.net/news/VIVK/vivakor-signs-loi-for-proposed-40-million-acquisition-of-direct-ppsqpvzjcsdp.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-09T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Vivakor Enters into Indication of Interest to Acquire Direct Midstream",
+              "url": "https://www.stocktitan.net/news/VIVK/vivakor-enters-into-indication-of-interest-to-acquire-direct-q1lqx77rzsmj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VIVK",
+          "newsSummary": "Vivakor announced a LOI for a $40M acquisition of Direct Midstream on 2026-10-09 at 13:00 (before HOD), followed by Form 8-K filing after market close. The deal represents real cash-backed M&A activity in the oil & gas midstream space, providing genuine catalyst for institutional interest and intraday momentum.",
+          "bullFactors": [
+            "Micro float (1.59M shares) with 204.9x relative volume — extreme leverage for intraday swings",
+            "Real cash acquisition catalyst ($40M deal) hitting before the move, not after — proper sequencing for momentum continuation",
+            "Session HOD of 106.98% with only 54.22% fade indicates sustained institutional buying pressure and short covering; afternoon tape strength typical of hot cycles",
+            "74.81% gap open on acquisition news shows immediate market validation; high relVol all session maintained momentum"
+          ],
+          "bearFactors": [
+            "Form 8-K filed AFTER the session HOD suggests reactive disclosure rather than planned catalyst rollout — potential overshoot or news uncertainty",
+            "107% single-day move on LOI (not completed deal) carries execution risk; Direct Midstream acquisition terms and financing still TBD",
+            "Energy sector micro-caps are volatile and prone to reversals; 54% fade within the same session shows profit-taking despite hot tape",
+            "LOI is non-binding; deal could fall through, leaving bag holders exposed to sharp reversal"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "VEEA",
+          "hod": 83,
+          "hodExact": 83.2,
+          "news": [
+            "Form 8-K",
+            "Veea Regains Full Compliance with Nasdaq Continued Listing Requirements",
+            "Veea Secures Landmark Smart Community Agreement with La Estadia Community for Agentic Real-time Aware and Secure Community"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Veea Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.85,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 1.85M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.87,
+          "open": 5.54,
+          "gapPct": 43.15,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.09,
+          "hodTimeExact": "11:45 AM ET",
+          "close": 5.7,
+          "fade": 19,
+          "fadeExact": 19.61,
+          "vwap": 5.9362,
+          "vsVwap": "below",
+          "pmHigh": 6.13,
+          "volRaw": "83.6M",
+          "volDollar": 496215269,
+          "relVol": 3.9,
+          "avgVolM": 21.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Veea Regains Full Compliance with Nasdaq Continued Listing Requirements",
+            "Veea Secures Landmark Smart Community Agreement with La Estadia Community for Agentic Real-time Aware and Secure Community"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1840317/000121390026108466/ea0308208-8k_veea.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Veea Regains Full Compliance with Nasdaq Continued Listing Requirements",
+              "url": "https://www.stocktitan.net/news/VEEA/veea-regains-full-compliance-with-nasdaq-continued-listing-oiqm1yfbk8gu.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-08T21:22:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Veea Secures Landmark Smart Community Agreement with La Estadia Community for Agentic Real-time Aware and Secure Community",
+              "url": "https://www.stocktitan.net/news/VEEA/veea-secures-landmark-smart-community-agreement-with-la-estadia-s0rtwj0cbl6v.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VEEA",
+          "newsSummary": "VEEA regained full Nasdaq compliance on 2026-10-08, removing a material delisting risk. The prior news (10-06 smart community deal and 10-08 compliance announcement) both preceded the intraday move, establishing real catalysts. The 8-K filed after the high is reactive documentation; compliance reinstatement is the legitimate driver.",
+          "bullFactors": [
+            "Ultra-low float (1.85M) with 3.9x relative volume — high volatility potential and low share supply for institutional accumulation",
+            "HOD domination (83.2%) with only 19.61% fade signals sustained intraday strength and short-covering pressure, not a premarket spike-and-fade",
+            "Compliance reinstatement removes existential delisting overhang; paired with a concrete smart community customer deal (La Estadia), creates two positive catalysts pre-move",
+            "No dilutive offerings, warrants, or convertibles noted — daily chart clear of heavy overhead supply"
+          ],
+          "bearFactors": [
+            "43.15% gap from prior close suggests gap-fill risk and potential late-day profit-taking by early buyers",
+            "Form 8-K filed AFTER the session high indicates post-move regulatory formality, not predictive momentum",
+            "Nasdaq compliance alone is a relief (removal of negative) rather than a growth driver — lack of forward-looking operational upside",
+            "Micro-cap ($13.1M market cap) liquidity and execution risk on larger position sizes"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "OFAL",
+          "hod": 81,
+          "hodExact": 81.39,
+          "news": [
+            "Form 8-K",
+            "OFA Group Completes Acquisition and Title Registration of Tokawa Coastal Property in Choshi, Japan"
+          ],
+          "tag": "ACQUISITION",
+          "name": "OFA Group Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 4.72,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 4.72M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4117,
+          "open": 0.48,
+          "gapPct": 16.59,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.7468,
+          "hodTimeExact": "10:09 AM ET",
+          "close": 0.55,
+          "fade": 26,
+          "fadeExact": 26.35,
+          "vwap": 0.5875,
+          "vsVwap": "below",
+          "pmHigh": 0.5902,
+          "volRaw": "323.2M",
+          "volDollar": 189902485,
+          "relVol": 142.2,
+          "avgVolM": 2.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "OFA Group Completes Acquisition and Title Registration of Tokawa Coastal Property in Choshi, Japan"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2036307/000149315226046519/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "OFA Group Completes Acquisition and Title Registration of Tokawa Coastal Property in Choshi, Japan",
+              "url": "https://www.stocktitan.net/news/OFAL/ofa-group-completes-acquisition-and-title-registration-of-tokawa-rmhi3ewq88k0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-09T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OFAL",
+          "newsSummary": "OFA Group completed acquisition and title registration of a coastal property in Choshi, Japan at 12:00 PM, before the stock's high. This is a real asset acquisition with tangible real estate value in Japan, providing genuine cash deployment and operational expansion. The Form 8-K filed after hours is reactive documentation, not the driver.",
+          "bullFactors": [
+            "Micro float (4.72M) well under 10M threshold — tight liquidity favors momentum continuation",
+            "81.39% HOD hit with sustained 142.2% relative volume all session — strong institutional accumulation and retail follow-through, not premarket fade pattern",
+            "Real acquisition catalyst: Japanese coastal property represents tangible asset value and geographic diversification, not fluff or sympathy play",
+            "16.59% gap + intraday move intact with 26.35% fade acceptable — room to upside preserved on daily chart for next entry or continuation"
+          ],
+          "bearFactors": [
+            "Form 8-K filed after the HOD — suggests news may have leaked or been anticipated intraday, reducing surprise catalyst value on next session open",
+            "Japan property acquisition is real but operationally unclear — no revenue guidance, no strategic partnership detail, capital deployment rationale not fully transparent",
+            "Micro-cap industrials with overseas real estate plays carry execution and liquidity risk; single-asset concentration risk if property is core holding",
+            "26.35% fade from HOD is material — if premarket gap collapses tomorrow, intraday setup is invalidated for continuation traders"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "JZ",
+          "hod": 76,
+          "hodExact": 76.34,
+          "news": [
+            "Jianzhi Education Announces Share Repurchase Program"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "Jianzhi Education Technology Group Company Limited American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 12.84,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$18M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8336,
+          "open": 0.8,
+          "gapPct": -4.03,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.47,
+          "hodTimeExact": "09:42 AM ET",
+          "close": 1.28,
+          "fade": 12,
+          "fadeExact": 12.93,
+          "vwap": 1.1318,
+          "vsVwap": "above",
+          "pmHigh": 0.8662,
+          "volRaw": "43.0M",
+          "volDollar": 48624722,
+          "relVol": 2.7,
+          "avgVolM": 16.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Jianzhi Education Announces Share Repurchase Program"
+          ],
+          "newsItems": [
+            {
+              "title": "Jianzhi Education Announces Share Repurchase Program",
+              "url": "https://www.stocktitan.net/news/JZ/jianzhi-education-announces-share-repurchase-r5a0zpanjyl2.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-08T14:37:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Education",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:JZ",
+          "newsSummary": "Jianzhi Education announced a share repurchase program on 2026-10-08, which preceded today's strong intraday move. The buyback signals management confidence and can reduce share count, but for a Chinese micro-cap education name, this is a modest capital allocation signal rather than a high-conviction real cash catalyst. The move appears driven more by sustained intraday institutional accumulation (76% HOD dominance, 2.7x relative volume) than by the buyback announcement itself.",
+          "bullFactors": [
+            "76.34% HOD printing dominance signals hot tape and sustained afternoon continuation — no premarket spike fade pattern",
+            "2.7x relative volume on intraday moves suggests institutional accumulation pressure, not retail-only chop",
+            "Share repurchase removes overhang and shows management alignment, supporting intraday momentum",
+            "12.84M float is mid-tier but acceptable given the intraday volume profile and sustained session HODs"
+          ],
+          "bearFactors": [
+            "Chinese micro-cap education sector carries structural risk — regulatory headwinds, dilution history in space common",
+            "Buyback catalyst is modest and defensive in nature; not a high-conviction cash deal or transformational catalyst",
+            "12.84M float is above Jack's <10M preference; elevated supply overhead risk if momentum fades",
+            "Negative gap (-4.03%) into the move suggests gap-fill risk on continuation — watch for reversal traps"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "LNAI",
+          "hod": 50,
+          "hodExact": 50.0,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Lunai Bioworks Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 4.97,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 4.97M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.97M + RelVol 17.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.97M + RelVol 17.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.12,
+          "open": 1.17,
+          "gapPct": 4.46,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.68,
+          "hodTimeExact": "02:18 PM ET",
+          "close": 1.23,
+          "fade": 26,
+          "fadeExact": 26.79,
+          "vwap": 1.2981,
+          "vsVwap": "below",
+          "pmHigh": 1.18,
+          "volRaw": "859K",
+          "volDollar": 1114899,
+          "relVol": 17.3,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527728/000173112226001333/e8001_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LNAI",
+          "newsSummary": "Form 8-K filed after-hours following a 50% intraday HOD run, indicating reactive corporate disclosure rather than a leading catalyst. The 8-K itself is non-specific and provides no visible catalyst detail; the move was driven by intraday momentum and tape strength, not news.",
+          "bullFactors": [
+            "Ultra-tight float at 4.97M shares — micro-cap with high leverage to volume",
+            "Strong session structure: 50% HOD achievement with only 26.79% fade, suggesting sustained institutional buying pressure and shorts covering into afternoon",
+            "High relative volume (17.3x) maintained throughout session — consistent participation, not a premarket spike-and-dump pattern",
+            "Daily chart appears to have room upside (no warrant/convertible overhead noted); setup gave time to accumulate before retail push"
+          ],
+          "bearFactors": [
+            "Form 8-K is after-the-fact disclosure — no catalyst merit to justify the move; market is pricing sentiment, not fundamentals",
+            "Healthcare sector micro-cap with $3.4M market cap carries extreme liquidity risk and black swan exposure",
+            "Gap up 4.46% into session — early movers already in; retail FOMO chasing intraday may face afternoon distribution",
+            "No visible cash deal, partnership, or earnings catalyst; move driven entirely by tape momentum and float squeeze mechanics"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NXGL",
+          "hod": 46,
+          "hodExact": 46.87,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "NexGel, Inc Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.46,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.46M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.46M + RelVol 425.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.46M + RelVol 425.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.15,
+          "open": 0.156,
+          "gapPct": 4.0,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.2203,
+          "hodTimeExact": "03:56 PM ET",
+          "close": 0.2003,
+          "fade": 9,
+          "fadeExact": 9.08,
+          "vwap": 0.1895,
+          "vsVwap": "above",
+          "pmHigh": 3.198,
+          "volRaw": "10.5M",
+          "volDollar": 1988907,
+          "relVol": 425.9,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1468929/000149315226046154/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-07T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NXGL",
+          "newsSummary": "Form 8-K filed on 2026-10-07 (before the move) signals a corporate event or material change disclosure. The 46.87% HOD gain on 2026-10-09 suggests the market is reacting positively to whatever was disclosed, though the specific details of the 8-K are not provided. This is a legitimate catalyst, not fluff.",
+          "bullFactors": [
+            "Nano-float (0.46M shares) creates structural volatility and outsized intraday moves on institutional volume",
+            "46.87% HOD with only 9.08% fade shows sustained strength and conviction — not a pump-and-dump premarket spike",
+            "425.9x relative volume indicates genuine institutional accumulation, not retail noise",
+            "8-K catalyst came 2 days prior, allowing time for absorption before retail push — clean setup"
+          ],
+          "bearFactors": [
+            "Micro-cap healthcare with minimal market cap ($2.7M) — liquidity and black-swan risk are high",
+            "8-K content unknown — catalyst quality cannot be verified; if dilutive (offering, warrant exercise, reverse split) the move could reverse hard",
+            "Gap of 4.0% at open leaves limited room to upside on daily chart if supply is tight above HOD",
+            "No visibility on daily overhead supply or previous resistance — chart room assessment incomplete"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MI",
+          "hod": 42,
+          "hodExact": 42.11,
+          "news": [
+            "424B5 offering",
+            "NFT Ltd. Announces Pricing of $1.0 Million Registered Direct Offering",
+            "NFT Ltd. Announces Pricing of $2.55 Million Registered Direct Offering",
+            "Form 6-K"
+          ],
+          "tag": "OFFERING",
+          "name": "NFT Limited",
+          "sector": "Consumer Cyclical",
+          "country": "HK",
+          "floatM": 5.02,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$54M",
+          "riskBadges": [
+            "Float 5.02M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8937,
+          "open": 1.11,
+          "gapPct": 24.2,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.27,
+          "hodTimeExact": "04:36 AM ET",
+          "close": 0.9046,
+          "fade": 28,
+          "fadeExact": 28.77,
+          "vwap": 1.2301,
+          "vsVwap": "below",
+          "pmHigh": 1.75,
+          "volRaw": "43.1M",
+          "volDollar": 53070274,
+          "relVol": 3.7,
+          "avgVolM": 11.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "424B5 offering",
+            "NFT Ltd. Announces Pricing of $1.0 Million Registered Direct Offering",
+            "NFT Ltd. Announces Pricing of $2.55 Million Registered Direct Offering",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1958713/000121390026108288/ea0308200-424b5_nft.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-09T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "after"
+            },
+            {
+              "title": "NFT Ltd. Announces Pricing of $1.0 Million Registered Direct Offering",
+              "url": "https://www.stocktitan.net/news/MI/nft-ltd-announces-pricing-of-1-0-million-registered-direct-8yspey2ruxjn.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-09T18:25:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "NFT Ltd. Announces Pricing of $2.55 Million Registered Direct Offering",
+              "url": "https://www.stocktitan.net/news/MI/nft-ltd-announces-pricing-of-2-55-million-registered-direct-50fcs877eken.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-06T17:20:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1958713/000121390026106769/ea0307744-6k_nft.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-05T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:MI",
+          "newsSummary": "MI spiked 42% intraday on a 24% gap, but the move preceded two registered direct offerings totaling $3.55M announced after hours (Oct 9 and prior Oct 6). The offerings are dilutive capital raises with no operational catalyst—they follow the move and indicate the stock was already running on momentum before institutional sellers stepped in.",
+          "bullFactors": [
+            "Ultra-low float at 5.02M shares—explosive leverage for intraday momentum",
+            "Strong intraday relative volume (3.7x) with 42% HOD gains sustained through session, signaling continued buying pressure not just premarket fade",
+            "Hong Kong-listed small-cap with potential Greater China structural rig pattern—if volume remains elevated all day with late afternoon HOD prints, institutional accumulation is a real possibility"
+          ],
+          "bearFactors": [
+            "Dilutive offerings announced after hours ($3.55M total)—classic shareholder dilution that undermines long-term value and signals insider capital needs",
+            "Gap up 24% into offerings is a red flag: morning momentum attracted retail, then offerings priced to lock in capital for the company at holders' expense",
+            "No real operational catalyst—Form 6-K is regulatory filing, not growth news; offerings are pure capital raises with zero cash value to shareholders",
+            "Fade component at 28.77% suggests institutional weakness and profit-taking before offerings were public"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "FRGT",
+          "hod": 40,
+          "hodExact": 40.41,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Freight Technologies, Inc. Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MX",
+          "floatM": 1.68,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.68M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.68M + RelVol 43.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.68M + RelVol 43.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2564,
+          "open": 0.31,
+          "gapPct": 20.9,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.36,
+          "hodTimeExact": "04:15 AM ET",
+          "close": 0.2937,
+          "fade": 18,
+          "fadeExact": 18.42,
+          "vwap": 0.3509,
+          "vsVwap": "below",
+          "pmHigh": 4.844,
+          "volRaw": "104.4M",
+          "volDollar": 36622894,
+          "relVol": 43.9,
+          "avgVolM": 2.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "Logistics",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FRGT",
+          "newsSummary": "FRGT moved +40.41% intraday with no substantive news catalyst identified. The move appears driven by micro-cap structural dynamics—ultra-low 1.68M float, strong relative volume (43.9x), and intraday momentum rather than fundamental or event-driven factors.",
+          "bullFactors": [
+            "Micro-float (1.68M shares) creates structural squeeze potential on intraday accumulation",
+            "High relative volume (43.9x) suggests genuine institutional or retail participation, not isolated retail chase",
+            "40.41% HOD gain with 18.42% fade indicates session strength with some profit-taking—typical of sustainable intraday runners",
+            "Industrials sector with Logistics theme allows fundamental relevance if catalyst emerges"
+          ],
+          "bearFactors": [
+            "No catalyst—pure momentum on a Mexican micro-cap with zero news creates execution and liquidity risk",
+            "Gap entry (20.9%) combined with no-news structure increases risk of premarket fade into session",
+            "Micro-cap Mexican ticker lacks institutional accumulation pattern—high probability of retail-driven volatility collapse",
+            "No daily chart context provided; cannot confirm upside room, resistance overhead, or flag setup"
+          ],
+          "setupGrade": "C+"
+        }
+      ],
+      "hod": 848,
+      "fade": 27,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "WFF led +848.29% (36% fade). 4/10 held <20% fade. news: WFF — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ — 2026-10-09**\n\nCompliance wins and acquisitions dominate today's catalogue, but the tape splits decisively: afternoon HODs (WFF, ZYBT, LNAI, NXGL) signal sustained institutional buying pressure, while morning spikes (VIVK, VEEA, OFAL) show heavy fades into lunch—classic premarket exhaustion. Float composition tilts premium with seven names sub-5M shares, but WFF's 10.55M and JZ's 12.84M breach the preference threshold; notably, NXGL's 0.46M micro-float and FRGT's premarket session raise liquidity concerns despite real acquisition/compliance catalysts. Geographic spread (Malaysia, China, Hong Kong, Mexico) dilutes sector conviction, though Energy and Healthcare cluster showing strength. The afternoon session dominance—especially WFF's 848% HOD with only 36.78% fade and ZYBT's sustained afternoon grind—signals a HOT cycle for dip-and-rip setups into close; however, the NO-NEWS tags on WFF and ZYBT flag potential China rig patterns rather than fundamental catalysts, requiring scrutiny on volume sustainability versus institutional accumulation mechanics. This framework reads today as **HOT/AMBER**: ideal float and afternoon printing match the playbook, but catalyst quality skews toward compliance noise over real cash value, and offshore concentration introduces regulatory/liquidity tail risk."
     },
     {
       "date": "2026-10-08",
