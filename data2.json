@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-19T20:52:02.046980Z",
-  "count": 10080,
+  "exportedAt": "2026-10-21T12:34:54.245748Z",
+  "count": 10089,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,915 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-20",
+      "runners": [
+        {
+          "sym": "SAIQ",
+          "hod": 102,
+          "hodExact": 102.93,
+          "news": [
+            "WISeQey Issues CEO Letter to Shareholders: Building an Intelligent, Secure Platform for the Intelligence Age",
+            "WISeSat.Space and SEALSQ Advance Satellite Cybersecurity Hardening as FOSSA Launches New 6U Satellite Aboard SpaceX Falcon 9"
+          ],
+          "tag": "SYMPATHY",
+          "name": "WISeSat.Space Holdings Corp. Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "VG",
+          "floatM": 2.34,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$204M",
+          "riskBadges": [
+            "Float 2.34M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.41,
+          "open": 4.62,
+          "gapPct": 35.48,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 6.92,
+          "hodTimeExact": "04:01 AM ET",
+          "close": 6.84,
+          "fade": 1,
+          "fadeExact": 1.16,
+          "vwap": 5.6194,
+          "vsVwap": "above",
+          "pmHigh": 6.7163,
+          "volRaw": "57.9M",
+          "volDollar": 325422916,
+          "relVol": 6.9,
+          "avgVolM": 8.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "WISeQey Issues CEO Letter to Shareholders: Building an Intelligent, Secure Platform for the Intelligence Age",
+            "WISeSat.Space and SEALSQ Advance Satellite Cybersecurity Hardening as FOSSA Launches New 6U Satellite Aboard SpaceX Falcon 9"
+          ],
+          "newsItems": [
+            {
+              "title": "WISeQey Issues CEO Letter to Shareholders: Building an Intelligent, Secure Platform for the Intelligence Age",
+              "url": "https://www.stocktitan.net/news/SAIQ/wi-se-qey-issues-ceo-letter-to-shareholders-building-an-intelligent-1pwhthl397vt.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-21T05:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "WISeSat.Space and SEALSQ Advance Satellite Cybersecurity Hardening as FOSSA Launches New 6U Satellite Aboard SpaceX Falcon 9",
+              "url": "https://www.stocktitan.net/news/SAIQ/wi-se-sat-space-and-sealsq-advance-satellite-cybersecurity-hardening-9mu6oqu6klno.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T12:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Space",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "SpaceX",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Cybersecurity",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SAIQ",
+          "newsSummary": "SAIQ ran 102.93% intraday on sympathy with Space/Cybersecurity themes (SpaceX Falcon 9 satellite launch, FOSSA 6U hardening). Both news items posted after the HOD, confirming they followed price action rather than caused it. The catalyst is thematic spillover from real space-sector infrastructure activity, not direct company fundamentals.",
+          "bullFactors": [
+            "Micro float (2.34M) with 6.9x relative volume — excellent fuel for sustained intraday moves",
+            "Session HOD at 102.93% with only 1.16% fade indicates strong afternoon continuation and shorts being squeezed, not premarket spike collapse",
+            "SpaceX/satellite infrastructure theme carries real institutional interest; FOSSA 6U launch is legitimate space-sector news",
+            "Gap up 35.48% + sustained intraday strength suggests institutional accumulation before retail push"
+          ],
+          "bearFactors": [
+            "Both news catalysts arrived AFTER the move — they are reactive, not causal; limits conviction on catalyst quality",
+            "Sympathy tag means the move is theme-driven spillover, not direct company catalyst; higher whipsaw risk into close/next session",
+            "102.93% move in single session on sympathy alone is structurally aggressive; profit-taking/fade risk on lower volume days",
+            "VG domicile (offshore) adds governance/liquidity risk on reversals"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AIXI",
+          "hod": 74,
+          "hodExact": 74.55,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "XIAO-I Corporation American Depositary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 2.94,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 2.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.2,
+          "open": 2.69,
+          "gapPct": 22.27,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.84,
+          "hodTimeExact": "09:56 AM ET",
+          "close": 3.1,
+          "fade": 19,
+          "fadeExact": 19.27,
+          "vwap": 3.1788,
+          "vsVwap": "below",
+          "pmHigh": 3.7,
+          "volRaw": "31.4M",
+          "volDollar": 99853988,
+          "relVol": 2.3,
+          "avgVolM": 13.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIXI",
+          "newsSummary": "AIXI ran 74.55% with no substantive news catalyst—a classic China rig pattern on a micro-float name (2.94M shares). The move was driven by sustained intraday institutional accumulation, high relative volume (2.3x), and multiple HOD prints throughout the session, not a premarket spike fade.",
+          "bullFactors": [
+            "Micro-float (2.94M) under Jack's 10M preference—tight supply structure supports sustained momentum",
+            "China rig structural pattern: sustained intraday trend with afternoon HOD continuation (74.55% HOD vs 19.27% fade), not premarket spike collapse—indicates real institutional buying pressure all day",
+            "High relative volume (2.3x) on no news signals institutional accumulation phase before retail spillover; daily chart room intact for continuation"
+          ],
+          "bearFactors": [
+            "No catalyst—pure China rig on sympathy/theme spillover; vulnerable to sudden liquidity dry-up once institutional buyers pivot",
+            "Chinese micro-cap with inherent regulatory and delisting risk; low market cap ($9.1M) creates structural fragility",
+            "Already +74% in session—late entry has compressed risk/reward; requires clean daily chart setup to justify add-ons"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "WORX",
+          "hod": 70,
+          "hodExact": 70.9,
+          "news": [
+            "SCWorx Announces New Agreement with Healthcare System",
+            "S-3 shelf"
+          ],
+          "tag": "CONTRACT",
+          "name": "SCWorx Corp. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.34,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.34M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.68,
+          "open": 3.98,
+          "gapPct": 48.51,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.58,
+          "hodTimeExact": "09:35 AM ET",
+          "close": 3.66,
+          "fade": 20,
+          "fadeExact": 20.09,
+          "vwap": 3.9316,
+          "vsVwap": "below",
+          "pmHigh": 4.29,
+          "volRaw": "79.1M",
+          "volDollar": 311109623,
+          "relVol": 10.9,
+          "avgVolM": 7.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "SCWorx Announces New Agreement with Healthcare System",
+            "S-3 shelf"
+          ],
+          "newsItems": [
+            {
+              "title": "SCWorx Announces New Agreement with Healthcare System",
+              "url": "https://www.stocktitan.net/news/WORX/sc-worx-announces-new-agreement-with-healthcare-3p2znh0b4tme.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T14:10:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "S-3 shelf",
+              "url": "https://www.sec.gov/Archives/edgar/data/1674227/000121390026110177/ea0308692-s3_scworx.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WORX",
+          "newsSummary": "SCWorx announced a new agreement with a healthcare system on 2026-10-19, which preceded today's 70.9% HOD move. The catalyst has real merit as a concrete business deal in the healthcare IT/data space, though details on cash value and exclusivity are unclear from the headline alone. The S-3 shelf filing (2026-10-16) is a secondary concern—potential dilution overhang but not the immediate trigger.",
+          "bullFactors": [
+            "Nano float (0.34M shares) creates extreme leverage on institutional accumulation; HOD 70.9% with 20.09% fade shows intraday continuation strength, not premarket spike collapse",
+            "10.9x relative volume sustained throughout session—institutional buying pressure evident, not retail fomo spike",
+            "Concrete contract catalyst (not sympathy/no-news theme) with real healthcare system deal adds credibility to the run",
+            "Daily chart setup allowed upside room; no mention of warrant/convertible/ATM overhead blocking the move"
+          ],
+          "bearFactors": [
+            "S-3 shelf registration filed 2026-10-16 creates dilution overhang and limits ceiling for sustained multi-day runs",
+            "Healthcare micro-cap with tiny float is structurally volatile; HOD 70.9% in single session leaves little room for continuation tomorrow without gap-and-fade risk",
+            "Contract details sparse—no announcement of cash value, duration, or revenue impact; headline-only news can attract retail fomo into fades",
+            "Nano float tier ($2.7M market cap) makes liquidity fragile; easy to spike on thin shares, harder to hold gains if insiders/early buyers take profit"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "PRSO",
+          "hod": 70,
+          "hodExact": 70.31,
+          "news": [
+            "Peraso Receives Production Order Exceeding $2.0 Million for 60 GHz Fixed Wireless Access Deployment",
+            "Peraso to Present at Planet MicroCap Toronto 2026 Conference"
+          ],
+          "tag": "CONTRACT",
+          "name": "Peraso, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 15.25,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 15.25M + RelVol 1515.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 15.25M + RelVol 1515.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3837,
+          "open": 0.4194,
+          "gapPct": 9.3,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.6535,
+          "hodTimeExact": "09:45 AM ET",
+          "close": 0.5914,
+          "fade": 9,
+          "fadeExact": 9.5,
+          "vwap": 0.5724,
+          "vsVwap": "above",
+          "pmHigh": 0.4558,
+          "volRaw": "230.6M",
+          "volDollar": 132016084,
+          "relVol": 1515.4,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Peraso Receives Production Order Exceeding $2.0 Million for 60 GHz Fixed Wireless Access Deployment",
+            "Peraso to Present at Planet MicroCap Toronto 2026 Conference"
+          ],
+          "newsItems": [
+            {
+              "title": "Peraso Receives Production Order Exceeding $2.0 Million for 60 GHz Fixed Wireless Access Deployment",
+              "url": "https://www.stocktitan.net/news/PRSO/peraso-receives-production-order-exceeding-2-0-million-for-60-g-hz-co84ik4paxcb.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Peraso to Present at Planet MicroCap Toronto 2026 Conference",
+              "url": "https://www.stocktitan.net/news/PRSO/peraso-to-present-at-planet-micro-cap-toronto-2026-2w0ez0huui5n.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-13T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Semiconductor",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PRSO",
+          "newsSummary": "Peraso announced a $2.0M+ production order for 60 GHz Fixed Wireless Access deployment on 2026-10-20 at 13:00 UTC, which came BEFORE the session high. This is real cash value—a tangible deployment contract, not a sympathy play or fluff PR. The order validates commercial traction in the FWA market and provides near-term revenue visibility.",
+          "bullFactors": [
+            "Real cash catalyst: $2.0M+ production order with deployment implications, not a partnership LOI or vaporware announcement",
+            "70% session HOD dominance with 1515% relative volume shows sustained institutional accumulation and retail follow-through, not a premarket fade setup",
+            "Float at 15.25M is manageable for momentum; above preferred <10M but the intraday vol/min clearly exceeds premarket vol/min, meeting Jack's high-vol exception criteria",
+            "Catalyst landed before the high (13:00 UTC), giving price action time to build and consolidate—setup structure is clean, not a rug-pull spike"
+          ],
+          "bearFactors": [
+            "Float of 15.25M is above ideal <10M threshold; wider float can cap peak velocity and increase fade risk if shorts pile in late session",
+            "Only 9.5% fade and 9.3% gap suggest most move was intraday—limited premarket setup time means the real test is afternoon hold and EOD VWAP print",
+            "No overhead supply data provided; must verify daily chart for previous HOD levels and resistance clusters before entry",
+            "Catalyst is $2.0M order (material but not massive for a $9M market-cap name); if it's a one-off versus recurring, revenue runway may be questioned"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "FRTT",
+          "hod": 69,
+          "hodExact": 69.51,
+          "news": [
+            "Form 6-K",
+            "Fort Technology: Logia USA Signs Exclusive Distribution Agreement to Expand Fuel Maintenance Solutions for Data Centers Across the U.S."
+          ],
+          "tag": "CONTRACT",
+          "name": "Fort Technology Inc. Common Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CA",
+          "floatM": 4.35,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 4.35M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.35M + RelVol 2403.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.35M + RelVol 2403.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5369,
+          "open": 0.8365,
+          "gapPct": 55.8,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.9101,
+          "hodTimeExact": "09:30 AM ET",
+          "close": 0.7121,
+          "fade": 21,
+          "fadeExact": 21.76,
+          "vwap": 0.7298,
+          "vsVwap": "below",
+          "pmHigh": 0.86,
+          "volRaw": "209.7M",
+          "volDollar": 153025058,
+          "relVol": 2403.1,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Fort Technology: Logia USA Signs Exclusive Distribution Agreement to Expand Fuel Maintenance Solutions for Data Centers Across the U.S."
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2092967/000118518526004856/fort6k102026.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Fort Technology: Logia USA Signs Exclusive Distribution Agreement to Expand Fuel Maintenance Solutions for Data Centers Across the U.S.",
+              "url": "https://www.stocktitan.net/news/FRTT/fort-technology-logia-usa-signs-exclusive-distribution-agreement-to-y10syxgpwgd4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T11:32:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Data Center",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FRTT",
+          "newsSummary": "FRTT announced an exclusive distribution agreement with Logia USA for fuel maintenance solutions targeting U.S. data centers—a real cash-generating partnership with a named counterparty, released before the HOD. The move is catalyst-driven and addresses a growing infrastructure need, giving the stock legitimate fundamental support beyond sentiment.",
+          "bullFactors": [
+            "Ultra-tight float (4.35M) with 2403% relative volume—exceptional leverage for intraday acceleration",
+            "69.51% HOD dominance with only 21.76% fade signals sustained institutional buying pressure and short-covering throughout session, not premarket spike collapse",
+            "Real catalyst: exclusive distribution deal with operational cash flow potential; not sympathy or fluff",
+            "Form 6-K filed after move confirms legitimacy and eliminates headline surprise uncertainty"
+          ],
+          "bearFactors": [
+            "55.8% gap open leaves limited room for safe entry at lower risk zones; early entries already underwater if fade accelerates",
+            "Late-day Form 6-K filing is reactive (after HOD), reducing catalyst credibility as cause of move rather than confirmation",
+            "Small-cap Canadian consumer cyclical sector carries higher overnight/regulatory risk; data center trend is hot but not defensible against macro rotation"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "ATGL",
+          "hod": 68,
+          "hodExact": 68.94,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Alpha Technology Group Limited Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 2.67,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$131M",
+          "riskBadges": [
+            "Float 2.67M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.67M + RelVol 138.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.67M + RelVol 138.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.54,
+          "open": 4.85,
+          "gapPct": 6.83,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 7.67,
+          "hodTimeExact": "07:34 PM ET",
+          "close": 6.93,
+          "fade": 9,
+          "fadeExact": 9.65,
+          "vwap": 6.4813,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "1.6M",
+          "volDollar": 10616149,
+          "relVol": 138.0,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ATGL",
+          "newsSummary": "ATGL moved +68.94% on the session with zero substantive news catalyst. This is a micro-cap Hong Kong tech stock (2.67M float) showing classic China Rig structural pattern: sustained intraday volume (138% relVol), late-session HOD printing, and minimal fade (9.65%), indicating institutional accumulation throughout the day rather than a premarket spike dump.",
+          "bullFactors": [
+            "Ultra-micro float (2.67M) with 138% relative volume — tight supply fueling sustained intraday momentum",
+            "68.94% HOD with only 9.65% fade signals strong session-long institutional buying pressure, not a fade setup",
+            "Afternoon HOD printing and minimal premarket dominance (6.83% gap) consistent with China Rig rig pattern — institutional accumulation cycle, not pump-and-dump",
+            "Daily chart likely has room to upside given micro-cap structure and lack of overhead supply conflict"
+          ],
+          "bearFactors": [
+            "Hong Kong listing introduces geopolitical and regulatory uncertainty versus US-listed microcaps",
+            "Zero catalyst means move is purely technical/structural — vulnerable to sentiment reversal on any profit-taking or negative macro headlines",
+            "No fundamental or earnings story to support a breakout; sustainability depends on continued institutional bid",
+            "Greater China micro-cap names can experience sudden liquidity drains if retail enthusiasm cools"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "XCH",
+          "hod": 52,
+          "hodExact": 52.3,
+          "news": [
+            "Form 6-K",
+            "XCharge Issues Statement Regarding Recent Share Price Volatility"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "XCHG Limited American Depositary Share",
+          "sector": "Industrials",
+          "country": "DE",
+          "floatM": 2.5,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 2.5M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.74,
+          "open": 1.92,
+          "gapPct": 10.34,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.65,
+          "hodTimeExact": "09:37 AM ET",
+          "close": 1.8,
+          "fade": 32,
+          "fadeExact": 32.08,
+          "vwap": 1.8552,
+          "vsVwap": "below",
+          "pmHigh": 1.99,
+          "volRaw": "1.1M",
+          "volDollar": 2103071,
+          "relVol": 8.4,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "XCharge Issues Statement Regarding Recent Share Price Volatility"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1979887/000119312526421024/statement1014.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-14T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "XCharge Issues Statement Regarding Recent Share Price Volatility",
+              "url": "https://www.stocktitan.net/news/XCH/x-charge-issues-statement-regarding-recent-share-price-eal5txa45q0t.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-14T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XCH",
+          "newsSummary": "XCharge issued a volatility statement on 2026-10-14 (before the move) in response to price action, followed by a Form 6-K filing. The statement suggests reactive damage control rather than a forward-looking catalyst. The 52.3% HOD retention and 8.4x relative volume indicate intraday institutional accumulation, but the catalyst itself is defensive—addressing volatility rather than driving it.",
+          "bullFactors": [
+            "Micro float (2.5M shares) creates structural scarcity and amplifies intraday volume impact",
+            "Strong HOD retention (52.3%) with 8.4x relative volume signals sustained institutional buying pressure, not a pump-fade",
+            "Session HODs dominating over premarket—tape temperature is HOT, continuation bias intact",
+            "Daily chart room to upside likely given low market cap and micro-cap structure"
+          ],
+          "bearFactors": [
+            "Compliance-class catalyst (volatility statement + 6-K) is reactive, not catalyst-driven—no real cash value or growth story disclosed",
+            "32% fade suggests significant intraday profit-taking and potential overhead resistance",
+            "German micro-cap with low liquidity outside intraday windows—AH/next-day reversals common",
+            "No substantive deal, partnership, or earnings beat mentioned; news is procedural"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BRZE",
+          "hod": 51,
+          "hodExact": 51.83,
+          "news": [
+            "Form 8-K",
+            "Salesforce Signs Definitive Agreement to Acquire Braze"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Braze, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 94.11,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$5.2B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 30.04,
+          "open": 45.53,
+          "gapPct": 51.56,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 45.61,
+          "hodTimeExact": "08:40 AM ET",
+          "close": 45.57,
+          "fade": 0,
+          "fadeExact": 0.09,
+          "vwap": 45.3739,
+          "vsVwap": "above",
+          "pmHigh": 46,
+          "volRaw": "64.8M",
+          "volDollar": 2938771038,
+          "relVol": 32.7,
+          "avgVolM": 2.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Salesforce Signs Definitive Agreement to Acquire Braze"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1676238/000095010326015850/dp254600_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Salesforce Signs Definitive Agreement to Acquire Braze",
+              "url": "https://www.stocktitan.net/news/BRZE/salesforce-signs-definitive-agreement-to-acquire-e93vzoza271y.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BRZE",
+          "newsSummary": "Salesforce announced a definitive agreement to acquire Braze at 12:00 PM, triggering a 51.83% HOD move with minimal fade (0.09%). The acquisition represents real cash value for shareholders and is a substantive M&A catalyst, not fluff. The Form 8-K filed after hours is a reactive regulatory filing, not a driver.",
+          "bullFactors": [
+            "Real cash acquisition by mega-cap strategic buyer (Salesforce) — legitimate catalyst with shareholder value",
+            "Strong intraday tape: 51.83% HOD with only 0.09% fade and 32.7x relative volume indicates sustained institutional buying, not premarket spike-and-dump",
+            "Announcement occurred mid-session (12:00 PM), allowing tape to develop and print multiple session HODs into afternoon — institutional accumulation pattern"
+          ],
+          "bearFactors": [
+            "94.11M float is mega-thick — well above Jack's <10M preference, limiting intraday volatility and scalability for day traders",
+            "Already up 51.56% on gap alone — price discovery complete; limited room to run further intraday without major support break",
+            "Acquisition announcements often see post-deal reversion or arbitrage unwind if deal terms are seen as unfavorable or deal risk emerges"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "HOST",
+          "hod": 50,
+          "hodExact": 50.0,
+          "news": [
+            "Form 8-K",
+            "Host Digital Authorizes $15 Million Share Buyback Program",
+            "S-3 shelf",
+            "Money, Rates, and Megawatts. The Three Questions Deciding the AI Buildout."
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "Host Digital Inc.",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 2.73,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$80M",
+          "riskBadges": [
+            "Float 2.73M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.73M + RelVol 30.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.73M + RelVol 30.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.92,
+          "open": 2.23,
+          "gapPct": 16.15,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.88,
+          "hodTimeExact": "01:44 PM ET",
+          "close": 2.83,
+          "fade": 1,
+          "fadeExact": 1.74,
+          "vwap": 2.549,
+          "vsVwap": "above",
+          "pmHigh": 2.38,
+          "volRaw": "6.2M",
+          "volDollar": 15696936,
+          "relVol": 30.7,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Host Digital Authorizes $15 Million Share Buyback Program",
+            "S-3 shelf",
+            "Money, Rates, and Megawatts. The Three Questions Deciding the AI Buildout."
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1948864/000149315226047777/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Host Digital Authorizes $15 Million Share Buyback Program",
+              "url": "https://www.stocktitan.net/news/HOST/host-digital-authorizes-15-million-share-buyback-yi1tv6i2x94v.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T12:15:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "S-3 shelf",
+              "url": "https://www.sec.gov/Archives/edgar/data/1948864/000149315226047468/forms-3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3",
+              "rel": "before"
+            },
+            {
+              "title": "Money, Rates, and Megawatts. The Three Questions Deciding the AI Buildout.",
+              "url": "https://www.stocktitan.net/news/HOST/money-rates-and-megawatts-the-three-questions-deciding-the-ai-9fs495u48lgv.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T13:14:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:HOST",
+          "newsSummary": "HOST announced a $15M share buyback program at 12:15 PM, after the session high had already been printed. The buyback is a modest capital allocation signal but arrived post-move, making it reactive rather than catalytic. An S-3 shelf filing preceded the move, which is dilutive optionality and not a bullish catalyst.",
+          "bullFactors": [
+            "Micro-float at 2.73M shares — tight supply supports momentum continuation",
+            "Strong 50% HOD dominance with 30.7x relative volume — sustained intraday buying pressure, not premarket spike fade",
+            "16% gap up with only 1.74% fade — institutional accumulation pattern, tight bid-ask structure"
+          ],
+          "bearFactors": [
+            "S-3 shelf registration filed before the move — overhead dilution risk and optionality overhang",
+            "Buyback announced after HOD — reactive, not anticipatory; $15M is modest relative to $80M market cap",
+            "No real catalyst tied to the move — AI theme mention is incidental PR commentary, not a business driver"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 102,
+      "fade": 12,
+      "hodTime": "premarket",
+      "theme": "Choppy Mixed",
+      "note": "SAIQ led +102.9% (1% fade). 6/9 held <20% fade. news: SAIQ — \"WISeQey Issues CEO Letter to Shareholders: Building an Intelligent, Secure Platform for the Intelligence Age\".",
+      "aiSummary": "**TAPE READ — 2026-10-20**\n\nToday's tape is dominated by corporate actions (CONTRACT, ACQUISITION, SHARE-BUYBACK, COMPLIANCE) accounting for 5 of top 10 runners, with sympathy and no-news tags filling secondary slots—a structural mismatch against this framework's catalyst quality bar of real cash value and material partnerships. Float distribution skews micro (under 5M in WORX, SAIQ, AIXI, ATGL, HOST) with one major outlier (BRZE at 94M), but the real red flag is session HOD distribution: premarket spikes (BCAT, SAIQ, BRZE) dominate with severe fades (88%, 1.16% residual hold, but massive dollar volume), while morning/afternoon HODs (AIXI, WORX, PRSO, FRTT, HOST) show tighter fades (9–21%) suggesting some institutional follow-through. This is a **COLD-TO-NEUTRAL cycle** for the playbook—premarket rips on fluff and corporate mechanics are out of play by definition, and while morning HODs hint at legitimate institutional accumulation (WORX's 0.34M float with 70% HOD and $311M volume is structurally sound), the absence of sustained afternoon continuation and real news catalysts signals retail exhaustion rather than hot institutional rig mechanics."
+    },
     {
       "date": "2026-10-19",
       "runners": [
