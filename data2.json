@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-21T12:34:54.245748Z",
-  "count": 10089,
+  "exportedAt": "2026-10-22T12:12:13.362673Z",
+  "count": 10099,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,999 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-21",
+      "runners": [
+        {
+          "sym": "POM",
+          "hod": 352,
+          "hodExact": 352.77,
+          "news": [
+            "Form 6-K",
+            "POMDOCTOR LIMITED Announces the Termination of Its ADR Program and Trade Class A Ordinary Shares on Nasdaq"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "POMDOCTOR LIMITED Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 1.91,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 1.91M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.91M + RelVol 889.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.91M + RelVol 889.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6648,
+          "open": 0.95,
+          "gapPct": 42.9,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 3.01,
+          "hodTimeExact": "05:51 PM ET",
+          "close": 3.01,
+          "fade": 0,
+          "fadeExact": 0.0,
+          "vwap": 2.1299,
+          "vsVwap": "above",
+          "pmHigh": 3.55,
+          "volRaw": "48.8M",
+          "volDollar": 103967260,
+          "relVol": 889.6,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "POMDOCTOR LIMITED Announces the Termination of Its ADR Program and Trade Class A Ordinary Shares on Nasdaq"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1877971/000121390026110501/ea0308609-6k_pomdoctor.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "POMDOCTOR LIMITED Announces the Termination of Its ADR Program and Trade Class A Ordinary Shares on Nasdaq",
+              "url": "https://www.stocktitan.net/news/POM/pomdoctor-limited-announces-the-termination-of-its-adr-program-and-emhoo2gv218d.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:POM",
+          "newsSummary": "POM announced termination of its ADR program and transition to trade Class A Ordinary Shares on Nasdaq (2026-10-19, before the high). This is a structural delisting/compliance event, not a cash catalyst. The stock gapped +42.9% and ran +352.77% intraday with zero fade, sustained 889.6x relative volume—classic China rig pattern with afternoon continuation strength and multiple session HODs, indicating aggressive institutional accumulation throughout the day rather than a premarket pump collapse.",
+          "bullFactors": [
+            "Micro-float (1.91M) with sustained intraday volume (relVol 889.6x) and zero fade—institutional buying pressure held all day",
+            "Multiple session HODs with afternoon continuation—signature China rig strength, not a premarket spike collapse",
+            "Room to upside on daily chart; no warrant/convertible/ATM overhead mentioned; healthcare sector with real trading interest",
+            "Hot tape: HODs dominating intraday, shorts likely squeezed, structural catalyst (ADR termination) removes uncertainty overhang"
+          ],
+          "bearFactors": [
+            "ADR termination is a compliance event, not positive cash/revenue news—structural change, not growth catalyst",
+            "Chinese micro-cap with delisting/restructuring risk; greater_china true means heightened regulatory/liquidity tail risk",
+            "352% intraday run is extreme; while sustained (not a 1–2 min spike), it creates exhaustion and gap-fill risk into next session",
+            "Form 6-K filing (2026-10-19) + ADR termination both before the high—limited fresh catalyst if momentum stalls"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "RBNE",
+          "hod": 153,
+          "hodExact": 153.9,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Robin Energy Ltd. Common Stock",
+          "sector": "Energy",
+          "country": "CY",
+          "floatM": 1.32,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 1.32M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.32M + RelVol 946.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.32M + RelVol 946.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3978,
+          "open": 0.9995,
+          "gapPct": 151.26,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.01,
+          "hodTimeExact": "04:35 AM ET",
+          "close": 0.2315,
+          "fade": 77,
+          "fadeExact": 77.08,
+          "vwap": 0.747,
+          "vsVwap": "below",
+          "pmHigh": 2.1,
+          "volRaw": "150.5M",
+          "volDollar": 112457201,
+          "relVol": 946.1,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RBNE",
+          "newsSummary": "RBNE moved 153.9% intraday with no identifiable news catalyst — pure technical/structural momentum. The move appears driven by tape dynamics on a micro-float (1.32M shares) with extremely high relative volume (946x), suggesting institutional accumulation or a mechanical short squeeze rather than fundamental news.",
+          "bullFactors": [
+            "Micro-float (1.32M) creates structural volatility and squeeze potential; float tier optimal for Jack's playbook",
+            "Session HOD of 153.9% with sustained 946x relative volume indicates afternoon continuation, not premarket fade — hot cycle signature",
+            "Gap up 151.26% and fade to 77.08% still leaves significant intraday range; no catastrophic collapse suggests tape held support",
+            "No dilutive news (offering, warrant, ATM) on record — clean daily chart for further moves"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst is a structural red flag — pure momentum/rig move with no fundamental anchor; high fade/reversal risk on close or next day",
+            "Gap up 151% in micro-float is explosive; if premarket vol/min dominated, this is a cold-cycle setup (premarket spike + intraday fade pattern)",
+            "Cyprus domicile (CY) with micro market cap ($373K) raises regulatory and liquidity concerns; thin fundamentals",
+            "153.9% single-session move without news is pump-adjacent; next-day reversion risk is material"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SPHL",
+          "hod": 144,
+          "hodExact": 144.44,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Springview Holdings Ltd Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "SG",
+          "floatM": 1.24,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$43M",
+          "riskBadges": [
+            "Float 1.24M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.24M + RelVol 54.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.24M + RelVol 54.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.43,
+          "open": 2.87,
+          "gapPct": 18.11,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.94,
+          "hodTimeExact": "09:56 AM ET",
+          "close": 3.54,
+          "fade": 40,
+          "fadeExact": 40.4,
+          "vwap": 4.2596,
+          "vsVwap": "below",
+          "pmHigh": 3.44,
+          "volRaw": "47.6M",
+          "volDollar": 202583258,
+          "relVol": 54.1,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SPHL",
+          "newsSummary": "SPHL ran 144% intraday with no substantive news catalyst identified. The move appears driven by structural factors: micro-cap Singapore listing (1.24M float), extreme relative volume (54.1x), and intraday momentum continuation rather than external event.",
+          "bullFactors": [
+            "Micro float (1.24M) — extreme leverage for intraday momentum",
+            "Sustained intraday HOD continuation (144% gain) — not a premarket spike fade, suggests institutional accumulation pressure through the session",
+            "High relative volume (54.1x) all-day, not concentrated premarket — tape structure consistent with genuine buying flow",
+            "No dilutive news — clean slate for further upside if momentum holds"
+          ],
+          "bearFactors": [
+            "No identifiable cash catalyst or real news — pure technicals/momentum play, high risk of reversal",
+            "40.4% fade from HOD already printed — significant profit-taking and short-covering complete; sustainability questionable",
+            "Singapore micro-cap with low float — liquidity can evaporate fast on reversal; exit windows tight",
+            "Gap up 18% premarket suggests early institutional positioning; retail chase into fade may face rejection"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "REED",
+          "hod": 132,
+          "hodExact": 132.81,
+          "news": [
+            "Reed’s Provides Response to Unusual Market Action"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Reed's, Inc.",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 7.14,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 7.14M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.14M + RelVol 55.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.14M + RelVol 55.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4596,
+          "open": 0.4395,
+          "gapPct": -4.37,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.07,
+          "hodTimeExact": "10:12 AM ET",
+          "close": 0.402,
+          "fade": 62,
+          "fadeExact": 62.43,
+          "vwap": 0.664,
+          "vsVwap": "below",
+          "pmHigh": 0.5031,
+          "volRaw": "47.0M",
+          "volDollar": 31221805,
+          "relVol": 55.8,
+          "avgVolM": 0.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Reed’s Provides Response to Unusual Market Action"
+          ],
+          "newsItems": [
+            {
+              "title": "Reed’s Provides Response to Unusual Market Action",
+              "url": "https://www.stocktitan.net/news/REED/reed-s-provides-response-to-unusual-market-h0cpucvlhaiv.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-21T17:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:REED",
+          "newsSummary": "REED spiked 132.81% intraday with a -4.37% gap open, indicating strong institutional accumulation and breakout momentum rather than a premarket news event. The company issued a reactive 'Unusual Market Action' statement after-hours (relative_to_high='after'), confirming the move preceded any official commentary—classic tape-driven runner with no substantive catalyst disclosed.",
+          "bullFactors": [
+            "Low float (7.14M) well under 10M threshold with relVol 55.8x — tight supply structure fueling intraday acceleration",
+            "HOD dominance (132.81% gain) with sustained high volume throughout session — textbook hot afternoon continuation, not a premarket fade pattern",
+            "Gap-down open (-4.37%) followed by massive intraday reversal and session HOD — institutional dip accumulation before retail breakout, ideal flag/downtrend break setup for momentum trader",
+            "news_status='ok' with only reactive after-hours statement — no dilutive offerings, warrants, or atm offerings tainting the daily chart"
+          ],
+          "bearFactors": [
+            "No disclosed catalyst — 'Unusual Market Action' is purely reactive messaging, leaving momentum vulnerable to reversal without fundamental re-rating",
+            "132.81% single-session move approaches dangerous velocity; liquidity spillover and black swan whipsaw risk if shorts panic-cover and retail hits bids late",
+            "Consumer Defensive sector is defensive by nature — unlikely to sustain momentum without ongoing catalyst refresh",
+            "After-hours statement may signal company awareness of manipulation; regulatory scrutiny or halt risk if volume/venue irregularities investigated"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SDEV",
+          "hod": 98,
+          "hodExact": 98.8,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Stablecoin Development Corporation",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 6.49,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$64M",
+          "riskBadges": [
+            "Float 6.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.83,
+          "open": 0.94,
+          "gapPct": 13.25,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.65,
+          "hodTimeExact": "11:39 AM ET",
+          "close": 1.1,
+          "fade": 33,
+          "fadeExact": 33.33,
+          "vwap": 1.2969,
+          "vsVwap": "below",
+          "pmHigh": 0.9389,
+          "volRaw": "127.8M",
+          "volDollar": 165694254,
+          "relVol": 3.2,
+          "avgVolM": 40.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:SDEV",
+          "newsSummary": "SDEV moved with no disclosed catalyst or news event — pure intraday price action driven by tape dynamics. The 98.8% HOD print rate with 33.33% fade suggests institutional accumulation in dips followed by retail momentum push, characteristic of low-float runners without external fuel.",
+          "bullFactors": [
+            "Extremely low float at 6.49M — tight supply structure ideal for momentum compression",
+            "98.8% HOD dominance indicates sustained session strength and shorts being forced out; afternoon continuation bias",
+            "3.2x relative volume shows genuine intraday participation, not premarket-only spike; liquidity sufficient for scaling",
+            "13.25% gap up into HOD attempt suggests institutional overnight positioning and conviction through the open"
+          ],
+          "bearFactors": [
+            "No catalyst = momentum dependent entirely on tape sentiment and retail follow-through; vulnerable to sudden reversal",
+            "33.33% fade rate is notable — suggests profit-taking into strength or resistance overhead; dip buyers may not return",
+            "NO-NEWS runner on low float is prone to black swan reversals or institutional unwind if retail momentum breaks",
+            "Financial Services sector with no named partnership or earnings catalyst — theme signals lean toward Crypto/Bitcoin sympathy, which is thematic only, not fundamental support"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SHFS",
+          "hod": 96,
+          "hodExact": 96.89,
+          "news": [
+            "Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "SHF Holdings, Inc. Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 1.03,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 1.03M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.03M + RelVol 36.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.03M + RelVol 36.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0899,
+          "open": 0.1538,
+          "gapPct": 71.08,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.177,
+          "hodTimeExact": "08:07 AM ET",
+          "close": 0.1542,
+          "fade": 12,
+          "fadeExact": 12.88,
+          "vwap": 0.1566,
+          "vsVwap": "below",
+          "pmHigh": 0.185,
+          "volRaw": "572.0M",
+          "volDollar": 89569657,
+          "relVol": 36.9,
+          "avgVolM": 15.5,
+          "ssr": true,
+          "reverseSplit": "12:1",
+          "newsHeadlines": [
+            "Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+              "url": "https://www.stocktitan.net/news/SHFS/safe-harbor-financial-receives-additional-180-day-compliance-period-7gpbs3e3q1iz.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T20:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226047774/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SHFS",
+          "newsSummary": "SHFS received an additional 180-day Nasdaq compliance extension on Oct 20 after hours to regain minimum bid price compliance—a regulatory lifeline, not a revenue catalyst. The stock gapped 71% and printed 97% of its session high, suggesting the market interpreted the extension as 'not delisted' relief rather than fundamental improvement.",
+          "bullFactors": [
+            "Micro float (1.03M) provides explosive velocity on institutional accumulation",
+            "Sustained HOD at 97% with 36.9x relative volume indicates afternoon continuation and short-squeeze conditions",
+            "Compliance extension removes immediate delisting threat, buys runway for operational turnaround",
+            "Strong intraday tape temperature (HODs dominating late session) shows retail push with institutional support"
+          ],
+          "bearFactors": [
+            "Compliance news is regulatory relief, not cash catalyst—does not address why stock was sub-$1 in first place",
+            "71% premarket gap suggests retail FOMO front-running before market open; high fade risk into close",
+            "Financial Services micro-cap with compliance issues signals fundamental weakness and potential bankruptcy trajectory",
+            "Setup required institutional accumulation time; 71% gap likely burned through that phase in premarket"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AMOD",
+          "hod": 75,
+          "hodExact": 75.97,
+          "news": [
+            "Alpha Modus Announces $7.25 Million Registered Direct Offering of Common Stock",
+            "Alpha Modus Highlights Bitcoin Holdings with Value Exceeding $250 Million*, Potential $225 Million in Additional Cash Proceeds, ARIA Expansion Targeting Over 20,000 Retail Locations and Significant Federal Patent Litigation Milestones",
+            "Form 8-K",
+            "Alpha Modus Signs ARIA Beta Agreement with Greer’s Markets"
+          ],
+          "tag": "OFFERING",
+          "name": "Alpha Modus Holdings, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 2.04,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$59M",
+          "riskBadges": [
+            "Float 2.04M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.29,
+          "open": 1.885,
+          "gapPct": 46.12,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.27,
+          "hodTimeExact": "01:12 PM ET",
+          "close": 1.03,
+          "fade": 54,
+          "fadeExact": 54.63,
+          "vwap": 1.7356,
+          "vsVwap": "below",
+          "pmHigh": 1.98,
+          "volRaw": "114.7M",
+          "volDollar": 199145667,
+          "relVol": 8.3,
+          "avgVolM": 13.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Alpha Modus Announces $7.25 Million Registered Direct Offering of Common Stock",
+            "Alpha Modus Highlights Bitcoin Holdings with Value Exceeding $250 Million*, Potential $225 Million in Additional Cash Proceeds, ARIA Expansion Targeting Over 20,000 Retail Locations and Significant Federal Patent Litigation Milestones",
+            "Form 8-K",
+            "Alpha Modus Signs ARIA Beta Agreement with Greer’s Markets"
+          ],
+          "newsItems": [
+            {
+              "title": "Alpha Modus Announces $7.25 Million Registered Direct Offering of Common Stock",
+              "url": "https://www.stocktitan.net/news/AMOD/alpha-modus-announces-7-25-million-registered-direct-offering-of-cekle3ix0px4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-21T17:58:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Alpha Modus Highlights Bitcoin Holdings with Value Exceeding $250 Million*, Potential $225 Million in Additional Cash Proceeds, ARIA Expansion Targeting Over 20,000 Retail Locations and Significant Federal Patent Litigation Milestones",
+              "url": "https://www.stocktitan.net/news/AMOD/alpha-modus-highlights-bitcoin-holdings-with-value-exceeding-250-bppmjn2hkxr1.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-21T12:15:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1862463/000149315226047192/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Alpha Modus Signs ARIA Beta Agreement with Greer’s Markets",
+              "url": "https://www.stocktitan.net/news/AMOD/alpha-modus-signs-aria-beta-agreement-with-greer-s-im540u2qvibr.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-15T12:22:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AMOD",
+          "newsSummary": "AMOD spiked 75.97% with a fade of 54.63%, driven by morning news of Bitcoin holdings ($250M+), ARIA retail expansion (20K+ locations), and patent litigation wins. However, the $7.25M registered direct offering announced after the high is a dilutive capital raise that kills momentum and retroactively reframes the morning bull case as a pump ahead of shareholder dilution.",
+          "bullFactors": [
+            "Micro float (2.04M) with 8.3x relative volume — structural amplifier for intraday moves",
+            "Real asset story (Bitcoin holdings $250M+, not vapor) with concrete expansion milestone (ARIA retail rollout)",
+            "HOD printed during afternoon news window, showing retail push sustained past initial gap"
+          ],
+          "bearFactors": [
+            "Registered direct offering ($7.25M) announced AFTER the high — classic dilution trap; erases confidence in morning narrative",
+            "54.63% fade indicates afternoon rejection and distribution; afternoon HOD may have been exit opportunity, not continuation setup",
+            "Gap + morning spike (46.12% gap, 75.97% HOD) suggests premarket-driven move with limited staying power; offering timing is predatory"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "OLOX",
+          "hod": 73,
+          "hodExact": 73.68,
+          "news": [
+            "Form 8-K",
+            "Olenox Industries Reports September Bitcoin Production as Recent Acquisitions Expand Energy-Powered Digital Infrastructure Strategy",
+            "Olenox Expands Energy Platform With Completion of Wildboy and Odin Acquisitions, Advancing Gas-to-Power-to-Compute Strategy"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Olenox Industries Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 1.63,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.63M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.737,
+          "open": 1.235,
+          "gapPct": 67.57,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.28,
+          "hodTimeExact": "09:30 AM ET",
+          "close": 1.01,
+          "fade": 21,
+          "fadeExact": 21.09,
+          "vwap": 1.0522,
+          "vsVwap": "below",
+          "pmHigh": 1.24,
+          "volRaw": "129.6M",
+          "volDollar": 136363016,
+          "relVol": 16.1,
+          "avgVolM": 8.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Olenox Industries Reports September Bitcoin Production as Recent Acquisitions Expand Energy-Powered Digital Infrastructure Strategy",
+            "Olenox Expands Energy Platform With Completion of Wildboy and Odin Acquisitions, Advancing Gas-to-Power-to-Compute Strategy"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1023994/000121390026111128/ea0309122-8k_olenox.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Olenox Industries Reports September Bitcoin Production as Recent Acquisitions Expand Energy-Powered Digital Infrastructure Strategy",
+              "url": "https://www.stocktitan.net/news/OLOX/olenox-industries-reports-september-bitcoin-production-as-recent-epjw6oj6jchr.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-21T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Olenox Expands Energy Platform With Completion of Wildboy and Odin Acquisitions, Advancing Gas-to-Power-to-Compute Strategy",
+              "url": "https://www.stocktitan.net/news/OLOX/olenox-expands-energy-platform-with-completion-of-wildboy-and-odin-tmea5fyaer4n.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Crypto/Bitcoin",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OLOX",
+          "newsSummary": "OLOX announced completion of Wildboy and Odin acquisitions (Oct 20) and September Bitcoin production metrics (Oct 21 premarket), expanding its gas-to-power-to-compute energy infrastructure strategy. The 67.57% gap and 73.68% HOD print represent strong institutional accumulation around real M&A catalysts with tangible Bitcoin/energy operations, not speculation—these are cash-backed acquisitions advancing a stated strategic thesis.",
+          "bullFactors": [
+            "Ultra-tight 1.63M float (tier-1 micro) with 16.1x relative volume—extreme leverage on institutional buying pressure",
+            "73.68% HOD dominance vs. 21.09% fade signals sustained intraday strength and short covering, not premarket spike collapse",
+            "Real M&A catalysts (Wildboy + Odin completions) tied to tangible Bitcoin/energy infrastructure—not dilutive, not sympathy",
+            "Daily chart has clear room to run off a fresh 67.57% gap; previous HOD likely well below current levels, reducing overhead resistance"
+          ],
+          "bearFactors": [
+            "8-K filed after the HOD (20:00 UTC, post-market)—content unknown and could contain dilutive disclosures, warrant exercises, or offering terms",
+            "Form 8-K timing immediately after the move raises risk of reactive filing rather than proactive catalyst; late filings often contain negative material",
+            "Bitcoin/energy infrastructure names carry macro crypto sentiment risk; sector volatility can spark sudden reversals",
+            "Micro-float runners with 73% HOD prints are prone to sharp profit-taking EOD or next session; sustainability beyond today unclear"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "XHLD",
+          "hod": 64,
+          "hodExact": 64.4,
+          "news": [
+            "TEN Holdings Inc. Announces Participation in the Skyline Signature Series Webinar",
+            "S-3 shelf",
+            "TEN Holdings, Inc. Announces Participation in the LD Micro 20th Annual Main Event"
+          ],
+          "tag": "SYMPATHY",
+          "name": "TEN Holdings, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 10.46,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5949,
+          "open": 0.5999,
+          "gapPct": 0.84,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.978,
+          "hodTimeExact": "02:53 PM ET",
+          "close": 0.907,
+          "fade": 7,
+          "fadeExact": 7.26,
+          "vwap": 0.8372,
+          "vsVwap": "above",
+          "pmHigh": 0.6172,
+          "volRaw": "70.6M",
+          "volDollar": 59092885,
+          "relVol": 6.3,
+          "avgVolM": 11.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "TEN Holdings Inc. Announces Participation in the Skyline Signature Series Webinar",
+            "S-3 shelf",
+            "TEN Holdings, Inc. Announces Participation in the LD Micro 20th Annual Main Event"
+          ],
+          "newsItems": [
+            {
+              "title": "TEN Holdings Inc. Announces Participation in the Skyline Signature Series Webinar",
+              "url": "https://www.stocktitan.net/news/XHLD/ten-holdings-inc-announces-participation-in-the-skyline-signature-rw4siit1hs2d.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "S-3 shelf",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030954/000149315226047344/forms-3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-16T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-3",
+              "rel": "before"
+            },
+            {
+              "title": "TEN Holdings, Inc. Announces Participation in the LD Micro 20th Annual Main Event",
+              "url": "https://www.stocktitan.net/news/XHLD/ten-holdings-inc-announces-participation-in-the-ld-micro-20th-annual-1ameq1gxvg0z.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-14T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XHLD",
+          "newsSummary": "XHLD ran 64.4% with only 7.26% fade, indicating sustained institutional buying rather than a premarket spike-and-dump. The catalyst is weak—two conference participation announcements and an S-3 shelf filing all dated before the move—meaning price action is driven by sympathy/sector momentum or intraday accumulation pattern, not fundamental news. The S-3 shelf is a mild dilution overhang but not the driver here.",
+          "bullFactors": [
+            "HOD dominance (64.4%) with minimal fade (7.26%) signals hot intraday cycle and shorts covering, not premarket exhaustion",
+            "Float just above 10M (10.46M) at the upper edge of Jack's preference; still small enough for retail/institutional leverage if relative volume sustains",
+            "Sustained high relative volume (6.3x) throughout session supports institutional accumulation narrative rather than pump-and-dump mechanics",
+            "Small market cap (~$10.9M) and Communication Services sector allow for aggressive repricing on sympathy flows or sector rotation"
+          ],
+          "bearFactors": [
+            "S-3 shelf filing (2026-10-16) is a dilution warning signal and overhead supply overhang—Jack avoids ATM/convertibles/shelf offerings",
+            "News is purely fluff: two conference participation announcements carry no cash value or material catalyst; this is a sympathy/rig move, not fundamental",
+            "Float slightly above preferred <10M threshold; larger float than ideal for momentum scalability on retail push",
+            "No real cash-generating catalyst or partnership; move appears entirely driven by intraday accumulation pattern or sector sympathy, vulnerable to fade on news gap or profit-taking"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WHLR",
+          "hod": 58,
+          "hodExact": 58.19,
+          "news": [
+            "424B3 offering",
+            "Form 8-K"
+          ],
+          "tag": "OFFERING",
+          "name": "Wheeler Real Estate Investment Trust, Inc",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 3.94,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 3.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3597,
+          "open": 0.4352,
+          "gapPct": 20.99,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.569,
+          "hodTimeExact": "04:10 AM ET",
+          "close": 0.53,
+          "fade": 6,
+          "fadeExact": 6.85,
+          "vwap": 0.5608,
+          "vsVwap": "below",
+          "pmHigh": 0.9258,
+          "volRaw": "94.1M",
+          "volDollar": 52775832,
+          "relVol": 12.6,
+          "avgVolM": 7.5,
+          "ssr": false,
+          "reverseSplit": "9:1",
+          "newsHeadlines": [
+            "424B3 offering",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000405/a8-kexchangeoctober132026.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000399/whlr-20261013.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WHLR",
+          "newsSummary": "WHLR filed a 424B3 offering document on Oct 19, before today's 58% HOD move, signaling potential dilution ahead. The Form 8-K accompanying it suggests material corporate action. This is a dilutive catalyst that typically pressures valuations post-announcement, yet the stock ripped intraday — a red flag for either delayed market absorption or a mismatch between news timing and price action.",
+          "bullFactors": [
+            "Ultra-tight float at 3.94M shares — micro-cap with extreme leverage to volume",
+            "Strong intraday structure: 58% HOD with only 6.85% fade shows sustained buying pressure and institutional accumulation through the session",
+            "12.6x relative volume indicates aggressive participation; session HODs dominating over premarket suggests real tape strength, not early spike fade",
+            "Gap + session gains total ~79% — price found support and extended, typical of institutional rigs with follow-through"
+          ],
+          "bearFactors": [
+            "424B3 offering is textbook dilution — new share issuance ahead will pressure equity value and create overhead supply resistance",
+            "Offering filed before the move creates confusion: either the market is ignoring dilution risk, or there's a hidden positive catalyst not disclosed yet",
+            "Real Estate sector has no clear momentum theme in current tape — lack of thematic tailwind suggests this is a structural play on float squeeze alone",
+            "Form 8-K + offering combo signals corporate distress or capital raise necessity — sustainability of move is questionable when dilution closes"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 352,
+      "fade": 31,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "POM led +352.77% (0% fade). 4/10 held <20% fade. news: POM — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ - 2026-10-21**\n\nToday's tape is dominated by NO-NEWS sympathy runs (5 of top 10) with secondary weight on compliance/offering tags—a structural red flag signaling retail-driven momentum absent real catalysts. Float tier skew is excellent (7 names under 10M, median 2.5M), but session timing reveals a COLD cycle: premarket spikes dominated the leaderboard (RBNE, SHFS, WHLR all peaked early), with heavy fades baked into morning and afternoon sessions (RBNE down 77%, REED down 62%, AMOD down 55%). Only POM sustained strength into after-hours on a compliance tag, and OLOX (acquisition) held reasonably with 21% fade—both exceptions to the rule. This playbook explicitly avoids NO-NEWS runners and dilutive offerings, and the concentration of early-session peaks combined with brutal intraday reversals signals retail exhaustion rather than institutional accumulation, making today structurally unfavorable for flag/dip setups that require sustained intraday HOD printing and high-volume holds."
+    },
     {
       "date": "2026-10-20",
       "runners": [
