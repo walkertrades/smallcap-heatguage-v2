@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-22T12:12:13.362673Z",
-  "count": 10099,
+  "exportedAt": "2026-10-22T21:06:47.611706Z",
+  "count": 10109,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1037 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-22",
+      "runners": [
+        {
+          "sym": "SHFS",
+          "hod": 250,
+          "hodExact": 250.19,
+          "news": [
+            "Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "SHF Holdings, Inc. Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 1.03,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 1.03M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.03M + RelVol 20.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.03M + RelVol 20.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1542,
+          "open": 0.22,
+          "gapPct": 42.67,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.54,
+          "hodTimeExact": "11:44 AM ET",
+          "close": 0.3429,
+          "fade": 36,
+          "fadeExact": 36.5,
+          "vwap": 0.3204,
+          "vsVwap": "above",
+          "pmHigh": 0.3,
+          "volRaw": "918.7M",
+          "volDollar": 294350444,
+          "relVol": 20.8,
+          "avgVolM": 44.1,
+          "ssr": false,
+          "reverseSplit": "12:1",
+          "newsHeadlines": [
+            "Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+              "url": "https://www.stocktitan.net/news/SHFS/safe-harbor-financial-receives-additional-180-day-compliance-period-7gpbs3e3q1iz.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T20:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226047774/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 1.0,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SHFS",
+          "newsSummary": "SHFS received an additional 180-day compliance extension from Nasdaq on 2026-10-20 to regain minimum bid price compliance—this news preceded the move and is reactive, not causal. The stock still faces delisting risk if it cannot trade above $1.00; this is a survival story, not a real cash value catalyst.",
+          "bullFactors": [
+            "Micro float (1.03M) provides structural volatility and squeeze potential if retail catches momentum",
+            "Extreme relative volume (20.8x) indicates genuine intraday accumulation and tape heat during the session",
+            "Large HOD move (250%) shows afternoon session strength and sustained buying, not just premarket fade—suggests institutional participation"
+          ],
+          "bearFactors": [
+            "Compliance extension is a negative signal—delisting threat remains; no path to $1+ bid disclosed",
+            "36.5% fade from HOD reveals profit-taking and distribution into the move; late-session HOD is red flag for retail exhaustion",
+            "Financial Services micro-cap with no real M&A, earnings, or product catalyst; compliance news is a survival extension, not growth driver",
+            "Gap of 42.67% suggests premarket euphoria spillover; risk of hard fade on open next session if no fresh buying appears"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "TANH",
+          "hod": 220,
+          "hodExact": 220.66,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Tantech Holdings Ltd. Class A Common Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 0.59,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 0.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.59M + RelVol 25.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.59M + RelVol 25.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 8.81,
+          "open": 8.992,
+          "gapPct": 2.07,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 28.25,
+          "hodTimeExact": "04:01 PM ET",
+          "close": 24.83,
+          "fade": 12,
+          "fadeExact": 12.11,
+          "vwap": 20.6111,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "1.7M",
+          "volDollar": 34854772,
+          "relVol": 25.9,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TANH",
+          "newsSummary": "TANH ran 220% with a minimal 2.07% gap and only 12.11% fade, indicating sustained intraday buying pressure throughout the session rather than a premarket spike-and-fade pattern. No news catalyst was found; this is a structural China rig setup — nano-float Chinese micro-cap with aggressive institutional accumulation and afternoon continuation strength.",
+          "bullFactors": [
+            "Ultra-nano float (0.59M shares) creates mechanical scarcity and outsized leverage on institutional accumulation",
+            "220% HOD with only 12% fade shows sustained intraday momentum and afternoon session HOD printing — classic China rig continuation, not pump-and-dump",
+            "Exceptional relative volume (25.9x) all day with high-volume session HODs indicates professional buying pressure, not retail panic",
+            "Small gap (2.07%) means setup was given time to develop intraday — not a violent premarket spike out of play"
+          ],
+          "bearFactors": [
+            "China-domiciled micro-cap with no substantive cash catalyst — pure structural rig, subject to rapid spillover reversal",
+            "Consumer Defensive sector lacks momentum tailwind; move is float-driven, not fundamental-driven",
+            "No-news condition means zero barrier to support a fade if institutional buyers step aside",
+            "Market cap only $17.4M — liquidity concentration risk if volume clusters"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "STAK",
+          "hod": 87,
+          "hodExact": 87.0,
+          "news": [
+            "STAK Inc. Announces Financial Results for Fiscal Year 2026",
+            "Form 6-K",
+            "Form 20-F"
+          ],
+          "tag": "EARNINGS",
+          "name": "STAK Inc. Class A Ordinary Shares",
+          "sector": "Energy",
+          "country": "CN",
+          "floatM": 10.01,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$34M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 10.01M + RelVol 20.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 10.01M + RelVol 20.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1,
+          "open": 1.68,
+          "gapPct": 68.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.87,
+          "hodTimeExact": "11:59 AM ET",
+          "close": 1.67,
+          "fade": 10,
+          "fadeExact": 10.7,
+          "vwap": 1.5832,
+          "vsVwap": "above",
+          "pmHigh": 1.71,
+          "volRaw": "81.2M",
+          "volDollar": 128577547,
+          "relVol": 20.9,
+          "avgVolM": 3.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "STAK Inc. Announces Financial Results for Fiscal Year 2026",
+            "Form 6-K",
+            "Form 20-F"
+          ],
+          "newsItems": [
+            {
+              "title": "STAK Inc. Announces Financial Results for Fiscal Year 2026",
+              "url": "https://www.stocktitan.net/news/STAK/stak-inc-announces-financial-results-for-fiscal-year-hlibfssagdra.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-21T20:20:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226047906/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Form 20-F",
+              "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226047890/form20-f.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "20-F",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:STAK",
+          "newsSummary": "STAK reported FY2026 financial results with SEC filings (Form 6-K, 20-F) released premarket on 2026-10-21. The catalyst has real merit as formal earnings + regulatory disclosure, though the 87% HOD print and 68% gap suggest the market had already priced in positive expectations or surprise before/at open. News released before the high, confirming this was not a reactive spike.",
+          "bullFactors": [
+            "Float at 10.01M is right at the threshold — mid-float but acceptable for intraday vol/min > premarket vol/min context (relVol 20.9x is strong)",
+            "87% HOD dominance indicates sustained afternoon strength, not premarket fade — consistent with hot cycle continuation",
+            "Real earnings catalyst (not sympathy, not fluff) with formal SEC filings — meets Jack's bar for 'real cash value deals'",
+            "68% gap shows conviction on open; high relative volume (20.9x) confirms institutional participation throughout session"
+          ],
+          "bearFactors": [
+            "Float slightly over preferred sub-10M threshold at 10.01M — marginal but noted",
+            "Gap + HOD setup means much of move already happened by open; limited runway for fresh intraday entries if you missed premarket",
+            "Chinese micro-cap energy name with no major partnership or big-name co-catalyst — relies on earnings beat alone, no secondary tailwind",
+            "Energy sector is cyclical and China-listed — geopolitical/regulatory risk and potential for sudden reversals not present in domestic plays"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "XLAB",
+          "hod": 78,
+          "hodExact": 78.31,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Exascale Labs Holdings Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 2.89,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$283M",
+          "riskBadges": [
+            "Float 2.89M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.72,
+          "open": 3.2,
+          "gapPct": 17.65,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 4.85,
+          "hodTimeExact": "01:40 PM ET",
+          "close": 4.71,
+          "fade": 2,
+          "fadeExact": 2.89,
+          "vwap": 3.7493,
+          "vsVwap": "above",
+          "pmHigh": 3.6,
+          "volRaw": "66.7M",
+          "volDollar": 250136840,
+          "relVol": 4.9,
+          "avgVolM": 13.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2109869/000182912626011139/exascalelabs_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XLAB",
+          "newsSummary": "XLAB filed a Form 8-K on 2026-10-15, well before today's move, making it a reactive filing rather than a fresh catalyst. The 78% HOD retention with minimal fade and strong 4.9x relative volume suggest sustained institutional buying pressure throughout the session, not a reaction to the 8-K itself. Real catalyst driving today's action remains unclear from available data.",
+          "bullFactors": [
+            "Micro-float at 2.89M shares — ideal for momentum with low supply ceiling",
+            "78% HOD with only 2.89% fade shows afternoon continuation and short covering, not premarket spike collapse",
+            "4.9x relative volume indicates institutional accumulation throughout session, not a flash pop",
+            "Daily chart room to upside implied by gap fill (17.65% gap) and HOD retention suggests no hard overhead yet"
+          ],
+          "bearFactors": [
+            "Form 8-K filed 7 days before move — no fresh news catalyst to anchor the rally; momentum may lack fundamental support",
+            "News status 'ok' but no material details disclosed in 8-K headline; real reason for filing unknown",
+            "17.65% gap at open consumed most of available move before tape took over; limited early entry for scalpers",
+            "Sustained HOD into close on mystery catalyst is higher-risk continuation — vulnerable to gap-down reversal if thesis breaks"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NCPL",
+          "hod": 68,
+          "hodExact": 68.79,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Netcapital Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 7.85,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 7.85M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.57,
+          "open": 2.05,
+          "gapPct": 30.57,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.65,
+          "hodTimeExact": "01:49 PM ET",
+          "close": 2.23,
+          "fade": 15,
+          "fadeExact": 15.85,
+          "vwap": 2.3144,
+          "vsVwap": "below",
+          "pmHigh": 2.12,
+          "volRaw": "23.8M",
+          "volDollar": 55072632,
+          "relVol": 1.4,
+          "avgVolM": 16.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1414767/000149315226047783/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-20T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCPL",
+          "newsSummary": "NCPL filed a Form 8-K on 2026-10-20, before today's 68.79% HOD move. The 8-K itself is a disclosure vehicle rather than a catalyst—real catalysts (earnings, acquisition, material agreements) would be detailed within it, but based on available data the specific trigger is unclear. The move appears driven by institutional accumulation into a low-float name with real intraday volume continuation rather than reactive news chasing.",
+          "bullFactors": [
+            "Tight 7.85M float—well under 10M preference, supports explosive intraday range",
+            "Strong HOD dominance (68.79%) with only 15.85% fade—session HODs printing indicate sustained institutional buying pressure, not premarket spike-and-dump",
+            "Relative volume 1.4x and consolidated price action suggest dip/soak accumulation before retail push—classic institutional setup",
+            "Financial Services sector with real market cap ($17M)—not a micro shell, has structural legitimacy"
+          ],
+          "bearFactors": [
+            "Form 8-K filed 2 days before move—timing unclear; if disclosure was material it should have moved sooner, suggesting either opacity or non-catalytic filing",
+            "30.57% gap suggests premarket excitement; if fade occurs into close, intraday continuation narrative breaks",
+            "No detail on 8-K content—cannot confirm whether it contains real cash catalyst (M&A, partnership) or procedural/governance noise",
+            "Relative volume 1.4x is solid but not explosive; sustained 68% HOD without 2.0x+ vol suggests retail participation lag, liquidity risk on exit"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "XXII",
+          "hod": 60,
+          "hodExact": 60.13,
+          "news": [
+            "Form 8-K",
+            "22nd Century Group Preliminarily Reports Third Quarter Financial Results",
+            "22nd Century Same Store Unit Sales for Pinnacle VLN® and Pinnacle Pure Surge 161%"
+          ],
+          "tag": "EARNINGS",
+          "name": "22nd Century Group Inc.",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 3.42,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 3.42M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.42M + RelVol 47.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.42M + RelVol 47.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2729,
+          "open": 0.3088,
+          "gapPct": 13.16,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.437,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 0.2157,
+          "fade": 50,
+          "fadeExact": 50.64,
+          "vwap": 0.3523,
+          "vsVwap": "below",
+          "pmHigh": 0.4558,
+          "volRaw": "111.0M",
+          "volDollar": 39118730,
+          "relVol": 47.4,
+          "avgVolM": 2.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "22nd Century Group Preliminarily Reports Third Quarter Financial Results",
+            "22nd Century Same Store Unit Sales for Pinnacle VLN® and Pinnacle Pure Surge 161%"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048034/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-22T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "22nd Century Group Preliminarily Reports Third Quarter Financial Results",
+              "url": "https://www.stocktitan.net/news/XXII/22nd-century-group-preliminarily-reports-third-quarter-financial-r164qpmae650.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-22T14:35:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "22nd Century Same Store Unit Sales for Pinnacle VLN® and Pinnacle Pure Surge 161%",
+              "url": "https://www.stocktitan.net/news/XXII/22nd-century-same-store-unit-sales-for-pinnacle-vln-and-pinnacle-83epnxbm1wdm.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-15T20:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XXII",
+          "newsSummary": "XXII reported Q3 preliminary results with 161% surge in same-store unit sales for Pinnacle VLN and Pinnacle Pure, announced before the move. The earnings release at 14:35 followed by an 8-K after hours came after the stock had already made its run, indicating the market was pricing in positive results intraday. Real cash metrics (unit sales surge) provide legitimate fundamental support.",
+          "bullFactors": [
+            "Micro float at 3.42M shares — highly sensitive to institutional accumulation and retail flow",
+            "60.13% HOD continuation (not fade-dominated) signals sustained buying pressure and short covering through the session",
+            "Real catalyst with tangible metrics: 161% same-store unit sales growth is cash-backed, not fluff",
+            "47.4x relative volume shows retail and institutional participation well above average"
+          ],
+          "bearFactors": [
+            "13.16% gap and premarket spike followed by 50.64% fade suggests initial euphoria selling into strength — classic retail distribution pattern",
+            "News (earnings, 8-K) released AFTER the move indicates price action led fundamentals; momentum may have already peaked",
+            "Consumer Defensive sector in a slow-burn narrative — not a hot sector for sustained momentum runs",
+            "No daily chart context provided to assess overhead supply or flag/downtrend setup quality"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SAIQ",
+          "hod": 59,
+          "hodExact": 59.17,
+          "news": [
+            "WISeQey Launches WISMind.AI, a Trusted Platform for Autonomous AI Agents",
+            "WISeQey Issues CEO Letter to Shareholders: Building an Intelligent, Secure Platform for the Intelligence Age",
+            "WISeSat.Space and SEALSQ Advance Satellite Cybersecurity Hardening as FOSSA Launches New 6U Satellite Aboard SpaceX Falcon 9"
+          ],
+          "tag": "CONTRACT",
+          "name": "WISeSat.Space Holdings Corp. Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "VG",
+          "floatM": 2.34,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$217M",
+          "riskBadges": [
+            "Float 2.34M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.56,
+          "open": 6.52,
+          "gapPct": 17.27,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.85,
+          "hodTimeExact": "10:10 AM ET",
+          "close": 5.28,
+          "fade": 40,
+          "fadeExact": 40.34,
+          "vwap": 7.4624,
+          "vsVwap": "below",
+          "pmHigh": 6.95,
+          "volRaw": "24.5M",
+          "volDollar": 182718991,
+          "relVol": 2.1,
+          "avgVolM": 11.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "WISeQey Launches WISMind.AI, a Trusted Platform for Autonomous AI Agents",
+            "WISeQey Issues CEO Letter to Shareholders: Building an Intelligent, Secure Platform for the Intelligence Age",
+            "WISeSat.Space and SEALSQ Advance Satellite Cybersecurity Hardening as FOSSA Launches New 6U Satellite Aboard SpaceX Falcon 9"
+          ],
+          "newsItems": [
+            {
+              "title": "WISeQey Launches WISMind.AI, a Trusted Platform for Autonomous AI Agents",
+              "url": "https://www.stocktitan.net/news/SAIQ/wi-se-qey-launches-wis-mind-ai-a-trusted-platform-for-autonomous-ai-zawq51lfflnj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-22T12:49:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "WISeQey Issues CEO Letter to Shareholders: Building an Intelligent, Secure Platform for the Intelligence Age",
+              "url": "https://www.stocktitan.net/news/SAIQ/wi-se-qey-issues-ceo-letter-to-shareholders-building-an-intelligent-1pwhthl397vt.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-21T05:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "WISeSat.Space and SEALSQ Advance Satellite Cybersecurity Hardening as FOSSA Launches New 6U Satellite Aboard SpaceX Falcon 9",
+              "url": "https://www.stocktitan.net/news/SAIQ/wi-se-sat-space-and-sealsq-advance-satellite-cybersecurity-hardening-9mu6oqu6klno.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-20T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "Cybersecurity",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Space",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SAIQ",
+          "newsSummary": "SAIQ announced the launch of WISMind.AI (autonomous AI agent platform) on 2026-10-22 at 12:49 UTC, which was before the session high. The news reflects real product development tied to AI/cybersecurity/space themes (SpaceX partnership via satellite security). Catalyst has legitimate merit — tangible platform launch with CEO shareholder letter and ongoing FOSSA/SpaceX satellite cybersecurity collaboration.",
+          "bullFactors": [
+            "Ultra-tight float (2.34M) — high velocity potential on sustained volume",
+            "Strong afternoon HOD dominance (59.17% HOD vs 40.34% fade) — institutional continuation, not premarket fade pattern",
+            "Real catalyst mix: product launch (WISMind.AI) + satellite/SpaceX partnership (FOSSA 6U launch) + CEO letter = credible multi-day push potential",
+            "2.1x relative volume on micro-cap float tier suggests institutional accumulation before retail fomo phase"
+          ],
+          "bearFactors": [
+            "Virgin Islands (VG) domicile — lower regulatory oversight, higher reverse-merger/shell risk profile",
+            "News released before high (not after) — upside room depends on follow-through, not surprise catalyst extension",
+            "Communication Services + AI theme is crowded; company is micro-cap with $217M market cap — execution risk on platform adoption",
+            "Gap up entry (17.27%) — early buyers may face resistance; need to confirm HOD breaks on continued volume"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "PFSA",
+          "hod": 58,
+          "hodExact": 58.97,
+          "news": [
+            "Form 8-K",
+            "Profusa Receives ISO 13485:2016 Certificate from GMED"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Profusa, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 0.51,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.51M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8492,
+          "open": 1.03,
+          "gapPct": 21.29,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.35,
+          "hodTimeExact": "04:00 AM ET",
+          "close": 1.02,
+          "fade": 24,
+          "fadeExact": 24.44,
+          "vwap": 1.1785,
+          "vsVwap": "below",
+          "pmHigh": 2.53,
+          "volRaw": "44.6M",
+          "volDollar": 52513926,
+          "relVol": 8.7,
+          "avgVolM": 5.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Profusa Receives ISO 13485:2016 Certificate from GMED"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1859807/000121390026109558/ea0308701-8k_profusa.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-15T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Profusa Receives ISO 13485:2016 Certificate from GMED",
+              "url": "https://www.stocktitan.net/news/PFSA/profusa-receives-iso-13485-2016-certificate-from-aiizco6y19qm.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-15T10:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PFSA",
+          "newsSummary": "PFSA received ISO 13485:2016 certification from GMED on 2026-10-15, a regulatory milestone for medical device manufacturing quality. The 8-K filing followed. This is legitimate regulatory validation for a biotech/medical device company, though not a blockbuster catalyst—it's a hygiene factor that enables commercial operations rather than a revenue or efficacy event.",
+          "bullFactors": [
+            "Nano float (0.51M shares) — extremely tight supply, high leverage to institutional accumulation",
+            "Strong intraday conviction: 58.97% HOD vs 24.44% fade suggests sustained buying pressure and short covering into afternoon",
+            "Real catalyst: ISO certification is a tangible regulatory milestone, not fluff—required for device commercialization",
+            "8.7x relative volume indicates institutional interest matching the move, not pure retail panic-buying"
+          ],
+          "bearFactors": [
+            "Gap fill + HOD pattern (21.29% gap, 58.97% HOD) leaves limited room above current levels before resistance",
+            "Catalyst was pre-announced (8-K dated 2026-10-15 before the high) — move may have already priced in regulatory approval",
+            "ISO certification alone does not guarantee revenue or clinical validation; medical device companies need sales execution",
+            "Nano float introduces liquidity risk on exits; violent fade possible on profit-taking or bad news"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CRMT",
+          "hod": 57,
+          "hodExact": 57.65,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "America's Car Mart Inc",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 7.15,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 7.15M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6597,
+          "open": 0.6185,
+          "gapPct": -6.25,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.04,
+          "hodTimeExact": "03:07 PM ET",
+          "close": 0.9464,
+          "fade": 9,
+          "fadeExact": 9.0,
+          "vwap": 0.916,
+          "vsVwap": "above",
+          "pmHigh": 0.69,
+          "volRaw": "5.3M",
+          "volDollar": 4875512,
+          "relVol": 11.4,
+          "avgVolM": 0.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006742/f8k_102126.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-21T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CRMT",
+          "newsSummary": "Form 8-K filed on 2026-10-21 evening, well before today's intraday move — a reactive disclosure following price action rather than a catalyst initiating it. The 8-K itself does not reveal a substantive operational catalyst; it appears to be a standard SEC filing triggered by the stock's movement or corporate event. Without knowing the specific 8-K content, this is a structural/disclosure event, not a fundamental driver.",
+          "bullFactors": [
+            "Tight float at 7.15M — ideal for momentum amplification on high relative volume (11.4x)",
+            "Strong HOD dominance (57.65%) with only 9% fade — signals sustained intraday institutional buying and short covering pressure",
+            "No gap-up premarket trap (–6.25% overnight) — setup entered from weakness, reducing early retail FOMO spike risk and allowing dip-read accumulation",
+            "Low market cap ($7.75M) and US listing support clean tape and liquidity for day trader entries/exits"
+          ],
+          "bearFactors": [
+            "Form 8-K is reactive (filed after the move started) — no real forward catalyst, just SEC disclosure compliance",
+            "No disclosed cash catalyst, partnership, or earnings driver — move may rest on sentiment/tape alone without fundamental legs",
+            "Consumer Cyclical sector with micro-cap size carries elevated volatility and fade risk if retail enthusiasm exhausts",
+            "High relative volume (11.4x) without identified intraday news catalyst suggests potential mechanical/short squeeze rather than sustained institutional accumulation"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BKYI",
+          "hod": 54,
+          "hodExact": 54.76,
+          "news": [
+            "BIO-key Secures Another Middle East Government Contract for its Passwordless, Biometric, Identity and Access Management Solutions"
+          ],
+          "tag": "CONTRACT",
+          "name": "BIO-key International, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.75,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 1.75M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.1,
+          "open": 2.71,
+          "gapPct": 29.05,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.25,
+          "hodTimeExact": "04:16 AM ET",
+          "close": 2.74,
+          "fade": 15,
+          "fadeExact": 15.69,
+          "vwap": 2.8434,
+          "vsVwap": "below",
+          "pmHigh": 3.39,
+          "volRaw": "31.9M",
+          "volDollar": 90580331,
+          "relVol": 2.4,
+          "avgVolM": 13.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "BIO-key Secures Another Middle East Government Contract for its Passwordless, Biometric, Identity and Access Management Solutions"
+          ],
+          "newsItems": [
+            {
+              "title": "BIO-key Secures Another Middle East Government Contract for its Passwordless, Biometric, Identity and Access Management Solutions",
+              "url": "https://www.stocktitan.net/news/BKYI/bio-key-secures-another-middle-east-government-contract-for-its-96sxub1fas0d.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-22T07:59:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Cybersecurity",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Defense",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BKYI",
+          "newsSummary": "BIO-key announced a government contract win in the Middle East for biometric identity and access management solutions. The news broke before the session high, suggesting real institutional interest in the passwordless security space; this is a tangible revenue catalyst, not fluff.",
+          "bullFactors": [
+            "Ultra-tight float at 1.75M shares — extreme leverage for sustained moves",
+            "54.76% HOD hold with only 15.69% fade — strong tape, institutions defending upside into close",
+            "Real contract win (not sympathy/hype) in high-growth cybersecurity/biometric identity sector",
+            "2.4x relative volume with news breaking pre-HOD — clean setup, no premarket spike trap"
+          ],
+          "bearFactors": [
+            "29.05% gap open limits room to run intraday; need to clear prior session resistance for continuation",
+            "Micro-cap liquidity risk — exit position sizing critical if volume falls post-announcement",
+            "Government contracts are slower revenue ramp than enterprise deals — institutional patience required"
+          ],
+          "setupGrade": "A"
+        }
+      ],
+      "hod": 250,
+      "fade": 21,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "SHFS led +250.19% (36% fade). 6/10 held <20% fade. news: SHFS — \"Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement\".",
+      "aiSummary": "COMPLIANCE news dominates the tape (5 of 10 runners), a category historically prone to quick reversals and regulatory uncertainty rather than sustained institutional accumulation—weak catalyst quality for this framework's standards. Float tier is ideal with 7 names under 10M shares, but session distribution is mixed: HODs clustered in morning/afternoon (SHFS, STAK, XLAB, NCPL, CRMT) suggest some intraday continuation, yet premarket dominance (XXII, PFSA, BKYI) signals retail front-running and fade risk. US micro-caps lead the session, with minimal China rig pattern (TANH only), reducing the probability of sustained afternoon volume spillover. Overall tape temperature reads NEUTRAL-TO-COOL: while float and morning HODs offer setup potential, weak catalyst quality (compliance > earnings > contracts) and heavy premarket spikes indicate this session lacks the hot cycle sustained volume needed for A-tier execution—momentum traders should be selective and defensive on entries."
+    },
     {
       "date": "2026-10-21",
       "runners": [
