@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-22T21:06:47.611706Z",
-  "count": 10109,
+  "exportedAt": "2026-10-26T12:59:42.086331Z",
+  "count": 10119,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,965 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-23",
+      "runners": [
+        {
+          "sym": "AIOK",
+          "hod": 266,
+          "hodExact": 266.82,
+          "news": [
+            "Form 6-K",
+            "AI OKTO Corp. Declares Special Dividend of $3.50 Per Share",
+            "AI OKTO Announces the Sale of the LPG Carrier Dream Arrax"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "AI OKTO CORP. Common Stock",
+          "sector": "Industrials",
+          "country": "CY",
+          "floatM": 1.11,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$52M",
+          "riskBadges": [
+            "Float 1.11M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.11M + RelVol 655.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.11M + RelVol 655.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.25,
+          "open": 5.55,
+          "gapPct": 30.59,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 15.59,
+          "hodTimeExact": "12:06 PM ET",
+          "close": 12.02,
+          "fade": 22,
+          "fadeExact": 22.9,
+          "vwap": 11.1028,
+          "vsVwap": "above",
+          "pmHigh": 4.68,
+          "volRaw": "42.9M",
+          "volDollar": 476221109,
+          "relVol": 655.8,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "AI OKTO Corp. Declares Special Dividend of $3.50 Per Share",
+            "AI OKTO Announces the Sale of the LPG Carrier Dream Arrax"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2095591/000114036126040608/ef20084229_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "AI OKTO Corp. Declares Special Dividend of $3.50 Per Share",
+              "url": "https://www.stocktitan.net/news/AIOK/ai-okto-corp-declares-special-dividend-of-3-50-per-huhuz5y9wdwj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-23T13:24:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "AI OKTO Announces the Sale of the LPG Carrier Dream Arrax",
+              "url": "https://www.stocktitan.net/news/AIOK/ai-okto-announces-the-sale-of-the-lpg-carrier-dream-u9fepf7rp8c0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-23T12:55:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Shipping",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIOK",
+          "newsSummary": "AIOK declared a special dividend of $3.50 per share and announced the sale of LPG carrier Dream Arrax—both real cash-generating events signaling shareholder return and asset monetization. These catalysts fired before the move (relative_to_high='before'), confirming genuine institutional accumulation rather than reactive news chasing.",
+          "bullFactors": [
+            "Micro float (1.11M shares) with 655.8x relative volume—extreme velocity and low share count create explosive potential",
+            "Real cash catalyst: $3.50 special dividend + asset sale (Dream Arrax) = tangible shareholder value, not dilutive fluff",
+            "HOD of 266.82% with only 22.9% fade—sustained intraday strength and afternoon continuation signal hot tape and institutional buying pressure",
+            "Gap up 30.59% into news, catalysts hit premarket/midday allowing time for institutional setup before retail retail push into close"
+          ],
+          "bearFactors": [
+            "Cyprus-listed Industrials micro-cap with limited liquidity history outside pump cycles—execution risk on fills at scale",
+            "Form 6-K filed after the move (relative_to_high='after')—reactive disclosure, no forward catalyst remaining for next session",
+            "Extreme single-day move (266%+) suggests potential squeeze/short-covering exhaustion; overnight gap risk and liquidity drop likely at open tomorrow",
+            "Shipping/LPG carrier asset sales tied to commodity cycles—thesis may not sustain if broader macro sentiment shifts"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "CLRO",
+          "hod": 144,
+          "hodExact": 144.01,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ClearOne, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.03,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 1.03M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.03M + RelVol 22.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.03M + RelVol 22.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.92,
+          "open": 1.97,
+          "gapPct": 2.6,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.685,
+          "hodTimeExact": "10:13 AM ET",
+          "close": 3.25,
+          "fade": 30,
+          "fadeExact": 30.63,
+          "vwap": 3.4709,
+          "vsVwap": "below",
+          "pmHigh": 2.0796,
+          "volRaw": "36.6M",
+          "volDollar": 127098319,
+          "relVol": 22.2,
+          "avgVolM": 1.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CLRO",
+          "newsSummary": "CLRO ran 144% intraday with no identifiable news catalyst and no press releases to explain the move. This is a pure technicals/structural play driven by institutional accumulation in a micro-float name (1.03M shares) with sustained high relative volume (22.2x) throughout the session rather than a premarket spike fade.",
+          "bullFactors": [
+            "Micro-float (1.03M) well under 10M threshold — tight supply structure amplifies intraday moves",
+            "Sustained high relative volume (22.2x) and HOD printing at 144% suggests afternoon continuation and shorts blowing out, not premarket pop-and-fade",
+            "144% HOD with only 30.63% fade indicates institutional accumulation/rig pattern holding through close — real buying pressure, not dump",
+            "Small market cap ($10.6M) with room to run on low float — classic Jack Walker micro-cap structure"
+          ],
+          "bearFactors": [
+            "No news catalyst identified — move is purely structural/sympathy, creating binary hold/collapse risk into next session",
+            "30.63% fade from HOD still leaves significant intraday pullback; any overnight gap down or premarket selling could trigger sharp reversal",
+            "Technology sector with no announced deal/earnings/partnership — vulnerable to sector rotation or profit-taking on open",
+            "Micro-float and extreme intraday volatility increase liquidity risk and risk of being trapped at higher levels"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MYND",
+          "hod": 121,
+          "hodExact": 121.13,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Mynd.ai, Inc. American Depositary Shares, each representing ten (10) Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 9.29,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$13M",
+          "riskBadges": [
+            "Float 9.29M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.29M + RelVol 94.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.29M + RelVol 94.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1628,
+          "open": 0.29,
+          "gapPct": 78.13,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.36,
+          "hodTimeExact": "10:19 AM ET",
+          "close": 0.24,
+          "fade": 33,
+          "fadeExact": 33.33,
+          "vwap": 0.2656,
+          "vsVwap": "below",
+          "pmHigh": 0.186,
+          "volRaw": "61.5M",
+          "volDollar": 16341886,
+          "relVol": 94.8,
+          "avgVolM": 0.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:MYND",
+          "newsSummary": "MYND ran 121% from open to HOD with no substantive news catalyst identified. The move appears to be pure intraday momentum driven by low float (9.29M) and high relative volume (94.8x), characteristic of a sympathy/structural play rather than a fundamental event.",
+          "bullFactors": [
+            "Low float at 9.29M — well within Jack's <10M preference for explosive intraday moves",
+            "Session HOD printing at +121% suggests sustained institutional accumulation and short-squeeze dynamics, not a premarket spike-and-fade",
+            "High relative volume (94.8x) indicates serious intraday participation and liquidity to trade with",
+            "HOD came late in session (121% vs 78% gap suggests continued strength after open), indicating afternoon momentum continuation rather than early fade"
+          ],
+          "bearFactors": [
+            "No-news catalyst is structurally weaker than real cash deals or strong ERs — pure momentum names are vulnerable to sharp reversals",
+            "33% fade from HOD to close signals profit-taking and potential intraday exhaustion; entry timing will be critical",
+            "Without identified catalyst, sustainability is questionable — sympathy runners often lose steam day-to-day",
+            "Micro-cap ($12.7M market cap) with no news can attract fast money that exits just as quickly"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BOLT",
+          "hod": 85,
+          "hodExact": 85.68,
+          "news": [
+            "Form 8-K",
+            "Bolt Biotherapeutics Announces Acquisition of Prana Therapies and $120 Million Concurrent Private Placement to Advance PRA-216 in Multiple High-Value Inflammatory Indications"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Bolt Biotherapeutics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.54,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$12M",
+          "riskBadges": [
+            "Float 1.54M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.19,
+          "open": 6.98,
+          "gapPct": 66.59,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.78,
+          "hodTimeExact": "10:02 AM ET",
+          "close": 6.27,
+          "fade": 19,
+          "fadeExact": 19.41,
+          "vwap": 6.9591,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "12.9M",
+          "volDollar": 89652018,
+          "relVol": 583.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Bolt Biotherapeutics Announces Acquisition of Prana Therapies and $120 Million Concurrent Private Placement to Advance PRA-216 in Multiple High-Value Inflammatory Indications"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1641281/000119312526429647/bolt-20261023.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Bolt Biotherapeutics Announces Acquisition of Prana Therapies and $120 Million Concurrent Private Placement to Advance PRA-216 in Multiple High-Value Inflammatory Indications",
+              "url": "https://www.stocktitan.net/news/BOLT/bolt-biotherapeutics-announces-acquisition-of-prana-therapies-and-fpf7fkx5kpg0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-23T13:08:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BOLT",
+          "newsSummary": "Bolt Biotherapeutics announced the acquisition of Prana Therapies with a $120M concurrent private placement, a real cash-backed deal with clinical merit (PRA-216 in inflammatory indications). The catalyst preceded the high, driving institutional accumulation and sustained intraday strength through afternoon session.",
+          "bullFactors": [
+            "Ultra-micro float (1.54M) with 583x relative volume—extreme leverage for sustained moves",
+            "Real M&A catalyst with $120M concurrent financing (cash value, not dilutive fluff)",
+            "85.68% HOD printed late session (afternoon continuation dominance), not premarket fade—tape is hot and institutional",
+            "66.59% gap + dip/soak structure gave time to set up; high volume all day signals sustained accumulation, not pump-and-dump"
+          ],
+          "bearFactors": [
+            "$120M private placement is dilutive to existing shareholders on a $12M market cap company—significant dilution ratio",
+            "Form 8-K filed after the high (20:00 UTC vs intraday move)—reactive filing, not driver; limits new catalyst lift",
+            "Micro-cap biotech with clinical-stage asset; acquisition of early-stage therapy carries execution risk and ongoing cash burn",
+            "Once HOD is printed on low float with extreme volume, liquidity can evaporate quickly on any profit-taking or halt risk"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "YMAT",
+          "hod": 85,
+          "hodExact": 85.42,
+          "news": [
+            "J-Star Holding Co., Ltd. Files Interim Financial Report on Form 6-K",
+            "Form 6-K",
+            "J-Star Holding Co., Ltd. Advances U.S. Drone Manufacturing Initiative; Negotiates Acquisition of Facility in the Greater Houston Area"
+          ],
+          "tag": "ACQUISITION",
+          "name": "J-Star Holding Co., Ltd. Class A Ordinary Shares",
+          "sector": "Basic Materials",
+          "country": "TW",
+          "floatM": 2.56,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [
+            "Float 2.56M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.92,
+          "open": 2.54,
+          "gapPct": 32.29,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.56,
+          "hodTimeExact": "07:33 AM ET",
+          "close": 2.05,
+          "fade": 42,
+          "fadeExact": 42.42,
+          "vwap": 2.899,
+          "vsVwap": "below",
+          "pmHigh": 3.8,
+          "volRaw": "47.1M",
+          "volDollar": 136425418,
+          "relVol": 4.4,
+          "avgVolM": 10.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "J-Star Holding Co., Ltd. Files Interim Financial Report on Form 6-K",
+            "Form 6-K",
+            "J-Star Holding Co., Ltd. Advances U.S. Drone Manufacturing Initiative; Negotiates Acquisition of Facility in the Greater Houston Area"
+          ],
+          "newsItems": [
+            {
+              "title": "J-Star Holding Co., Ltd. Files Interim Financial Report on Form 6-K",
+              "url": "https://www.stocktitan.net/news/YMAT/j-star-holding-co-ltd-files-interim-financial-report-on-form-6-5krespe4m3hk.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-23T20:15:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1875016/000149315226048239/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "J-Star Holding Co., Ltd. Advances U.S. Drone Manufacturing Initiative; Negotiates Acquisition of Facility in the Greater Houston Area",
+              "url": "https://www.stocktitan.net/news/YMAT/j-star-holding-co-ltd-advances-u-s-drone-manufacturing-initiative-2zms65ei0fik.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Drone/UAV",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:YMAT",
+          "newsSummary": "J-Star advanced a U.S. drone manufacturing initiative with facility acquisition negotiations in Greater Houston on 2026-10-19, providing a concrete real-asset catalyst. The interim financial report filed after hours (2026-10-23) is reactive to the day's move and confirms operational status rather than driving the rally.",
+          "bullFactors": [
+            "Micro-cap float (2.56M) — tight liquidity favors intraday momentum and sustained runs",
+            "Real cash catalyst: U.S. drone manufacturing facility acquisition, not sympathy or fluff",
+            "85% HOD percentage with 4.4x relative volume shows strong sustained buying throughout session, not a premarket spike fade",
+            "Drone/UAV theme aligns with defense and manufacturing tailwinds; Greater Houston location signals serious operational intent"
+          ],
+          "bearFactors": [
+            "Taiwan-listed small cap introduces currency and disclosure risk; 6-K filings can lag material events",
+            "32% gap on open ate into intraday range; limited morning setup time for institutional accumulation read",
+            "42% fade from HOD suggests afternoon profit-taking; need to confirm if late-day HOD printing holds or reversals dominate"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "XXII",
+          "hod": 59,
+          "hodExact": 59.94,
+          "news": [
+            "424B5 offering",
+            "Form 8-K",
+            "22nd Century Group Preliminarily Reports Third Quarter Financial Results"
+          ],
+          "tag": "OFFERING",
+          "name": "22nd Century Group Inc.",
+          "sector": "Consumer Defensive",
+          "country": "US",
+          "floatM": 19.2,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 19.2M + RelVol 27.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 19.2M + RelVol 27.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2157,
+          "open": 0.325,
+          "gapPct": 50.67,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.345,
+          "hodTimeExact": "05:17 AM ET",
+          "close": 0.1977,
+          "fade": 42,
+          "fadeExact": 42.7,
+          "vwap": 0.3764,
+          "vsVwap": "below",
+          "pmHigh": 0.7459,
+          "volRaw": "219.6M",
+          "volDollar": 82652614,
+          "relVol": 27.7,
+          "avgVolM": 7.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "424B5 offering",
+            "Form 8-K",
+            "22nd Century Group Preliminarily Reports Third Quarter Financial Results"
+          ],
+          "newsItems": [
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048282/form424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048281/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "22nd Century Group Preliminarily Reports Third Quarter Financial Results",
+              "url": "https://www.stocktitan.net/news/XXII/22nd-century-group-preliminarily-reports-third-quarter-financial-r164qpmae650.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-22T14:35:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Agriculture",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XXII",
+          "newsSummary": "XXII gapped 50.67% on Q3 preliminary results (released premarket 10-22), then printed a 59.94% session HOD with 42.7% fade into close. A 424B5 offering was filed after hours post-high, indicating dilution ahead. The earnings beat alone has merit, but the offering announcement—reactive, not causal—signals shareholder dilution and caps upside.",
+          "bullFactors": [
+            "Q3 preliminary results released premarket with real earnings beat—institutional-grade catalyst, not fluff",
+            "59.94% HOD printed and held most of session before fade; sustained intraday volume (relVol 27.7x) shows genuine retail/institutional demand",
+            "19.2M float (mid-tier, not nano) allowed room for controlled move without extreme illiquidity"
+          ],
+          "bearFactors": [
+            "424B5 offering filed after-hours post-high—classic dilution play that caps future upside and signals management cash needs",
+            "42.7% fade into close despite strong earnings shows institutional sellers taking profits; no sustained afternoon continuation",
+            "Premarket gap (50.67%) did most of the work; intraday continuation modest relative to open—classic fade setup"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "JYD",
+          "hod": 46,
+          "hodExact": 46.38,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Jayud Global Logistics Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 7.59,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [
+            "Float 7.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.38,
+          "open": 1.39,
+          "gapPct": 0.72,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.02,
+          "hodTimeExact": "02:18 PM ET",
+          "close": 1.83,
+          "fade": 9,
+          "fadeExact": 9.41,
+          "vwap": 1.7813,
+          "vsVwap": "above",
+          "pmHigh": 1.42,
+          "volRaw": "3.6M",
+          "volDollar": 6499905,
+          "relVol": 1.9,
+          "avgVolM": 1.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:JYD",
+          "newsSummary": "JYD moved 46.38% intraday with no identifiable news catalyst — pure structural momentum in a low-float Chinese industrial micro-cap. The sustained HOD dominance (46.38% vs 9.41% fade) and 1.9x relative volume suggest institutional accumulation and retail continuation rather than a news-driven event.",
+          "bullFactors": [
+            "7.59M float (well under 10M threshold) — tight supply for intraday vol acceleration",
+            "HOD-dominant tape (46.38% gain, only 9.41% fade) — classic hot cycle afternoon continuation, shorts blowing out",
+            "1.9x relative volume all day — sustained institutional buying pressure, not a 1-2 minute spike",
+            "Chinese micro-cap industrial name with China Rig structural pattern — these run on accumulated buying throughout session, not premarket dumps"
+          ],
+          "bearFactors": [
+            "No news catalyst — move is purely sentiment/liquidity driven, vulnerable to reversal on next session",
+            "Micro-cap Chinese industrial (14.4M market cap) — lower regulatory oversight, higher black swan risk on macro/policy shifts",
+            "Tight float can reverse fast if retail exits — no fundamental anchor to defend levels"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "HTCO",
+          "hod": 46,
+          "hodExact": 46.15,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "High-Trend International Group Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "SG",
+          "floatM": 7.95,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [
+            "Float 7.95M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.95M + RelVol 16.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.95M + RelVol 16.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.17,
+          "open": 1.21,
+          "gapPct": 3.42,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.7099,
+          "hodTimeExact": "01:16 PM ET",
+          "close": 1.53,
+          "fade": 10,
+          "fadeExact": 10.52,
+          "vwap": 1.5306,
+          "vsVwap": "below",
+          "pmHigh": 1.26,
+          "volRaw": "3.6M",
+          "volDollar": 5475695,
+          "relVol": 16.2,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:HTCO",
+          "newsSummary": "HTCO moved +46% intraday with no announced catalyst—pure price action driven. Tape shows sustained institutional accumulation with afternoon HOD printing, characteristic of a low-float structural rig rather than a premarket spike-and-fade.",
+          "bullFactors": [
+            "Ultra-low float (7.95M) with 16.2x relative volume—high leverage for sustained moves",
+            "46% HOD vs. only 10.5% fade indicates afternoon continuation strength and short covering, not premarket exhaustion",
+            "Singapore-listed industrial micro-cap with greater_china exposure—matches China Rig pattern: sustained intraday trend with multiple session HODs and all-day relative volume",
+            "No dilutive news, offerings, or warrant exercises—clean daily chart setup"
+          ],
+          "bearFactors": [
+            "No news catalyst means move is purely structural/sentiment-driven—vulnerable to reversal without follow-through buying",
+            "3.42% gap up into the move raises risk that early buyers are trapped if afternoon continuation fails",
+            "Market cap only $15.6M—extreme illiquidity in any fade or halt scenario",
+            "Industrial sector with no stated business catalyst—harder to justify holding overnight or across sessions"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BKYI",
+          "hod": 43,
+          "hodExact": 43.07,
+          "news": [
+            "BIO-key Secures Another Middle East Government Contract for its Passwordless, Biometric, Identity and Access Management Solutions"
+          ],
+          "tag": "CONTRACT",
+          "name": "BIO-key International, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.75,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$7M",
+          "riskBadges": [
+            "Float 1.75M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.74,
+          "open": 3.25,
+          "gapPct": 18.61,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.92,
+          "hodTimeExact": "11:51 AM ET",
+          "close": 3.39,
+          "fade": 13,
+          "fadeExact": 13.52,
+          "vwap": 3.5296,
+          "vsVwap": "below",
+          "pmHigh": 3.36,
+          "volRaw": "35.3M",
+          "volDollar": 124660453,
+          "relVol": 2.4,
+          "avgVolM": 14.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "BIO-key Secures Another Middle East Government Contract for its Passwordless, Biometric, Identity and Access Management Solutions"
+          ],
+          "newsItems": [
+            {
+              "title": "BIO-key Secures Another Middle East Government Contract for its Passwordless, Biometric, Identity and Access Management Solutions",
+              "url": "https://www.stocktitan.net/news/BKYI/bio-key-secures-another-middle-east-government-contract-for-its-96sxub1fas0d.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-22T07:59:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Cybersecurity",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "Defense",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BKYI",
+          "newsSummary": "BIO-key secured another Middle East government contract for biometric identity and access management solutions, announced pre-market on 2026-10-22. This is real cash revenue with a repeat customer pattern, representing genuine business traction rather than speculative news.",
+          "bullFactors": [
+            "Micro-float at 1.75M shares — excellent liquidity compression for sustained runs",
+            "Real catalyst: government contract with repeat customer signals repeatable revenue model and institutional confidence",
+            "Strong session HOD dominance (43.07% HOD vs 13.52% fade) — tape shows afternoon continuation and short covering, not premarket spike collapse",
+            "Relative volume 2.4x with room on daily chart — setup had time to build, not a one-minute 100%+ blowoff"
+          ],
+          "bearFactors": [
+            "Gap already captured 18.61% at open — most of the move may be front-loaded; watch for afternoon fade into close",
+            "Government contract news is incremental (another contract, not transformational) — risk of single-day pop without follow-through volume",
+            "Micro-cap with limited institutional depth — liquidity could evaporate if retail sellers emerge in afternoon sessions"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "AIXI",
+          "hod": 38,
+          "hodExact": 38.71,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "XIAO-I Corporation American Depositary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 2.94,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 2.94M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.48,
+          "open": 3.19,
+          "gapPct": 28.63,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 3.44,
+          "hodTimeExact": "08:15 AM ET",
+          "close": 2.96,
+          "fade": 13,
+          "fadeExact": 13.95,
+          "vwap": 3.1403,
+          "vsVwap": "below",
+          "pmHigh": 3.64,
+          "volRaw": "16.9M",
+          "volDollar": 52934900,
+          "relVol": 1.1,
+          "avgVolM": 14.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIXI",
+          "newsSummary": "AIXI moved +38.71% intraday with no identifiable news catalyst. This is a classic China Rig pattern: micro-cap float (2.94M), sustained intraday volume (relVol 1.1), and session HODs dominating the tape rather than premarket spike dominance. The move shows institutional accumulation structure, not a pump-and-dump flash spike.",
+          "bullFactors": [
+            "Micro-float (2.94M) creates tight share structure for sustained intraday continuation",
+            "Session HODs printing (38.71% HOD pct vs 13.95% fade) signals afternoon strength and short-covering pressure",
+            "Sustained relative volume (1.1x) throughout session—not a 2-minute spike, indicating real institutional buying",
+            "China Rig structural pattern: typical of aggressive accumulation cycles in micro-cap tech with multiple daily pushes"
+          ],
+          "bearFactors": [
+            "No news catalyst means momentum is purely structural/sympathy-driven—vulnerable to sudden reversal on profit-taking",
+            "Gap up 28.63% creates immediate overhead supply and risk of fade into close or next session",
+            "Reliance on flow/tape reading without fundamental support; lacks real cash deals or material catalysts to anchor buyers",
+            "China-listed micro-cap liquidity can evaporate quickly; EOD or next-session exit critical"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 266,
+      "fade": 23,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "AIOK led +266.82% (22% fade). 5/10 held <20% fade. news: AIOK — \"Form 6-K\".",
+      "aiSummary": "Today's tape shows dilution and acquisition noise dominating the catalog—AIOK's share buyback and BOLT/YMAT acquisitions are real, but CLRO, MYND, JYD, HTCO, and AIXI running on zero-news creates structural weakness. Float concentration is excellent (six names under 3M), but the session split is poison: five of six morning HODs faded hard (CLRO -30%, MYND -33%, YMAT -42%), while afternoon HODs (AIOK, JYD, HTCO) show cleaner tape with tighter fades—a classic cold-cycle signature where premarket retail excitement bleeds out by noon. Geography is scattered (Cyprus, Taiwan, Singapore, China micro-caps mixed with US tech), which suggests no coordinated institutional flow. This is a COLD cycle: momentum traders are seeing early-session pops get shorted into the close, minimal room for dip-and-rip setups, and the only actionable read is AIOK's afternoon strength on a real buyback with sub-2M float—everything else triggers the playbook's fade-avoidance rule and belongs in the reject pile."
+    },
     {
       "date": "2026-10-22",
       "runners": [
