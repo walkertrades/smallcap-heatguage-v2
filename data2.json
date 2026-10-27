@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-10-27T13:04:20.497769Z",
-  "count": 10129,
+  "count": 10130,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -12,6 +12,116 @@
     {
       "date": "2026-10-26",
       "runners": [
+        {
+          "sym": "AZTR",
+          "hod": 197,
+          "hodExact": 197.89,
+          "news": [
+            "Form 8-K",
+            "Azitra, Inc. Announces Revitalizing Results from Ex Vivo Study of ATR-COSF Demonstrating Ability to Reduce Fine Lines and Improve Elasticity in Human Skin"
+          ],
+          "tag": "PHASE-1",
+          "name": "Azitra Inc",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 5.65,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 5.65M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.65M + RelVol 1511.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.65M + RelVol 1511.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.715,
+          "open": 1.04,
+          "gapPct": 45.45,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.1299,
+          "hodTimeExact": "02:36 PM ET",
+          "close": 1.53,
+          "fade": 28,
+          "fadeExact": 28.17,
+          "vwap": 1.5507,
+          "vsVwap": "below",
+          "pmHigh": 1.44,
+          "volRaw": "148.4M",
+          "volDollar": 230155024,
+          "relVol": 1511.7,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": "10:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "Azitra, Inc. Announces Revitalizing Results from Ex Vivo Study of ATR-COSF Demonstrating Ability to Reduce Fine Lines and Improve Elasticity in Human Skin"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1701478/000149315226048431/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Azitra, Inc. Announces Revitalizing Results from Ex Vivo Study of ATR-COSF Demonstrating Ability to Reduce Fine Lines and Improve Elasticity in Human Skin",
+              "url": "https://www.stocktitan.net/news/AZTR/azitra-inc-announces-revitalizing-results-from-ex-vivo-study-of-atr-etl1ceme5vuf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-26T12:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.85,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:AZTR",
+          "newsSummary": "Azitra announced ex vivo study results for ATR-COSF showing ability to reduce fine lines and improve skin elasticity, released at 12:45 PM before the session high. The catalyst is real biotech clinical data (not fluff), but relatively early-stage (ex vivo, not human clinical trial). The 197.89% HOD with sustained volume and afternoon continuation suggests institutional accumulation and retail momentum built on genuine science rather than hype.",
+          "bullFactors": [
+            "Low float (5.65M) with extremely high relative volume (1511.7x), creating scarcity and velocity",
+            "Session HOD dominated (197.89% gain), with post-catalyst afternoon push indicating sustained buying pressure, not premarket fade",
+            "Real biotech catalyst — ex vivo efficacy data on skin-aging product has tangible clinical merit, not sympathy or no-cash news",
+            "Tape temperature hot — HOD printing late session with 28.17% fade from peak is normal profit-taking, not destruction; price held well above gap (45.45%)"
+          ],
+          "bearFactors": [
+            "Ex vivo study is early-stage; not human clinical trial or FDA milestone, so catalyst durability uncertain into next session",
+            "197.89% single-day move is extreme; liquidation risk and whipsaw potential on follow-through days, especially if no fresh news",
+            "Form 8-K filed after-hours — reactive disclosure, not a pre-announced catalyst; content unknown and could contain dilution or secondary offering",
+            "Healthcare/biotech small-caps prone to sharp reversals; no visible daily chart overhead supply data provided, so room to upside assumption unverified"
+          ],
+          "setupGrade": "B+"
+        },
         {
           "sym": "RCT",
           "hod": 95,
@@ -994,11 +1104,11 @@
           "setupGrade": "B"
         }
       ],
-      "hod": 95,
+      "hod": 197,
       "fade": 28,
       "hodTime": "regular session",
       "theme": "Choppy Mixed",
-      "note": "RCT led +95.14% (44% fade). 4/10 held <20% fade. news: RCT — \"RedCloud Repays All Convertible Notes In Full\".",
+      "note": "AZTR led +197.89% (28% fade). 4/11 held <20% fade. news: AZTR — \"Form 8-K\".",
       "aiSummary": "Today's tape is **COLD with structural red flags**: catalyst quality is predominantly weak (NO-NEWS dominates 4/10, plus SYMPATHY/ACQUISITION tags), and the session HOD distribution tells the story—63% of runners peaked in premarket or after-hours, with only CLRO and BRAI printing afternoon HODs despite massive dollar volume, signaling classic pop-and-fade behavior rather than institutional accumulation. Float tier is mixed but problematic: while CLRO (1.03M), SPRC (1.92M), and SRTM (0.57M) fit the sub-10M sweet spot, the framework's red-line rules fire immediately on RCT (OFFERING, 27M float, 44% fade), SRTM (premarket spike + 54% fade = pump structure), and CLRO itself (80% HOD but NO-NEWS tag demands proof of real catalyst before entry). The one potentially legitimate setup—XTND's 72% HOD on a CONTRACT catalyst with 214M float and sustained morning session strength—sits outside preferred float range and lacks the afternoon continuation required to confirm hot cycle. This tape signals momentum traders should stay in cash or scale tight: no A++ setups present, excessive premarket dominance, low-quality news flow, and fade percentages that suggest retail exhaustion rather than institutional breakout."
     },
     {
