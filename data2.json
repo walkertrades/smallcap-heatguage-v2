@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-26T12:59:42.086331Z",
-  "count": 10119,
+  "exportedAt": "2026-10-27T13:04:20.497769Z",
+  "count": 10129,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,998 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-26",
+      "runners": [
+        {
+          "sym": "RCT",
+          "hod": 95,
+          "hodExact": 95.14,
+          "news": [
+            "RedCloud Repays All Convertible Notes In Full",
+            "424B3 offering"
+          ],
+          "tag": "OFFERING",
+          "name": "RedCloud Holdings plc Ordinary Shares",
+          "sector": "Technology",
+          "country": "GB",
+          "floatM": 27.91,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0761,
+          "open": 0.079,
+          "gapPct": 3.81,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.1485,
+          "hodTimeExact": "10:34 AM ET",
+          "close": 0.0827,
+          "fade": 44,
+          "fadeExact": 44.31,
+          "vwap": 0.122,
+          "vsVwap": "below",
+          "pmHigh": 0.0829,
+          "volRaw": "496.1M",
+          "volDollar": 60522288,
+          "relVol": 94.6,
+          "avgVolM": 5.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "RedCloud Repays All Convertible Notes In Full",
+            "424B3 offering"
+          ],
+          "newsItems": [
+            {
+              "title": "RedCloud Repays All Convertible Notes In Full",
+              "url": "https://www.stocktitan.net/news/RCT/red-cloud-repays-all-convertible-notes-in-vfpoptg52scl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-26T13:21:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/2027360/000149315226047471/form424b3.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-19T20:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RCT",
+          "newsSummary": "RCT announced repayment of all convertible notes in full on 2026-10-26 at 13:21, which occurred before the session high and is a positive deleveraging signal. However, a 424B3 offering filed on 2026-10-19 (before today's move) introduces dilution risk and suggests capital raise activity that typically weighs on momentum runners.",
+          "bullFactors": [
+            "Convertible note repayment is genuine debt elimination with real cash value — reduces future dilution burden",
+            "HOD printed at 95.14% of session range with sustained high relative volume (94.6x), indicating afternoon institutional accumulation rather than premarket fade pattern",
+            "3.81% gap up into real catalyst suggests measured entry by smart money, not panic spike"
+          ],
+          "bearFactors": [
+            "424B3 offering on file (2026-10-19) is active dilution overhang — capital raise for a 6.1M market cap micro-cap signals distress or aggressive capital needs",
+            "Float at 27.91M is well above Jack's <10M preference; even at 94.6x relVol, this is a 'thick' float with execution risk on size",
+            "Fade pct of 44.31% shows meaningful profit-taking; convertible payoff may have already priced in by 13:21 when news dropped",
+            "No clear catalyst for sustained upside — debt elimination is cleanup, not growth driver"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CLRO",
+          "hod": 80,
+          "hodExact": 80.0,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ClearOne, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.03,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [
+            "Float 1.03M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.03M + RelVol 24.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.03M + RelVol 24.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.25,
+          "open": 4.33,
+          "gapPct": 33.23,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.85,
+          "hodTimeExact": "10:11 AM ET",
+          "close": 4.97,
+          "fade": 15,
+          "fadeExact": 15.04,
+          "vwap": 4.7173,
+          "vsVwap": "above",
+          "pmHigh": 4.41,
+          "volRaw": "83.1M",
+          "volDollar": 392050123,
+          "relVol": 24.3,
+          "avgVolM": 3.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CLRO",
+          "newsSummary": "CLRO moved 33.23% on gap with 80% of session posting new HODs and only 15.04% fade, indicating sustained buying pressure throughout the day with no identifiable news catalyst. The move appears driven by intraday institutional accumulation and momentum continuation rather than a specific event.",
+          "bullFactors": [
+            "Micro-float at 1.03M shares — extreme leverage for momentum intraday moves",
+            "80% HOD dominance with only 15.04% fade signals hot tape and institutional follow-through, not premarket spike-and-fade",
+            "24.3x relative volume sustains momentum across the full session — continuation strength into close",
+            "Gap-and-go setup with room to upside on daily chart given small market cap and clean float structure"
+          ],
+          "bearFactors": [
+            "No substantive catalyst — 33% move on news_status='none' raises rig/sympathy risk and sustainability concerns",
+            "Micro-cap at $16.1M market cap introduces extreme volatility and liquidity cliff risk on exit",
+            "No identifiable real cash value event, strong ER, partnership, or data — move is purely technical/structural",
+            "Late-session HOD concentration could indicate late-day retail chasing rather than institutional accumulation phase"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "XTND",
+          "hod": 72,
+          "hodExact": 72.32,
+          "news": [
+            "XTEND Secures $2.35 Million Middle East Defense Order for XOS-Powered SCORPIO 1000 Systems One Day After Reporting Nine-Month Revenue Above Full-Year 2025",
+            "Form 8-K",
+            "XTEND Reports Preliminary Third Quarter 2026 Results, Names Former Navy SEAL Captain Matt McGraw U.S. CEO, and Issues Letter to Shareholders"
+          ],
+          "tag": "CONTRACT",
+          "name": "Xtend AI Robotics, Inc.",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 214.44,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$621M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.77,
+          "open": 1.78,
+          "gapPct": 0.56,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.05,
+          "hodTimeExact": "10:39 AM ET",
+          "close": 2.18,
+          "fade": 28,
+          "fadeExact": 28.52,
+          "vwap": 2.3888,
+          "vsVwap": "below",
+          "pmHigh": 1.81,
+          "volRaw": "41.2M",
+          "volDollar": 98387565,
+          "relVol": 39.6,
+          "avgVolM": 1.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "XTEND Secures $2.35 Million Middle East Defense Order for XOS-Powered SCORPIO 1000 Systems One Day After Reporting Nine-Month Revenue Above Full-Year 2025",
+            "Form 8-K",
+            "XTEND Reports Preliminary Third Quarter 2026 Results, Names Former Navy SEAL Captain Matt McGraw U.S. CEO, and Issues Letter to Shareholders"
+          ],
+          "newsItems": [
+            {
+              "title": "XTEND Secures $2.35 Million Middle East Defense Order for XOS-Powered SCORPIO 1000 Systems One Day After Reporting Nine-Month Revenue Above Full-Year 2025",
+              "url": "https://www.stocktitan.net/news/XTND/xtend-secures-2-35-million-middle-east-defense-order-for-xos-powered-p3lvmvz6jzs2.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-27T12:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2111860/000119312526431933/d184978d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "XTEND Reports Preliminary Third Quarter 2026 Results, Names Former Navy SEAL Captain Matt McGraw U.S. CEO, and Issues Letter to Shareholders",
+              "url": "https://www.stocktitan.net/news/XTND/xtend-reports-preliminary-third-quarter-2026-results-names-former-595aly2nf4wl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-26T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Defense",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNYS",
+          "tvSymbol": "NYSE:XTND",
+          "newsSummary": "XTEND reported Q3 preliminary results, named a former Navy SEAL as U.S. CEO, and issued a shareholder letter on 2026-10-26 before the session high. A $2.35M Middle East defense order for SCORPIO 1000 systems followed the next day after the move, confirming real cash revenue but arriving too late to be the primary driver. The catalyst is legitimate defense/robotics revenue, but timing suggests the tape moved on the operational news and leadership change.",
+          "bullFactors": [
+            "Real cash contract ($2.35M defense order) provides tangible revenue validation, not fluff",
+            "Leadership change (Navy SEAL CEO) adds credibility for defense sector positioning",
+            "Industrials + Defense + Robotics intersection has institutional tailwinds; strong thematic relevance",
+            "72.32% HOD dominance with 39.6x relative volume shows sustained intraday strength, not premarket fade pattern"
+          ],
+          "bearFactors": [
+            "Mega-thick float (214.44M shares) severely limits explosive momentum—this is NOT a small-cap runner by Jack's primary criteria (under 10M preferred)",
+            "Premarket gap only 0.56%, so most of the 72% move happened in-session on news; late entry risk is high",
+            "Form 8-K filed after hours on 2026-10-26—potential disclosure of dilution, secondary offering, or other headwinds that could reverse the move",
+            "Defense order news came after the session high—confirms the stock already topped on hype before fundamentals validated it"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SPRC",
+          "hod": 63,
+          "hodExact": 63.3,
+          "news": [
+            "Form 6-K",
+            "SciSparc: Subsidiary NeuroThera Labs Reports Positive Progress in FDA-Approved Phase IIb Clinical Trial for Tourette Syndrome",
+            "SciSparc Shifts Focus to Agentic AI, Targeting Cybersecurity and Finance Applications"
+          ],
+          "tag": "PHASE-2",
+          "name": "SciSparc Ltd. Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 1.92,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.92M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.09,
+          "open": 1.595,
+          "gapPct": 46.33,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.78,
+          "hodTimeExact": "04:02 AM ET",
+          "close": 1.29,
+          "fade": 27,
+          "fadeExact": 27.53,
+          "vwap": 1.5646,
+          "vsVwap": "below",
+          "pmHigh": 2.41,
+          "volRaw": "38.4M",
+          "volDollar": 60028525,
+          "relVol": 18.2,
+          "avgVolM": 2.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "SciSparc: Subsidiary NeuroThera Labs Reports Positive Progress in FDA-Approved Phase IIb Clinical Trial for Tourette Syndrome",
+            "SciSparc Shifts Focus to Agentic AI, Targeting Cybersecurity and Finance Applications"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1611746/000121390026112470/ea0309686-6k_scisparc.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "SciSparc: Subsidiary NeuroThera Labs Reports Positive Progress in FDA-Approved Phase IIb Clinical Trial for Tourette Syndrome",
+              "url": "https://www.stocktitan.net/news/SPRC/sci-sparc-subsidiary-neuro-thera-labs-reports-positive-progress-in-0ju79vdd02cz.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-22T12:55:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "SciSparc Shifts Focus to Agentic AI, Targeting Cybersecurity and Finance Applications",
+              "url": "https://www.stocktitan.net/news/SPRC/sci-sparc-shifts-focus-to-agentic-ai-targeting-cybersecurity-and-z67g43f4x4yq.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T12:35:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SPRC",
+          "newsSummary": "SciSparc's subsidiary NeuroThera Labs reported positive progress in an FDA-approved Phase IIb clinical trial for Tourette Syndrome on Oct 22, providing real clinical validation ahead of today's intraday move. The catalyst has legitimate biotech merit—Phase IIb advancement with positive data is material, not fluff. Form 6-K filing came after the session high, confirming it was reactive.",
+          "bullFactors": [
+            "Micro-float (1.92M shares) with 18.2x relative volume — tight liquidity + sustained retail/institutional push capability",
+            "HOD dominance (63.3% of range) with only 27.5% fade — hot tape, short-covering strength, afternoon continuation signal",
+            "Real clinical catalyst (Phase IIb positive data) from Oct 22 with credible FDA pathway; not sympathy or no-news fluff",
+            "46.3% gap up on genuine biotech news suggests institutional pre-positioning; room to upside if daily support holds"
+          ],
+          "bearFactors": [
+            "Premarket spike (gap 46.3%) consumed much of intraday move before retail participation — early movers have significant unrealized gains, fade risk into close",
+            "Israeli micro-cap healthcare with limited analyst coverage and potential liquidity drying into end-of-week; institutional exit window narrows",
+            "Clinical trial announcements can be subject to interpretation and regulatory risk; Phase IIb is promising but not approval",
+            "No overhead supply data provided, but 1.92M float with 63% HOD on first day of news-driven move invites profit-taking and short entries"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MKDW",
+          "hod": 55,
+          "hodExact": 55.89,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "MKDWELL Tech Inc. Ordinary Share",
+          "sector": "Consumer Cyclical",
+          "country": "TW",
+          "floatM": 7.76,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 7.76M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.76M + RelVol 213.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.76M + RelVol 213.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.3464,
+          "open": 0.336,
+          "gapPct": -3.0,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 0.54,
+          "hodTimeExact": "06:13 PM ET",
+          "close": 0.4175,
+          "fade": 22,
+          "fadeExact": 22.69,
+          "vwap": 0.4517,
+          "vsVwap": "below",
+          "pmHigh": 0.3576,
+          "volRaw": "20.8M",
+          "volDollar": 9387390,
+          "relVol": 213.5,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MKDW",
+          "newsSummary": "MKDW moved 55.89% to session HOD with no identified news catalyst, suggesting pure intraday momentum and institutional accumulation. The absence of news combined with sustained high relative volume (213.5x) and low float (7.76M) indicates this is a structure-driven runner rather than event-driven.",
+          "bullFactors": [
+            "Float under 10M (7.76M) — tight supply for momentum accumulation",
+            "Session HOD dominance (55.89% HOD vs 22.69% fade) — sustained afternoon strength, no early premarket collapse",
+            "Relative volume 213.5x — exceptionally high intraday participation suggesting institutional buying pressure throughout session",
+            "Taiwan-listed micro-cap with greater_china exposure — fits China Rig structural pattern of all-day sustained buying with late HOD confirmation"
+          ],
+          "bearFactors": [
+            "No news catalyst identified — pure sympathy/structural play with no fundamental anchor; vulnerable to sudden reversal if tape cools",
+            "Negative gap (-3.0%) into the move — suggests overnight weakness followed by intraday reversal, which can reverse just as quickly",
+            "Taiwan micro-cap with no English-language visibility — liquidity risk and potential for hollow volume spikes on retail euphoria",
+            "Consumer Cyclical sector — economically sensitive, no defensive moat if macro sentiment shifts"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SRTM",
+          "hod": 51,
+          "hodExact": 51.06,
+          "news": [
+            "Form 8-K",
+            "Ocean Power Technologies and Stratum Holdings Sign Letter of Intent for Proposed Strategic Collaboration to Demonstrate Offshore Renewable-Powered Data Center Assets",
+            "Stratum Holdings Corp. Announces Letter of Intent for Proposed Sale of Legacy Real Estate Businesses, Accelerating Pivot to AI Infrastructure and GPU Leasing"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Stratum Holdings Corp. Common Stock",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 0.57,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 0.57M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.57M + RelVol 91.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.57M + RelVol 91.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4303,
+          "open": 0.5597,
+          "gapPct": 30.07,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.65,
+          "hodTimeExact": "08:23 AM ET",
+          "close": 0.3,
+          "fade": 53,
+          "fadeExact": 53.85,
+          "vwap": 0.5592,
+          "vsVwap": "below",
+          "pmHigh": 0.7374,
+          "volRaw": "116.0M",
+          "volDollar": 64857136,
+          "relVol": 91.6,
+          "avgVolM": 1.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Ocean Power Technologies and Stratum Holdings Sign Letter of Intent for Proposed Strategic Collaboration to Demonstrate Offshore Renewable-Powered Data Center Assets",
+            "Stratum Holdings Corp. Announces Letter of Intent for Proposed Sale of Legacy Real Estate Businesses, Accelerating Pivot to AI Infrastructure and GPU Leasing"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1879403/000121390026112229/ea0309604-8k_stratum.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Ocean Power Technologies and Stratum Holdings Sign Letter of Intent for Proposed Strategic Collaboration to Demonstrate Offshore Renewable-Powered Data Center Assets",
+              "url": "https://www.stocktitan.net/news/SRTM/ocean-power-technologies-and-stratum-holdings-sign-letter-of-intent-9zncnvcu9nqj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-26T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Stratum Holdings Corp. Announces Letter of Intent for Proposed Sale of Legacy Real Estate Businesses, Accelerating Pivot to AI Infrastructure and GPU Leasing",
+              "url": "https://www.stocktitan.net/news/SRTM/stratum-holdings-corp-announces-letter-of-intent-for-proposed-sale-7fmj4b3fjgyy.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-19T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.9,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SRTM",
+          "newsSummary": "SRTM announced a LOI for sale of legacy real estate assets and pivot to AI infrastructure/GPU leasing (Oct 19), followed by a strategic collaboration LOI with Ocean Power Technologies on offshore renewable-powered data centers (Oct 26 at 11:30). The 51% HOD with 91.6x relative volume and 30% gap suggests institutional accumulation around the transformation narrative. Form 8-K filed after the move is reactive confirmation, not the catalyst.",
+          "bullFactors": [
+            "Nano float (0.57M) — extreme leverage for intraday volatility and sustained runner potential",
+            "Real catalyst with cash implications: pivoting away from legacy RE into high-momentum AI/data center infrastructure themes",
+            "Session HOD dominating (51% HOD pct) with 91.6x relative volume — tape shows institutional buying pressure and retail continuation, not premarket fade pattern",
+            "Multiple catalyst events (LOI for asset sale + OPT collaboration) provide narrative scaffolding for multi-day hold potential"
+          ],
+          "bearFactors": [
+            "Both catalysts are LOIs (letters of intent), not closed deals — execution risk is high, dilution risk on any funding announcement",
+            "Fade pct (53.85%) nearly equals HOD pct (51.06%) — indicates heavy intraday selling and potential overhead supply formation",
+            "30% gap + 51% intraday swing suggests aggressive opening momentum that could attract late retail, setting up afternoon reversal risk",
+            "Form 8-K filed after the high — must monitor for dilutive details (warrants, convertibles, ATM authorization)"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SGRY",
+          "hod": 47,
+          "hodExact": 47.87,
+          "news": [
+            "Form 8-K",
+            "HealthSpan Partners to Acquire Surgery Partners, Establishing a Leading Outpatient Surgical Care Platform"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Surgery Partners, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 78.0,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$3.0B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 15.75,
+          "open": 23.03,
+          "gapPct": 46.22,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 23.29,
+          "hodTimeExact": "05:44 PM ET",
+          "close": 23.25,
+          "fade": 0,
+          "fadeExact": 0.17,
+          "vwap": 23.0442,
+          "vsVwap": "above",
+          "pmHigh": 19.71,
+          "volRaw": "58.8M",
+          "volDollar": 1355478902,
+          "relVol": 33.4,
+          "avgVolM": 1.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "HealthSpan Partners to Acquire Surgery Partners, Establishing a Leading Outpatient Surgical Care Platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1638833/000110465926118643/tm2628254d1_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-26T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "HealthSpan Partners to Acquire Surgery Partners, Establishing a Leading Outpatient Surgical Care Platform",
+              "url": "https://www.stocktitan.net/news/SGRY/health-span-partners-to-acquire-surgery-partners-establishing-a-zfa1qzfj0z74.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-26T13:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SGRY",
+          "newsSummary": "HealthSpan Partners announced acquisition of Surgery Partners at 13:00 ET, establishing a leading outpatient surgical care platform. This is a real cash deal with genuine strategic value in the healthcare consolidation space, representing meaningful M&A activity rather than promotional fluff.",
+          "bullFactors": [
+            "Real acquisition catalyst with strategic merit — consolidation of outpatient surgical care platforms has genuine enterprise value",
+            "High relative volume (33.4x) sustained through session with 47.87% HOD dominance — indicates institutional accumulation and retail follow-through, not premarket spike fade",
+            "Late-breaking news (13:00 ET) followed by afternoon session HODs — tape temperature is HOT, suggesting buying pressure continued after catalyst rather than immediate profit-taking",
+            "Sector tailwind — Healthcare M&A and outpatient consolidation are institutional themes with real cash deployment"
+          ],
+          "bearFactors": [
+            "Mega-thick float (78M shares) — significantly above Jack's <10M preference, reduces intraday volatility and trader-friendly range",
+            "Large market cap ($3B+) — pulls away from small-cap momentum profile; moves like a core holding, not a micro-cap runner",
+            "Form 8-K filed after HOD (20:00 ET) — regulatory filing is reactive, follows price action; no pre-announcement buildup to set up entry",
+            "Gap-driven session (+46.22% gap) — heavy reliance on overnight move limits dip/soak setup quality and increases fade risk at open next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "YOUL",
+          "hod": 43,
+          "hodExact": 43.4,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Youlife Group Inc. American Depositary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 59.28,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$25M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.265,
+          "open": 0.26,
+          "gapPct": -1.89,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 0.38,
+          "hodTimeExact": "04:05 PM ET",
+          "close": 0.305,
+          "fade": 19,
+          "fadeExact": 19.74,
+          "vwap": 0.3372,
+          "vsVwap": "below",
+          "pmHigh": 0.2778,
+          "volRaw": "4.8M",
+          "volDollar": 1616491,
+          "relVol": 17.9,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:YOUL",
+          "newsSummary": "YOUL ran 43.4% today with no substantive news catalyst—pure intraday momentum structure. The move appears driven by institutional accumulation patterns typical of Chinese micro-cap runners rather than fundamental events.",
+          "bullFactors": [
+            "Strong HOD dominance (43.4% HOD vs 19.74% fade) signals sustained intraday buying pressure and short squeeze continuation",
+            "High relative volume (17.9x) with afternoon strength indicates institutional accumulation throughout session, not premarket spike-and-dump",
+            "Chinese micro-cap structure (59.28M float, Consumer Defensive, CN) fits 'China Rig' pattern: multiple session HODs, sustained volume all day, no dilutive news"
+          ],
+          "bearFactors": [
+            "Mega-thick float (59.28M shares) exceeds Jack's preferred <10M threshold—requires exceptional intraday vol/min confirmation to justify entry",
+            "NO-NEWS catalyst is structurally weak; without real earnings, partnership, or data event, momentum is purely technical and vulnerable to reversal on profit-taking",
+            "Consumer Defensive sector offers limited upside runway and lower volatility compared to Jack's typical tech/biotech targets"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BRAI",
+          "hod": 42,
+          "hodExact": 42.25,
+          "news": [
+            "Braiin Targets USD 56.9 Billion CX Software Market with Agentic AI Expansion and Major Upgrade to RADIUS CX Platform"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Braiin Limited Common Stock",
+          "sector": "Technology",
+          "country": "AU",
+          "floatM": 24.4,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$647M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.55,
+          "open": 4.28,
+          "gapPct": 20.56,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 5.05,
+          "hodTimeExact": "12:16 PM ET",
+          "close": 2.12,
+          "fade": 58,
+          "fadeExact": 58.02,
+          "vwap": 3.4993,
+          "vsVwap": "below",
+          "pmHigh": 4.2,
+          "volRaw": "6.5M",
+          "volDollar": 22701940,
+          "relVol": 117.1,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Braiin Targets USD 56.9 Billion CX Software Market with Agentic AI Expansion and Major Upgrade to RADIUS CX Platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Braiin Targets USD 56.9 Billion CX Software Market with Agentic AI Expansion and Major Upgrade to RADIUS CX Platform",
+              "url": "https://www.stocktitan.net/news/BRAI/braiin-targets-usd-56-9-billion-cx-software-market-with-agentic-ai-bvddzogjab6f.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-26T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.88,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BRAI",
+          "newsSummary": "BRAI announced agentic AI expansion targeting a $56.9B CX software market with a RADIUS CX Platform upgrade, released at 13:00 on 2026-10-26. The news came BEFORE the session high, making it a legitimate catalyst driver rather than reactive commentary; however, the move is primarily riding the broad AI sympathy wave rather than reflecting concrete revenue impact or cash-backed partnership.",
+          "bullFactors": [
+            "Relative volume 117.1% — sustained intraday participation, not a premarket spike fade",
+            "42.25% HOD dominance vs 58% fade suggests late-session institutional accumulation and short covering",
+            "AI theme remains a strong sector momentum tailwind; agentic AI messaging aligns with market narrative",
+            "News released before HOD (13:00) gave time for setup and tape reading before retail push"
+          ],
+          "bearFactors": [
+            "Float 24.4M — well above Jack's preferred <10M threshold; reduces explosive micro-cap kinetics",
+            "Gap 20.56% into open consumes intraday room; less runway for continuation plays",
+            "Catalyst is market-facing AI positioning, not real cash revenue or major partnership — lacks tangible value anchor",
+            "58% fade pressure indicates retail distribution into strength; morning spike into afternoon weakness is classic sympathy pattern"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MSGY",
+          "hod": 42,
+          "hodExact": 42.12,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Masonglory Limited Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 0.81,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 0.81M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.73,
+          "open": 2.8,
+          "gapPct": 2.56,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 3.8799,
+          "hodTimeExact": "06:00 PM ET",
+          "close": 3.49,
+          "fade": 10,
+          "fadeExact": 10.05,
+          "vwap": 3.6256,
+          "vsVwap": "below",
+          "pmHigh": 2.95,
+          "volRaw": "977K",
+          "volDollar": 3543661,
+          "relVol": 0.3,
+          "avgVolM": 2.8,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2020228/000118518526004913/mason6k102126.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-22T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MSGY",
+          "newsSummary": "MSGY filed a Form 6-K (routine Hong Kong regulatory disclosure) on 2026-10-22, four days before this 42% intraday move. The filing preceded the run and is not a catalyst — it is reactive disclosure following price action. The move itself appears driven by sustained intraday institutional buying pressure characteristic of a China rig pattern, not by news.",
+          "bullFactors": [
+            "Nano float (0.81M) — extreme liquidity concentration, high relative vol multiplier potential",
+            "Strong HOD dominance (42.12% HOD vs 10.05% fade) — afternoon continuation and shorts covering, tape is hot",
+            "Hong Kong Industrials micro-cap with structural China rig profile — sustained intraday volume and multiple session HOD prints indicate institutional accumulation, not pump-and-dump premarket spike",
+            "Daily chart setup potential — low market cap and nano float provide room to run if institutional buying continues"
+          ],
+          "bearFactors": [
+            "Relative volume only 0.3x — below Jack's preference for intraday vol/min to exceed premarket vol/min; liquidity may evaporate on larger position sizes",
+            "Hong Kong domicile and Industrials sector lack big-name catalysts or high-conviction partnership/ER news; sustaining power depends entirely on tape momentum",
+            "No material cash-backed catalyst — relies on structural China rig dynamics, which can reverse sharply on tape shift or end-of-day profit-taking",
+            "Gap-and-go entry (2.56% gap) may have already captured early retail; risk of HOD print followed by afternoon rejection"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 95,
+      "fade": 28,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "RCT led +95.14% (44% fade). 4/10 held <20% fade. news: RCT — \"RedCloud Repays All Convertible Notes In Full\".",
+      "aiSummary": "Today's tape is **COLD with structural red flags**: catalyst quality is predominantly weak (NO-NEWS dominates 4/10, plus SYMPATHY/ACQUISITION tags), and the session HOD distribution tells the story—63% of runners peaked in premarket or after-hours, with only CLRO and BRAI printing afternoon HODs despite massive dollar volume, signaling classic pop-and-fade behavior rather than institutional accumulation. Float tier is mixed but problematic: while CLRO (1.03M), SPRC (1.92M), and SRTM (0.57M) fit the sub-10M sweet spot, the framework's red-line rules fire immediately on RCT (OFFERING, 27M float, 44% fade), SRTM (premarket spike + 54% fade = pump structure), and CLRO itself (80% HOD but NO-NEWS tag demands proof of real catalyst before entry). The one potentially legitimate setup—XTND's 72% HOD on a CONTRACT catalyst with 214M float and sustained morning session strength—sits outside preferred float range and lacks the afternoon continuation required to confirm hot cycle. This tape signals momentum traders should stay in cash or scale tight: no A++ setups present, excessive premarket dominance, low-quality news flow, and fade percentages that suggest retail exhaustion rather than institutional breakout."
+    },
     {
       "date": "2026-10-23",
       "runners": [
