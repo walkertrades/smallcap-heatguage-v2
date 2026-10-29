@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-10-28T13:05:06.146786Z",
-  "count": 10140,
+  "exportedAt": "2026-10-29T14:20:44.016797Z",
+  "count": 10150,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,936 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-10-28",
+      "runners": [
+        {
+          "sym": "ULBI",
+          "hod": 146,
+          "hodExact": 146.38,
+          "news": [
+            "Form 8-K",
+            "EnerSys to Acquire Ultralife Corporation in a $320 Million All-Cash Transaction"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Ultralife Corporation",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 9.93,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$260M",
+          "riskBadges": [
+            "Float 9.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.93M + RelVol 36.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.93M + RelVol 36.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.36,
+          "open": 15.61,
+          "gapPct": 145.44,
+          "time": "regular session",
+          "session": "morning",
+          "high": 15.67,
+          "hodTimeExact": "09:35 AM ET",
+          "close": 15.61,
+          "fade": 0,
+          "fadeExact": 0.38,
+          "vwap": 15.6229,
+          "vsVwap": "below",
+          "pmHigh": 15.62,
+          "volRaw": "2.5M",
+          "volDollar": 39095401,
+          "relVol": 36.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "EnerSys to Acquire Ultralife Corporation in a $320 Million All-Cash Transaction"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/875657/000143774926033731/ulbi20261027_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "EnerSys to Acquire Ultralife Corporation in a $320 Million All-Cash Transaction",
+              "url": "https://www.stocktitan.net/news/ULBI/ener-sys-to-acquire-ultralife-corporation-in-a-320-million-all-cash-8yvt3qz1tzoy.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-27T20:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ULBI",
+          "newsSummary": "EnerSys announced a $320M all-cash acquisition of Ultralife on 2026-10-27, triggering a 145% gap at open on 2026-10-28. This is a real cash deal with legitimate M&A merit, though the move happened premarket/at open rather than building intraday. The Form 8-K filed after the HOD is reactive documentation, not a fresh catalyst.",
+          "bullFactors": [
+            "Float under 10M (9.93M) — ideal for momentum compression",
+            "Real cash acquisition deal with $320M valuation — high-quality catalyst, not fluff",
+            "146% HOD with minimal fade (0.38%) — shows strong institutional bid support throughout session",
+            "High relative volume (36.5x) sustained well into close — not a premarket spike-and-dump pattern"
+          ],
+          "bearFactors": [
+            "Gap-and-rip move happened at open on news from prior day — most of the move is already priced, little room for continuation setup",
+            "Premarket spike dominated intraday — classic cold tape; retail chasing at open rather than institutional accumulation building intraday",
+            "Deal is now public information; no surprise left to fuel afternoon push — momentum likely capped",
+            "Jack's setup style favors dip/soak reads and intraday flag breakouts, not gap-up acquisitions; this violates his preferred entry mechanics"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "AIOK",
+          "hod": 122,
+          "hodExact": 122.8,
+          "news": [
+            "Form 6-K",
+            "AI OKTO Corp. Declares Special Dividend of $3.50 Per Share",
+            "AI OKTO Announces the Sale of the LPG Carrier Dream Arrax"
+          ],
+          "tag": "ACQUISITION",
+          "name": "AI OKTO CORP. Common Stock",
+          "sector": "Industrials",
+          "country": "CY",
+          "floatM": 0.98,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$122M",
+          "riskBadges": [
+            "Float 0.98M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 13.42,
+          "open": 17.53,
+          "gapPct": 30.63,
+          "time": "regular session",
+          "session": "morning",
+          "high": 29.9,
+          "hodTimeExact": "10:31 AM ET",
+          "close": 28.14,
+          "fade": 5,
+          "fadeExact": 5.89,
+          "vwap": 20.3175,
+          "vsVwap": "above",
+          "pmHigh": 18.5,
+          "volRaw": "25.8M",
+          "volDollar": 523860365,
+          "relVol": 4.4,
+          "avgVolM": 5.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "AI OKTO Corp. Declares Special Dividend of $3.50 Per Share",
+            "AI OKTO Announces the Sale of the LPG Carrier Dream Arrax"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2095591/000114036126040608/ef20084229_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-23T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "AI OKTO Corp. Declares Special Dividend of $3.50 Per Share",
+              "url": "https://www.stocktitan.net/news/AIOK/ai-okto-corp-declares-special-dividend-of-3-50-per-huhuz5y9wdwj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-23T13:24:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "AI OKTO Announces the Sale of the LPG Carrier Dream Arrax",
+              "url": "https://www.stocktitan.net/news/AIOK/ai-okto-announces-the-sale-of-the-lpg-carrier-dream-u9fepf7rp8c0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-23T12:55:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Shipping",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AIOK",
+          "newsSummary": "AIOK announced the sale of its LPG carrier Dream Arrax on 10/23, followed by a special dividend of $3.50/share and a Form 6-K filing. These are real cash-return events signaling asset liquidation and shareholder value distribution—genuine catalysts with tangible merit, not speculative fluff.",
+          "bullFactors": [
+            "Nano float (0.98M shares) creates natural scarcity and leverage for institutional accumulation",
+            "Real cash catalyst: special dividend + asset sale = concrete shareholder value, not dilutive",
+            "HOD 122.8% with only 5.89% fade shows sustained intraday strength and retail holding through afternoon",
+            "High relative volume (4.4x) on a 30.63% gap confirms institutional buying, not premarket pump-and-dump behavior"
+          ],
+          "bearFactors": [
+            "Cyprus-domiciled micro-cap with limited liquidity depth outside high-volume windows",
+            "Asset sale + special dividend may signal end of growth cycle or transition phase—upside room depends on market re-rating",
+            "Nano float creates execution risk for larger positions; fade potential if retail exhausts buying power"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "POM",
+          "hod": 112,
+          "hodExact": 112.23,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "POMDOCTOR LIMITED Class A Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "CN",
+          "floatM": 1.91,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 1.91M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.39,
+          "open": 1.55,
+          "gapPct": 11.51,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.95,
+          "hodTimeExact": "09:44 AM ET",
+          "close": 1.8,
+          "fade": 38,
+          "fadeExact": 38.98,
+          "vwap": 2.0906,
+          "vsVwap": "below",
+          "pmHigh": 1.6,
+          "volRaw": "41.9M",
+          "volDollar": 87508960,
+          "relVol": 10.3,
+          "avgVolM": 4.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:POM",
+          "newsSummary": "POM ran 112% intraday with no identifiable news catalyst. The move appears driven by structural China micro-cap dynamics: ultra-tight 1.91M float, sustained 10.3x relative volume, and afternoon HOD continuation pattern consistent with institutional accumulation rig rather than premarket pump-fade.",
+          "bullFactors": [
+            "Micro float (1.91M) — extreme leverage on volume",
+            "Afternoon HOD dominance (112% HOD vs 39% fade) — institutional continuation, not retail pop-and-drop",
+            "Sustained high relative volume (10.3x) throughout session — real buying pressure, not spike-out liquidity",
+            "China micro-cap rig structure — daily accumulation pattern with multiple HOD prints, not sympathy or dilution"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — pure structural/sympathy play, zero fundamental support",
+            "39% intraday fade — despite strong HOD, still lost over one-third of gains by close",
+            "Chinese micro-cap — elevated black swan / liquidity spillover risk on sudden reversal",
+            "Market cap only $5M — extreme volatility and potential overnight gap risk"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "KPTI",
+          "hod": 89,
+          "hodExact": 89.4,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Karyopharm Therapeutics Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 15.28,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 15.28M + RelVol 30.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 15.28M + RelVol 30.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.48,
+          "open": 0.456,
+          "gapPct": -5.0,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 0.9091,
+          "hodTimeExact": "04:14 PM ET",
+          "close": 0.8321,
+          "fade": 8,
+          "fadeExact": 8.47,
+          "vwap": 0.7074,
+          "vsVwap": "above",
+          "pmHigh": 0.4798,
+          "volRaw": "55.3M",
+          "volDollar": 39110745,
+          "relVol": 30.0,
+          "avgVolM": 1.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526428938/d172630d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-22T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:KPTI",
+          "newsSummary": "KPTI filed a Form 8-K on Oct 22, well before today's 89.4% HOD move, indicating the catalyst preceded price action rather than following it. The 8-K alone (typically routine corporate filings) does not constitute a strong cash catalyst; the real driver appears to be institutional accumulation or a delayed market reaction to prior disclosure.",
+          "bullFactors": [
+            "89.4% HOD dominance with only 8.47% fade — sustained intraday strength, not premarket spike reversal",
+            "30x relative volume indicates institutional participation throughout session, consistent with Jack's dip/soak accumulation read",
+            "Float at 15.28M (mid-tier but manageable) with daily chart room to upside per Jack's criteria",
+            "High session HOD late in day suggests afternoon continuation and potential short squeeze pressure"
+          ],
+          "bearFactors": [
+            "Form 8-K is routine compliance filing, not a real cash catalyst (real deals, ER, partnerships) — weak fundamental support",
+            "-5% gap down into the move raises questions about overnight accumulation vs. organic institutional demand",
+            "15.28M float exceeds Jack's <10M preference; higher float caps explosive velocity",
+            "No substantive business catalyst disclosed — reliant on market structure and technicals rather than fundamental thesis"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "FTFT",
+          "hod": 76,
+          "hodExact": 76.88,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Future FinTech Group Inc.",
+          "sector": "Technology",
+          "country": "HK",
+          "floatM": 1.03,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$25M",
+          "riskBadges": [
+            "Float 1.03M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.03M + RelVol 283.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.03M + RelVol 283.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.86,
+          "open": 1.88,
+          "gapPct": 1.08,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.29,
+          "hodTimeExact": "02:27 PM ET",
+          "close": 2.89,
+          "fade": 12,
+          "fadeExact": 12.16,
+          "vwap": 2.8041,
+          "vsVwap": "above",
+          "pmHigh": 1.94,
+          "volRaw": "16.1M",
+          "volDollar": 45135486,
+          "relVol": 283.5,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FTFT",
+          "newsSummary": "FTFT moved 76.88% to session HOD with zero reported news catalyst — pure intraday institutional accumulation and retail follow-through. No earnings, partnerships, or material announcements; the move is structural, not fundamental.",
+          "bullFactors": [
+            "Micro-float (1.03M shares) with extreme relative volume (283.5x) — classic institutional accumulation setup",
+            "Session HOD dominance (76.88% to HOD vs 12.16% fade) indicates sustained afternoon buying pressure and short covering, not premarket spike-and-dump",
+            "Hong Kong micro-cap with no news and persistent intraday strength fits China Rig institutional rig pattern — multi-hour consolidation with late-session continuation typical of these structures",
+            "High relative volume all day suggests real institutional demand, not retail sympathy fomo"
+          ],
+          "bearFactors": [
+            "No news catalyst = no fundamental foundation; entire move is technical/structural momentum — risk of sharp reversal on profit-taking",
+            "Zero material news means no guardrail for support; if tape turns, can fade hard and fast",
+            "Micro-float creates liquidity risk for exits at size; retail entry late in move faces typical day-trader chop and washout"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "BRAI",
+          "hod": 63,
+          "hodExact": 63.14,
+          "news": [
+            "Form 6-K",
+            "Braiin Targets USD 56.9 Billion CX Software Market with Agentic AI Expansion and Major Upgrade to RADIUS CX Platform"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Braiin Limited Common Stock",
+          "sector": "Technology",
+          "country": "AU",
+          "floatM": 24.4,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$742M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.31,
+          "open": 4.935,
+          "gapPct": 49.09,
+          "time": "regular session",
+          "session": "morning",
+          "high": 5.4,
+          "hodTimeExact": "10:07 AM ET",
+          "close": 3.6,
+          "fade": 33,
+          "fadeExact": 33.33,
+          "vwap": 4.4522,
+          "vsVwap": "below",
+          "pmHigh": 5.2,
+          "volRaw": "57.3M",
+          "volDollar": 254902430,
+          "relVol": 19.3,
+          "avgVolM": 3.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Braiin Targets USD 56.9 Billion CX Software Market with Agentic AI Expansion and Major Upgrade to RADIUS CX Platform"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2076975/000149315226049075/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Braiin Targets USD 56.9 Billion CX Software Market with Agentic AI Expansion and Major Upgrade to RADIUS CX Platform",
+              "url": "https://www.stocktitan.net/news/BRAI/braiin-targets-usd-56-9-billion-cx-software-market-with-agentic-ai-bvddzogjab6f.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-26T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BRAI",
+          "newsSummary": "BRAI gapped +49% and ran 63% from open to HOD on an AI/CX platform expansion narrative released pre-market (Oct 26). The Form 6-K filed after-hours was reactive, not causal. Catalyst has real merit (USD 56.9B TAM targeting, RADIUS upgrade), but the move was largely sympathy to broader AI momentum rather than a surprise catalyst sprung today.",
+          "bullFactors": [
+            "Strong session HOD dominance (63% HOD vs 33% fade) — retention of intraday gains, not a premarket dump",
+            "Sustained relative volume (19.3x) across the session despite thick 24.4M float — institutional accumulation signal",
+            "Real catalyst with measurable TAM and product roadmap (RADIUS CX platform upgrade) — not pure fluff",
+            "Previous HOD setup opportunity for experienced momentum trader; dip/soak buyers had time to enter"
+          ],
+          "bearFactors": [
+            "Float of 24.4M is well above Jack's <10M preference — liquidity is thicker, meaning reduced explosive potential and tighter intraday ranges",
+            "49% gap at open ate a large portion of the daily move — limited room left for aggressive follow-through without extended break",
+            "AU-listed name (BRAI) with potential timezone/liquidity lag; reduced afternoon session retail push vs US peers",
+            "Catalyst pre-dated the move by 2 days — most aggressive buyers already in; fade risk into close or next session higher"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ROMA",
+          "hod": 63,
+          "hodExact": 63.11,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Roma Green Finance Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 46.55,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$374M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.69,
+          "open": 4.99,
+          "gapPct": 6.4,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.65,
+          "hodTimeExact": "11:31 AM ET",
+          "close": 7,
+          "fade": 8,
+          "fadeExact": 8.5,
+          "vwap": 6.0591,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "672K",
+          "volDollar": 4070419,
+          "relVol": 196.9,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.72,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ROMA",
+          "newsSummary": "ROMA moved 63% intraday with no substantive news catalyst identified. The move appears driven by structural buying pressure typical of Hong Kong small-caps with thick floats during high relative volume cycles.",
+          "bullFactors": [
+            "Strong session HOD dominance (63.11% of day's range) suggests afternoon continuation and potential short covering",
+            "Exceptional relative volume at 196.9x indicates institutional accumulation phase or sympathy buying pressure",
+            "Minimal fade (8.5%) and modest gap (6.4%) show tape strength — not a premarket spike-and-fade pattern",
+            "Hong Kong industrial sector positioning with no dilutive news overhead"
+          ],
+          "bearFactors": [
+            "Thick float (46.55M) exceeds Jack's preferred sub-10M threshold — liquidity is deep but momentum capital diluted",
+            "No real cash catalyst or partnership news — move is purely sympathy/technical, vulnerable to reversal",
+            "Hong Kong listing with no major entity tie-in or sector theme — structural risk in black swan scenarios",
+            "Entry after 63% intraday move carries classic fade risk if afternoon support fails into close"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CHSN",
+          "hod": 57,
+          "hodExact": 57.41,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Chanson International Holding Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 2.42,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 2.42M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.42M + RelVol 792.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.42M + RelVol 792.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.08,
+          "open": 1.51,
+          "gapPct": 39.81,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.7,
+          "hodTimeExact": "01:02 PM ET",
+          "close": 1.46,
+          "fade": 14,
+          "fadeExact": 14.12,
+          "vwap": 1.3896,
+          "vsVwap": "above",
+          "pmHigh": 1.57,
+          "volRaw": "74.0M",
+          "volDollar": 102877927,
+          "relVol": 792.8,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1825349/000118518526005015/chsn6k102726.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CHSN",
+          "newsSummary": "CHSN filed a Form 6-K (standard SEC disclosure for foreign private issuers) dated 2026-10-27, which arrived before the intraday move and carries no material catalyst. The 57.41% HOD gain, 39.81% gap up, and sustained 792.8x relative volume indicate a structural China micro-cap rig pattern—aggressive institutional accumulation and intraday continuation—rather than news-driven momentum.",
+          "bullFactors": [
+            "Ultra-tight float at 2.42M shares—extreme leverage for institutional buying pressure and short squeezes",
+            "Dominant session HOD (57.41%) with high afternoon relative volume (792.8x) signals sustained intraday accumulation, not premarket fade—classic China rig signature",
+            "Strong gap up (39.81%) paired with continued HOD printing indicates conviction through the day, not a one-shot pop",
+            "No dilutive news, warrants, or offering risk—clean capital structure for intraday traders"
+          ],
+          "bearFactors": [
+            "China Defensive Consumer sector with micro-cap liquidity and foreign regulatory risk—tail event or delisting risk present",
+            "No substantive cash catalyst or real business event to anchor the move—purely structural/liquidity driven",
+            "Session already up 57% intraday—late entry risk and potential afternoon/EOD fade if institutional buying exhausts",
+            "Form 6-K filings are routine and carry zero catalytic value; move is entirely technical/tape-driven"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AXNX",
+          "hod": 56,
+          "hodExact": 56.23,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Axonex AI Group Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 1.69,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 1.69M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.69M + RelVol 55.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.69M + RelVol 55.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.8001,
+          "open": 0.752,
+          "gapPct": -6.01,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.25,
+          "hodTimeExact": "09:54 AM ET",
+          "close": 0.94,
+          "fade": 24,
+          "fadeExact": 24.8,
+          "vwap": 0.9532,
+          "vsVwap": "below",
+          "pmHigh": 0.8021,
+          "volRaw": "6.9M",
+          "volDollar": 6544463,
+          "relVol": 55.8,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": "5:2",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AXNX",
+          "newsSummary": "AXNX moved +56.23% today with no substantive news catalyst. The stock gapped down -6.01% at open but recovered strongly intraday, printing a new session HOD with sustained volume (relVol 55.8x). This is a structural China rig pattern: micro-cap HK industrial with zero cash catalyst, micro float (1.69M), and afternoon HOD dominance suggesting institutional accumulation throughout the session rather than premarket pump-fade.",
+          "bullFactors": [
+            "Micro float (1.69M) under 10M threshold — tight share structure amplifies intraday moves",
+            "Session HOD printing at +56% with high relative volume (55.8x) and fade only 24.8% — strong afternoon continuation signature of institutional accumulation",
+            "No dilutive news, offering, or warrant exercise — clean capital structure for upside",
+            "Intraday recovery from -6% gap shows institutional bid and dip-soaking behavior before retail push"
+          ],
+          "bearFactors": [
+            "Zero news catalyst means move is purely technical/structural — vulnerable to gap-down reversal next session without follow-on buying pressure",
+            "Hong Kong industrial micro-cap with no disclosed catalysts carries higher liquidity and regulatory risk",
+            "56% single-day move on no news creates elevated short-squeeze risk and potential black swan liquidity event",
+            "No real cash value deal, ER, or partnership to sustain momentum beyond intraday tape"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "GCTK",
+          "hod": 46,
+          "hodExact": 46.2,
+          "news": [
+            "Form 8-K",
+            "Glucotrack, Inc. Announces Reverse Stock Split"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "GlucoTrack, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.13,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.13M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.71,
+          "open": 2,
+          "gapPct": 16.96,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.5,
+          "hodTimeExact": "09:40 AM ET",
+          "close": 2.05,
+          "fade": 18,
+          "fadeExact": 18.0,
+          "vwap": 2.1,
+          "vsVwap": "below",
+          "pmHigh": 2.34,
+          "volRaw": "28.3M",
+          "volDollar": 59417839,
+          "relVol": 13.5,
+          "avgVolM": 2.1,
+          "ssr": true,
+          "reverseSplit": "2:1",
+          "newsHeadlines": [
+            "Form 8-K",
+            "Glucotrack, Inc. Announces Reverse Stock Split"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1506983/000149315226048981/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-28T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Glucotrack, Inc. Announces Reverse Stock Split",
+              "url": "https://www.stocktitan.net/news/GCTK/glucotrack-inc-announces-reverse-stock-u6hnzwdvv1um.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-22T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GCTK",
+          "newsSummary": "GCTK announced a reverse stock split on 2026-10-22, a classic delisting-prevention move tied to Nasdaq compliance. The Form 8-K filed after-hours today (2026-10-28) is reactive documentation, not a catalyst. The 46.2% HOD with 18% fade and 13.5x relative volume suggests intraday institutional accumulation followed by retail selling into strength—typical post-split recovery behavior in micro-caps.",
+          "bullFactors": [
+            "Ultra-tight float (1.13M shares) creates acute scarcity for any sustained buying pressure",
+            "Strong intraday volume (13.5x relative vol) and 46.2% HOD indicate real institutional accumulation, not pump noise",
+            "Reverse split removes immediate delisting threat, which can unlock fresh institutional interest in micro-cap healthcare names",
+            "18% fade into close leaves room for continuation setup if dips hold support on next session"
+          ],
+          "bearFactors": [
+            "Reverse stock split is inherently dilutive and signals prior distress—markets rarely reward compliance moves alone",
+            "18% fade into close after 46.2% HOD is a red flag for retail exhaustion and weak follow-through",
+            "Form 8-K filed after the high limits its ability to drive tomorrow's open—no fresh catalyst momentum",
+            "Micro-cap healthcare with 2.4M market cap carries elevated liquidity risk and black swan delisting risk if momentum breaks"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 146,
+      "fade": 16,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "ULBI led +146.38% (0% fade). 7/10 held <20% fade. news: ULBI — \"Form 8-K\".",
+      "aiSummary": "Acquisitions and compliance catalysts dominate today's tape, but the session is heavily skewed toward Hong Kong and Chinese micro-caps (POM, FTFT, ROMA, AXNX, CHSN) running on NO-NEWS tags—a structural red flag for this framework. Float concentration is excellent (most sub-10M), yet HOD prints clustered in morning/afternoon sessions with notable fade percentages (POM 39%, BRAI 33%) suggest premarket spike dominance and institutional distribution rather than sustained institutional accumulation; ULBI and AIOK show tighter fades (0.38%, 5.89%) but both tagged acquisition plays risk quick momentum exhaustion post-announcement. The tape reads COLD: heavy premarket premium, inconsistent afternoon HOD holds, and pervasive NO-NEWS/SYMPATHY tags indicate retail-led pops lacking real cash-value thesis, making this a poor risk/reward environment for dip/soak setups and flag breakouts—momentum traders should sit tight and wait for a session printing afternoon HODs on genuine catalyst confirmation."
+    },
     {
       "date": "2026-10-27",
       "runners": [
