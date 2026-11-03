@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-11-02T13:54:11.517350Z",
-  "count": 10170,
+  "exportedAt": "2026-11-03T13:46:51.055016Z",
+  "count": 10180,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,933 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-11-02",
+      "runners": [
+        {
+          "sym": "INO",
+          "hod": 260,
+          "hodExact": 260.23,
+          "news": [
+            "INOVIO to Report Third Quarter 2026 Financial Results on November 10, 2026",
+            "INOVIO to Participate in Upcoming Scientific Conferences",
+            "Form 8-K",
+            "INOVIO Announces FDA Accelerated Approval of VOCERYQ™, an Immunotherapy to Reduce the Frequency of Surgery in Adults with Recurrent Respiratory Papillomatosis (RRP)"
+          ],
+          "tag": "FDA",
+          "name": "Inovio Pharmaceuticals, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 103.18,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$195M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6024,
+          "open": 1.99,
+          "gapPct": 230.35,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.17,
+          "hodTimeExact": "09:03 AM ET",
+          "close": 1.89,
+          "fade": 12,
+          "fadeExact": 12.9,
+          "vwap": 1.944,
+          "vsVwap": "below",
+          "pmHigh": 2.4,
+          "volRaw": "222.5M",
+          "volDollar": 432555663,
+          "relVol": 26.6,
+          "avgVolM": 8.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "INOVIO to Report Third Quarter 2026 Financial Results on November 10, 2026",
+            "INOVIO to Participate in Upcoming Scientific Conferences",
+            "Form 8-K",
+            "INOVIO Announces FDA Accelerated Approval of VOCERYQ™, an Immunotherapy to Reduce the Frequency of Surgery in Adults with Recurrent Respiratory Papillomatosis (RRP)"
+          ],
+          "newsItems": [
+            {
+              "title": "INOVIO to Report Third Quarter 2026 Financial Results on November 10, 2026",
+              "url": "https://www.stocktitan.net/news/INO/inovio-to-report-third-quarter-2026-financial-results-on-november-10-jnl726bdax0p.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-02T21:15:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "INOVIO to Participate in Upcoming Scientific Conferences",
+              "url": "https://www.stocktitan.net/news/INO/inovio-to-participate-in-upcoming-scientific-6s8imv42il33.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-02T21:01:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312526442648/d150457d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-02T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "INOVIO Announces FDA Accelerated Approval of VOCERYQ™, an Immunotherapy to Reduce the Frequency of Surgery in Adults with Recurrent Respiratory Papillomatosis (RRP)",
+              "url": "https://www.stocktitan.net/news/INO/inovio-announces-fda-accelerated-approval-of-voceryqtm-an-6o64cas5rrns.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-30T22:01:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:INO",
+          "newsSummary": "INO received FDA Accelerated Approval for VOCERYQ™ on 2026-10-30, a real clinical win for an immunotherapy addressing recurrent respiratory papillomatosis (RRP). This is genuine cash-value news with regulatory validation. The 260% HOD today (2026-11-02) came 2+ days post-announcement, suggesting institutional accumulation rather than a premarket spike fade.",
+          "bullFactors": [
+            "Real FDA accelerated approval is a hard catalyst with genuine commercial potential, not fluff or sympathy",
+            "260% HOD on 26.6x relative volume shows sustained intraday institutional buying pressure, not a one-minute spike-and-dump",
+            "12.9% fade from HOD is tight consolidation; price held most gains, suggesting conviction holding into close",
+            "Q3 earnings scheduled for 2026-11-10 provides follow-up catalyst window"
+          ],
+          "bearFactors": [
+            "Float of 103M is MEGA THICK (>10M preference breached badly) — liquidity is deep but momentum dilutes quickly on size",
+            "Post-approval news landed after market hours 2026-10-30 (22:01); today's move is delayed reaction (2+ days), reducing freshness and increasing fade risk on day 2",
+            "Market cap $195M is small but float size limits velocity; retail FOMO push will face structural resistance on big position sizes",
+            "FDA approval alone does not guarantee revenue ramp; commercial execution risk remains high for RRP indication"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "RBNE",
+          "hod": 130,
+          "hodExact": 130.3,
+          "news": [
+            "Form 6-K",
+            "Robin Energy Declares Special Dividend of $0.10 Per Share"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "Robin Energy Ltd. Common Stock",
+          "sector": "Energy",
+          "country": "CY",
+          "floatM": 1.32,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 1.32M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1386,
+          "open": 0.188,
+          "gapPct": 35.64,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.3192,
+          "hodTimeExact": "10:53 AM ET",
+          "close": 0.151,
+          "fade": 52,
+          "fadeExact": 52.69,
+          "vwap": 0.2157,
+          "vsVwap": "below",
+          "pmHigh": 0.1578,
+          "volRaw": "348.8M",
+          "volDollar": 75245622,
+          "relVol": 13.7,
+          "avgVolM": 25.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Robin Energy Declares Special Dividend of $0.10 Per Share"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2039060/000114036126041452/ef20084759_6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-02T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Robin Energy Declares Special Dividend of $0.10 Per Share",
+              "url": "https://www.stocktitan.net/news/RBNE/robin-energy-declares-special-dividend-of-0-10-per-8jk9oxbmssah.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-02T14:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RBNE",
+          "newsSummary": "Robin Energy declared a special dividend of $0.10 per share at 14:05 UTC, well before the session high, demonstrating real cash return to shareholders. The subsequent 130% HOD move shows sustained institutional accumulation throughout the day, with the Form 6-K filing arriving post-move as a reactive disclosure rather than a catalyst.",
+          "bullFactors": [
+            "Micro-float (1.32M) with 13.7x relative volume — extreme leverage for institutional flow",
+            "Real cash catalyst: $0.10 special dividend signals balance sheet strength and shareholder-friendly capital allocation",
+            "Session HOD printed late (130% gain), not premarket spike — tape shows afternoon continuation and shorts covering, not early fade",
+            "Sustained intraday volume all day with multiple HOD prints — institutional accumulation pattern, not pump-and-dump"
+          ],
+          "bearFactors": [
+            "Cypriot listing (lower regulatory scrutiny) with minimal market cap ($239K) — liquidity and credibility risks",
+            "Form 6-K filed after the move — no advance clarity on business fundamentals or forward guidance",
+            "52.7% fade from HOD suggests profit-taking and potential resistance at current levels; retail entry risk high after 130% move",
+            "Energy sector exposure (Oil & Gas) without clear operational catalyst — dividend alone may not sustain momentum"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CLRO",
+          "hod": 117,
+          "hodExact": 117.01,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "ClearOne, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 1.03,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 1.03M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.41,
+          "open": 6.685,
+          "gapPct": 96.04,
+          "time": "regular session",
+          "session": "morning",
+          "high": 7.4,
+          "hodTimeExact": "10:33 AM ET",
+          "close": 5.65,
+          "fade": 23,
+          "fadeExact": 23.65,
+          "vwap": 6.2009,
+          "vsVwap": "below",
+          "pmHigh": 6.62,
+          "volRaw": "39.1M",
+          "volDollar": 242698644,
+          "relVol": 5.1,
+          "avgVolM": 7.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CLRO",
+          "newsSummary": "CLRO moved 117% intraday on no identified catalyst or news event. The gap was 96% premarket, followed by a 23.65% fade—classic premarket spike pattern with lack of sustained institutional accumulation.",
+          "bullFactors": [
+            "Micro float (1.03M) creates structural volatility and squeeze potential",
+            "5.1x relative volume suggests retail participation and liquidity",
+            "117% HOD print could indicate late-session momentum if fade reverses"
+          ],
+          "bearFactors": [
+            "96% premarket gap + 23.65% fade is the hallmark COLD tape signature—no catalyst substance",
+            "No news or catalyst identified; move is pure momentum with no fundamental support",
+            "Premarket-dominated move without intraday session HODs printing suggests weak institutional accumulation and high reversion risk"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "INLF",
+          "hod": 86,
+          "hodExact": 86.0,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "INLIF LIMITED Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 3.35,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 3.35M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.35M + RelVol 27.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.35M + RelVol 27.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.185,
+          "open": 0.2471,
+          "gapPct": 33.57,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.3441,
+          "hodTimeExact": "11:42 AM ET",
+          "close": 0.2899,
+          "fade": 15,
+          "fadeExact": 15.75,
+          "vwap": 0.2968,
+          "vsVwap": "below",
+          "pmHigh": 0.31,
+          "volRaw": "472.1M",
+          "volDollar": 140122887,
+          "relVol": 27.4,
+          "avgVolM": 17.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:INLF",
+          "newsSummary": "INLF moved +33.57% on gap with no identifiable news catalyst. The stock exhibited strong intraday continuation (86% HOD dominance vs 15.75% fade), typical of a China rig structural pattern — sustained institutional buying pressure throughout session rather than premarket spike-and-fade.",
+          "bullFactors": [
+            "Micro-cap float (3.35M) provides tight liquidity structure for momentum runs",
+            "Strong session HOD dominance (86%) with low fade (15.75%) signals afternoon continuation strength and short squeezes",
+            "Relative volume 27.4x is exceptional, indicating sustained intraday accumulation rather than flash spike",
+            "China rig pattern (greater_china=true, micro float, no news) shows institutional buying pressure maintained throughout day"
+          ],
+          "bearFactors": [
+            "No fundamental catalyst identified — pure technicals/structural play with higher black swan risk",
+            "33.57% gap in absence of news creates execution risk for entry; tape already hot when retail sees it",
+            "Chinese micro-cap sector carries regulatory and liquidity spillover risks",
+            "No real cash value deal or partnership announced; dependent entirely on momentum continuation"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SEGG",
+          "hod": 79,
+          "hodExact": 79.7,
+          "news": [
+            "Form 10-Q",
+            "SEGG Media Reports More Than 1,500% Year-Over-Year Revenue Growth in Second Quarter, Driven by Veloce"
+          ],
+          "tag": "EARNINGS",
+          "name": "Sports Entertainment Gaming Global Corporation Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 3.93,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 3.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.93M + RelVol 952.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.93M + RelVol 952.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.33,
+          "open": 1.33,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.39,
+          "hodTimeExact": "02:07 PM ET",
+          "close": 1.93,
+          "fade": 19,
+          "fadeExact": 19.25,
+          "vwap": 1.9369,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "35.4M",
+          "volDollar": 68494248,
+          "relVol": 952.9,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-Q",
+            "SEGG Media Reports More Than 1,500% Year-Over-Year Revenue Growth in Second Quarter, Driven by Veloce"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1673481/000149315226049582/form10-q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-02T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "after"
+            },
+            {
+              "title": "SEGG Media Reports More Than 1,500% Year-Over-Year Revenue Growth in Second Quarter, Driven by Veloce",
+              "url": "https://www.stocktitan.net/news/SEGG/segg-media-reports-more-than-1-500-year-over-year-revenue-growth-in-4vx3ozxi6f1y.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-02T17:35:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SEGG",
+          "newsSummary": "SEGG reported 1,500%+ YoY revenue growth in Q2 driven by Veloce product line, with the earnings release (10-Q) and PR both published after the session high. The catalyst is real cash revenue acceleration, not fluff, but both news items trailed the intraday move, meaning the market ran on anticipated strength or earlier leak/whisper before formal announcement.",
+          "bullFactors": [
+            "Exceptional float (3.93M shares) — micro-cap with extremely tight supply, ideal for momentum runners",
+            "Sustained intraday volume (RelVol 952.9) with 79.7% of day's range in HOD territory — strong afternoon continuation and short squeeze signature",
+            "Real catalyst: 1,500%+ YoY revenue growth is genuine cash value, not sympathy or fluff",
+            "No gap required — pure intraday build with high relative volume suggests institutional accumulation before retail awareness"
+          ],
+          "bearFactors": [
+            "Both news items (PR and 10-Q) posted AFTER the session high — they confirmed rather than caused the move, indicating potential premarket spike or whisper-driven run",
+            "19.25% fade into close suggests some profit-taking or short covering off the HOD, not pure continuation strength",
+            "Consumer Cyclical sector with limited big-name partnerships or defensible moat mentioned — revenue growth alone may not sustain through next session",
+            "No prior tape history or daily chart context provided — cannot confirm 'room to upside' or key pivot structure on chart"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "OTAIr",
+          "hod": 63,
+          "hodExact": 63.02,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Starlink AI Acquisition Corporation Rights, each entitling the holder to receive one-fourth (1/4) of one ordinary share",
+          "sector": "BLANK CHECKS",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2699,
+          "open": 0.28,
+          "gapPct": 3.74,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.44,
+          "hodTimeExact": "10:30 AM ET",
+          "close": 0.3,
+          "fade": 31,
+          "fadeExact": 31.82,
+          "vwap": 0.2986,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "578K",
+          "volDollar": 172596,
+          "relVol": 130.1,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNYS",
+          "tvSymbol": null,
+          "newsSummary": "OTAIr moved 63% HOD with 130% relative volume on no identified news catalyst. Price action alone drove the move — classic tape-driven momentum in a blank check vehicle with unknown fundamentals and no material announcements.",
+          "bullFactors": [
+            "63% HOD dominance + 31.82% fade suggests real intraday buying pressure, not pure premarket spike fade",
+            "130.1% relative volume indicates institutional or coordinated retail accumulation throughout session",
+            "Blank check sector often attracts M&A speculation and SPAC re-rating moves without headline catalysts"
+          ],
+          "bearFactors": [
+            "Float unknown (null) — cannot assess true float tier; risk of high-float trap or dilution hidden in cap table",
+            "NO-NEWS catalyst is structurally weak for Jack's framework; real cash catalysts required for confidence",
+            "Blank check sector at 0 market cap signals reverse merger or shell status; high dilution and reverse split risk",
+            "No clear daily chart context provided; cannot confirm room to upside, support levels, or overhead supply"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "EVGO",
+          "hod": 54,
+          "hodExact": 54.76,
+          "news": [
+            "Form 8-K",
+            "EVgo Confirms Receipt of Unsolicited and Non-Binding Take Private Proposal",
+            "EVgo to Report Third Quarter 2026 Results on November 9"
+          ],
+          "tag": "ACQUISITION",
+          "name": "EVgo Inc. Class A Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 134.2,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$582M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.26,
+          "open": 1.82,
+          "gapPct": 44.44,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.95,
+          "hodTimeExact": "09:00 AM ET",
+          "close": 1.85,
+          "fade": 5,
+          "fadeExact": 5.13,
+          "vwap": 1.8282,
+          "vsVwap": "above",
+          "pmHigh": 2.08,
+          "volRaw": "72.4M",
+          "volDollar": 132358243,
+          "relVol": 23.6,
+          "avgVolM": 3.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "EVgo Confirms Receipt of Unsolicited and Non-Binding Take Private Proposal",
+            "EVgo to Report Third Quarter 2026 Results on November 9"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1821159/000182115926000027/evgo-20261102.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-02T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "EVgo Confirms Receipt of Unsolicited and Non-Binding Take Private Proposal",
+              "url": "https://www.stocktitan.net/news/EVGO/e-vgo-confirms-receipt-of-unsolicited-and-non-binding-take-private-erxkkelel9p6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-02T20:45:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "EVgo to Report Third Quarter 2026 Results on November 9",
+              "url": "https://www.stocktitan.net/news/EVGO/e-vgo-to-report-third-quarter-2026-results-on-november-5yeh5t96t4z3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-30T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "EV",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:EVGO",
+          "newsSummary": "EVgo announced receipt of an unsolicited, non-binding take-private proposal after the session HOD was set, confirming it was a reactive disclosure. The proposal is speculative—non-binding and unsolicited—but signals potential M&A interest in the EV charging infrastructure space. Real cash value is unclear until terms emerge; this is early-stage deal noise, not a closed transaction.",
+          "bullFactors": [
+            "54.76% HOD dominance with sustained 23.6x relative volume signals institutional accumulation and short squeeze into afternoon close, not a premarket spike fade",
+            "Take-private proposal removes dilution overhang and offers upside optionality if deal progresses; M&A floor sets psychological bid",
+            "ER catalyst coming Nov 9 adds layered catalysts—stock held gains into earnings news"
+          ],
+          "bearFactors": [
+            "134.2M float is mega-thick; even with 23.6x relVol, liquidity risk is high and scalability into size is constrained for day trade exits",
+            "Non-binding, unsolicited proposal has zero closure certainty; deal could collapse or price discovery on real valuation is far ahead",
+            "Gap-and-fade risk at 44.44% gap; if retail exhausts buying on proposal hype, afternoon fade into close is plausible despite HOD print"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PLCE",
+          "hod": 50,
+          "hodExact": 50.92,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Children's Place, Inc.",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 8.49,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$9M",
+          "riskBadges": [
+            "Float 8.49M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.49M + RelVol 16.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.49M + RelVol 16.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4201,
+          "open": 0.4225,
+          "gapPct": 0.57,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.634,
+          "hodTimeExact": "12:44 PM ET",
+          "close": 0.4244,
+          "fade": 33,
+          "fadeExact": 33.06,
+          "vwap": 0.4775,
+          "vsVwap": "below",
+          "pmHigh": 0.43,
+          "volRaw": "13.6M",
+          "volDollar": 6500036,
+          "relVol": 16.1,
+          "avgVolM": 0.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PLCE",
+          "newsSummary": "PLCE moved +50.92% on the day with no identifiable news catalyst — this is a pure price-action runner. The fade of 33.06% suggests institutional accumulation earlier in the session before retail continuation, typical of low-float momentum plays in Consumer Cyclical.",
+          "bullFactors": [
+            "Ultra-low float at 8.49M shares — ideal for Jack's preference, high leverage to volume",
+            "Sustained intraday HOD printing (50.92% HOD% dominance) indicates afternoon strength and short squeezes, not premarket spike-and-fade",
+            "Relative volume of 16.1x is exceptional and suggests real institutional interest accumulating on dips",
+            "33% intraday fade followed by HOD push signals healthy dip/soak pattern — institutional buyers stepped in"
+          ],
+          "bearFactors": [
+            "No catalyst at all — this is pure momentum/technicals with zero fundamental anchor, high whipsaw risk",
+            "Tiny market cap (~$9.5M) creates liquidity traps and wide spreads, dangerous for exit timing",
+            "Consumer Cyclical sector with no theme connection makes this vulnerable to sector rotation or profit-taking",
+            "No prior daily chart context provided — unknown if there is daily resistance overhead or if this is a breakout on a flag"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "PMAX",
+          "hod": 46,
+          "hodExact": 46.98,
+          "news": [
+            "Powell Max Limited Announces Strategy to Build a Defense and Security Group, Beginning with Proposed Remington Firearms Transaction"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Powell Max Limited Class A Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "HK",
+          "floatM": 1.31,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 1.31M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.31M + RelVol 19.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.31M + RelVol 19.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4555,
+          "open": 0.478,
+          "gapPct": 4.94,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.6695,
+          "hodTimeExact": "02:17 PM ET",
+          "close": 0.5623,
+          "fade": 16,
+          "fadeExact": 16.01,
+          "vwap": 0.5677,
+          "vsVwap": "below",
+          "pmHigh": 0.5,
+          "volRaw": "9.3M",
+          "volDollar": 5307553,
+          "relVol": 19.5,
+          "avgVolM": 0.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Powell Max Limited Announces Strategy to Build a Defense and Security Group, Beginning with Proposed Remington Firearms Transaction"
+          ],
+          "newsItems": [
+            {
+              "title": "Powell Max Limited Announces Strategy to Build a Defense and Security Group, Beginning with Proposed Remington Firearms Transaction",
+              "url": "https://www.stocktitan.net/news/PMAX/powell-max-limited-announces-strategy-to-build-a-defense-and-2o5zxb7bdyh6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-29T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Defense",
+              "confidence": 0.92,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PMAX",
+          "newsSummary": "Powell Max announced a strategy to build a Defense and Security Group, beginning with a proposed Remington Firearms transaction. The news broke before the move (2026-10-29), providing real M&A catalyst with tangible asset acquisition rather than sympathy or speculative positioning. Real cash-driven diversification into defense/firearms is substantive for this financial services micro-cap.",
+          "bullFactors": [
+            "Micro-float (1.31M) with extreme rel vol (19.5x) — retail and institutional momentum alignment",
+            "46.98% HOD with only 16.01% fade — sustained intraday strength, not a premarket spike collapse; afternoon continuation likely",
+            "Real acquisition catalyst (Remington Firearms) vs. fluff news — Defense theme has structural tailwinds post-election",
+            "Gap-up 4.94% into news, yet held and rallied further — institutional absorption, not distribution"
+          ],
+          "bearFactors": [
+            "Hong Kong financial services micro-cap with limited float liquidity — execution risk on Remington deal, regulatory/compliance headwinds common for HK cross-border M&A",
+            "46% move in one session on a micro-float risks sharp reversal if deal stalls or dilutive financing details emerge",
+            "Financial Services sector + Greater China jurisdiction = elevated reverse merger/SPAC-like skepticism; need to monitor for offering/warrant exercise announcements"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "IFBD",
+          "hod": 44,
+          "hodExact": 44.51,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Infobird Co., Ltd Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 4.72,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 4.72M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 4.72M + RelVol 19.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 4.72M + RelVol 19.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7473,
+          "open": 0.7345,
+          "gapPct": -1.72,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 1.08,
+          "hodTimeExact": "08:49 PM ET",
+          "close": 1.03,
+          "fade": 4,
+          "fadeExact": 4.63,
+          "vwap": 0.9859,
+          "vsVwap": "above",
+          "pmHigh": 0.8257,
+          "volRaw": "1.1M",
+          "volDollar": 1093149,
+          "relVol": 19.8,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:IFBD",
+          "newsSummary": "IFBD ran 44.51% on the session with no identified news catalyst or press releases. Price action shows strong intraday continuation with a -1.72% gap that reversed into sustained upside, printing session HODs and a 4.63% fade, consistent with institutional accumulation and retail follow-through rather than event-driven buying.",
+          "bullFactors": [
+            "Micro-cap float (4.72M) under Jack's <10M preference — tight supply structure supports momentum runs",
+            "Extreme relative volume (19.8x) with session HODs dominating and late-session HOD prints indicate hot tape and shorts blowing out, not premarket spike fade",
+            "Sustained intraday trend: negative gap reversed into 44% gain with only 4.63% fade suggests institutional buying pressure and accumulation before retail push, classic dip/soak setup",
+            "Chinese micro-cap with micro float and no-news sustained rally fits 'China Rig' structural pattern — aggressive institutional accumulation with high relative volume all session"
+          ],
+          "bearFactors": [
+            "No identifiable catalyst (NO-NEWS) — pure momentum/structural play increases black swan and liquidity spillover risk on reversal",
+            "Chinese small-cap regulatory and delisting risk inherent to the jurisdiction",
+            "Micro-cap float and 4.72M market cap create illiquidity on exits; large position sizing or late-entry could result in slippage on reversal",
+            "No daily chart context provided — cannot assess overhead supply, previous HOD levels, or technical room to run further"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 260,
+      "fade": 21,
+      "hodTime": "premarket",
+      "theme": "Choppy Mixed",
+      "note": "INO led +260.23% (12% fade). 6/10 held <20% fade. news: INO — \"INOVIO to Report Third Quarter 2026 Financial Results on November 10, 2026\".",
+      "aiSummary": "Today's tape is dominated by NO-NEWS sympathy runs (CLRO, INLF, OTAIr, IFBD) and acquisition tags (EVGO, PMAX), with catalyst quality skewing weak—real fundamentals (FDA, earnings, buyback) represent only 30% of top movers. Float structure heavily favors this framework with six names under 10M shares, though two mega-cap outliers (INO 103M, EVGO 134M) command massive dollar volume, indicating retail/institutional crossover rather than pure small-cap momentum. Session HODs printed across premarket (INO, EVGO—immediate fade signals), morning (RBNE, CLRO, INLF), and afternoon (SEGG, PLCE, PMAX), with sustained volume into afternoon on RBNE and CLRO suggesting institutional accumulation; however, the tape runs COLD overall—premarket spikes dominating the top three largest dollar volumes, heavy afternoon fades on high-float names (INO 12.9%, CLRO 23.65%, PLCE 33.06%), and an absence of late-session HOD breakouts signal weakening momentum. This setup presents as mixed-to-cold for the playbook: float and afternoon catalysts align, but the catalyst quality is poor, premarket dominance suggests retail exhaustion, and the tape lacks the sustained intraday continuation volume that typically marks hot cycle runners."
+    },
     {
       "date": "2026-10-30",
       "runners": [
