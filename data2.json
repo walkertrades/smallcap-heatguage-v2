@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-11-03T13:46:51.055016Z",
-  "count": 10180,
+  "exportedAt": "2026-11-03T21:41:24.772177Z",
+  "count": 10190,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,983 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-11-03",
+      "runners": [
+        {
+          "sym": "PARA",
+          "hod": 428,
+          "hodExact": 428.4,
+          "news": [
+            "S-1 registration",
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Parabolic Technologies, Inc. Class A Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 0.51,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.51M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.51M + RelVol 180.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.51M + RelVol 180.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.69,
+          "open": 3.73,
+          "gapPct": 120.71,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.93,
+          "hodTimeExact": "10:54 AM ET",
+          "close": 2.72,
+          "fade": 69,
+          "fadeExact": 69.54,
+          "vwap": 4.5421,
+          "vsVwap": "below",
+          "pmHigh": 2.75,
+          "volRaw": "100.3M",
+          "volDollar": 455663899,
+          "relVol": 180.6,
+          "avgVolM": 0.6,
+          "ssr": true,
+          "reverseSplit": "10:1",
+          "newsHeadlines": [
+            "S-1 registration",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "S-1 registration",
+              "url": "https://www.sec.gov/Archives/edgar/data/1826011/000149315226049469/forms-1.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "S-1",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1826011/000143774926034210/para20261030_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PARA",
+          "newsSummary": "PARA filed S-1 registration and Form 8-K on 2026-10-30, both before the high. The S-1 signals IPO preparation or direct listing intent — a structural catalyst with real implications for liquidity and institutional access. This is legitimate SEC documentation, not fluff, though timing relative to the move suggests the market was already pricing anticipation.",
+          "bullFactors": [
+            "Nano float (0.51M shares) creates extreme leverage for intraday volatility and sustained runners",
+            "Relative volume of 180.6x is exceptional and indicates genuine institutional/retail accumulation, not pump fade",
+            "HOD at +428% with 69% fade still leaves massive room to run on any continuation cycle; no warrant/ATM overhead noted",
+            "S-1/8-K compliance catalyst is real (not sympathy/fluff) and unlocks IPO pathway, attracting institutional attention"
+          ],
+          "bearFactors": [
+            "Premarket gap of +121% means most of the move occurred before market open; session HOD only +428% suggests limited fresh intraday extension room",
+            "S-1 filing typically signals dilution risk post-IPO; near-term trading window may close once lockup/lockup expiration becomes reality",
+            "No news on the specific business, revenue, or partnerships — compliance event alone does not guarantee fundamental value",
+            "Nano-cap float creates squeeze conditions but also black swan liquidity risk if retail capitulation triggers cascade"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CHSN",
+          "hod": 318,
+          "hodExact": 318.98,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Chanson International Holding Class A Ordinary Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 2.42,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$22M",
+          "riskBadges": [
+            "Float 2.42M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.42M + RelVol 20.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.42M + RelVol 20.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9905,
+          "open": 1.08,
+          "gapPct": 9.04,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 4.15,
+          "hodTimeExact": "04:15 PM ET",
+          "close": 3.38,
+          "fade": 18,
+          "fadeExact": 18.55,
+          "vwap": 2.5898,
+          "vsVwap": "above",
+          "pmHigh": 1.07,
+          "volRaw": "80.2M",
+          "volDollar": 207659702,
+          "relVol": 20.7,
+          "avgVolM": 3.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1825349/000118518526005015/chsn6k102726.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.9,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CHSN",
+          "newsSummary": "CHSN ran 319% intraday with only a Form 6-K filing dated 2026-10-27 (before the move), which is routine SEC disclosure and not a catalyst. The move appears driven by structural China micro-cap dynamics rather than fundamental news, suggesting institutional accumulation in a low-float name.",
+          "bullFactors": [
+            "Micro float (2.42M) with sustained high relative volume (20.7x) — ideal for momentum continuation",
+            "China Rig pattern evident: 319% HOD with only 18.55% fade suggests afternoon session strength and institutional accumulation, not premarket dump",
+            "Late session HOD printing indicates hot tape and short-covering demand into close",
+            "Consumer Defensive sector stability provides underlying bid vs. higher-risk micro-cap verticals"
+          ],
+          "bearFactors": [
+            "No substantive cash catalyst — Form 6-K alone does not justify 319% move; reliant on structural flow",
+            "Chinese micro-cap names carry regulatory, delisting, and liquidity risk; Greater China exposure adds geopolitical tail risk",
+            "Despite strong HOD, 18.55% fade suggests some profit-taking and potential overhead resistance on next session",
+            "Minimal market cap ($22.2M) and micro float create execution risk on larger size"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MERC",
+          "hod": 184,
+          "hodExact": 184.05,
+          "news": [
+            "Form 8-K",
+            "Mercer International Announces Comprehensive Recapitalization Agreement with Significant Support from Noteholders and Shareholders",
+            "Mercer International Inc. Announces Conference Call for Third Quarter 2026 Results"
+          ],
+          "tag": "BANKRUPTCY",
+          "name": "Mercer International Inc",
+          "sector": "Basic Materials",
+          "country": "CA",
+          "floatM": 42.33,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$14M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.126,
+          "open": 0.2191,
+          "gapPct": 73.89,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.3579,
+          "hodTimeExact": "12:31 PM ET",
+          "close": 0.212,
+          "fade": 40,
+          "fadeExact": 40.77,
+          "vwap": 0.2502,
+          "vsVwap": "below",
+          "pmHigh": 0.2707,
+          "volRaw": "601.9M",
+          "volDollar": 150587203,
+          "relVol": 196.5,
+          "avgVolM": 3.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Mercer International Announces Comprehensive Recapitalization Agreement with Significant Support from Noteholders and Shareholders",
+            "Mercer International Inc. Announces Conference Call for Third Quarter 2026 Results"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1333274/000119312526444106/d159472d8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-03T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Mercer International Announces Comprehensive Recapitalization Agreement with Significant Support from Noteholders and Shareholders",
+              "url": "https://www.stocktitan.net/news/MERC/mercer-international-announces-comprehensive-recapitalization-8k1l758q36fz.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-02T23:49:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Mercer International Inc. Announces Conference Call for Third Quarter 2026 Results",
+              "url": "https://www.stocktitan.net/news/MERC/mercer-international-inc-announces-conference-call-for-third-quarter-t21akjs5zr3l.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-27T20:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MERC",
+          "newsSummary": "Mercer International announced a comprehensive recapitalization agreement with support from noteholders and shareholders on Nov 2, pre-move. The company is a Canadian pulp & paper producer restructuring its debt. This is a distressed-debt catalyst with real cash implications (not fluff), but the move was front-run; the Form 8-K filed after hours is reactive documentation.",
+          "bullFactors": [
+            "Real cash catalyst: recapitalization agreement with noteholder + shareholder backing signals survival path and potential equity recovery",
+            "184% HOD vs 41% fade shows strong intraday momentum and late-session continuation (afternoon HODs printing)",
+            "High relative volume (196.5x) throughout session indicates institutional accumulation, not pump spike"
+          ],
+          "bearFactors": [
+            "Float of 42.33M is well above Jack's <10M preference; thick float limits explosive intraday range and increases share availability for shorts",
+            "Gap up 73.89% on premarket spike before market open—classic premarket domination risk; intraday fade of 40.77% shows retail dip-buyers getting hit",
+            "Distressed-debt restructuring is binary outcome; equity holders face dilution risk if deal terms shift; no product/revenue upside catalyst",
+            "News broke Nov 2 after-hours; move already priced in by open; limited fresh institutional setup time for dip/soak accumulation play"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CNSY",
+          "hod": 148,
+          "hodExact": 148.54,
+          "news": [
+            "Cerenome Completes Enrollment in Phase 2 ReSPECT-GBM Trial of REYOBIQ™ in Recurrent Glioblastoma",
+            "Cerenome to Present Interim Clinical Update on the ReSPECT-LM Trial of Multiple REYOBIQ™ Doses in Leptomeningeal Metastases"
+          ],
+          "tag": "PHASE-2",
+          "name": "Cerenome, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 6.93,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 6.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.71,
+          "open": 1.7,
+          "gapPct": -0.58,
+          "time": "regular session",
+          "session": "morning",
+          "high": 4.25,
+          "hodTimeExact": "11:39 AM ET",
+          "close": 1.3,
+          "fade": 69,
+          "fadeExact": 69.41,
+          "vwap": 2.5844,
+          "vsVwap": "below",
+          "pmHigh": 1.71,
+          "volRaw": "28.8M",
+          "volDollar": 74355284,
+          "relVol": 384.3,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Cerenome Completes Enrollment in Phase 2 ReSPECT-GBM Trial of REYOBIQ™ in Recurrent Glioblastoma",
+            "Cerenome to Present Interim Clinical Update on the ReSPECT-LM Trial of Multiple REYOBIQ™ Doses in Leptomeningeal Metastases"
+          ],
+          "newsItems": [
+            {
+              "title": "Cerenome Completes Enrollment in Phase 2 ReSPECT-GBM Trial of REYOBIQ™ in Recurrent Glioblastoma",
+              "url": "https://www.stocktitan.net/news/CNSY/cerenome-completes-enrollment-in-phase-2-re-spect-gbm-trial-of-5f9ih8cz2ahf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-29T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Cerenome to Present Interim Clinical Update on the ReSPECT-LM Trial of Multiple REYOBIQ™ Doses in Leptomeningeal Metastases",
+              "url": "https://www.stocktitan.net/news/CNSY/cerenome-to-present-interim-clinical-update-on-the-re-spect-lm-trial-kbi6xzdw3vf3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-27T11:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CNSY",
+          "newsSummary": "Cerenome announced completion of Phase 2 enrollment in ReSPECT-GBM trial (Oct 29) and an interim clinical update presentation on ReSPECT-LM trial (Oct 27), both predating the intraday move. The catalyst has real merit—Phase 2 milestone completion and clinical data readiness are legitimate biotech catalysts—but news timing suggests the move may have been driven by institutional accumulation and tape continuation rather than fresh catalyst announcement.",
+          "bullFactors": [
+            "Tight float at 6.93M shares—well under Jack's 10M preference, supports volatility amplification",
+            "Massive relative volume (384.3x) with sustained intraday HOD printing (148% gain)—tape shows continuation strength, not premarket fade",
+            "Real cash-value catalyst: Phase 2 enrollment completion and clinical update in oncology (glioblastoma, leptomeningeal metastases) are substantive milestones",
+            "Daily chart had room to run into the move—no warrant/convertible/ATM overhead noted"
+          ],
+          "bearFactors": [
+            "News released 5–6 days before the move (Oct 27–29 vs. Nov 3 run)—late-cycle institutional push or retail spillover, not fresh catalyst",
+            "148% intraday gain is extreme; fade of 69.41% suggests potential liquidity evaporation into close or next session",
+            "Micro-cap biotech with clinical-stage asset (Phase 2 only, no approval path visible)—binary risk and limited institutional depth"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "RDAC",
+          "hod": 129,
+          "hodExact": 129.02,
+          "news": [
+            "Form 8-K",
+            "Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement"
+          ],
+          "tag": "MERGER",
+          "name": "Rising Dragon Acquisition Corp. Ordinary Shares",
+          "sector": "Financial Services",
+          "country": "CN",
+          "floatM": 1.69,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$38M",
+          "riskBadges": [
+            "Float 1.69M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 5.1,
+          "open": 11.09,
+          "gapPct": 117.45,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 11.68,
+          "hodTimeExact": "08:09 AM ET",
+          "close": 11.3,
+          "fade": 3,
+          "fadeExact": 3.25,
+          "vwap": 10.9424,
+          "vsVwap": "above",
+          "pmHigh": 13.69,
+          "volRaw": "9.2M",
+          "volDollar": 100324628,
+          "relVol": 1341.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2018145/000121390026115158/ea0310535-8k_rising.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-03T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Rising Dragon Acquisition Corp. and HZJL Cayman Limited Announce Mutual Termination of Merger Agreement",
+              "url": "https://www.stocktitan.net/news/RDAC/rising-dragon-acquisition-corp-and-hzjl-cayman-limited-announce-zddviq7v3pgi.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-03T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RDAC",
+          "newsSummary": "Rising Dragon Acquisition Corp. announced mutual termination of its merger agreement with HZJL Cayman Limited at 11:00 AM, well before the session high. The 129% HOD move occurred AFTER this news, indicating the market interpreted the termination as removal of merger uncertainty or a catalyst for alternative corporate action. The deal unwinding itself is not a cash catalyst — it's a structural event that cleared overhang.",
+          "bullFactors": [
+            "Micro float (1.69M) with 1341x rel vol — extreme intraday liquidity and retail/institutional participation",
+            "129% HOD with only 3.25% fade shows sustained conviction and afternoon continuation strength — classic China rig pattern with high session HOD dominance",
+            "Merger termination removes execution risk and uncertainty; Chinese micro-cap acquiring entity may now pursue alternative strategic paths",
+            "Form 8-K post-HOD is reactive; real move was intraday institutional accumulation after news clarity"
+          ],
+          "bearFactors": [
+            "Catalyst is a TERMINATION, not a positive event — no real cash value or deal to look forward to, only removal of a failed structure",
+            "Chinese SPAC/reverse merger unwinding is dilution-adjacent; historical pattern shows these can face follow-on offerings or dilutive recaps",
+            "117% gap already in before market open suggests premarket retail spike risk; fade to 3.25% is still compression, not strong hold",
+            "No forward-looking business catalyst or partnership announced — company now in limbo seeking next strategic move"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CRIS",
+          "hod": 126,
+          "hodExact": 126.93,
+          "news": [
+            "Proxy"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Curis Inc",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 5.71,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 5.71M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.71M + RelVol 48.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.71M + RelVol 48.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.661,
+          "open": 0.72,
+          "gapPct": 8.93,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.5,
+          "hodTimeExact": "01:31 PM ET",
+          "close": 0.7139,
+          "fade": 52,
+          "fadeExact": 52.41,
+          "vwap": 1.0696,
+          "vsVwap": "below",
+          "pmHigh": 0.758,
+          "volRaw": "32.2M",
+          "volDollar": 34424129,
+          "relVol": 48.9,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Proxy"
+          ],
+          "newsItems": [
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1108205/000114036126041419/ny20084108x1_def14a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-02T21:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CRIS",
+          "newsSummary": "SEC proxy filing dated Nov 2 preceded the move, suggesting institutional preparation or shareholder action was telegraphed before the session. The 126.93% HOD gain with only 52.41% fade indicates sustained intraday buying pressure rather than a pure premarket spike—the proxy itself is administrative and carries no direct cash catalyst, but may signal governance clarity or upcoming corporate event that institutional money was positioning ahead of.",
+          "bullFactors": [
+            "Ultra-low float (5.71M) with 48.9x relative volume — extreme leverage for momentum on any sustained bid",
+            "HOD printed 126.93% with only 52.41% fade, showing afternoon continuation and institutional follow-through rather than early premarket spike collapse",
+            "8.93% gap up + high session volume suggests overnight accumulation; proxy filing before HOD indicates positioning was planned",
+            "Ticker remains in play with room to move—no warrants, convertibles, or heavy overhead mentioned"
+          ],
+          "bearFactors": [
+            "Proxy filing is administrative, not a cash catalyst—no real earnings, deal, partnership, or FDA event to sustain momentum beyond day-trade window",
+            "Market cap only $6.28M with $5.71M float creates liquidity fragility; large institutional exit could collapse the move rapidly",
+            "No theme or sector tailwind identified; isolated catalyst on governance alone is vulnerable to fade-on-profit or news vacuum",
+            "Gap up + proxy timing could attract retail FOMO; institutional accumulation may already be complete"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "ZNB",
+          "hod": 104,
+          "hodExact": 104.0,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Zeta Network Group Class A Ordinary Shares",
+          "sector": "Communication Services",
+          "country": "CN",
+          "floatM": 1.14,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.14M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5,
+          "open": 0.4982,
+          "gapPct": -0.36,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.02,
+          "hodTimeExact": "02:28 PM ET",
+          "close": 0.551,
+          "fade": 45,
+          "fadeExact": 45.98,
+          "vwap": 0.6892,
+          "vsVwap": "below",
+          "pmHigh": 0.4984,
+          "volRaw": "8.1M",
+          "volDollar": 5597649,
+          "relVol": 12.6,
+          "avgVolM": 0.6,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ZNB",
+          "newsSummary": "ZNB moved 104% HOD with zero substantive news catalyst — purely structural intraday momentum driven by institutional accumulation and retail follow-through. The fade of 45.98% suggests profit-taking after the initial push, but sustained 12.6x relative volume and micro float (1.14M) indicate real intraday institutional buying pressure throughout the session rather than a pump-and-dump premarket spike.",
+          "bullFactors": [
+            "Micro float (1.14M shares) — excellent for momentum acceleration and low liquidity constraints",
+            "104% HOD on high relative volume (12.6x) with afternoon continuation — fits China Rig institutional rig pattern, not fade-prone premarket pump",
+            "Sustained intraday trend with multiple HOD prints suggests institutional accumulation before retail push — dip/soak setup intact",
+            "Negative gap (-0.36%) means stock opened weak and built strength intraday — technical strength confirmation"
+          ],
+          "bearFactors": [
+            "45.98% fade from HOD indicates significant profit-taking and potential overhead supply at higher levels",
+            "No catalyst news means move is purely structural/sympathy-driven — vulnerable to reversal on low volume continuation",
+            "Chinese micro-cap with no fundamental catalyst carries black swan/delisting risk and thin institutional support if retail exits",
+            "Market cap only $3.87M — extreme illiquidity and manipulation risk on any size position"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "BIVI",
+          "hod": 94,
+          "hodExact": 94.16,
+          "news": [
+            "BioVie Selected for Late-Breaking Oral Presentation of Bezisterim Long COVID Data at the 4th Long COVID International Conference 2026"
+          ],
+          "tag": "PHASE-3",
+          "name": "BioVie, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 8.53,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$15M",
+          "riskBadges": [
+            "Float 8.53M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 8.53M + RelVol 75.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 8.53M + RelVol 75.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.37,
+          "open": 1.45,
+          "gapPct": 5.84,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.66,
+          "hodTimeExact": "12:09 PM ET",
+          "close": 1.73,
+          "fade": 34,
+          "fadeExact": 34.96,
+          "vwap": 1.9618,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "13.2M",
+          "volDollar": 25828898,
+          "relVol": 75.7,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "BioVie Selected for Late-Breaking Oral Presentation of Bezisterim Long COVID Data at the 4th Long COVID International Conference 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "BioVie Selected for Late-Breaking Oral Presentation of Bezisterim Long COVID Data at the 4th Long COVID International Conference 2026",
+              "url": "https://www.stocktitan.net/news/BIVI/bio-vie-selected-for-late-breaking-oral-presentation-of-bezisterim-01outhjpynt6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-02T14:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BIVI",
+          "newsSummary": "BioVie announced a late-breaking oral presentation of Bezisterim Long COVID data at the 4th Long COVID International Conference on 2026-11-02, which preceded today's move. The catalyst has real merit—clinical data presentation at a major conference typically signals progress in late-stage development and can validate the therapeutic approach to institutional buyers.",
+          "bullFactors": [
+            "Float 8.53M is well within Jack's sweet spot (<10M), offering tight liquidity and lower resistance to intraday moves",
+            "Real clinical catalyst: late-breaking oral presentation of Phase 3 data is substantive, not fluff—institutional accumulation before retail retail push typical here",
+            "Tape shows sustained intraday strength: 94.16% of range traded on the high side, relVol 75.7x normal, indicating institutional demand throughout session rather than premarket spike fade",
+            "Long COVID theme has real pharma/medical device tailwinds and regulatory interest; Bezisterim approval pathway could drive continued clinical credibility"
+          ],
+          "bearFactors": [
+            "HOD printed before the news was released, which can indicate the move was front-run or preempted by smart money—watch for afternoon fade if retail exhaustion hits",
+            "Healthcare/biotech names are volatile; clinical data always carries execution risk and negative readout risk on future updates",
+            "Market cap only $15.15M—extremely small liquidity pool; if institutional buyers step away, reversals can be violent",
+            "No cash position, partnership, or revenue details disclosed; validate balance sheet before holding through next catalyst"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "SRTS",
+          "hod": 90,
+          "hodExact": 90.91,
+          "news": [
+            "Sensus Healthcare to Report Third Quarter 2026 Financial Results and Hold Business Update Conference Call on November 12, 2026"
+          ],
+          "tag": "EARNINGS",
+          "name": "Sensus Healthcare, Inc",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 13.46,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$59M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 13.46M + RelVol 396.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 13.46M + RelVol 396.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.75,
+          "open": 2.76,
+          "gapPct": 0.36,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 5.25,
+          "hodTimeExact": "12:37 PM ET",
+          "close": 3.285,
+          "fade": 37,
+          "fadeExact": 37.43,
+          "vwap": 3.9516,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "9.7M",
+          "volDollar": 38373059,
+          "relVol": 396.0,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Sensus Healthcare to Report Third Quarter 2026 Financial Results and Hold Business Update Conference Call on November 12, 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "Sensus Healthcare to Report Third Quarter 2026 Financial Results and Hold Business Update Conference Call on November 12, 2026",
+              "url": "https://www.stocktitan.net/news/SRTS/sensus-healthcare-to-report-third-quarter-2026-financial-results-and-h5rpaod5zl2l.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-29T20:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SRTS",
+          "newsSummary": "SRTS announced Q3 2026 earnings and business update conference call scheduled for November 12, 2026 — this is a forward-looking catalyst, not the driver of today's move. The announcement came before the run, making it a scheduled event rather than a surprise trigger. Real merit depends on execution and guidance, but the timing suggests institutional positioning ahead of results.",
+          "bullFactors": [
+            "Sustained intraday momentum with 90.91% HOD achievement — shows afternoon continuation strength and short-covering pressure",
+            "396x relative volume is exceptional — indicates genuine institutional accumulation, not retail-only noise",
+            "Float at 13.46M is borderline acceptable and volume compression favors volatility; intraday vol/min likely exceeded premarket",
+            "Earnings catalyst on Nov 12 gives fundamental reason for institutional entry before retail awareness builds"
+          ],
+          "bearFactors": [
+            "Float slightly above 10M preference (13.46M) — reduces scarcity edge and liquidity concentration",
+            "37.43% fade suggests afternoon strength may have been short squeeze rather than sustained buyer conviction",
+            "Gap of only 0.36% implies no overnight accumulation shock — move was pure intraday; missing overnight institutional setup",
+            "Medical device sector is mature and slow-moving; no AI, FDA breakthrough, or major partnership narrative to sustain retail momentum post-earnings"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "HUBC",
+          "hod": 76,
+          "hodExact": 76.83,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Hub Cyber Security Ltd. Ordinary Shares",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 0.53,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 0.53M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.53M + RelVol 27.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.53M + RelVol 27.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.082,
+          "open": 0.1136,
+          "gapPct": 38.54,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.145,
+          "hodTimeExact": "10:49 AM ET",
+          "close": 0.1067,
+          "fade": 26,
+          "fadeExact": 26.41,
+          "vwap": 0.121,
+          "vsVwap": "below",
+          "pmHigh": 0.137,
+          "volRaw": "387.2M",
+          "volDollar": 46851410,
+          "relVol": 27.0,
+          "avgVolM": 14.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1905660/000121390026112826/ea0309792-6k_hub.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-27T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:HUBC",
+          "newsSummary": "HUBC moved 76.83% intraday with a 38.54% gap up, but the only filing on record is a Form 6-K from Oct 27 (a week prior), which came before the move and is reactive SEC paperwork, not a catalyst. The gap and sustained HOD action suggest institutional accumulation or a structural setup, not news-driven momentum.",
+          "bullFactors": [
+            "Nano float (0.53M shares) — extreme liquidity concentration, high multiplier potential",
+            "Sustained HOD printing (76.83% HOD vs 26.41% fade) — strong continuation, not premarket spike-and-dump",
+            "Relative volume 27.0x — massive intraday participation, tape integrity intact",
+            "Gap up (38.54%) with afternoon hold — suggests institutional entry, not retail flush"
+          ],
+          "bearFactors": [
+            "No real catalyst identified — Form 6-K is administrative, not fundamentally bullish",
+            "Israeli micro-cap with opaque disclosure — reputational risk typical of nano floats",
+            "Already 76% into the move — high risk of afternoon fade or gap-fill reversal on exit liquidity",
+            "Unknown theme/sector exposure — no clear bull thesis, elevated black-swan risk"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 428,
+      "fade": 39,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "PARA led +428.4% (69% fade). 2/10 held <20% fade. news: PARA — \"S-1 registration\".",
+      "aiSummary": "Today's tape is dominated by compliance issues and no-news Chinese names, with PARA (0.51M float, +428% morning HOD) and CHSN (2.42M float, +319% after-hours) leading the charge—a concerning mix of explosive premarket/morning fades (PARA -69.5%, CNSY -69.4%, CRIS -52.4%) paired with sustained afternoon continuation in micro-float Chinese names (RDAC 1.69M, ZNB 1.14M) that fit the institutional rig pattern rather than pump-and-dump. The tape skews heavily micro-cap (seven names under 10M float) with zero real cash catalysts—compliance tags, phase-trial announcements, and no-news backdrop signal retail-driven volatility rather than institutional accumulation, while the morning spike dominance (PARA, CNSY, HUBC) followed by heavy fades indicates a COLD cycle with early premarket exhaustion. This framework would grade the session C+ to C overall: float tier is ideal but catalyst quality is poor, and the fade percentages across morning runners (40-70%) suggest liquidity traps rather than dip-and-hold accumulation setups that warrant sustained holding into afternoon continuation."
+    },
     {
       "date": "2026-11-02",
       "runners": [
