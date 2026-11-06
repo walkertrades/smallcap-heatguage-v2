@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
   "exportedAt": "2026-11-06T03:24:05.610797Z",
-  "count": 10210,
+  "count": 10209,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -12,76 +12,6 @@
     {
       "date": "2026-11-05",
       "runners": [
-        {
-          "sym": "AMPGZ",
-          "hod": 733,
-          "hodExact": 733.33,
-          "news": [],
-          "tag": "NO-NEWS",
-          "name": "Amplitech Group, Inc. Series B Right",
-          "sector": "COMMUNICATIONS EQUIPMENT, NEC",
-          "country": "US",
-          "floatM": null,
-          "floatTier": null,
-          "floatSrc": "Polygon",
-          "marketCap": "N/A",
-          "riskBadges": [],
-          "sections": [
-            {
-              "title": "Why it ran",
-              "emoji": null,
-              "bullets": [
-                "No direct catalyst — sector/sympathy driven"
-              ],
-              "prose": null
-            }
-          ],
-          "reasons": [
-            "No direct catalyst — sector/sympathy driven"
-          ],
-          "insights": [],
-          "jmtNotes": [],
-          "tldr": [],
-          "prevClose": 0.0084,
-          "open": 0.0115,
-          "gapPct": 36.9,
-          "time": "regular session",
-          "session": "afternoon",
-          "high": 0.07,
-          "hodTimeExact": "01:47 PM ET",
-          "close": 0.03,
-          "fade": 57,
-          "fadeExact": 57.14,
-          "vwap": 0.0438,
-          "vsVwap": "below",
-          "pmHigh": 0.008,
-          "volRaw": "653K",
-          "volDollar": 28603,
-          "relVol": 23.1,
-          "avgVolM": 0.0,
-          "ssr": true,
-          "reverseSplit": null,
-          "newsHeadlines": [],
-          "newsItems": [],
-          "newsStatus": "none",
-          "themes": [],
-          "themeStatus": "nonews",
-          "exchange": "XNAS",
-          "tvSymbol": "NASDAQ:AMPGZ",
-          "newsSummary": "AMPGZ ran 733% on the day with no identifiable news catalyst — a pure no-news rip characteristic of low-float or nano-cap structures. The 57% fade and 36.9% gap suggest premarket spike dominance followed by intraday rollover, consistent with retail FOMO chasing rather than institutional accumulation.",
-          "bullFactors": [
-            "Massive intraday relative volume (23.1x) — retail participation was extreme",
-            "HOD printed at +733%, indicating some continuation strength past initial spike",
-            "Communications Equipment sector has peripheral exposure to AI/infrastructure themes"
-          ],
-          "bearFactors": [
-            "No news catalyst — pure sympathy or ticker-scan pump, high dilution risk",
-            "Premarket spike dominated (36.9% gap), followed by hard 57% fade — textbook FOMO setup",
-            "Zero market cap and no float data suggests micro/nano-cap with liquidity traps and possible shell status",
-            "Run was too fast and too large (>700% in 1 session) — out of Jack's avoidance zone for immediate spike plays"
-          ],
-          "setupGrade": "C"
-        },
         {
           "sym": "LABT",
           "hod": 401,
@@ -1020,11 +950,11 @@
           "setupGrade": "B"
         }
       ],
-      "hod": 733,
-      "fade": 35,
+      "hod": 401,
+      "fade": 33,
       "hodTime": "regular session",
       "theme": "Hot Tape",
-      "note": "AMPGZ led +733.33% (57% fade). 4/10 held <20% fade. news: LABT — \"Lakewood-Amedex Biotherapeutics Announces Completion of Series C Convertible Preferred Stock Redemption\".",
+      "note": "LABT led +401.57% (43% fade). 4/9 held <20% fade. news: LABT — \"Lakewood-Amedex Biotherapeutics Announces Completion of Series C Convertible Preferred Stock Redemption\".",
       "aiSummary": "**TAPE READ – 2026-11-05**\n\nToday's tape is dominated by dilutive/structural headwinds (offerings, warrants, compliance issues) masking what could have been a hot afternoon cycle — LABT and NTCL both tagged offering with massive dollar volume but brutal fade ratios (43–74%), signaling institutional distribution rather than accumulation. China micro-caps occupy 50% of the top 10 (AEHL, ZNB, HUHU, ELPW, BDMD), clustering in Basic Materials and Industrials with sub-10M floats, but only AEHL shows the sustained afternoon HOD continuation pattern consistent with China rig mechanics — the rest either premarket-spiked (ZNB, ELPW) or faded hard (HUHU, BDMD), indicating sympathy spillover without structural support. Float distribution skews micro (eight names sub-10M), but this framework's core catalyst filter eliminates most: offerings, compliance, and no-news tags represent 6 of 10 names, leaving AEHL as the only legitimate afternoon continuation play and BDMD as a potential FDA real catalyst that got suffocated by Chinese sector rotation. This is a **COLD-TO-NEUTRAL tape** — premarket dominance (ZNB, ELPW spiking early then fading), high fade ratios across morning runners (LABT, FLYE), and afternoon HODs printing only on names without clean catalyst stories signal retail excitement followed by institutional exit, the exact inverse of the dip/soak setup this playbook targets."
     },
     {
