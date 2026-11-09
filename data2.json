@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-11-06T03:24:05.610797Z",
-  "count": 10209,
+  "exportedAt": "2026-11-09T13:49:51.860050Z",
+  "count": 10219,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1105 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-11-06",
+      "runners": [
+        {
+          "sym": "SDA",
+          "hod": 212,
+          "hodExact": 212.09,
+          "news": [
+            "Form 6-K",
+            "SunCar Technology Group Announces Share Repurchase Program",
+            "SunCar Forecasts Preliminary Unaudited Revenue and Net Income for the First Nine Months of 2026"
+          ],
+          "tag": "SHARE-BUYBACK",
+          "name": "SunCar Technology Group Inc. Class A Ordinary Shares",
+          "sector": "Consumer Cyclical",
+          "country": "CN",
+          "floatM": 35.28,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$39M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1538,
+          "open": 0.1549,
+          "gapPct": 0.72,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.48,
+          "hodTimeExact": "12:31 PM ET",
+          "close": 0.3765,
+          "fade": 21,
+          "fadeExact": 21.56,
+          "vwap": 0.3603,
+          "vsVwap": "above",
+          "pmHigh": 0.16,
+          "volRaw": "566.3M",
+          "volDollar": 204045104,
+          "relVol": 761.1,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "SunCar Technology Group Announces Share Repurchase Program",
+            "SunCar Forecasts Preliminary Unaudited Revenue and Net Income for the First Nine Months of 2026"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1936804/000121390026116687/ea0311241-6k_suncar.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-06T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "SunCar Technology Group Announces Share Repurchase Program",
+              "url": "https://www.stocktitan.net/news/SDA/sun-car-technology-group-announces-share-repurchase-xb9fehajl6kd.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-06T14:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "SunCar Forecasts Preliminary Unaudited Revenue and Net Income for the First Nine Months of 2026",
+              "url": "https://www.stocktitan.net/news/SDA/sun-car-forecasts-preliminary-unaudited-revenue-and-net-income-for-e26t5m6dil37.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-06T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.45,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SDA",
+          "newsSummary": "SDA ran 212% on the session with a 761x relative volume spike, driven by a preliminary revenue/net income forecast (12:30 UTC) and a share repurchase program announcement (14:30 UTC), both posted before the HOD. The Form 6-K filing came after the move and is reactive. The buyback + positive earnings guidance provided real fundamental support, though the Chinese micro-cap structure and thick float (35M shares) suggest institutional accumulation mechanics rather than retail panic-buying.",
+          "bullFactors": [
+            "Sustained intraday momentum with 212% HOD gain and 761x relative volume — consistent with China rig institutional accumulation pattern, not premarket spike fade",
+            "Real catalyst stack: preliminary revenue upside + net income forecast + share repurchase program — buyback signals management confidence and reduces share count",
+            "Multiple session HODs printed before close, indicating afternoon continuation strength and short covering rather than early premarket spike domination",
+            "News timing clustered pre-HOD (12:30 and 14:30 UTC) gave tape time to build, allowing institutional entry before retail chasing"
+          ],
+          "bearFactors": [
+            "Float of 35.28M is well above preferred <10M threshold — liquidity is thick, reducing explosive intraday vol/min dominance over premarket",
+            "Form 6-K (regulatory filing) came after HOD, suggesting news trail is reactive; preliminary unaudited figures lack hard audit certification",
+            "212% single-day gain on a Chinese micro-cap consumer cyclical name carries black swan and liquidity spillover risk — typical fade-on-next-open pattern for China rigs",
+            "No evidence of session HOD dominance vs. premarket spike provided in data; tape temperature not explicitly confirmed as 'HOT'"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "VIVK",
+          "hod": 156,
+          "hodExact": 156.65,
+          "news": [
+            "Vivakor Engages Energy Infrastructure Executive Bernard Brown to Advance Airport Hydrogen Project",
+            "Form 8-K",
+            "Vivakor Highlights Direct Midstream’s New Mexico Operating Agreement as Proposed Acquisition Advances",
+            "Vivakor Engages International Business Strategist to Advance Proposed Airport Energy Infrastructure Project",
+            "Vivakor Announces Proposed Hydrogen Plant and Fueling Station at a Texas International Airport"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Vivakor, Inc. Common Stock",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 2.43,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 2.43M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.37,
+          "open": 0.8164,
+          "gapPct": 120.65,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.9496,
+          "hodTimeExact": "10:44 AM ET",
+          "close": 0.4962,
+          "fade": 47,
+          "fadeExact": 47.75,
+          "vwap": 0.6444,
+          "vsVwap": "below",
+          "pmHigh": 0.5799,
+          "volRaw": "252.2M",
+          "volDollar": 162498183,
+          "relVol": 79.9,
+          "avgVolM": 3.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Vivakor Engages Energy Infrastructure Executive Bernard Brown to Advance Airport Hydrogen Project",
+            "Form 8-K",
+            "Vivakor Highlights Direct Midstream’s New Mexico Operating Agreement as Proposed Acquisition Advances",
+            "Vivakor Engages International Business Strategist to Advance Proposed Airport Energy Infrastructure Project",
+            "Vivakor Announces Proposed Hydrogen Plant and Fueling Station at a Texas International Airport"
+          ],
+          "newsItems": [
+            {
+              "title": "Vivakor Engages Energy Infrastructure Executive Bernard Brown to Advance Airport Hydrogen Project",
+              "url": "https://www.stocktitan.net/news/VIVK/vivakor-engages-energy-infrastructure-executive-bernard-brown-to-padnbx7b81u3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-05T14:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1450704/000182912626011979/vivakorinc_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-04T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Vivakor Highlights Direct Midstream’s New Mexico Operating Agreement as Proposed Acquisition Advances",
+              "url": "https://www.stocktitan.net/news/VIVK/vivakor-highlights-direct-midstream-s-new-mexico-operating-agreement-fvw81wjin61y.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-04T14:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Vivakor Engages International Business Strategist to Advance Proposed Airport Energy Infrastructure Project",
+              "url": "https://www.stocktitan.net/news/VIVK/vivakor-engages-international-business-strategist-to-advance-ly3hxdb37n24.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-03T14:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Vivakor Announces Proposed Hydrogen Plant and Fueling Station at a Texas International Airport",
+              "url": "https://www.stocktitan.net/news/VIVK/vivakor-announces-proposed-hydrogen-plant-and-fueling-station-at-a-6n1kzinlkhp6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-30T13:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Solar",
+              "confidence": 0.5,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:VIVK",
+          "newsSummary": "Vivakor announced a proposed hydrogen plant and fueling station at a Texas airport (Oct 30), followed by engagement of strategic executives and advancement of a New Mexico midstream acquisition. These represent real infrastructure assets and cash-generating deal flow, not dilutive fluff. The sustained news cadence over 6 days suggests institutional confidence in deal progression.",
+          "bullFactors": [
+            "Ultra-low float (2.43M) with 79.9x relative volume — extreme leverage for momentum extension",
+            "HOD 156.65% with only 47.75% fade indicates strong institutional accumulation and afternoon continuation strength, not premarket spike-and-drop",
+            "Real catalyst: hydrogen infrastructure + midstream acquisition = tangible revenue assets, not sympathy or no-cash news",
+            "Daily chart room to upside evident from 120.65% gap and sustained HOD printing — no mention of warrants, ATM, or convertible overhead"
+          ],
+          "bearFactors": [
+            "Rapid 156%+ move creates liquidity and black swan risk; late entrants face profit-taking into EOD",
+            "News all dated 'before' high — catalyst already priced in; any additional news could trigger rotation",
+            "Micro-cap energy with execution risk on announced projects; deal closing timelines often slip",
+            "High relative volume (79.9x) may not sustain into next session; intraday momentum runners often fade on follow-through"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "RAYA",
+          "hod": 116,
+          "hodExact": 116.46,
+          "news": [
+            "ERAYAK Advances Hybrid Power Strategy as Ruike Facility Enters Final Acceptance Phase"
+          ],
+          "tag": "CONTRACT",
+          "name": "Erayak Power Solution Group Inc. Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 0.52,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.52M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9817,
+          "open": 1.13,
+          "gapPct": 15.11,
+          "time": "regular session",
+          "session": "morning",
+          "high": 2.125,
+          "hodTimeExact": "10:51 AM ET",
+          "close": 0.8442,
+          "fade": 60,
+          "fadeExact": 60.27,
+          "vwap": 1.4768,
+          "vsVwap": "below",
+          "pmHigh": 1.39,
+          "volRaw": "73.9M",
+          "volDollar": 109201492,
+          "relVol": 4941.1,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "ERAYAK Advances Hybrid Power Strategy as Ruike Facility Enters Final Acceptance Phase"
+          ],
+          "newsItems": [
+            {
+              "title": "ERAYAK Advances Hybrid Power Strategy as Ruike Facility Enters Final Acceptance Phase",
+              "url": "https://www.stocktitan.net/news/RAYA/erayak-advances-hybrid-power-strategy-as-ruike-facility-enters-final-n3ynmdttwueb.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-06T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RAYA",
+          "newsSummary": "ERAYAK announced advancement of its hybrid power strategy with the Ruike facility entering final acceptance phase—a legitimate operational milestone indicating real progress on a project with cash/revenue implications. The news broke before the session high, suggesting the market was already accumulating and the announcement validated momentum rather than triggered it.",
+          "bullFactors": [
+            "Ultra-nano float (0.52M) creates extreme scarcity; minimal shares available for shorts to cover",
+            "Sustained intraday momentum with 116% HOD gain and 4941% relative volume—consistent with China rig institutional accumulation pattern, not a pump spike",
+            "Real operational catalyst (facility final acceptance) signals near-term revenue recognition potential, not dilutive or speculative",
+            "High afternoon session HOD printing late indicates continuation strength and short squeeze, not premarket fade pattern"
+          ],
+          "bearFactors": [
+            "60% fade from HOD warns of profit-taking and potential resistance on next session open; nano floats reverse violently",
+            "Chinese micro-cap with limited reporting transparency and potential regulatory risk on Greater China equities",
+            "No visibility into order flow, institutional conviction, or whether late-session HOD holds through close/next open",
+            "Hybrid power/industrial facility news lacks the gravity of FDA approval, M&A, or major partnership—execution risk remains"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "NMZr",
+          "hod": 84,
+          "hodExact": 84.0,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Nuveen Municipal High Income Opportunity Fund Rights (expiring December 2, 2026)",
+          "sector": "Unknown",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.005,
+          "open": 0.0092,
+          "gapPct": 84.0,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.0092,
+          "hodTimeExact": "07:57 AM ET",
+          "close": 0.0057,
+          "fade": 38,
+          "fadeExact": 38.04,
+          "vwap": 0.0045,
+          "vsVwap": "above",
+          "pmHigh": 0.0298,
+          "volRaw": "10.1M",
+          "volDollar": 45634,
+          "relVol": 4.0,
+          "avgVolM": 2.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNYS",
+          "tvSymbol": null,
+          "newsSummary": "NMZr moved 84% on the session with no identifiable news catalyst or announcement. The gap and HOD percentage are identical at 84%, suggesting the move originated in premarket and held through the session rather than building intraday momentum.",
+          "bullFactors": [
+            "84% HOD percentage indicates the stock held its high and did not fade significantly into close, suggesting some sustained institutional or retail interest",
+            "4.0x relative volume shows above-average participation relative to baseline, indicating real money engagement"
+          ],
+          "bearFactors": [
+            "No news catalyst — move is purely technical/sentiment-driven with no fundamental cash value or real business event to support continuation",
+            "84% gap equals 84% HOD: classic premarket spike pattern. Absence of intraday session HODs (HOD = gap) means no new buying pressure built during regular hours, a major red flag for fade risk",
+            "Float data missing prevents assessment of whether float is tight enough to sustain a no-catalyst move; unknown sector and market cap add uncertainty",
+            "High fade potential given premarket-dominated price action and lack of real catalyst to re-attract institutional buyers on the next session"
+          ],
+          "setupGrade": "C"
+        },
+        {
+          "sym": "STAK",
+          "hod": 83,
+          "hodExact": 83.8,
+          "news": [
+            "STAK Inc. Discloses Initial Progress in Gas-Powered Generator Business",
+            "Form 6-K",
+            "STAK Inc. Announces Changes in Management"
+          ],
+          "tag": "SYMPATHY",
+          "name": "STAK Inc. Class A Ordinary Shares",
+          "sector": "Energy",
+          "country": "CN",
+          "floatM": 10.01,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$71M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.79,
+          "open": 2.05,
+          "gapPct": 14.53,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 3.29,
+          "hodTimeExact": "01:41 PM ET",
+          "close": 3.26,
+          "fade": 0,
+          "fadeExact": 0.91,
+          "vwap": 2.8645,
+          "vsVwap": "above",
+          "pmHigh": 2,
+          "volRaw": "31.7M",
+          "volDollar": 90808199,
+          "relVol": 4.6,
+          "avgVolM": 6.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "STAK Inc. Discloses Initial Progress in Gas-Powered Generator Business",
+            "Form 6-K",
+            "STAK Inc. Announces Changes in Management"
+          ],
+          "newsItems": [
+            {
+              "title": "STAK Inc. Discloses Initial Progress in Gas-Powered Generator Business",
+              "url": "https://www.stocktitan.net/news/STAK/stak-inc-discloses-initial-progress-in-gas-powered-generator-suy58uj3b3hr.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-05T21:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2002453/000149315226050238/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-05T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "STAK Inc. Announces Changes in Management",
+              "url": "https://www.stocktitan.net/news/STAK/stak-inc-announces-changes-in-333txm556own.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-03T12:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:STAK",
+          "newsSummary": "STAK gapped +14.5% on management changes and initial progress in gas-powered generator business disclosed via PR and 6-K filing premarket. All news arrived before the move, indicating structural buying rather than reactive headline chasing. The catalyst is operational progress in a real business line (energy generation), but lacks the gravity of a major contract, partnership, or transformative deal.",
+          "bullFactors": [
+            "Float at 10.01M sits at the preferred threshold; intraday volume (relVol 4.6x) substantially exceeds premarket gap, showing institutional absorption post-open",
+            "83.8% HOD achievement with only 0.91% fade indicates sustained afternoon strength and short covering, not a premarket pop-and-drop",
+            "Chinese microcap energy name with real operational news and sustained intraday volume fits China Rig structural pattern — continuation potential if tape stays hot",
+            "Energy sector tailwind + gas-generator pivot (real asset deployment) provides narrative hold vs. pure sympathy"
+          ],
+          "bearFactors": [
+            "Float just barely under 10M and at mid-tier threshold; any offering or dilution would breach Jack's strict criteria",
+            "Gap-and-hold setup leaves minimal premarket cushion; if afternoon fades, HOD becomes hard resistance",
+            "Management changes alone carry dilution/restructuring risk; no cash-backed partnership or binding contract disclosed",
+            "Chinese microcap structural rig could face black swan liquidity or regulatory headwinds; overnight China risk is real"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "RCT",
+          "hod": 80,
+          "hodExact": 80.0,
+          "news": [
+            "RedCloud Extends RedAI to 200 Argentine Distributors Through Picking Up! Integration with New ERP Provider",
+            "RedCloud to Participate in the 15th Annual ROTH Technology Conference",
+            "Form 6-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "RedCloud Holdings plc Ordinary Shares",
+          "sector": "Technology",
+          "country": "GB",
+          "floatM": 37.47,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.03,
+          "open": 0.0507,
+          "gapPct": 69.0,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.054,
+          "hodTimeExact": "05:20 AM ET",
+          "close": 0.0424,
+          "fade": 21,
+          "fadeExact": 21.48,
+          "vwap": 0.0532,
+          "vsVwap": "below",
+          "pmHigh": 0.0747,
+          "volRaw": "676.4M",
+          "volDollar": 35986057,
+          "relVol": 10.5,
+          "avgVolM": 64.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "RedCloud Extends RedAI to 200 Argentine Distributors Through Picking Up! Integration with New ERP Provider",
+            "RedCloud to Participate in the 15th Annual ROTH Technology Conference",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "RedCloud Extends RedAI to 200 Argentine Distributors Through Picking Up! Integration with New ERP Provider",
+              "url": "https://www.stocktitan.net/news/RCT/red-cloud-extends-red-ai-to-200-argentine-distributors-through-hfa5s6qhgadu.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-05T14:15:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "RedCloud to Participate in the 15th Annual ROTH Technology Conference",
+              "url": "https://www.stocktitan.net/news/RCT/red-cloud-to-participate-in-the-15th-annual-roth-technology-bt1m25dl0vct.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-04T14:17:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2027360/000149315226049426/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-10-30T20:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.55,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RCT",
+          "newsSummary": "RedCloud announced extension of RedAI to 200 Argentine distributors through Picking Up! integration with a new ERP provider, released before the session high. The catalyst is real execution—ERP integration and channel expansion into Argentina—but represents incremental business development rather than a transformative event. Catalyst has merit but moderate magnitude.",
+          "bullFactors": [
+            "HOD printed on 80% of candles—sustained afternoon strength, not premarket fade pattern",
+            "69% gap and 10.5× relative volume confirm institutional accumulation and retail participation",
+            "Contract/integration news preceded the move, giving time for setup before retail push",
+            "Technology sector with AI narrative (RedAI) adds thematic tailwind"
+          ],
+          "bearFactors": [
+            "Float of 37.47M is THICK—well above Jack's <10M preference; limits explosive upside velocity",
+            "Fade of 21.48% indicates afternoon profit-taking despite HOD dominance; sustainability risk",
+            "News is incremental business development, not a blockbuster catalyst (no partnership with mega-cap, no ER beat, no FDA/compliance win)",
+            "UK-listed micro-cap with modest market cap (~$4.7M) carries liquidity and execution risk"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "GOGO",
+          "hod": 74,
+          "hodExact": 74.39,
+          "news": [
+            "Form 8-K",
+            "Form 10-Q",
+            "Gogo Announces Third Quarter Results",
+            "FCC Renews Gogo’s Air-to-Ground Spectrum Licenses Through 2036",
+            "Gogo Completes Amendment and Extension of ~$600 Million Term Loan B Deleveraging Transaction",
+            "Gogo Appoints Amy Greene as Vice President of Investor Relations, Communications and Government Affairs"
+          ],
+          "tag": "EARNINGS",
+          "name": "Gogo Inc.",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 78.68,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$528M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.265,
+          "open": 2.24,
+          "gapPct": -1.1,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 3.95,
+          "hodTimeExact": "05:11 PM ET",
+          "close": 3.885,
+          "fade": 1,
+          "fadeExact": 1.65,
+          "vwap": 3.5087,
+          "vsVwap": "above",
+          "pmHigh": 2.25,
+          "volRaw": "29.0M",
+          "volDollar": 101615703,
+          "relVol": 18.8,
+          "avgVolM": 1.5,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Form 10-Q",
+            "Gogo Announces Third Quarter Results",
+            "FCC Renews Gogo’s Air-to-Ground Spectrum Licenses Through 2036",
+            "Gogo Completes Amendment and Extension of ~$600 Million Term Loan B Deleveraging Transaction",
+            "Gogo Appoints Amy Greene as Vice President of Investor Relations, Communications and Government Affairs"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1537054/000119312526451967/gogo-20261106.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-06T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1537054/000119312526451817/gogo-20260930.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-06T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "after"
+            },
+            {
+              "title": "Gogo Announces Third Quarter Results",
+              "url": "https://www.stocktitan.net/news/GOGO/gogo-announces-third-quarter-91ivwxr47ase.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-06T13:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "FCC Renews Gogo’s Air-to-Ground Spectrum Licenses Through 2036",
+              "url": "https://www.stocktitan.net/news/GOGO/fcc-renews-gogo-s-air-to-ground-spectrum-licenses-through-bfyczhr4kydl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-06T13:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Gogo Completes Amendment and Extension of ~$600 Million Term Loan B Deleveraging Transaction",
+              "url": "https://www.stocktitan.net/news/GOGO/gogo-completes-amendment-and-extension-of-600-million-term-loan-b-7jd8ms45rrlb.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-06T13:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Gogo Appoints Amy Greene as Vice President of Investor Relations, Communications and Government Affairs",
+              "url": "https://www.stocktitan.net/news/GOGO/gogo-appoints-amy-greene-as-vice-president-of-investor-relations-6bqegxqc32mh.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-10-30T12:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GOGO",
+          "newsSummary": "Gogo reported Q3 results alongside FCC spectrum license renewal through 2036 and completion of a ~$600M term loan B refinancing at 13:30 ET. The catalyst has real merit: spectrum renewal de-risks the business model long-term, and debt restructuring improves financial flexibility. All news came AFTER the session high, confirming the move was driven by intraday institutional accumulation rather than headline chasing.",
+          "bullFactors": [
+            "74.39% HOD dominance with only 1.65% fade signals sustained afternoon strength and short covering into close — classic institutional continuation",
+            "Real cash catalysts: FCC license renewal through 2036 removes regulatory risk, $600M debt restructuring improves balance sheet and reduces refinance pressure",
+            "18.8x relative volume on a mega-float name indicates unusual institutional demand and tape heat — not retail-driven noise",
+            "Earnings + structural news combo (spectrum + deleveraging) gives fundamental support to hold momentum through session end"
+          ],
+          "bearFactors": [
+            "78.68M float (mega-thick) limits explosive intraday range and makes hard stop-loss execution difficult on reversal",
+            "-1.1% overnight gap and news trailing the high suggest premarket pessimism that was overcome intraday — risk of morning sellers returning",
+            "Communication Services sector lacks inherent momentum theme; name is utility-like and less prone to sustained retail chase",
+            "Large cap valuation ($527M) reduces velocity and typical small-cap rig characteristics — moves tend to be slower and more methodical"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "CIIT",
+          "hod": 72,
+          "hodExact": 72.9,
+          "news": [
+            "Tianci International, Inc. Reports Financial Results for Fiscal Year Ended July 31, 2026",
+            "Form 8-K",
+            "Form 10-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "Tianci International, Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 0.88,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.88M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.88M + RelVol 113.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.88M + RelVol 113.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.55,
+          "open": 2.48,
+          "gapPct": 60.0,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.68,
+          "hodTimeExact": "05:00 AM ET",
+          "close": 2.4,
+          "fade": 10,
+          "fadeExact": 10.45,
+          "vwap": 2.5171,
+          "vsVwap": "below",
+          "pmHigh": 3.14,
+          "volRaw": "41.8M",
+          "volDollar": 105214984,
+          "relVol": 113.3,
+          "avgVolM": 0.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Tianci International, Inc. Reports Financial Results for Fiscal Year Ended July 31, 2026",
+            "Form 8-K",
+            "Form 10-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Tianci International, Inc. Reports Financial Results for Fiscal Year Ended July 31, 2026",
+              "url": "https://www.stocktitan.net/news/CIIT/tianci-international-inc-reports-financial-results-for-fiscal-year-0t4k8h4pitf3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-05T22:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1557798/000168316826008358/tianci_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-05T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1557798/000168316826008309/tianci_i10k-073126.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-04T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CIIT",
+          "newsSummary": "CIIT reported FY2026 financial results (ended July 31) released Nov 5 after market close, followed by 8-K and 10-K filings. The 72.9% HOD retention with 60% gap and sustained 113.3% relative volume suggests real institutional accumulation on earnings, not a premarket fade pattern.",
+          "bullFactors": [
+            "Nano float (0.88M shares) — extreme scarcity, minimal supply constraints for institutional push",
+            "72.9% HOD retention on 60% gap — textbook hot cycle, afternoon session HODs dominating with sustained intraday trend, not premarket spike fade",
+            "113.3% relative volume all day — consistent institutional buying pressure, not a pump-and-dump premarket spike followed by collapse",
+            "Earnings catalyst has time to develop — news released after hours (Nov 5) before intraday move (Nov 6), allowing clean setup and institutional accumulation read"
+          ],
+          "bearFactors": [
+            "Hong Kong-listed micro-cap with limited US market depth — liquidity can evaporate on reversals or halt scenarios",
+            "Only 10.45% fade — suggests strong hold, but extended move off nano float risks black swan liquidity spillover if shorts or profit-takers hit simultaneously",
+            "Earnings quality unknown — no detail on revenue growth, profitability, or forward guidance; industrials sector is non-sexy (no AI, defense, biotech tailwind)"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "DBGI",
+          "hod": 66,
+          "hodExact": 66.47,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Digital Brands Group, Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 0.93,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 0.93M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.93M + RelVol 325.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.93M + RelVol 325.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.47,
+          "open": 0.665,
+          "gapPct": 41.49,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.7824,
+          "hodTimeExact": "06:40 AM ET",
+          "close": 0.2827,
+          "fade": 63,
+          "fadeExact": 63.87,
+          "vwap": 0.7631,
+          "vsVwap": "below",
+          "pmHigh": 1.2,
+          "volRaw": "91.8M",
+          "volDollar": 70016275,
+          "relVol": 325.4,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1668010/000149315226049482/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-02T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DBGI",
+          "newsSummary": "Form 8-K filed on Nov 2 (before the move) suggests a corporate event or disclosure obligation was satisfied. The 66% HOD retention with 325% relative volume indicates institutional accumulation and sustained buying pressure rather than a reactive pop—the filing preceded the move, making it a structural catalyst rather than news-driven.",
+          "bullFactors": [
+            "Nano-cap float (0.93M) with massive 325% relative volume creates strong squeeze mechanics and sustained momentum",
+            "66% HOD percentage shows afternoon continuation and session HODs dominating—tape is hot, not a premarket fade pattern",
+            "Form 8-K preceding the move suggests clarity on corporate status; institutions had time to digest and position before retail push",
+            "41% gap + high relative volume indicates gap-and-go setup with intraday legs still available"
+          ],
+          "bearFactors": [
+            "63% fade percentage is elevated—significant profit-taking at/near HOD suggests resistance overhead and distribution risk",
+            "Form 8-K details unknown; if it contains dilutive provisions (offering, warrant exercise, reverse split), move loses merit",
+            "Market cap only $372K raises liquidity and black swan risk on exit; nano-caps can reverse violently",
+            "No disclosed real catalyst (earnings, partnership, cash deal) beyond SEC filing—sustainability unclear beyond structural vol"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "SNT",
+          "hod": 66,
+          "hodExact": 66.15,
+          "news": [
+            "Form 6-K",
+            "Senstar Technologies Corporation Reports Third Quarter 2026 Financial Results"
+          ],
+          "tag": "EARNINGS",
+          "name": "Senstar Technologies Corporation Common Shares",
+          "sector": "Industrials",
+          "country": "CA",
+          "floatM": 13.48,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$44M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 13.48M + RelVol 233.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 13.48M + RelVol 233.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.3,
+          "open": 1.6,
+          "gapPct": 23.08,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.1599,
+          "hodTimeExact": "03:30 PM ET",
+          "close": 1.9,
+          "fade": 12,
+          "fadeExact": 12.03,
+          "vwap": 1.8425,
+          "vsVwap": "above",
+          "pmHigh": 1.63,
+          "volRaw": "6.2M",
+          "volDollar": 11478928,
+          "relVol": 233.0,
+          "avgVolM": 0.0,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Senstar Technologies Corporation Reports Third Quarter 2026 Financial Results"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1993727/000117891326005053/zk2636353.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-06T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Senstar Technologies Corporation Reports Third Quarter 2026 Financial Results",
+              "url": "https://www.stocktitan.net/news/SNT/senstar-technologies-corporation-reports-third-quarter-2026-ncvjo5v6wzwt.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-06T11:48:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SNT",
+          "newsSummary": "SNT reported Q3 2026 financial results at 11:48 AM, followed by a Form 6-K filing after market close. The earnings announcement came AFTER the intraday high, indicating the move was driven by price action and market sentiment rather than the news itself acting as the primary catalyst. Real earnings data provides fundamental credibility to the intraday run.",
+          "bullFactors": [
+            "66% of session time spent at or near HOD — sustained afternoon strength typical of genuine institutional accumulation, not premarket fade pattern",
+            "233% relative volume indicates aggressive intraday buying pressure well above normal daily averages",
+            "Only 23% gap from open, meaning most of the +66% move came from intraday momentum — clean setup with room built during the session",
+            "Real earnings catalyst (not sympathy or fluff) provides fundamental anchor for the move"
+          ],
+          "bearFactors": [
+            "Float at 13.48M is above Jack's preferred <10M threshold — mid-float tier reduces explosive micro-cap characteristics",
+            "Both news items (earnings + 6-K) posted AFTER the HOD, meaning they were reactive to price action rather than catalysts — reduces confidence in sustained follow-through",
+            "Market cap only $44.3M on Canadian industrial name — limited institutional depth and higher liquidity risk into close",
+            "No visibility into daily chart structure, overhead supply, or whether the move broke a meaningful resistance level"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 212,
+      "fade": 27,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "SDA led +212.09% (21% fade). 4/10 held <20% fade. news: SDA — \"Form 6-K\".",
+      "aiSummary": "Today's tape is dominated by earnings and contract catalysts with heavy China concentration (4 of 10 names), creating a mixed picture: real ER/deal flow in VIVK (2.43M float, morning HOD) and CIIT (0.88M float) sits alongside fluff—COMPLIANCE tags, sympathy plays, and premarket spikes that faded hard (DBGI -63.87%, RCT -21.48%). The float profile skews ideal for this framework (micro-caps under 5M in RAYA, CIIT, DBGI), but session distribution signals a **cold to neutral cycle**—most HODs printed premarket or early morning with severe afternoon fades, exactly the pop-and-drop pattern this playbook avoids. STAK and SDA show afternoon strength with sustained volume and minimal fade, suggesting China rig mechanics rather than retail exhaustion, but the broader tape lacks the afternoon HOD domination and short-squeeze continuation that define hot sessions. Momentum traders should focus on VIVK's morning hold or STAK's afternoon setup if liquidity tightens, but the prevailing tape temperature does not favor aggressive intraday adds."
+    },
     {
       "date": "2026-11-05",
       "runners": [
