@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-11-09T13:49:51.860050Z",
-  "count": 10219,
+  "exportedAt": "2026-11-10T14:05:41.091356Z",
+  "count": 10229,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,995 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-11-09",
+      "runners": [
+        {
+          "sym": "OMH",
+          "hod": 1068,
+          "hodExact": 1068.07,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Ohmyhome Limited Class A Ordinary Shares",
+          "sector": "Real Estate",
+          "country": "SG",
+          "floatM": 2.01,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$151M",
+          "riskBadges": [
+            "Float 2.01M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 7.36,
+          "open": 21.44,
+          "gapPct": 191.3,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 85.97,
+          "hodTimeExact": "01:37 PM ET",
+          "close": 25.84,
+          "fade": 69,
+          "fadeExact": 69.94,
+          "vwap": 34.7089,
+          "vsVwap": "below",
+          "pmHigh": 19.89,
+          "volRaw": "31.1M",
+          "volDollar": 1079533632,
+          "relVol": 5.3,
+          "avgVolM": 5.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1944902/000121390026117590/ea0311444-6k_ohmyswift.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OMH",
+          "newsSummary": "OMH filed a Form 6-K regulatory disclosure after the move concluded, making it a reactive filing rather than a catalyst. The 1068% HOD with only 70% fade suggests sustained intraday buying pressure throughout the session despite the late-day filing. Without substantive cash news or earnings, this appears to be a China rig pattern — structural institutional accumulation in a micro-cap greater-China real estate name.",
+          "bullFactors": [
+            "Micro-float at 2.01M shares — extreme scarcity supports sustained momentum",
+            "1068% HOD with only 70% fade = strong session HODs and afternoon continuation, hallmark of institutional rig pattern",
+            "5.3x relative volume all day — not a premarket spike fade, but distributed buying pressure",
+            "Real Estate sector in greater China — fits China rig structural setup, not pump-and-dump"
+          ],
+          "bearFactors": [
+            "191% gap + 1068% HOD in single session = cycle risk and potential liquidity spillover black swan",
+            "No substantive cash catalyst — Form 6-K is reactive disclosure, not a real business driver",
+            "Singapore-listed micro-cap with low transparency — higher execution/liquidity risk on unwind",
+            "After such an extreme move, reversal risk and short squeeze volatility are elevated"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "NWGL",
+          "hod": 228,
+          "hodExact": 228.85,
+          "news": [
+            "Form 6-K",
+            "CL Workshop Group Limited Announces Plan to Implement ADS Ratio Change"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "CL Workshop Group Limited American Depositary Shares",
+          "sector": "Basic Materials",
+          "country": "CN",
+          "floatM": 0.56,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 0.56M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.56M + RelVol 65.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.56M + RelVol 65.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.53,
+          "open": 3.51,
+          "gapPct": 38.74,
+          "time": "regular session",
+          "session": "morning",
+          "high": 8.32,
+          "hodTimeExact": "11:57 AM ET",
+          "close": 2.84,
+          "fade": 65,
+          "fadeExact": 65.87,
+          "vwap": 4.5101,
+          "vsVwap": "below",
+          "pmHigh": 6.51,
+          "volRaw": "55.3M",
+          "volDollar": 249515902,
+          "relVol": 65.5,
+          "avgVolM": 0.8,
+          "ssr": true,
+          "reverseSplit": "80:1",
+          "newsHeadlines": [
+            "Form 6-K",
+            "CL Workshop Group Limited Announces Plan to Implement ADS Ratio Change"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1948294/000149315226050632/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "CL Workshop Group Limited Announces Plan to Implement ADS Ratio Change",
+              "url": "https://www.stocktitan.net/news/NWGL/cl-workshop-group-limited-announces-plan-to-implement-ads-ratio-l7bf6vtarhvb.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-04T11:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.78,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NWGL",
+          "newsSummary": "NWGL gapped 38.74% on a pre-market catalyst and ran 228.85% HOD with a 65.87% fade, posting a Form 6-K (reactive, after the move) and an ADS ratio announcement from Nov 4 (before the move). The ADS restructuring is a corporate action with structural merit for Chinese ADRs, but the intraday action—sustained high relative volume (65.5x), nano float (0.56M), and late HOD continuation—suggests institutional accumulation on the news rather than a pure momentum spike.",
+          "bullFactors": [
+            "Nano float (0.56M) creates natural scarcity and leverage for institutional push; under Jack's 10M preference",
+            "Sustained intraday relative volume (65.5x) and 228% HOD with afternoon continuation fits China rig structural pattern—not a 2-minute premarket pop",
+            "ADS ratio change is a real corporate action with cash/operational merit for Chinese microcaps navigating US listing rules; not fluff",
+            "High fade (65.87%) suggests institutional accumulation dip-and-soak; potential for continuation if tape stays hot into next session"
+          ],
+          "bearFactors": [
+            "Chinese microcap with limited transparency and regulatory risk; Form 6-K filing post-move raises opacity about move catalyst",
+            "Gap up 38.74% at open reduces intraday room to run and increases fade/reversal risk into close",
+            "ADS ratio announcement was 5 days old at move—delayed catalyst ignition is suspicious and suggests tape-driven hype over news-driven fundamentals",
+            "No real cash deal, partnership, or earnings beat; structural corporate action alone may not sustain retail interest"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "MF",
+          "hod": 143,
+          "hodExact": 143.42,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "MindForge Inc. Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 6.06,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$91M",
+          "riskBadges": [
+            "Float 6.06M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 6.06M + RelVol 34.0x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 6.06M + RelVol 34.0x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.64,
+          "open": 14.9,
+          "gapPct": 40.04,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 25.9,
+          "hodTimeExact": "12:17 PM ET",
+          "close": 14.33,
+          "fade": 44,
+          "fadeExact": 44.67,
+          "vwap": 19.4801,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "3.6M",
+          "volDollar": 69478855,
+          "relVol": 34.0,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MF",
+          "newsSummary": "MF moved 143.42% intraday with no identified news catalyst — a pure structural play driven by low float (6.06M) and sustained institutional buying pressure. The 40.04% gap and 34.0x relative volume suggest organized accumulation rather than retail hype or reactionary news.",
+          "bullFactors": [
+            "Ultra-low float (6.06M) with 143% HOD print — strong institutional demand signal in tight supply",
+            "High relative volume (34.0x) sustained throughout session, not a premarket spike fade — indicates organized buying, not pump mechanics",
+            "Session HODs dominating (143.42% vs 44.67% fade) — classic China rig continuation pattern with afternoon strength and shorts covering",
+            "No dilutive news, warrants, or offerings on record — clean float structure with room to run"
+          ],
+          "bearFactors": [
+            "NO-NEWS tag with 143% move creates elevated black swan risk — liquidity could evaporate on profit-taking or unexpected dilution announcement",
+            "Chinese micro-cap with zero identified fundamental catalyst — entirely dependent on continued tape momentum and sympathy flows",
+            "44.67% fade suggests meaningful profit-taking already occurred; late-day entry risks late-session reversal or overnight gap down",
+            "Market cap only $91.2M — thin liquidity outside primary session hours, exit risk for position holders"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CKX",
+          "hod": 138,
+          "hodExact": 138.57,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "CKX Lands, Inc.",
+          "sector": "Energy",
+          "country": "US",
+          "floatM": 1.44,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$41M",
+          "riskBadges": [
+            "Float 1.44M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.44M + RelVol 7066.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.44M + RelVol 7066.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 10.37,
+          "open": 17.5,
+          "gapPct": 68.76,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 24.74,
+          "hodTimeExact": "02:12 PM ET",
+          "close": 16.4,
+          "fade": 33,
+          "fadeExact": 33.71,
+          "vwap": 18.4624,
+          "vsVwap": "below",
+          "pmHigh": 17.95,
+          "volRaw": "12.1M",
+          "volDollar": 222624641,
+          "relVol": 7066.4,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/352955/000143774926035669/ckx20261109_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Oil & Gas",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:CKX",
+          "newsSummary": "CKX gapped up 68.76% and printed a 138.57% HOD with a 33.71% fade, showing classic intraday continuation strength on 7066x relative volume. The Form 8-K filed after the move is reactive, not causal—the real driver was sector momentum or sympathy buying in energy. No substantive cash catalyst is evident; this is a structural micro-cap float play riding tape strength.",
+          "bullFactors": [
+            "Extremely tight float (1.44M shares) — classic rocket fuel for low-float runners",
+            "Sustained high relative volume (7066x) all session with afternoon HODs dominating, not a premarket spike fade",
+            "HOD printing at 138.57% with only 33.71% fade shows institutional accumulation and retail follow-through, not exhaustion",
+            "Energy sector sympathy + micro-float + tape strength = textbook Jack Walker setup"
+          ],
+          "bearFactors": [
+            "No real cash catalyst — 8-K was filed after the move, making it reactive noise",
+            "Already up 138.57% intraday; significant gap risk into next session",
+            "Micro-cap energy names without substantive news can reverse hard on thin liquidity",
+            "Form 8-K content unknown; could contain dilutive details or regulatory concerns"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "MKDW",
+          "hod": 101,
+          "hodExact": 101.22,
+          "news": [
+            "MKDWELL Secures XR/MR Accessories Orders from Internationally Recognized Brands",
+            "Form 6-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "MKDWELL Tech Inc. Ordinary Share",
+          "sector": "Consumer Cyclical",
+          "country": "TW",
+          "floatM": 5.53,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$5M",
+          "riskBadges": [
+            "Float 5.53M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.53M + RelVol 15.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.53M + RelVol 15.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.164,
+          "open": 0.1694,
+          "gapPct": 3.29,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.33,
+          "hodTimeExact": "11:59 AM ET",
+          "close": 0.1462,
+          "fade": 55,
+          "fadeExact": 55.7,
+          "vwap": 0.2187,
+          "vsVwap": "below",
+          "pmHigh": 0.1846,
+          "volRaw": "38.5M",
+          "volDollar": 8409903,
+          "relVol": 15.8,
+          "avgVolM": 2.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "MKDWELL Secures XR/MR Accessories Orders from Internationally Recognized Brands",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "MKDWELL Secures XR/MR Accessories Orders from Internationally Recognized Brands",
+              "url": "https://www.stocktitan.net/news/MKDW/mkdwell-secures-xr-mr-accessories-orders-from-internationally-q6okzm9qgrq5.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-05T14:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1991332/000149315226049527/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-02T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:MKDW",
+          "newsSummary": "MKDWELL announced XR/MR accessories orders from internationally recognized brands on 2026-11-05, well ahead of today's HOD print. The news preceded the move and demonstrates real commercial traction in spatial computing hardware—a cash-generating contract with established OEM partners, not sympathy or fluff. The 101% HOD with 55.7% fade and sustained 15.8x relative volume suggests institutional accumulation and retail continuation buying through the session.",
+          "bullFactors": [
+            "Ultra-low float (5.53M) with tight structure—high sensitivity to volume and buying pressure",
+            "Contract catalyst has real cash merit: XR/MR accessories orders from 'internationally recognized brands' signal demand validation and revenue visibility",
+            "HOD dominated late session (101.22% gain)—tape shows continuation strength and shorts covering, not premarket spike fade",
+            "High relative volume (15.8x) sustained through session; institutional accumulation pattern visible before retail push"
+          ],
+          "bearFactors": [
+            "55.7% fade from HOD indicates significant profit-taking and short-covering rally—not a sustained hold above highs",
+            "News dropped 2026-11-05, four days before the run—delayed catalyst absorption is a softer entry signal than same-day news reaction",
+            "Taiwan micro-cap with low absolute dollar liquidity despite high relative vol—exit windows may be narrow on any reversal",
+            "Consumer Cyclical sector in macro headwinds; XR/MR accessories are discretionary and sensitive to economic slowdown"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "JDZG",
+          "hod": 97,
+          "hodExact": 97.95,
+          "news": [
+            "Form 6-K",
+            "JIADE LIMITED Announces Pricing of $1.2 Million Registered Direct Offering"
+          ],
+          "tag": "OFFERING",
+          "name": "JIADE LIMITED Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 5.14,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 5.14M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.14M + RelVol 26.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.14M + RelVol 26.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2102,
+          "open": 0.3428,
+          "gapPct": 63.08,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.4161,
+          "hodTimeExact": "05:01 AM ET",
+          "close": 0.2497,
+          "fade": 39,
+          "fadeExact": 39.99,
+          "vwap": 0.3636,
+          "vsVwap": "below",
+          "pmHigh": 0.5524,
+          "volRaw": "200.5M",
+          "volDollar": 72894793,
+          "relVol": 26.5,
+          "avgVolM": 7.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "JIADE LIMITED Announces Pricing of $1.2 Million Registered Direct Offering"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1976908/000110465926124209/jdzg-20261109x6k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "JIADE LIMITED Announces Pricing of $1.2 Million Registered Direct Offering",
+              "url": "https://www.stocktitan.net/news/JDZG/jiade-limited-announces-pricing-of-1-2-million-registered-direct-btzxszdooemq.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T18:53:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:JDZG",
+          "newsSummary": "JDZG gapped 63% and ran hard intraday, printing a 97.95% HOD with only 39.99% fade—classic China rig structure with sustained institutional volume. However, the $1.2M registered direct offering priced after the move, a dilutive capital raise that typically signals end-of-cycle cash needs and future pressure. The Form 6-K filing also came post-high, meaning both news items followed rather than drove the rally.",
+          "bullFactors": [
+            "Micro-cap float (5.14M) with 26.5x relative volume—tight float supported intraday momentum",
+            "HOD printed late session (97.95% HOD vs 39.99% fade) with sustained afternoon continuation, hallmark of China rig institutional accumulation pattern",
+            "Large intraday range and high RelVol suggest real institutional buying pressure throughout the day, not a one-minute spike pump"
+          ],
+          "bearFactors": [
+            "Registered direct offering announced post-high at $1.2M—dilutive capital raise indicates end-of-cycle weakness and signals distress funding, high risk of future dilution",
+            "Large premarket gap (63%) front-loaded much of the move before retail entry; fade still 40% suggests afternoon trap potential",
+            "No substantive business catalyst disclosed; both news items (Form 6-K and offering announcement) came AFTER the high, making them reactive, not catalytic"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "TANH",
+          "hod": 86,
+          "hodExact": 86.72,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Tantech Holdings Ltd. Class A Common Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 0.59,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$16M",
+          "riskBadges": [
+            "Float 0.59M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 11.67,
+          "open": 11.9,
+          "gapPct": 1.97,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 21.79,
+          "hodTimeExact": "05:54 PM ET",
+          "close": 19.34,
+          "fade": 11,
+          "fadeExact": 11.24,
+          "vwap": 32.1809,
+          "vsVwap": "below",
+          "pmHigh": null,
+          "volRaw": "1.1M",
+          "volDollar": 35797550,
+          "relVol": 5.5,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TANH",
+          "newsSummary": "TANH moved 86.72% to HOD with no substantive news catalyst identified. Price action and tape structure indicate intraday institutional accumulation and retail continuation in a nano-float Chinese name, consistent with a China Rig pattern rather than a news-driven event.",
+          "bullFactors": [
+            "Extreme nano-float (0.59M shares) — severe supply constraint, high multiplier potential on institutional demand",
+            "86.72% HOD dominance with only 11.24% fade — sustained intraday momentum, not premarket spike collapse; suggests real buying pressure throughout session",
+            "5.5x relative volume in Consumer Defensive sector — volume confirms participation, not thin tape",
+            "Chinese micro-cap structure with no dilutive news — typical China Rig setup with afternoon continuation potential"
+          ],
+          "bearFactors": [
+            "No identifiable catalyst — move is purely structural/sympathy-driven; vulnerable to sudden liquidation or gap-down reversal",
+            "Chinese micro-cap with nano-float carries black swan liquidity risk and regulatory uncertainty",
+            "Consumer Defensive sector has limited institutional sponsorship compared to growth/tech themes",
+            "Gap of 1.97% suggests some premarket enthusiasm; if that fades into close, momentum may not carry into next session"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "EDSA",
+          "hod": 83,
+          "hodExact": 83.64,
+          "news": [
+            "Form 8-K",
+            "Edesa Biotech Announces Agreement with KYORIN Pharmaceutical to Develop and Commercialize Paridiprubart in Japan",
+            "Edesa Biotech to Present at Guggenheim Healthcare Innovation Conference"
+          ],
+          "tag": "CONTRACT",
+          "name": "Edesa Biotech, Inc. Common Shares",
+          "sector": "Healthcare",
+          "country": "CA",
+          "floatM": 13.76,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$35M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 13.76M + RelVol 1788.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 13.76M + RelVol 1788.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.14,
+          "open": 3.46,
+          "gapPct": 61.68,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.93,
+          "hodTimeExact": "10:30 AM ET",
+          "close": 2.49,
+          "fade": 36,
+          "fadeExact": 36.64,
+          "vwap": 3.0215,
+          "vsVwap": "below",
+          "pmHigh": 2.77,
+          "volRaw": "84.6M",
+          "volDollar": 255554013,
+          "relVol": 1788.6,
+          "avgVolM": 0.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Edesa Biotech Announces Agreement with KYORIN Pharmaceutical to Develop and Commercialize Paridiprubart in Japan",
+            "Edesa Biotech to Present at Guggenheim Healthcare Innovation Conference"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1540159/000117184326007242/f8k_110926.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Edesa Biotech Announces Agreement with KYORIN Pharmaceutical to Develop and Commercialize Paridiprubart in Japan",
+              "url": "https://www.stocktitan.net/news/EDSA/edesa-biotech-announces-agreement-with-kyorin-pharmaceutical-to-8k18mnwemrhf.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T11:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Edesa Biotech to Present at Guggenheim Healthcare Innovation Conference",
+              "url": "https://www.stocktitan.net/news/EDSA/edesa-biotech-to-present-at-guggenheim-healthcare-innovation-7q1rf0luezjp.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-04T21:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Medical Device",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:EDSA",
+          "newsSummary": "EDSA announced a real partnership with KYORIN Pharmaceutical for development and commercialization of paridiprubart in Japan—genuine cash-backed deal with a named pharma partner, not sympathy or fluff. The 8-K filing came after the high, confirming the catalyst drove the intraday move. This is legitimate biotech validation with geographic expansion.",
+          "bullFactors": [
+            "Real cash catalyst: Named pharma partner (KYORIN) with defined development/commercialization agreement—not a sympathy theme or vague 'partnership in talks'",
+            "Strong intraday continuation: 83.64% HOD dominance with only 36.64% fade signals sustained institutional accumulation and retail follow-through, not premarket spike collapse",
+            "Exceptional relative volume (1788.6x): Far exceeds typical noise—indicates real money rotation into the name, not pump mechanics",
+            "61.68% gap held with room to upside: Daily chart has structural room; no heavy overhead supply noted"
+          ],
+          "bearFactors": [
+            "Float tier is 13.76M (Mid tier, above 10M preference): Slightly above Jack's ideal sub-10M sweet spot for float selectivity and pop amplitude",
+            "Timing risk: Paridiprubart is still in development phase for Japan market—no near-term revenue catalyst or FDA milestone; commercialization is years away",
+            "Form 8-K after the high: While confirming real news, the filing came post-move, raising questions on whether the deal was leaked/anticipated intraday vs. official announcement timing"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "XHLD",
+          "hod": 80,
+          "hodExact": 80.41,
+          "news": [
+            "TEN Holdings Announces Closing of $2.0 Million Registered Direct Offering",
+            "424B5 offering",
+            "TEN Holdings Reports Third Quarter 2026 Financial Results",
+            "Form 8-K",
+            "Form 10-Q"
+          ],
+          "tag": "OFFERING",
+          "name": "TEN Holdings, Inc. Common Stock",
+          "sector": "Communication Services",
+          "country": "US",
+          "floatM": 10.55,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$10M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.582,
+          "open": 0.6,
+          "gapPct": 3.09,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 1.05,
+          "hodTimeExact": "06:14 PM ET",
+          "close": 0.87,
+          "fade": 17,
+          "fadeExact": 17.14,
+          "vwap": 0.8671,
+          "vsVwap": "above",
+          "pmHigh": 0.6532,
+          "volRaw": "68.3M",
+          "volDollar": 59196607,
+          "relVol": 12.4,
+          "avgVolM": 5.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "TEN Holdings Announces Closing of $2.0 Million Registered Direct Offering",
+            "424B5 offering",
+            "TEN Holdings Reports Third Quarter 2026 Financial Results",
+            "Form 8-K",
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "TEN Holdings Announces Closing of $2.0 Million Registered Direct Offering",
+              "url": "https://www.stocktitan.net/news/XHLD/ten-holdings-announces-closing-of-2-0-million-registered-direct-d5ep5975csab.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T22:15:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030954/000149315226050730/form424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "after"
+            },
+            {
+              "title": "TEN Holdings Reports Third Quarter 2026 Financial Results",
+              "url": "https://www.stocktitan.net/news/XHLD/ten-holdings-reports-third-quarter-2026-financial-u42wvlt4vbvi.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-06T22:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030954/000149315226050546/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-06T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/2030954/000149315226050545/form10-q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-06T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:XHLD",
+          "newsSummary": "TEN Holdings closed a $2.0M registered direct offering on 2026-11-09, announced after the session's high. The Q3 earnings and 10-Q/8-K filings on 2026-11-06 preceded the move, but the registered direct offering and 424B5 prospectus represent dilutive capital raises that follow, not drive, the intraday momentum.",
+          "bullFactors": [
+            "HOD dominance at 80.41% signals sustained intraday strength and afternoon continuation",
+            "Float at 10.55M is just above preferred <10M threshold; relVol 12.4x shows institutional accumulation",
+            "Q3 earnings preceded the run, providing a real fundamental catalyst before dilution was announced"
+          ],
+          "bearFactors": [
+            "Registered direct offering and 424B5 prospectus are dilutive and announced post-high, signaling secondary capital raise on momentum",
+            "Small market cap ($10.5M) with micro-cap offering suggests weak balance sheet and liquidity concerns",
+            "Offerings typically weigh on continuation; retail push may reverse as dilution becomes clear to tape readers"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "TVRD",
+          "hod": 68,
+          "hodExact": 68.09,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Tvardi Therapeutics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 7.97,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$19M",
+          "riskBadges": [
+            "Float 7.97M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 7.97M + RelVol 39.6x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 7.97M + RelVol 39.6x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9578,
+          "open": 0.96,
+          "gapPct": 0.23,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 1.61,
+          "hodTimeExact": "07:18 PM ET",
+          "close": 1.41,
+          "fade": 12,
+          "fadeExact": 12.42,
+          "vwap": 1.5871,
+          "vsVwap": "below",
+          "pmHigh": 0.8671,
+          "volRaw": "4.6M",
+          "volDollar": 7287701,
+          "relVol": 39.6,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TVRD",
+          "newsSummary": "TVRD moved 68% intraday with no identifiable news catalyst, driven purely by price action and tape dynamics. The move appears to be a structural intraday momentum event on extremely tight float with high relative volume.",
+          "bullFactors": [
+            "Ultra-tight float at 7.97M shares — ideal for momentum compression and sustained runs",
+            "68% HOD dominance with only 12.4% fade — strong afternoon continuation and short squeeze pressure typical of low-float runners",
+            "39.6x relative volume — institutional accumulation or retail cascade on a name with minimal shares available",
+            "No dilutive news or offering risk — clean daily chart foundation for multi-leg continuation"
+          ],
+          "bearFactors": [
+            "Zero catalyst identified — move is purely technical/sympathy-driven with no fundamental support",
+            "Gap of only 0.23% suggests overnight setup was minimal; most of move occurred intraday with no lead-time for institutional positioning",
+            "No-news moves on small caps carry black swan liquidation risk if momentum breaks or broader market fades",
+            "Lack of real cash news means sustaining above current levels will depend entirely on tape momentum and retail continuation"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 1068,
+      "fade": 38,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "OMH led +1068.07% (69% fade). 3/10 held <20% fade. news: OMH — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ — 2026-11-09**\n\nToday's tape is dominated by sympathy and no-news plays with heavy China/Taiwan micro-cap concentration (5 of 10 runners), clustering in the <6M float sweet spot where institutional rig patterns thrive—OMH (2.01M), NWGL (0.56M), CKX (1.44M), and TANH (0.59M) all posted afternoon/after-hours HODs with tight fades (11–34%), signaling sustained institutional accumulation rather than retail pump-and-dump mechanics. The critical tape temperature reads **HOT**: afternoon HOD dominance (OMH +1068%, MF +143%, CKX +139%, TANH +87% all setting high-of-day in later sessions) with low fade percentages on micro floats indicates shorts covering into real buying pressure and retail chasing continuation, not premarket spike exhaustion. However, catalyst quality is weak across the board—no real cash deals or ER triggers, only sympathy themes and no-news tags—which this framework typically avoids; combined with two dilutive offerings (JDZG, XHLD) clogging the tape, today signals a **neutral-to-hot but low-conviction cycle** where the float and session structure favor momentum but lack the fundamental anchors required for sustained A-tier setups."
+    },
     {
       "date": "2026-11-06",
       "runners": [
