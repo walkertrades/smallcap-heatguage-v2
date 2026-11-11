@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-11-10T14:05:41.091356Z",
-  "count": 10229,
+  "exportedAt": "2026-11-11T14:15:35.677660Z",
+  "count": 10239,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1144 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-11-10",
+      "runners": [
+        {
+          "sym": "OMH",
+          "hod": 266,
+          "hodExact": 266.1,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Ohmyhome Limited Class A Ordinary Shares",
+          "sector": "Real Estate",
+          "country": "SG",
+          "floatM": 2.01,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$151M",
+          "riskBadges": [
+            "Float 2.01M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 25.84,
+          "open": 27.4,
+          "gapPct": 6.04,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 94.6,
+          "hodTimeExact": "02:06 PM ET",
+          "close": 16.615,
+          "fade": 82,
+          "fadeExact": 82.44,
+          "vwap": 41.3232,
+          "vsVwap": "below",
+          "pmHigh": 41.4931,
+          "volRaw": "26.9M",
+          "volDollar": 1113425896,
+          "relVol": 3.6,
+          "avgVolM": 7.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1944902/000121390026117590/ea0311444-6k_ohmyswift.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OMH",
+          "newsSummary": "OMH filed a Form 6-K (routine Singapore company disclosure) before the move occurred, making it reactive rather than causal. The 266% HOD spike appears driven by intraday institutional accumulation and momentum rather than fundamental news catalyst. Real Estate sector SG micro-cap with micro float (2.01M) created ideal structural conditions for a sustained run.",
+          "bullFactors": [
+            "Micro float 2.01M — extreme liquidity compression, ideal for momentum acceleration",
+            "266% HOD with only 82% fade — sustained afternoon continuation and high session HOD dominance signals hot tape, not premarket-only spike",
+            "3.6x relative volume all day — institutional buying pressure present throughout session, consistent with China Rig structural pattern (SG micro, no cash news, sustained intraday trend)",
+            "6% gap up on already tight float compounds momentum entry mechanics"
+          ],
+          "bearFactors": [
+            "Singapore Real Estate sector has no obvious big-name partnerships or real cash value catalyst — purely structural momentum play",
+            "Form 6-K is generic regulatory filing, not fundamentally bullish — tape ran on float/volume structure, not news",
+            "82% fade from HOD is material; unclear if setup has legs beyond intraday or if shorts cover and unwind tomorrow",
+            "Greater China micro-cap runner — cyclical risk and black swan liquidity conditions if momentum reverses"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "PEPG",
+          "hod": 171,
+          "hodExact": 171.54,
+          "news": [
+            "PepGen Announces Proposed $125.0 Million Public Offering of Common Stock",
+            "424B5 offering",
+            "Form 8-K",
+            "Form 10-Q",
+            "PepGen Reports Third Quarter 2026 Financial Results and Recent Corporate Highlights",
+            "PepGen Announces Positive Phase 2 FREEDOM2-DM1 10 mg/kg Results Demonstrating Highest Reported Splicing Correction and Improvements Across Multiple Functional Measures"
+          ],
+          "tag": "OFFERING",
+          "name": "PepGen Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 53.81,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$319M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.39,
+          "open": 5.545,
+          "gapPct": 132.01,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.4899,
+          "hodTimeExact": "10:49 AM ET",
+          "close": 4.61,
+          "fade": 28,
+          "fadeExact": 28.97,
+          "vwap": 5.4024,
+          "vsVwap": "below",
+          "pmHigh": 5.73,
+          "volRaw": "106.5M",
+          "volDollar": 575534349,
+          "relVol": 94.5,
+          "avgVolM": 1.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "PepGen Announces Proposed $125.0 Million Public Offering of Common Stock",
+            "424B5 offering",
+            "Form 8-K",
+            "Form 10-Q",
+            "PepGen Reports Third Quarter 2026 Financial Results and Recent Corporate Highlights",
+            "PepGen Announces Positive Phase 2 FREEDOM2-DM1 10 mg/kg Results Demonstrating Highest Reported Splicing Correction and Improvements Across Multiple Functional Measures"
+          ],
+          "newsItems": [
+            {
+              "title": "PepGen Announces Proposed $125.0 Million Public Offering of Common Stock",
+              "url": "https://www.stocktitan.net/news/PEPG/pep-gen-announces-proposed-125-0-million-public-offering-of-common-x771a80eozus.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T21:23:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "424B5 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1835597/000119312526455711/d548742d424b5.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "424B5",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1835597/000119312526454469/pepg-20261110.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1835597/000119312526454407/pepg-20260930.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "after"
+            },
+            {
+              "title": "PepGen Reports Third Quarter 2026 Financial Results and Recent Corporate Highlights",
+              "url": "https://www.stocktitan.net/news/PEPG/pep-gen-reports-third-quarter-2026-financial-results-and-recent-5kts4sw6ejlh.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T12:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "PepGen Announces Positive Phase 2 FREEDOM2-DM1 10 mg/kg Results Demonstrating Highest Reported Splicing Correction and Improvements Across Multiple Functional Measures",
+              "url": "https://www.stocktitan.net/news/PEPG/pep-gen-announces-positive-phase-2-freedom2-dm1-10-mg-kg-results-o9z23ucemor9.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T12:01:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PEPG",
+          "newsSummary": "PEPG ran 171% intraday on positive Phase 2 FREEDOM2-DM1 clinical results (12:01 PM) and Q3 earnings (12:05 PM), both real cash-value biotech catalysts with genuine efficacy data. However, the company announced a dilutive $125M public offering (21:23 PM) after the HOD was set—classic reactive news that follows the move and signals insider conviction to cash in, which historically pressures momentum names into close and next session.",
+          "bullFactors": [
+            "Real clinical catalyst: Phase 2 data showing highest reported splicing correction and multi-functional improvements is legitimate biotech merit, not fluff",
+            "Session HODs dominated intraday (171% HOD print), sustained high relative volume (94.5x), indicating institutional accumulation before retail push—textbook momentum structure",
+            "Afternoon continuation strength with late-session HOD printing suggests tape heat and short covering pressure, not premarket fade pattern"
+          ],
+          "bearFactors": [
+            "Float of 53.81M is well above Jack's sub-10M preference and eliminates the velocity advantage of low-float runners; even at 94.5x relative vol, absolute liquidity is thick",
+            "Dilutive $125M offering announced post-HOD is a classic red flag: insiders selling into strength, future supply overhang, and earnings dilution that will weigh on next session open and intraday fade risk",
+            "Offering news came after market close (21:23 PM)—overnight risk for gap-down, and retail will digest dilution overnight; momentum likely exhausted into close",
+            "No warrants/convertibles concern listed, but offering structure + secondary dilution = heavy overhead supply risk on retest"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "OPENZ",
+          "hod": 160,
+          "hodExact": 160.98,
+          "news": [
+            "Form 10-Q",
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Opendoor Technologies Inc Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant",
+          "sector": "REAL ESTATE AGENTS & MANAGERS (FOR OTHERS)",
+          "country": "US",
+          "floatM": null,
+          "floatTier": null,
+          "floatSrc": "Polygon",
+          "marketCap": "N/A",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0205,
+          "open": 0.0508,
+          "gapPct": 147.8,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.0535,
+          "hodTimeExact": "08:23 AM ET",
+          "close": 0.0385,
+          "fade": 28,
+          "fadeExact": 28.04,
+          "vwap": 0.0477,
+          "vsVwap": "below",
+          "pmHigh": 0.08,
+          "volRaw": "26.9M",
+          "volDollar": 1285315,
+          "relVol": 15.0,
+          "avgVolM": 1.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-Q",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1801169/000180116926000028/open-20260930.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-05T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1801169/000180116926000027/open-20261105.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-05T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OPENZ",
+          "newsSummary": "OPENZ filed Form 10-Q and 8-K on 2026-11-05, both before the move. These are routine SEC compliance filings, not catalysts. The 160% HOD move appears driven by intraday institutional accumulation and tape momentum rather than news merit.",
+          "bullFactors": [
+            "Extreme HOD dominance (160.98% gain) with sustained afternoon continuation suggests institutional buying pressure and short covering",
+            "High relative volume (15.0x) throughout session indicates real accumulation, not a quick spike-and-fade premarket pattern",
+            "Large gap up (147.8%) followed by HOD extension shows conviction and new buyers entering intraday rather than profit-taking"
+          ],
+          "bearFactors": [
+            "Float unknown — cannot confirm small-cap runner eligibility; high float would disqualify from Jack's core criteria",
+            "Zero market cap data suggests illiquidity or micro-cap status with potential execution risk",
+            "Routine 10-Q/8-K filings carry no substantive catalyst; move is purely tape-driven with unknown fundamental support",
+            "No-news intraday runners carry liquidity spillover and black-swan reversal risk, especially if float is high"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "SMX",
+          "hod": 129,
+          "hodExact": 129.95,
+          "news": [
+            "Form 6-K",
+            "SMX Targets Global Recycling Challenges With AI-Powered Material Intelligence Platform",
+            "SMX Develops AI-Powered Scientific Intelligence Platform to Accelerate Material Research and Expand Commercial Services",
+            "SMX Expands Into AI-Driven Material Science With New Scientific Intelligence Platform",
+            "SMX Advances Development of its Scientific Intelligence, an AI-Powered Platform Intended to Create a Comprehensive Codex for Chemical Agents, Additives and Supplements",
+            "Global Tensions Highlight the Need for Greater Plastic Recycling; the Age of Parity Has Made It Possible"
+          ],
+          "tag": "SYMPATHY",
+          "name": "SMX (Security Matters) Public Limited Company Ordinary Shares",
+          "sector": "Technology",
+          "country": "IE",
+          "floatM": 0.78,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$17M",
+          "riskBadges": [
+            "Float 0.78M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.78M + RelVol 39.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.78M + RelVol 39.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 9.35,
+          "open": 17.99,
+          "gapPct": 92.41,
+          "time": "regular session",
+          "session": "morning",
+          "high": 21.5,
+          "hodTimeExact": "09:52 AM ET",
+          "close": 19.25,
+          "fade": 10,
+          "fadeExact": 10.47,
+          "vwap": 16.5077,
+          "vsVwap": "above",
+          "pmHigh": 18.31,
+          "volRaw": "30.7M",
+          "volDollar": 505968582,
+          "relVol": 39.4,
+          "avgVolM": 0.8,
+          "ssr": true,
+          "reverseSplit": "2.8:1",
+          "newsHeadlines": [
+            "Form 6-K",
+            "SMX Targets Global Recycling Challenges With AI-Powered Material Intelligence Platform",
+            "SMX Develops AI-Powered Scientific Intelligence Platform to Accelerate Material Research and Expand Commercial Services",
+            "SMX Expands Into AI-Driven Material Science With New Scientific Intelligence Platform",
+            "SMX Advances Development of its Scientific Intelligence, an AI-Powered Platform Intended to Create a Comprehensive Codex for Chemical Agents, Additives and Supplements",
+            "Global Tensions Highlight the Need for Greater Plastic Recycling; the Age of Parity Has Made It Possible"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1940674/000149315226050888/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "SMX Targets Global Recycling Challenges With AI-Powered Material Intelligence Platform",
+              "url": "https://www.stocktitan.net/news/SMX/smx-targets-global-recycling-challenges-with-ai-powered-material-b8gwt8ykkl64.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T16:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "SMX Develops AI-Powered Scientific Intelligence Platform to Accelerate Material Research and Expand Commercial Services",
+              "url": "https://www.stocktitan.net/news/SMX/smx-develops-ai-powered-scientific-intelligence-platform-to-qvvqby8s21i0.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T15:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "SMX Expands Into AI-Driven Material Science With New Scientific Intelligence Platform",
+              "url": "https://www.stocktitan.net/news/SMX/smx-expands-into-ai-driven-material-science-with-new-scientific-ibvjc7ylrdt8.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T14:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "SMX Advances Development of its Scientific Intelligence, an AI-Powered Platform Intended to Create a Comprehensive Codex for Chemical Agents, Additives and Supplements",
+              "url": "https://www.stocktitan.net/news/SMX/smx-advances-development-of-its-scientific-intelligence-an-ai-ystwj5h7kuj6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T13:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Global Tensions Highlight the Need for Greater Plastic Recycling; the Age of Parity Has Made It Possible",
+              "url": "https://www.stocktitan.net/news/SMX/global-tensions-highlight-the-need-for-greater-plastic-recycling-the-5thdpn3h4ln9.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T21:10:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SMX",
+          "newsSummary": "SMX ran 129% on a cascade of AI-platform announcements throughout the session, with multiple press releases recycling the same core narrative (AI-powered material science/recycling intelligence) across 13:00–16:00. The news is thematic rather than catalytic—no earnings, no partnerships, no revenue milestones—and the timing shows the releases chased the move rather than preceded it. This is a sympathy play riding the AI theme, not a fundamental catalyst.",
+          "bullFactors": [
+            "Extreme float (0.78M shares) = high fuel for intraday acceleration and low share dilution",
+            "Session HOD printing at +129% with sustained relative volume of 39.4x—multiple afternoon pushes suggest institutional accumulation rather than pure retail fade pattern",
+            "Tape temperature HOT: HOD dominating late session, shorts under pressure, sustained high volume all day—classic continuation signal Jack targets",
+            "Daily chart room: no mention of warrants, convertibles, or heavy overhead supply—clean structure for upside extension"
+          ],
+          "bearFactors": [
+            "Catalyst quality WEAK: cascading press releases are news velocity fluff, not real cash value. No ER, partnership, or revenue event—pure AI theme surfing",
+            "News timing: all releases relative_to_high='after' (14:00–21:00)—reactive messaging that followed the move, did not initiate it",
+            "Nano-cap tech micro-float with 92% gap and 129% single-session gain creates liquidity/black-swan risk; cycle shift warning applies (500%+ territory in extended run)",
+            "Irish domicile + AI press-release cascade = elevated pump-risk profile; no Form 6-K details yet (21:00 filing) to confirm substance"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "INLF",
+          "hod": 128,
+          "hodExact": 128.48,
+          "news": [
+            "Inlif (INLF) Entered into US$30 Million Framework Agreement, Partnering with Heng Sheng Group to Expand Industrial Robotics Market Opportunities",
+            "Form 6-K"
+          ],
+          "tag": "CONTRACT",
+          "name": "INLIF LIMITED Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 3.35,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 3.35M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.302,
+          "open": 0.305,
+          "gapPct": 0.99,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 0.69,
+          "hodTimeExact": "04:01 PM ET",
+          "close": 0.545,
+          "fade": 21,
+          "fadeExact": 21.01,
+          "vwap": 0.5311,
+          "vsVwap": "above",
+          "pmHigh": 0.32,
+          "volRaw": "170.1M",
+          "volDollar": 90361830,
+          "relVol": 3.3,
+          "avgVolM": 51.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Inlif (INLF) Entered into US$30 Million Framework Agreement, Partnering with Heng Sheng Group to Expand Industrial Robotics Market Opportunities",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Inlif (INLF) Entered into US$30 Million Framework Agreement, Partnering with Heng Sheng Group to Expand Industrial Robotics Market Opportunities",
+              "url": "https://www.stocktitan.net/news/INLF/inlif-inlf-entered-into-us-30-million-framework-agreement-partnering-jn19z1la6zcr.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-11T11:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1991592/000121390026115967/ea0310813-6k_inlif.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-04T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "China Rig",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:INLF",
+          "newsSummary": "INLF announced a US$30M framework agreement with Heng Sheng Group to expand industrial robotics market opportunities. The news came AFTER the 128% intraday high was set, meaning it was reactive to price action rather than the primary catalyst. The deal itself is real cash value (legitimate partnership framework), but timing indicates the move was already underway.",
+          "bullFactors": [
+            "Micro-cap float (3.35M) — tight liquidity, high relative vol (3.3x) — catalyst for explosive intraday moves",
+            "Sustained intraday trend: 128% HOD with only 21% fade — classic China rig pattern showing afternoon continuation and institutional accumulation, not a premarket spike-and-dump",
+            "Real catalyst post-move: US$30M framework agreement with partner for industrial robotics expansion (cash value, not dilutive news)",
+            "Chinese micro-cap with structural setup for multi-HOD sessions — institutional buying throughout day rather than retail exhaustion"
+          ],
+          "bearFactors": [
+            "News arrived AFTER the high — price action led the catalyst, suggesting move may have already attracted speculative retail; late catalyst reduces follow-through odds",
+            "Micro-cap Chinese industrial stock with limited US institutional following — liquidity can evaporate quickly on any profit-taking or negative reversal",
+            "21% same-session fade while still up 100%+ suggests some institutional profit-taking into the announcement; overhead supply now present at 128% levels"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "TANH",
+          "hod": 106,
+          "hodExact": 106.3,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Tantech Holdings Ltd. Class A Common Shares",
+          "sector": "Consumer Defensive",
+          "country": "CN",
+          "floatM": 0.58,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$20M",
+          "riskBadges": [
+            "Float 0.58M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 19.34,
+          "open": 18.18,
+          "gapPct": -6.0,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 39.898,
+          "hodTimeExact": "03:39 PM ET",
+          "close": 30.56,
+          "fade": 23,
+          "fadeExact": 23.4,
+          "vwap": 27.1176,
+          "vsVwap": "above",
+          "pmHigh": 31.9,
+          "volRaw": "1.1M",
+          "volDollar": 30728580,
+          "relVol": 4.4,
+          "avgVolM": 0.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TANH",
+          "newsSummary": "TANH moved +106.3% intraday with no substantive news catalyst—this is a structural China Rig pattern typical of nano-float Greater China names. The move appears driven by pure institutional accumulation pressure on ultra-tight float (0.58M shares) rather than a fundamental event.",
+          "bullFactors": [
+            "Nano float (0.58M) provides explosive leverage for sustained institutional buying",
+            "Session HOD dominance (106.3% gain) with 4.4x relative volume signals hot cycle continuation, not premarket pop-and-fade",
+            "Late-session HOD printing typical of China Rig pattern—afternoon strength suggests institutional rigs maintaining pressure into close",
+            "No dilutive news or offering risk; clean tape action on pure supply/demand"
+          ],
+          "bearFactors": [
+            "23.4% fade from session high—substantial intraday pullback raises question of hold-through EOD and next-session sustainability",
+            "No real cash catalyst or fundamental event; move is purely structural/technical—vulnerable to reversal on light volume next session",
+            "Gap-down open (-6.0%) into the rip suggests overnight selling pressure may resume",
+            "China Rig patterns can reverse hard when float exhaustion hits or institutional accumulation phase completes"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "AMIX",
+          "hod": 94,
+          "hodExact": 94.12,
+          "news": [
+            "Form 10-Q",
+            "Autonomix Medical Granted New U.S. Patent Strengthening Proprietary Catheter-Based Sensing Technology",
+            "Form 8-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "Autonomix Medical, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.81,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.81M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.81M + RelVol 1025.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.81M + RelVol 1025.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.7,
+          "open": 1.81,
+          "gapPct": 6.47,
+          "time": "regular session",
+          "session": "morning",
+          "high": 3.3,
+          "hodTimeExact": "11:03 AM ET",
+          "close": 1.85,
+          "fade": 43,
+          "fadeExact": 43.94,
+          "vwap": 2.4344,
+          "vsVwap": "below",
+          "pmHigh": 2.3797,
+          "volRaw": "72.2M",
+          "volDollar": 175716718,
+          "relVol": 1025.9,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-Q",
+            "Autonomix Medical Granted New U.S. Patent Strengthening Proprietary Catheter-Based Sensing Technology",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1617867/000143774926036033/amix20260930_10q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "after"
+            },
+            {
+              "title": "Autonomix Medical Granted New U.S. Patent Strengthening Proprietary Catheter-Based Sensing Technology",
+              "url": "https://www.stocktitan.net/news/AMIX/autonomix-medical-granted-new-u-s-patent-strengthening-proprietary-8bgsgekoboed.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T19:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1617867/000143774926034696/amix20261029_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-03T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AMIX",
+          "newsSummary": "AMIX reported Q3 10-Q filing after market close, following a strong 94% HOD achievement and sustained intraday momentum. A patent grant on catheter-based sensing technology was announced post-high, confirming this was a reactive headline to price action rather than the catalyst driver. The earnings catalyst had real merit—micro-cap medical device names with IP strength and filing timeliness can spark institutional accumulation plays.",
+          "bullFactors": [
+            "Ultra-tight float (1.81M shares) with 1025.9% relative volume—extreme liquidity concentration amplifies intraday moves",
+            "94.12% HOD achievement with only 43.94% fade indicates strong afternoon continuation and short-covering pressure (HOT tape signature)",
+            "6.47% gap + sustained session volume suggests institutional accumulation into earnings, not premarket retail spike",
+            "Real catalyst (10-Q + patent IP) in medical device sector provides fundamental backing; no dilutive news or offerings"
+          ],
+          "bearFactors": [
+            "10-Q and patent news both arrived AFTER the high—typical of momo runners where price leads news, creating fade risk on follow days",
+            "Micro-cap healthcare float carries execution risk and potential liquidity pullback on wider spreads post-session",
+            "43.94% fade from HOD suggests profit-taking pressure; no visibility yet on whether support holds or rolls over into tomorrow"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "MI",
+          "hod": 92,
+          "hodExact": 92.85,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "NO-NEWS",
+          "name": "NFT Limited",
+          "sector": "Consumer Cyclical",
+          "country": "HK",
+          "floatM": 5.02,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$48M",
+          "riskBadges": [
+            "Float 5.02M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.02M + RelVol 626.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.02M + RelVol 626.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2463,
+          "open": 0.3939,
+          "gapPct": 59.93,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.475,
+          "hodTimeExact": "06:24 AM ET",
+          "close": 0.4065,
+          "fade": 14,
+          "fadeExact": 14.42,
+          "vwap": 0.4274,
+          "vsVwap": "below",
+          "pmHigh": 0.6855,
+          "volRaw": "411.7M",
+          "volDollar": 175959786,
+          "relVol": 626.5,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1958713/000121390026117915/ea0311692-6k_nft.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:MI",
+          "newsSummary": "MI spiked 59.93% on gap and printed 92.85% HOD with sustained intraday momentum—Form 6-K filing came after the move, making it reactive rather than causal. The move appears driven by intraday accumulation and institutional buying pressure typical of low-float Greater China names, not a substantive cash catalyst.",
+          "bullFactors": [
+            "Ultra-low float (5.02M) with 626.5x relative volume—extreme leverage for intraday runners",
+            "92.85% HOD dominance with only 14.42% fade suggests hot cycle and short-covering strength into close",
+            "Sustained high volume all session typical of China rig structural pattern—not a premarket spike-fade; afternoon HOD printing indicates institutional accumulation"
+          ],
+          "bearFactors": [
+            "Form 6-K is a regulatory filing with unknown substance—no real catalyst disclosed; risk of post-earnings reversion if filing reveals dilution or weak guidance",
+            "59.93% gap entry leaves limited room to upside and elevated risk of gap-fill reversal on next session",
+            "Greater China micro-cap with no disclosed news catalyst—structural rig patterns can reverse sharply on profit-taking or liquidity drain"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "NNOX",
+          "hod": 84,
+          "hodExact": 84.08,
+          "news": [
+            "Form 6-K",
+            "Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand",
+            "Nanox Announces That Board Has Approved Cost Reduction and Operational Efficiency Measures",
+            "USARAD, a Nanox Company, Expands Collaboration with AZmed to Integrate FDA-Cleared X-ray AI into Its Teleradiology Workflows"
+          ],
+          "tag": "CONTRACT",
+          "name": "NANO-X IMAGING LTD Ordinary Shares",
+          "sector": "Healthcare",
+          "country": "IL",
+          "floatM": 78.58,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$29M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2336,
+          "open": 0.24,
+          "gapPct": 2.74,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 0.43,
+          "hodTimeExact": "05:43 PM ET",
+          "close": 0.3733,
+          "fade": 13,
+          "fadeExact": 13.19,
+          "vwap": 0.3627,
+          "vsVwap": "above",
+          "pmHigh": 0.25,
+          "volRaw": "89.2M",
+          "volDollar": 32340521,
+          "relVol": 91.6,
+          "avgVolM": 1.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand",
+            "Nanox Announces That Board Has Approved Cost Reduction and Operational Efficiency Measures",
+            "USARAD, a Nanox Company, Expands Collaboration with AZmed to Integrate FDA-Cleared X-ray AI into Its Teleradiology Workflows"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1795251/000121390026117774/ea0311577-6k_nanox.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "Nanox.AI Advances Commercial Collaboration with Dosy Health to Bring AI Cardiac Solution to Thailand",
+              "url": "https://www.stocktitan.net/news/NNOX/nanox-ai-advances-commercial-collaboration-with-dosy-health-to-bring-iqb5czm5avg3.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T13:10:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Nanox Announces That Board Has Approved Cost Reduction and Operational Efficiency Measures",
+              "url": "https://www.stocktitan.net/news/NNOX/nanox-announces-that-board-has-approved-cost-reduction-and-v0eqxoxmomu8.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T22:47:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "USARAD, a Nanox Company, Expands Collaboration with AZmed to Integrate FDA-Cleared X-ray AI into Its Teleradiology Workflows",
+              "url": "https://www.stocktitan.net/news/NNOX/usarad-a-nanox-company-expands-collaboration-with-a-zmed-to-a3zk61w8wpdo.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T14:21:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "Biotech-FDA",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NNOX",
+          "newsSummary": "NNOX moved +84% on real commercial traction: Dosy Health partnership for AI cardiac solutions in Thailand and USARAD/AZmed collaboration expanding FDA-cleared X-ray AI into teleradiology workflows. Both announcements came before or at the high, indicating genuine institutional interest in the company's AI medical device commercialization pipeline rather than reactive news.",
+          "bullFactors": [
+            "Real cash-generating partnerships (Dosy Health, AZmed) — not sympathy or vaporware",
+            "84% HOD retention with 91.6x relative volume suggests institutional accumulation, not retail pop-and-drop",
+            "Dual catalyst stack (AI + FDA-cleared tech + teleradiology expansion) provides multiple revenue angles",
+            "Cost reduction measures announced prior suggest management discipline and potential margin expansion ahead"
+          ],
+          "bearFactors": [
+            "Mega-thick 78.58M float severely limits intraday momentum velocity and continuation potential",
+            "Form 6-K filing after the high signals potential regulatory or disclosure overhang to monitor",
+            "Large float reduces Jack's core edge (low-float float runners) — scalability and exit liquidity differ materially",
+            "13.19% fade into close on high volume could indicate afternoon distribution after retail chase"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "TTEC",
+          "hod": 80,
+          "hodExact": 80.65,
+          "news": [
+            "Form 8-K",
+            "TTEC Announces Third Quarter 2026 Financial Results and Reaffirms Outlook for Full Year 2026",
+            "Form 10-Q",
+            "TTEC Schedules Third Quarter 2026 Earnings Release and Webcast of Investor Conference Call"
+          ],
+          "tag": "EARNINGS",
+          "name": "TTEC Holdings, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 21.25,
+          "floatTier": "Thick",
+          "floatSrc": "AE",
+          "marketCap": "$119M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.395,
+          "open": 1.68,
+          "gapPct": 20.43,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.52,
+          "hodTimeExact": "03:42 PM ET",
+          "close": 2.4,
+          "fade": 4,
+          "fadeExact": 4.76,
+          "vwap": 2.2539,
+          "vsVwap": "above",
+          "pmHigh": 1.7,
+          "volRaw": "22.3M",
+          "volDollar": 50212055,
+          "relVol": 73.2,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "TTEC Announces Third Quarter 2026 Financial Results and Reaffirms Outlook for Full Year 2026",
+            "Form 10-Q",
+            "TTEC Schedules Third Quarter 2026 Earnings Release and Webcast of Investor Conference Call"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124650/tm2629265d1_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "TTEC Announces Third Quarter 2026 Financial Results and Reaffirms Outlook for Full Year 2026",
+              "url": "https://www.stocktitan.net/news/TTEC/ttec-announces-third-quarter-2026-financial-results-and-reaffirms-n25ioh2odtia.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T23:07:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124608/ttec-20260930x10q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "TTEC Schedules Third Quarter 2026 Earnings Release and Webcast of Investor Conference Call",
+              "url": "https://www.stocktitan.net/news/TTEC/ttec-schedules-third-quarter-2026-earnings-release-and-webcast-of-jljpdyj2lga7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-03T21:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TTEC",
+          "newsSummary": "TTEC reported Q3 2026 earnings on 2026-11-09 with guidance reaffirmed, triggering an 80.65% HOD hold and 20.43% gap up into the session. The earnings catalyst had real merit—a publicly traded business services company confirming financial expectations—but the Form 8-K filing came after the high, suggesting the move was driven by earnings beat/guidance confidence rather than surprise news.",
+          "bullFactors": [
+            "Strong HOD retention (80.65%) indicates sustained institutional buying pressure throughout the session, not a premarket spike fade",
+            "Thick float (21.25M) absorbed 73.2% relative volume without collapsing, suggesting genuine accumulation rather than thin-float volatility",
+            "Gap up (20.43%) into earnings release with real cash-generating business catalyst—technology services provider with confirmed outlook has substance",
+            "Afternoon continuation pattern evident in high HOD percentage, typical of institutional rig strength"
+          ],
+          "bearFactors": [
+            "Float exceeds Jack's <10M preference by 2x+; while relative volume is hot, thicker float limits 100%+ runner potential",
+            "Form 8-K filed after the high (relative_to_high='after') means no surprise catalyst remains—follow-up filings are reactive, not forward catalysts",
+            "No evidence of daily chart setup (flags, downtrend break, dip/soak accumulation) described; move appears momentum-driven rather than technically triggered",
+            "Tech sector earnings often fade into next session as institutional buyers lock in; momentum may not sustain beyond today"
+          ],
+          "setupGrade": "B"
+        }
+      ],
+      "hod": 266,
+      "fade": 27,
+      "hodTime": "regular session",
+      "theme": "Active Tape",
+      "note": "OMH led +266.1% (82% fade). 4/10 held <20% fade. news: OMH — \"Form 6-K\".",
+      "aiSummary": "**TAPE READ — 2026-11-10**\n\nToday's tape shows a **mixed-to-weak cycle** for micro-cap momentum traders, dominated by no-news and sympathy plays (OMH, MI, TANH) rather than real catalysts, with a concerning skew toward Asian microcaps (SG, CN, HK, IE non-US names) that lack the daily chart setup clarity this framework demands. Float profile is favorable overall—five names under 5M shares, three under 1M—but catalyst quality is poor: no earnings beats, contract wins lack detail, and the OFFERING tag on PEPG (53.81M float, morning spike) signals distribution risk that taints sentiment. HODs printed predominantly in **afternoon/morning sessions** (OMH, SMX, AMIX, TTEC), a positive intraday signature, but premarket dominators (OPENZ, MI) with thin dollar volume and compliance/float uncertainty suggest retail-driven fades rather than institutional accumulation setups. **This tape registers COLD** — no hot daily chart room, questionable catalysts, and Asian micro-cap noise without the sustained volume discipline of a true China rig pattern; momentum traders should wait for higher-conviction entries with real earnings, partnerships, or cash deals on sub-10M float US names showing afternoon continuation."
+    },
     {
       "date": "2026-11-09",
       "runners": [
