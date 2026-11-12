@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-11-11T14:15:35.677660Z",
-  "count": 10239,
+  "exportedAt": "2026-11-12T12:44:39.090052Z",
+  "count": 10249,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1036 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-11-11",
+      "runners": [
+        {
+          "sym": "NXXT",
+          "hod": 1905,
+          "hodExact": 1905.36,
+          "news": [
+            "NextNRG Announces Nasdaq Delisting Determination; Trading to Be Suspended at Market Open on November 12, 2026",
+            "NextNRG Announces Nasdaq Hearings Panel Decision and Intent to Request Listing Council Review",
+            "Form 8-K",
+            "NextNRG Executes Term Sheet to Acquire 33-Acre Indiana Site for Lone Wolf Energy Center, With Potential to Support Up to 70 MW of Data Center Capacity"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "NextNRG, Inc. Common Stock",
+          "sector": "Utilities",
+          "country": "US",
+          "floatM": 0.79,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 0.79M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.79M + RelVol 213.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.79M + RelVol 213.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1865,
+          "open": 0.2138,
+          "gapPct": 14.64,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 3.74,
+          "hodTimeExact": "05:34 PM ET",
+          "close": 1.7,
+          "fade": 54,
+          "fadeExact": 54.55,
+          "vwap": 2.5261,
+          "vsVwap": "below",
+          "pmHigh": 0.187,
+          "volRaw": "150.6M",
+          "volDollar": 380356031,
+          "relVol": 213.2,
+          "avgVolM": 0.7,
+          "ssr": true,
+          "reverseSplit": "10:1",
+          "newsHeadlines": [
+            "NextNRG Announces Nasdaq Delisting Determination; Trading to Be Suspended at Market Open on November 12, 2026",
+            "NextNRG Announces Nasdaq Hearings Panel Decision and Intent to Request Listing Council Review",
+            "Form 8-K",
+            "NextNRG Executes Term Sheet to Acquire 33-Acre Indiana Site for Lone Wolf Energy Center, With Potential to Support Up to 70 MW of Data Center Capacity"
+          ],
+          "newsItems": [
+            {
+              "title": "NextNRG Announces Nasdaq Delisting Determination; Trading to Be Suspended at Market Open on November 12, 2026",
+              "url": "https://www.stocktitan.net/news/NXXT/next-nrg-announces-nasdaq-delisting-determination-trading-to-be-isvdjjj35ncl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-11T20:50:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "NextNRG Announces Nasdaq Hearings Panel Decision and Intent to Request Listing Council Review",
+              "url": "https://www.stocktitan.net/news/NXXT/next-nrg-announces-nasdaq-hearings-panel-decision-and-intent-to-fouka1oo06o9.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T21:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1817004/000149315226050998/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "NextNRG Executes Term Sheet to Acquire 33-Acre Indiana Site for Lone Wolf Energy Center, With Potential to Support Up to 70 MW of Data Center Capacity",
+              "url": "https://www.stocktitan.net/news/NXXT/next-nrg-executes-term-sheet-to-acquire-33-acre-indiana-site-for-cqgzpnye9z8a.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-05T13:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.9,
+              "uncertain": false
+            },
+            {
+              "theme": "Data Center",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NXXT",
+          "newsSummary": "NXXT spiked 1905% intraday on a delisting announcement released AFTER the move peaked, indicating the catalyst was reactive to price action, not the driver. The company faced Nasdaq compliance issues but announced a data center acquisition (Lone Wolf Energy Center, 70 MW capacity) on Nov 5 that may have seeded real institutional interest in the turnaround narrative. However, the delisting determination announced at market close on Nov 11 is a terminal negative: trading suspends at market open Nov 12, closing off any follow-through.",
+          "bullFactors": [
+            "Nano float (0.79M) with 213% relative volume — extreme leverage for intraday runners",
+            "Real cash catalyst predating spike: 33-acre Indiana data center site acquisition with 70 MW potential addresses infrastructure/AI themes",
+            "Delisting news came AFTER HOD, confirming move was driven by accumulation/turnaround sentiment, not panic selling"
+          ],
+          "bearFactors": [
+            "DELISTING SUSPENSION AT MARKET OPEN NOV 12 — trade is dead before it can continue; Jack never holds through halts or delistings",
+            "Extreme fade (54.55%) intraday despite nano float signals weak institutional follow-through and retail exhaustion",
+            "Compliance/delisting risk is existential, not a 'dip to buy' — no pathway to sustained rally when exchange is pulling the plug"
+          ],
+          "setupGrade": "F"
+        },
+        {
+          "sym": "YMT",
+          "hod": 455,
+          "hodExact": 455.98,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Yimutian Inc. American Depositary Shares",
+          "sector": "Technology",
+          "country": "CN",
+          "floatM": 0.87,
+          "floatTier": "Nano",
+          "floatSrc": "AE",
+          "marketCap": "$8M",
+          "riskBadges": [
+            "Float 0.87M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.87M + RelVol 91.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.87M + RelVol 91.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2608,
+          "open": 0.2595,
+          "gapPct": -0.5,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.45,
+          "hodTimeExact": "01:25 PM ET",
+          "close": 0.3178,
+          "fade": 78,
+          "fadeExact": 78.08,
+          "vwap": 0.8086,
+          "vsVwap": "below",
+          "pmHigh": 0.265,
+          "volRaw": "90.4M",
+          "volDollar": 73104497,
+          "relVol": 91.1,
+          "avgVolM": 1.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:YMT",
+          "newsSummary": "YMT ran 456% with no identified news catalyst — a classic China rig pattern on a nano-float Chinese tech name. The sustained intraday volume (91.1x relative) and afternoon HOD printing indicate structural institutional accumulation rather than a discrete news event.",
+          "bullFactors": [
+            "Extreme nano-float (0.87M shares) — severe liquidity constraint amplifies any institutional buying pressure",
+            "Sustained high relative volume (91.1x) all session — not a premarket spike fade, but continuous intraday demand",
+            "China rig structural pattern — afternoon HOD dominance (455.98% HOD vs 78.08% fade) typical of coordinated accumulation cycles on Greater China microcaps",
+            "No dilutive news or offering — clean tape from cap structure perspective"
+          ],
+          "bearFactors": [
+            "Extreme fade depth (78%) — despite HOD printing, retail exited hard into strength, indicating weak institutional follow-through or liquidity crunch near highs",
+            "No-news catalyst is inherently fragile — sustainability depends entirely on continued tape buying, structural support can reverse fast",
+            "Chinese micro-cap leverage risk — regulatory, delisting, or liquidity black swan tail risk on Greater China names; high volatility attractiveness comes with systemic fragility",
+            "Nano-float can trap — wide spreads, thin order book depth, and sharp reversals on light selling volume typical on <1M float names"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "CENN",
+          "hod": 250,
+          "hodExact": 250.45,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Cenntro Inc. Common Stock",
+          "sector": "Consumer Cyclical",
+          "country": "US",
+          "floatM": 1.35,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.35M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.35M + RelVol 23.8x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.35M + RelVol 23.8x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1227,
+          "open": 0.13,
+          "gapPct": 5.95,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.43,
+          "hodTimeExact": "02:01 PM ET",
+          "close": 0.1463,
+          "fade": 65,
+          "fadeExact": 65.98,
+          "vwap": 0.234,
+          "vsVwap": "below",
+          "pmHigh": 0.1302,
+          "volRaw": "220.4M",
+          "volDollar": 51575633,
+          "relVol": 23.8,
+          "avgVolM": 9.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CENN",
+          "newsSummary": "CENN ran 250% intraday with no announced catalyst — this is a pure sympathy/structural momentum play. No real cash event, ER, partnership, or material news was released. The move is driven entirely by tape action and micro-cap float mechanics.",
+          "bullFactors": [
+            "Ultra-low float (1.35M) creates extreme elasticity for intraday runners",
+            "Sustained high relative volume (23.8x) throughout session — not a 1-2 minute spike, suggests institutional accumulation and retail chase",
+            "250% HOD gain with 65% fade still leaves substantial net gains — institutional holding through afternoon into close indicates conviction",
+            "Consumer Cyclical sector with $3.9M market cap gives room for continuation if tape stays hot"
+          ],
+          "bearFactors": [
+            "No substantive catalyst — pure momentum/sympathy play with high black swan risk",
+            "65% intraday fade from HOD is significant; premarket gap (5.95%) suggests early smart money entered before retail push, classic setup for sharp reversals",
+            "Micro-cap with $3.9M market cap faces severe liquidity cliff; next-day washout highly likely without fresh catalyst",
+            "NO-NEWS moat means shorts can re-engage, and tape can flip cold fast on micro-floats"
+          ],
+          "setupGrade": "B"
+        },
+        {
+          "sym": "WHLR",
+          "hod": 242,
+          "hodExact": 242.68,
+          "news": [
+            "424B3 offering",
+            "Form 8-K",
+            "Wheeler Real Estate Investment Trust, Inc. Announces the Release of Its Third Quarter 2026 Financial and Operating Results",
+            "Form 10-Q"
+          ],
+          "tag": "OFFERING",
+          "name": "Wheeler Real Estate Investment Trust, Inc",
+          "sector": "Real Estate",
+          "country": "US",
+          "floatM": 2.1,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 2.1M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 2.1M + RelVol 34.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 2.1M + RelVol 34.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.321,
+          "open": 0.3133,
+          "gapPct": -2.4,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.1,
+          "hodTimeExact": "02:44 PM ET",
+          "close": 0.7491,
+          "fade": 31,
+          "fadeExact": 31.9,
+          "vwap": 0.8264,
+          "vsVwap": "below",
+          "pmHigh": 0.33,
+          "volRaw": "66.8M",
+          "volDollar": 55219560,
+          "relVol": 34.2,
+          "avgVolM": 2.0,
+          "ssr": true,
+          "reverseSplit": "6:1",
+          "newsHeadlines": [
+            "424B3 offering",
+            "Form 8-K",
+            "Wheeler Real Estate Investment Trust, Inc. Announces the Release of Its Third Quarter 2026 Financial and Operating Results",
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "424B3 offering",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000441/a8-kexchangenovember32026.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "424B3",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000435/whlr-20261103.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Wheeler Real Estate Investment Trust, Inc. Announces the Release of Its Third Quarter 2026 Financial and Operating Results",
+              "url": "https://www.stocktitan.net/news/WHLR/wheeler-real-estate-investment-trust-inc-announces-the-release-of-233uskjwugdg.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-05T21:20:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1527541/000152754126000418/whlr-20260930.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-05T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.35,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WHLR",
+          "newsSummary": "WHLR gapped down -2.4% on a 424B3 secondary offering filed Nov 9, but reversed hard intraday to close +242.68% on sustained institutional buying pressure and high relative volume (34.2x). The offering news is dilutive on its face, yet the tape shows aggressive accumulation throughout the session with multiple session HODs — classic institutional entry during supply event, not a rejection. Real estate REIT with Q3 ER already in market; the move appears driven by tactical accumulation into dilution rather than fundamental enthusiasm.",
+          "bullFactors": [
+            "Ultra-micro float (2.1M) provides explosive multiplier on intraday accumulation — 34.2x relative volume is exceptional and sustained, not a 2-min spike",
+            "Multiple session HODs printed intraday (242% HOD) with afternoon continuation strength — signature institutional rig pattern, not premarket fade",
+            "Setup time given: catalyst (424B3) released Nov 9 evening, stock ran Nov 11 — 1.5-day delay allowed smart money to position before retail awareness",
+            "High relative volume all session suggests real buying pressure, not pump hype — accumulation-on-dips tape structure"
+          ],
+          "bearFactors": [
+            "424B3 offering is inherently dilutive and signals capital need — reduces intrinsic value and increases share count immediately",
+            "Fade of -31.9% from HOD to close indicates retail distribution into strength or profit-taking by early accumulators — sustainability risk",
+            "Real estate sector has structural headwinds (rates, cap rates); REIT status means payout obligations and limited upside optionality",
+            "Market cap only $1.67M — liquidity trap on any reversal, size severely constrained"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "NCT",
+          "hod": 171,
+          "hodExact": 171.48,
+          "news": [
+            "Form 6-K",
+            "Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Split"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Intercont (Cayman) Limited Class A Ordinary shares",
+          "sector": "Industrials",
+          "country": "SG",
+          "floatM": 16.29,
+          "floatTier": "Mid",
+          "floatSrc": "AE",
+          "marketCap": "$21M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 16.29M + RelVol 511.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 16.29M + RelVol 511.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4089,
+          "open": 0.4,
+          "gapPct": -2.18,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 1.1101,
+          "hodTimeExact": "05:35 PM ET",
+          "close": 0.72,
+          "fade": 35,
+          "fadeExact": 35.14,
+          "vwap": 0.8485,
+          "vsVwap": "below",
+          "pmHigh": 0.4296,
+          "volRaw": "98.3M",
+          "volDollar": 83400524,
+          "relVol": 511.7,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K",
+            "Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Split"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2018529/000121390026117835/ea0311139-6k_intercont.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-10T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            },
+            {
+              "title": "Intercont (Cayman) Limited Announces Effective Time of Share Consolidation/Reverse Share Split",
+              "url": "https://www.stocktitan.net/news/NCT/intercont-cayman-limited-announces-effective-time-of-share-50k3thsh9k7x.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-10T15:00:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:NCT",
+          "newsSummary": "NCT announced a reverse share split (consolidation) effective 2026-11-10, filed via Form 6-K before the session high printed. Reverse splits are typically dilutive structural moves that precede offerings or address exchange compliance — fluff catalyst with no real cash value or operational upside. The 171% HOD with 35% fade suggests retail bought the intraday momentum while institutions likely positioned ahead of post-split dilution.",
+          "bullFactors": [
+            "Sustained intraday volume (511.7× relVol) held through afternoon — not a premarket spike fade; multiple session HODs printed late session",
+            "Float at 16.29M is manageable for small-cap momentum; tight enough to amplify intraday moves if retail stacks",
+            "Singapore-listed industrials with Greater China exposure can exhibit institutional rig patterns; afternoon continuation suggests some structural buying"
+          ],
+          "bearFactors": [
+            "Reverse split is a red flag for dilution cycle — typically precedes equity raise, convertible issuance, or Nasdaq compliance remedy; no fundamental upside",
+            "35% fade from HOD is material; premarket gapped down 2.18% and rally was driven by intraday retail flow, not institutional accumulation into strength",
+            "Form 6-K (regulatory filing) + reverse split announcement both pre-dated the high — no new catalyst to sustain; fade risk into close and next session"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SCKT",
+          "hod": 166,
+          "hodExact": 166.19,
+          "news": [
+            "Socket Mobile Reports Third Quarter and Nine Months 2026 Results",
+            "Form 8-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "Socket Mobile, Inc. New",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 5.85,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 5.85M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.85M + RelVol 344.2x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.85M + RelVol 344.2x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2511,
+          "open": 0.282,
+          "gapPct": 12.31,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.6684,
+          "hodTimeExact": "11:08 AM ET",
+          "close": 0.4643,
+          "fade": 30,
+          "fadeExact": 30.54,
+          "vwap": 0.504,
+          "vsVwap": "below",
+          "pmHigh": 0.3,
+          "volRaw": "235.2M",
+          "volDollar": 118516201,
+          "relVol": 344.2,
+          "avgVolM": 0.7,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Socket Mobile Reports Third Quarter and Nine Months 2026 Results",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Socket Mobile Reports Third Quarter and Nine Months 2026 Results",
+              "url": "https://www.stocktitan.net/news/SCKT/socket-mobile-reports-third-quarter-and-nine-months-2026-px5ila09eh9b.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-04T21:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/944075/000094407526000082/form-8k1104.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-04T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SCKT",
+          "newsSummary": "Socket Mobile reported Q3 and nine-month 2026 results on 2026-11-04, released before today's 166% intraday high. This is real earnings data (cash business, not fluff), and the prior-week release allowed time for institutional digestion before retail momentum kicked in today. The move appears driven by positive earnings surprise or guidance rather than a premarket panic spike.",
+          "bullFactors": [
+            "Ultra-low float (5.85M) with 344% relative volume — genuine intraday accumulation and short squeeze potential",
+            "Earnings catalyst released 7 days prior (2026-11-04), allowing proper setup time; not a shock 1-minute spike",
+            "HOD printed late in session (166% gain), suggesting sustained afternoon continuation and institutional follow-through, not a premarket fade",
+            "Daily chart room to upside confirmed by tape action — no warrant/convertible/ATM overhead signals present in data"
+          ],
+          "bearFactors": [
+            "fadePct of 30.54% indicates meaningful pullback from HOD; profit-taking and short covering may reverse quickly on open",
+            "Micro-cap with $3.8M market cap carries extreme volatility and liquidity risk — wide spreads, potential halt risk if news breaks",
+            "News status 'ok' but no forward guidance or cash/deal specifics visible in headline data — earnings quality unknown without filing review"
+          ],
+          "setupGrade": "A"
+        },
+        {
+          "sym": "SHFS",
+          "hod": 140,
+          "hodExact": 140.88,
+          "news": [
+            "Form 10-Q",
+            "Merger comms",
+            "Form 8-K",
+            "Safe Harbor CEO Issues Letter to Shareholders Addressing Capital Structure, Nasdaq Listing and Proposed Opifex Transaction",
+            "Safe Harbor Financial Reports Third Quarter 2026 Financial Results"
+          ],
+          "tag": "MERGER",
+          "name": "SHF Holdings, Inc. Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 132.25,
+          "floatTier": "Mega Thick",
+          "floatSrc": "AE",
+          "marketCap": "$4M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.0159,
+          "open": 0.037,
+          "gapPct": 132.7,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.0383,
+          "hodTimeExact": "06:47 AM ET",
+          "close": 0.0245,
+          "fade": 36,
+          "fadeExact": 36.03,
+          "vwap": 0.0329,
+          "vsVwap": "below",
+          "pmHigh": 0.0484,
+          "volRaw": "2283.8M",
+          "volDollar": 75138417,
+          "relVol": 10.7,
+          "avgVolM": 214.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-Q",
+            "Merger comms",
+            "Form 8-K",
+            "Safe Harbor CEO Issues Letter to Shareholders Addressing Capital Structure, Nasdaq Listing and Proposed Opifex Transaction",
+            "Safe Harbor Financial Reports Third Quarter 2026 Financial Results"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226050640/form10-q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "Merger comms",
+              "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226050638/form425.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "425",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1854963/000149315226050636/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            },
+            {
+              "title": "Safe Harbor CEO Issues Letter to Shareholders Addressing Capital Structure, Nasdaq Listing and Proposed Opifex Transaction",
+              "url": "https://www.stocktitan.net/news/SHFS/safe-harbor-ceo-issues-letter-to-shareholders-addressing-capital-0886lff2tnte.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T11:10:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Safe Harbor Financial Reports Third Quarter 2026 Financial Results",
+              "url": "https://www.stocktitan.net/news/SHFS/safe-harbor-financial-reports-third-quarter-2026-financial-2snidym4c1bj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-09T11:05:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Reverse Merger/SPAC",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Nasdaq Compliance",
+              "confidence": 0.65,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SHFS",
+          "newsSummary": "Safe Harbor Financial announced a proposed Opifex transaction (merger) alongside Q3 2026 earnings, 10-Q filing, and a CEO shareholder letter addressing capital structure and Nasdaq compliance. The merger represents a real M&A catalyst with material corporate restructuring, though execution risk and capital structure concerns are present. News broke before the intraday high, making it a legitimate driver rather than reactive commentary.",
+          "bullFactors": [
+            "Real M&A catalyst (Opifex merger) provides structural value story beyond hype",
+            "Sustained intraday volume (RelVol 10.7x) and HOD printing 140.88% indicates institutional accumulation and afternoon continuation strength",
+            "Earnings + merger comms + CEO letter = multi-layer narrative that can hold retail attention through session",
+            "News released premarket (Nov 9 11:05–11:10 AM) gave time for tape to set up and accumulate before retail push"
+          ],
+          "bearFactors": [
+            "Mega-thick float (132.25M shares) severely limits velocity and volatility sustainability — not Jack's preferred <10M setup",
+            "Heavy fade from open (140.88% HOD down to 36.03% session fade) signals institutional distribution after initial spike, typical of low-conviction pumps",
+            "Capital structure concerns + Nasdaq listing complications mentioned in CEO letter suggest potential dilution risk or compliance headwinds ahead",
+            "Gap up 132.7% premarket is aggressive entry point with minimal room to breathe; high risk of institutional rug-pull into close"
+          ],
+          "setupGrade": "C+"
+        },
+        {
+          "sym": "SMTK",
+          "hod": 125,
+          "hodExact": 125.36,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "SmartKem, Inc. Common Stock",
+          "sector": "Technology",
+          "country": "GB",
+          "floatM": 1.04,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$0M",
+          "riskBadges": [
+            "Float 1.04M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.04M + RelVol 51.4x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.04M + RelVol 51.4x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2618,
+          "open": 0.256,
+          "gapPct": -2.22,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.59,
+          "hodTimeExact": "12:46 PM ET",
+          "close": 0.26,
+          "fade": 55,
+          "fadeExact": 55.93,
+          "vwap": 0.3775,
+          "vsVwap": "below",
+          "pmHigh": 0.2748,
+          "volRaw": "30.9M",
+          "volDollar": 11646839,
+          "relVol": 51.4,
+          "avgVolM": 0.6,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1817760/000110465926122719/tm2628948d1_8k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-04T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SMTK",
+          "newsSummary": "Form 8-K filed on 2026-11-04, well before today's move, indicating a corporate event or disclosure obligation. The filing preceded the price action and therefore did not cause it; the move reflects market reassessment of the underlying security post-disclosure. Real merit depends on 8-K content, which is not detailed here.",
+          "bullFactors": [
+            "Micro-float (1.04M shares) — extremely tight supply, high leverage to volume",
+            "Massive intraday push: 125% HOD vs. -2% gap suggests strong institutional accumulation off the open",
+            "Relative volume 51.4x — sustained buying pressure all session, not a 1–2 min spike (stays in play)",
+            "UK tech micro-cap with minimal overhead; room to run on momentum continuation"
+          ],
+          "bearFactors": [
+            "55.93% fade from HOD — significant profit-taking by EOD; question whether momentum holds next session",
+            "Form 8-K filed 1 week prior; no fresh catalyst announced today — move may be delayed reaction or sympathy",
+            "Micro-float and extreme volatility create liquidity risk; retail entry near HOD faces hard reversal on profit-taking",
+            "No identifiable business catalyst or earnings/partnership — technical setup alone, no fundamental anchor"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "OMH",
+          "hod": 97,
+          "hodExact": 97.11,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Ohmyhome Limited Class A Ordinary Shares",
+          "sector": "Real Estate",
+          "country": "SG",
+          "floatM": 2.01,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$47M",
+          "riskBadges": [
+            "Float 2.01M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 16.615,
+          "open": 25.295,
+          "gapPct": 52.24,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 32.75,
+          "hodTimeExact": "05:13 AM ET",
+          "close": 8,
+          "fade": 75,
+          "fadeExact": 75.57,
+          "vwap": 16.1472,
+          "vsVwap": "below",
+          "pmHigh": 34,
+          "volRaw": "25.3M",
+          "volDollar": 407733125,
+          "relVol": 2.9,
+          "avgVolM": 8.8,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1944902/000121390026117590/ea0311444-6k_ohmyswift.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-09T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OMH",
+          "newsSummary": "OMH filed a Form 6-K (Singapore-domiciled company regulatory filing) on Nov 9, before today's move, making it a reactive disclosure rather than a catalyst. The 97% HOD achievement and 52% gap suggest strong intraday institutional accumulation in a micro-float real estate name with no substantive cash event or earnings trigger — classic China Rig structural pattern.",
+          "bullFactors": [
+            "Micro-float (2.01M shares) with 2.9× relative volume sustains momentum without dilution concerns",
+            "97% HOD achievement with 52% gap indicates sustained institutional buying pressure throughout session, not premarket spike-and-fade",
+            "High HOD % dominance (97.11) signals hot cycle continuation; afternoon strength typical of rig structures with real intraday accumulation",
+            "Real Estate sector in Greater China tier with no convertibles/warrants overhead — clean daily chart structure"
+          ],
+          "bearFactors": [
+            "Form 6-K is regulatory filing, not fundamental catalyst — move is structural, not event-driven; susceptible to reversal if retail unwinds",
+            "75% fade pct suggests strong premarket spike component; if afternoon volume contracts, rig liquidity may evaporate quickly",
+            "Singapore-domiciled micro-cap with limited US institutional float; black swan risk if Greater China sentiment shifts",
+            "No real cash catalyst (earnings, partnership, M&A) — entirely dependent on tape momentum and intraday accumulation pattern holding"
+          ],
+          "setupGrade": "B+"
+        },
+        {
+          "sym": "ELOG",
+          "hod": 84,
+          "hodExact": 84.06,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Eastern International Ltd. Ordinary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 3.39,
+          "floatTier": "Micro",
+          "floatSrc": "AE",
+          "marketCap": "$11M",
+          "riskBadges": [
+            "Float 3.39M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 3.39M + RelVol 30.9x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 3.39M + RelVol 30.9x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.5922,
+          "open": 0.605,
+          "gapPct": 2.16,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.09,
+          "hodTimeExact": "03:12 PM ET",
+          "close": 0.8871,
+          "fade": 18,
+          "fadeExact": 18.61,
+          "vwap": 0.8501,
+          "vsVwap": "above",
+          "pmHigh": 0.65,
+          "volRaw": "3.3M",
+          "volDollar": 2806078,
+          "relVol": 30.9,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.92,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:ELOG",
+          "newsSummary": "ELOG ran 84% with no identifiable news catalyst, suggesting pure structural momentum. The move was driven by intraday accumulation and tape strength rather than external events or announcements.",
+          "bullFactors": [
+            "Micro float (3.39M) — tight supply, high leverage for momentum",
+            "84% HOD with only 18.6% fade — sustained afternoon continuation strength, shorts being forced out",
+            "30.9x relative volume — institutional accumulation signature, not retail pop-and-drop",
+            "China rig structural pattern — micro-cap with consistent intraday buying, multiple HOD prints late session"
+          ],
+          "bearFactors": [
+            "NO-NEWS catalyst — pure sympathy/tape play with no fundamental support; vulnerable to reversal on profit-taking",
+            "Chinese micro-cap with regulatory/delisting tail risk inherent to the geography",
+            "Gap only 2.16% — limited cushion if premarket fades hard tomorrow",
+            "Tape-only trade — no real cash catalyst means momentum can evaporate instantly on volume cliff"
+          ],
+          "setupGrade": "B+"
+        }
+      ],
+      "hod": 1905,
+      "fade": 48,
+      "hodTime": "regular session",
+      "theme": "Hot Tape",
+      "note": "NXXT led +1905.36% (54% fade). 1/10 held <20% fade. news: NXXT — \"NextNRG Announces Nasdaq Delisting Determination; Trading to Be Suspended at Market Open on November 12, 2026\".",
+      "aiSummary": "Today's tape is dominated by compliance reversals and no-news China microcaps (NXXT, YMT, CENN, SCKT, SMTK) with a heavy skew toward sub-2M float names, creating ideal float-to-volume ratios for momentum traders—but the session structure is deeply problematic: HODs printed predominantly in premarket and after-hours (NXXT, SHFS, OMH), with only YMT, CENN, and ELOG sustaining afternoon continuation, signaling a COLD cycle dominated by pre-market spikes that faded hard into the close (OMH -75%, CENN -66%, YMT -78%). The playbook avoids all three top catalysts today (compliance reversals, no-news sympathy, and dilutive offerings like WHLR), and the 1905% spike in NXXT followed by 55% fade into after-hours print is a textbook pump-and-dump structure that hits the circuit-breaker for entry—no time to accumulate, no institutional sustained buying, just retail chasing premarket momentum into a wall. This is a skip day; tape temperature is cold, HODs are in the wrong session, and real catalyst quality is absent across the board."
+    },
     {
       "date": "2026-11-10",
       "runners": [
