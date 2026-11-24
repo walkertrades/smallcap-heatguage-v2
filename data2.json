@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-11-24T22:56:57.254900Z",
-  "count": 10329,
+  "exportedAt": "2026-11-24T23:06:18.893861Z",
+  "count": 10339,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1163 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-11-24",
+      "runners": [
+        {
+          "sym": "AKAN",
+          "hod": 162,
+          "hodExact": 162.4,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Akanda Corp. Common Shares",
+          "sector": "Healthcare",
+          "country": "GB",
+          "floatM": 2.34,
+          "floatTier": "Micro",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United Kingdom",
+            "hqCode": "GB",
+            "incCountry": "Canada",
+            "incCode": "CA",
+            "shares": 2388212,
+            "sharesAsOf": "2026-11-17",
+            "float": 2344878,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [],
+            "canSellLine": "Not today: Not S-3 Eligible.",
+            "otherDilution": "1.83M shares from convertibles can convert now",
+            "pendingRegs": 1,
+            "dilutionRisk": "High",
+            "ratings": {
+              "offering": "High",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "High"
+            },
+            "cashUsd": 755238,
+            "netCashUsd": -1819419,
+            "cashAsOf": "2026-06-30",
+            "runwayMonths": -3.4,
+            "splits": [
+              {
+                "ratio": 4.5,
+                "direction": "reverse",
+                "effective": "2026-04-13"
+              },
+              {
+                "ratio": 5,
+                "direction": "reverse",
+                "effective": "2026-01-12"
+              },
+              {
+                "ratio": 3,
+                "direction": "reverse",
+                "effective": "2025-08-21"
+              },
+              {
+                "ratio": 2,
+                "direction": "reverse",
+                "effective": "2024-11-14"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$12M",
+          "riskBadges": [
+            "Float 2.34M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 2.58,
+          "open": 3.2601,
+          "gapPct": 26.36,
+          "time": "regular session",
+          "session": "morning",
+          "high": 6.77,
+          "hodTimeExact": "10:42 AM ET",
+          "close": 5.2,
+          "fade": 23,
+          "fadeExact": 23.19,
+          "vwap": 5.361,
+          "vsVwap": "below",
+          "pmHigh": 3.71,
+          "volRaw": "77.1M",
+          "volDollar": 413152617,
+          "relVol": 4.0,
+          "avgVolM": 19.4,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:AKAN",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "BENF",
+          "hod": 141,
+          "hodExact": 141.65,
+          "news": [
+            "Form 8-K",
+            "Beneficient Secures Court Approval to Pursue HCLP Debt Cancellation and $211 Million Recovery"
+          ],
+          "tag": "BANKRUPTCY",
+          "name": "Beneficient Class A Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 5.06,
+          "floatTier": "Low",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "United States",
+            "incCode": "US",
+            "shares": 19146748,
+            "sharesAsOf": "2026-11-09",
+            "float": 5061276,
+            "floatReliable": true,
+            "canSellNow": true,
+            "canSellHow": [
+              "equity_line",
+              "resale"
+            ],
+            "canSellLine": null,
+            "otherDilution": "12.33M shares from convertibles can convert now A private placement needs no registration",
+            "pendingRegs": 0,
+            "dilutionRisk": "High",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "High"
+            },
+            "cashUsd": 7476000,
+            "netCashUsd": 1850469,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": 1.4,
+            "splits": [
+              {
+                "ratio": 8,
+                "direction": "reverse",
+                "effective": "2025-12-15"
+              },
+              {
+                "ratio": 80,
+                "direction": "reverse",
+                "effective": "2024-04-18"
+              }
+            ],
+            "deficiencyNotice": "2026-11-12",
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$18M",
+          "riskBadges": [
+            "Float 5.06M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4552,
+          "open": 0.6541,
+          "gapPct": 43.7,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.1,
+          "hodTimeExact": "02:40 PM ET",
+          "close": 0.915,
+          "fade": 16,
+          "fadeExact": 16.82,
+          "vwap": 0.7688,
+          "vsVwap": "above",
+          "pmHigh": 0.74,
+          "volRaw": "377.8M",
+          "volDollar": 290440631,
+          "relVol": 1824.7,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "Beneficient Secures Court Approval to Pursue HCLP Debt Cancellation and $211 Million Recovery"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1775734/000149315226053909/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-24T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "Beneficient Secures Court Approval to Pursue HCLP Debt Cancellation and $211 Million Recovery",
+              "url": "https://www.stocktitan.net/news/BENF/beneficient-secures-court-approval-to-pursue-hclp-debt-cancellation-ay63l453q1sj.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-24T12:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Fintech/Payments",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BENF",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "GLXG",
+          "hod": 71,
+          "hodExact": 71.43,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Galaxy Payroll Group Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "HK",
+          "floatM": 5.48,
+          "floatTier": "Low",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "Hong Kong",
+            "hqCode": "HK",
+            "incCountry": "British Virgin Islands",
+            "incCode": "VG",
+            "shares": 5601515,
+            "sharesAsOf": "2026-06-30",
+            "float": 5481515,
+            "floatReliable": true,
+            "canSellNow": true,
+            "canSellHow": [
+              "shelf",
+              "resale"
+            ],
+            "canSellLine": "Form F-3 universal shelf (shares, debt, warrants, rights, units) ($200.00M left). Up to about $2.06M over the next 12 months.",
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "Medium",
+            "ratings": {
+              "offering": "Medium",
+              "overhead": "Low",
+              "historical": "High",
+              "cash": "Low"
+            },
+            "cashUsd": 3581975,
+            "netCashUsd": 3166747,
+            "cashAsOf": "2026-06-30",
+            "runwayMonths": 36.6,
+            "splits": [
+              {
+                "ratio": 10,
+                "direction": "reverse",
+                "effective": "2025-09-08"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$6M",
+          "riskBadges": [
+            "Float 5.48M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 5.48M + RelVol 80.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 5.48M + RelVol 80.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7,
+          "open": 0.67,
+          "gapPct": -4.29,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.2,
+          "hodTimeExact": "02:08 PM ET",
+          "close": 1.04,
+          "fade": 13,
+          "fadeExact": 13.33,
+          "vwap": 0.9958,
+          "vsVwap": "above",
+          "pmHigh": null,
+          "volRaw": "7.7M",
+          "volDollar": 7630452,
+          "relVol": 80.3,
+          "avgVolM": 0.1,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GLXG",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "PDC",
+          "hod": 69,
+          "hodExact": 69.98,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Perpetuals.com Ltd American Depositary Shares",
+          "sector": "Unknown",
+          "country": "JP",
+          "floatM": 31.17,
+          "floatTier": "Thick",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "Japan",
+            "hqCode": "JP",
+            "incCountry": "Japan",
+            "incCode": "JP",
+            "shares": 40570692,
+            "sharesAsOf": "2026-09-18",
+            "float": 31173732,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [],
+            "canSellLine": "Not today. Nothing registered is effective or pending.",
+            "otherDilution": "3.40M warrant ADSs can be exercised now (pre-funded)",
+            "pendingRegs": 0,
+            "dilutionRisk": "High",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "High"
+            },
+            "cashUsd": 1070239,
+            "netCashUsd": 428502,
+            "cashAsOf": "2026-04-30",
+            "runwayMonths": 3.2,
+            "splits": [],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$31M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.7236,
+          "open": 0.7236,
+          "gapPct": 0.0,
+          "time": "regular session",
+          "session": "morning",
+          "high": 1.23,
+          "hodTimeExact": "11:10 AM ET",
+          "close": 0.7764,
+          "fade": 36,
+          "fadeExact": 36.88,
+          "vwap": 0.9234,
+          "vsVwap": "below",
+          "pmHigh": 0.7301,
+          "volRaw": "4.2M",
+          "volDollar": 3873079,
+          "relVol": 45.4,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:PDC",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "FGL",
+          "hod": 69,
+          "hodExact": 69.76,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Founder Group Limited Class A Ordinary Shares",
+          "sector": "Industrials",
+          "country": "MY",
+          "floatM": 0.54,
+          "floatTier": "Nano",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "Malaysia",
+            "hqCode": "MY",
+            "incCountry": "British Virgin Islands",
+            "incCode": "VG",
+            "shares": 1298793,
+            "sharesAsOf": "2026-10-09",
+            "float": 541791,
+            "floatReliable": true,
+            "canSellNow": true,
+            "canSellHow": [],
+            "canSellLine": "Avondale Capital pre-paid purchase facility (July 2026, up to $20M) ($18.92M left); Avondale Capital pre-paid purchase facility (April 2025, up to $10M). Up to about $18.92M over the next 12 months.",
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "Medium",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "Medium"
+            },
+            "cashUsd": 17773947,
+            "netCashUsd": 10638705,
+            "cashAsOf": "2026-06-30",
+            "runwayMonths": 7.7,
+            "splits": [
+              {
+                "ratio": 100,
+                "direction": "reverse",
+                "effective": "2026-09-01"
+              },
+              {
+                "ratio": 100,
+                "direction": "reverse",
+                "effective": "2026-02-10"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$1M",
+          "riskBadges": [
+            "Float 0.54M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 0.54M + RelVol 70.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 0.54M + RelVol 70.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.4401,
+          "open": 0.6604,
+          "gapPct": 50.06,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.7471,
+          "hodTimeExact": "05:46 AM ET",
+          "close": 0.63,
+          "fade": 15,
+          "fadeExact": 15.67,
+          "vwap": 0.7114,
+          "vsVwap": "below",
+          "pmHigh": 0.9225,
+          "volRaw": "103.3M",
+          "volDollar": 73495965,
+          "relVol": 70.7,
+          "avgVolM": 1.5,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FGL",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "LGHL",
+          "hod": 67,
+          "hodExact": 67.13,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Lion Group Holding Ltd. American Depositary Share",
+          "sector": "Financial Services",
+          "country": "SG",
+          "floatM": 268383.95,
+          "floatTier": "Mega Thick",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "Singapore",
+            "hqCode": "SG",
+            "incCountry": "Cayman Islands",
+            "incCode": "KY",
+            "shares": 268384151615,
+            "sharesAsOf": "2026-06-15",
+            "float": 268383946615,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [
+              "resale"
+            ],
+            "canSellLine": null,
+            "otherDilution": "10.6K ADSs from convertibles can convert now",
+            "pendingRegs": 0,
+            "dilutionRisk": "Medium",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "Low"
+            },
+            "cashUsd": 35311039,
+            "netCashUsd": 16892234,
+            "cashAsOf": "2025-12-31",
+            "runwayMonths": 119.7,
+            "splits": [],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$248.1B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.6522,
+          "open": 0.8901,
+          "gapPct": 36.48,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 1.09,
+          "hodTimeExact": "05:07 AM ET",
+          "close": 0.9244,
+          "fade": 15,
+          "fadeExact": 15.19,
+          "vwap": 1.0789,
+          "vsVwap": "below",
+          "pmHigh": 1.65,
+          "volRaw": "27.3M",
+          "volDollar": 29448710,
+          "relVol": 12.6,
+          "avgVolM": 2.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:LGHL",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "APUS",
+          "hod": 65,
+          "hodExact": 65.33,
+          "news": [
+            "Form 8-K",
+            "MindWave Innovations Inc., a subsidiary of Apimeds Pharmaceuticals US (NYSE American: APUS) Powers Over $25 Million USD in Insured ALCI Ecosystem Credits, Launched at UN Climate Conference COP31",
+            "Proxy",
+            "Apimeds Pharmaceuticals US Reports Third Quarter 2026 Results, Delivers First Operating Revenue from Technology Services"
+          ],
+          "tag": "EARNINGS",
+          "name": "Apimeds Pharmaceuticals US, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 1.0,
+          "floatTier": "Micro",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "United States",
+            "incCode": "US",
+            "shares": 1847626,
+            "sharesAsOf": "2026-11-20",
+            "float": 1004426,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [],
+            "canSellLine": "Not today. Nothing registered is effective or pending.",
+            "otherDilution": "8.54M shares from convertibles can convert now A private placement needs no registration",
+            "pendingRegs": 0,
+            "dilutionRisk": "Medium",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "High",
+              "historical": "Medium",
+              "cash": "Low"
+            },
+            "cashUsd": 150441385,
+            "netCashUsd": 139259620,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": 120,
+            "splits": [
+              {
+                "ratio": 10,
+                "direction": "reverse",
+                "effective": "2026-07-24"
+              }
+            ],
+            "deficiencyNotice": "2026-04-22",
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$4M",
+          "riskBadges": [
+            "Float 1.0M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.0M + RelVol 86.5x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.0M + RelVol 86.5x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.5,
+          "open": 1.95,
+          "gapPct": 30.0,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 2.48,
+          "hodTimeExact": "05:00 AM ET",
+          "close": 2.31,
+          "fade": 6,
+          "fadeExact": 6.85,
+          "vwap": 2.1331,
+          "vsVwap": "above",
+          "pmHigh": 2.33,
+          "volRaw": "22.2M",
+          "volDollar": 47271275,
+          "relVol": 86.5,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K",
+            "MindWave Innovations Inc., a subsidiary of Apimeds Pharmaceuticals US (NYSE American: APUS) Powers Over $25 Million USD in Insured ALCI Ecosystem Credits, Launched at UN Climate Conference COP31",
+            "Proxy",
+            "Apimeds Pharmaceuticals US Reports Third Quarter 2026 Results, Delivers First Operating Revenue from Technology Services"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026123285/ea0313265-8k_apimeds.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-24T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "MindWave Innovations Inc., a subsidiary of Apimeds Pharmaceuticals US (NYSE American: APUS) Powers Over $25 Million USD in Insured ALCI Ecosystem Credits, Launched at UN Climate Conference COP31",
+              "url": "https://www.stocktitan.net/news/APUS/mind-wave-innovations-inc-a-subsidiary-of-apimeds-pharmaceuticals-us-qw85wytadwl1.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-23T21:14:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1894525/000121390026121888/ea0312658-01.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-18T21:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            },
+            {
+              "title": "Apimeds Pharmaceuticals US Reports Third Quarter 2026 Results, Delivers First Operating Revenue from Technology Services",
+              "url": "https://www.stocktitan.net/news/APUS/apimeds-pharmaceuticals-us-reports-third-quarter-2026-results-6qul09maaatv.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-18T13:44:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.6,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.4,
+              "uncertain": true
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:APUS",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "RMSG",
+          "hod": 62,
+          "hodExact": 62.02,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Real Messenger Corporation Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 9.51,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "Cayman Islands",
+            "incCode": "KY",
+            "shares": 10469561,
+            "sharesAsOf": "2026-07-01",
+            "float": 2082006,
+            "floatReliable": false,
+            "canSellNow": false,
+            "canSellHow": [],
+            "canSellLine": "Not today. Nothing registered is effective or pending.",
+            "otherDilution": "638.6K warrant shares can be exercised now (pre-funded)",
+            "pendingRegs": 0,
+            "dilutionRisk": "Medium",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "Medium",
+              "historical": "High",
+              "cash": "Medium"
+            },
+            "cashUsd": 321965,
+            "netCashUsd": 2002958,
+            "cashAsOf": "2026-03-31",
+            "runwayMonths": 6.7,
+            "splits": [],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$2M",
+          "riskBadges": [
+            "Float 9.51M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 9.51M + RelVol 349.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 9.51M + RelVol 349.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1401,
+          "open": 0.1492,
+          "gapPct": 6.46,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.227,
+          "hodTimeExact": "06:04 AM ET",
+          "close": 0.2101,
+          "fade": 7,
+          "fadeExact": 7.44,
+          "vwap": 0.1769,
+          "vsVwap": "above",
+          "pmHigh": 0.22,
+          "volRaw": "137.0M",
+          "volDollar": 24240338,
+          "relVol": 349.3,
+          "avgVolM": 0.4,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [],
+          "themeStatus": "nonews",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:RMSG",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "TPST",
+          "hod": 45,
+          "hodExact": 45.77,
+          "news": [
+            "Form 8-K"
+          ],
+          "tag": "COMPLIANCE",
+          "name": "Tempest Therapeutics, Inc. Common Stock",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 14.59,
+          "floatTier": "Mid",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "United States",
+            "incCode": "US",
+            "shares": 23100949,
+            "sharesAsOf": "2026-11-13",
+            "float": 14590972,
+            "floatReliable": true,
+            "canSellNow": true,
+            "canSellHow": [
+              "shelf",
+              "resale"
+            ],
+            "canSellLine": "Lincoln Park Capital purchase agreement ($2.00M left: 7,650,000 registered shares); S-3 universal shelf; S-3 shelf 333-299142 ($1.43M left); S-3 shelf 333-297061 ($1.43M left). Up to about $1.43M over the next 12 months (the baby-shelf limit is per company: the shelves share it).",
+            "otherDilution": "3.11M warrant shares can be exercised now (pre-funded) A private placement needs no registration",
+            "pendingRegs": 0,
+            "dilutionRisk": "High",
+            "ratings": {
+              "offering": "Medium",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "High"
+            },
+            "cashUsd": 897000,
+            "netCashUsd": -801816,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": -1.1,
+            "splits": [
+              {
+                "ratio": 13,
+                "direction": "reverse",
+                "effective": "2025-04-08"
+              },
+              {
+                "ratio": 15,
+                "direction": "reverse",
+                "effective": "2021-06-28"
+              },
+              {
+                "ratio": 15,
+                "direction": "reverse",
+                "effective": "2018-12-10"
+              }
+            ],
+            "deficiencyNotice": "2026-01-09",
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$6M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 14.59M + RelVol 45.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 14.59M + RelVol 45.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.2615,
+          "open": 0.2901,
+          "gapPct": 10.94,
+          "time": "regular session",
+          "session": "morning",
+          "high": 0.3812,
+          "hodTimeExact": "10:44 AM ET",
+          "close": 0.279,
+          "fade": 26,
+          "fadeExact": 26.81,
+          "vwap": 0.3013,
+          "vsVwap": "below",
+          "pmHigh": 0.285,
+          "volRaw": "10.7M",
+          "volDollar": 3236400,
+          "relVol": 45.3,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026122694/ea0313132-8k_tempest.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-20T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:TPST",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "SVRE",
+          "hod": 45,
+          "hodExact": 45.64,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "SaverOne 2014 Ltd. American Depositary Shares",
+          "sector": "Technology",
+          "country": "IL",
+          "floatM": 77144.24,
+          "floatTier": "Mega Thick",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "Israel",
+            "hqCode": "IL",
+            "incCountry": "Israel",
+            "incCode": "IL",
+            "shares": 107992885746,
+            "sharesAsOf": "2026-09-04",
+            "float": 77144240946,
+            "floatReliable": true,
+            "canSellNow": true,
+            "canSellHow": [
+              "shelf",
+              "equity_line",
+              "resale"
+            ],
+            "canSellLine": "Yorkville SEPA III of 2025-10-30 (resale F-1 333-292148) ($43.56M left); New F-3 shelf 333-298896 ($47.35M) ($47.35M left). Up to about $1.79M over the next 12 months.",
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "High",
+            "ratings": {
+              "offering": "Medium",
+              "overhead": "Medium",
+              "historical": "High",
+              "cash": "High"
+            },
+            "cashUsd": 2805797,
+            "netCashUsd": 177714,
+            "cashAsOf": "2026-06-30",
+            "runwayMonths": 0.3,
+            "splits": [],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$122.0B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.9201,
+          "open": 0.91,
+          "gapPct": -1.1,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 1.34,
+          "hodTimeExact": "05:39 PM ET",
+          "close": 1.13,
+          "fade": 15,
+          "fadeExact": 15.67,
+          "vwap": 1.6276,
+          "vsVwap": "below",
+          "pmHigh": 0.9122,
+          "volRaw": "12.9M",
+          "volDollar": 21045369,
+          "relVol": 1.4,
+          "avgVolM": 9.0,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1894693/000121390026123675/ea0313439-6k_saver.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-24T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SVRE",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        }
+      ],
+      "hod": 162,
+      "fade": 17,
+      "hodTime": "regular session",
+      "theme": "Choppy Mixed",
+      "note": "AKAN led +162.4% (23% fade). 7/10 held <20% fade. news: BENF — \"Form 8-K\".",
+      "aiSummary": null
+    },
     {
       "date": "2026-11-23",
       "runners": [
