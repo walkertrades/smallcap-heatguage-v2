@@ -566,7 +566,9 @@ function NewsSection({ r }) {
   const items = Array.isArray(r.newsItems) ? r.newsItems : [];
   // Legacy days carry a flat headline list and a Claude summary instead.
   const legacy = pickHeadlines(r);
-  const summary = r.newsSummary && String(r.newsSummary).trim();
+  // The Claude news summary is no longer shown (2026-11-24); legacy days keep
+  // their headline list. FirstPrint facts sit below the news instead.
+  const summary = null;
   const status = r.newsStatus || (items.length ? "ok" : null);
 
   const hide = async (item) => {
@@ -885,7 +887,115 @@ function HodTimeSlot({ r }) {
   );
 }
 
-// ── Bull / bear factor lists (Claude-generated in v2) ──────────────
+// ── FirstPrint facts ───────────────────────────────────────────────
+// What FirstPrint read from the company's SEC filings as of the evening run:
+// can it sell stock today, dilution risk, cash, splits, listing notice. Shown
+// as stored, nothing rewritten. Replaces the Claude summary and bull / bear
+// lists. Runners without an `fp` block (older days, or a failed lookup) show
+// nothing here.
+const FP_HOW = { atm: "ATM", shelf: "shelf", equity_line: "equity line", resale: "resale only" };
+function fpLevelClass(l) {
+  const v = String(l || "").toLowerCase();
+  return v === "low" ? "low" : v === "medium" ? "med" : v ? "high" : "na";
+}
+function fpMoney(n) {
+  if (n == null || !isFinite(n)) return null;
+  const a = Math.abs(n), sign = n < 0 ? "-" : "";
+  if (a >= 1e9) return `${sign}$${(a / 1e9).toFixed(1)}B`;
+  if (a >= 1e6) return `${sign}$${(a / 1e6).toFixed(1)}M`;
+  if (a >= 1e3) return `${sign}$${Math.round(a / 1e3)}K`;
+  return `${sign}$${Math.round(a)}`;
+}
+function fpDate(s) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(s || ""));
+  if (!m) return null;
+  const mon = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+m[2] - 1];
+  return `${mon} ${+m[3]}, ${m[1]}`;
+}
+function FirstPrintFacts({ r }) {
+  const fp = r.fp;
+  if (!fp || typeof fp !== "object") return null;
+  const how = (fp.canSellHow || []).map((h) => FP_HOW[h] || h).join(", ");
+  const ratings = fp.ratings || {};
+  const rated = [["Offering", ratings.offering], ["Overhang", ratings.overhead],
+                 ["History", ratings.historical], ["Cash", ratings.cash]].filter((x) => x[1]);
+  const splits = Array.isArray(fp.splits) ? fp.splits : [];
+  const cash = fpMoney(fp.cashUsd);
+  const net = fp.netCashUsd != null && fp.netCashUsd !== fp.cashUsd ? fpMoney(fp.netCashUsd) : null;
+  const inc = fp.incCountry && fp.incCountry !== fp.hqCountry ? fp.incCountry : null;
+  return (
+    <div className="rt-fp">
+      <div className="rt-fp-head">
+        <span className="rt-lbl">FIRSTPRINT</span>
+        {fp.dilutionRisk && (
+          <span className={`rt-fp-chip rt-fp-${fpLevelClass(fp.dilutionRisk)}`}>
+            Dilution risk {fp.dilutionRisk}
+          </span>
+        )}
+        {fp.page && (
+          <a className="rt-fp-link" href={fp.page} target="_blank" rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}>open ↗</a>
+        )}
+      </div>
+      {fp.canSellNow != null && (
+        <div className="rt-fp-row">
+          <span className="rt-fp-k">Can sell stock today</span>
+          <span className="rt-fp-v">
+            <b className={fp.canSellNow ? "rt-fp-yes" : "rt-fp-no"}>{fp.canSellNow ? "Yes" : "No"}</b>
+            {fp.canSellNow && how ? ` (${how})` : ""}
+            {fp.canSellLine ? ` — ${fp.canSellLine}` : ""}
+          </span>
+        </div>
+      )}
+      {fp.otherDilution && (
+        <div className="rt-fp-row">
+          <span className="rt-fp-k">Other supply</span>
+          <span className="rt-fp-v">{fp.otherDilution}</span>
+        </div>
+      )}
+      {(cash || fp.runwayMonths > 0) && (
+        <div className="rt-fp-row">
+          <span className="rt-fp-k">Cash</span>
+          <span className="rt-fp-v">
+            {cash || "not stated"}{net ? ` (net ${net})` : ""}
+            {fp.cashAsOf ? ` as of ${fpDate(fp.cashAsOf)}` : ""}
+            {fp.runwayMonths > 0 ? ` · about ${fp.runwayMonths < 10 ? Math.round(fp.runwayMonths * 10) / 10 : Math.round(fp.runwayMonths)} months of runway` : ""}
+          </span>
+        </div>
+      )}
+      {splits.length > 0 && (
+        <div className="rt-fp-row">
+          <span className="rt-fp-k">Splits</span>
+          <span className="rt-fp-v">
+            {splits.map((s) => `1-for-${s.ratio} ${s.direction} ${fpDate(s.effective) || ""}`.trim()).join(" · ")}
+          </span>
+        </div>
+      )}
+      {fp.deficiencyNotice && (
+        <div className="rt-fp-row">
+          <span className="rt-fp-k">Listing notice</span>
+          <span className="rt-fp-v">Deficiency notice {fpDate(fp.deficiencyNotice)}</span>
+        </div>
+      )}
+      {inc && (
+        <div className="rt-fp-row">
+          <span className="rt-fp-k">Incorporated</span>
+          <span className="rt-fp-v">{inc}{fp.hqCountry ? ` · headquartered in ${fp.hqCountry}` : ""}</span>
+        </div>
+      )}
+      {rated.length > 0 && (
+        <div className="rt-fp-ratings">
+          {rated.map(([k, v]) => (
+            <span key={k} className={`rt-fp-chip rt-fp-${fpLevelClass(v)}`}>{k} {v}</span>
+          ))}
+        </div>
+      )}
+      {fp.built && <div className="rt-fp-foot">FirstPrint data as of {fp.built}</div>}
+    </div>
+  );
+}
+
+// ── Bull / bear factor lists (legacy, no longer rendered) ──────────
 function FactorColumns({ r }) {
   const bull = Array.isArray(r.bullFactors) ? r.bullFactors : [];
   const bear = Array.isArray(r.bearFactors) ? r.bearFactors : [];
@@ -1200,7 +1310,9 @@ function ShotOrName({ by, fallback }) {
 
 // v2 cleanup: these research sections are being replaced by Claude summarization
 // in the pipeline, so they're hidden from the expanded runner view.
-const HIDDEN_SECTIONS = /dilution|compliance|debt|liabilit/i;
+// "Why it ran" (the classifier's bullet list) was dropped 2026-11-24: with the
+// news list and the FirstPrint facts on the tile it only repeated them.
+const HIDDEN_SECTIONS = /dilution|compliance|debt|liabilit|^\s*why it ran\s*$/i;
 function visibleSections(sections) {
   if (!Array.isArray(sections)) return [];
   return sections.filter((s) => !HIDDEN_SECTIONS.test(String(s && s.title) || ""));
@@ -1238,7 +1350,8 @@ function GradePicker({ r, onGradeChange }) {
     }
     setBusy(false);
   };
-  const ai = r.setupGrade || null;
+  // The AI setup grade is no longer shown or generated (2026-11-24).
+  const ai = null;
 
   return (
     <div className="rt-grade">
@@ -1276,7 +1389,7 @@ function RunnerTile({ r, onGradeChange }) {
   const accent = tagAccent(tag);
   const sections = visibleSections(r.sections);
   const hasTile = r.riskBadges || r.reasons || r.tldr
-    || pickHeadlines(r).list.length > 0 || !!r.newsSummary;
+    || pickHeadlines(r).list.length > 0 || !!r.fp;
 
   // If this runner was imported from a weekly/daily recap WITHOUT the evening-recap
   // extras, we still show a clean tile with price action + whatever we have.
@@ -1336,7 +1449,7 @@ function RunnerTile({ r, onGradeChange }) {
 
       <NewsSection r={r} />
 
-      <FactorColumns r={r} />
+      <FirstPrintFacts r={r} />
 
       {r.riskBadges && r.riskBadges.length > 0 && (
         <div className="rt-badges">
@@ -1349,18 +1462,6 @@ function RunnerTile({ r, onGradeChange }) {
       {sections.length > 0 && sections.map((s, i) => (
         <DynamicSection key={i} section={s} />
       ))}
-
-      {/* Legacy fallback: if the recap used the old **Why it ran** format
-          AND there are no dynamic sections */}
-      {sections.length === 0 &&
-       r.reasons && r.reasons.length > 0 && (
-        <>
-          <div className="rt-lbl">Why it ran</div>
-          <ul className="rt-reasons">
-            {r.reasons.map((t, i) => <li key={i}>{t}</li>)}
-          </ul>
-        </>
-      )}
 
       {r.tldr && r.tldr.length > 0 && (
         <>

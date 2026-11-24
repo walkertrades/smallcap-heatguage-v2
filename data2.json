@@ -1,7 +1,7 @@
 {
   "schema": "heat-gauge.v1",
-  "exportedAt": "2026-11-21T18:56:24.419692Z",
-  "count": 10319,
+  "exportedAt": "2026-11-24T22:56:57.254900Z",
+  "count": 10329,
   "thresholds": {
     "hodHot": 150,
     "hodNeutralLo": 100,
@@ -9,6 +9,1407 @@
     "fadeCold": 40
   },
   "entries": [
+    {
+      "date": "2026-11-23",
+      "runners": [
+        {
+          "sym": "WETO",
+          "hod": 390,
+          "hodExact": 390.03,
+          "news": [
+            "Form 6-K"
+          ],
+          "tag": "SYMPATHY",
+          "name": "Wetour Robotics Limited Ordinary Shares",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 14.38,
+          "floatTier": "Mid",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "Cayman Islands",
+            "incCode": "KY",
+            "shares": 14897999,
+            "sharesAsOf": "2026-11-05",
+            "float": 14381699,
+            "floatReliable": true,
+            "canSellNow": true,
+            "canSellHow": [
+              "atm",
+              "resale"
+            ],
+            "canSellLine": "Rodman & Renshaw ATM ($75.00M left) (sells under shelf 333-294373, not on top of it); F-3 universal shelf. Up to about $8.48M over the next 12 months (the ATM sells under shelf 333-294373, not on top).",
+            "otherDilution": "A private placement needs no registration",
+            "pendingRegs": 0,
+            "dilutionRisk": "High",
+            "ratings": {
+              "offering": "High",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "Low"
+            },
+            "cashUsd": 497381,
+            "netCashUsd": 1403694,
+            "cashAsOf": "2026-06-30",
+            "runwayMonths": null,
+            "splits": [
+              {
+                "ratio": 100,
+                "direction": "reverse",
+                "effective": "2026-08-03"
+              },
+              {
+                "ratio": 10,
+                "direction": "reverse",
+                "effective": "2026-06-02"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$8M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 14.38M + RelVol 63.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 14.38M + RelVol 63.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.1584,
+          "open": 0.7287,
+          "gapPct": 360.04,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.7762,
+          "hodTimeExact": "05:00 AM ET",
+          "close": 0.5385,
+          "fade": 30,
+          "fadeExact": 30.62,
+          "vwap": 0.6807,
+          "vsVwap": "below",
+          "pmHigh": 0.898,
+          "volRaw": "311.7M",
+          "volDollar": 212196130,
+          "relVol": 63.3,
+          "avgVolM": 4.9,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026122287/ea0312790-6k_wetour.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-19T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:WETO",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "PAAI",
+          "hod": 169,
+          "hodExact": 169.61,
+          "news": [
+            "Snowboarder Magazine’s New Publisher Brings More Than 15 Years of Experience in Snowboard Media to the Iconic Brand"
+          ],
+          "tag": "NO-NEWS",
+          "name": "Paradium.AI, Inc.",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 12.83,
+          "floatTier": "Mid",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "United States",
+            "incCode": "US",
+            "shares": 47610653,
+            "sharesAsOf": "2026-11-09",
+            "float": 12834950,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [],
+            "canSellLine": "Not today. Nothing registered is effective or pending.",
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "Low",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "Low",
+              "historical": "Medium",
+              "cash": "Low"
+            },
+            "cashUsd": 10135000,
+            "netCashUsd": -88458000,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": null,
+            "splits": [
+              {
+                "ratio": 22,
+                "direction": "reverse",
+                "effective": "2022-02-04"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$34M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 12.83M + RelVol 541.3x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 12.83M + RelVol 541.3x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.363,
+          "open": 0.3815,
+          "gapPct": 5.1,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.9787,
+          "hodTimeExact": "12:48 PM ET",
+          "close": 0.7129,
+          "fade": 27,
+          "fadeExact": 27.16,
+          "vwap": 0.7195,
+          "vsVwap": "below",
+          "pmHigh": 0.428,
+          "volRaw": "129.0M",
+          "volDollar": 92840374,
+          "relVol": 541.3,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Snowboarder Magazine’s New Publisher Brings More Than 15 Years of Experience in Snowboard Media to the Iconic Brand"
+          ],
+          "newsItems": [
+            {
+              "title": "Snowboarder Magazine’s New Publisher Brings More Than 15 Years of Experience in Snowboard Media to the Iconic Brand",
+              "url": "https://www.stocktitan.net/news/PAAI/snowboarder-magazine-s-new-publisher-brings-more-than-15-years-of-cek60wozgte7.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-16T19:58:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [],
+          "themeStatus": "none",
+          "exchange": "XASE",
+          "tvSymbol": "AMEX:PAAI",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "CUE",
+          "hod": 146,
+          "hodExact": 146.75,
+          "news": [
+            "Cue Biopharma Reports Third Quarter 2026 Financial Results and Recent Business Highlights",
+            "Form 10-Q",
+            "Form 8-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "Cue Biopharma, Inc.",
+          "sector": "Healthcare",
+          "country": "US",
+          "floatM": 7.88,
+          "floatTier": "Low",
+          "floatSrc": "AE",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "United States",
+            "incCode": "US",
+            "shares": 8359523,
+            "sharesAsOf": "2026-11-13",
+            "float": 8017009,
+            "floatReliable": false,
+            "canSellNow": true,
+            "canSellHow": [
+              "atm",
+              "resale"
+            ],
+            "canSellLine": "Jefferies Open Market Sale Agreement (ATM) ($12.67M left) (sells under shelf 333-294366, not on top of it); Universal shelf S-3 (debt, common, preferred, warrants, units) ($300.00M left). Up to about $256.80M over the next 12 months (the ATM sells under shelf 333-294366, not on top).",
+            "otherDilution": "3.37M warrant shares can be exercised now (pre-funded)",
+            "pendingRegs": 0,
+            "dilutionRisk": "High",
+            "ratings": {
+              "offering": "High",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "Medium"
+            },
+            "cashUsd": 57939000,
+            "netCashUsd": 48026053,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": 8.6,
+            "splits": [
+              {
+                "ratio": 30,
+                "direction": "reverse",
+                "effective": "2026-04-24"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$48M",
+          "riskBadges": [
+            "Float 7.88M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 4.15,
+          "open": 4.395,
+          "gapPct": 5.9,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 10.24,
+          "hodTimeExact": "12:30 PM ET",
+          "close": 5.75,
+          "fade": 43,
+          "fadeExact": 43.85,
+          "vwap": 7.5572,
+          "vsVwap": "below",
+          "pmHigh": 4.66,
+          "volRaw": "9.8M",
+          "volDollar": 73979630,
+          "relVol": 8.4,
+          "avgVolM": 1.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Cue Biopharma Reports Third Quarter 2026 Financial Results and Recent Business Highlights",
+            "Form 10-Q",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Cue Biopharma Reports Third Quarter 2026 Financial Results and Recent Business Highlights",
+              "url": "https://www.stocktitan.net/news/CUE/cue-biopharma-reports-third-quarter-2026-financial-results-and-gz5ahihs4r6m.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-16T21:48:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1645460/000119312526463755/cue-20260930.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-16T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1645460/000119312526463741/cue-20261116.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-16T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Biotech-Clinical",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:CUE",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "BNAI",
+          "hod": 137,
+          "hodExact": 137.5,
+          "news": [
+            "Form 10-Q",
+            "Brand Engagement Network Reports Third Quarter 2026 Results",
+            "Form 8-K"
+          ],
+          "tag": "EARNINGS",
+          "name": "Brand Engagement Network Inc. Common Stock",
+          "sector": "Technology",
+          "country": "US",
+          "floatM": 6.37,
+          "floatTier": "Low",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "United States",
+            "incCode": "US",
+            "shares": 7505696,
+            "sharesAsOf": "2026-11-16",
+            "float": 6366609,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [],
+            "canSellLine": null,
+            "otherDilution": "A private placement needs no registration",
+            "pendingRegs": 0,
+            "dilutionRisk": "Medium",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "Low",
+              "historical": "High",
+              "cash": "High"
+            },
+            "cashUsd": 595891,
+            "netCashUsd": -2502739,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": -1,
+            "splits": [
+              {
+                "ratio": 10,
+                "direction": "reverse",
+                "effective": "2025-12-12"
+              }
+            ],
+            "deficiencyNotice": "2026-11-17",
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$55M",
+          "riskBadges": [
+            "Float 6.37M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 6.37M + RelVol 177.1x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 6.37M + RelVol 177.1x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 3.36,
+          "open": 3.44,
+          "gapPct": 2.38,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 7.98,
+          "hodTimeExact": "05:19 PM ET",
+          "close": 7.32,
+          "fade": 8,
+          "fadeExact": 8.27,
+          "vwap": 6.4523,
+          "vsVwap": "above",
+          "pmHigh": 3.69,
+          "volRaw": "51.5M",
+          "volDollar": 332331235,
+          "relVol": 177.1,
+          "avgVolM": 0.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Form 10-Q",
+            "Brand Engagement Network Reports Third Quarter 2026 Results",
+            "Form 8-K"
+          ],
+          "newsItems": [
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1838163/000149315226053627/form10-q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-23T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "after"
+            },
+            {
+              "title": "Brand Engagement Network Reports Third Quarter 2026 Results",
+              "url": "https://www.stocktitan.net/news/BNAI/brand-engagement-network-reports-third-quarter-2026-96pt4oyn8ids.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-23T11:35:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1838163/000149315226052679/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-17T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.6,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BNAI",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "SCAG",
+          "hod": 127,
+          "hodExact": 127.96,
+          "news": [],
+          "tag": "NO-NEWS",
+          "name": "Scage Future American Depositary Shares",
+          "sector": "Industrials",
+          "country": "CN",
+          "floatM": 27.14,
+          "floatTier": "Thick",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "China",
+            "hqCode": "CN",
+            "incCountry": "Cayman Islands",
+            "incCode": "KY",
+            "shares": 72609665,
+            "sharesAsOf": "2025-12-31",
+            "float": 27143483,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [
+              "resale"
+            ],
+            "canSellLine": "Not today. Nothing registered is effective or pending.",
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "Low",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "Low",
+              "historical": "Low",
+              "cash": "High"
+            },
+            "cashUsd": 609892,
+            "netCashUsd": -21265296,
+            "cashAsOf": "2025-12-31",
+            "runwayMonths": -8.9,
+            "splits": [],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$80M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.658,
+          "open": 0.6403,
+          "gapPct": -2.69,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 1.5,
+          "hodTimeExact": "02:19 PM ET",
+          "close": 1.1,
+          "fade": 26,
+          "fadeExact": 26.67,
+          "vwap": 1.1355,
+          "vsVwap": "below",
+          "pmHigh": 0.85,
+          "volRaw": "19.9M",
+          "volDollar": 22619294,
+          "relVol": 260.9,
+          "avgVolM": 0.1,
+          "ssr": true,
+          "reverseSplit": "15:1",
+          "newsHeadlines": [],
+          "newsItems": [],
+          "newsStatus": "none",
+          "themes": [
+            {
+              "theme": "China Rig",
+              "confidence": 0.85,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:SCAG",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "OTLY",
+          "hod": 113,
+          "hodExact": 113.41,
+          "news": [
+            "Oatly Board Recommends Shareholders Not Tender Their Shares or ADSs In Verlinvest’s Tender Offer",
+            "Oatly Confirms Commencement of Tender Offer by Verlinvest",
+            "Verlinvest to Facilitate China Resources’ Full Exit From Oatly",
+            "Verlinvest Announces Commencement of Technical Tender Offer to Facilitate Buyout of Joint Venture Partner's Interest in Oatly Group AB"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Oatly Group AB American Depositary Shares",
+          "sector": "Unknown",
+          "country": "SE",
+          "floatM": 366.49,
+          "floatTier": "Mega Thick",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "Sweden",
+            "hqCode": "SE",
+            "incCountry": "Sweden",
+            "incCode": "SE",
+            "shares": 638251521,
+            "sharesAsOf": "2026-06-30",
+            "float": 366487568,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [
+              "shelf"
+            ],
+            "canSellLine": "Not today. Nothing registered is effective or pending.",
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "Medium",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "High",
+              "historical": "Low",
+              "cash": "Medium"
+            },
+            "cashUsd": 23322000,
+            "netCashUsd": null,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": 16.5,
+            "splits": [],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$9.3B",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 6.935,
+          "open": 6.87,
+          "gapPct": -0.94,
+          "time": "regular session",
+          "session": "after-hours",
+          "high": 14.8,
+          "hodTimeExact": "05:02 PM ET",
+          "close": 14.5,
+          "fade": 2,
+          "fadeExact": 2.03,
+          "vwap": 12.6677,
+          "vsVwap": "above",
+          "pmHigh": 6.97,
+          "volRaw": "12.6M",
+          "volDollar": 160183890,
+          "relVol": 71.4,
+          "avgVolM": 0.2,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "Oatly Board Recommends Shareholders Not Tender Their Shares or ADSs In Verlinvest’s Tender Offer",
+            "Oatly Confirms Commencement of Tender Offer by Verlinvest",
+            "Verlinvest to Facilitate China Resources’ Full Exit From Oatly",
+            "Verlinvest Announces Commencement of Technical Tender Offer to Facilitate Buyout of Joint Venture Partner's Interest in Oatly Group AB"
+          ],
+          "newsItems": [
+            {
+              "title": "Oatly Board Recommends Shareholders Not Tender Their Shares or ADSs In Verlinvest’s Tender Offer",
+              "url": "https://www.stocktitan.net/news/OTLY/oatly-board-recommends-shareholders-not-tender-their-shares-or-ad-ss-9pi5fmohjkkl.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-23T11:10:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Oatly Confirms Commencement of Tender Offer by Verlinvest",
+              "url": "https://www.stocktitan.net/news/OTLY/oatly-confirms-commencement-of-tender-offer-by-2euj9ecyq49f.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-20T21:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Verlinvest to Facilitate China Resources’ Full Exit From Oatly",
+              "url": "https://www.stocktitan.net/news/OTLY/verlinvest-to-facilitate-china-resources-full-exit-from-si2padup49m6.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-20T21:30:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Verlinvest Announces Commencement of Technical Tender Offer to Facilitate Buyout of Joint Venture Partner's Interest in Oatly Group AB",
+              "url": "https://www.stocktitan.net/news/OTLY/verlinvest-announces-commencement-of-technical-tender-offer-to-ps7vll8b96jv.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-20T21:06:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Consumer Brand",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:OTLY",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "DCGO",
+          "hod": 81,
+          "hodExact": 81.71,
+          "news": [
+            "DocGo Signs Definitive Agreement to Sell Cardiac RMS Implantable Cardiac Device Monitoring Business to Medical Monitoring Corp"
+          ],
+          "tag": "ACQUISITION",
+          "name": "DocGo Inc. Common Stock",
+          "sector": "Industrials",
+          "country": "US",
+          "floatM": 96.49,
+          "floatTier": "Mega Thick",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "United States",
+            "incCode": "US",
+            "shares": 98992347,
+            "sharesAsOf": "2026-11-05",
+            "float": 96492049,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [],
+            "canSellLine": "Not today. Nothing registered is effective or pending.",
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "Low",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "Low",
+              "historical": "Low",
+              "cash": "Medium"
+            },
+            "cashUsd": 45875510,
+            "netCashUsd": 17731561,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": 21.8,
+            "splits": [],
+            "deficiencyNotice": "2026-01-30",
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$29M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No direct catalyst — sector/sympathy driven"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No direct catalyst — sector/sympathy driven"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.175,
+          "open": 0.2011,
+          "gapPct": 14.91,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.318,
+          "hodTimeExact": "02:15 PM ET",
+          "close": 0.2898,
+          "fade": 8,
+          "fadeExact": 8.87,
+          "vwap": 0.258,
+          "vsVwap": "above",
+          "pmHigh": 0.2645,
+          "volRaw": "90.9M",
+          "volDollar": 23462729,
+          "relVol": 104.5,
+          "avgVolM": 0.9,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "DocGo Signs Definitive Agreement to Sell Cardiac RMS Implantable Cardiac Device Monitoring Business to Medical Monitoring Corp"
+          ],
+          "newsItems": [
+            {
+              "title": "DocGo Signs Definitive Agreement to Sell Cardiac RMS Implantable Cardiac Device Monitoring Business to Medical Monitoring Corp",
+              "url": "https://www.stocktitan.net/news/DCGO/doc-go-signs-definitive-agreement-to-sell-cardiac-rms-implantable-lux4acur52hn.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-23T12:35:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Medical Device",
+              "confidence": 0.95,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:DCGO",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "GMEX",
+          "hod": 76,
+          "hodExact": 76.3,
+          "news": [
+            "GMEX Robotics Officially Launches 247meta.ai, Sets Next Focus on Financial AI Agents",
+            "GMEX Robotics Corporation Announces Share Consolidation",
+            "Form 6-K"
+          ],
+          "tag": "OFFERING",
+          "name": "GMEX ROBOTICS CORPORATION Class A Ordinary Shares",
+          "sector": "Technology",
+          "country": "AU",
+          "floatM": 1.58,
+          "floatTier": "Micro",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "Australia",
+            "hqCode": "AU",
+            "incCountry": "Cayman Islands",
+            "incCode": "KY",
+            "shares": 12541812,
+            "sharesAsOf": "2026-11-02",
+            "float": 1580132,
+            "floatReliable": true,
+            "canSellNow": true,
+            "canSellHow": [
+              "shelf"
+            ],
+            "canSellLine": null,
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "High",
+            "ratings": {
+              "offering": "Medium",
+              "overhead": "High",
+              "historical": "High",
+              "cash": "Medium"
+            },
+            "cashUsd": 14919028,
+            "netCashUsd": -50790045,
+            "cashAsOf": "2026-06-30",
+            "runwayMonths": 15.6,
+            "splits": [
+              {
+                "ratio": 9,
+                "direction": "reverse",
+                "effective": "2026-09-28"
+              },
+              {
+                "ratio": 9,
+                "direction": "reverse",
+                "effective": "2026-07-02"
+              },
+              {
+                "ratio": 7,
+                "direction": "reverse",
+                "effective": "2026-05-01"
+              },
+              {
+                "ratio": 8,
+                "direction": "reverse",
+                "effective": "2026-01-08"
+              },
+              {
+                "ratio": 16,
+                "direction": "reverse",
+                "effective": "2025-09-23"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$3M",
+          "riskBadges": [
+            "Float 1.58M"
+          ],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "No filings or news catalyst — social-driven",
+                "Float 1.58M + RelVol 53.7x"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "No filings or news catalyst — social-driven",
+            "Float 1.58M + RelVol 53.7x"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.192,
+          "open": 0.2775,
+          "gapPct": 44.53,
+          "time": "premarket",
+          "session": "premarket",
+          "high": 0.3385,
+          "hodTimeExact": "08:50 AM ET",
+          "close": 0.2131,
+          "fade": 37,
+          "fadeExact": 37.05,
+          "vwap": 0.3355,
+          "vsVwap": "below",
+          "pmHigh": 0.59,
+          "volRaw": "176.9M",
+          "volDollar": 59336729,
+          "relVol": 53.7,
+          "avgVolM": 3.3,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "GMEX Robotics Officially Launches 247meta.ai, Sets Next Focus on Financial AI Agents",
+            "GMEX Robotics Corporation Announces Share Consolidation",
+            "Form 6-K"
+          ],
+          "newsItems": [
+            {
+              "title": "GMEX Robotics Officially Launches 247meta.ai, Sets Next Focus on Financial AI Agents",
+              "url": "https://www.stocktitan.net/news/GMEX/gmex-robotics-officially-launches-247meta-ai-sets-next-focus-on-bojr66utr7u4.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-24T13:30:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "GMEX Robotics Corporation Announces Share Consolidation",
+              "url": "https://www.stocktitan.net/news/GMEX/gmex-robotics-corporation-announces-share-o3aixpzr22zg.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-23T21:45:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1928581/000149315226053789/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-23T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Robotics",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:GMEX",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "BRAI",
+          "hod": 71,
+          "hodExact": 71.62,
+          "news": [
+            "BRAIIN, A GLOBAL APPLIED AI PLATFORM COMPANY, FURNISHES FY2026 PRO FORMA COMBINED FINANCIAL INFORMATION",
+            "Form 6-K",
+            "BRAIIN ANNOUNCES ~US$40 MILLION ACQUISITION INITIATIVE TO ENTER US$11 BILLION INDIAN DRONE MARKET",
+            "BRAIIN, A GLOBAL APPLIED AI PLATFORM COMPANY, REPORTS FY2026 ANNUAL RESULTS"
+          ],
+          "tag": "ACQUISITION",
+          "name": "Braiin Limited Common Stock",
+          "sector": "Technology",
+          "country": "AU",
+          "floatM": 53.33,
+          "floatTier": "Mega Thick",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "Australia",
+            "hqCode": "AU",
+            "incCountry": "Australia",
+            "incCode": "AU",
+            "shares": 206088228,
+            "sharesAsOf": "2026-06-30",
+            "float": 53332136,
+            "floatReliable": true,
+            "canSellNow": false,
+            "canSellHow": [],
+            "canSellLine": null,
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "Low",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "Low",
+              "historical": "Low",
+              "cash": "Medium"
+            },
+            "cashUsd": 5667180,
+            "netCashUsd": 3425008,
+            "cashAsOf": "2026-06-30",
+            "runwayMonths": 9.8,
+            "splits": [
+              {
+                "ratio": 0.333333,
+                "direction": "forward",
+                "effective": "2026-04-29"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$381M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 1.48,
+          "open": 1.775,
+          "gapPct": 19.93,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 2.54,
+          "hodTimeExact": "03:20 PM ET",
+          "close": 1.85,
+          "fade": 27,
+          "fadeExact": 27.17,
+          "vwap": 2.1342,
+          "vsVwap": "below",
+          "pmHigh": 1.84,
+          "volRaw": "16.1M",
+          "volDollar": 34370730,
+          "relVol": 2.2,
+          "avgVolM": 7.3,
+          "ssr": false,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "BRAIIN, A GLOBAL APPLIED AI PLATFORM COMPANY, FURNISHES FY2026 PRO FORMA COMBINED FINANCIAL INFORMATION",
+            "Form 6-K",
+            "BRAIIN ANNOUNCES ~US$40 MILLION ACQUISITION INITIATIVE TO ENTER US$11 BILLION INDIAN DRONE MARKET",
+            "BRAIIN, A GLOBAL APPLIED AI PLATFORM COMPANY, REPORTS FY2026 ANNUAL RESULTS"
+          ],
+          "newsItems": [
+            {
+              "title": "BRAIIN, A GLOBAL APPLIED AI PLATFORM COMPANY, FURNISHES FY2026 PRO FORMA COMBINED FINANCIAL INFORMATION",
+              "url": "https://www.stocktitan.net/news/BRAI/braiin-a-global-applied-ai-platform-company-furnishes-fy2026-pro-ebryn3bkntad.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-24T14:00:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 6-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2076975/000149315226053799/form6-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-23T21:00:00Z",
+              "source_type": "SEC",
+              "form": "6-K",
+              "rel": "after"
+            },
+            {
+              "title": "BRAIIN ANNOUNCES ~US$40 MILLION ACQUISITION INITIATIVE TO ENTER US$11 BILLION INDIAN DRONE MARKET",
+              "url": "https://www.stocktitan.net/news/BRAI/braiin-announces-us-40-million-acquisition-initiative-to-enter-us-11-co7df96k806l.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-23T12:45:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "BRAIIN, A GLOBAL APPLIED AI PLATFORM COMPANY, REPORTS FY2026 ANNUAL RESULTS",
+              "url": "https://www.stocktitan.net/news/BRAI/braiin-a-global-applied-ai-platform-company-reports-fy2026-annual-dgar793r3rul.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-16T12:45:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Drone/UAV",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:BRAI",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        },
+        {
+          "sym": "FFR",
+          "hod": 71,
+          "hodExact": 71.15,
+          "news": [
+            "FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S.",
+            "Form 8-K",
+            "FF EAI Robotics Ecosystem Inc. (\"FFR\") Becomes Approved Robotics Supplier to Top-Tier U.S. Public School Districts, Forms Strategic Partnerships with School Districts, and Fulfills Their Robot Orders",
+            "FF EAI Robotics Ecosystem (FFR) Appoints Carolyn Kissane as Independent Director, Joining Jason E. Dodier and other Board Members to Bring Critical Expertise to Advance Physical AI Education, Industry Partnerships and Scalable Commercialization",
+            "Proxy",
+            "Form 10-Q"
+          ],
+          "tag": "CONTRACT",
+          "name": "FF EAI Robotics Ecosystem Inc. Common Stock",
+          "sector": "Financial Services",
+          "country": "US",
+          "floatM": 14.32,
+          "floatTier": "Mid",
+          "floatSrc": "FP",
+          "fp": {
+            "hqCountry": "United States",
+            "hqCode": "US",
+            "incCountry": "United States",
+            "incCode": "US",
+            "shares": 27674296,
+            "sharesAsOf": "2026-11-16",
+            "float": 14315559,
+            "floatReliable": true,
+            "canSellNow": true,
+            "canSellHow": [
+              "resale"
+            ],
+            "canSellLine": "Up to about $60.00M over the next 12 months.",
+            "otherDilution": null,
+            "pendingRegs": 0,
+            "dilutionRisk": "Medium",
+            "ratings": {
+              "offering": "Low",
+              "overhead": "Medium",
+              "historical": "High",
+              "cash": "High"
+            },
+            "cashUsd": 3202672,
+            "netCashUsd": 1208411,
+            "cashAsOf": "2026-09-30",
+            "runwayMonths": 1.1,
+            "splits": [
+              {
+                "ratio": 50,
+                "direction": "reverse",
+                "effective": "2024-11-05"
+              },
+              {
+                "ratio": 10,
+                "direction": "reverse",
+                "effective": "2022-11-23"
+              },
+              {
+                "ratio": 25,
+                "direction": "reverse",
+                "effective": "2020-05-26"
+              }
+            ],
+            "deficiencyNotice": null,
+            "page": null,
+            "built": "2026-11-23 23:19 ET"
+          },
+          "marketCap": "$14M",
+          "riskBadges": [],
+          "sections": [
+            {
+              "title": "Why it ran",
+              "emoji": null,
+              "bullets": [
+                "Material news catalyst from credible publisher",
+                "Clean capital structure — no active ATM/shelf/ITM warrants"
+              ],
+              "prose": null
+            }
+          ],
+          "reasons": [
+            "Material news catalyst from credible publisher",
+            "Clean capital structure — no active ATM/shelf/ITM warrants"
+          ],
+          "insights": [],
+          "jmtNotes": [],
+          "tldr": [],
+          "prevClose": 0.357,
+          "open": 0.44,
+          "gapPct": 23.25,
+          "time": "regular session",
+          "session": "afternoon",
+          "high": 0.611,
+          "hodTimeExact": "12:17 PM ET",
+          "close": 0.5202,
+          "fade": 14,
+          "fadeExact": 14.86,
+          "vwap": 0.5752,
+          "vsVwap": "below",
+          "pmHigh": 0.43,
+          "volRaw": "34.0M",
+          "volDollar": 19574638,
+          "relVol": 154.0,
+          "avgVolM": 0.2,
+          "ssr": true,
+          "reverseSplit": null,
+          "newsHeadlines": [
+            "FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S.",
+            "Form 8-K",
+            "FF EAI Robotics Ecosystem Inc. (\"FFR\") Becomes Approved Robotics Supplier to Top-Tier U.S. Public School Districts, Forms Strategic Partnerships with School Districts, and Fulfills Their Robot Orders",
+            "FF EAI Robotics Ecosystem (FFR) Appoints Carolyn Kissane as Independent Director, Joining Jason E. Dodier and other Board Members to Bring Critical Expertise to Advance Physical AI Education, Industry Partnerships and Scalable Commercialization",
+            "Proxy",
+            "Form 10-Q"
+          ],
+          "newsItems": [
+            {
+              "title": "FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S.",
+              "url": "https://www.stocktitan.net/news/FFR/ff-eai-robotics-ecosystem-ffr-announces-k-12-robotics-education-uof6h863x2et.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-24T07:57:00Z",
+              "source_type": "PR",
+              "rel": "after"
+            },
+            {
+              "title": "Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226053754/form8-k.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-23T21:00:00Z",
+              "source_type": "SEC",
+              "form": "8-K",
+              "rel": "after"
+            },
+            {
+              "title": "FF EAI Robotics Ecosystem Inc. (\"FFR\") Becomes Approved Robotics Supplier to Top-Tier U.S. Public School Districts, Forms Strategic Partnerships with School Districts, and Fulfills Their Robot Orders",
+              "url": "https://www.stocktitan.net/news/FFR/ff-eai-robotics-ecosystem-inc-ffr-becomes-approved-robotics-supplier-xgkvfk71t80m.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-23T00:36:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "FF EAI Robotics Ecosystem (FFR) Appoints Carolyn Kissane as Independent Director, Joining Jason E. Dodier and other Board Members to Bring Critical Expertise to Advance Physical AI Education, Industry Partnerships and Scalable Commercialization",
+              "url": "https://www.stocktitan.net/news/FFR/ff-eai-robotics-ecosystem-ffr-appoints-carolyn-kissane-as-wty7p20oxy4a.html",
+              "publisher": "StockTitan",
+              "published_utc": "2026-11-20T02:59:00Z",
+              "source_type": "PR",
+              "rel": "before"
+            },
+            {
+              "title": "Proxy",
+              "url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226052378/formdef14a.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-16T21:00:00Z",
+              "source_type": "SEC",
+              "form": "DEF 14A",
+              "rel": "before"
+            },
+            {
+              "title": "Form 10-Q",
+              "url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226052088/form10-q.htm",
+              "publisher": "SEC EDGAR",
+              "published_utc": "2026-11-16T21:00:00Z",
+              "source_type": "SEC",
+              "form": "10-Q",
+              "rel": "before"
+            }
+          ],
+          "newsStatus": "ok",
+          "themes": [
+            {
+              "theme": "Robotics",
+              "confidence": 0.95,
+              "uncertain": false
+            },
+            {
+              "theme": "AI",
+              "confidence": 0.75,
+              "uncertain": false
+            },
+            {
+              "theme": "Education",
+              "confidence": 0.7,
+              "uncertain": false
+            }
+          ],
+          "themeStatus": "ok",
+          "exchange": "XNAS",
+          "tvSymbol": "NASDAQ:FFR",
+          "newsSummary": null,
+          "bullFactors": [],
+          "bearFactors": [],
+          "setupGrade": null
+        }
+      ],
+      "hod": 390,
+      "fade": 22,
+      "hodTime": "premarket",
+      "theme": "Active Tape",
+      "note": "WETO led +390.03% (30% fade). 4/10 held <20% fade. news: WETO — \"Form 6-K\".",
+      "aiSummary": null
+    },
     {
       "date": "2026-11-20",
       "runners": [

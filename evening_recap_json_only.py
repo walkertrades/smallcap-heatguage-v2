@@ -40,6 +40,14 @@ import news_sources
 # rather than a second one — it already has the news, sector, country and float
 # in context, so a separate call would double cost for no extra signal.
 import themes as themes_mod
+# FirstPrint (through Claude Code) is the first source for float and country
+# and supplies the per-runner dilution facts. Optional: if the module or the
+# claude command is missing the run falls back to AskEdgar for every name.
+try:
+    import firstprint_lookup
+except Exception as _fp_exc:                                # noqa: BLE001
+    firstprint_lookup = None
+    print(f"  (firstprint_lookup not loaded: {_fp_exc})")
 # Polygon MIC code -> TradingView EXCHANGE:SYMBOL, needed before chart-img can
 # address a ticker at all. Costs no extra API calls: fetch_ticker_details()
 # already returns primary_exchange.
@@ -129,6 +137,14 @@ NON_RUNNER_TYPES = {"ETF", "ETN", "ETV", "ETS", "FUND"}
 _skipped_instruments = []      # (ticker, type, name) — reported in the run summary
 
 TOP_N            = 10
+# --no-firstprint forces the old AskEdgar-only path for a run.
+USE_FIRSTPRINT   = "--no-firstprint" not in sys.argv
+# FirstPrint is a picture of the company TODAY. Using it for an old date would
+# put today's float and filings on a past session, so older dates keep AskEdgar.
+FIRSTPRINT_MAX_AGE_DAYS = 5
+# The once-per-day Haiku paragraph (aiSummary). Nothing reads it since the
+# overview moved to the AI trend card, so it is off. Flip to True to bring it back.
+DAILY_SUMMARY    = False
 # Set to True (or pass --no-charts) to skip auto chart capture for a run —
 # useful when re-running a date purely to fix data.
 SKIP_CHARTS      = "--no-charts" in sys.argv
@@ -1175,6 +1191,160 @@ def extract_key_sections(report_text):
 # Main pull
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Share structure: FirstPrint first, AskEdgar as the fallback
+# ---------------------------------------------------------------------------
+
+def _empty_ae_bundle():
+    return {"dilution_rating": [], "dilution_data": [], "registrations": [],
+            "offerings": [], "float_out": [], "research": [], "news": [],
+            "_float_source": "none"}
+
+
+def _firstprint_usable(date_str):
+    """FirstPrint only for a session within the last few days (see FIRSTPRINT_MAX_AGE_DAYS)."""
+    if not (USE_FIRSTPRINT and firstprint_lookup):
+        return False
+    try:
+        age = (date.today() - date.fromisoformat(date_str)).days
+    except ValueError:
+        return False
+    return 0 <= age <= FIRSTPRINT_MAX_AGE_DAYS
+
+
+# Broad sector from a SIC code. FirstPrint has no sector and Polygon only has
+# the raw SIC description ("BIOLOGICAL PRODUCTS, (NO DIAGNOSTIC SUBSTANCES)"),
+# which would splinter every sector grouping on the dashboard. First match wins.
+_SIC_SECTORS = [
+    (2833, 2836, "Healthcare"), (3841, 3851, "Healthcare"), (5122, 5122, "Healthcare"),
+    (5912, 5912, "Healthcare"), (8000, 8099, "Healthcare"), (8731, 8734, "Healthcare"),
+    (1311, 1389, "Energy"), (2900, 2999, "Energy"),
+    (3570, 3579, "Technology"), (3600, 3699, "Technology"), (3800, 3839, "Technology"),
+    (3860, 3873, "Technology"), (7370, 7379, "Technology"),
+    (3711, 3716, "Consumer Cyclical"), (3751, 3751, "Consumer Cyclical"),
+    (2700, 2799, "Communication Services"), (4800, 4899, "Communication Services"),
+    (7800, 7999, "Communication Services"),
+    (4900, 4999, "Utilities"),
+    (6500, 6599, "Real Estate"), (6798, 6798, "Real Estate"),
+    (6000, 6799, "Financial Services"),
+    (100, 999, "Consumer Defensive"), (2000, 2199, "Consumer Defensive"),
+    (2844, 2844, "Consumer Defensive"), (5400, 5499, "Consumer Defensive"),
+    (8200, 8299, "Consumer Defensive"),
+    (2200, 2399, "Consumer Cyclical"), (2500, 2599, "Consumer Cyclical"),
+    (3900, 3999, "Consumer Cyclical"), (5200, 5999, "Consumer Cyclical"),
+    (7000, 7299, "Consumer Cyclical"),
+    (1000, 1499, "Basic Materials"), (2400, 2499, "Basic Materials"),
+    (2600, 2699, "Basic Materials"), (2800, 2899, "Basic Materials"),
+    (3000, 3399, "Basic Materials"),
+    (1500, 1799, "Industrials"), (3400, 3799, "Industrials"), (4000, 4799, "Industrials"),
+    (5000, 5199, "Industrials"), (7300, 7699, "Industrials"), (8700, 8799, "Industrials"),
+]
+
+
+def sector_from_sic(sic_code):
+    try:
+        code = int(str(sic_code).strip())
+    except (TypeError, ValueError):
+        return None
+    for lo, hi, name in _SIC_SECTORS:
+        if lo <= code <= hi:
+            return name
+    return None
+
+
+def _known_sectors():
+    """{ticker: sector} from data2.json, newest day first. A name that has run
+    before keeps the sector it already has, so its history stays in one group."""
+    out = {}
+    try:
+        with open(os.path.join(OUTPUT_DIR, "data2.json"), "r", encoding="utf-8") as fh:
+            entries = json.load(fh).get("entries") or []
+    except Exception:                                       # noqa: BLE001
+        return out
+    for e in sorted(entries, key=lambda x: x.get("date") or "", reverse=True):
+        for r in e.get("runners") or []:
+            sec, sym = r.get("sector"), r.get("sym")
+            # Only AskEdgar-sourced rows: Polygon rows carry the raw SIC text.
+            if sym and sec and sym not in out and r.get("floatSrc") in ("AE", "FP") \
+                    and sec != "Unknown" and sec != sec.upper():
+                out[sym] = sec
+    return out
+
+
+def _apply_askedgar(m):
+    """The old per-ticker AskEdgar path. Fills only what FirstPrint did not."""
+    print(f"      {m['ticker']}: AskEdgar lookup (fallback)...")
+    ae = fetch_ae_bundle(m["ticker"], debug=DEBUG_MODE)
+    m["ae"] = ae
+    row = ae["float_out"][0] if ae["float_out"] else {}
+    if row.get("float") and m.get("float_src") != "FP":
+        m["float"] = round(row["float"]/1e6, 2)
+        m["float_src"] = "AE"
+    if row.get("country") and not m.get("_country_fp"):
+        m["country"] = row["country"].upper()
+    if row.get("sector") or row.get("industry"):
+        m["sector"] = row.get("sector") or row.get("industry")
+        m["_sector_set"] = True
+    if row.get("market_cap_final") and not m.get("_mc_fp"):
+        m["marketCap"] = row["market_cap_final"]
+    m["insider_pct"] = row.get("insider_percent")
+    m["institutions_pct"] = row.get("institutions_percent")
+
+
+def apply_share_structure(top, date_str):
+    """Float, country, sector and market cap for the final runner list.
+
+    FirstPrint (one Claude Code call for all of them) supplies float, the
+    headquarters country, the share count and the dilution facts stored as
+    runner["fp"]. AskEdgar is called only for a name FirstPrint could not give
+    a float or a country for, or for every name when FirstPrint is off, failed,
+    or the date is too old for a today-snapshot to be honest.
+    """
+    if not top:
+        return
+    profiles, problem = {}, None
+    if _firstprint_usable(date_str):
+        print(f"  FirstPrint lookup for {len(top)} runners "
+              f"(one Claude Code call, can take a few minutes)...")
+        profiles, problem = firstprint_lookup.lookup([m["ticker"] for m in top])
+        print(f"    FirstPrint returned {len(profiles)}/{len(top)} profiles"
+              + (f"  ({problem})" if problem else ""))
+    elif USE_FIRSTPRINT and firstprint_lookup:
+        print(f"  FirstPrint skipped: {date_str} is more than {FIRSTPRINT_MAX_AGE_DAYS} "
+              f"days back, and FirstPrint only knows today. Using AskEdgar.")
+    else:
+        print("  FirstPrint off for this run. Using AskEdgar.")
+
+    known = _known_sectors()
+    fp_names, ae_names = [], []
+    for m in top:
+        fp = profiles.get(m["ticker"].upper())
+        if fp:
+            m["fp"] = fp
+            # An unreliable float is kept in the fp block but not used for the tier.
+            if fp.get("float") and fp.get("floatReliable") is not False:
+                m["float"] = round(fp["float"]/1e6, 2)
+                m["float_src"] = "FP"
+            if fp.get("hqCode"):
+                m["country"] = fp["hqCode"]
+                m["_country_fp"] = True
+            if fp.get("shares") and m.get("close"):
+                m["marketCap"] = round(fp["shares"] * m["close"])
+                m["_mc_fp"] = True
+        if m.get("float_src") != "FP" or not m.get("_country_fp"):
+            _apply_askedgar(m)
+            ae_names.append(m["ticker"])
+        else:
+            fp_names.append(m["ticker"])
+        if not m.get("_sector_set"):
+            m["sector"] = (known.get(m["ticker"]) or sector_from_sic(m.get("_sic_code"))
+                           or m.get("sector") or "Unknown")
+    print(f"    share structure: FirstPrint {len(fp_names)}"
+          + (f" ({', '.join(fp_names)})" if fp_names else "")
+          + f" | AskEdgar {len(ae_names)}"
+          + (f" ({', '.join(ae_names)})" if ae_names else ""))
+
+
 def get_day_movers(target_date):
     prev_date = get_prev_trading_date(target_date)
     date_str  = str(target_date)
@@ -1299,30 +1469,10 @@ def get_day_movers(target_date):
             news_items, news_status = [], "error"
         headlines = [{"title": i["title"], "publisher": i["publisher"]} for i in news_items]
 
-        print(f"      → AskEdgar lookup...")
-        # Debug only the first ticker so we don't spam the terminal
-        ae = fetch_ae_bundle(ticker, debug=(DEBUG_MODE and len(top) == 0))
-
-        # Reset per-ticker AE fields — prevents bleedover when AE is blocked
-        audited_float_m = None
-        audited_country = (details.get("locale") or "us").upper()
-        audited_sector  = details.get("sic_description", "Unknown")
-        audited_mc      = details.get("market_cap") or 0
-
-        # Prefer AskEdgar's audited share structure data when available
-        ae_float_out = ae["float_out"][0] if ae["float_out"] else {}
-        if ae_float_out.get("float"):
-            audited_float_m = round(ae_float_out["float"]/1e6, 2)
-        if ae_float_out.get("country"):
-            audited_country = ae_float_out["country"].upper()
-        if ae_float_out.get("sector") or ae_float_out.get("industry"):
-            audited_sector = ae_float_out.get("sector") or ae_float_out.get("industry")
-        if ae_float_out.get("market_cap_final"):
-            audited_mc = ae_float_out["market_cap_final"]
-
-        # Pre-extract Grok insights so classify_runner can use them for tagging
-        pre_insights = extract_insights(ae.get("news", []), target_date_str=date_str)
-
+        # Share structure (float / country / sector / market cap), the
+        # classification and the Claude pass all happen AFTER the loop, once the
+        # top list is final: FirstPrint is asked for every runner in one call.
+        # Until then the runner carries Polygon's values.
         # v2 Polygon-derived flags: SSR status + reverse-split badge (30-day lookback)
         ssr_active = fetch_ssr(ticker, date_str)
         time.sleep(0.03)
@@ -1332,11 +1482,11 @@ def get_day_movers(target_date):
         enriched = {
             **c,
             "name":      details.get("name", ticker),
-            "sector":    audited_sector,
-            "country":   audited_country.upper(),
-            "float":     audited_float_m if audited_float_m is not None else (round(float_m, 1) if float_m else None),
-            "float_src": "AE" if audited_float_m is not None else "Polygon",
-            "marketCap": audited_mc,
+            "sector":    details.get("sic_description", "Unknown"),
+            "country":   (details.get("locale") or "us").upper(),
+            "float":     round(float_m, 1) if float_m else None,
+            "float_src": "Polygon",
+            "marketCap": details.get("market_cap") or 0,
             "hodTime":   hod_time,
             "session":   session,
             "pmHigh":    round(pm_high, 4) if pm_high else None,
@@ -1347,19 +1497,23 @@ def get_day_movers(target_date):
             "news_status": news_status,    # ok | none | error | outrange
             "exchange":    details.get("primary_exchange"),
             "tv_symbol":   symbols_mod.tv_symbol(ticker, details.get("primary_exchange"))[0],
-            "ae":        ae,
-            "insights":  pre_insights,
-            "insider_pct":       ae_float_out.get("insider_percent"),
-            "institutions_pct":  ae_float_out.get("institutions_percent"),
+            "ae":        _empty_ae_bundle(),
+            "insights":  [],
+            "insider_pct":       None,
+            "institutions_pct":  None,
             "ssr":               ssr_active,
             "reverse_split":     rs_ratio,
+            "_sic_code":         details.get("sic_code"),
         }
-        enriched["classification"] = classify_runner(enriched, ae, date_str)
-
-        # v2 Claude pass — catalyst tag + news summary + bull/bear factors.
-        print(f"      → Claude (Haiku 4.5) analysis...")
-        enriched["claude"] = call_claude_runner(enriched, date_str)
         top.append(enriched)
+
+    apply_share_structure(top, date_str)
+
+    for i, enriched in enumerate(top):
+        print(f"    [{i+1}/{len(top)}] {enriched['ticker']} classification + Claude (Haiku 4.5) tag/themes...")
+        enriched["insights"] = extract_insights(enriched["ae"].get("news", []), target_date_str=date_str)
+        enriched["classification"] = classify_runner(enriched, enriched["ae"], date_str)
+        enriched["claude"] = call_claude_runner(enriched, date_str)
 
     return top, near_miss
 
@@ -1831,17 +1985,17 @@ def call_claude_runner(m, date_str):
         "    action instead and do not claim there was no news.\n"
         "  · Do not restate the same story more than once.\n\n"
         + themes_mod.PROMPT_RULES + "\n"
+        # Trimmed 2026-11-24: the summary, bull/bear factors and AI grade were
+        # dropped from the day tile (FirstPrint facts replaced them), so the
+        # model is no longer asked for them. Tag and themes are still used
+        # across the dashboard and by the review system.
         "Return ONLY a JSON object with these exact keys:\n"
         '  "tag": one of ' + json.dumps(CATALYST_TAGS) + " — pick the single best catalyst,\n"
-        '  "newsSummary": 2-3 sentences on why it moved and whether the catalyst has real merit or is fluff,\n'
-        '  "bullFactors": array of 2-4 bullish points specific to this trader\'s criteria,\n'
-        '  "bearFactors": array of 2-4 bearish/risk points (dilution, fade, premarket spike, overhead supply),\n'
-        '  "setupGrade": one of ["A++", "A", "B+", "B", "C+", "C", "F"] based on the grading scale above,\n'
         '  "themes": array of AT MOST 3 objects [{"theme": <from theme_vocabulary>, "confidence": 0.0-1.0}],\n'
         "            ordered by confidence, or [] if no theme is clearly present.\n"
         "No prose outside the JSON."
     )
-    text = call_claude(prompt, max_tokens=700)
+    text = call_claude(prompt, max_tokens=300)
     data = _extract_json(text)
     if not data:
         return fallback
@@ -1955,7 +2109,14 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
             "country":      m.get("country", "US"),
             "floatM":       m.get("float"),
             "floatTier":    float_tier(m.get("float")),
+            # AE (AskEdgar) | FP (FirstPrint) | Polygon
             "floatSrc":     m.get("float_src", "Polygon"),
+            # FirstPrint's own facts for this company as of the run: can it sell
+            # stock today and how, dilution risk, cash, splits, deficiency notice.
+            # Stored as returned, no AI rewriting. null when FirstPrint was not
+            # used for this runner. `country` above is the HEADQUARTERS country
+            # when this is present; fp.incCode is where it is incorporated.
+            "fp":           m.get("fp"),
             "marketCap":    fmt_mc(m.get("marketCap", 0)),
             "riskBadges":   c.get("risk_badges", []),
             "sections":     sections,
@@ -2043,7 +2204,7 @@ def build_heat_gauge_entry(target_date, movers, near_miss):
 
     # v2: once-per-day Claude trend summary across all runners. Lives on the entry
     # (not top-level) so merge.py carries it into data2.json intact.
-    ai_summary = call_claude_daily(movers, date_str)
+    ai_summary = call_claude_daily(movers, date_str) if DAILY_SUMMARY else None
 
     return {
         "date":    date_str,

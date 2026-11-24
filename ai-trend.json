@@ -1,0 +1,16 @@
+{
+ "v": 1,
+ "note": "Supply / Watch lines for the AI trend card, keyed by date. Written by ai_trend_step.py from FirstPrint. Never edit by hand.",
+ "days": {
+  "2026-11-20": {
+   "supply": "NXAT cannot sell today: shelf room is about $47K for 12 months and the ATM is blocked under $2, with about 1 month of cash. MSS has no effective or pending registration; 58.3K convertible shares can convert now.",
+   "watch": "NXAT has a Nasdaq delisting determination, still trading with a hearing pending, after a 1-for-30 reverse split Aug 3. MSS has a deficiency notice from May 11, two reverse splits in 2026, and less overhead supply.",
+   "tickers": [
+    "NXAT",
+    "MSS"
+   ],
+   "source": "FirstPrint",
+   "asOf": "2026-11-23"
+  }
+ }
+}

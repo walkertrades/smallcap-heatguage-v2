@@ -290,13 +290,10 @@ function Placeholder({ title }) {
 function GaugePage({ entries, selectedDate, onSelectDate }) {
   const s = window.buildDailySeries(entries);
   const today = selectedDate ? s.find((d) => d.date === selectedDate) : (s.length ? s[s.length - 1] : null);
-  const state = today ? today.state : "EMPTY";
-  const rules = window.RULES[state] || window.RULES.NEUTRAL;
   return (
     <div className="gauge-page">
-      <section className="hero-grid hero-grid-2">
-        <window.HeatScoreCard today={today} />
-        <window.MarketStateCard state={state} rules={rules} />
+      <section className="hero-grid hero-grid-1">
+        <window.HeatDirectionCard today={today} />
       </section>
       <window.RollingStrip series={s} activeDate={today ? today.date : null} onSelectDay={onSelectDate} />
     </div>
@@ -309,6 +306,17 @@ function App({ tweaks, user, profile }) {
   const [status, setStatus] = useState_App("loading");
   const [errorMsg, setErrorMsg] = useState_App("");
   const [selectedDate, setSelectedDate] = useState_App(null);
+  // Nightly Supply / Watch lines, keyed by date. Written by the FirstPrint step
+  // into ai-trend.json next to data2.json. Optional: a missing file is fine.
+  const [aiTrend, setAiTrend] = useState_App({});
+  useEffect_App(() => {
+    let cancelled = false;
+    fetch("./ai-trend.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => { if (!cancelled && j && j.days) setAiTrend(j.days); })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, []);
   const [view, setView] = useState_App("overview");
   const [filterState, setFilterState] = useState_App(() => window.emptyFilterState());
   // Folders live in a shared store (Playbook.jsx) so the sidebar, the Playbook
@@ -368,12 +376,30 @@ function App({ tweaks, user, profile }) {
   // ovrMergeRunner returns the runner unchanged when it has no override, so
   // this stays cheap across ~9.6k runners.
   const ovrVer = window.ovrUseVersion ? window.ovrUseVersion() : 0;
+  // Heat + Direction (heat2.js) is computed once over the whole history, because
+  // each day is ranked against the trailing year. It reads raw pipeline price and
+  // volume fields only, so manual overrides (catalyst, country, themes) never
+  // move a score.
+  const heat2 = useMemo_App(
+    () => (window.computeHeatDirection ? window.computeHeatDirection(entries) : {}),
+    [entries]);
   const scoredEntries = useMemo_App(() => entries.map((e) => {
     const r = window.computeHeat(e, thresholds);
     const runners = window.ovrMergeRunner
       ? (e.runners || []).map(window.ovrMergeRunner) : e.runners;
-    return { ...e, runners, score: r.score, state: r.state, isBlackSwan: r.isBlackSwan || false };
-  }), [entries, thresholds, ovrVer]);
+    // Days heat2 cannot rank (before its history floor, under 60 days of
+    // history, or no runner list) keep the legacy score and state.
+    const h2 = heat2[e.date];
+    const v2 = h2 && h2.heat != null ? h2 : null;
+    return {
+      ...e, runners,
+      score: v2 ? v2.heat : r.score,
+      state: v2 ? v2.zone : r.state,
+      isBlackSwan: v2 ? false : (r.isBlackSwan || false),
+      hd: v2,
+      legacyScore: r.score,
+    };
+  }), [entries, thresholds, ovrVer, heat2]);
 
   // The folder editor is reachable from places that don't hold `entries` (the
   // Add-to-Playbook popover), so publish the loaded data for its option lists.
@@ -416,8 +442,9 @@ function App({ tweaks, user, profile }) {
 
   let page, banner = null;
   if (view === "overview") {
-    banner = <div className="trend-banner"><window.AISummaryBar entries={scoredEntries} aiSummary={(latestEntry && latestEntry.aiSummary) || null} /></div>;
-    page = <window.Overview entries={scoredEntries} thresholds={thresholds} filterState={filterState} setFilterState={setFilterState} filterPredicate={filterPredicate} filterActive={filterActive} selectedDate={selectedDate} onSelectDate={setSelectedDate} />;
+    // The old paragraph banner (AISummaryBar) is replaced by the AI trend card
+    // inside the overview's right column.
+    page = <window.Overview entries={scoredEntries} aiTrend={aiTrend} thresholds={thresholds} filterState={filterState} setFilterState={setFilterState} filterPredicate={filterPredicate} filterActive={filterActive} selectedDate={selectedDate} onSelectDate={setSelectedDate} />;
   } else if (view === "calendar") {
     page = <window.CalendarView entries={scoredEntries} thresholds={thresholds} onDeleteRunner={null} focusDate={selectedDate} />;
   } else if (view === "movers") {

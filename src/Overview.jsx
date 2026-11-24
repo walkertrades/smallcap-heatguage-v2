@@ -44,7 +44,6 @@ const clampN = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
 function HeatScoreCard({ today }) {
   const score = today ? Math.round(today.score) : null;
   const state = today ? today.state : "EMPTY";
-  const conf = today ? today.confidence : 0;
   const stateColor = state === "HOT" ? "var(--hot)" : state === "COLD" ? "var(--cold)" : "var(--neutral)";
   return (
     <div className="card hero-card heat-card">
@@ -57,10 +56,158 @@ function HeatScoreCard({ today }) {
         </div>
         <div className="heat-gauge"><window.Gauge score={score} state={state} /></div>
       </div>
-      <div className="conf-row">
-        <span className="conf-label">Confidence</span>
-        <ConfBar pct={conf} />
-        <span className="conf-val">{Math.round(conf)}%</span>
+    </div>
+  );
+}
+
+// ── Hero: Heat + Direction + market state + playbook, one card ─────
+// Heat is the level (today ranked against the trailing year). Direction is
+// which way it is leaning. Cooling steps the playbook down one level; Heating
+// and the green light are display only. All numbers come from heat2.js.
+const HD_COLOR = { cooling: "var(--cold)", heating: "oklch(0.74 0.19 48)", green: "var(--neutral)", steady: "var(--text-dim)" };
+const hdNum = (v, d = 1) => (v == null || Number.isNaN(v) ? "—" : Number(v).toFixed(d));
+const hdPct = (v) => (v == null || Number.isNaN(v) ? "—" : `${Math.round(v * 100)}%`);
+
+function HdRow({ on, color, label, value }) {
+  return (
+    <div className="hd-row">
+      <span className={`hd-dot ${on ? "on" : ""}`} style={on ? { background: color } : null} />
+      <span className="hd-row-label">{label}</span>
+      <span className="hd-row-val">{value}</span>
+    </div>
+  );
+}
+function HdStat({ label, value }) {
+  return (
+    <div className="hd-row hd-stat">
+      <span className="hd-row-label">{label}</span>
+      <span className="hd-row-val">{value}</span>
+    </div>
+  );
+}
+
+function hdDirectionCopy(hd) {
+  const t = hd.tells;
+  if (hd.cooling) {
+    const drop = t.prior5 ? Math.round((1 - t.last5 / t.prior5) * 100) : null;
+    return { label: "COOLING", key: "cooling", arrow: "down",
+      sub: drop != null ? `${drop}% fewer names than the prior 5 days` : "Fewer names running each day",
+      note: "PLAYBOOK STEPPED DOWN ONE LEVEL" };
+  }
+  if (hd.heating) {
+    return { label: "HEATING", key: "heating", arrow: "up", sub: "Be ready", note: "DISPLAY ONLY · PLAYBOOK UNCHANGED" };
+  }
+  return { label: "STEADY", key: "steady", arrow: "flat", sub: "No signal", note: hd.greenLight ? "GREEN LIGHT IS ON" : "NO COOLING OR HEATING SIGNAL" };
+}
+const HD_ARROWS = {
+  down: "M10 14 L34 38 M34 20 L34 38 L16 38",
+  up: "M10 34 L34 10 M16 10 L34 10 L34 28",
+  flat: "M8 24 L40 24 M30 14 L40 24 L30 34",
+};
+
+function HeatDirectionCard({ today }) {
+  const score = today ? Math.round(today.score) : null;
+  const state = today ? today.state : "EMPTY";
+  const hd = today ? today.hd : null;
+  const stateColor = state === "HOT" ? "var(--hot)" : state === "COLD" ? "var(--cold)" : "var(--neutral)";
+  // Cooling steps the playbook down one level. Nothing steps it up.
+  const pbState = hd ? window.playbookStateFor(hd.zone, hd.cooling) : state;
+  const rules = window.RULES[pbState] || window.RULES.NEUTRAL;
+  const pbColor = pbState === "HOT" ? "var(--hot)" : pbState === "COLD" ? "var(--cold)" : "var(--neutral)";
+  const dir = hd ? hdDirectionCopy(hd) : null;
+  const dirColor = dir ? HD_COLOR[dir.key] : "var(--text-dim)";
+  const t = hd ? hd.tells : null;
+  const inp = hd ? hd.inputs : null;
+  const gappersHolding = t ? !Number.isNaN(t.gapRed5) && t.gapRed5 < window.HEAT2.GAP_RED_MAX : false;
+  let rec = window.marketRec(pbState);
+  if (hd && hd.cooling) rec = `Cooling: fewer names are running each day, so the playbook is one level down. ${rec}`;
+  else if (hd && hd.heating) rec = `${rec} Be ready: gappers are holding and the count has turned up.`;
+  else if (hd && hd.greenLight) rec = `${rec} Green light: gappers are holding.`;
+
+  return (
+    <div className="card hero-card hd-card">
+      <div className="hd-top">
+        <div className="hd-col">
+          <div className="card-label">MARKET HEAT</div>
+          <div className="heat-row">
+            <div className="heat-num-block">
+              <div className="heat-num" style={{ color: stateColor }}>{score == null ? "—" : score}</div>
+              <div className="heat-state" style={{ color: stateColor }}>{state === "EMPTY" ? "NO DATA" : state}</div>
+              <div className="heat-scale">{hd ? "VS TRAILING YEAR" : "0 – 100 SCALE · LEGACY SCORE"}</div>
+            </div>
+            <div className="heat-gauge"><window.Gauge score={score} state={state} /></div>
+          </div>
+          {inp && (
+            <div className="hd-inputs">
+              <div><span>Names over 100%</span><b>{inp.names100}</b></div>
+              <div><span>Gappers over 50%</span><b>{inp.gappers50}</b></div>
+              <div><span>Average HOD, counted names</span><b>{Math.round(inp.avgHod)}%</b></div>
+              <div><span>Closed up 50%+</span><b>{inp.closedUp50}</b></div>
+            </div>
+          )}
+          {inp && inp.cut > 0 && (
+            <div className="hd-foot">{inp.cut} of the top {inp.counted + inp.cut} not counted (under $20M traded)</div>
+          )}
+        </div>
+
+        <div className="hd-col">
+          <div className="card-label">DIRECTION</div>
+          {hd ? (
+            <>
+              <div className="hd-dir-head">
+                <svg className="hd-arrow" viewBox="0 0 48 48" aria-hidden="true">
+                  <path d={HD_ARROWS[dir.arrow]} fill="none" stroke={dirColor} strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+                <div>
+                  <div className="hd-dir-label" style={{ color: dirColor }}>{dir.label}</div>
+                  <div className="hd-dir-sub">{dir.sub}</div>
+                  <div className="hd-dir-note">{dir.note}</div>
+                </div>
+              </div>
+              <div className="hd-rows">
+                <div className="hd-group">COOLING SIGNAL</div>
+                <HdRow on={hd.cooling} color={HD_COLOR.cooling}
+                  label="Names over 100% per day, last 5 vs prior 5 (trips 20% lower)"
+                  value={`${hdNum(t.last5)} vs ${hdNum(t.prior5)}`} />
+                <div className="hd-group">HEATING SIGNAL · BOTH NEEDED</div>
+                <HdRow on={gappersHolding} color={HD_COLOR.heating}
+                  label="Gappers closing red, 5-day (needs under 60%)" value={hdPct(t.gapRed5)} />
+                <HdRow on={t.last2 > t.last5} color={HD_COLOR.heating}
+                  label="Names over 100%, last 2 days vs 5-day average"
+                  value={`${hdNum(t.last2)} vs ${hdNum(t.last5)}`} />
+                <div className="hd-group">GREEN LIGHT · ONLY WHEN HOT</div>
+                <HdRow on={hd.greenLight} color={HD_COLOR.green}
+                  label="Heat is hot and gappers are holding" value={hd.greenLight ? "On" : "Off"} />
+                <div className="hd-group">STATS · NOT SCORED</div>
+                <HdStat label="Move kept by 100%+ names, 5-day" value={hdPct(t.kept5)} />
+                <HdStat label="Top-3 runner size vs prior 2 weeks" value={hdPct(t.leadRatio)} />
+              </div>
+            </>
+          ) : (
+            <div className="hd-dir-none">
+              Direction is not available for this day. It needs the day's runner list and 60 trading days of history after {window.HEAT2.HISTORY_START}.
+            </div>
+          )}
+        </div>
+      </div>
+
+      <div className="hd-bottom">
+        <div className="hd-col">
+          <div className="card-label">MARKET STATE</div>
+          <div className="hd-state-big">
+            <span style={{ color: stateColor }}>{state === "EMPTY" ? "NO DATA" : state}</span>
+            {dir && <><span className="hd-sep"> · </span><span style={{ color: dirColor }}>{dir.label}</span></>}
+          </div>
+          <p className="state-panel-rec">{rec}</p>
+        </div>
+        <div className="hd-col">
+          <div className="card-label">TODAY'S PLAYBOOK · {rules.label}</div>
+          <ul className="playbook hd-playbook">
+            {rules.bullets.slice(0, 4).map((b, i) => (
+              <li key={i}><span className="playbook-dot" style={{ background: pbColor }} />{b}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
@@ -151,6 +298,67 @@ function WhatsDrivingCard({ series, entries, anchorDate, predicate }) {
   );
 }
 
+// ── AI trend card: Tape / Supply / Watch ───────────────────────────
+// TAPE is built here from the day's own numbers (no AI call, cannot drift).
+// SUPPLY and WATCH come from ai-trend.json, written nightly from FirstPrint.
+function hdMoney(v) {
+  if (v == null || Number.isNaN(v)) return "—";
+  return v >= 1e9 ? `$${(v / 1e9).toFixed(1)}B` : `$${Math.round(v / 1e6)}M`;
+}
+function hdTapeLine(entry, hd) {
+  const inp = hd.inputs;
+  const parts = [];
+  let first = `${inp.names100} of ${inp.counted} counted names ran over 100%`;
+  if (inp.names100Prev != null) {
+    first += inp.names100 > inp.names100Prev ? `, up from ${inp.names100Prev} the day before`
+      : inp.names100 < inp.names100Prev ? `, down from ${inp.names100Prev} the day before`
+      : ", same as the day before";
+  }
+  parts.push(first + ".");
+  parts.push(`${inp.aboveVwap} closed above VWAP.`);
+  const floor = window.HEAT2.DV_FLOOR;
+  const tags = {};
+  for (const r of (entry.runners || [])) {
+    if (window.heat2DollarVol(r) < floor || !r.tag) continue;
+    tags[r.tag] = (tags[r.tag] || 0) + 1;
+  }
+  const top = Object.entries(tags).sort((x, y) => y[1] - x[1])[0];
+  if (top && top[1] >= 3) {
+    parts.push(top[0] === "NO-NEWS" ? `${top[1]} ran on no news.` : `${top[1]} carry the ${String(top[0]).toLowerCase()} tag.`);
+  }
+  let dv = `Dollar volume ${hdMoney(inp.dollarVol)}`;
+  if (inp.dollarVolPrior5 && !Number.isNaN(inp.dollarVolPrior5)) {
+    const d = Math.round((inp.dollarVol / inp.dollarVolPrior5 - 1) * 100);
+    dv += d === 0 ? ", in line with the 5-day average" : `, ${Math.abs(d)}% ${d > 0 ? "above" : "below"} the 5-day average`;
+  }
+  parts.push(dv + ".");
+  return parts.join(" ");
+}
+
+function AiTrendCard({ today, entry, trend }) {
+  const hd = today ? today.hd : null;
+  return (
+    <div className="card ait-card">
+      <div className="card-label">AI TREND</div>
+      {hd && entry ? (
+        <div className="ait-rows">
+          <div className="ait-row"><span className="ait-k">TAPE</span><span>{hdTapeLine(entry, hd)}</span></div>
+          {trend && trend.supply && <div className="ait-row"><span className="ait-k">SUPPLY</span><span>{trend.supply}</span></div>}
+          {trend && trend.watch && <div className="ait-row"><span className="ait-k">WATCH</span><span>{trend.watch}</span></div>}
+          {!(trend && (trend.supply || trend.watch)) && (
+            <div className="ait-none">Supply and Watch are written nightly from FirstPrint filings data. None on file for this day.</div>
+          )}
+          {trend && trend.source && (
+            <div className="ait-src">{trend.source}{trend.asOf ? ` · as of ${trend.asOf}` : ""} · a reading of SEC filings that can be wrong</div>
+          )}
+        </div>
+      ) : (
+        <div className="ait-none">Not available for this day.</div>
+      )}
+    </div>
+  );
+}
+
 // ── 5-day rolling strip (replaces the KPI cards) ───────────────────
 function RollingStrip({ series, activeDate, onSelectDay }) {
   const last5 = series.slice(-5);
@@ -178,6 +386,14 @@ function RollingStrip({ series, activeDate, onSelectDay }) {
               {delta >= 0 ? "+" : ""}{Math.round(delta)} vs 5D avg
             </div>
             <div className={`roll-state roll-text-${st}`}>{d.state}</div>
+            {d.hd && (
+              <div className="roll-dir">
+                {d.hd.cooling && <span className="hd-text-cooling">↘ Cooling</span>}
+                {d.hd.heating && <span className="hd-text-heating">↗ Heating</span>}
+                {d.hd.greenLight && <span className="hd-text-green">● Green light</span>}
+                {!d.hd.cooling && !d.hd.heating && !d.hd.greenLight && <span className="hd-text-steady">→ Steady</span>}
+              </div>
+            )}
             <div className="roll-stats">
               <span>HOD <b>+{Math.round(d.avgHod)}%</b></span>
               <span>FADE <b>{Math.round(d.avgFade)}%</b></span>
@@ -683,7 +899,7 @@ function HistoricalContext({ series }) {
 }
 
 // ── Page ───────────────────────────────────────────────────────────
-function Overview({ entries, thresholds, filterState, setFilterState, filterPredicate, filterActive, selectedDate, onSelectDate }) {
+function Overview({ entries, aiTrend, thresholds, filterState, setFilterState, filterPredicate, filterActive, selectedDate, onSelectDate }) {
   const series = useMemo_Ov(() => window.buildDailySeries(entries), [entries]);
   const today = useMemo_Ov(() => {
     if (selectedDate) { const hit = entries.find((e) => e.date === selectedDate); if (hit) return series.find((s) => s.date === selectedDate); }
@@ -694,8 +910,6 @@ function Overview({ entries, thresholds, filterState, setFilterState, filterPred
     return d ? entries.find((e) => e.date === d) : (entries.length ? [...entries].sort((a, b) => (a.date < b.date ? 1 : -1))[0] : null);
   }, [entries, today]);
 
-  const state = today ? today.state : "EMPTY";
-  const rules = window.RULES[state] || window.RULES.NEUTRAL;
   const predicate = filterActive ? filterPredicate : null;
   // Shared between the HOD Time Distribution chart and Top Movers: {start, end}
   // in minutes-from-midnight ET, or null when no bar is selected.
@@ -720,10 +934,12 @@ function Overview({ entries, thresholds, filterState, setFilterState, filterPred
 
   return (
     <div className="overview">
-      <section className="hero-grid">
-        <HeatScoreCard today={today} />
-        <MarketStateCard state={state} rules={rules} />
-        <WhatsDrivingCard series={series} entries={entries} anchorDate={today ? today.date : null} predicate={predicate} />
+      <section className="hero-grid hero-grid-hd">
+        <HeatDirectionCard today={today} />
+        <div className="hero-side">
+          <AiTrendCard today={today} entry={todayEntry} trend={today && aiTrend ? aiTrend[today.date] : null} />
+          <WhatsDrivingCard series={series} entries={entries} anchorDate={today ? today.date : null} predicate={predicate} />
+        </div>
       </section>
 
       <RollingStrip series={series} activeDate={today ? today.date : null} onSelectDay={onSelectDate} />
@@ -750,4 +966,4 @@ function Overview({ entries, thresholds, filterState, setFilterState, filterPred
   );
 }
 
-Object.assign(window, { Overview, TopMovers, HeatScoreCard, MarketStateCard, WhatsDrivingCard, RollingStrip });
+Object.assign(window, { Overview, TopMovers, HeatScoreCard, HeatDirectionCard, AiTrendCard, MarketStateCard, WhatsDrivingCard, RollingStrip });

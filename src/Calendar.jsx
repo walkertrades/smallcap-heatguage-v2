@@ -6,6 +6,46 @@ const { useState: useState_Cal, useMemo: useMemo_Cal } = React;
 const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const DOW_LABELS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 
+// Theme layer for the day tiles. Only the names that ran 100%+ (and traded
+// enough to count toward Heat) are looked at.
+//   - One value on MORE than half of those names shows alone ("China").
+//   - No majority, but two values that each hold at least a third and together
+//     cover 80%+, show as a pair ("US / China"). A 3-and-3 day is the case.
+//     Pairs need at least 4 names (with 2 names a "pair" is just each stock).
+//   - Anything more scattered shows nothing for that theme.
+const CAL_LAYERS = [
+  { key: "country",    label: "Country",  of: (r) => r.country },
+  { key: "floatTier",  label: "Float",    of: (r) => r.floatTier },
+  { key: "priceRange", label: "Price",    of: (r) => window.priceBucketOf(r.open) },
+];
+const CAL_COUNTRY_NAMES = {
+  US: "US", CN: "China", HK: "Hong Kong", SG: "Singapore", IL: "Israel", CA: "Canada",
+  JP: "Japan", MY: "Malaysia", GB: "UK", TW: "Taiwan", AU: "Australia",
+};
+function calThemeName(key, v) {
+  if (key === "country") return CAL_COUNTRY_NAMES[v] || v;
+  return v;
+}
+function calDayTheme(entry, layer) {
+  const floor = window.HEAT2 ? window.HEAT2.DV_FLOOR : 0;
+  const big = (entry.runners || []).filter((r) =>
+    (r.hodExact != null ? Number(r.hodExact) : Number(r.hod)) >= 100
+    && (!window.heat2DollarVol || window.heat2DollarVol(r) >= floor));
+  const n = big.length;
+  if (n < 2) return null;
+  const counts = {};
+  for (const r of big) { const v = layer.of(r); if (v) counts[v] = (counts[v] || 0) + 1; }
+  const ranked = Object.entries(counts).sort((x, y) => y[1] - x[1]);
+  if (!ranked.length) return null;
+  const [v1, c1] = ranked[0];
+  if (c1 / n > 0.5) return calThemeName(layer.key, v1);
+  if (ranked.length > 1 && n >= 4) {
+    const [v2, c2] = ranked[1];
+    if (c2 / n >= 1 / 3 && (c1 + c2) / n >= 0.8) return `${calThemeName(layer.key, v1)} / ${calThemeName(layer.key, v2)}`;
+  }
+  return null;
+}
+
 // Aggregate a week's trading days into a themes summary.
 function buildWeekSummary(days) {
   const counts = { HOT: 0, NEUTRAL: 0, COLD: 0 };
@@ -115,6 +155,12 @@ function CalendarView({ entries, thresholds, onDeleteRunner, focusDate }) {
     setSelectedDate(focusDate);
   }, [focusDate]);
   const [selectedWeek, setSelectedWeek] = useState_Cal(null); // { weekIdx, summary, days }
+  // Theme layer: which dominant-theme lines show on each day tile. Any mix of
+  // the three can be on at once.
+  const [layers, setLayers] = useState_Cal({ country: false, floatTier: false, priceRange: false });
+  const toggleLayer = (k) => setLayers((p) => ({ ...p, [k]: !p[k] }));
+  const allLayersOn = layers.country && layers.floatTier && layers.priceRange;
+  const setAllLayers = (on) => setLayers({ country: on, floatTier: on, priceRange: on });
 
   const byDate = useMemo_Cal(() => {
     const m = new Map();
@@ -188,6 +234,15 @@ function CalendarView({ entries, thresholds, onDeleteRunner, focusDate }) {
         <span className="cal-legend-item"><span className="cal-swatch swatch-cold" />cold</span>
         <span className="cal-legend-item"><span className="cal-swatch swatch-neutral" />neutral</span>
         <span className="cal-legend-item"><span className="cal-swatch swatch-hot" />hot</span>
+        <span className="cal-layers">
+          <span className="cal-layers-label">Themes</span>
+          {CAL_LAYERS.map((l) => (
+            <button key={l.key} type="button" className={`cal-layer-btn ${layers[l.key] ? "on" : ""}`}
+              aria-pressed={layers[l.key]} onClick={() => toggleLayer(l.key)}>{l.label}</button>
+          ))}
+          <button type="button" className={`cal-layer-btn ${allLayersOn ? "on" : ""}`}
+            aria-pressed={allLayersOn} onClick={() => setAllLayers(!allLayersOn)}>All</button>
+        </span>
         {monthEntries.length > 0 && (
           <span className="cal-legend-stats">
             {counts.HOT}h · {counts.NEUTRAL}n · {counts.COLD}c
@@ -196,7 +251,7 @@ function CalendarView({ entries, thresholds, onDeleteRunner, focusDate }) {
       </div>
 
       <div className="cal-grid-head">
-        {DOW_LABELS.map((d) => (
+        {DOW_LABELS.slice(1, 6).map((d) => (
           <span key={d} className="cal-dow">{d}</span>
         ))}
       </div>
@@ -205,90 +260,29 @@ function CalendarView({ entries, thresholds, onDeleteRunner, focusDate }) {
         {cells.map((c, i) => {
           const dowIdx = i % 7;
           const weekIdx = Math.floor(i / 7);
-          const summary = dowIdx === 6 ? weekSummaries[weekIdx] : null;
-
-          // Saturday with a week summary — render the summary card instead of blank
-          if (dowIdx === 6 && summary) {
-            const isSelected = selectedWeek && selectedWeek.weekIdx === weekIdx;
-            return (
-              <div
-                key={i}
-                className={`cal-cell cal-summary heat-${summary.heat.split(" ")[0].toLowerCase()} ${isSelected ? "is-selected" : ""}`}
-                onClick={() => {
-                  setSelectedDate(null);
-                  setSelectedWeek(isSelected ? null : { weekIdx, summary, days: weekDays[weekIdx] });
-                }}
-                role="button"
-                tabIndex={0}
-              >
-                <div className="cal-sum-head">
-                  <span className="cal-sum-heat">{summary.heat}</span>
-                  <span className="cal-sum-days">{summary.days}d</span>
-                </div>
-                <div className="cal-sum-stats">
-                  <span className="cal-sum-stat">
-                    <span className="cal-sum-val">+{summary.avgHod}%</span>
-                    <span className="cal-sum-lbl">avg HOD</span>
-                  </span>
-                  <span className="cal-sum-stat">
-                    <span className="cal-sum-val">{summary.avgFade}%</span>
-                    <span className="cal-sum-lbl">avg fade</span>
-                  </span>
-                  <span className="cal-sum-stat">
-                    <span className="cal-sum-val">{Math.round(summary.pmFrac * 100)}%</span>
-                    <span className="cal-sum-lbl">PM share</span>
-                  </span>
-                </div>
-                <div className="cal-sum-themes">
-                  {summary.sectors.length > 0 && (
-                    <div className="cal-sum-line">
-                      <span className="cal-sum-tag">sectors</span>
-                      <span>{summary.sectors.map((s) => s.key).join(", ")}</span>
-                    </div>
-                  )}
-                  {summary.countries.length > 0 && (
-                    <div className="cal-sum-line">
-                      <span className="cal-sum-tag">country</span>
-                      <span>{summary.countries.map((c) => c.key).join(", ")}</span>
-                    </div>
-                  )}
-                  {summary.priceLo != null && (
-                    <div className="cal-sum-line">
-                      <span className="cal-sum-tag">price</span>
-                      <span>${summary.priceLo.toFixed(2)}–${summary.priceHi.toFixed(2)}</span>
-                    </div>
-                  )}
-                  {summary.floatLo != null && (
-                    <div className="cal-sum-line">
-                      <span className="cal-sum-tag">float</span>
-                      <span>{summary.floatLo.toFixed(1)}M–{summary.floatHi.toFixed(1)}M</span>
-                    </div>
-                  )}
-                  {summary.newsTheme && summary.newsTheme.length > 0 && (
-                    <div className="cal-sum-line">
-                      <span className="cal-sum-tag">news</span>
-                      <span>{summary.newsTheme.map((n) => n.key).join(" · ")}</span>
-                    </div>
-                  )}
-                  {summary.topRunner && (
-                    <div className="cal-sum-line cal-sum-top">
-                      <span className="cal-sum-tag">top</span>
-                      <span><strong>{summary.topRunner.sym}</strong> +{summary.topRunner.hod}%</span>
-                    </div>
-                  )}
-                </div>
-              </div>
-            );
-          }
+          // The grid is Mon-Fri only. The week summary column was removed 2026-11-24.
+          if (dowIdx === 0 || dowIdx === 6) return null;
+          // A week with no weekday in this month (e.g. the 1st is a Saturday)
+          // gets no row at all.
+          const wk = cells.slice(weekIdx * 7 + 1, weekIdx * 7 + 6);
+          if (!wk.some(Boolean)) return null;
 
           if (!c) return <div key={i} className="cal-cell cal-empty" />;
           const e = c.entry;
           const isSelected = c.iso === selectedDate;
-          const top = e ? [...(e.runners || [])].sort((a, b) => b.hod - a.hod).slice(0, 3) : [];
+          // Tile layout follows the approved monthly mockups: plain dark tile,
+          // Heat number coloured by zone, Direction as text lines, then the
+          // optional theme line. Only a Cooling day tints the tile.
+          const hd = e ? e.hd : null;
+          const zone = e ? e.state.toLowerCase() : "";
+          const sig = !hd ? "legacy" : hd.cooling ? "cooling" : hd.heating ? "heating" : hd.greenLight ? "green" : "steady";
+          const dayThemes = e
+            ? CAL_LAYERS.filter((l) => layers[l.key]).map((l) => calDayTheme(e, l)).filter(Boolean)
+            : [];
           return (
             <div
               key={i}
-              className={`cal-cell ${e ? `cal-filled cal-${e.state.toLowerCase()}` : "cal-blank"} ${isSelected ? "is-selected" : ""}`}
+              className={`cal-cell ${e ? `cal-filled cal2 cal2-${sig}` : "cal-blank"} ${isSelected ? "is-selected" : ""}`}
               onClick={() => {
                 if (!e) return;
                 setSelectedWeek(null);
@@ -299,19 +293,23 @@ function CalendarView({ entries, thresholds, onDeleteRunner, focusDate }) {
             >
               <div className="cal-cell-head">
                 <span className="cal-day">{c.day}</span>
-                {e && <span className="cal-score">{e.score}</span>}
+                {hd && <span className="cal2-count">{hd.inputs.names100} over 100%</span>}
               </div>
               {e ? (
                 <>
-                  <div className={`cal-state state-text-${e.state.toLowerCase()}`}>{e.state}</div>
-                  <ul className="cal-runners">
-                    {top.map((r) => (
-                      <li key={r.sym}>
-                        <span className="cal-run-sym">{r.sym}</span>
-                        <span className="cal-run-hod">+{r.hod}%</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="cal2-heat">
+                    <span className={`cal2-num state-text-${zone}`}>{e.score}</span>
+                    <span className={`cal2-zone state-text-${zone}`}>{e.state}</span>
+                  </div>
+                  {hd && (
+                    <div className="cal-dir">
+                      {hd.cooling && <span className="hd-text-cooling">↘ Cooling</span>}
+                      {hd.heating && <span className="hd-text-heating">↗ Heating</span>}
+                      {hd.greenLight && <span className="hd-text-green">● Green light</span>}
+                      {sig === "steady" && <span className="hd-text-steady">→ Steady</span>}
+                    </div>
+                  )}
+                  {dayThemes.length > 0 && <div className="cal2-themes">{dayThemes.join(" · ")}</div>}
                 </>
               ) : (
                 <div className="cal-placeholder">—</div>
@@ -358,10 +356,9 @@ function WeekDetail({ summary, days, onClose, onJumpToDay }) {
   };
   const weekRange = first && last ? `${fmt(first.date)} – ${fmt(last.date)}` : "";
 
-  // Week heat maps to a state tone for header coloring
-  const heatKey = summary.heat.split(" ")[0].toLowerCase(); // hot|cold|warm|cooling|mixed
-  const stateMap = { hot: "hot", cold: "cold", warm: "neutral", cooling: "cold", mixed: "neutral" };
-  const stateLower = stateMap[heatKey] || "neutral";
+  // The weekly heat label (HOT WEEK / COOLING / ...) was removed 2026-11-24: it
+  // clashed with the Direction signal. The header is neutral now.
+  const stateLower = "neutral";
 
   // Factor-style grid (3 factors — one per underlying signal)
   const factors = [];
@@ -406,8 +403,6 @@ function WeekDetail({ summary, days, onClose, onJumpToDay }) {
         <div className="detail-header-left">
           <div className="label muted">WEEK · {weekRange}</div>
           <div className="detail-title-row">
-            <span className={`detail-state state-text-${stateLower}`}>{summary.heat}</span>
-            <span className="detail-divider">·</span>
             <span className="detail-score">{summary.counts.HOT}H · {summary.counts.NEUTRAL}N · {summary.counts.COLD}C</span>
             <span className="detail-theme">{summary.days} day{summary.days !== 1 ? "s" : ""}</span>
           </div>

@@ -10,7 +10,7 @@
 <link rel="icon" href="src/favicon-32.png?v=46" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="src/apple-touch-icon.png?v=46">
 <link rel="stylesheet" href="src/styles.css?v=30">
-<link rel="stylesheet" href="src/dashboard.css?v=46">
+<link rel="stylesheet" href="src/dashboard.css?v=54">
 <link rel="stylesheet" href="src/auth.css?v=46">
 </head>
 <body>
@@ -27,6 +27,7 @@
 <!-- Landing background effect. Standalone vanilla JS + Canvas 2D; exposes
      window.GridScan.mount(canvasOrCanvases). No framework, no build step. -->
 <script src="src/gridscan.js?v=30"></script>
+<script src="src/heat2.js?v=3"></script>
 
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
@@ -37,7 +38,7 @@
 
 <script type="text/babel" src="src/scoring.jsx?v=51" data-plugins="transform-react-jsx-source" data-filename="src/scoring.jsx"></script>
 <script type="text/babel" src="src/v2schema.jsx?v=39" data-plugins="transform-react-jsx-source" data-filename="src/v2schema.jsx"></script>
-<script type="text/babel" src="src/metrics.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/metrics.jsx"></script>
+<script type="text/babel" src="src/metrics.jsx?v=32" data-plugins="transform-react-jsx-source" data-filename="src/metrics.jsx"></script>
 <script type="text/babel" src="src/chartprefs.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/chartprefs.jsx"></script>
 <!-- Shared manual-override layer (window.ovr*). Firestore-backed; replaced the
      per-browser localStorage tag/behavior edits. Attaches its own auth listener,
@@ -59,15 +60,15 @@
 <script type="text/babel" src="src/grades.jsx?v=35" data-plugins="transform-react-jsx-source" data-filename="src/grades.jsx"></script>
 <script type="text/babel" src="src/Gauge.jsx?v=51" data-plugins="transform-react-jsx-source" data-filename="src/Gauge.jsx"></script>
 <script type="text/babel" src="src/Strip.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Strip.jsx"></script>
-<script type="text/babel" src="src/DayDetail.jsx?v=49" data-plugins="transform-react-jsx-source" data-filename="src/DayDetail.jsx"></script>
-<script type="text/babel" src="src/Calendar.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Calendar.jsx"></script>
+<script type="text/babel" src="src/DayDetail.jsx?v=51" data-plugins="transform-react-jsx-source" data-filename="src/DayDetail.jsx"></script>
+<script type="text/babel" src="src/Calendar.jsx?v=40" data-plugins="transform-react-jsx-source" data-filename="src/Calendar.jsx"></script>
 <script type="text/babel" src="src/EntryForm.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/EntryForm.jsx"></script>
 <script type="text/babel" src="src/Import.jsx?v=30" data-plugins="transform-react-jsx-source" data-filename="src/Import.jsx"></script>
 <script type="text/babel" src="src/Insights.jsx?v=38" data-plugins="transform-react-jsx-source" data-filename="src/Insights.jsx"></script>
-<script type="text/babel" src="src/Overview.jsx?v=51" data-plugins="transform-react-jsx-source" data-filename="src/Overview.jsx"></script>
+<script type="text/babel" src="src/Overview.jsx?v=53" data-plugins="transform-react-jsx-source" data-filename="src/Overview.jsx"></script>
 <script type="text/babel" src="src/Settings.jsx?v=42" data-plugins="transform-react-jsx-source" data-filename="src/Settings.jsx"></script>
 <script type="text/babel" src="src/Playbook.jsx?v=46" data-plugins="transform-react-jsx-source" data-filename="src/Playbook.jsx"></script>
-<script type="text/babel" src="src/App.jsx?v=49" data-plugins="transform-react-jsx-source" data-filename="src/App.jsx"></script>
+<script type="text/babel" src="src/App.jsx?v=51" data-plugins="transform-react-jsx-source" data-filename="src/App.jsx"></script>
 <script type="text/babel" src="src/Tweaks.jsx?v=50" data-plugins="transform-react-jsx-source" data-filename="src/Tweaks.jsx"></script>
 
 <script type="text/babel" data-plugins="transform-react-jsx-source" data-filename="inline-root">

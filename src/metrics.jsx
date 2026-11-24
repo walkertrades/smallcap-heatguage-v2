@@ -65,6 +65,8 @@ function buildDailySeries(scoredEntries) {
       score: e.score != null ? e.score : 0,
       state: e.state || "NEUTRAL",
       confidence: confidenceScore(m),
+      // Heat + Direction detail (heat2.js). null on days still on the legacy score.
+      hd: e.hd || null,
       ...m,
     };
   });
@@ -172,13 +174,21 @@ function avgScoreWindow(series, anchorDate, n) {
 }
 
 // Price buckets used by the "dominant themes" readout.
+// Price ranges by the open. Changed 2026-11-24 from three wide ranges
+// (Under $1 / $1-$10 / $10+) to six. The Playbook folder criteria keep their
+// own PB_PRICE_RANGES, so saved folders are unaffected.
 const PRICE_BUCKETS = [
-  { key: "Under $1", test: (o) => o != null && o < 1 },
-  { key: "$1–$10",   test: (o) => o != null && o >= 1 && o < 10 },
-  { key: "$10+",     test: (o) => o != null && o >= 10 },
+  { key: "Pennies", test: (o) => o > 0 && o < 1 },
+  { key: "$1–$3",   test: (o) => o >= 1 && o < 3 },
+  { key: "$3–$5",   test: (o) => o >= 3 && o < 5 },
+  { key: "$5–$10",  test: (o) => o >= 5 && o < 10 },
+  { key: "$10–$20", test: (o) => o >= 10 && o < 20 },
+  { key: "$20+",    test: (o) => o >= 20 },
 ];
 function priceBucketOf(open) {
-  const b = PRICE_BUCKETS.find((x) => x.test(Number(open)));
+  const o = Number(open);
+  if (open == null || !Number.isFinite(o)) return null;
+  const b = PRICE_BUCKETS.find((x) => x.test(o));
   return b ? b.key : null;
 }
 
